@@ -23,7 +23,7 @@ const badges = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground border-t border-border">
+    <footer className="bg-secondary text-foreground border-t border-border">
       {/* Service Areas Map */}
       <Link to="/service-areas" className="block group">
         <div className="relative overflow-hidden">
@@ -33,7 +33,7 @@ const Footer = () => {
             className="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/30 transition-colors flex items-center justify-center">
+          <div className="absolute inset-0 bg-foreground/40 group-hover:bg-foreground/30 transition-colors flex items-center justify-center">
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-black text-white mb-2">
                 Our Service Areas
@@ -47,14 +47,14 @@ const Footer = () => {
       </Link>
 
       {/* Trust badges */}
-      <div className="container mx-auto px-4 py-8 border-b border-primary-foreground/20">
+      <div className="container mx-auto px-4 py-8 border-b border-border">
         <div className="flex flex-wrap items-center justify-center gap-8">
           {badges.map((badge) => (
             <img
               key={badge.alt}
               src={badge.src}
               alt={badge.alt}
-              className="h-12 md:h-16 object-contain rounded bg-primary-foreground/90 p-1"
+              className="h-12 md:h-16 object-contain rounded p-1"
               loading="lazy"
             />
           ))}
@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-10 pt-6 text-center text-sm opacity-50">
+        <div className="border-t border-border mt-10 pt-6 text-center text-sm opacity-50">
           © {new Date().getFullYear()} Arclight Painting. All rights reserved.
         </div>
       </div>
