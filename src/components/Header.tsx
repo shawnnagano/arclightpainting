@@ -76,7 +76,7 @@ const Header = () => {
         </nav>
 
         {/* CTA */}
-        <a href="https://arclightpainting.com/schedule/">
+        <a href="/schedule">
           <Button className="hidden lg:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6">
             Get A Fast Quote
           </Button>
