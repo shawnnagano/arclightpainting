@@ -75,15 +75,11 @@ const Reviews = () => {
                   className="bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="flex items-center gap-3 mb-4">
-                    {review.profilePhoto ? (
-                      <img src={review.profilePhoto} alt={review.name} className="w-10 h-10 rounded-full object-cover" referrerPolicy="no-referrer" />
-                    ) : (
                       <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                         <span className="text-accent font-bold text-sm">
                           {review.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
                         </span>
                       </div>
-                    )}
                     <div>
                       <p className="font-semibold text-sm">{review.name}</p>
                       <p className="text-xs text-muted-foreground">{review.date}</p>
@@ -99,7 +95,6 @@ const Reviews = () => {
                 </div>
               ))}
             </div>
-          )}
         </div>
       </section>
 
