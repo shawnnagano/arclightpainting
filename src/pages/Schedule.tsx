@@ -20,8 +20,7 @@ const Schedule = () => {
           <div className="max-w-4xl mx-auto">
             <iframe
               src="https://link.arclightpainting.com/widget/booking/DbWlnGU0qizPxoW7pKkA"
-              style={{ width: "100%", height: "1750px", border: "none", overflow: "hidden", background: "transparent" }}
-              scrolling="no"
+              style={{ width: "100%", height: "2200px", border: "none", background: "transparent" }}
               title="Schedule a booking with Arclight Painting"
             />
           </div>
