@@ -1,22 +1,8 @@
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Phone } from "lucide-react";
 
 const Schedule = () => {
-  useEffect(() => {
-    // Load GHL form embed script
-    const script = document.createElement("script");
-    script.src = "https://link.arclightpainting.com/js/form_embed.js";
-    script.type = "text/javascript";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <div className="min-h-screen bg-background">
       <Header />
