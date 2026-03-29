@@ -55,12 +55,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-accent">Services</h4>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="https://arclightpainting.com/services-new/" className="hover:text-accent transition-colors">Interior Painting</a></li>
-              <li><a href="https://arclightpainting.com/services-new/" className="hover:text-accent transition-colors">Exterior Painting</a></li>
-              <li><a href="https://arclightpainting.com/services-new/" className="hover:text-accent transition-colors">Cabinet Refinishing</a></li>
-              <li><a href="https://arclightpainting.com/services-new/" className="hover:text-accent transition-colors">Drywall Repair</a></li>
-              <li><a href="https://arclightpainting.com/services-new/" className="hover:text-accent transition-colors">Pressure Washing</a></li>
-              <li><a href="https://arclightpainting.com/commercial-painting-new/" className="hover:text-accent transition-colors">Commercial Painting</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Interior Painting</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Exterior Painting</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Cabinet Refinishing</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Drywall Repair</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Pressure Washing</a></li>
+              <li><a href="/services" className="hover:text-accent transition-colors">Commercial Painting</a></li>
             </ul>
           </div>
 

@@ -91,7 +91,7 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center mt-10">
-          <a href="https://arclightpainting.com/services-new/">
+          <a href="/services">
             <Button variant="outline" className="font-semibold">
               Explore Our Services
             </Button>
