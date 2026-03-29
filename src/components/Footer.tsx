@@ -119,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-10 pt-6 text-center text-sm opacity-50">
+        <div className="border-t border-border mt-10 pt-6 text-center text-sm opacity-50">
           © {new Date().getFullYear()} Arclight Painting. All rights reserved.
         </div>
       </div>
