@@ -5,24 +5,21 @@ import { Star } from "lucide-react";
 
 const reviews = [
   {
-    name: "Scott Miller",
-    time: "8 months ago",
-    text: "Sandor Kovacs was committed to doing a great job. He had an attention to detail in every aspect of the job from prep to clean up. We are very pleased with the outcome and will definitely ask for him again.",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocICARCuCoBAIevdKj-GNOV2Efc3cdwhYKNJMitwbXrq0iwN8w=w40-h40-c-rp-mo-br100",
+    name: "Ajili Hodari",
+    time: "1 day ago",
+    text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!",
     stars: 5,
   },
   {
-    name: "M S",
-    time: "8 months ago",
-    text: "Jennifer came out right away and was very thorough. Ricardo and his painting team were excellent and took care in making the outside of our home look like new. We highly recommend Arclight for your painting needs.",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocJVgW4VgDdxX9lQmLaarTgEnQ5NwZEcltWrLeTx7zjycHlx-A=w40-h40-c-rp-mo-br100",
+    name: "Abby Cooper",
+    time: "1 month ago",
+    text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job.",
     stars: 5,
   },
   {
-    name: "Leslie W",
-    time: "8 months ago",
-    text: "We hired Arclight to paint the exterior of our house. Not only did they do a fantastic job but the people were so kind and considerate; really a pleasure to work with. Communication was excellent for the duration of the work.",
-    avatar: "https://lh3.googleusercontent.com/a/ACg8ocK7Bt8I53IbYMgHr7SG5CBQgwFU81fY1q2KGj0X24BWoHxd8Q=w40-h40-c-rp-mo-br100",
+    name: "Mckinsley Reynolds III",
+    time: "2 months ago",
+    text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family.",
     stars: 5,
   },
 ];
@@ -76,12 +73,11 @@ const HeroSection = () => {
                 className="bg-white/90 backdrop-blur-sm rounded-lg p-4 border border-border/50 shadow-sm"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <img
-                    src={review.avatar}
-                    alt={review.name}
-                    className="w-8 h-8 rounded-full"
-                    loading="lazy"
-                  />
+                  <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                    <span className="text-accent font-bold text-xs">
+                      {review.name.split(" ").map(n => n[0]).join("").slice(0, 2)}
+                    </span>
+                  </div>
                   <div className="flex-1">
                     <p className="font-semibold text-sm text-foreground">{review.name}</p>
                     <p className="text-xs text-muted-foreground">{review.time}</p>
@@ -119,7 +115,7 @@ const HeroSection = () => {
                   <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm text-muted-foreground">152 reviews</span>
+              <span className="text-sm text-muted-foreground">269 reviews</span>
             </div>
           </motion.div>
         </div>
