@@ -17,7 +17,6 @@ const navItems = [
   },
   { label: "PRICING", href: "/pricing" },
   { label: "REVIEWS", href: "/reviews" },
-  { label: "SCHEDULE", href: "/schedule" },
 ];
 
 const Header = () => {
