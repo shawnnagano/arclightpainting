@@ -63,7 +63,7 @@ const ValuesSection = () => {
               </div>
               <h3 className="text-xl font-black mb-1 text-accent">{v.title}</h3>
               <p className="text-lg font-semibold mb-3">{v.subtitle}</p>
-              <p className="text-sm opacity-80 mb-5 leading-relaxed">{v.description}</p>
+              <p className="text-sm text-muted-foreground mb-5 leading-relaxed">{v.description}</p>
               <ul className="space-y-2">
                 {v.points.map((point) => (
                   <li key={point} className="flex gap-3 text-sm opacity-90">
