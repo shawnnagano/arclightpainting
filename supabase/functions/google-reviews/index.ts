@@ -3,9 +3,6 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type, x-supabase-client-platform, x-supabase-client-platform-version, x-supabase-client-runtime, x-supabase-client-runtime-version',
 };
 
-// Arclight Painting CID from Google Maps URL
-const PLACE_SEARCH_QUERY = "Arclight Painting Bothell WA";
-
 Deno.serve(async (req) => {
   if (req.method === 'OPTIONS') {
     return new Response(null, { headers: corsHeaders });
@@ -20,30 +17,50 @@ Deno.serve(async (req) => {
       );
     }
 
-    // Step 1: Find the place ID using text search
-    const searchUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent(PLACE_SEARCH_QUERY)}&inputtype=textquery&fields=place_id&key=${apiKey}`;
-    
-    const searchRes = await fetch(searchUrl);
-    const searchData = await searchRes.json();
+    // Try multiple search approaches to find the place
+    let placeId: string | null = null;
 
-    if (!searchData.candidates || searchData.candidates.length === 0) {
+    // Approach 1: Text Search API (more reliable)
+    const textSearchUrl = `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent("Arclight Painting 10026 Main St Bothell WA")}&key=${apiKey}`;
+    console.log("Trying text search...");
+    const textSearchRes = await fetch(textSearchUrl);
+    const textSearchData = await textSearchRes.json();
+    console.log("Text search response status:", textSearchData.status, "results:", textSearchData.results?.length);
+
+    if (textSearchData.status === 'OK' && textSearchData.results?.length > 0) {
+      placeId = textSearchData.results[0].place_id;
+      console.log("Found place_id via text search:", placeId);
+    }
+
+    // Approach 2: Find Place if text search failed
+    if (!placeId) {
+      const findUrl = `https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${encodeURIComponent("Arclight Painting")}&inputtype=textquery&locationbias=point:47.7076689,-122.1880865&fields=place_id,name&key=${apiKey}`;
+      console.log("Trying find place...");
+      const findRes = await fetch(findUrl);
+      const findData = await findRes.json();
+      console.log("Find place response:", JSON.stringify(findData));
+
+      if (findData.candidates?.length > 0) {
+        placeId = findData.candidates[0].place_id;
+      }
+    }
+
+    if (!placeId) {
       return new Response(
-        JSON.stringify({ success: false, error: 'Place not found' }),
+        JSON.stringify({ success: false, error: 'Place not found. Make sure Places API is enabled in your Google Cloud Console.' }),
         { status: 404, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
       );
     }
 
-    const placeId = searchData.candidates[0].place_id;
-
-    // Step 2: Get place details with reviews
+    // Get place details with reviews
     const detailsUrl = `https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=name,rating,user_ratings_total,reviews&reviews_sort=newest&key=${apiKey}`;
-    
     const detailsRes = await fetch(detailsUrl);
     const detailsData = await detailsRes.json();
+    console.log("Details response status:", detailsData.status);
 
     if (detailsData.status !== 'OK') {
       return new Response(
-        JSON.stringify({ success: false, error: `Google API error: ${detailsData.status}` }),
+        JSON.stringify({ success: false, error: `Google API error: ${detailsData.status}. Make sure Places API is enabled.` }),
         { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
       );
     }
