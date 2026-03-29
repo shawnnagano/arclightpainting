@@ -17,7 +17,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <ServicesSection />
+      <ServicesSection hideHeader />
       <CTASection />
       <Footer />
     </div>

@@ -48,16 +48,20 @@ const services = [
   },
 ];
 
-const ServicesSection = () => {
+const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
   return (
     <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
-          Our Services
-        </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
-          From residential homes to commercial spaces, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
-        </p>
+        {!hideHeader && (
+          <>
+            <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
+              Our Services
+            </h2>
+            <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+              From residential homes to commercial spaces, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
+            </p>
+          </>
+        )}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, i) => (
