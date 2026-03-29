@@ -91,7 +91,7 @@ const HeroSection = () => {
                   />
                   <div>
                     <p className="font-semibold text-sm">{review.name}</p>
-                    <p className="text-xs opacity-60">{review.time}</p>
+                    <p className="text-xs text-muted-foreground">{review.time}</p>
                   </div>
                   <img
                     src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
