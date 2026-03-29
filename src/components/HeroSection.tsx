@@ -110,7 +110,7 @@ const HeroSection = () => {
               </div>
             ))}
 
-            <div className="text-center text-sm opacity-70 pt-2">
+            <div className="text-center text-sm text-muted-foreground pt-2">
               <span className="font-bold">Google</span> rating score:{" "}
               <span className="font-bold">4.9</span> of 5, based on{" "}
               <span className="font-bold">152 reviews</span>
