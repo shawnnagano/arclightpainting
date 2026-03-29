@@ -116,7 +116,7 @@ const HeroSection = () => {
                   <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <span className="text-sm text-muted-foreground">152 reviews</span>
+              <span className="text-sm text-muted-foreground">269 reviews</span>
             </div>
           </motion.div>
         </div>
