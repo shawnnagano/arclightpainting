@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import serviceAreasMap from "@/assets/service-areas-map.png";
 
 const badges = [
   {
@@ -23,6 +24,28 @@ const badges = [
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground border-t border-border">
+      {/* Service Areas Map */}
+      <Link to="/service-areas" className="block group">
+        <div className="relative overflow-hidden">
+          <img
+            src={serviceAreasMap}
+            alt="Arclight Painting Service Areas Map"
+            className="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-primary/40 group-hover:bg-primary/30 transition-colors flex items-center justify-center">
+            <div className="text-center">
+              <h3 className="text-2xl md:text-3xl font-black text-white mb-2">
+                Our Service Areas
+              </h3>
+              <p className="text-white/80 text-sm md:text-base">
+                Serving Bothell, Kirkland, Redmond, Bellevue & more →
+              </p>
+            </div>
+          </div>
+        </div>
+      </Link>
+
       {/* Trust badges */}
       <div className="container mx-auto px-4 py-8 border-b border-primary-foreground/20">
         <div className="flex flex-wrap items-center justify-center gap-8">
@@ -56,12 +79,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-accent">Services</h4>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><Link to="/services" className="hover:text-accent transition-colors">Interior Painting</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Exterior Painting</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Cabinet Refinishing</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Drywall Repair</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Pressure Washing</Link></li>
-              <li><Link to="/services" className="hover:text-accent transition-colors">Commercial Painting</Link></li>
+              <li><Link to="/services/interior-painting" className="hover:text-accent transition-colors">Interior Painting</Link></li>
+              <li><Link to="/services/exterior-painting" className="hover:text-accent transition-colors">Exterior Painting</Link></li>
+              <li><Link to="/services/cabinet-refinishing" className="hover:text-accent transition-colors">Cabinet Refinishing</Link></li>
+              <li><Link to="/services/drywall-repair" className="hover:text-accent transition-colors">Drywall Repair</Link></li>
+              <li><Link to="/services/pressure-washing" className="hover:text-accent transition-colors">Pressure Washing</Link></li>
+              <li><Link to="/services/commercial-painting" className="hover:text-accent transition-colors">Commercial Painting</Link></li>
             </ul>
           </div>
 
@@ -71,6 +94,7 @@ const Footer = () => {
             <ul className="space-y-2 text-sm opacity-70">
               <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
               <li><Link to="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
+              <li><Link to="/service-areas" className="hover:text-accent transition-colors">Service Areas</Link></li>
               <li><Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link></li>
             </ul>
           </div>
