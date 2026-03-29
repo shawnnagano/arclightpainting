@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import TopBar from "@/components/TopBar";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -23,7 +23,6 @@ const Schedule = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TopBar />
       <Header />
 
       <section className="bg-primary py-16 min-h-[80vh] flex items-center">

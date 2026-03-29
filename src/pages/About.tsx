@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import TopBar from "@/components/TopBar";
+
 import { Star } from "lucide-react";
 
 const teamMembers = [
@@ -62,7 +62,6 @@ const teamLeaders = [
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
-      <TopBar />
       <Header />
 
       {/* Hero */}
