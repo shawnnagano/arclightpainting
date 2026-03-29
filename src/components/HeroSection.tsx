@@ -73,12 +73,11 @@ const HeroSection = () => {
                 className="bg-white/90 backdrop-blur-sm rounded-lg p-4 border border-border/50 shadow-sm"
               >
                 <div className="flex items-center gap-3 mb-2">
-                  <img
-                    src={review.avatar}
-                    alt={review.name}
-                    className="w-8 h-8 rounded-full"
-                    loading="lazy"
-                  />
+                  <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
+                    <span className="text-accent font-bold text-xs">
+                      {review.name.split(" ").map(n => n[0]).join("").slice(0, 2)}
+                    </span>
+                  </div>
                   <div className="flex-1">
                     <p className="font-semibold text-sm text-foreground">{review.name}</p>
                     <p className="text-xs text-muted-foreground">{review.time}</p>
