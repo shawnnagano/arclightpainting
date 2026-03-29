@@ -6,26 +6,28 @@ const navItems = [
   { label: "HOME", href: "/" },
   {
     label: "SERVICES",
-    href: "#services",
+    href: "/#services",
     children: [
-      { label: "Interior Painting", href: "https://arclightpainting.com/services-new/" },
-      { label: "Exterior Painting", href: "https://arclightpainting.com/services-new/" },
-      { label: "Cabinet Refinishing", href: "https://arclightpainting.com/services-new/" },
-      { label: "Drywall Repair", href: "https://arclightpainting.com/services-new/" },
-      { label: "Pressure Washing", href: "https://arclightpainting.com/services-new/" },
-      { label: "Commercial Painting", href: "https://arclightpainting.com/commercial-painting-new/" },
+      { label: "Interior Painting", href: "/#services" },
+      { label: "Exterior Painting", href: "/#services" },
+      { label: "Cabinet Refinishing", href: "/#services" },
+      { label: "Drywall Repair", href: "/#services" },
+      { label: "Pressure Washing", href: "/#services" },
+      { label: "Commercial Painting", href: "/#services" },
     ],
   },
   {
     label: "ABOUT",
-    href: "#about",
+    href: "/about",
     children: [
-      { label: "Our Story", href: "#about" },
-      { label: "Our Team", href: "#about" },
-      { label: "Our Values", href: "#about" },
+      { label: "Our Story", href: "/about" },
+      { label: "Our Team", href: "/about" },
+      { label: "Our Values", href: "/about" },
     ],
   },
-  { label: "PRICING", href: "#pricing" },
+  { label: "PRICING", href: "/pricing" },
+  { label: "REVIEWS", href: "/reviews" },
+  { label: "SCHEDULE", href: "/schedule" },
 ];
 
 const Header = () => {
@@ -74,7 +76,7 @@ const Header = () => {
         </nav>
 
         {/* CTA */}
-        <a href="https://arclightpainting.com/schedule/">
+        <a href="/schedule">
           <Button className="hidden lg:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6">
             Get A Fast Quote
           </Button>
