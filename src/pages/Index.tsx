@@ -1,4 +1,3 @@
-import TopBar from "@/components/TopBar";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
