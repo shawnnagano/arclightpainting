@@ -4,32 +4,42 @@ import { Users, Heart, Award } from "lucide-react";
 const values = [
   {
     icon: Users,
-    title: "Real People",
+    title: "REAL PEOPLE",
+    subtitle: "People Who Care Deeply",
+    description:
+      "We're a veteran-owned, values-driven team who hire for heart and train for skill. Our people bring genuine care and craftsmanship into every project.",
     points: [
-      "Locally owned and operated in Bothell, WA",
-      "Our painters are W-2 employees — not subcontractors",
-      "Background-checked, insured, and trained professionals",
-      "We treat your home like our own",
+      "Over 25 years of Service",
+      "Empowered Leaders",
+      "Trusted Professionals",
     ],
   },
   {
     icon: Heart,
-    title: "Real Purpose",
+    title: "REAL PURPOSE",
+    subtitle: "Serving People Above Profits",
+    description:
+      "Arclight exists to serve. We designed every promise, guarantee, and process around our Core Values because we care about you like a friend. It's about your peace of mind — not our bottom line.",
     points: [
-      "We donate a portion of every project to local charities",
-      "Committed to building lasting community relationships",
-      "Mentorship and career growth for our team members",
-      "Painting with purpose — beyond just a paycheck",
+      "Painting with Purpose",
+      "FreshStart™ Touch-Up Plan",
+      "100% Satisfaction Guarantee",
     ],
   },
   {
     icon: Award,
-    title: "Exceptional Results",
+    title: "EXCEPTIONAL RESULTS",
+    subtitle: "No shortcuts. No surprises.",
+    description:
+      "Our Above & Beyond Blueprint™ delivers clarity, communication, and craftsmanship. That's the Arclight difference!",
     points: [
-      "Premium paints and materials on every job",
-      "Meticulous prep work for a flawless finish",
-      "Detailed walkthrough and final inspection",
-      "100% satisfaction guarantee on all projects",
+      "TrueQuote™ Pricing",
+      "PowerFlex™ Scheduling",
+      "Color Confidence™ Program",
+      "Top-Rated Paints",
+      "JobTrack™ Project Management",
+      "PCA™ Standards Inspection",
+      "CompanyCam™ Timeline",
     ],
   },
 ];
@@ -38,15 +48,6 @@ const ValuesSection = () => {
   return (
     <section id="about" className="py-20 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
-          Real People. Real Purpose.{" "}
-          <span className="text-accent">Exceptional Results.</span>
-        </h2>
-        <p className="text-center opacity-80 mb-16 max-w-2xl mx-auto">
-          At Arclight Painting, we're more than just painters — we're your neighbors,
-          committed to excellence in every brushstroke.
-        </p>
-
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (
             <motion.div
@@ -55,16 +56,18 @@ const ValuesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="text-center"
+              className="bg-primary-foreground/5 rounded-xl p-8 border border-primary-foreground/10"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-accent/20 mb-6">
-                <v.icon className="h-8 w-8 text-accent" />
+              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent/20 mb-5">
+                <v.icon className="h-7 w-7 text-accent" />
               </div>
-              <h3 className="text-2xl font-bold mb-4">{v.title}</h3>
-              <ul className="space-y-3 text-left">
+              <h3 className="text-xl font-black mb-1 text-accent">{v.title}</h3>
+              <p className="text-lg font-semibold mb-3">{v.subtitle}</p>
+              <p className="text-sm opacity-80 mb-5 leading-relaxed">{v.description}</p>
+              <ul className="space-y-2">
                 {v.points.map((point) => (
                   <li key={point} className="flex gap-3 text-sm opacity-90">
-                    <span className="text-accent mt-1 shrink-0">✓</span>
+                    <span className="text-accent mt-0.5 shrink-0">✓</span>
                     {point}
                   </li>
                 ))}
