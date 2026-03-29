@@ -107,12 +107,21 @@ const Header = () => {
             ))}
           </nav>
 
-          {/* CTA - floating style */}
-          <Link to="/schedule" className="hidden lg:block shrink-0">
-            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6 py-5 text-sm rounded-md shadow-lg">
-              Get A Fast Quote →
-            </Button>
-          </Link>
+          {/* CTA + Phone */}
+          <div className="hidden lg:flex items-center gap-3 shrink-0">
+            <a
+              href="tel:14257571199"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-3 shadow-lg transition-transform hover:scale-110"
+              aria-label="Call Arclight Painting"
+            >
+              <Phone className="h-5 w-5" />
+            </a>
+            <Link to="/schedule">
+              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6 py-5 text-sm rounded-md shadow-lg">
+                Get A Fast Quote →
+              </Button>
+            </Link>
+          </div>
 
           {/* Mobile toggle */}
           <button
