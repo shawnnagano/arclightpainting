@@ -9,12 +9,12 @@ const navItems = [
     label: "SERVICES",
     href: "/services",
     children: [
-      { label: "Interior Painting", href: "/services" },
-      { label: "Exterior Painting", href: "/services" },
-      { label: "Cabinet Refinishing", href: "/services" },
-      { label: "Drywall Repair", href: "/services" },
-      { label: "Pressure Washing", href: "/services" },
-      { label: "Commercial Painting", href: "/services" },
+      { label: "Interior Painting", href: "/services/interior-painting" },
+      { label: "Exterior Painting", href: "/services/exterior-painting" },
+      { label: "Cabinet Refinishing", href: "/services/cabinet-refinishing" },
+      { label: "Drywall Repair", href: "/services/drywall-repair" },
+      { label: "Pressure Washing", href: "/services/pressure-washing" },
+      { label: "Commercial Painting", href: "/services/commercial-painting" },
     ],
   },
   {
