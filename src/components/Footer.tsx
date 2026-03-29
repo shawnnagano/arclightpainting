@@ -23,7 +23,7 @@ const badges = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground border-t border-border">
+    <footer className="bg-secondary text-foreground border-t border-border">
       {/* Service Areas Map */}
       <Link to="/service-areas" className="block group">
         <div className="relative overflow-hidden">
