@@ -60,14 +60,14 @@ const HeroSection = () => {
               <span className="text-accent">Results.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="https://arclightpainting.com/schedule/">
+              <Link to="/schedule">
                 <Button
                   size="lg"
                   className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6"
                 >
                   Get A Fast Quote
                 </Button>
-              </a>
+              </Link>
             </div>
           </motion.div>
 

@@ -8,14 +8,14 @@ const CTASection = () => {
         <h2 className="text-3xl md:text-5xl font-black mb-8">
           Get The Highest Quality House Painting in Bothell
         </h2>
-        <a href="https://arclightpainting.com/schedule/">
+        <Link to="/schedule">
           <Button
             size="lg"
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-10 py-6"
           >
             Get A Fast Quote
           </Button>
-        </a>
+        </Link>
       </div>
     </section>
   );
