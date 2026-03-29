@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -112,11 +113,11 @@ const TestimonialsSection = () => {
 
         {/* Read All Reviews */}
         <div className="text-center mt-8">
-          <a href="https://arclightpainting.com/reviews/">
+          <Link to="/reviews">
             <Button variant="outline" className="font-semibold">
               Read All Reviews
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

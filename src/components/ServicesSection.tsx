@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -60,13 +61,15 @@ const ServicesSection = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, i) => (
-            <motion.a
+            <motion.div
               key={service.title}
-              href={service.link}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
+            >
+            <Link
+              to={service.link}
               className="group rounded-xl overflow-hidden border border-border bg-card hover:shadow-xl transition-shadow block"
             >
               <div className="h-48 overflow-hidden">
@@ -86,16 +89,17 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
               </div>
-            </motion.a>
+            </Link>
+            </motion.div>
           ))}
         </div>
 
         <div className="text-center mt-10">
-          <a href="/services">
+          <Link to="/services">
             <Button variant="outline" className="font-semibold">
               Explore Our Services
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

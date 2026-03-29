@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const badges = [
@@ -55,12 +56,12 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-accent">Services</h4>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="/services" className="hover:text-accent transition-colors">Interior Painting</a></li>
-              <li><a href="/services" className="hover:text-accent transition-colors">Exterior Painting</a></li>
-              <li><a href="/services" className="hover:text-accent transition-colors">Cabinet Refinishing</a></li>
-              <li><a href="/services" className="hover:text-accent transition-colors">Drywall Repair</a></li>
-              <li><a href="/services" className="hover:text-accent transition-colors">Pressure Washing</a></li>
-              <li><a href="/services" className="hover:text-accent transition-colors">Commercial Painting</a></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Interior Painting</Link></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Exterior Painting</Link></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Cabinet Refinishing</Link></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Drywall Repair</Link></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Pressure Washing</Link></li>
+              <li><Link to="/services" className="hover:text-accent transition-colors">Commercial Painting</Link></li>
             </ul>
           </div>
 
@@ -68,9 +69,9 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-accent">Company</h4>
             <ul className="space-y-2 text-sm opacity-70">
-              <li><a href="#about" className="hover:text-accent transition-colors">About Us</a></li>
-              <li><a href="#review" className="hover:text-accent transition-colors">Reviews</a></li>
-              <li><a href="https://arclightpainting.com/schedule/" className="hover:text-accent transition-colors">Get A Quote</a></li>
+              <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
+              <li><Link to="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
+              <li><Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link></li>
             </ul>
           </div>
 
