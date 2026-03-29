@@ -8,18 +8,29 @@ import { motion } from "framer-motion";
 
 const ServiceAreas = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <Header />
-      <div className="py-12 bg-background">
-        <div className="container mx-auto px-4 text-center">
+
+      {/* Hero with background image */}
+      <section className="relative min-h-[350px] overflow-hidden flex items-center">
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+        <div className="container mx-auto px-4 relative z-10 py-16">
           <h1 className="text-4xl md:text-5xl font-black mb-4">
             Areas We <span className="text-accent">Serve</span>
           </h1>
-          <p className="text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-muted-foreground max-w-2xl">
             Arclight Painting proudly serves homeowners and businesses across the greater Eastside and Snohomish County. Find your community below.
           </p>
         </div>
-      </div>
+      </section>
 
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">

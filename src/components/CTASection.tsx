@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
   return (
-    <section className="py-20 bg-primary text-primary-foreground relative overflow-hidden">
-      <div className="container mx-auto px-4 text-center relative z-10">
+    <section className="py-20 bg-secondary">
+      <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8">
           Get The Highest Quality House Painting in Bothell
         </h2>
@@ -16,16 +16,6 @@ const CTASection = () => {
             Get A Fast Quote →
           </Button>
         </Link>
-      </div>
-
-      {/* Van graphic */}
-      <div className="flex justify-center mt-12">
-        <img
-          src="https://arclightpainting.com/wp-content/uploads/2025/09/van-body-1.png"
-          alt="Arclight Painting van"
-          className="max-w-md w-full opacity-90"
-          loading="lazy"
-        />
       </div>
     </section>
   );

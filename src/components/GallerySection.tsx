@@ -29,7 +29,7 @@ const images = [
 
 const GallerySection = () => {
   return (
-    <section className="py-20 bg-secondary">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
           Results That Speak <span className="text-accent">For Themselves</span>
