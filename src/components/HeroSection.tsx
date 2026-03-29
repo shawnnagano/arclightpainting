@@ -115,14 +115,12 @@ const HeroSection = () => {
                   <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
                 ))}
               </div>
-              <a
-                href="https://www.google.com/maps/place/Arclight+Painting/@47.7601446,-122.2053856,17z/data=!4m8!3m7!1s0x549012e2e1e0e8c7:0x3f2e5e8e8e8e8e8e!8m2!3d47.7601446!4d-122.2053856!9m1!1b1!16s%2Fg%2F11c1p0r0r0"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/reviews"
                 className="text-sm text-accent font-semibold hover:underline"
               >
-                Read All Reviews on Google →
-              </a>
+                Read All Reviews →
+              </Link>
               <span className="text-sm text-muted-foreground">269 reviews</span>
             </div>
           </motion.div>
