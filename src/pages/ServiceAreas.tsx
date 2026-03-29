@@ -5,6 +5,9 @@ import { serviceAreas } from "@/data/serviceAreas";
 import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import serviceAreasMap from "@/assets/service-areas-map.png";
+import { MapPin } from "lucide-react";
+import { motion } from "framer-motion";
 
 const ServiceAreas = () => {
   return (
