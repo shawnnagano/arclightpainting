@@ -21,7 +21,7 @@ const badges = [
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-primary-foreground border-t border-border/10">
+    <footer className="bg-primary text-primary-foreground border-t border-border">
       {/* Trust badges */}
       <div className="container mx-auto px-4 py-8 border-b border-primary-foreground/10">
         <div className="flex flex-wrap items-center justify-center gap-8">
