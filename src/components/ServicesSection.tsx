@@ -15,7 +15,7 @@ const services = [
     description: "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA.",
     icon: Home,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Cabinet Refinishing",
