@@ -1,12 +1,30 @@
 import { motion } from "framer-motion";
 
 const images = [
-  "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80",
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
-  "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600&q=80",
-  "https://images.unsplash.com/photo-1600573472591-ee6981cf35b6?w=600&q=80",
-  "https://images.unsplash.com/photo-1598928506311-c55ez637a58c?w=600&q=80",
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80",
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg",
+    alt: "Bright kitchen with white cabinets and granite countertops",
+  },
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    alt: "Classic white clapboard house with black shutters",
+  },
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    alt: "Modern two-story home with white siding and black trim",
+  },
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    alt: "Light blue two-story house with brick chimney",
+  },
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg",
+    alt: "Multi-story log cabin home with green trim",
+  },
+  {
+    src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg",
+    alt: "Two-story home with sage green siding",
+  },
 ];
 
 const GallerySection = () => {
@@ -14,7 +32,7 @@ const GallerySection = () => {
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
-          Our <span className="text-accent">Work</span>
+          Results That Speak <span className="text-accent">For Themselves</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
           Browse some of our recent painting projects across Bothell and the greater
@@ -32,8 +50,8 @@ const GallerySection = () => {
               className="aspect-[4/3] rounded-lg overflow-hidden"
             >
               <img
-                src={img}
-                alt={`Painting project ${i + 1}`}
+                src={img.src}
+                alt={img.alt}
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 loading="lazy"
               />

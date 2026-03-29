@@ -8,18 +8,22 @@ const navItems = [
     label: "SERVICES",
     href: "#services",
     children: [
-      "Interior Painting",
-      "Exterior Painting",
-      "Cabinet Refinishing",
-      "Drywall Repair",
-      "Pressure Washing",
-      "Commercial Painting",
+      { label: "Interior Painting", href: "https://arclightpainting.com/services-new/" },
+      { label: "Exterior Painting", href: "https://arclightpainting.com/services-new/" },
+      { label: "Cabinet Refinishing", href: "https://arclightpainting.com/services-new/" },
+      { label: "Drywall Repair", href: "https://arclightpainting.com/services-new/" },
+      { label: "Pressure Washing", href: "https://arclightpainting.com/services-new/" },
+      { label: "Commercial Painting", href: "https://arclightpainting.com/commercial-painting-new/" },
     ],
   },
   {
     label: "ABOUT",
     href: "#about",
-    children: ["Our Story", "Our Team", "Our Values"],
+    children: [
+      { label: "Our Story", href: "#about" },
+      { label: "Our Team", href: "#about" },
+      { label: "Our Values", href: "#about" },
+    ],
   },
   { label: "PRICING", href: "#pricing" },
 ];
@@ -31,13 +35,12 @@ const Header = () => {
     <header className="bg-primary text-primary-foreground sticky top-0 z-50">
       <div className="container mx-auto px-4 flex items-center justify-between h-20">
         {/* Logo */}
-        <a href="/" className="flex items-center gap-2">
-          <div className="flex flex-col leading-tight">
-            <span className="text-2xl font-black tracking-widest">ARCLIGHT</span>
-            <span className="text-xs tracking-[0.35em] text-accent font-semibold -mt-1">
-              PAINTING
-            </span>
-          </div>
+        <a href="/" className="flex items-center">
+          <img
+            src="https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png"
+            alt="Arclight Painting"
+            className="h-12 md:h-14"
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -56,11 +59,11 @@ const Header = () => {
                   <div className="bg-primary border border-border/20 rounded-md shadow-xl py-2 min-w-[200px]">
                     {item.children.map((child) => (
                       <a
-                        key={child}
-                        href="#"
+                        key={child.label}
+                        href={child.href}
                         className="block px-4 py-2 text-sm hover:bg-accent/20 hover:text-accent transition-colors"
                       >
-                        {child}
+                        {child.label}
                       </a>
                     ))}
                   </div>
@@ -71,9 +74,11 @@ const Header = () => {
         </nav>
 
         {/* CTA */}
-        <Button className="hidden lg:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6">
-          Get A Fast Quote
-        </Button>
+        <a href="https://arclightpainting.com/schedule/">
+          <Button className="hidden lg:inline-flex bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6">
+            Get A Fast Quote
+          </Button>
+        </a>
 
         {/* Mobile toggle */}
         <button
@@ -99,9 +104,11 @@ const Header = () => {
             </a>
           ))}
           <div className="px-6 pt-2">
-            <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-              Get A Fast Quote
-            </Button>
+            <a href="https://arclightpainting.com/schedule/">
+              <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
+                Get A Fast Quote
+              </Button>
+            </a>
           </div>
         </div>
       )}

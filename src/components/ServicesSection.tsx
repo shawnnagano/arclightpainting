@@ -1,48 +1,49 @@
 import { motion } from "framer-motion";
 import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2 } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const services = [
   {
     title: "Interior Painting",
-    description:
-      "Transform your living spaces with expert interior painting. We handle walls, ceilings, trim, and accent walls with precision.",
+    description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
     icon: Paintbrush,
-    image: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
+    link: "https://arclightpainting.com/services-new/",
   },
   {
     title: "Exterior Painting",
-    description:
-      "Boost your curb appeal and protect your home from the elements with our professional exterior painting services.",
+    description: "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA.",
     icon: Home,
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
+    link: "https://arclightpainting.com/services-new/",
   },
   {
     title: "Cabinet Refinishing",
-    description:
-      "Give your kitchen a fresh new look without the cost of a full remodel. Our cabinet refinishing delivers stunning results.",
+    description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
     icon: PanelTop,
-    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg",
+    link: "https://arclightpainting.com/services-new/",
   },
   {
     title: "Drywall Repair",
-    description:
-      "From small holes to large patches, we'll restore your walls to a smooth, paint-ready finish before applying fresh color.",
+    description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
     icon: Hammer,
-    image: "https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg",
+    link: "https://arclightpainting.com/services-new/",
   },
   {
     title: "Pressure Washing",
-    description:
-      "Remove years of dirt, grime, and mildew from your home's exterior surfaces. The perfect prep for a new paint job.",
+    description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
     icon: Droplets,
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg",
+    link: "https://arclightpainting.com/services-new/",
   },
   {
     title: "Commercial Painting",
-    description:
-      "Professional painting solutions for offices, retail spaces, and commercial properties. Minimal disruption, maximum impact.",
+    description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
     icon: Building2,
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&q=80",
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
+    link: "https://arclightpainting.com/commercial-painting-new/",
   },
 ];
 
@@ -51,22 +52,22 @@ const ServicesSection = () => {
     <section id="services" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
-          Our <span className="text-accent">Services</span>
+          Our Services
         </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          From interior walls to commercial properties, we deliver exceptional results on
-          every project.
+        <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+          From residential homes to commercial spaces, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, i) => (
-            <motion.div
+            <motion.a
               key={service.title}
+              href={service.link}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="group rounded-xl overflow-hidden border border-border bg-card hover:shadow-xl transition-shadow"
+              className="group rounded-xl overflow-hidden border border-border bg-card hover:shadow-xl transition-shadow block"
             >
               <div className="h-48 overflow-hidden">
                 <img
@@ -85,8 +86,16 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
               </div>
-            </motion.div>
+            </motion.a>
           ))}
+        </div>
+
+        <div className="text-center mt-10">
+          <a href="https://arclightpainting.com/services-new/">
+            <Button variant="outline" className="font-semibold">
+              Explore Our Services
+            </Button>
+          </a>
         </div>
       </div>
     </section>

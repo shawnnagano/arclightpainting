@@ -8,45 +8,45 @@ import {
 const steps = [
   {
     step: "1",
-    title: "Free Consultation & Estimate",
+    title: "TrueQuote™ Pricing",
     content:
-      "We start with a free, no-obligation consultation at your home. We'll discuss your vision, assess the scope of work, and provide a detailed written estimate — typically within 24 hours.",
+      "Get a transparent, detailed quote with no hidden fees. Our TrueQuote™ system ensures you know exactly what you're paying for — no surprises, no last-minute add-ons.",
   },
   {
     step: "2",
-    title: "Color Selection Assistance",
+    title: "PowerFlex™ Scheduling",
     content:
-      "Need help picking the perfect color? Our team provides expert color consultation to ensure your palette complements your home's architecture and your personal style.",
+      "We work around your schedule, not the other way around. Our PowerFlex™ system lets you choose the timing that works best for your family and your home.",
   },
   {
     step: "3",
-    title: "Thorough Preparation",
+    title: "ColorConfidence™ Consultation",
     content:
-      "Great paint jobs start with great prep. We meticulously clean, sand, patch, caulk, and prime all surfaces before a single drop of paint is applied.",
+      "Not sure which colors to choose? Our ColorConfidence™ consultation helps you pick the perfect palette that complements your home's architecture and your personal style.",
   },
   {
     step: "4",
-    title: "Premium Materials Only",
+    title: "Top-Rated Paints",
     content:
-      "We use only top-tier paints from trusted brands like Sherwin-Williams and Benjamin Moore. Quality materials mean a longer-lasting, more beautiful finish.",
+      "We use only premium paints from trusted brands. Quality materials mean a longer-lasting, more beautiful finish that stands up to the Pacific Northwest weather.",
   },
   {
     step: "5",
-    title: "Expert Application",
+    title: "JobTrack™ Project Management",
     content:
-      "Our skilled painters apply paint with precision using the best techniques for each surface — brushing, rolling, or spraying — for a flawless result.",
+      "Stay informed every step of the way with our JobTrack™ system. You'll receive daily updates on progress, next steps, and any details you need to know.",
   },
   {
     step: "6",
-    title: "Detailed Walkthrough",
+    title: "CompanyCam™ Timeline",
     content:
-      "Once painting is complete, we walk through every room with you. If anything doesn't meet your expectations, we'll address it on the spot.",
+      "See your project unfold in real-time with CompanyCam™. We document every phase of the work so you can watch the transformation happen — even when you're not home.",
   },
   {
     step: "7",
-    title: "Final Clean-Up & Follow-Up",
+    title: "PCA™ Standards Inspection",
     content:
-      "We clean up thoroughly, remove all materials, and leave your home spotless. We'll also follow up after the project to make sure everything looks perfect.",
+      "Every project receives a final inspection against PCA (Painting Contractors Association) standards. We don't call it done until it meets the highest industry benchmarks.",
   },
 ];
 
@@ -54,12 +54,12 @@ const BlueprintSection = () => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4 max-w-3xl">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
+        <h2 className="text-3xl md:text-5xl font-black text-center mb-2">
           The Above & Beyond{" "}
           <span className="text-accent">Blueprint</span>
         </h2>
-        <p className="text-center text-muted-foreground mb-12">
-          Our proven 7-step process ensures exceptional results on every project.
+        <p className="text-center text-xl font-semibold text-muted-foreground mb-12">
+          Painting Made Simple and Stress-Free
         </p>
 
         <Accordion type="single" collapsible className="space-y-3">
