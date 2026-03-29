@@ -46,7 +46,7 @@ const values = [
 
 const ValuesSection = () => {
   return (
-    <section id="about" className="py-20 bg-primary text-primary-foreground">
+    <section id="about" className="py-20 bg-background text-foreground">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (
@@ -56,17 +56,17 @@ const ValuesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="bg-primary-foreground/5 rounded-xl p-8 border border-primary-foreground/10"
+              className="bg-secondary rounded-xl p-8 border border-border"
             >
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent/20 mb-5">
                 <v.icon className="h-7 w-7 text-accent" />
               </div>
               <h3 className="text-xl font-black mb-1 text-accent">{v.title}</h3>
               <p className="text-lg font-semibold mb-3">{v.subtitle}</p>
-              <p className="text-sm opacity-80 mb-5 leading-relaxed">{v.description}</p>
+              <p className="text-sm text-muted-foreground mb-5 leading-relaxed">{v.description}</p>
               <ul className="space-y-2">
                 {v.points.map((point) => (
-                  <li key={point} className="flex gap-3 text-sm opacity-90">
+                  <li key={point} className="flex gap-3 text-sm text-muted-foreground">
                     <span className="text-accent mt-0.5 shrink-0">✓</span>
                     {point}
                   </li>

@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
   return (
-    <section className="py-20 bg-primary text-primary-foreground">
+    <section className="py-20 bg-secondary text-foreground">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8">
           Get The Highest Quality House Painting in Bothell

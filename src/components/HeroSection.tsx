@@ -28,10 +28,10 @@ const reviews = [
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-primary text-primary-foreground overflow-hidden">
+    <section className="relative bg-background text-foreground overflow-hidden">
       {/* Background */}
       <div
-        className="absolute inset-0 opacity-15"
+        className="absolute inset-0 opacity-5"
         style={{
           backgroundImage:
             "url('https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg')",
@@ -80,7 +80,7 @@ const HeroSection = () => {
             {reviews.map((review) => (
               <div
                 key={review.name}
-                className="bg-primary-foreground/10 backdrop-blur-sm rounded-lg p-4 border border-primary-foreground/10"
+                className="bg-secondary backdrop-blur-sm rounded-lg p-4 border border-border"
               >
                 <div className="flex items-center gap-3 mb-2">
                   <img
@@ -91,7 +91,7 @@ const HeroSection = () => {
                   />
                   <div>
                     <p className="font-semibold text-sm">{review.name}</p>
-                    <p className="text-xs opacity-60">{review.time}</p>
+                    <p className="text-xs text-muted-foreground">{review.time}</p>
                   </div>
                   <img
                     src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
@@ -104,13 +104,13 @@ const HeroSection = () => {
                     <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-sm opacity-90 leading-relaxed line-clamp-3">
+                <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
                   {review.text}
                 </p>
               </div>
             ))}
 
-            <div className="text-center text-sm opacity-70 pt-2">
+            <div className="text-center text-sm text-muted-foreground pt-2">
               <span className="font-bold">Google</span> rating score:{" "}
               <span className="font-bold">4.9</span> of 5, based on{" "}
               <span className="font-bold">152 reviews</span>
