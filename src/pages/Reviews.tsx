@@ -1,50 +1,26 @@
-import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 
 type Review = {
   name: string;
   rating: number;
   text: string;
   date: string;
-  time: number;
-  profilePhoto?: string;
 };
 
-const fallbackReviews: Review[] = [
-  { name: "Ajili Hodari", date: "a week ago", time: 0, rating: 5, text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!" },
-  { name: "Dylan Martin", date: "2 weeks ago", time: 0, rating: 5, text: "Great work as usual!" },
-  { name: "Abby Cooper", date: "a month ago", time: 0, rating: 5, text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job." },
-  { name: "Mckinsley Reynolds III", date: "2 months ago", time: 0, rating: 5, text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family." },
-  { name: "Laura Johnson", date: "2 months ago", time: 0, rating: 5, text: "Vicente and his team are great! Highly recommend!" },
+const reviews: Review[] = [
+  { name: "Ajili Hodari", date: "a week ago", rating: 5, text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!" },
+  { name: "Dylan Martin", date: "2 weeks ago", rating: 5, text: "Great work as usual!" },
+  { name: "Abby Cooper", date: "a month ago", rating: 5, text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job." },
+  { name: "Mckinsley Reynolds III", date: "2 months ago", rating: 5, text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family." },
+  { name: "Laura Johnson", date: "2 months ago", rating: 5, text: "Vicente and his team are great! Highly recommend!" },
 ];
 
-const Reviews = () => {
-  const [reviews, setReviews] = useState<Review[]>(fallbackReviews);
-  const [overallRating, setOverallRating] = useState(5.0);
-  const [totalReviews, setTotalReviews] = useState(269);
-  const [loading, setLoading] = useState(true);
+const overallRating = 4.9;
+const totalReviews = 269;
 
-  useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        const { data, error } = await supabase.functions.invoke("google-reviews");
-        if (error) { console.error("Error fetching reviews:", error); return; }
-        if (data?.success && data?.data) {
-          setReviews(data.data.reviews);
-          setOverallRating(data.data.rating);
-          setTotalReviews(data.data.totalReviews);
-        }
-      } catch (err) {
-        console.error("Failed to fetch reviews:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchReviews();
-  }, []);
+const Reviews = () => {
 
   return (
     <div className="min-h-screen bg-background">
@@ -92,11 +68,6 @@ const Reviews = () => {
       {/* Reviews Grid */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          {loading ? (
-            <div className="flex justify-center py-12">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-accent"></div>
-            </div>
-          ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {reviews.map((review, i) => (
                 <div
@@ -104,15 +75,11 @@ const Reviews = () => {
                   className="bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
                 >
                   <div className="flex items-center gap-3 mb-4">
-                    {review.profilePhoto ? (
-                      <img src={review.profilePhoto} alt={review.name} className="w-10 h-10 rounded-full object-cover" referrerPolicy="no-referrer" />
-                    ) : (
                       <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
                         <span className="text-accent font-bold text-sm">
                           {review.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
                         </span>
                       </div>
-                    )}
                     <div>
                       <p className="font-semibold text-sm">{review.name}</p>
                       <p className="text-xs text-muted-foreground">{review.date}</p>
@@ -128,7 +95,6 @@ const Reviews = () => {
                 </div>
               ))}
             </div>
-          )}
         </div>
       </section>
 
