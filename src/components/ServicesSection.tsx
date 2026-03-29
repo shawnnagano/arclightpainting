@@ -8,7 +8,7 @@ const services = [
     description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
     icon: Paintbrush,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Exterior Painting",
