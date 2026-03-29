@@ -60,17 +60,6 @@ const Header = () => {
 
   return (
     <>
-      {/* Scrolling Service Ticker */}
-      <div className="bg-primary text-primary-foreground overflow-hidden whitespace-nowrap">
-        <div className="animate-ticker inline-flex py-2">
-          {tickerServices.map((s, i) => (
-            <span key={i} className="inline-flex items-center text-sm font-medium mx-6">
-              <span className="text-accent mr-2">|</span>
-              {s}
-            </span>
-          ))}
-        </div>
-      </div>
 
       {/* Main Header */}
       <header
