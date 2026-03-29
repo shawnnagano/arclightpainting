@@ -19,7 +19,7 @@ const ServiceAreas = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg')",
+            backgroundImage: `url('${serviceAreasMap}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
