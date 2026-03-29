@@ -17,10 +17,10 @@ const Schedule = () => {
             <a href="tel:14257571199" className="font-bold text-accent hover:underline">(425) 757-1199</a>
           </p>
 
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <iframe
               src="https://link.arclightpainting.com/widget/booking/DbWlnGU0qizPxoW7pKkA"
-              style={{ width: "100%", border: "none", overflow: "hidden", minHeight: "1200px", background: "transparent" }}
+              style={{ width: "100%", height: "1750px", border: "none", overflow: "hidden", background: "transparent" }}
               scrolling="no"
               title="Schedule a booking with Arclight Painting"
             />
