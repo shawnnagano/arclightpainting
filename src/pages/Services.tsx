@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
 import CTASection from "@/components/CTASection";
-import serviceAreasMap from "@/assets/service-areas-map.png";
 
 const Services = () => {
   return (
@@ -14,7 +13,7 @@ const Services = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `url('${serviceAreasMap}')`,
+            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

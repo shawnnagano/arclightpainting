@@ -5,6 +5,7 @@ import { serviceAreas } from "@/data/serviceAreas";
 import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
+import serviceAreasMap from "@/assets/service-areas-map.png";
 
 const ServiceAreas = () => {
   return (
@@ -16,7 +17,7 @@ const ServiceAreas = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg')",
+            backgroundImage: `url('${serviceAreasMap}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
