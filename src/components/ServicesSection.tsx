@@ -29,7 +29,7 @@ const services = [
     description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
     icon: Hammer,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Pressure Washing",
