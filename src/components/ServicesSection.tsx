@@ -89,7 +89,8 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
               </div>
-            </motion.a>
+            </Link>
+            </motion.div>
           ))}
         </div>
 
