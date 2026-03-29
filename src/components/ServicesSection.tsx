@@ -36,7 +36,7 @@ const services = [
     description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
     icon: Droplets,
     image: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Commercial Painting",
