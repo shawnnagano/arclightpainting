@@ -56,7 +56,7 @@ const ValuesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="bg-primary-foreground/5 rounded-xl p-8 border border-primary-foreground/10"
+              className="bg-secondary rounded-xl p-8 border border-border"
             >
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent/20 mb-5">
                 <v.icon className="h-7 w-7 text-accent" />
