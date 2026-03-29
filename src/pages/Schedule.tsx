@@ -23,7 +23,6 @@ const Schedule = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <TopBar />
       <Header />
 
       <section className="bg-primary py-16 min-h-[80vh] flex items-center">

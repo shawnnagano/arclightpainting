@@ -18,7 +18,6 @@ const blueprintSteps = [
 const Pricing = () => {
   return (
     <div className="min-h-screen bg-background">
-      <TopBar />
       <Header />
 
       {/* Hero */}
