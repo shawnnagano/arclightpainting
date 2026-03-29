@@ -28,10 +28,10 @@ const reviews = [
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-primary text-primary-foreground overflow-hidden">
+    <section className="relative bg-background text-foreground overflow-hidden">
       {/* Background */}
       <div
-        className="absolute inset-0 opacity-15"
+        className="absolute inset-0 opacity-5"
         style={{
           backgroundImage:
             "url('https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg')",
