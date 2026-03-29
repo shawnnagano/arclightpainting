@@ -5,18 +5,7 @@ import { Menu, X, ChevronDown } from "lucide-react";
 
 const navItems = [
   { label: "HOME", href: "/" },
-  {
-    label: "SERVICES",
-    href: "/services",
-    children: [
-      { label: "Interior Painting", href: "/services/interior-painting" },
-      { label: "Exterior Painting", href: "/services/exterior-painting" },
-      { label: "Cabinet Refinishing", href: "/services/cabinet-refinishing" },
-      { label: "Drywall Repair", href: "/services/drywall-repair" },
-      { label: "Pressure Washing", href: "/services/pressure-washing" },
-      { label: "Commercial Painting", href: "/services/commercial-painting" },
-    ],
-  },
+  { label: "SERVICES", href: "/services" },
   {
     label: "ABOUT",
     href: "/about",
