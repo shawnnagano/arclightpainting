@@ -22,7 +22,7 @@ const services = [
     description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
     icon: PanelTop,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Drywall Repair",
