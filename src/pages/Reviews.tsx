@@ -68,11 +68,6 @@ const Reviews = () => {
       {/* Reviews Grid */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          {loading ? (
-            <div className="flex justify-center py-12">
-              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-accent"></div>
-            </div>
-          ) : (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {reviews.map((review, i) => (
                 <div
