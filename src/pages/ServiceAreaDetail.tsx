@@ -4,7 +4,7 @@ import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
 import { serviceAreas } from "@/data/serviceAreas";
 import { Button } from "@/components/ui/button";
-import { MapPin, CheckCircle2, ArrowLeft } from "lucide-react";
+import { MapPin, CheckCircle2, ArrowLeft, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 import ServicesSection from "@/components/ServicesSection";
 
@@ -23,7 +23,7 @@ const ServiceAreaDetail = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg')",
+            backgroundImage: `url('${area.heroImage}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -49,8 +49,31 @@ const ServiceAreaDetail = () => {
         </div>
       </section>
 
-      {/* Highlights */}
+      {/* Why We Love This Area */}
       <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="max-w-4xl mx-auto"
+          >
+            <div className="flex items-center gap-3 mb-6">
+              <Heart className="h-6 w-6 text-accent" />
+              <h2 className="text-2xl md:text-3xl font-bold">
+                Why We Love Working in {area.name}
+              </h2>
+            </div>
+            <p className="text-muted-foreground text-lg leading-relaxed">
+              {area.localFlavor}
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Highlights */}
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold mb-8">
             Why {area.name} Homeowners Choose Arclight
