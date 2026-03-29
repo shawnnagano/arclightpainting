@@ -47,7 +47,7 @@ const Footer = () => {
       </Link>
 
       {/* Trust badges */}
-      <div className="container mx-auto px-4 py-8 border-b border-primary-foreground/20">
+      <div className="container mx-auto px-4 py-8 border-b border-border">
         <div className="flex flex-wrap items-center justify-center gap-8">
           {badges.map((badge) => (
             <img
