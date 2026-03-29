@@ -54,7 +54,7 @@ const Footer = () => {
               key={badge.alt}
               src={badge.src}
               alt={badge.alt}
-              className="h-12 md:h-16 object-contain rounded bg-primary-foreground/90 p-1"
+              className="h-12 md:h-16 object-contain rounded p-1"
               loading="lazy"
             />
           ))}
