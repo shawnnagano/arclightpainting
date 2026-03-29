@@ -104,7 +104,7 @@ const HeroSection = () => {
                     <Star key={i} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
                   ))}
                 </div>
-                <p className="text-sm opacity-90 leading-relaxed line-clamp-3">
+                <p className="text-sm text-muted-foreground leading-relaxed line-clamp-3">
                   {review.text}
                 </p>
               </div>
