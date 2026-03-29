@@ -17,6 +17,7 @@ const navItems = [
   },
   { label: "PRICING", href: "/pricing" },
   { label: "REVIEWS", href: "/reviews" },
+  { label: "SERVICE AREAS", href: "/service-areas" },
 ];
 
 const Header = () => {
