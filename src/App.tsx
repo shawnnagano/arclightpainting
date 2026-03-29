@@ -8,6 +8,7 @@ import About from "./pages/About.tsx";
 import Pricing from "./pages/Pricing.tsx";
 import Reviews from "./pages/Reviews.tsx";
 import Schedule from "./pages/Schedule.tsx";
+import Services from "./pages/Services.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
