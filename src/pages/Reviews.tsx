@@ -1,50 +1,26 @@
-import { useState, useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
-import { supabase } from "@/integrations/supabase/client";
 
 type Review = {
   name: string;
   rating: number;
   text: string;
   date: string;
-  time: number;
-  profilePhoto?: string;
 };
 
-const fallbackReviews: Review[] = [
-  { name: "Ajili Hodari", date: "a week ago", time: 0, rating: 5, text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!" },
-  { name: "Dylan Martin", date: "2 weeks ago", time: 0, rating: 5, text: "Great work as usual!" },
-  { name: "Abby Cooper", date: "a month ago", time: 0, rating: 5, text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job." },
-  { name: "Mckinsley Reynolds III", date: "2 months ago", time: 0, rating: 5, text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family." },
-  { name: "Laura Johnson", date: "2 months ago", time: 0, rating: 5, text: "Vicente and his team are great! Highly recommend!" },
+const reviews: Review[] = [
+  { name: "Ajili Hodari", date: "a week ago", rating: 5, text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!" },
+  { name: "Dylan Martin", date: "2 weeks ago", rating: 5, text: "Great work as usual!" },
+  { name: "Abby Cooper", date: "a month ago", rating: 5, text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job." },
+  { name: "Mckinsley Reynolds III", date: "2 months ago", rating: 5, text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family." },
+  { name: "Laura Johnson", date: "2 months ago", rating: 5, text: "Vicente and his team are great! Highly recommend!" },
 ];
 
-const Reviews = () => {
-  const [reviews, setReviews] = useState<Review[]>(fallbackReviews);
-  const [overallRating, setOverallRating] = useState(5.0);
-  const [totalReviews, setTotalReviews] = useState(269);
-  const [loading, setLoading] = useState(true);
+const overallRating = 4.9;
+const totalReviews = 269;
 
-  useEffect(() => {
-    const fetchReviews = async () => {
-      try {
-        const { data, error } = await supabase.functions.invoke("google-reviews");
-        if (error) { console.error("Error fetching reviews:", error); return; }
-        if (data?.success && data?.data) {
-          setReviews(data.data.reviews);
-          setOverallRating(data.data.rating);
-          setTotalReviews(data.data.totalReviews);
-        }
-      } catch (err) {
-        console.error("Failed to fetch reviews:", err);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchReviews();
-  }, []);
+const Reviews = () => {
 
   return (
     <div className="min-h-screen bg-background">
