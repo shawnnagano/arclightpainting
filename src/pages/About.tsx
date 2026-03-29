@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import TopBar from "@/components/TopBar";
+
 import { Star } from "lucide-react";
 
 const teamMembers = [
