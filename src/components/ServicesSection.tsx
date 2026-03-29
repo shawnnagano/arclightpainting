@@ -8,42 +8,42 @@ const services = [
     description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
     icon: Paintbrush,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Exterior Painting",
     description: "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA.",
     icon: Home,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Cabinet Refinishing",
     description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
     icon: PanelTop,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Drywall Repair",
     description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
     icon: Hammer,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Pressure Washing",
     description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
     icon: Droplets,
     image: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg",
-    link: "https://arclightpainting.com/services-new/",
+    link: "/services",
   },
   {
     title: "Commercial Painting",
     description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
     icon: Building2,
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
-    link: "https://arclightpainting.com/commercial-painting-new/",
+    link: "/services",
   },
 ];
 
@@ -91,7 +91,7 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center mt-10">
-          <a href="https://arclightpainting.com/services-new/">
+          <a href="/services">
             <Button variant="outline" className="font-semibold">
               Explore Our Services
             </Button>
