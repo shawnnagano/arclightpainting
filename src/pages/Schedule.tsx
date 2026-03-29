@@ -26,7 +26,7 @@ const Schedule = () => {
       <TopBar />
       <Header />
 
-      <section className="bg-gradient-to-br from-[hsl(var(--chart-4))] to-[hsl(var(--chart-5))] py-16 min-h-[80vh] flex items-center">
+      <section className="bg-primary py-16 min-h-[80vh] flex items-center">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto bg-background rounded-2xl shadow-2xl p-8 md:p-12">
             <h1 className="text-3xl md:text-4xl font-black text-center mb-2">

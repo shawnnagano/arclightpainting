@@ -25,7 +25,7 @@ const Reviews = () => {
       <Header />
 
       {/* Hero */}
-      <section className="bg-gradient-to-br from-[hsl(var(--chart-4))] to-[hsl(var(--chart-5))] text-primary-foreground py-16">
+      <section className="bg-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-black mb-2">
             Customer <span className="text-accent">Reviews</span>
