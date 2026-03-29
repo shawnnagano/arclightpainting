@@ -95,11 +95,11 @@ const ServicesSection = () => {
         </div>
 
         <div className="text-center mt-10">
-          <a href="/services">
+          <Link to="/services">
             <Button variant="outline" className="font-semibold">
               Explore Our Services
             </Button>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
