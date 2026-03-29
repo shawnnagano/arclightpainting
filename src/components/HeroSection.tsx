@@ -31,7 +31,7 @@ const HeroSection = () => {
     <section className="relative bg-background text-foreground overflow-hidden">
       {/* Background */}
       <div
-        className="absolute inset-0 opacity-5"
+        className="absolute inset-0 opacity-30"
         style={{
           backgroundImage:
             "url('https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg')",
