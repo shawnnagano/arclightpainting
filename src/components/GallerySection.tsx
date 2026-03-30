@@ -6,6 +6,12 @@ import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-3.webp";
 import drywallSanding from "@/assets/drywall-sanding.jpg";
 import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-bothell.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
+import commercialHero from "@/assets/commercial-hero.jpg";
+import commercial1 from "@/assets/commercial-1.jpg";
+import commercial2 from "@/assets/commercial-2.jpg";
+import commercial3 from "@/assets/commercial-3.jpg";
+import commercial4 from "@/assets/commercial-4.jpg";
+import commercial5 from "@/assets/commercial-5.jpg";
 
 interface GalleryImage {
   src: string;
