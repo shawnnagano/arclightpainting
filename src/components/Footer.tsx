@@ -101,7 +101,6 @@ const Footer = () => {
               <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
               <li><Link to="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
               <li><Link to="/service-areas" className="hover:text-accent transition-colors">Service Areas</Link></li>
-              <li><Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link></li>
             </ul>
           </div>
 
@@ -120,6 +119,9 @@ const Footer = () => {
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
                 Bothell, WA
+              </li>
+              <li>
+                <Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link>
               </li>
             </ul>
           </div>

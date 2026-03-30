@@ -40,12 +40,12 @@ const navItems = [
     href: "",
     children: [
       { label: "About Us", href: "/about" },
+      { label: "Reviews", href: "/reviews" },
       { label: "Blog", href: "/blog" },
       { label: "Join Our Team", href: "/join-our-team" },
     ],
   },
   { label: "PRICING", href: "/pricing" },
-  { label: "REVIEWS", href: "/reviews" },
   
 ];
 
