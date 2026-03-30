@@ -117,7 +117,7 @@ const About = () => {
       </section>
 
       {/* Empowered Leaders */}
-      <section className="py-16 bg-secondary">
+      <section id="our-team" className="py-16 bg-secondary scroll-mt-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
