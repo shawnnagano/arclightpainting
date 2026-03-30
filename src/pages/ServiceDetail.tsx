@@ -5,6 +5,7 @@ import { CheckCircle } from "lucide-react";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 import commercialHero from "@/assets/commercial-hero.jpg";
+import exteriorHero from "@/assets/exterior-hero.png";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -51,7 +52,7 @@ const serviceData: Record<string, {
       "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA. We know the Pacific Northwest weather demands durable, high-quality finishes that stand the test of time.",
       "Our exterior painting process includes thorough power washing, scraping, sanding, caulking, and priming before we apply any paint. The result is a beautiful, long-lasting finish that protects your home for years to come.",
     ],
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
+    image: exteriorHero,
     benefits: [
       "Weather-resistant premium exterior paints",
       "Complete surface prep: power wash, scrape, sand, caulk",

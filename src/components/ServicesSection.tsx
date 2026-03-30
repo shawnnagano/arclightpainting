@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 import commercialHero from "@/assets/commercial-hero.jpg";
+import exteriorHero from "@/assets/exterior-hero.png";
 
 const services = [
   {
@@ -18,7 +19,7 @@ const services = [
     title: "Exterior Painting",
     description: "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA.",
     icon: Home,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
+    image: exteriorHero,
     link: "/services/exterior-painting",
   },
   {
