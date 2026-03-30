@@ -1,9 +1,17 @@
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, CheckCircle } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import OwnersSection from "@/components/OwnersSection";
+import ServicesSection from "@/components/ServicesSection";
+import ValuesSection from "@/components/ValuesSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import BlueprintSection from "@/components/BlueprintSection";
+import GallerySection from "@/components/GallerySection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { serviceSchema, breadcrumbSchema } from "@/components/SEOHead";
 
@@ -154,25 +162,22 @@ const ServiceDetail = () => {
       />
       <Header />
 
-      {/* Hero */}
-      <section className="relative bg-background overflow-hidden">
-        <div className="container mx-auto px-4 py-16 md:py-24">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+      {/* 1. Hero */}
+      <HeroSection />
+
+      {/* Service-specific content section */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <Link
-                to="/services"
-                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-accent transition-colors mb-6"
-              >
-                <ArrowLeft className="h-4 w-4" />
-                Back to All Services
-              </Link>
-              <h1 className="text-4xl md:text-5xl font-black mb-2">
+              <h2 className="text-3xl md:text-4xl font-black mb-2">
                 {service.title}
-              </h1>
+              </h2>
               <p className="text-xl text-accent font-semibold mb-6">
                 {service.tagline}
               </p>
@@ -181,19 +186,12 @@ const ServiceDetail = () => {
                   {p}
                 </p>
               ))}
-              <Link to="/schedule">
-                <Button
-                  size="lg"
-                  className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 mt-4"
-                >
-                  Get A Free Quote
-                </Button>
-              </Link>
             </motion.div>
 
             <motion.div
               initial={{ opacity: 0, x: 30 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="rounded-xl overflow-hidden shadow-lg"
             >
@@ -201,6 +199,7 @@ const ServiceDetail = () => {
                 src={service.image}
                 alt={service.title}
                 className="w-full h-[400px] object-cover"
+                loading="lazy"
               />
             </motion.div>
           </div>
@@ -230,7 +229,30 @@ const ServiceDetail = () => {
         </div>
       </section>
 
+      {/* 2. Testimonials */}
+      <TestimonialsSection />
+
+      {/* 3. Owners */}
+      <OwnersSection />
+
+      {/* 4. Services */}
+      <ServicesSection />
+
+      {/* 5. USPs / Values */}
+      <ValuesSection />
+
+      {/* 6. Guarantee */}
+      <GuaranteeSection />
+
+      {/* 7. Blueprint */}
+      <BlueprintSection />
+
+      {/* 8. Gallery */}
+      <GallerySection />
+
+      {/* 9. CTA */}
       <CTASection />
+
       <Footer />
     </div>
   );
