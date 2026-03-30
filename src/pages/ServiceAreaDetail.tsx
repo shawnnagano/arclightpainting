@@ -87,7 +87,10 @@ const ServiceAreaDetail = () => {
       {/* 8. Gallery */}
       <GallerySection cityName={area.name} />
 
-      {/* 9. CTA */}
+      {/* 9. FAQ */}
+      <FAQSection faqs={generalFAQ} />
+
+      {/* 10. CTA */}
       <CTASection cityName={area.name} serviceName="House Painters" />
 
       <Footer />

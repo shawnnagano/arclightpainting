@@ -230,7 +230,12 @@ const ServiceDetail = () => {
       {/* 8. Gallery */}
       <GallerySection serviceName={service.title} />
 
-      {/* 9. CTA */}
+      {/* 9. FAQ */}
+      {slug && serviceFAQs[slug] && (
+        <FAQSection faqs={serviceFAQs[slug]} />
+      )}
+
+      {/* 10. CTA */}
       <CTASection serviceName={service.title} />
 
       <Footer />
