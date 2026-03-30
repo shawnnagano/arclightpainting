@@ -198,6 +198,14 @@ const locationTestimonials: Record<string, Testimonial[]> = {
     { name: "Lillian M", location: "Kingsgate, WA", category: "House Painting", text: "Our Kingsgate home needed a fresh look and Arclight delivered. Interior painting, accent walls, and trim work — all done with precision. The crew was courteous and the results are beautiful. Highly recommend!" },
     { name: "Troy J", location: "Kingsgate, WA", category: "House Painting", text: "Arclight pressure washed and painted our Kingsgate home's fence and deck. The outdoor spaces look fantastic now. They were efficient, professional, and the results exceeded our expectations. Great painting company!" },
   ],
+  "Seattle": [
+    { name: "Brooke W", location: "Seattle, WA", category: "House Painting", text: "Arclight painted our Capitol Hill Craftsman and the results are incredible. They understood the character of our 1920s home and chose finishes that honor its history while giving it a fresh, modern feel. Meticulous prep work and beautiful execution!" },
+    { name: "Jason T", location: "Seattle, WA", category: "House Painting", text: "We hired Arclight for a full exterior repaint of our Ballard bungalow. The crew navigated our narrow lot perfectly and the color scheme looks amazing. Our home stands out on the block now. Professional from start to finish!" },
+    { name: "Melissa K", location: "Seattle, WA", category: "House Painting", text: "Arclight refinished the cabinets in our Wallingford kitchen and they look like custom cabinetry. The spray finish is flawless — glass smooth. They were tidy, professional, and the transformation is stunning. Couldn't be happier!" },
+    { name: "Andre P", location: "Seattle, WA", category: "House Painting", text: "Had Arclight paint our Queen Anne Victorian's interior — high ceilings, detailed trim, and all. The crew handled every architectural detail with care. The colors we chose look even better than we imagined. Truly skilled painters!" },
+    { name: "Christine L", location: "Seattle, WA", category: "House Painting", text: "Our Greenwood home needed a major exterior refresh. Arclight handled power washing, wood repair, and a complete repaint. The difference is night and day — our house looks brand new. The neighbors are impressed and so are we!" },
+    { name: "Marcus D", location: "Seattle, WA", category: "House Painting", text: "Arclight painted our West Seattle condo interior and did drywall repairs throughout. Every patch is invisible and the paint is perfectly even. They finished on schedule and left the place spotless. Five stars, easy!" },
+  ],
 };
 
 function getTestimonials(cityName?: string, serviceName?: string): Testimonial[] {
