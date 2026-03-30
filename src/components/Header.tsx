@@ -81,13 +81,21 @@ const Header = () => {
           <nav className="hidden lg:flex items-center gap-6 ml-8">
             {navItems.map((item) => (
               <div key={item.label} className="relative group">
-                <Link
-                  to={item.href}
-                  className="flex items-center gap-1 text-sm font-semibold tracking-wide text-foreground hover:text-accent transition-colors py-6"
-                >
-                  {item.label}
-                  {item.children && <ChevronDown className="h-3 w-3" />}
-                </Link>
+                {item.children ? (
+                  <span
+                    className="flex items-center gap-1 text-sm font-semibold tracking-wide text-foreground hover:text-accent transition-colors py-6 cursor-pointer"
+                  >
+                    {item.label}
+                    <ChevronDown className="h-3 w-3" />
+                  </span>
+                ) : (
+                  <Link
+                    to={item.href}
+                    className="flex items-center gap-1 text-sm font-semibold tracking-wide text-foreground hover:text-accent transition-colors py-6"
+                  >
+                    {item.label}
+                  </Link>
+                )}
                 {item.children && (
                   <div className="absolute top-full left-0 pt-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all">
                     <div className="bg-background border border-border rounded-md shadow-xl py-2 min-w-[220px]">
