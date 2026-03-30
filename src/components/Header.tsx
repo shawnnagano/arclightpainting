@@ -39,6 +39,7 @@ const navItems = [
     label: "ABOUT",
     href: "",
     children: [
+      { label: "About Us", href: "/about" },
       { label: "Blog", href: "/blog" },
       { label: "Join Our Team", href: "/join-our-team" },
     ],
