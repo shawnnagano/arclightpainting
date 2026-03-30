@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OwnersSection from "@/components/OwnersSection";
-import ServicesSection from "@/components/ServicesSection";
+
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
@@ -194,8 +194,7 @@ const ServiceDetail = () => {
       {/* 3. Owners */}
       <OwnersSection />
 
-      {/* 4. Services */}
-      <ServicesSection />
+      {/* 4. USPs / Values */}
 
       {/* 5. USPs / Values */}
       <ValuesSection />
