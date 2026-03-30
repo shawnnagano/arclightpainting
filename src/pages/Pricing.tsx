@@ -73,6 +73,17 @@ const Pricing = () => {
         </div>
       </section>
 
+      {/* Price Guide Estimator */}
+      <section>
+        <iframe
+          src="https://app.priceguide.ai/estimator/recacVReUcqWb1d6D"
+          width="100%"
+          style={{ width: "100%", height: "75vh", borderTop: "1px solid #999", borderBottom: "1px solid #999" }}
+          frameBorder="0"
+          title="Arclight Painting Price Estimator"
+        />
+      </section>
+
       {/* Why Not Cheapest */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
