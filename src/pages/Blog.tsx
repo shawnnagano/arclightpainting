@@ -77,7 +77,7 @@ const Blog = () => {
         title="Painting Tips & Insights Blog | Arclight Painting Bothell, WA"
         description="Expert painting tips, color inspiration, and home improvement insights from Arclight Painting — the #1-rated painting company in Bothell, WA."
         canonical="/blog"
-        structuredData={breadcrumbSchema([
+        jsonLd={breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Blog", url: "/blog" },
         ])}

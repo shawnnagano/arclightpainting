@@ -51,7 +51,7 @@ const JoinOurTeam = () => {
         title="Join Our Team | Arclight Painting Careers in Bothell, WA"
         description="Join the #1-rated residential painting company in Bothell, WA. We're looking for dedicated painters who share our values of quality craftsmanship and exceptional service."
         canonical="/join-our-team"
-        structuredData={breadcrumbSchema([
+        jsonLd={breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Join Our Team", url: "/join-our-team" },
         ])}
