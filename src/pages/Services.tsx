@@ -1,7 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
+import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
+import { generalFAQ } from "@/data/faqData";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 
 const Services = () => {
