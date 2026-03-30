@@ -20,6 +20,10 @@ const badges = [
     src: "https://arclightpainting.com/wp-content/uploads/2025/09/OMWBE-Cerfitied-Badge-Final-01.png",
     alt: "OMWBE Certified",
   },
+  {
+    src: sbaVeteranOwned,
+    alt: "SBA Veteran-Owned Certified",
+  },
 ];
 
 const Footer = () => {
