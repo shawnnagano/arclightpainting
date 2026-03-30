@@ -229,7 +229,7 @@ const ServiceDetail = () => {
       <GallerySection />
 
       {/* 9. CTA */}
-      <CTASection />
+      <CTASection serviceName={service.title} />
 
       <Footer />
     </div>
