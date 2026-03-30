@@ -110,7 +110,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
   },
   {
     name: "Bellevue",
