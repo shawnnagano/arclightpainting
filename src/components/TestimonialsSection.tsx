@@ -213,16 +213,16 @@ function getTestimonials(cityName?: string, serviceName?: string): Testimonial[]
 function getHeading(cityName?: string, serviceName?: string): JSX.Element {
   if (serviceName) {
     return (
-      <>See Why Customers Love <span className="text-accent">Arclight</span> for {serviceName}</>
+      <>Why Customers <span className="text-accent">Love Arclight</span> for {serviceName}</>
     );
   }
   if (cityName) {
     return (
-      <>See Why Customers in {cityName} Love <span className="text-accent">Arclight</span></>
+      <>Why Customers in {cityName} <span className="text-accent">Love Arclight</span></>
     );
   }
   return (
-    <>See Why Customers <span className="text-accent">Love Arclight</span></>
+    <>Why Customers <span className="text-accent">Love Arclight</span></>
   );
 }
 
