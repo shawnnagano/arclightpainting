@@ -4,6 +4,7 @@ import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers 
 import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
+import commercialHero from "@/assets/commercial-hero.jpg";
 
 const services = [
   {
@@ -45,7 +46,7 @@ const services = [
     title: "Commercial Painting",
     description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
     icon: Building2,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
+    image: commercialHero,
     link: "/services/commercial-painting",
   },
   {
