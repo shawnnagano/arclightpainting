@@ -4,16 +4,9 @@ import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
-
-const blueprintSteps = [
-  "TrueQuote™ Pricing",
-  "PowerFlex™ Scheduling",
-  "ColorConfidence™ Consultation",
-  "Top-Rated Paints",
-  "JobTrack™ Project Management",
-  "CompanyCam™ Timeline",
-  "PCA™ Standards Inspection",
-];
+import ValuesSection from "@/components/ValuesSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import BlueprintSection from "@/components/BlueprintSection";
 
 const Pricing = () => {
   return (
@@ -106,42 +99,14 @@ const Pricing = () => {
         </div>
       </section>
 
-      {/* Investing in Quality */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold mb-8 text-center">
-            Investing in <span className="text-accent">Quality</span> and Long-Term Value
-          </h2>
-          <div className="grid md:grid-cols-3 gap-6 mb-10">
-            {[
-              { title: "Trusted Professionals", desc: "Skilled craftsmen, thoroughly vetted and committed to excellence in every detail." },
-              { title: "Top-Quality Paint", desc: "Premium materials that have been thoroughly tested and proven to provide a lasting finish." },
-              { title: "The Arclight Difference", desc: "A hassle-free experience with clear communication, no stress, and no surprises." },
-            ].map((item) => (
-              <div key={item.title} className="bg-secondary p-6 rounded-xl text-center">
-                <h4 className="font-bold mb-2">{item.title}</h4>
-                <p className="text-muted-foreground text-sm">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* The Arclight Painting Difference */}
+      <ValuesSection />
+
+      {/* Guarantee */}
+      <GuaranteeSection />
 
       {/* Blueprint */}
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-2">The Above & Beyond Blueprint</h2>
-          <p className="text-muted-foreground mb-10">Painting Made Simple and Stress-Free</p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {blueprintSteps.map((step, i) => (
-              <div key={step} className="bg-card border border-border rounded-lg p-4">
-                <span className="text-accent font-bold text-2xl">0{i + 1}</span>
-                <p className="font-semibold text-sm mt-2">{step}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      <BlueprintSection />
 
       {/* CTA */}
       <section className="py-16 bg-background text-center">
