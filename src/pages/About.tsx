@@ -97,7 +97,7 @@ const About = () => {
       </section>
 
       {/* 25 Years of Service */}
-      <section className="py-16 bg-background">
+      <section id="our-story" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-black mb-8 text-center">
             25 Years of <span className="text-accent">Service</span>
