@@ -9,7 +9,7 @@ import About from "./pages/About.tsx";
 import Pricing from "./pages/Pricing.tsx";
 import Reviews from "./pages/Reviews.tsx";
 import Schedule from "./pages/Schedule.tsx";
-import Services from "./pages/Services.tsx";
+
 import ServiceDetail from "./pages/ServiceDetail.tsx";
 import ServiceAreas from "./pages/ServiceAreas.tsx";
 import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
