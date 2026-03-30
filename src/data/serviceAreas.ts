@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Union Hill-Novelty Hill, WA. Arclight Painting provides expert residential painting, cabinet refinishing, and drywall repair.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Redmond_Ridge_-_views_of_Cascades_01.jpg/1280px-Redmond_Ridge_-_views_of_Cascades_01.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cascade_Range_cabin_%28Unsplash%29.jpg/1280px-Cascade_Range_cabin_%28Unsplash%29.jpg",
   },
   {
     name: "Clearview",
