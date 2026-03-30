@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map.png";
+import sbaVeteranOwned from "@/assets/sba-veteran-owned.png";
 
 const badges = [
   {
@@ -18,6 +19,10 @@ const badges = [
   {
     src: "https://arclightpainting.com/wp-content/uploads/2025/09/OMWBE-Cerfitied-Badge-Final-01.png",
     alt: "OMWBE Certified",
+  },
+  {
+    src: sbaVeteranOwned,
+    alt: "SBA Veteran-Owned Certified",
   },
 ];
 
