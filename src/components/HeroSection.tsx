@@ -24,20 +24,26 @@ const reviews = [
   },
 ];
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  cityName?: string;
+  heroImage?: string;
+}
+
+const HeroSection = ({ cityName = "Bothell", heroImage }: HeroSectionProps) => {
+  const bgImage = heroImage || "https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg";
+
   return (
     <section className="relative min-h-[600px] md:min-h-[700px] overflow-hidden">
       {/* Full background image */}
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage:
-            "url('https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg')",
+          backgroundImage: `url('${bgImage}')`,
           backgroundSize: "cover",
           backgroundPosition: "center right",
         }}
       />
-      {/* Gradient overlay: solid on left for text readability, fading to transparent on right to show image */}
+      {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
 
       <div className="container mx-auto px-4 py-16 md:py-20 relative z-10">
@@ -51,7 +57,7 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-[1.1] mb-6 uppercase tracking-tight">
               Professional{" "}
               <span className="text-accent">House<br className="hidden md:block" /> Painters</span>{" "}
-              in Bothell, WA
+              in {cityName}, WA
             </h1>
             <p className="text-xl md:text-2xl font-semibold mb-8">
               Real <span className="text-accent">People.</span> Real{" "}
@@ -127,7 +133,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Floating CTA Button - bottom right on larger screens */}
+      {/* Floating CTA Button */}
       <Link
         to="/schedule"
         className="fixed bottom-6 right-6 z-50 hidden md:block"

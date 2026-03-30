@@ -27,7 +27,11 @@ const images = [
   },
 ];
 
-const GallerySection = () => {
+interface GallerySectionProps {
+  cityName?: string;
+}
+
+const GallerySection = ({ cityName = "Bothell" }: GallerySectionProps) => {
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
@@ -35,7 +39,7 @@ const GallerySection = () => {
           Results That Speak <span className="text-accent">For Themselves</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Browse some of our recent painting projects across Bothell and the greater
+          Browse some of our recent painting projects across {cityName} and the greater
           Seattle area.
         </p>
 
