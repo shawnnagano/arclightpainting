@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
+import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
+import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
+import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-3.webp";
+import drywallSanding from "@/assets/drywall-sanding.jpg";
+import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-bothell.jpg";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 
 interface GalleryImage {
   src: string;
