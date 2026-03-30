@@ -4,6 +4,9 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { Users, Shield, Heart } from "lucide-react";
 import { motion } from "framer-motion";
+import teamHeroImg from "@/assets/team-hero.jpg";
+import { Users, Shield, Heart } from "lucide-react";
+import { motion } from "framer-motion";
 
 const openings = [
   {
