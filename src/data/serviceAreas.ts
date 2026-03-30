@@ -127,7 +127,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bellevue%2C_Washington_skyline.JPG/1280px-Bellevue%2C_Washington_skyline.JPG",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bellevue_Downtown_Park_aerial%2C_April_2023.png/1280px-Bellevue_Downtown_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Union Hill-Novelty Hill",
