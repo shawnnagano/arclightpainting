@@ -226,7 +226,7 @@ const ServiceDetail = () => {
       <BlueprintSection />
 
       {/* 8. Gallery */}
-      <GallerySection />
+      <GallerySection serviceName={service.title} />
 
       {/* 9. CTA */}
       <CTASection serviceName={service.title} />
