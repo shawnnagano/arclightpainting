@@ -76,7 +76,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cottage_Lake%2C_Washington.jpg/1280px-Cottage_Lake%2C_Washington.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cottage_Lake_%28Washington%29_2026_-_01.jpg/1280px-Cottage_Lake_%28Washington%29_2026_-_01.jpg",
   },
   {
     name: "Kenmore",
