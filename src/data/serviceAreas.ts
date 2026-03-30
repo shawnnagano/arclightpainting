@@ -42,7 +42,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
   },
   {
     name: "Redmond",
@@ -59,7 +59,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Cottage Lake",
@@ -127,7 +127,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bellevue_Downtown_Park_aerial%2C_April_2023.png/1280px-Bellevue_Downtown_Park_aerial%2C_April_2023.png",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bellevue_Downtown_Park_aerial%2C_April_2023.png/1280px-Bellevue_Downtown_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Union Hill-Novelty Hill",
@@ -178,7 +178,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
   },
   {
     name: "Lake Forest Park",
@@ -195,7 +195,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Burke-Gilman_Trail_-_Lake_Forest_Park.jpg/1280px-Burke-Gilman_Trail_-_Lake_Forest_Park.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
   },
   {
     name: "Woodinville",
