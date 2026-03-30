@@ -75,8 +75,11 @@ const Footer = () => {
               alt="Arclight Painting"
               className="h-12 mb-4"
             />
-            <p className="text-sm opacity-70 leading-relaxed">
-              Professional house painting services in Bothell, WA and the greater Seattle area. Real People. Real Purpose. Exceptional Results.
+            <p className="text-sm opacity-70 leading-relaxed mb-3">
+              Professional house painting services in Bothell, WA and the greater Seattle area.
+            </p>
+            <p className="text-sm font-bold leading-relaxed">
+              <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. <span className="text-accent">Exceptional</span> Results.
             </p>
           </div>
 
