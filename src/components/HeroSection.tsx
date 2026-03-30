@@ -8,10 +8,12 @@ import { Star } from "lucide-react";
 interface HeroSectionProps {
   cityName?: string;
   heroImage?: string;
+  heroTitle?: string;
 }
 
-const HeroSection = ({ cityName = "Bothell", heroImage }: HeroSectionProps) => {
+const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSectionProps) => {
   const bgImage = heroImage || "https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg";
+  const displayTitle = heroTitle || "Professional House Painters";
 
   return (
     <section className="relative min-h-[600px] md:min-h-[700px] overflow-hidden">
