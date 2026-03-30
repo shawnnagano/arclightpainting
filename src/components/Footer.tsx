@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map.png";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned.png";
 
