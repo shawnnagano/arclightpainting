@@ -32,10 +32,10 @@ const navItems = [
       { label: "Exterior Painting", href: "/services/exterior-painting" },
       { label: "Cabinet Refinishing", href: "/services/cabinet-refinishing" },
       { label: "Drywall Repair", href: "/services/drywall-repair" },
+      { label: "Popcorn Ceiling Removal", href: "/services/popcorn-ceiling-removal" },
       { label: "Pressure Washing", href: "/services/pressure-washing" },
       { label: "Commercial Painting", href: "/services/commercial-painting" },
       { label: "Painter for a Day", href: "/services/painter-for-a-day" },
-      { label: "Popcorn Ceiling Removal", href: "/services/popcorn-ceiling-removal" },
     ],
   },
   {
