@@ -146,13 +146,19 @@ const Header = () => {
           <div className="lg:hidden bg-background border-t border-border pb-4">
             {navItems.map((item) => (
               <div key={item.label}>
-                <Link
-                  to={item.href}
-                  className="block px-6 py-3 text-sm font-semibold text-foreground hover:text-accent transition-colors"
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {item.label}
-                </Link>
+                {item.children ? (
+                  <span className="block px-6 py-3 text-sm font-semibold text-foreground">
+                    {item.label}
+                  </span>
+                ) : (
+                  <Link
+                    to={item.href}
+                    className="block px-6 py-3 text-sm font-semibold text-foreground hover:text-accent transition-colors"
+                    onClick={() => setMobileOpen(false)}
+                  >
+                    {item.label}
+                  </Link>
+                )}
                 {item.children && (
                   <div className="pl-10">
                     {item.children.map((child) => (
