@@ -64,7 +64,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
             className="pt-2"
           >
             <div className="flex items-center gap-2">
-              <img src={googleLogo} alt="Google" className="h-5 w-auto" />
+              <img src={googleLogo} alt="Google" className="h-10 w-auto" />
               <span className="font-bold text-foreground">4.9</span>
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
