@@ -25,7 +25,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Bothell, WA. Interior, exterior, cabinet refinishing & more. Arclight Painting delivers quality craftsmanship with our Above & Beyond Blueprint™.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
   },
   {
     name: "Kirkland",
