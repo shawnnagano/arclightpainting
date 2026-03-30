@@ -4,6 +4,7 @@ import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers 
 import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
+import commercialHero from "@/assets/commercial-hero.jpg";
 
 const services = [
   {
