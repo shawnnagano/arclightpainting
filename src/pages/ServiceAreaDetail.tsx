@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { MapPin, CheckCircle2, ArrowLeft, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 import ServicesSection from "@/components/ServicesSection";
+import SEOHead, { serviceAreaSchema, breadcrumbSchema } from "@/components/SEOHead";
 
 const ServiceAreaDetail = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -16,6 +17,19 @@ const ServiceAreaDetail = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title={`Painters in ${area.name}, WA | Arclight Painting`}
+        description={area.metaDescription}
+        canonical={`/service-areas/${area.slug}`}
+        jsonLd={[
+          serviceAreaSchema(area.name, area.slug, area.metaDescription),
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Service Areas", url: "/service-areas" },
+            { name: area.name, url: `/service-areas/${area.slug}` },
+          ]),
+        ]}
+      />
       <Header />
 
       {/* Hero with background image */}

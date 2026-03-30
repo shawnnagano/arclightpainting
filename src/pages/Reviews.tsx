@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
+import SEOHead, { localBusinessSchema, breadcrumbSchema } from "@/components/SEOHead";
 
 type Review = {
   name: string;
@@ -37,6 +38,18 @@ const totalReviews = 269;
 const Reviews = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Customer Reviews - 4.9★ Google Rating | Arclight Painting Bothell, WA"
+        description="Read 269+ five-star Google reviews from Arclight Painting customers in Bothell, WA. See why homeowners trust us for interior and exterior painting services."
+        canonical="/reviews"
+        jsonLd={[
+          localBusinessSchema,
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Reviews", url: "/reviews" },
+          ]),
+        ]}
+      />
       <Header />
 
       {/* Hero with background image */}

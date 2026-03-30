@@ -6,10 +6,20 @@ import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
 import { motion } from "framer-motion";
 import serviceAreasMap from "@/assets/service-areas-map.png";
+import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 
 const ServiceAreas = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Service Areas - Painting in Bothell, Kirkland, Redmond & More | Arclight Painting"
+        description="Arclight Painting serves Bothell, Kirkland, Redmond, Bellevue, Woodinville, Kenmore, Mill Creek, Everett, Lake Forest Park, and more across the greater Eastside, WA."
+        canonical="/service-areas"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "Service Areas", url: "/service-areas" },
+        ])}
+      />
       <Header />
 
       {/* Hero with background image */}
