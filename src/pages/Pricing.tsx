@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
+import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 
 const blueprintSteps = [
   "TrueQuote™ Pricing",
