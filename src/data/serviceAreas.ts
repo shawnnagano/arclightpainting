@@ -59,7 +59,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Marymoor_Park_aerial.jpg/1280px-Marymoor_Park_aerial.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Cottage Lake",
