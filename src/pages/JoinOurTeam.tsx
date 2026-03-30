@@ -62,8 +62,12 @@ const JoinOurTeam = () => {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative bg-primary text-primary-foreground py-20 md:py-28">
-          <div className="container mx-auto px-4 text-center max-w-3xl">
+        <section className="relative py-20 md:py-28 overflow-hidden">
+          <div className="absolute inset-0">
+            <img src={teamHeroImg} alt="Arclight Painting team" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-primary/70" />
+          </div>
+          <div className="container mx-auto px-4 text-center max-w-3xl relative z-10">
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
