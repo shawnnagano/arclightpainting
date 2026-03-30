@@ -18,7 +18,7 @@ const BlueprintSection = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left: Text content */}
           <div className="lg:w-1/2">
-            <p className="text-sm font-semibold tracking-widest uppercase mb-2">
+            <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-2">
               THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
             </p>
             <h2 className="text-3xl md:text-4xl font-bold uppercase mb-10">
