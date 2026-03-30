@@ -11,7 +11,7 @@ const CTASection = ({ cityName = "Bothell", serviceName = "Home Painting" }: CTA
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8">
-          Get The Highest-Rated {serviceName} in {cityName}
+          Get The Highest-Rated <span className="text-accent">{serviceName}</span> in <span className="text-accent">{cityName}</span>
         </h2>
         <Link to="/schedule">
           <Button
