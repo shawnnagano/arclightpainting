@@ -86,7 +86,7 @@ const ServiceAreaDetail = () => {
       <GallerySection cityName={area.name} />
 
       {/* 9. CTA */}
-      <CTASection cityName={area.name} />
+      <CTASection cityName={area.name} serviceName="House Painters" />
 
       <Footer />
     </div>
