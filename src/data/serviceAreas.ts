@@ -25,7 +25,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Bothell, WA. Interior, exterior, cabinet refinishing & more. Arclight Painting delivers quality craftsmanship with our Above & Beyond Blueprint™.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
   },
   {
     name: "Kirkland",
@@ -42,7 +42,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kirkland_Marina_Park_01.jpg/1280px-Kirkland_Marina_Park_01.jpg",
   },
   {
     name: "Redmond",
@@ -59,7 +59,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Marymoor_Park_aerial.jpg/1280px-Marymoor_Park_aerial.jpg",
   },
   {
     name: "Cottage Lake",
@@ -76,7 +76,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cottage_Lake%2C_Washington.jpg/1280px-Cottage_Lake%2C_Washington.jpg",
   },
   {
     name: "Kenmore",
@@ -93,7 +93,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg/1280px-Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg",
   },
   {
     name: "Mill Creek",
@@ -110,7 +110,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
   },
   {
     name: "Bellevue",
@@ -127,7 +127,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Bellevue%2C_Washington_skyline.JPG/1280px-Bellevue%2C_Washington_skyline.JPG",
   },
   {
     name: "Union Hill-Novelty Hill",
@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Union Hill-Novelty Hill, WA. Arclight Painting provides expert residential painting, cabinet refinishing, and drywall repair.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Redmond_Ridge_-_views_of_Cascades_01.jpg/1280px-Redmond_Ridge_-_views_of_Cascades_01.jpg",
   },
   {
     name: "Clearview",
@@ -161,7 +161,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Snohomish_River_Valley_near_Snohomish%2C_WA.jpg/1280px-Snohomish_River_Valley_near_Snohomish%2C_WA.jpg",
   },
   {
     name: "Everett",
@@ -178,7 +178,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Everett_WA._-_USA_02_19_2020_Boat_mooring_at_Port_Gardner_bay_in_the_late_afternoon_sun._%2849566295766%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_at_Port_Gardner_bay_in_the_late_afternoon_sun._%2849566295766%29.jpg",
   },
   {
     name: "Lake Forest Park",
@@ -195,7 +195,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
   },
   {
     name: "Woodinville",
@@ -212,6 +212,6 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chateau_Ste._Michelle_02.jpg/1280px-Chateau_Ste._Michelle_02.jpg",
   },
 ];
