@@ -18,6 +18,15 @@ const blueprintSteps = [
 const Pricing = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Painting Pricing - Transparent Quotes | Arclight Painting Bothell, WA"
+        description="Get transparent, itemized painting quotes from Arclight Painting in Bothell, WA. No hidden fees, no surprises. Learn about our pricing philosophy and get a fast quote."
+        canonical="/pricing"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "Pricing", url: "/pricing" },
+        ])}
+      />
       <Header />
 
       {/* Hero with background image */}

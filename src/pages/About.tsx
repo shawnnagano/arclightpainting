@@ -61,6 +61,15 @@ const teamLeaders = [
 const About = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="About Us - Meet the Arclight Painting Team | Bothell, WA"
+        description="Meet the Arclight Painting team — 25 years of service, veteran-owned, and built on trust. Learn about our leadership, values, and commitment to quality house painting in Bothell, WA."
+        canonical="/about"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "About Us", url: "/about" },
+        ])}
+      />
       <Header />
 
       {/* Hero with background image */}
