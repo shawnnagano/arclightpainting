@@ -13,8 +13,10 @@ import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
+import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { serviceSchema, breadcrumbSchema } from "@/components/SEOHead";
+import { serviceFAQs } from "@/data/faqData";
 
 const serviceData: Record<string, {
   title: string;
