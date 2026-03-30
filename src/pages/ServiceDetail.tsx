@@ -209,7 +209,7 @@ const ServiceDetail = () => {
       </section>
 
       {/* 2. Testimonials */}
-      <TestimonialsSection />
+      <TestimonialsSection serviceName={service.title} />
 
       {/* 3. Owners */}
       <OwnersSection />

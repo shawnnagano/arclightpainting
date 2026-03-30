@@ -65,7 +65,7 @@ const ServiceAreaDetail = () => {
       </section>
 
       {/* 2. Testimonials */}
-      <TestimonialsSection />
+      <TestimonialsSection cityName={area.name} />
 
       {/* 3. Owners */}
       <OwnersSection />
