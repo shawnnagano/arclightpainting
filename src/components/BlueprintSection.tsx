@@ -1,5 +1,5 @@
 import { CheckCircle } from "lucide-react";
-import blueprintImage from "@/assets/blueprint-consultation.png";
+import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
   { step: "1", title: "TrueQuote™ Pricing" },
