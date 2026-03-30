@@ -99,7 +99,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-bold mb-4 text-accent">Company</h4>
+            <h4 className="font-bold mb-4 text-accent">About</h4>
             <ul className="space-y-2 text-sm opacity-70">
               <li><Link to="/about" className="hover:text-accent transition-colors">About Us</Link></li>
               <li><Link to="/reviews" className="hover:text-accent transition-colors">Reviews</Link></li>
