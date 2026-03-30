@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const OwnersSection = () => {
   return (
     <section className="py-16 bg-background">
