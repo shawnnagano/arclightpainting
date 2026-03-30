@@ -52,20 +52,17 @@ const Footer = () => {
       </Link>
 
       {/* Trust badges */}
-      <div className="bg-accent/10 border-y border-accent/20">
-        <div className="container mx-auto px-4 py-10">
-          <h4 className="text-center text-sm font-bold tracking-widest uppercase text-accent mb-6">Trusted & Certified</h4>
-          <div className="flex flex-wrap items-center justify-center gap-10">
-            {badges.map((badge) => (
-              <img
-                key={badge.alt}
-                src={badge.src}
-                alt={badge.alt}
-                className="h-14 md:h-20 object-contain rounded-lg bg-white/90 p-2 shadow-md"
-                loading="lazy"
-              />
-            ))}
-          </div>
+      <div className="container mx-auto px-4 py-8 border-b border-border">
+        <div className="flex flex-wrap items-center justify-center gap-8">
+          {badges.map((badge) => (
+            <img
+              key={badge.alt}
+              src={badge.src}
+              alt={badge.alt}
+              className="h-12 md:h-16 object-contain rounded p-1"
+              loading="lazy"
+            />
+          ))}
         </div>
       </div>
 
@@ -78,8 +75,11 @@ const Footer = () => {
               alt="Arclight Painting"
               className="h-12 mb-4"
             />
-            <p className="text-sm opacity-70 leading-relaxed">
-              Professional house painting services in Bothell, WA and the greater Seattle area. Real People. Real Purpose. Exceptional Results.
+            <p className="text-sm opacity-70 leading-relaxed mb-3">
+              Professional house painting services in Bothell, WA and the greater Seattle area.
+            </p>
+            <p className="text-sm font-bold leading-relaxed">
+              <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. <span className="text-accent">Exceptional</span> Results.
             </p>
           </div>
 
