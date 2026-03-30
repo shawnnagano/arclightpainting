@@ -62,7 +62,7 @@ const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
       <div className="container mx-auto px-4">
         {!hideHeader && (
           <>
-            <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
+            <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
               Our Services
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">

@@ -258,7 +258,7 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
       </div>
 
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-12">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
           {getHeading(cityName, serviceName)}
         </h2>
 

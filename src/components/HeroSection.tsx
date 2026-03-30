@@ -38,7 +38,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-[1.1] mb-6 uppercase tracking-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] mb-6 uppercase tracking-tight">
               {displayTitle.includes(" ") ? (
                 <>
                   {displayTitle.split(" ").slice(0, 1).join(" ")}{" "}

@@ -89,7 +89,7 @@ const GallerySection = ({ cityName = "Bothell", serviceName }: GallerySectionPro
   return (
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-5xl font-black text-center mb-4">
+        <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
           Results That <span className="text-accent">Speak For Themselves</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">

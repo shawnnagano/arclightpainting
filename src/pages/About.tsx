@@ -97,7 +97,7 @@ const About = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-5xl md:text-7xl font-black uppercase mb-4">
+          <h1 className="text-5xl md:text-7xl font-bold uppercase mb-4">
             <span className="text-accent">Who</span> We Are
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold mb-6">
@@ -112,7 +112,7 @@ const About = () => {
       {/* 25 Years of Service */}
       <section id="our-story" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-black mb-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
             25 Years of <span className="text-accent">Service</span>
           </h2>
           <div className="space-y-6 text-muted-foreground leading-relaxed">
@@ -132,7 +132,7 @@ const About = () => {
       {/* Empowered Leaders */}
       <section id="our-team" className="py-16 bg-secondary scroll-mt-24">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -163,7 +163,7 @@ const About = () => {
       {/* Trusted Professionals */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Trusted <span className="text-accent">Professionals</span>
           </h2>
           <h3 className="text-xl text-center text-muted-foreground mb-10">
@@ -187,7 +187,7 @@ const About = () => {
       {/* Team Leaders */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-black text-center mb-4">Team Leaders</h2>
+          <h2 className="text-3xl font-bold text-center mb-4">Team Leaders</h2>
           <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm">
             Our Team Leaders are the heartbeat of Arclight's production. They guide jobs from setup to walkthrough, ensuring every detail meets our Above & Beyond standard.
           </p>
@@ -207,7 +207,7 @@ const About = () => {
       {/* Our Values */}
       <section id="our-values" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-black text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
             Our <span className="text-accent">Values</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">

@@ -25,7 +25,7 @@ const CTASection = ({ cityName = "Bothell", serviceName = "Home Painting" }: CTA
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl md:text-5xl font-black mb-8">
+        <h2 className="text-3xl md:text-5xl font-bold mb-8">
           Get The Highest-Rated <span className="text-accent">{serviceName}</span> in {cityName}
         </h2>
         {isPFAD ? (

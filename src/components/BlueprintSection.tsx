@@ -21,7 +21,7 @@ const BlueprintSection = () => {
             <p className="text-sm font-semibold tracking-widest uppercase mb-2">
               THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
             </p>
-            <h2 className="text-3xl md:text-4xl font-black uppercase mb-10">
+            <h2 className="text-3xl md:text-4xl font-bold uppercase mb-10">
               Painting Made Simple and Stress-Free
             </h2>
 
