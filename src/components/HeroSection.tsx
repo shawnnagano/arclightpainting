@@ -75,7 +75,8 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
             <div className="flex items-center gap-2 mt-1">
               <Link
                 to="/reviews"
-                className="text-sm text-accent font-semibold hover:underline"
+                className="text-sm font-semibold hover:underline"
+                style={{ color: '#4285F4' }}
               >
                 Read All Reviews →
               </Link>
