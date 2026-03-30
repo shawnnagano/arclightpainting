@@ -5,6 +5,7 @@ import { ArrowLeft, CheckCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
+import SEOHead, { serviceSchema, breadcrumbSchema } from "@/components/SEOHead";
 
 const serviceData: Record<string, {
   title: string;
