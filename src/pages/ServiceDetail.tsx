@@ -162,22 +162,19 @@ const ServiceDetail = () => {
       />
       <Header />
 
-      {/* 1. Hero */}
-      <HeroSection />
+      {/* 1. Hero with service image */}
+      <HeroSection cityName="Bothell" heroImage={service.image} heroTitle={`Professional ${service.title}`} />
 
       {/* Service-specific content section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <h2 className="text-3xl md:text-4xl font-black mb-2">
-                {service.title}
-              </h2>
               <p className="text-xl text-accent font-semibold mb-6">
                 {service.tagline}
               </p>
@@ -187,44 +184,6 @@ const ServiceDetail = () => {
                 </p>
               ))}
             </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="rounded-xl overflow-hidden shadow-lg"
-            >
-              <img
-                src={service.image}
-                alt={service.title}
-                className="w-full h-[400px] object-cover"
-                loading="lazy"
-              />
-            </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Benefits */}
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <h2 className="text-3xl font-black text-center mb-10">
-            What You <span className="text-accent">Get</span>
-          </h2>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {service.benefits.map((benefit) => (
-              <motion.div
-                key={benefit}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="flex items-start gap-3 bg-card rounded-lg p-4 border border-border"
-              >
-                <CheckCircle className="h-5 w-5 text-accent shrink-0 mt-0.5" />
-                <span className="text-sm leading-relaxed">{benefit}</span>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
