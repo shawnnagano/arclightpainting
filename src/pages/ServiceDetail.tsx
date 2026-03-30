@@ -147,6 +147,23 @@ const serviceData: Record<string, {
       "No estimate needed — just book and go",
     ],
   },
+  "popcorn-ceiling-removal": {
+    title: "Popcorn Ceiling Removal",
+    tagline: "Modernize Your Home — One Ceiling at a Time",
+    description: [
+      "Popcorn ceilings are one of the most dated features in homes across the Pacific Northwest. Our popcorn ceiling removal service transforms rough, textured ceilings into smooth, modern finishes that brighten your rooms and increase your home's value.",
+      "The process involves careful containment and protection, texture removal, skim coating, sanding, priming, and painting. Our experienced team handles every step so you get a flawless result without the mess and hassle of doing it yourself.",
+    ],
+    image: popcornCeilingHero,
+    benefits: [
+      "Complete containment and floor/wall protection",
+      "Safe texture removal with proper dust control",
+      "Skim coating and sanding for a smooth finish",
+      "Priming and painting included",
+      "Asbestos testing guidance for older homes",
+      "Minimal disruption to your daily routine",
+    ],
+  },
 };
 
 const ServiceDetail = () => {

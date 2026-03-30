@@ -55,6 +55,13 @@ const services = [
     image: painterForADayHero,
     link: "/services/painter-for-a-day",
   },
+  {
+    title: "Popcorn Ceiling Removal",
+    description: "Modernize your home by removing outdated popcorn ceilings for a smooth, clean finish.",
+    icon: Layers,
+    image: popcornCeilingHero,
+    link: "/services/popcorn-ceiling-removal",
+  },
 ];
 
 const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
