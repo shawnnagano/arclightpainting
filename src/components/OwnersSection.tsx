@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const OwnersSection = () => {
   return (
     <section className="py-16 bg-background">
@@ -18,6 +20,12 @@ const OwnersSection = () => {
             <p className="text-muted-foreground leading-relaxed max-w-xl">
               As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting on the belief that great work starts with great people. Every project we take on reflects our commitment to honesty, craftsmanship, and community.
             </p>
+            <Link
+              to="/about"
+              className="inline-block mt-4 text-accent font-semibold hover:underline"
+            >
+              Find out more about us →
+            </Link>
           </div>
         </div>
       </div>
