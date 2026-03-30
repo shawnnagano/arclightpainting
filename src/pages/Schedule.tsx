@@ -6,6 +6,15 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 const Schedule = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Get a Free Painting Estimate | Schedule Now | Arclight Painting"
+        description="Schedule your free painting estimate with Arclight Painting in Bothell, WA. Fast quotes, no obligation. Call (425) 757-1199 or book online."
+        canonical="/schedule"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "Get a Quote", url: "/schedule" },
+        ])}
+      />
       <Header />
 
       {/* Hero with background image */}
