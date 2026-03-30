@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock } from "lucide-react";
+import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 
 const services = [
   {
@@ -53,6 +54,13 @@ const services = [
     icon: Clock,
     image: painterForADayHero,
     link: "/services/painter-for-a-day",
+  },
+  {
+    title: "Popcorn Ceiling Removal",
+    description: "Modernize your home by removing outdated popcorn ceilings for a smooth, clean finish.",
+    icon: Layers,
+    image: popcornCeilingHero,
+    link: "/services/popcorn-ceiling-removal",
   },
 ];
 

@@ -11,6 +11,7 @@ const tickerServices = [
   "Drywall Repairs",
   "Commercial Painting",
   "Painter for a Day",
+  "Popcorn Ceiling Removal",
   "House Painting",
   "Exterior Painting",
   "Interior Painting",
@@ -18,6 +19,7 @@ const tickerServices = [
   "Drywall Repairs",
   "Commercial Painting",
   "Painter for a Day",
+  "Popcorn Ceiling Removal",
 ];
 
 const navItems = [
@@ -33,6 +35,7 @@ const navItems = [
       { label: "Pressure Washing", href: "/services/pressure-washing" },
       { label: "Commercial Painting", href: "/services/commercial-painting" },
       { label: "Painter for a Day", href: "/services/painter-for-a-day" },
+      { label: "Popcorn Ceiling Removal", href: "/services/popcorn-ceiling-removal" },
     ],
   },
   {

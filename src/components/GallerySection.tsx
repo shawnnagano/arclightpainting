@@ -1,5 +1,11 @@
 import { motion } from "framer-motion";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
+import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
+import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
+import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-3.webp";
+import drywallSanding from "@/assets/drywall-sanding.jpg";
+import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-bothell.jpg";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 
 interface GalleryImage {
   src: string;
@@ -71,6 +77,14 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg", alt: "Quick cabinet touch-up from one-day service" },
     { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "One-day painting touch-up results" },
     { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen refresh from Painter-for-a-Day service" },
+  ],
+  "Popcorn Ceiling Removal": [
+    { src: popcornCeilingHero, alt: "Popcorn ceiling texture being scraped off" },
+    { src: popcornCeiling1, alt: "Workers removing popcorn ceiling in contained room" },
+    { src: popcornCeiling2, alt: "Painter rolling smooth finish on ceiling after removal" },
+    { src: popcornCeiling3, alt: "Professional spraying popcorn ceiling for removal" },
+    { src: drywallSanding, alt: "Sanding ceiling smooth after popcorn removal" },
+    { src: popcornCeilingBothell, alt: "Popcorn ceiling removal project in Bothell" },
   ],
 };
 

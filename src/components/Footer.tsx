@@ -94,6 +94,7 @@ const Footer = () => {
               <li><Link to="/services/pressure-washing" className="hover:text-accent transition-colors">Pressure Washing</Link></li>
               <li><Link to="/services/commercial-painting" className="hover:text-accent transition-colors">Commercial Painting</Link></li>
               <li><Link to="/services/painter-for-a-day" className="hover:text-accent transition-colors">Painter for a Day</Link></li>
+              <li><Link to="/services/popcorn-ceiling-removal" className="hover:text-accent transition-colors">Popcorn Ceiling Removal</Link></li>
             </ul>
           </div>
 
