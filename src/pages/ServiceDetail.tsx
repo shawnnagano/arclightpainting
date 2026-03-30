@@ -168,7 +168,7 @@ const ServiceDetail = () => {
   return (
     <div className="min-h-screen">
       <SEOHead
-        title={`${service.title} in Bothell, WA | Arclight Painting`}
+        title={`${service.title} in Bothell | Arclight Painting`}
         description={service.description[0].slice(0, 155) + "..."}
         canonical={`/services/${slug}`}
         jsonLd={[
