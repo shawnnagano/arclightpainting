@@ -114,10 +114,10 @@ const serviceData: Record<string, {
   },
   "commercial-painting": {
     title: "Commercial Painting",
-    tagline: "Professional Spaces Deserve a Professional Finish",
+    tagline: "Commercial Painting Tailored to Your Business",
     description: [
-      "Enhance your business space with expert commercial painting services designed for durability and a polished look. First impressions matter, and a professionally painted commercial space communicates quality and attention to detail.",
-      "We work around your business schedule to minimize disruption, offering evening and weekend availability. From offices to retail spaces, we deliver on time and on budget.",
+      "Enhance your commercial space with our commercial painting services designed for durability and a polished look. Commercial painting services designed around your business, schedule, and standards.",
+      "From offices and retail spaces to occupied commercial properties, we deliver clean, professional results with minimal disruption to your operations.",
     ],
     image: commercialHero,
     benefits: [
