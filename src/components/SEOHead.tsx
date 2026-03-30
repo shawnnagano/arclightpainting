@@ -10,7 +10,7 @@ interface SEOHeadProps {
 }
 
 const SITE_URL = "https://arclightpainting.com";
-const DEFAULT_OG_IMAGE = "https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png";
+const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", jsonLd }: SEOHeadProps) => {
   const fullTitle = title.includes("Arclight") ? title : `${title} | Arclight Painting`;
