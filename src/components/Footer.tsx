@@ -52,17 +52,20 @@ const Footer = () => {
       </Link>
 
       {/* Trust badges */}
-      <div className="container mx-auto px-4 py-8 border-b border-border">
-        <div className="flex flex-wrap items-center justify-center gap-8">
-          {badges.map((badge) => (
-            <img
-              key={badge.alt}
-              src={badge.src}
-              alt={badge.alt}
-              className="h-12 md:h-16 object-contain rounded p-1"
-              loading="lazy"
-            />
-          ))}
+      <div className="bg-accent/10 border-y border-accent/20">
+        <div className="container mx-auto px-4 py-10">
+          <h4 className="text-center text-sm font-bold tracking-widest uppercase text-accent mb-6">Trusted & Certified</h4>
+          <div className="flex flex-wrap items-center justify-center gap-10">
+            {badges.map((badge) => (
+              <img
+                key={badge.alt}
+                src={badge.src}
+                alt={badge.alt}
+                className="h-14 md:h-20 object-contain rounded-lg bg-white/90 p-2 shadow-md"
+                loading="lazy"
+              />
+            ))}
+          </div>
         </div>
       </div>
 
