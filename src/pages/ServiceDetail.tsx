@@ -139,6 +139,19 @@ const ServiceDetail = () => {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title={`${service.title} in Bothell, WA | Arclight Painting`}
+        description={service.description[0].slice(0, 155) + "..."}
+        canonical={`/services/${slug}`}
+        jsonLd={[
+          serviceSchema(service.title, service.description[0], slug || ""),
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Services", url: "/services" },
+            { name: service.title, url: `/services/${slug}` },
+          ]),
+        ]}
+      />
       <Header />
 
       {/* Hero */}
