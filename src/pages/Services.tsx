@@ -42,6 +42,7 @@ const Services = () => {
       </section>
 
       <ServicesSection hideHeader />
+      <FAQSection faqs={generalFAQ} />
       <CTASection />
       <Footer />
     </div>
