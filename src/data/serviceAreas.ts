@@ -42,7 +42,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kirkland_Marina_Park_01.jpg/1280px-Kirkland_Marina_Park_01.jpg",
   },
   {
     name: "Redmond",
