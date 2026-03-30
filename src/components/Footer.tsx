@@ -125,7 +125,8 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
                 Bothell, WA
               </li>
-              <li>
+              <li className="flex items-center gap-2">
+                <MessageSquareQuote className="h-4 w-4 text-accent" />
                 <Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link>
               </li>
             </ul>
