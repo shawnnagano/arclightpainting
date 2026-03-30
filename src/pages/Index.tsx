@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import homeHero from "@/assets/home-hero.webp";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OwnersSection from "@/components/OwnersSection";
@@ -54,7 +55,7 @@ const Index = () => {
         jsonLd={[localBusinessSchema, homeFaqSchema]}
       />
       <Header />
-      <HeroSection />
+      <HeroSection heroImage={homeHero} />
       <TestimonialsSection />
       <OwnersSection />
       <ServicesSection />
