@@ -119,7 +119,7 @@ const serviceData: Record<string, {
       "Enhance your business space with expert commercial painting services designed for durability and a polished look. First impressions matter, and a professionally painted commercial space communicates quality and attention to detail.",
       "We work around your business schedule to minimize disruption, offering evening and weekend availability. From offices to retail spaces, we deliver on time and on budget.",
     ],
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
+    image: commercialHero,
     benefits: [
       "Flexible scheduling — evenings and weekends available",
       "Minimal disruption to your business operations",
