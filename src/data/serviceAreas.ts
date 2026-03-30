@@ -59,7 +59,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Marymoor_Park_aerial.jpg/1280px-Marymoor_Park_aerial.jpg",
   },
   {
     name: "Cottage Lake",
