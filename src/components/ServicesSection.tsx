@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock } from "lucide-react";
+import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 
