@@ -3,26 +3,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Star } from "lucide-react";
 
-const reviews = [
-  {
-    name: "Ajili Hodari",
-    time: "1 day ago",
-    text: "Excellent painting with attention to detail. I highly recommend Arclight Painting for anyone looking for skilled professional painters!",
-    stars: 5,
-  },
-  {
-    name: "Abby Cooper",
-    time: "1 month ago",
-    text: "Shawn did an amazing job! His work was excellent and he was very helpful. I would highly recommend him. He painted our ceilings which was not an easy job.",
-    stars: 5,
-  },
-  {
-    name: "Mckinsley Reynolds III",
-    time: "2 months ago",
-    text: "I am very satisfied with the workmanship. Very detailed and professional. I will recommend to friends and family.",
-    stars: 5,
-  },
-];
+
 
 interface HeroSectionProps {
   cityName?: string;
