@@ -66,69 +66,34 @@ const HeroSection = ({ cityName = "Bothell", heroImage }: HeroSectionProps) => {
             </p>
           </motion.div>
 
-          {/* Google Reviews Widget */}
+          {/* Google Rating Summary */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="space-y-3 max-w-sm"
+            className="flex items-center gap-2 pt-2"
           >
-            {reviews.map((review) => (
-              <div
-                key={review.name}
-                className="bg-white/90 backdrop-blur-sm rounded-lg p-4 border border-border/50 shadow-sm"
-              >
-                <div className="flex items-center gap-3 mb-2">
-                  <div className="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center">
-                    <span className="text-accent font-bold text-xs">
-                      {review.name.split(" ").map(n => n[0]).join("").slice(0, 2)}
-                    </span>
-                  </div>
-                  <div className="flex-1">
-                    <p className="font-semibold text-sm text-foreground">{review.name}</p>
-                    <p className="text-xs text-muted-foreground">{review.time}</p>
-                  </div>
-                  <img
-                    src="https://cdn.trustindex.io/assets/platform/Google/icon.svg"
-                    alt="Google"
-                    className="w-5 h-5"
-                  />
-                </div>
-                <div className="flex mb-1">
-                  {[...Array(review.stars)].map((_, i) => (
-                    <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-xs text-muted-foreground leading-relaxed line-clamp-2">
-                  {review.text}
-                </p>
-              </div>
-            ))}
-
-            {/* Google Rating Summary */}
-            <div className="flex items-center gap-2 pt-1">
-              <span className="text-lg font-bold text-[#4285F4]">G</span>
-              <span className="text-lg font-bold text-[#EA4335]">o</span>
-              <span className="text-lg font-bold text-[#FBBC05]">o</span>
-              <span className="text-lg font-bold text-[#4285F4]">g</span>
-              <span className="text-lg font-bold text-[#34A853]">l</span>
-              <span className="text-lg font-bold text-[#EA4335]">e</span>
-              <span className="ml-2 text-sm text-muted-foreground">
-                <span className="font-bold text-foreground">4.9</span>
-              </span>
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-              <Link
-                to="/reviews"
-                className="text-sm text-accent font-semibold hover:underline"
-              >
-                Read All Reviews →
-              </Link>
-              <span className="text-sm text-muted-foreground">269 reviews</span>
+            <span className="text-lg font-bold text-[#4285F4]">G</span>
+            <span className="text-lg font-bold text-[#EA4335]">o</span>
+            <span className="text-lg font-bold text-[#FBBC05]">o</span>
+            <span className="text-lg font-bold text-[#4285F4]">g</span>
+            <span className="text-lg font-bold text-[#34A853]">l</span>
+            <span className="text-lg font-bold text-[#EA4335]">e</span>
+            <span className="ml-2 text-sm text-muted-foreground">
+              <span className="font-bold text-foreground">4.9</span>
+            </span>
+            <div className="flex">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
+              ))}
             </div>
+            <Link
+              to="/reviews"
+              className="text-sm text-accent font-semibold hover:underline"
+            >
+              Read All Reviews →
+            </Link>
+            <span className="text-sm text-muted-foreground">269 reviews</span>
           </motion.div>
         </div>
       </div>
