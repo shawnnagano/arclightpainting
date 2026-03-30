@@ -53,7 +53,7 @@ const ValuesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-black text-center mb-12"
+          className="text-3xl md:text-4xl font-bold text-center mb-12"
         >
           The Arclight Painting Difference
         </motion.h2>
@@ -70,7 +70,7 @@ const ValuesSection = () => {
               <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-accent/20 mb-5">
                 <v.icon className="h-7 w-7 text-accent" />
               </div>
-              <h3 className="text-xl font-black mb-1 text-accent">{v.title}</h3>
+              <h3 className="text-xl font-bold mb-1 text-accent">{v.title}</h3>
               <p className="text-lg font-semibold mb-3">{v.subtitle}</p>
               <p className="text-sm text-muted-foreground mb-5 leading-relaxed">{v.description}</p>
               <ul className="space-y-2">

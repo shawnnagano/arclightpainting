@@ -155,7 +155,7 @@ const ServiceDetail = () => {
       <div className="min-h-screen">
         <Header />
         <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="text-3xl font-black mb-4">Service Not Found</h1>
+          <h1 className="text-3xl font-bold mb-4">Service Not Found</h1>
           <Link to="/services">
             <Button>Back to Services</Button>
           </Link>

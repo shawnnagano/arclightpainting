@@ -29,7 +29,7 @@ const Schedule = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-12">
-          <h1 className="text-3xl md:text-4xl font-black mb-2">
+          <h1 className="text-3xl md:text-4xl font-bold mb-2">
             Schedule Your <span className="text-accent">Free Estimate</span>
           </h1>
           <p className="text-muted-foreground">

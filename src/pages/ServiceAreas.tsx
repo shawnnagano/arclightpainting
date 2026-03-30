@@ -34,7 +34,7 @@ const ServiceAreas = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-4xl md:text-5xl font-black mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Areas We <span className="text-accent">Serve</span>
           </h1>
           <p className="text-muted-foreground max-w-2xl">

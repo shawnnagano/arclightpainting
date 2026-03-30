@@ -41,10 +41,10 @@ const Pricing = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-4xl md:text-6xl font-black uppercase mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold uppercase mb-4">
             Above & Beyond Pricing:
           </h1>
-          <h2 className="text-3xl md:text-5xl font-black text-accent uppercase">
+          <h2 className="text-3xl md:text-5xl font-bold text-accent uppercase">
             Transparency & Value
           </h2>
         </div>
@@ -53,7 +53,7 @@ const Pricing = () => {
       {/* Transparency Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl md:text-4xl font-black mb-6 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
             How Much Will It <span className="text-accent">Cost?</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
@@ -83,7 +83,7 @@ const Pricing = () => {
       {/* Why Not Cheapest */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-black mb-6 text-center">
+          <h2 className="text-3xl font-bold mb-6 text-center">
             Why Not Just Choose The <span className="text-accent">Cheapest</span> Quote?
           </h2>
           <p className="text-muted-foreground mb-6">
@@ -109,7 +109,7 @@ const Pricing = () => {
       {/* Investing in Quality */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-black mb-8 text-center">
+          <h2 className="text-3xl font-bold mb-8 text-center">
             Investing in <span className="text-accent">Quality</span> and Long-Term Value
           </h2>
           <div className="grid md:grid-cols-3 gap-6 mb-10">
@@ -130,12 +130,12 @@ const Pricing = () => {
       {/* Blueprint */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-3xl font-black mb-2">The Above & Beyond Blueprint</h2>
+          <h2 className="text-3xl font-bold mb-2">The Above & Beyond Blueprint</h2>
           <p className="text-muted-foreground mb-10">Painting Made Simple and Stress-Free</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {blueprintSteps.map((step, i) => (
               <div key={step} className="bg-card border border-border rounded-lg p-4">
-                <span className="text-accent font-black text-2xl">0{i + 1}</span>
+                <span className="text-accent font-bold text-2xl">0{i + 1}</span>
                 <p className="font-semibold text-sm mt-2">{step}</p>
               </div>
             ))}
@@ -146,7 +146,7 @@ const Pricing = () => {
       {/* CTA */}
       <section className="py-16 bg-background text-center">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-black mb-6">Ready to Transform Your Space?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Space?</h2>
           <Link to="/schedule">
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8">
               Get A Fast Quote →

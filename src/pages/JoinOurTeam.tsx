@@ -69,7 +69,7 @@ const JoinOurTeam = () => {
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-5xl font-extrabold mb-6"
+              className="text-4xl md:text-5xl font-bold mb-6"
             >
               Join Our Team!
             </motion.h1>
