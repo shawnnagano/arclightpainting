@@ -24,7 +24,7 @@ const navItems = [
   { label: "HOME", href: "/" },
   {
     label: "SERVICES",
-    href: "/services",
+    href: "",
     children: [
       { label: "Interior Painting", href: "/services/interior-painting" },
       { label: "Exterior Painting", href: "/services/exterior-painting" },
@@ -37,7 +37,7 @@ const navItems = [
   },
   {
     label: "ABOUT",
-    href: "/about",
+    href: "",
     children: [
       { label: "Blog", href: "/blog" },
       { label: "Join Our Team", href: "/join-our-team" },
