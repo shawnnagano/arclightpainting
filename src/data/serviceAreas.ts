@@ -25,7 +25,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Bothell, WA. Interior, exterior, cabinet refinishing & more. Arclight Painting delivers quality craftsmanship with our Above & Beyond Blueprint™.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
   },
   {
     name: "Kirkland",
@@ -76,7 +76,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Cottage_Lake%2C_Washington.jpg/1280px-Cottage_Lake%2C_Washington.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cottage_Lake_%28Washington%29_2026_-_01.jpg/1280px-Cottage_Lake_%28Washington%29_2026_-_01.jpg",
   },
   {
     name: "Kenmore",
@@ -93,7 +93,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg/1280px-Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg/1280px-Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg",
   },
   {
     name: "Mill Creek",
@@ -110,7 +110,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
   },
   {
     name: "Bellevue",
@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Union Hill-Novelty Hill, WA. Arclight Painting provides expert residential painting, cabinet refinishing, and drywall repair.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Redmond_Ridge_-_views_of_Cascades_01.jpg/1280px-Redmond_Ridge_-_views_of_Cascades_01.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cascade_Range_cabin_%28Unsplash%29.jpg/1280px-Cascade_Range_cabin_%28Unsplash%29.jpg",
   },
   {
     name: "Clearview",
@@ -161,7 +161,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Snohomish_River_Valley_near_Snohomish%2C_WA.jpg/1280px-Snohomish_River_Valley_near_Snohomish%2C_WA.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Snohomish%2C_WA_-_Marks_Building_01.jpg/1280px-Snohomish%2C_WA_-_Marks_Building_01.jpg",
   },
   {
     name: "Everett",
@@ -212,6 +212,6 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chateau_Ste._Michelle_02.jpg/1280px-Chateau_Ste._Michelle_02.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
   },
 ];
