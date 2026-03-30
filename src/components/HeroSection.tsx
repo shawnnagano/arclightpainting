@@ -46,7 +46,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
               ) : (
                 <span className="text-accent">{displayTitle}</span>
               )}
-              {" "}in {cityName}, WA
+              {" "}in {cityName}
             </h1>
             <p className="text-xl md:text-2xl font-semibold mb-8">
               Real <span className="text-accent">People.</span> Real{" "}
