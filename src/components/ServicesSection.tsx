@@ -45,7 +45,7 @@ const services = [
     title: "Commercial Painting",
     description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
     icon: Building2,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
+    image: commercialHero,
     link: "/services/commercial-painting",
   },
   {
