@@ -212,6 +212,6 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Chateau_Ste._Michelle_02.jpg/1280px-Chateau_Ste._Michelle_02.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
   },
 ];
