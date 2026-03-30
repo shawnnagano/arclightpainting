@@ -51,7 +51,7 @@ const serviceData: Record<string, {
       "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA. We know the Pacific Northwest weather demands durable, high-quality finishes that stand the test of time.",
       "Our exterior painting process includes thorough power washing, scraping, sanding, caulking, and priming before we apply any paint. The result is a beautiful, long-lasting finish that protects your home for years to come.",
     ],
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg",
+    image: exteriorHero,
     benefits: [
       "Weather-resistant premium exterior paints",
       "Complete surface prep: power wash, scrape, sand, caulk",
