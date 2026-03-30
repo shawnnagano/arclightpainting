@@ -126,7 +126,7 @@ const serviceData: Record<string, {
     ],
   },
   "painter-for-a-day": {
-    title: "Painter for a Day",
+    title: "One-Day Painting Service",
     tagline: "One Professional. One Day. One Fresh New Look.",
     description: [
       "Need a quick refresh? Our Painter-for-a-Day service gives you a skilled, background-checked painter dedicated to your home for a full 8 hours. Perfect for touch-ups, small projects, or that one room you've been meaning to update.",
