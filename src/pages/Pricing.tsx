@@ -53,7 +53,7 @@ const Pricing = () => {
             This is often the first question homeowners ask—but it's usually the last one painting companies want to answer. At Arclight Painting, we believe in complete transparency when it comes to pricing. That's why we always provide a detailed quote that reflects the true cost of quality work—no hidden fees, no surprises.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
-            <h3 className="font-bold text-lg mb-4">Our on-the-spot quotes include:</h3>
+            <h3 className="font-bold text-lg mb-4">All of our quotes include:</h3>
             <ul className="space-y-3">
               {[
                 "Labor (estimated hours required)",
