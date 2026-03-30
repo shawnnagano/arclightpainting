@@ -114,13 +114,6 @@ const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <Link to="/services">
-            <Button variant="outline" className="font-semibold">
-              Explore Our Services
-            </Button>
-          </Link>
-        </div>
       </div>
     </section>
   );
