@@ -38,9 +38,15 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-black leading-[1.1] mb-6 uppercase tracking-tight">
-              Professional{" "}
-              <span className="text-accent">House<br className="hidden md:block" /> Painters</span>{" "}
-              in {cityName}, WA
+              {displayTitle.includes(" ") ? (
+                <>
+                  {displayTitle.split(" ").slice(0, 1).join(" ")}{" "}
+                  <span className="text-accent">{displayTitle.split(" ").slice(1).join(" ")}</span>
+                </>
+              ) : (
+                <span className="text-accent">{displayTitle}</span>
+              )}
+              {" "}in {cityName}, WA
             </h1>
             <p className="text-xl md:text-2xl font-semibold mb-8">
               Real <span className="text-accent">People.</span> Real{" "}
