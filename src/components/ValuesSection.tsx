@@ -48,6 +48,15 @@ const ValuesSection = () => {
   return (
     <section id="about" className="py-20 bg-background text-foreground">
       <div className="container mx-auto px-4">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-3xl md:text-4xl font-black text-center mb-12"
+        >
+          The Arclight Painting Difference
+        </motion.h2>
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (
             <motion.div
