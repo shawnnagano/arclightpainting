@@ -178,7 +178,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
   },
   {
     name: "Lake Forest Park",
