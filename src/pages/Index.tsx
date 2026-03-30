@@ -55,7 +55,7 @@ const Index = () => {
         jsonLd={[localBusinessSchema, homeFaqSchema]}
       />
       <Header />
-      <HeroSection />
+      <HeroSection heroImage={homeHero} />
       <TestimonialsSection />
       <OwnersSection />
       <ServicesSection />
