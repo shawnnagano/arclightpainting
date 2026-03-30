@@ -60,29 +60,31 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="flex items-center gap-2 pt-2"
+            className="pt-2"
           >
-            <span className="text-lg font-bold text-[#4285F4]">G</span>
-            <span className="text-lg font-bold text-[#EA4335]">o</span>
-            <span className="text-lg font-bold text-[#FBBC05]">o</span>
-            <span className="text-lg font-bold text-[#4285F4]">g</span>
-            <span className="text-lg font-bold text-[#34A853]">l</span>
-            <span className="text-lg font-bold text-[#EA4335]">e</span>
-            <span className="ml-2 text-sm text-muted-foreground">
-              <span className="font-bold text-foreground">4.9</span>
-            </span>
-            <div className="flex">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
-              ))}
+            <div className="flex items-center gap-2">
+              <span className="text-lg font-bold text-[#4285F4]">G</span>
+              <span className="text-lg font-bold text-[#EA4335]">o</span>
+              <span className="text-lg font-bold text-[#FBBC05]">o</span>
+              <span className="text-lg font-bold text-[#4285F4]">g</span>
+              <span className="text-lg font-bold text-[#34A853]">l</span>
+              <span className="text-lg font-bold text-[#EA4335]">e</span>
+              <span className="ml-2 font-bold text-foreground">4.9</span>
+              <div className="flex">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
             </div>
-            <Link
-              to="/reviews"
-              className="text-sm text-accent font-semibold hover:underline"
-            >
-              Read All Reviews →
-            </Link>
-            <span className="text-sm text-muted-foreground">269 reviews</span>
+            <div className="flex items-center gap-2 mt-1">
+              <Link
+                to="/reviews"
+                className="text-sm text-accent font-semibold hover:underline"
+              >
+                Read All Reviews →
+              </Link>
+              <span className="text-sm text-muted-foreground">269 reviews</span>
+            </div>
           </motion.div>
         </div>
       </div>
