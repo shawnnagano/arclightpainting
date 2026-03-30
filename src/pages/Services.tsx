@@ -2,10 +2,20 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServicesSection from "@/components/ServicesSection";
 import CTASection from "@/components/CTASection";
+import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 
 const Services = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead
+        title="Our Painting Services | Arclight Painting Bothell, WA"
+        description="Explore Arclight Painting's full range of services: interior painting, exterior painting, cabinet refinishing, drywall repair, pressure washing, and commercial painting in Bothell, WA."
+        canonical="/services"
+        jsonLd={breadcrumbSchema([
+          { name: "Home", url: "/" },
+          { name: "Services", url: "/services" },
+        ])}
+      />
       <Header />
 
       {/* Hero with background image */}
