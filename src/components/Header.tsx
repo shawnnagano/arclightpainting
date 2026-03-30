@@ -32,6 +32,7 @@ const navItems = [
       { label: "Drywall Repair", href: "/services/drywall-repair" },
       { label: "Pressure Washing", href: "/services/pressure-washing" },
       { label: "Commercial Painting", href: "/services/commercial-painting" },
+      { label: "Painter for a Day", href: "/services/painter-for-a-day" },
     ],
   },
   {
