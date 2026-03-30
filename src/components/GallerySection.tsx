@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 
 interface GalleryImage {
   src: string;
@@ -6,88 +7,70 @@ interface GalleryImage {
 }
 
 const defaultImages: GalleryImage[] = [
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg",
-    alt: "Bright kitchen with white cabinets and granite countertops",
-  },
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
-    alt: "Classic white clapboard house with black shutters",
-  },
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg",
-    alt: "Modern two-story home with white siding and black trim",
-  },
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
-    alt: "Light blue two-story house with brick chimney",
-  },
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg",
-    alt: "Multi-story log cabin home with green trim",
-  },
-  {
-    src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg",
-    alt: "Two-story home with sage green siding",
-  },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Suburban home with gray and beige siding after exterior painting" },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Bright kitchen with white painted cabinets and granite countertops" },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Wood-Staining-Arclight-Painting-Bothell-WA.png", alt: "Rustic log cabin with freshly stained wood exterior" },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Two-story house painted deep blue with white trim" },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exteiror-House-Painting-Green-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with sage green siding and dark trim" },
+  { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with brown siding and stone accents" },
 ];
 
 const serviceImages: Record<string, GalleryImage[]> = {
   "Interior Painting": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright kitchen with white cabinets after interior painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Beautiful interior wall painting in living room" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Freshly painted interior bedroom walls" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Interior painting with clean trim work" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Modern interior repaint with accent colors" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg", alt: "Interior painting project completed" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Beautiful interior room with freshly painted walls" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright kitchen interior with white cabinets after painting" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen interior with freshly painted white cabinets" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight painter working on interior trim details" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg", alt: "Interior cabinet and wall painting project" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "Smooth interior walls after professional painting" },
   ],
   "Exterior Painting": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Classic white clapboard house exterior painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Modern two-story home exterior paint job" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Light blue house exterior painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg", alt: "Log cabin home exterior staining and painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg", alt: "Sage green exterior paint project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting with trim detail" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Suburban home with gray and beige siding after exterior painting" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Two-story house painted deep blue with crisp white trim" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exteiror-House-Painting-Green-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with sage green siding and dark trim" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with brown siding and stone accents" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Wood-Staining-Arclight-Painting-Bothell-WA.png", alt: "Rustic log cabin with freshly stained wood exterior" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-3-1-683x1024.jpg", alt: "Home exterior with professional paint finish" },
   ],
   "Cabinet Refinishing": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "White kitchen cabinets after refinishing" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Bright kitchen with white refinished cabinets and granite countertops" },
     { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg", alt: "Refinished kitchen cabinets with modern finish" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Cabinet refinishing with granite countertops" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen cabinet painting project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Cabinet refinishing before and after" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Refinished bathroom vanity cabinets" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Kitchen with freshly refinished white cabinets" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen cabinet refinishing project with smooth finish" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight painter applying cabinet finish" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "Completed cabinet refinishing with flawless results" },
   ],
   "Drywall Repair": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "Seamless drywall repair and painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Drywall patch with texture matching" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Repaired and painted walls" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Drywall repair with smooth finish" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Wall repair and repaint project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Completed drywall and painting project" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "Seamless drywall repair with smooth finish" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Interior walls after drywall repair and painting" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight professional performing wall repairs" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Repaired and painted interior walls" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg", alt: "Wall repair and repaint with texture matching" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen walls after drywall repair and fresh paint" },
   ],
   "Pressure Washing": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Home exterior after pressure washing" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Pressure washed siding and trim" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg", alt: "Deck and siding pressure washing" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg", alt: "Clean home exterior after pressure washing" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Pressure washed walkway and patio" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway — clean results" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/deck-and-fence-cleaning-0-1.jpg", alt: "Deck after professional pressure washing" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/Pressure-Washing-Company-10-1.jpg", alt: "Walkway after pressure washing service" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/vinyl-siding-cleaning-house-washing-1.jpg", alt: "Vinyl siding cleaned with pressure washing" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/house-washing-1.jpg", alt: "House exterior after professional washing" },
   ],
   "Commercial Painting": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp", alt: "Commercial office painting project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "Commercial building exterior painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Office interior commercial painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Retail space commercial paint job" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Commercial property painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2023/11/House-Painting-Bothell-WA-Blog-Post.jpg", alt: "Commercial exterior painting project" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp", alt: "Commercial office space with professional paint finish" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Team-Arclight-Painting-Bothell-WA.png", alt: "Arclight Painting team in front of commercial building" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Commercial property exterior painting" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Commercial building with fresh exterior paint" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Commercial interior painting project" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Commercial property exterior finish" },
   ],
   "One-Day Painting Service": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "One-day painting accent wall project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Quick kitchen refresh painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg", alt: "One-day touch-up painting project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-076.jpg", alt: "Door and trim painting in one day" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg", alt: "Same-day painting service results" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg", alt: "One-day exterior touch-up project" },
+    { src: painterForADayHero, alt: "Arclight Painter-for-a-Day professional at work" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Professional painter working on trim and details" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "One-day accent wall painting project" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg", alt: "Quick cabinet touch-up from one-day service" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg", alt: "One-day painting touch-up results" },
+    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen refresh from Painter-for-a-Day service" },
   ],
 };
 
