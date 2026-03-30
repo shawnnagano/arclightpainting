@@ -9,8 +9,10 @@ import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
+import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import { serviceAreas } from "@/data/serviceAreas";
+import { generalFAQ } from "@/data/faqData";
 import { Heart } from "lucide-react";
 import { motion } from "framer-motion";
 import SEOHead, { serviceAreaSchema, breadcrumbSchema } from "@/components/SEOHead";
@@ -85,7 +87,10 @@ const ServiceAreaDetail = () => {
       {/* 8. Gallery */}
       <GallerySection cityName={area.name} />
 
-      {/* 9. CTA */}
+      {/* 9. FAQ */}
+      <FAQSection faqs={generalFAQ} />
+
+      {/* 10. CTA */}
       <CTASection cityName={area.name} serviceName="House Painters" />
 
       <Footer />

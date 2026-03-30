@@ -7,9 +7,11 @@ import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
+import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import SEOHead, { localBusinessSchema } from "@/components/SEOHead";
+import { generalFAQ } from "@/data/faqData";
 
 const homeFaqSchema = {
   "@context": "https://schema.org",
@@ -60,6 +62,7 @@ const Index = () => {
       <GuaranteeSection />
       <BlueprintSection />
       <GallerySection />
+      <FAQSection faqs={generalFAQ} />
       <CTASection />
       <Footer />
     </div>
