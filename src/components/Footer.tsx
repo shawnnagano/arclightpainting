@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map.png";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned.png";
 
@@ -125,7 +125,8 @@ const Footer = () => {
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
                 Bothell, WA
               </li>
-              <li>
+              <li className="flex items-center gap-2">
+                <MessageSquareQuote className="h-4 w-4 text-accent" />
                 <Link to="/schedule" className="hover:text-accent transition-colors">Get A Quote</Link>
               </li>
             </ul>
