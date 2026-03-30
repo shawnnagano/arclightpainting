@@ -214,4 +214,21 @@ export const serviceAreas: ServiceArea[] = [
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
   },
+  {
+    name: "Seattle",
+    slug: "seattle",
+    state: "Washington",
+    description:
+      "Seattle's diverse neighborhoods — from Capitol Hill to Ballard to West Seattle — deserve a painting team that understands the city's eclectic architecture. Arclight brings premium craftsmanship to Seattle homes and businesses, whether it's a classic Craftsman bungalow or a modern condo.",
+    localFlavor:
+      "Seattle is where it all comes together — world-class food, incredible views, and neighborhoods that each have their own personality. We love grabbing Pike Place chowder before a downtown job, or coffee from Elm Coffee Roasters in Pioneer Square. From painting Craftsman homes in Wallingford to refreshing Victorians on Capitol Hill, every Seattle project has its own story. The views of the Space Needle, Mount Rainier on a clear day, and the Puget Sound from the waterfront never get old. Seattle homeowners care deeply about their homes, and we match that passion with meticulous work on every project.",
+    highlights: [
+      "Serving all Seattle neighborhoods from Ballard to Beacon Hill",
+      "Experienced with Seattle's diverse architectural styles",
+      "Moisture-resistant coatings built for Seattle's maritime climate",
+    ],
+    metaDescription:
+      "Professional house painters in Seattle, WA. Arclight Painting offers interior & exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/SeattleI5Skyline.jpg/1280px-SeattleI5Skyline.jpg",
+  },
 ];
