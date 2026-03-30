@@ -39,11 +39,11 @@ const Schedule = () => {
         </div>
       </section>
 
-      <section className="py-8">
+      <section className="py-8" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-4xl mx-auto px-4">
           <iframe
             src="https://link.arclightpainting.com/widget/booking/DbWlnGU0qizPxoW7pKkA"
-            style={{ width: "100%", height: "2200px", border: "none", background: "transparent" }}
+            style={{ width: "100%", height: "2200px", border: "none", background: "#ffffff" }}
             title="Schedule a booking with Arclight Painting"
           />
         </div>
