@@ -161,7 +161,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Snohomish_River_Valley_near_Snohomish%2C_WA.jpg/1280px-Snohomish_River_Valley_near_Snohomish%2C_WA.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Snohomish%2C_WA_-_Marks_Building_01.jpg/1280px-Snohomish%2C_WA_-_Marks_Building_01.jpg",
   },
   {
     name: "Everett",
