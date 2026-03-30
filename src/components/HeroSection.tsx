@@ -87,18 +87,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
         </div>
       </div>
 
-      {/* Floating CTA Button */}
-      <Link
-        to="/schedule"
-        className="fixed bottom-6 right-6 z-50 hidden md:block"
-      >
-        <Button
-          size="lg"
-          className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-lg px-8 py-6 rounded-md shadow-2xl"
-        >
-          Get A Fast Quote →
-        </Button>
-      </Link>
+
     </section>
   );
 };
