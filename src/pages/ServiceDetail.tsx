@@ -194,8 +194,7 @@ const ServiceDetail = () => {
       {/* 3. Owners */}
       <OwnersSection />
 
-      {/* 4. Services */}
-      <ServicesSection />
+      {/* 4. USPs / Values */}
 
       {/* 5. USPs / Values */}
       <ValuesSection />
