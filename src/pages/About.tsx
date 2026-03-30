@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
@@ -59,6 +61,17 @@ const teamLeaders = [
 ];
 
 const About = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (hash) {
+      const el = document.querySelector(hash);
+      if (el) {
+        setTimeout(() => el.scrollIntoView({ behavior: "smooth" }), 100);
+      }
+    }
+  }, [hash]);
+
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
@@ -97,7 +110,7 @@ const About = () => {
       </section>
 
       {/* 25 Years of Service */}
-      <section className="py-16 bg-background">
+      <section id="our-story" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-black mb-8 text-center">
             25 Years of <span className="text-accent">Service</span>
@@ -117,7 +130,7 @@ const About = () => {
       </section>
 
       {/* Empowered Leaders */}
-      <section className="py-16 bg-secondary">
+      <section id="our-team" className="py-16 bg-secondary scroll-mt-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-black text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
@@ -185,6 +198,45 @@ const About = () => {
                   <span className="text-accent font-bold">{name.split(" ").map(n => n[0]).join("")}</span>
                 </div>
                 <p className="font-semibold text-sm">{name}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Our Values */}
+      <section id="our-values" className="py-16 bg-background scroll-mt-24">
+        <div className="container mx-auto px-4 max-w-5xl">
+          <h2 className="text-3xl md:text-4xl font-black text-center mb-12">
+            Our <span className="text-accent">Values</span>
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {[
+              {
+                title: "Honesty",
+                icon: "🪞",
+                desc: "We tell the truth — about timelines, pricing, and what your home truly needs. No surprises, no shortcuts.",
+              },
+              {
+                title: "Ownership",
+                icon: "🛡️",
+                desc: "We treat every project like it's our own home. If something isn't right, we make it right — no excuses.",
+              },
+              {
+                title: "Friendship",
+                icon: "🤝",
+                desc: "We build genuine relationships with our clients and each other. Every interaction is grounded in respect and care.",
+              },
+              {
+                title: "Family",
+                icon: "🏡",
+                desc: "Our team is a family. We support one another, celebrate wins together, and show up for each other every day.",
+              },
+            ].map((value) => (
+              <div key={value.title} className="text-center p-6 rounded-xl border border-border bg-card shadow-sm">
+                <div className="text-4xl mb-4">{value.icon}</div>
+                <h3 className="font-bold text-xl mb-3">{value.title}</h3>
+                <p className="text-muted-foreground text-sm leading-relaxed">{value.desc}</p>
               </div>
             ))}
           </div>
