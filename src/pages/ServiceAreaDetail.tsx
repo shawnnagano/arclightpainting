@@ -24,7 +24,7 @@ const ServiceAreaDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title={`Professional House Painters in ${area.name}, WA | Arclight Painting`}
+        title={`Professional House Painters in ${area.name} | Arclight Painting`}
         description={area.metaDescription}
         canonical={`/service-areas/${area.slug}`}
         jsonLd={[
