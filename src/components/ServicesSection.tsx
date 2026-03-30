@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 
 const services = [
   {
@@ -50,7 +51,7 @@ const services = [
     title: "Painter for a Day",
     description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
     icon: Clock,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
+    image: painterForADayHero,
     link: "/services/painter-for-a-day",
   },
 ];
