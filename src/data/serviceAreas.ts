@@ -93,7 +93,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-075.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg/1280px-Log_Boom_Park_pier%2C_Kenmore%2C_Washington.jpg",
   },
   {
     name: "Mill Creek",
