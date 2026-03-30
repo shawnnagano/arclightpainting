@@ -125,6 +125,25 @@ const serviceData: Record<string, {
       "Licensed, bonded, and insured",
     ],
   },
+  "painter-for-a-day": {
+    title: "Painter for a Day",
+    tagline: "One Professional. One Day. One Fresh New Look.",
+    description: [
+      "Need a quick refresh? Our Painter-for-a-Day service gives you a skilled, background-checked painter dedicated to your home for a full 8 hours. Perfect for touch-ups, small projects, or that one room you've been meaning to update.",
+      "You provide the checklist, we provide the painter. From touch-up work and accent walls to painting entry doors and repairing trim — our Painter-for-a-Day handles it all. No estimate needed. Quality work guaranteed. ALL FOR JUST $689 FOR THE DAY!",
+    ],
+    image: painterForADayHero,
+    benefits: [
+      "A professional painter for one full day (8 hours)",
+      "Expertise in prep, painting, and clean-up",
+      "Touch-up work and accent walls",
+      "Repairing damaged woodwork, baseboards, or trim",
+      "Painting or staining entry doors",
+      "Touch-ups for faded exterior trim",
+      "Pressure/power washing for your home's exterior",
+      "No estimate needed — just book and go",
+    ],
+  },
 };
 
 const ServiceDetail = () => {

@@ -46,6 +46,13 @@ const services = [
     image: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp",
     link: "/services/commercial-painting",
   },
+  {
+    title: "Painter for a Day",
+    description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
+    icon: Clock,
+    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
+    link: "/services/painter-for-a-day",
+  },
 ];
 
 const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
