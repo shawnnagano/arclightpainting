@@ -50,7 +50,7 @@ const services = [
     title: "Painter for a Day",
     description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
     icon: Clock,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
+    image: painterForADayHero,
     link: "/services/painter-for-a-day",
   },
 ];
