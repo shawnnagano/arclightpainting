@@ -3,14 +3,15 @@ import { Button } from "@/components/ui/button";
 
 interface CTASectionProps {
   cityName?: string;
+  serviceName?: string;
 }
 
-const CTASection = ({ cityName = "Bothell" }: CTASectionProps) => {
+const CTASection = ({ cityName = "Bothell", serviceName = "Home Painting" }: CTASectionProps) => {
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-5xl font-black mb-8">
-          Get The Highest Quality House Painting in {cityName}
+          Get The Highest-Rated {serviceName} in {cityName}
         </h2>
         <Link to="/schedule">
           <Button
