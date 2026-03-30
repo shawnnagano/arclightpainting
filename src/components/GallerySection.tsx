@@ -6,6 +6,12 @@ import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-3.webp";
 import drywallSanding from "@/assets/drywall-sanding.jpg";
 import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-bothell.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
+import commercialHero from "@/assets/commercial-hero.jpg";
+import commercial1 from "@/assets/commercial-1.jpg";
+import commercial2 from "@/assets/commercial-2.jpg";
+import commercial3 from "@/assets/commercial-3.jpg";
+import commercial4 from "@/assets/commercial-4.jpg";
+import commercial5 from "@/assets/commercial-5.jpg";
 
 interface GalleryImage {
   src: string;
@@ -63,12 +69,12 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: "https://arclightpainting.com/wp-content/uploads/2023/11/house-washing-1.jpg", alt: "House exterior after professional washing" },
   ],
   "Commercial Painting": [
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/911c859a-0306-4684-a98f-c4627a8148a0-1024x683.webp", alt: "Commercial office space with professional paint finish" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Team-Arclight-Painting-Bothell-WA.png", alt: "Arclight Painting team in front of commercial building" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Commercial property exterior painting" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Commercial building with fresh exterior paint" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg", alt: "Commercial interior painting project" },
-    { src: "https://arclightpainting.com/wp-content/uploads/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Commercial property exterior finish" },
+    { src: commercialHero, alt: "Commercial steel structure painting from scissor lift" },
+    { src: commercial1, alt: "Restaurant interior with freshly painted walls and art display" },
+    { src: commercial2, alt: "Commercial building exterior with Arclight Painting signage" },
+    { src: commercial3, alt: "Commercial building exterior siding painting in progress" },
+    { src: commercial4, alt: "Hotel lobby interior after professional commercial painting" },
+    { src: commercial5, alt: "Corporate office lounge with accent wall painting" },
   ],
   "One-Day Painting Service": [
     { src: painterForADayHero, alt: "Arclight Painter-for-a-Day professional at work" },
