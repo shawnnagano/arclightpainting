@@ -11,6 +11,7 @@ const tickerServices = [
   "Drywall Repairs",
   "Commercial Painting",
   "Painter for a Day",
+  "Popcorn Ceiling Removal",
   "House Painting",
   "Exterior Painting",
   "Interior Painting",
@@ -18,6 +19,7 @@ const tickerServices = [
   "Drywall Repairs",
   "Commercial Painting",
   "Painter for a Day",
+  "Popcorn Ceiling Removal",
 ];
 
 const navItems = [
