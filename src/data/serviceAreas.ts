@@ -195,7 +195,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
-    heroImage: "https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-077.jpg",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
   },
   {
     name: "Woodinville",
