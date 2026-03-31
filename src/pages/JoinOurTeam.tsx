@@ -91,10 +91,13 @@ const JoinOurTeam = () => {
             <h2 className="text-3xl font-bold text-foreground mb-6 text-center">Why Arclight?</h2>
             <div className="text-muted-foreground text-lg leading-relaxed space-y-4">
               <p>
-                Arclight Painting is the #1-rated residential painting company in the Bothell, WA area. We are a veteran-owned and operated company, specializing in top-tier customer service. Our business is founded on a set of core values centered on providing maximum value to our clients by doing business the right way.
+                Arclight is a mission-driven painting company built on service, craftsmanship, and doing things the right way. Our Core Values shape everything, from how we work together as a team to how we serve our customers in the field.
               </p>
               <p>
-                We believe that high-quality workmanship is worth the investment, and anything short of extraordinary service is unacceptable. Through Quality Craftsmanship, Exceptional Service, and Extreme Ownership, we always strive to go "above and beyond" when it comes to serving our customers, employees, and community.
+                We are building a different kind of company, one made up of real people who live these values. We hire people who care deeply, take pride in their work, and want to be part of something meaningful.
+              </p>
+              <p>
+                At Arclight, this is more than a job. It is a chance to grow, lead, and help build a culture of ownership, respect, and relentless improvement.
               </p>
             </div>
           </div>
