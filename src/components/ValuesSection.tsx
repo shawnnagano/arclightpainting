@@ -31,15 +31,13 @@ const values = [
     title: "EXCEPTIONAL RESULTS",
     subtitle: "No shortcuts. No surprises.",
     description:
-      "Our Above & Beyond Blueprint™ delivers clarity, communication, and craftsmanship. That's the Arclight difference!",
+      "Our Above & Beyond Blueprint™ is built on clarity, communication, and craftsmanship, backed by a proven process you can trust.",
     points: [
-      "TrueQuote™ Pricing",
-      "PowerFlex™ Scheduling",
-      "Color Confidence™ Program",
-      "Top-Rated Paints",
-      "JobTrack™ Project Management",
-      "PCA™ Standards Inspection",
-      "CompanyCam™ Timeline",
+      "Transparent pricing",
+      "Flexible scheduling",
+      "Expert guidance",
+      "Real-time updates",
+      "Quality assurance",
     ],
   },
 ];
