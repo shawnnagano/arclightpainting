@@ -53,7 +53,7 @@ const Pricing = () => {
             This is one of the first questions homeowners ask, and we believe it deserves a straight answer. At Arclight Painting, every quote is built around the true scope of your project, with clear, itemized pricing and no hidden fees.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
-            <h3 className="font-bold text-lg mb-4">Your quote is based on:</h3>
+            <h3 className="font-bold text-lg mb-4">Your <span className="text-accent">TrueQuote</span>™ price is based on:</h3>
             <ul className="space-y-3">
               {[
                 "Labor required",
