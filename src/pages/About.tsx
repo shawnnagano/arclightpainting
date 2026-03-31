@@ -86,7 +86,7 @@ const About = () => {
       <Header />
 
       {/* Hero with background image */}
-      <section className="relative min-h-[400px] overflow-hidden flex items-center">
+      <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
         <div
           className="absolute inset-0"
           style={{
@@ -96,13 +96,13 @@ const About = () => {
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
-        <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-5xl md:text-7xl font-bold uppercase mb-4">
+        <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
             <span className="text-accent">Who</span> We Are
           </h1>
-          <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          <p className="text-xl md:text-2xl font-semibold mb-6">
             Real <span className="text-accent">People</span> Who Care Deeply
-          </h2>
+          </p>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
             Behind every brushstroke is a story, a true leader, and a professional you can trust. With <strong className="text-foreground">25 years of service</strong>, a team of <strong className="text-foreground">empowered leaders</strong>, and <strong className="text-foreground">trusted professionals</strong> who treat every home like their own, Arclight is built on people who care as much about the outcome as you do.
           </p>

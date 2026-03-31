@@ -85,23 +85,23 @@ const Blog = () => {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative bg-primary text-primary-foreground py-20 md:py-28">
-          <div className="container mx-auto px-4 text-center max-w-3xl">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-5xl font-bold mb-4"
-            >
-              Arclight Painting Blog
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-lg text-primary-foreground/80"
-            >
+        <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/residential-painting-services-exterior.webp')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+          <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
+              Arclight <span className="text-accent">Painting</span> Blog
+            </h1>
+            <p className="text-xl md:text-2xl font-semibold">
               Tips, insights, and inspiration for your next painting project.
-            </motion.p>
+            </p>
           </div>
         </section>
 

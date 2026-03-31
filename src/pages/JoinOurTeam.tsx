@@ -60,37 +60,23 @@ const JoinOurTeam = () => {
       <Header />
       <main>
         {/* Hero */}
-        <section className="relative py-20 md:py-28 overflow-hidden">
+        <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
           <div className="absolute inset-0">
             <img src={teamHeroImg} alt="Arclight Painting team" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-primary/70" />
           </div>
-          <div className="container mx-auto px-4 text-center max-w-3xl relative z-10">
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="text-4xl md:text-5xl font-bold mb-6"
-            >
-              Join Our Team!
-            </motion.h1>
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.1 }}
-              className="text-lg md:text-xl text-primary-foreground/80 mb-8"
-            >
+          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+          <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
+              Join Our <span className="text-accent">Team!</span>
+            </h1>
+            <p className="text-xl md:text-2xl font-semibold mb-8">
               We're always looking for good people who want to make a difference.
-            </motion.p>
-            <motion.a
-              href="#openings"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-            >
+            </p>
+            <a href="#openings">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8 py-6 text-base">
                 View Openings ↓
               </Button>
-            </motion.a>
+            </a>
           </div>
         </section>
 
