@@ -87,7 +87,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
               >
                 Read All Reviews →
               </Link>
-              <span className="text-sm text-muted-foreground">269 reviews</span>
+              
             </div>
           </motion.div>
         </div>
