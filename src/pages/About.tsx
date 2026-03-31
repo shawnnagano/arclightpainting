@@ -197,50 +197,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Values */}
-      <section id="our-values" className="py-16 bg-background scroll-mt-24">
-        <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Our <span className="text-accent">Core Values</span>
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              {
-                title: "Honesty",
-                icon: "🪞",
-                desc: "We tell the truth — about timelines, pricing, and what your home truly needs. No surprises, no shortcuts.",
-              },
-              {
-                title: "Ownership",
-                icon: "🛡️",
-                desc: "We treat every project like it's our own home. If something isn't right, we make it right — no excuses.",
-              },
-              {
-                title: "Friendship",
-                icon: "🤝",
-                desc: "We build genuine relationships with our clients and each other. Every interaction is grounded in respect and care.",
-              },
-              {
-                title: "Family",
-                icon: "🏡",
-                desc: "Our team is a family. We support one another, celebrate wins together, and show up for each other every day.",
-              },
-            ].map((value) => (
-              <motion.div
-                key={value.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="bg-secondary rounded-xl p-6 shadow-sm text-center"
-              >
-                <div className="text-4xl mb-4">{value.icon}</div>
-                <h3 className="font-bold text-xl mb-3">{value.title}</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">{value.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <Footer />
     </div>
