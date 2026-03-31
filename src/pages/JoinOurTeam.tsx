@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import teamHeroImg from "@/assets/team-hero.jpg";
+import teamHeroImg from "@/assets/join-team-hero.jpg";
 
 const openings = [
   {
