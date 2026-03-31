@@ -86,7 +86,7 @@ const Mission = () => {
             Serving <span className="text-accent">People</span> Above Profits.
           </p>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            At Arclight, service comes first. Every promise, guarantee, and part of our process is designed to give you confidence, peace of mind, and a better experience from beginning to end.
+            Our Above &amp; Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and exceptional craftsmanship our clients consistently rave about.
           </p>
         </div>
       </section>

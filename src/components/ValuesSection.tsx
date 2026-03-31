@@ -31,7 +31,7 @@ const values = [
     title: "EXCEPTIONAL RESULTS",
     subtitle: "No Shortcuts. No Surprises.",
     description:
-      "Our Above & Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and craftsmanship our clients consistently rave about.",
+      "Our Above & Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and exceptional craftsmanship our clients consistently rave about.",
     points: [
       "Transparent pricing",
       "Flexible scheduling",
