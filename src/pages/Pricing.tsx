@@ -90,25 +90,25 @@ const Pricing = () => {
       {/* Why Not Cheapest */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h2 className="text-3xl font-bold mb-6 text-center">
-            Why Not Just Choose The <span className="text-accent">Cheapest</span> Quote?
+          <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+            Why Not Just Choose the <span className="text-accent">Cheapest</span> Quote?
           </h2>
           <p className="text-muted-foreground mb-6">
-            It's good to have choices. But before simply choosing the lower bid, ask yourself: <strong className="text-foreground">Why is it cheaper?</strong>
+            A lower price can look appealing, but it does not always reflect the <strong className="text-foreground">true cost</strong> of a successful project.
           </p>
-          <p className="text-muted-foreground mb-4">In our experience, there are only two reasons:</p>
+          <p className="text-muted-foreground mb-6">When a quote comes in significantly lower, it is usually because of one of two things:</p>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
-              <h4 className="font-bold text-lg mb-2 text-destructive">1. It Was Underestimated</h4>
-              <p className="text-muted-foreground text-sm">Some companies lack the experience to provide accurate pricing, leading to surprise costs mid-project or cutting corners.</p>
+              <h4 className="font-bold text-lg mb-2 text-destructive">1. The estimate is incomplete</h4>
+              <p className="text-muted-foreground text-sm">Some companies miss important details during the quoting process. That can lead to unexpected costs, change orders, or compromises later.</p>
             </div>
             <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
-              <h4 className="font-bold text-lg mb-2 text-destructive">2. They Will Cut Corners</h4>
-              <p className="text-muted-foreground text-sm">Lower bids often mean lower-quality materials, unskilled labor, or rushed work—leaving you with a disappointing result.</p>
+              <h4 className="font-bold text-lg mb-2 text-destructive">2. The scope or quality is reduced</h4>
+              <p className="text-muted-foreground text-sm">Lower pricing often means less is included, whether in prep, materials, labor, supervision, or overall attention to detail.</p>
             </div>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            At Arclight Painting, we provide the most accurate estimates in the industry, and we never cut corners. Our pricing reflects the true cost of doing the job right the first time.
+            <strong className="text-foreground">At Arclight Painting, our TrueQuote pricing is designed to be accurate, transparent, and aligned with the true scope of work, so the job gets done right the first time.</strong>
           </p>
         </div>
       </section>
