@@ -7,11 +7,11 @@ const values = [
     title: "REAL PEOPLE",
     subtitle: "People Who Care Deeply",
     description:
-      "We're a veteran-owned, values-driven team who hire for heart and train for skill. Our people bring genuine care and craftsmanship into every project.",
+      "Our team is built on character, excellence, and genuine care, so you can feel confident knowing your project is in trusted hands.",
     points: [
-      "Over 25 years of Service",
-      "Empowered Leaders",
-      "Trusted Professionals",
+      "Proven experience",
+      "Empowered leadership",
+      "Trusted professionals",
     ],
   },
   {
