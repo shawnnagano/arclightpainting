@@ -114,17 +114,17 @@ const About = () => {
       <section id="our-story" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-            25 Years of <span className="text-accent">Service</span>
+            Proven <span className="text-accent">Experience</span>
           </h2>
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              Arclight's story began in the mid-1990s, when founder Shawn Nagano picked up a brush during college summers. What started as side work turned into a lifelong mission: to build something that combined craftsmanship, integrity, and service.
+              Arclight's story began in the mid-1990s, when founder Shawn Nagano started painting during college summers. What began as side work became a lifelong commitment to craftsmanship, integrity, and service.
             </p>
             <p>
-              From those early days, Shawn carried painting with him through every chapter—launching his first business, serving as a commissioned officer in the U.S. Army, and eventually founding Arclight Painting in 2013. Side by side with co-founder Jennifer Pattison, also a veteran, the two built a company rooted in grit, quality, and trust.
+              After building his first business and serving as a commissioned officer in the U.S. Army, Shawn founded Arclight Painting in 2013 alongside co-founder Jennifer Pattison, also a veteran. Together, they built a company rooted in discipline, trust, and doing the job right.
             </p>
             <p>
-              Our name, logo, and culture all reflect that mission. "Arclight" is a symbol of clarity—a light strong enough to reveal every detail. The butterfly in our mark represents transformation and creativity, while bold colors stand for honesty, ownership, friendship, and family.
+              The Arclight name reflects clarity, attention to detail, and transformation, values that continue to shape our culture and our work today.
             </p>
           </div>
         </div>
