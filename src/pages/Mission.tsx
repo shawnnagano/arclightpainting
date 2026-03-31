@@ -197,8 +197,8 @@ const Mission = () => {
                 <ShieldCheck className="h-10 w-10 text-accent shrink-0 mt-1" />
                 <div>
                   <h3 className="text-xl font-bold mb-2">Your Peace of Mind Is Part of the Deal</h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    At Arclight Painting, we don't just aim for satisfaction—we aim for delight. That's why we back every project with our 100% Satisfaction Guarantee.
+                   <p className="text-muted-foreground leading-relaxed">
+                    At Arclight Painting, we don't just aim for satisfaction—we aim for delight. That's why we back every project with our <span className="text-accent font-semibold">100% Satisfaction Guarantee</span>.
                   </p>
                 </div>
               </div>
