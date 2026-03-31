@@ -25,15 +25,14 @@ const Pricing = () => {
 
       {/* Hero with background image */}
       <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/09/image-8-1.webp')",
-            backgroundSize: "cover",
-            backgroundPosition: "right center",
-            backgroundRepeat: "no-repeat",
-          }}
-        />
+        <div className="absolute inset-0">
+          <img
+            src="https://arclightpainting.com/wp-content/uploads/2025/09/image-8-1.webp"
+            alt="Pricing hero"
+            className="w-full h-full object-cover"
+            style={{ objectPosition: "70% center", transform: "scale(1.25)", transformOrigin: "right center" }}
+          />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
