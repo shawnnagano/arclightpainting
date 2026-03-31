@@ -17,7 +17,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
   const displayTitle = heroTitle || "Professional House Painters";
 
   return (
-    <section className="relative min-h-[600px] md:min-h-[700px] overflow-hidden">
+    <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden">
       {/* Full background image */}
       <div
         className="absolute inset-0"
@@ -30,7 +30,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
       {/* Gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
 
-      <div className="container mx-auto px-4 py-16 md:py-20 relative z-10">
+      <div className="container mx-auto px-4 py-10 md:py-14 relative z-10">
         <div className="max-w-2xl">
           {/* Headline */}
           <motion.div
