@@ -136,10 +136,12 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
           </h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            At Arclight, we don't just paint houses—we build relationships, empower leaders, and deliver above & beyond service.
+          <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto">
+            We do more than complete projects. We build relationships, take ownership, and lead with purpose.
           </p>
-          <h3 className="text-2xl font-bold text-center mb-10">Meet Our Family</h3>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Our team is made up of empowered leaders who communicate clearly, solve problems proactively, and work hard to create an experience that feels smooth, professional, and trustworthy.
+          </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member) => (
               <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
