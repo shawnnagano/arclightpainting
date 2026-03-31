@@ -229,11 +229,17 @@ const About = () => {
                 desc: "Our team is a family. We support one another, celebrate wins together, and show up for each other every day.",
               },
             ].map((value) => (
-              <div key={value.title} className="text-center p-6 rounded-xl border border-border bg-card shadow-sm">
+              <motion.div
+                key={value.title}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-card rounded-xl p-6 shadow-sm text-center border border-border"
+              >
                 <div className="text-4xl mb-4">{value.icon}</div>
                 <h3 className="font-bold text-xl mb-3">{value.title}</h3>
                 <p className="text-muted-foreground text-sm leading-relaxed">{value.desc}</p>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>
