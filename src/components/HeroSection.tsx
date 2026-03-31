@@ -10,11 +10,12 @@ interface HeroSectionProps {
   cityName?: string;
   heroImage?: string;
   heroTitle?: string;
+  heroTitleNode?: React.ReactNode;
   backgroundPosition?: string;
   backgroundSize?: string;
 }
 
-const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, backgroundPosition, backgroundSize }: HeroSectionProps) => {
+const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode, backgroundPosition, backgroundSize }: HeroSectionProps) => {
   const bgImage = heroImage || "https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg";
   const displayTitle = heroTitle || "Professional House Painters";
 
@@ -41,15 +42,19 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, backgroundPos
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] mb-6 uppercase tracking-tight">
-              {displayTitle.includes(" ") ? (
+              {heroTitleNode ? heroTitleNode : (
                 <>
-                  {displayTitle.split(" ").slice(0, 1).join(" ")}{" "}
-                  <span className="text-accent">{displayTitle.split(" ").slice(1).join(" ")}</span>
+                  {displayTitle.includes(" ") ? (
+                    <>
+                      {displayTitle.split(" ").slice(0, 1).join(" ")}{" "}
+                      <span className="text-accent">{displayTitle.split(" ").slice(1).join(" ")}</span>
+                    </>
+                  ) : (
+                    <span className="text-accent">{displayTitle}</span>
+                  )}
+                  {" "}in {cityName}
                 </>
-              ) : (
-                <span className="text-accent">{displayTitle}</span>
               )}
-              {" "}in {cityName}
             </h1>
             <p className="text-xl md:text-2xl font-semibold mb-8">
               Real <span className="text-accent">People.</span> Real{" "}
