@@ -136,11 +136,8 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
           </h2>
-          <p className="text-center text-muted-foreground mb-4 max-w-2xl mx-auto">
-            We do more than complete projects. We build relationships, take ownership, and lead with purpose.
-          </p>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Our team is made up of empowered leaders who communicate clearly, solve problems proactively, and work hard to create an experience that feels smooth, professional, and trustworthy.
+            We do more than complete projects. We build relationships, take ownership, and lead with purpose. Our team is made up of empowered leaders who communicate clearly, solve problems proactively, and work hard to create an experience that feels smooth, professional, and trustworthy.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member) => (
