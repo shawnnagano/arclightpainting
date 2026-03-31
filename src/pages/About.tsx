@@ -234,7 +234,7 @@ const About = () => {
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="bg-card rounded-xl p-6 shadow-sm text-center border border-border"
+                className="bg-secondary rounded-xl p-6 shadow-sm text-center"
               >
                 <div className="text-4xl mb-4">{value.icon}</div>
                 <h3 className="font-bold text-xl mb-3">{value.title}</h3>
