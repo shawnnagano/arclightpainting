@@ -64,7 +64,7 @@ const Index = () => {
       <BlueprintSection />
       <GallerySection />
       <FAQSection faqs={generalFAQ} />
-      <CTASection />
+      <CTASection serviceName="House Painters" />
       <Footer />
     </div>
   );
