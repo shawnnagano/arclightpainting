@@ -67,19 +67,17 @@ const Pricing = () => {
               ))}
             </ul>
           </div>
+          <p className="text-muted-foreground leading-relaxed mt-2 mb-1 text-center">
+            Want a ballpark estimate before scheduling a consultation?
+          </p>
+          <p className="text-muted-foreground leading-relaxed text-center">
+            Use our <span className="text-accent font-semibold">Pricing Calculator</span> to get a quick starting point and a clearer idea of what to expect.
+          </p>
         </div>
       </section>
 
-      {/* Pricing Calculator CTA + Embed */}
+      {/* Pricing Calculator Embed */}
       <section>
-        <div className="container mx-auto px-4 max-w-4xl py-8">
-          <p className="text-xl md:text-2xl font-bold text-center mb-2">
-            Want a ballpark estimate before scheduling a consultation?
-          </p>
-          <p className="text-lg md:text-xl font-semibold text-accent text-center mb-0">
-            Use our Pricing Calculator to get a quick starting point and a clearer idea of what to expect.
-          </p>
-        </div>
         <iframe
           src="https://app.priceguide.ai/estimator/recacVReUcqWb1d6D"
           width="100%"
