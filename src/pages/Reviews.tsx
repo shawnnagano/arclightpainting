@@ -51,7 +51,7 @@ const Reviews = () => {
             Exceptional <span className="text-accent">Results</span>
           </h1>
           <p className="text-xl md:text-2xl font-semibold mb-4">
-            No Shortcuts. No Surprises.
+            <span className="text-accent">No</span> Shortcuts. <span className="text-accent">No</span> Surprises.
           </p>
           <p className="text-muted-foreground max-w-lg">
             Our Above &amp; Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and craftsmanship our clients consistently rave about.
