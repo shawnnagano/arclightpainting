@@ -25,8 +25,8 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, backgroundPos
         className="absolute inset-0"
         style={{
           backgroundImage: `url('${bgImage}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center right",
+          backgroundSize: backgroundSize || "cover",
+          backgroundPosition: backgroundPosition || "center right",
         }}
       />
       {/* Gradient overlay */}
