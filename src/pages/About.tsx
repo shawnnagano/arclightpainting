@@ -97,7 +97,7 @@ const About = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-5xl md:text-7xl font-bold uppercase mb-4">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
             <span className="text-accent">Who</span> We Are
           </h1>
           <h2 className="text-2xl md:text-3xl font-bold mb-6">

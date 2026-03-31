@@ -35,12 +35,12 @@ const Pricing = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
-          <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            TrueQuote Pricing
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
+            TrueQuote <span className="text-accent">Pricing</span>
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-accent uppercase">
+          <p className="text-xl md:text-2xl font-semibold">
             Clear Prices. No Surprises.
-          </h2>
+          </p>
         </div>
       </section>
 
