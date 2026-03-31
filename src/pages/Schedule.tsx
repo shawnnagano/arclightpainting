@@ -1,3 +1,4 @@
+import { useEffect, useRef, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Phone } from "lucide-react";
@@ -5,6 +6,25 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const Schedule = () => {
+  const iframeRef = useRef<HTMLIFrameElement>(null);
+  const [iframeHeight, setIframeHeight] = useState(800);
+
+  useEffect(() => {
+    const handleMessage = (event: MessageEvent) => {
+      if (event.data && typeof event.data === "object" && event.data.height) {
+        setIframeHeight(event.data.height);
+      }
+      // Some widgets send a string like "height:1200"
+      if (typeof event.data === "string" && event.data.startsWith("height:")) {
+        const h = parseInt(event.data.split(":")[1], 10);
+        if (!isNaN(h)) setIframeHeight(h);
+      }
+    };
+
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
@@ -39,8 +59,15 @@ const Schedule = () => {
       <section className="py-8" style={{ backgroundColor: "#ffffff" }}>
         <div className="max-w-4xl mx-auto px-4">
           <iframe
+            ref={iframeRef}
             src="https://link.arclightpainting.com/widget/booking/DbWlnGU0qizPxoW7pKkA"
-            style={{ width: "100%", height: "2200px", border: "none", background: "#ffffff" }}
+            style={{
+              width: "100%",
+              height: `${iframeHeight}px`,
+              border: "none",
+              background: "#ffffff",
+              transition: "height 0.3s ease",
+            }}
             title="Schedule a booking with Arclight Painting"
           />
         </div>
