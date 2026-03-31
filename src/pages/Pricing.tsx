@@ -35,7 +35,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            TrueQuote™ Pricing
+            TrueQuote Pricing
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-accent uppercase">
             Clear Prices. No Surprises.
