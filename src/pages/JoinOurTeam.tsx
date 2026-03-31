@@ -172,10 +172,8 @@ const JoinOurTeam = () => {
                   Our <span className="text-accent">Vision</span>
                 </h2>
               </div>
-              <div className="bg-card rounded-xl p-8 border border-border/50 max-w-3xl mx-auto text-center">
-                <p className="text-lg text-muted-foreground leading-relaxed italic">
-                  Copy to be provided.
-                </p>
+              <div className="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
+                <img src={vividVisionImg} alt="Arclight Painting Vivid Vision" className="w-full h-auto" />
               </div>
             </motion.div>
           </div>
