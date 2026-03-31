@@ -103,7 +103,6 @@ const About = () => {
           <p className="text-xl md:text-2xl font-semibold mb-6">
             Real <span className="text-accent">People</span> Who Care Deeply
           </p>
-          </h2>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
             Behind every brushstroke is a story, a true leader, and a professional you can trust. With <strong className="text-foreground">25 years of service</strong>, a team of <strong className="text-foreground">empowered leaders</strong>, and <strong className="text-foreground">trusted professionals</strong> who treat every home like their own, Arclight is built on people who care as much about the outcome as you do.
           </p>
