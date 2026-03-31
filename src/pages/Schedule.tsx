@@ -45,9 +45,9 @@ const Schedule = () => {
           />
         </div>
 
-        <div className="mt-6 flex items-center justify-center gap-2 text-muted-foreground text-sm">
-          <Phone className="h-4 w-4" />
-          <span>Or call us directly: <a href="tel:14257571199" className="font-bold text-accent">(425) 757-1199</a></span>
+        <div className="mt-6 flex items-center justify-center gap-2 text-foreground text-lg">
+          <Phone className="h-5 w-5" />
+          <span>For Immediate Assistance Call: <a href="tel:14257571199" className="font-bold text-accent hover:underline">(425) 757-1199</a></span>
         </div>
       </section>
 
