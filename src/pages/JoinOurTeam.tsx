@@ -19,7 +19,7 @@ const openings = [
     applyUrl: "https://link.arclightpainting.com/widget/form/HbZ0eGzrgHtkFG3k3WuF",
   },
   {
-    title: "Professional Subcontracting Team Leader Painter",
+    title: "Professional Subcontracting Painter",
     location: "Bothell, WA",
     salary: "$44.94 – $47.36",
     applyUrl: "https://link.arclightpainting.com/widget/form/Q6xZk6j2VybZl0pnRBxj",
