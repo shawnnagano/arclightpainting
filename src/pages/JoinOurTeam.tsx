@@ -29,19 +29,24 @@ const openings = [
 
 const values = [
   {
-    icon: Shield,
-    title: "Extreme Ownership",
-    description: "We take full responsibility for every project outcome — no excuses, no shortcuts.",
+    title: "Honesty",
+    icon: "🪞",
+    description: "We tell the truth — about timelines, pricing, and what your home truly needs. No surprises, no shortcuts.",
   },
   {
-    icon: Heart,
-    title: "Quality Craftsmanship",
-    description: "We believe high-quality workmanship is worth the investment and anything short of extraordinary is unacceptable.",
+    title: "Ownership",
+    icon: "🛡️",
+    description: "We treat every project like it's our own home. If something isn't right, we make it right — no excuses.",
   },
   {
-    icon: Users,
-    title: "Exceptional Service",
-    description: "We always strive to go above and beyond for our customers, employees, and community.",
+    title: "Friendship",
+    icon: "🤝",
+    description: "We build genuine relationships with our clients and each other. Every interaction is grounded in respect and care.",
+  },
+  {
+    title: "Family",
+    icon: "🏡",
+    description: "Our team is a family. We support one another, celebrate wins together, and show up for each other every day.",
   },
 ];
 
