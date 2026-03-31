@@ -72,7 +72,7 @@ const Pricing = () => {
             Want a ballpark estimate before scheduling your <span className="text-accent">True</span>Quote consultation?
           </p>
           <p className="text-lg md:text-xl font-semibold text-center">
-            Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of what to expect.
+            Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of the cost will be to get your project done right.
           </p>
         </div>
       </section>
