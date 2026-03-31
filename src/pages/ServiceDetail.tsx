@@ -233,6 +233,11 @@ const ServiceDetail = () => {
                   {p}
                 </p>
               ))}
+              {slug === "painter-for-a-day" && (
+                <p className="text-xl font-bold mt-2">
+                  ALL FOR JUST <span className="text-accent">$689</span> FOR THE DAY!
+                </p>
+              )}
             </motion.div>
           </div>
         </div>
