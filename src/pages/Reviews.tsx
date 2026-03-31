@@ -91,36 +91,17 @@ const Reviews = () => {
         </div>
       </section>
 
-      {/* Reviews Grid */}
+      {/* Reviews Widget */}
       <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-            {reviews.map((review, i) => (
-              <div
-                key={i}
-                className="bg-card border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
-              >
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-accent/20 flex items-center justify-center">
-                    <span className="text-accent font-bold text-sm">
-                      {review.name.split(" ").map((n) => n[0]).join("").slice(0, 2)}
-                    </span>
-                  </div>
-                  <div>
-                    <p className="font-semibold text-sm">{review.name}</p>
-                    <p className="text-xs text-muted-foreground">{review.date}</p>
-                  </div>
-                  <img src="https://cdn.trustindex.io/assets/platform/Google/icon.svg" alt="Google" className="h-5 w-5 ml-auto" />
-                </div>
-                <div className="flex gap-0.5 mb-3">
-                  {[...Array(review.rating)].map((_, j) => (
-                    <Star key={j} className="h-4 w-4 fill-yellow-400 text-yellow-400" />
-                  ))}
-                </div>
-                <p className="text-muted-foreground text-sm leading-relaxed">{review.text}</p>
-              </div>
-            ))}
-          </div>
+        <div className="container mx-auto px-4 max-w-6xl">
+          <iframe
+            className="lc_reviews_widget"
+            src="https://reputationhub.site/reputation/widgets/review_widget/TGrxHZY8Y5wXqvLyDgYP?widgetId=69cc15ea2717b4bd6928b877"
+            frameBorder="0"
+            scrolling="no"
+            style={{ minWidth: "100%", width: "100%" }}
+            title="Customer Reviews Widget"
+          />
         </div>
       </section>
 
