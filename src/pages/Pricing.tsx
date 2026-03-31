@@ -71,7 +71,7 @@ const Pricing = () => {
             Want a ballpark estimate before scheduling a consultation?
           </p>
           <p className="text-lg md:text-xl font-semibold text-center">
-            Use our <span className="text-accent">Pricing Calculator</span> to get a quick starting point and a clearer idea of what to expect.
+            Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of what to expect.
           </p>
         </div>
       </section>
