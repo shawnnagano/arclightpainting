@@ -225,29 +225,6 @@ const Mission = () => {
         </div>
       </section>
 
-      {/* Our Vision for the Future */}
-      <section className="py-16 bg-secondary">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="flex items-center justify-center gap-3 mb-6">
-              <Eye className="h-8 w-8 text-accent" />
-              <h2 className="text-3xl md:text-4xl font-bold">
-                Our <span className="text-accent">Vision</span> for the Future
-              </h2>
-            </div>
-            <div className="bg-card rounded-xl p-8 border border-border/50 max-w-3xl mx-auto text-center">
-              <p className="text-lg text-muted-foreground leading-relaxed italic">
-                Copy to be provided.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* CTA */}
       <section className="py-16 bg-background">
