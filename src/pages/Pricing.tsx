@@ -7,6 +7,7 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
+import CTASection from "@/components/CTASection";
 
 const Pricing = () => {
   return (
@@ -129,16 +130,7 @@ const Pricing = () => {
       <BlueprintSection />
 
       {/* CTA */}
-      <section className="py-16 bg-background text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Transform Your Space?</h2>
-          <Link to="/schedule">
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8">
-              Get A Fast Quote →
-            </Button>
-          </Link>
-        </div>
-      </section>
+      <CTASection />
 
       <Footer />
     </div>
