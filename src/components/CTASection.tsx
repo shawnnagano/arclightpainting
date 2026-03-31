@@ -8,7 +8,7 @@ interface CTASectionProps {
 
 const CTASection = ({ cityName = "Bothell", serviceName = "Home Painting" }: CTASectionProps) => {
   const isPFAD = serviceName === "One-Day Painting Service";
-  const buttonText = isPFAD ? "Book Now →" : "Get A Fast Quote →";
+  const buttonText = isPFAD ? "Book Now →" : "Get a TrueQuote →";
   const buttonLink = isPFAD
     ? "https://link.arclightpainting.com/widget/form/ZLPniZseAFrjLPEcU2pc"
     : "/schedule";
