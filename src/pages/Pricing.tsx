@@ -35,7 +35,7 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            TrueQuote™ Pricing
+            TrueQuote Pricing
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-accent uppercase">
             Clear Prices. No Surprises.
@@ -53,7 +53,7 @@ const Pricing = () => {
             This is one of the first questions homeowners ask, and we believe it deserves a straight answer. At Arclight Painting, every quote is built around the true scope of your project, with clear, itemized pricing and no hidden fees.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
-            <h3 className="font-bold text-lg mb-4">Your quote is based on:</h3>
+            <h3 className="font-bold text-lg mb-4">Your <span className="text-accent">TrueQuote</span>™ price is based on:</h3>
             <ul className="space-y-3">
               {[
                 "Labor required",
@@ -108,7 +108,7 @@ const Pricing = () => {
             </div>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            <strong className="text-foreground">At Arclight Painting, our TrueQuote pricing is designed to be accurate, transparent, and aligned with the true scope of work, so the job gets done right the first time.</strong>
+            <strong className="text-foreground">At Arclight Painting, our <span className="text-accent">TrueQuote</span> pricing is designed to be accurate, transparent, and aligned with the true scope of work, so the job gets done right the first time.</strong>
           </p>
         </div>
       </section>
