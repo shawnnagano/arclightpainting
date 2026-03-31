@@ -2,7 +2,7 @@ import { CheckCircle } from "lucide-react";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
-  { step: "1", title: "TrueQuote™ Pricing", highlightPrefix: "True" },
+  { step: "1", title: "TrueQuote™ Pricing" },
   { step: "2", title: "PowerFlex™ Scheduling" },
   { step: "3", title: "ColorConfidence™ Consultation" },
   { step: "4", title: "JobTrack™ Project Management" },
