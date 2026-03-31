@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Star } from "lucide-react";
+import { motion } from "framer-motion";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import aboutHeroImg from "@/assets/about-hero.jpg";
 const teamMembers = [
