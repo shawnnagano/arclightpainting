@@ -7,6 +7,7 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
+import CTASection from "@/components/CTASection";
 
 const Pricing = () => {
   return (
