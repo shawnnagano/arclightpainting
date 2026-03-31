@@ -29,11 +29,11 @@ const BlueprintSection = () => {
 
               <div className="space-y-6">
                 {steps.map((s) => (
-                  <div key={s.step} className="flex items-center gap-4 relative">
-                    <div className="shrink-0 w-8 h-8 rounded-full bg-primary flex items-center justify-center z-10 -ml-8">
+                  <div key={s.step} className="flex items-center gap-4 relative group cursor-pointer">
+                    <div className="shrink-0 w-8 h-8 rounded-full bg-primary group-hover:bg-accent flex items-center justify-center z-10 -ml-8 transition-colors duration-200">
                       <CheckCircle className="h-5 w-5 text-primary-foreground" />
                     </div>
-                    <span className="text-lg md:text-xl font-bold">
+                    <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
                       Step {s.step}: {s.title}
                     </span>
                   </div>
