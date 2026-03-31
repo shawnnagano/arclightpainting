@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
-import { Users, Shield, Heart } from "lucide-react";
+import { motion } from "framer-motion";
 import { motion } from "framer-motion";
 import teamHeroImg from "@/assets/team-hero.jpg";
 
