@@ -5,7 +5,7 @@ const steps = [
   { step: "1", title: "TrueQuote™ Pricing" },
   { step: "2", title: "PowerFlex™ Scheduling" },
   { step: "3", title: "ColorConfidence™ Consultation" },
-  { step: "4", title: "Top-Rated Paints" },
+  { step: "4", title: "Shop-Tested Paints" },
   { step: "5", title: "JobTrack™ Project Management" },
   { step: "6", title: "CompanyCam™ Timeline" },
   { step: "7", title: "PCA™ Standards Inspection" },
