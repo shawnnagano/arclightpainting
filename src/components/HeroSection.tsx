@@ -15,7 +15,7 @@ interface HeroSectionProps {
   backgroundSize?: string;
 }
 
-const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, backgroundPosition, backgroundSize }: HeroSectionProps) => {
+const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode, backgroundPosition, backgroundSize }: HeroSectionProps) => {
   const bgImage = heroImage || "https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg";
   const displayTitle = heroTitle || "Professional House Painters";
 
