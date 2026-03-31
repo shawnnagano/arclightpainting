@@ -22,7 +22,7 @@ const Schedule = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg')",
+            backgroundImage: "url('/src/assets/blueprint-photo.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
