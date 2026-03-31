@@ -250,12 +250,6 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
 
   return (
     <section id="review" className="py-20 bg-secondary relative">
-      {/* Curved top divider */}
-      <div className="absolute top-0 left-0 right-0 -translate-y-[99%]">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" className="w-full h-16 md:h-24">
-          <path className="fill-secondary" d="M1000,4.3V100H0V4.3C0.9,23.1,126.7,99.2,500,100S1000,22.7,1000,4.3z" />
-        </svg>
-      </div>
 
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
