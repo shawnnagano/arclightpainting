@@ -28,7 +28,7 @@ const GuaranteeSection = () => {
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-          We Guarantee <span className="text-accent">100% Satisfaction</span> on All Services
+          Guaranteed <span className="text-accent">Peace of Mind</span>
         </h2>
 
         <div className="max-w-3xl mx-auto mt-6 mb-12">
