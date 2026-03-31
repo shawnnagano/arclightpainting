@@ -22,7 +22,7 @@ const Reviews = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Customer Reviews - 4.9★ Google Rating | Arclight Painting Bothell, WA"
+        title="Exceptional Results - 4.9★ Google Rating | Arclight Painting Bothell, WA"
         description="Read 269+ five-star Google reviews from Arclight Painting customers in Bothell, WA. See why homeowners trust us for interior and exterior painting services."
         canonical="/reviews"
         jsonLd={[
