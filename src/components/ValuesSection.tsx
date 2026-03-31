@@ -33,11 +33,10 @@ const values = [
     description:
       "Our Above & Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and exceptional craftsmanship our clients consistently rave about.",
     points: [
-      "Transparent pricing",
-      "Flexible scheduling",
-      "Expert guidance",
-      "Real-time updates",
-      "Quality assurance",
+      "Great communication",
+      "Easy to work with",
+      "Professional from start to finish",
+      "Worth the investment",
     ],
   },
 ];
