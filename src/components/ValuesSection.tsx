@@ -19,11 +19,11 @@ const values = [
     title: "REAL PURPOSE",
     subtitle: "Serving People Above Profits",
     description:
-      "Arclight exists to serve. We designed every promise, guarantee, and process around our Core Values because we care about you like a friend. It's about your peace of mind — not our bottom line.",
+      "At Arclight, service comes first. Every promise, guarantee, and part of our process is designed to give you confidence, peace of mind, and a better experience from beginning to end.",
     points: [
-      "Painting with Purpose",
-      "FreshStart™ Touch-Up Plan",
-      "100% Satisfaction Guarantee",
+      "Value-driven service",
+      "Ongoing support",
+      "Guaranteed peace of mind",
     ],
   },
   {
