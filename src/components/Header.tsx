@@ -130,7 +130,7 @@ const Header = () => {
             </a>
             <Link to="/schedule">
               <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-6 py-5 text-sm rounded-md shadow-lg">
-                Get A Fast Quote →
+                Get a TrueQuote →
               </Button>
             </Link>
           </div>
