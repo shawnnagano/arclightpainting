@@ -7,7 +7,7 @@ import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const Schedule = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const [iframeHeight, setIframeHeight] = useState(800);
+  const [iframeHeight, setIframeHeight] = useState(1000);
 
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
