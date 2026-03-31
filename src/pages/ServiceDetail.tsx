@@ -209,7 +209,7 @@ const ServiceDetail = () => {
         cityName="Bothell"
         heroImage={service.image}
         heroTitle={`Professional ${service.title}`}
-        {...(slug === "painter-for-a-day" ? { backgroundSize: "80%", backgroundPosition: "top center" } : {})}
+        {...(slug === "painter-for-a-day" ? { backgroundPosition: "center" } : {})}
       />
 
       {/* Service-specific content section */}
