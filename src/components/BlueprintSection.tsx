@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
-  { step: "1", title: "TrueQuote™ Pricing", rendered: <><span className="text-accent">True</span>Quote™ Pricing</> },
-  { step: "2", title: "PowerFlex™ Scheduling", rendered: <><span className="text-accent">Power</span>Flex™ Scheduling</> },
-  { step: "3", title: "ColorConfidence™ Consultation", rendered: <><span className="text-accent">Color</span>Confidence™ Consultation</> },
-  { step: "4", title: "JobTrack™ Project Management", rendered: <><span className="text-accent">Job</span>Track™ Project Management</> },
-  { step: "5", title: "PCA™ Standards Inspection", rendered: <><span className="text-accent">PCA</span>™ Standards Inspection</> },
+  { step: "1", title: "TrueQuote™ Pricing", rendered: <><span className="text-accent">True</span>Quote™ pricing</> },
+  { step: "2", title: "PowerFlex™ Scheduling", rendered: <><span className="text-accent">Power</span>Flex™ scheduling</> },
+  { step: "3", title: "ColorConfidence™ Consultation", rendered: <><span className="text-accent">Color</span>Confidence™ consultation</> },
+  { step: "4", title: "JobTrack™ Project Management", rendered: <><span className="text-accent">Job</span>Track™ project management</> },
+  { step: "5", title: "PCA™ Standards Inspection", rendered: <><span className="text-accent">PCA</span>™ standards inspection</> },
 ];
 
 const BlueprintSection = () => {
