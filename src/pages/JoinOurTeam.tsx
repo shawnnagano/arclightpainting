@@ -169,7 +169,7 @@ const JoinOurTeam = () => {
               <div className="flex items-center justify-center gap-3 mb-6">
                 <Eye className="h-8 w-8 text-accent" />
                 <h2 className="text-3xl md:text-4xl font-bold">
-                  Our <span className="text-accent">Vision</span>
+                  Our Vivid <span className="text-accent">Vision</span>
                 </h2>
               </div>
               <div className="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
