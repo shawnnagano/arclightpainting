@@ -103,7 +103,7 @@ const GallerySection = ({ cityName = "Bothell", serviceName }: GallerySectionPro
   const images = (serviceName && serviceImages[serviceName]) ? serviceImages[serviceName] : defaultImages;
 
   const subtitle = serviceName
-    ? `Browse some of our recent ${serviceName.toLowerCase()} projects in the Bothell area.`
+    ? `Browse some of our recent ${serviceName.toLowerCase()} projects.`
     : `Browse some of our recent painting projects in the ${cityName} area.`;
 
   return (
