@@ -50,26 +50,8 @@ const Reviews = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-2">
             Customer <span className="text-accent">Reviews</span>
           </h1>
-          <div className="flex items-center gap-3 mt-6">
-            <span className="text-5xl font-bold">{overallRating.toFixed(1)}</span>
-            <div>
-              <div className="flex gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className={`h-5 w-5 ${
-                      i < Math.round(overallRating)
-                        ? "fill-yellow-400 text-yellow-400"
-                        : "text-muted-foreground"
-                    }`}
-                  />
-                ))}
-              </div>
-              <p className="text-sm text-muted-foreground">Google Reviews</p>
-            </div>
-          </div>
           <p className="mt-4 text-muted-foreground max-w-lg">
-            See what our clients have to say about their experience working with us—from quality to results, their words speak for themselves.
+            See what our clients have to say about their experience working with us—their words speak for themselves.
           </p>
         </div>
       </section>
