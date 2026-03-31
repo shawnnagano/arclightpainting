@@ -17,7 +17,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
   const displayTitle = heroTitle || "Professional House Painters";
 
   return (
-    <section className="relative min-h-[600px] md:min-h-[700px] overflow-hidden">
+    <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden">
       {/* Full background image */}
       <div
         className="absolute inset-0"
