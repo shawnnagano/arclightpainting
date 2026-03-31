@@ -66,7 +66,7 @@ const JoinOurTeam = () => {
         {/* Hero */}
         <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
           <div className="absolute inset-0">
-            <img src={teamHeroImg} alt="Arclight Painting team" className="w-full h-full object-cover" />
+            <img src={teamHeroImg} alt="Arclight Painting team" className="w-full h-full object-cover" style={{ transform: "scale(1.5)", transformOrigin: "center center" }} />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
           <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
