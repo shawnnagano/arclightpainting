@@ -204,7 +204,7 @@ const About = () => {
       <section id="our-values" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-            Our <span className="text-accent">Values</span>
+            Our <span className="text-accent">Core Values</span>
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
