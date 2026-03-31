@@ -209,7 +209,10 @@ const ServiceDetail = () => {
         cityName="Bothell"
         heroImage={service.image}
         heroTitle={`Professional ${service.title}`}
-        {...(slug === "painter-for-a-day" ? { backgroundPosition: "center" } : {})}
+        {...(slug === "painter-for-a-day" ? {
+          backgroundPosition: "center",
+          heroTitleNode: <>Professional<br /><span className="text-accent">One-Day Painting</span><br />Service in Bothell</>
+        } : {})}
       />
 
       {/* Service-specific content section */}
