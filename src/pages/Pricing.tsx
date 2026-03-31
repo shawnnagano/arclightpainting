@@ -67,11 +67,11 @@ const Pricing = () => {
               ))}
             </ul>
           </div>
-          <p className="text-muted-foreground leading-relaxed mt-2 mb-1 text-center">
+          <p className="text-xl md:text-2xl font-bold text-center mt-2 mb-2">
             Want a ballpark estimate before scheduling a consultation?
           </p>
-          <p className="text-muted-foreground leading-relaxed text-center">
-            Use our <span className="text-accent font-semibold">Pricing Calculator</span> to get a quick starting point and a clearer idea of what to expect.
+          <p className="text-lg md:text-xl font-semibold text-center">
+            Use our <span className="text-accent">Pricing Calculator</span> to get a quick starting point and a clearer idea of what to expect.
           </p>
         </div>
       </section>
