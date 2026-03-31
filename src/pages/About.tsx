@@ -1,5 +1,6 @@
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
@@ -197,6 +198,22 @@ const About = () => {
         </div>
       </section>
 
+      {/* CTA */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            Ready to <span className="text-accent">Get Started</span>?
+          </h2>
+          <p className="text-muted-foreground mb-8 max-w-xl mx-auto">
+            Experience the Arclight difference — purpose-driven service backed by real guarantees.
+          </p>
+          <Link to="/schedule">
+            <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8 py-6 text-lg rounded-md shadow-lg">
+              Get a TrueQuote →
+            </Button>
+          </Link>
+        </div>
+      </section>
 
       <Footer />
     </div>
