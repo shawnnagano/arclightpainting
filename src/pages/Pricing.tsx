@@ -35,30 +35,30 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
           <h1 className="text-4xl md:text-6xl font-bold uppercase mb-4">
-            Above & Beyond Pricing:
+            Above & Beyond Pricing
           </h1>
           <h2 className="text-3xl md:text-5xl font-bold text-accent uppercase">
-            Transparency & Value
+            Transparent Pricing. No Surprises.
           </h2>
         </div>
       </section>
 
-      {/* Transparency Section */}
+      {/* How Much Section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
             How Much Will It <span className="text-accent">Cost?</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            This is often the first question homeowners ask—but it's usually the last one painting companies want to answer. At Arclight Painting, we believe in complete transparency when it comes to pricing. That's why we always provide a detailed quote that reflects the true cost of quality work—no hidden fees, no surprises.
+            This is one of the first questions homeowners ask, and we believe it deserves a straight answer. At Arclight Painting, every quote is built around the true scope of your project, with clear, itemized pricing and no hidden fees.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
-            <h3 className="font-bold text-lg mb-4">All of our quotes include:</h3>
+            <h3 className="font-bold text-lg mb-4">Your quote is based on:</h3>
             <ul className="space-y-3">
               {[
-                "Labor (estimated hours required)",
-                "Materials (gallons of paint needed)",
-                "Itemized Pricing (based on your project's scope)",
+                "Labor required",
+                "Paint and materials",
+                "The full scope of your project",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <Check className="h-5 w-5 text-accent flex-shrink-0" />
@@ -67,14 +67,19 @@ const Pricing = () => {
               ))}
             </ul>
           </div>
-          <p className="text-muted-foreground leading-relaxed">
-            Curious about pricing before scheduling a consultation? Use our Pricing Calculator to get an instant ballpark estimate. It's quick, easy, and helps you avoid being in the dark.
-          </p>
         </div>
       </section>
 
-      {/* Price Guide Estimator */}
+      {/* Pricing Calculator CTA + Embed */}
       <section>
+        <div className="container mx-auto px-4 max-w-4xl py-8">
+          <p className="text-xl md:text-2xl font-bold text-center mb-2">
+            Want a ballpark estimate before scheduling a consultation?
+          </p>
+          <p className="text-lg md:text-xl font-semibold text-accent text-center mb-0">
+            Use our Pricing Calculator to get a quick starting point and a clearer idea of what to expect.
+          </p>
+        </div>
         <iframe
           src="https://app.priceguide.ai/estimator/recacVReUcqWb1d6D"
           width="100%"
