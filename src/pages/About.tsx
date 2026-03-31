@@ -98,10 +98,10 @@ const About = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
-            <span className="text-accent">Who</span> We Are
+            <span className="text-accent">Real</span> People
           </h1>
           <p className="text-xl md:text-2xl font-semibold mb-6">
-            Real <span className="text-accent">People</span> Who Care Deeply
+            Who <span className="text-accent">Care</span> Deeply
           </p>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
             Behind every brushstroke is a story, a true leader, and a professional you can trust. With <strong className="text-foreground">25 years of service</strong>, a team of <strong className="text-foreground">empowered leaders</strong>, and <strong className="text-foreground">trusted professionals</strong> who treat every home like their own, Arclight is built on people who care as much about the outcome as you do.
