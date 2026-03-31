@@ -221,7 +221,7 @@ function getTestimonials(cityName?: string, serviceName?: string): Testimonial[]
 function getHeading(cityName?: string, serviceName?: string): JSX.Element {
   if (serviceName === "One-Day Painting Service") {
     return (
-      <>Why People Love our <span className="text-accent">Painter-for-a-Day</span> Service</>
+      <>Why People <span className="text-accent">Love</span> our Painter-for-a-Day Service</>
     );
   }
   if (serviceName) {
