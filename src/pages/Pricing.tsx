@@ -94,9 +94,8 @@ const Pricing = () => {
             Why Not Just Choose the <span className="text-accent">Cheapest</span> Quote?
           </h2>
           <p className="text-foreground mb-6">
-            A lower price can look appealing, but it does not always reflect the <strong>true cost</strong> of a successful project.
+            A lower price can look appealing, but it does not always reflect the <strong>true cost</strong> of a successful project. When a quote comes in significantly lower, it is usually because of one of two things:
           </p>
-          <p className="text-foreground mb-6">When a quote comes in significantly lower, it is usually because of one of two things:</p>
           <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
               <h4 className="font-bold text-lg mb-2 text-destructive">1. The estimate is incomplete</h4>
