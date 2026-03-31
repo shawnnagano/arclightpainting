@@ -29,7 +29,7 @@ const Pricing = () => {
           className="absolute inset-0"
           style={{
             backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/09/image-8-1.webp')",
-            backgroundSize: "125%",
+            backgroundSize: "75%",
             backgroundPosition: "center",
           }}
         />
