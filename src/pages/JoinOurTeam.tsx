@@ -5,6 +5,7 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import teamHeroImg from "@/assets/join-team-hero.jpg";
+import vividVisionImg from "@/assets/vivid-vision.jpg";
 
 const openings = [
   {
