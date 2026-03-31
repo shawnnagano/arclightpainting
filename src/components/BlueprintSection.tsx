@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
-  { step: "1", title: "TrueQuote™ Pricing" },
-  { step: "2", title: "PowerFlex™ Scheduling" },
-  { step: "3", title: "ColorConfidence™ Consultation" },
-  { step: "4", title: "JobTrack™ Project Management" },
-  { step: "5", title: "PCA™ Standards Inspection" },
+  { step: "1", title: "TrueQuote™ Pricing", rendered: <><span className="text-accent">True</span>Quote™ Pricing</> },
+  { step: "2", title: "PowerFlex™ Scheduling", rendered: <><span className="text-accent">Power</span>Flex™ Scheduling</> },
+  { step: "3", title: "ColorConfidence™ Consultation", rendered: <><span className="text-accent">Color</span>Confidence™ Consultation</> },
+  { step: "4", title: "JobTrack™ Project Management", rendered: <><span className="text-accent">Job</span>Track™ Project Management</> },
+  { step: "5", title: "PCA™ Standards Inspection", rendered: <><span className="text-accent">PCA</span>™ Standards Inspection</> },
 ];
 
 const BlueprintSection = () => {
@@ -34,9 +34,7 @@ const BlueprintSection = () => {
                       <CheckCircle className="h-5 w-5 text-primary-foreground" />
                     </div>
                     <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
-                      Step {s.step}: {s.title === "TrueQuote™ Pricing" ? (
-                        <><span className="text-accent">True</span>Quote™ Pricing</>
-                      ) : s.title}
+                      {s.rendered}
                     </span>
                   </div>
                 ))}
