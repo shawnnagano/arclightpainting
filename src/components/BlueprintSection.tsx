@@ -6,7 +6,7 @@ const steps = [
   { step: "2", title: "PowerFlex™ Scheduling", rendered: <><span className="text-accent">Power</span>Flex™ scheduling</> },
   { step: "3", title: "ColorConfidence™ Consultation", rendered: <><span className="text-accent">Color</span>Confidence™ consultation</> },
   { step: "4", title: "JobTrack™ Project Management", rendered: <><span className="text-accent">Job</span>Track™ project management</> },
-  { step: "5", title: "PCA™ Standards Inspection", rendered: <><span className="text-accent">PCA</span>™ standards inspection</> },
+  { step: "5", title: "PCA™ Quality Inspection", rendered: <><span className="text-accent">PCA</span>™ quality inspection</> },
 ];
 
 const BlueprintSection = () => {
