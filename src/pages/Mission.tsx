@@ -140,7 +140,7 @@ const Mission = () => {
             <div className="flex items-center justify-center gap-3 mb-6">
               <RefreshCw className="h-8 w-8 text-accent" />
               <h2 className="text-3xl md:text-4xl font-bold">
-                <span className="text-accent">FreshStart™</span> Touch-Up Plan
+                Ongoing <span className="text-accent">Service</span>
               </h2>
             </div>
 
