@@ -23,7 +23,7 @@ const Schedule = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('/src/assets/blueprint-photo.jpg')",
+            backgroundImage: `url('${blueprintImage}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
