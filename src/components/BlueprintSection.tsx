@@ -34,7 +34,9 @@ const BlueprintSection = () => {
                       <CheckCircle className="h-5 w-5 text-primary-foreground" />
                     </div>
                     <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
-                      Step {s.step}: {s.title}
+                      Step {s.step}: {s.title.includes("TrueQuote") ? (
+                        <>{s.title.replace("TrueQuote", "").replace("™ Pricing", "")}<span className="text-accent">True</span>Quote™ Pricing</>
+                      ) : s.title}
                     </span>
                   </div>
                 ))}
