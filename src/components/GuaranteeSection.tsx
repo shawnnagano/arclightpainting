@@ -17,9 +17,9 @@ const guarantees = [
       "You'll always know what to expect—before, during, and after the project. If you ever feel uncertain, unheard, or unsatisfied at any point, we encourage you to tell us. We're not just here to paint; we're here to serve.",
   },
   {
-    title: "Backed by our FreshStart™ Program",
+    title: "Backed by our FreshStart™ Touch-Up Plan",
     description:
-      "Your 100% Satisfaction Guarantee doesn't expire when the project ends. With our FreshStart™ Program, you're also covered by our five-year workmanship commitment—including touch-ups and repairs for peeling, blistering, or chipping paint.",
+      "Your 100% Satisfaction Guarantee doesn't expire when the project ends. With our FreshStart™ Touch-Up Plan, you're also covered by our five-year workmanship commitment—including touch-ups and repairs for peeling, blistering, or chipping paint.",
   },
 ];
 
