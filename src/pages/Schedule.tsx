@@ -30,13 +30,9 @@ const Schedule = () => {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-12">
-          <h1 className="text-3xl md:text-4xl font-bold mb-2">
-            Schedule Your <span className="text-accent">Free Estimate</span>
+          <h1 className="text-3xl md:text-4xl font-bold">
+            Schedule Your <span className="text-accent">TrueQuote</span> Consultation
           </h1>
-          <p className="text-muted-foreground">
-            For Immediate Assistance Call{" "}
-            <a href="tel:14257571199" className="font-bold text-accent hover:underline">(425) 757-1199</a>
-          </p>
         </div>
       </section>
 
