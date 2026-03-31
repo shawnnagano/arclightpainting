@@ -187,10 +187,6 @@ const About = () => {
       {/* Team Leaders */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-4">Team Leaders</h2>
-          <p className="text-center text-muted-foreground mb-10 max-w-xl mx-auto text-sm">
-            Our Team Leaders are the heartbeat of Arclight's production. They guide jobs from setup to walkthrough, ensuring every detail meets our Above & Beyond standard.
-          </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {teamLeaders.map((name) => (
               <div key={name} className="text-center">
