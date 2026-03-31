@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import aboutHeroImg from "@/assets/about-hero.jpg";
 const teamMembers = [
   {
     name: "Shawn Nagano",
@@ -90,7 +91,7 @@ const About = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/residential-painting-services-exterior.webp')",
+            backgroundImage: `url(${aboutHeroImg})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -105,9 +106,6 @@ const About = () => {
           </p>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground mb-6">
             Our team is built on character, excellence, and genuine care, so you can feel confident knowing your project is in trusted hands.
-          </p>
-          <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Behind every brushstroke is a story, a true leader, and a professional you can trust. With <strong className="text-foreground">25 years of service</strong>, a team of <strong className="text-foreground">empowered leaders</strong>, and <strong className="text-foreground">trusted professionals</strong> who treat every home like their own, Arclight is built on people who care as much about the outcome as you do.
           </p>
         </div>
       </section>
