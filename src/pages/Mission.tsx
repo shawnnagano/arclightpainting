@@ -83,7 +83,7 @@ const Mission = () => {
             Real <span className="text-accent">Purpose</span>
           </h1>
           <p className="text-xl md:text-2xl font-semibold mb-6">
-            Serving People Above Profits.
+            <span className="text-accent">Serving</span> People Above Profits.
           </p>
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
             At Arclight, service comes first. Every promise, guarantee, and part of our process is designed to give you confidence, peace of mind, and a better experience from beginning to end.
