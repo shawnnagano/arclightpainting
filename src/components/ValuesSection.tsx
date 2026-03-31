@@ -29,9 +29,9 @@ const values = [
   {
     icon: Award,
     title: "EXCEPTIONAL RESULTS",
-    subtitle: "No shortcuts. No surprises.",
+    subtitle: "No Shortcuts. No Surprises.",
     description:
-      "Our Above & Beyond Blueprint™ is built on clarity, communication, and craftsmanship, backed by a proven process you can trust.",
+      "Our Above & Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and craftsmanship our clients consistently rave about.",
     points: [
       "Transparent pricing",
       "Flexible scheduling",
