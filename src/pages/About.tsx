@@ -169,14 +169,11 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Trusted <span className="text-accent">Professionals</span>
           </h2>
-          <h3 className="text-xl text-center text-muted-foreground mb-10">
-            Your Peace of Mind Is Part of the Deal
-          </h3>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
-              { title: "Skills & Training", desc: "Every painter is vetted for technical ability and receives ongoing coaching in industry best practices." },
-              { title: "Selection Process", desc: "We only hire people who live our core values. Every team member passes a full screening before joining." },
-              { title: "Clear Processes", desc: "From setup to walkthrough, our professionals follow documented systems ensuring consistency, safety, and quality." },
+              { title: "Skills & Training", desc: <>Our painters are chosen for technical ability and developed through ongoing coaching and industry best practices.</> },
+              { title: "Selection Process", desc: <>We hire people who live our <span className="text-accent font-semibold">Core Values</span> and carefully screen every team member before they join our team.</> },
+              { title: "Clear Processes", desc: <>From setup to walkthrough, we follow <span className="text-accent font-semibold">proven systems</span> that create consistency, safety, and quality at every stage.</> },
             ].map((item) => (
               <div key={item.title} className="text-center">
                 <h4 className="font-bold text-lg mb-2">{item.title}</h4>
