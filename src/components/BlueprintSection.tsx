@@ -47,7 +47,7 @@ const BlueprintSection = () => {
             <img
               src={blueprintImage}
               alt="Arclight Painting consultation with homeowner"
-              className="rounded-xl shadow-lg w-full object-cover"
+              className="rounded-xl shadow-lg w-full object-cover max-h-[400px]"
               loading="lazy"
             />
           </div>
