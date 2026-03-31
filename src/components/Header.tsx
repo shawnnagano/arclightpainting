@@ -182,7 +182,7 @@ const Header = () => {
             <div className="px-6 pt-3">
               <Link to="/schedule" onClick={() => setMobileOpen(false)}>
                 <Button className="w-full bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-                  Get A Fast Quote →
+                  Get a TrueQuote →
                 </Button>
               </Link>
             </div>
