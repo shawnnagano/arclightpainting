@@ -62,7 +62,7 @@ const ValuesSection = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-xl md:text-2xl font-semibold text-center mb-2"
         >
-          No Shortcuts. No Surprises.
+          <span className="text-accent">No</span> Shortcuts. <span className="text-accent">No</span> Surprises.
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
