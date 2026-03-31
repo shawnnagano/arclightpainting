@@ -74,7 +74,10 @@ const JoinOurTeam = () => {
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
               Join Our <span className="text-accent">Team!</span>
             </h1>
-            <p className="text-xl md:text-2xl font-semibold mb-8">
+            <p className="text-xl md:text-2xl font-semibold mb-6">
+              <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. <span className="text-accent">Exceptional</span> Results.
+            </p>
+            <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground mb-8">
               We're always looking for good people who want to make a difference.
             </p>
             <a href="#openings">
