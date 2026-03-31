@@ -2,7 +2,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
-import { Users, Shield, Heart } from "lucide-react";
 import { motion } from "framer-motion";
 import teamHeroImg from "@/assets/team-hero.jpg";
 
@@ -29,19 +28,24 @@ const openings = [
 
 const values = [
   {
-    icon: Shield,
-    title: "Extreme Ownership",
-    description: "We take full responsibility for every project outcome — no excuses, no shortcuts.",
+    title: "Honesty",
+    icon: "🪞",
+    description: "We tell the truth — about timelines, pricing, and what your home truly needs. No surprises, no shortcuts.",
   },
   {
-    icon: Heart,
-    title: "Quality Craftsmanship",
-    description: "We believe high-quality workmanship is worth the investment and anything short of extraordinary is unacceptable.",
+    title: "Ownership",
+    icon: "🛡️",
+    description: "We treat every project like it's our own home. If something isn't right, we make it right — no excuses.",
   },
   {
-    icon: Users,
-    title: "Exceptional Service",
-    description: "We always strive to go above and beyond for our customers, employees, and community.",
+    title: "Friendship",
+    icon: "🤝",
+    description: "We build genuine relationships with our clients and each other. Every interaction is grounded in respect and care.",
+  },
+  {
+    title: "Family",
+    icon: "🏡",
+    description: "Our team is a family. We support one another, celebrate wins together, and show up for each other every day.",
   },
 ];
 
@@ -98,19 +102,19 @@ const JoinOurTeam = () => {
         {/* Values */}
         <section className="py-16 bg-secondary">
           <div className="container mx-auto px-4 max-w-5xl">
-            <h2 className="text-3xl font-bold text-foreground mb-10 text-center">Our Core Values</h2>
-            <div className="grid md:grid-cols-3 gap-8">
+            <h2 className="text-3xl font-bold text-foreground mb-10 text-center">Our <span className="text-accent">Core Values</span></h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               {values.map((value) => (
                 <motion.div
                   key={value.title}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
-                  className="bg-background rounded-xl p-6 shadow-sm text-center"
+                  className="bg-background rounded-xl p-6 shadow-sm text-center border border-border"
                 >
-                  <value.icon className="h-10 w-10 text-accent mx-auto mb-4" />
-                  <h3 className="text-xl font-bold text-foreground mb-2">{value.title}</h3>
-                  <p className="text-muted-foreground">{value.description}</p>
+                  <div className="text-4xl mb-4">{value.icon}</div>
+                  <h3 className="font-bold text-xl mb-3">{value.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{value.description}</p>
                 </motion.div>
               ))}
             </div>
