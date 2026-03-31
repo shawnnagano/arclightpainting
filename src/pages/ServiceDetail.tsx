@@ -135,7 +135,7 @@ const serviceData: Record<string, {
     tagline: "One Professional. One Day. One Fresh New Look.",
     description: [
       "Need a quick refresh? Our Painter-for-a-Day service gives you a skilled, background-checked painter dedicated to your home for a full 8 hours. Perfect for touch-ups, small projects, or that one room you've been meaning to update.",
-      "You provide the checklist, we provide the painter. From touch-up work and accent walls to painting entry doors and repairing trim — our Painter-for-a-Day handles it all. No estimate needed. Quality work guaranteed. ALL FOR JUST $689 FOR THE DAY!",
+      "You provide the checklist, we provide the painter. From touch-up work and accent walls to painting entry doors and repairing trim — our Painter-for-a-Day handles it all. No estimate needed. Quality work guaranteed.",
     ],
     image: painterForADayHero,
     benefits: [
@@ -233,6 +233,11 @@ const ServiceDetail = () => {
                   {p}
                 </p>
               ))}
+              {slug === "painter-for-a-day" && (
+                <p className="text-xl font-bold mt-2">
+                  ALL FOR JUST <span className="text-accent">$689</span> FOR THE DAY!
+                </p>
+              )}
             </motion.div>
           </div>
         </div>
