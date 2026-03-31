@@ -264,12 +264,6 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
         {/* Slider */}
         <div className="max-w-2xl mx-auto relative">
           <div className="bg-card rounded-xl p-8 md:p-10 border border-border/50 shadow-lg text-center">
-            {/* Stars */}
-            <div className="flex justify-center mb-4">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
-              ))}
-            </div>
 
             {/* Quote icon */}
             <Quote className="h-8 w-8 text-accent/30 mx-auto mb-4" />
