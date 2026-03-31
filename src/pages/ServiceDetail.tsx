@@ -205,7 +205,12 @@ const ServiceDetail = () => {
       <Header />
 
       {/* 1. Hero with service image */}
-      <HeroSection cityName="Bothell" heroImage={service.image} heroTitle={`Professional ${service.title}`} />
+      <HeroSection
+        cityName="Bothell"
+        heroImage={service.image}
+        heroTitle={`Professional ${service.title}`}
+        {...(slug === "painter-for-a-day" ? { backgroundSize: "110%", backgroundPosition: "center right -100px" } : {})}
+      />
 
       {/* Service-specific content section */}
       <section className="py-16 bg-background">

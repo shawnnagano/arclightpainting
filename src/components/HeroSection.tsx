@@ -10,9 +10,11 @@ interface HeroSectionProps {
   cityName?: string;
   heroImage?: string;
   heroTitle?: string;
+  backgroundPosition?: string;
+  backgroundSize?: string;
 }
 
-const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSectionProps) => {
+const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, backgroundPosition, backgroundSize }: HeroSectionProps) => {
   const bgImage = heroImage || "https://arclightpainting.com/wp-content/uploads/2025/07/hiyuse.jpg";
   const displayTitle = heroTitle || "Professional House Painters";
 
@@ -23,8 +25,8 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle }: HeroSection
         className="absolute inset-0"
         style={{
           backgroundImage: `url('${bgImage}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center right",
+          backgroundSize: backgroundSize || "cover",
+          backgroundPosition: backgroundPosition || "center right",
         }}
       />
       {/* Gradient overlay */}
