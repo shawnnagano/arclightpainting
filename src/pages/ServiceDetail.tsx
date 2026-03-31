@@ -104,7 +104,7 @@ const serviceData: Record<string, {
       "Professional pressure washing cleans siding, driveways, decks, and walkways to restore a fresh, clean look. Years of dirt, mold, mildew, and algae buildup can make your home look aged and neglected.",
       "Our pressure washing service is also an essential first step before any exterior painting project, ensuring proper paint adhesion and a long-lasting finish.",
     ],
-    image: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg",
+    image: pressureWashingHero,
     benefits: [
       "Safe, effective cleaning for all exterior surfaces",
       "Removes mold, mildew, algae, and grime",
