@@ -49,6 +49,7 @@ const App = () => (
             <Route path="/service-areas/:slug" element={<ServiceAreaDetail />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/join-our-team" element={<JoinOurTeam />} />
+            <Route path="/mission" element={<Mission />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
