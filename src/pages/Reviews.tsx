@@ -48,10 +48,13 @@ const Reviews = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
-            Customer <span className="text-accent">Reviews</span>
+            Exceptional <span className="text-accent">Results</span>
           </h1>
-          <p className="mt-4 text-muted-foreground max-w-lg">
-            See what our clients have to say about their experience working with us—their words speak for themselves.
+          <p className="text-xl md:text-2xl font-semibold mb-4">
+            No Shortcuts. No Surprises.
+          </p>
+          <p className="text-muted-foreground max-w-lg">
+            Our Above &amp; Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and craftsmanship our clients consistently rave about.
           </p>
         </div>
       </section>
