@@ -6,6 +6,7 @@ import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
 import commercialHero from "@/assets/commercial-hero.jpg";
 import exteriorHero from "@/assets/exterior-hero.png";
+import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
 
 const services = [
   {
@@ -40,7 +41,7 @@ const services = [
     title: "Pressure Washing",
     description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
     icon: Droplets,
-    image: "https://arclightpainting.com/wp-content/uploads/2023/11/pressure-washing-company-concrete-cleaning-1.jpg",
+    image: pressureWashingHero,
     link: "/services/pressure-washing",
   },
   {
