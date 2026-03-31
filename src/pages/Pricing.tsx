@@ -108,7 +108,7 @@ const Pricing = () => {
             </div>
           </div>
           <p className="text-muted-foreground leading-relaxed">
-            <strong className="text-foreground">At Arclight Painting, our TrueQuote pricing is designed to be accurate, transparent, and aligned with the true scope of work, so the job gets done right the first time.</strong>
+            <strong className="text-foreground">At Arclight Painting, our <span className="text-accent">TrueQuote</span> pricing is designed to be accurate, transparent, and aligned with the true scope of work, so the job gets done right the first time.</strong>
           </p>
         </div>
       </section>
