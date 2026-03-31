@@ -29,8 +29,9 @@ const Pricing = () => {
           className="absolute inset-0"
           style={{
             backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/09/image-8-1.webp')",
-            backgroundSize: "75%",
-            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundPosition: "right center",
+            backgroundRepeat: "no-repeat",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
