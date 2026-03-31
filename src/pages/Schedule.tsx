@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Phone } from "lucide-react";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const Schedule = () => {
   return (
@@ -22,7 +23,7 @@ const Schedule = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/house-painting-service-company-near-me-in-bothell-wa-078.jpg')",
+            backgroundImage: `url('${blueprintImage}')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
