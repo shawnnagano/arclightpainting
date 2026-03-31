@@ -52,7 +52,7 @@ const Schedule = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight">
-            Schedule Your <span className="text-accent">TrueQuote</span><br /> Consultation
+            Schedule Your <span className="text-accent">True</span>Quote<br /> Consultation
           </h1>
         </div>
       </section>
