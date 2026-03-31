@@ -171,7 +171,7 @@ const About = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
-              { title: "Skills & Training", desc: <>Our painters are chosen for technical ability and developed through ongoing coaching and industry best practices.</> },
+              { title: "Skills & Training", desc: <>Our painters are chosen for <span className="text-accent font-semibold">technical ability</span> and developed through ongoing coaching and industry best practices.</> },
               { title: "Selection Process", desc: <>We hire people who live our <span className="text-accent font-semibold">Core Values</span> and carefully screen every team member before they join our team.</> },
               { title: "Clear Processes", desc: <>From setup to walkthrough, we follow <span className="text-accent font-semibold">proven systems</span> that create consistency, safety, and quality at every stage.</> },
             ].map((item) => (
