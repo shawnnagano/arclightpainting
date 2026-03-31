@@ -39,7 +39,7 @@ const Pricing = () => {
             <span className="text-accent">True</span>Quote Pricing
           </h1>
           <p className="text-xl md:text-2xl font-semibold">
-            Clear Prices. No Surprises.
+            <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises.
           </p>
         </div>
       </section>
