@@ -107,9 +107,6 @@ const About = () => {
           <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground mb-6">
             Our team is built on character, excellence, and genuine care, so you can feel confident knowing your project is in trusted hands.
           </p>
-          <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
-            Behind every brushstroke is a story, a true leader, and a professional you can trust. With <strong className="text-foreground">25 years of service</strong>, a team of <strong className="text-foreground">empowered leaders</strong>, and <strong className="text-foreground">trusted professionals</strong> who treat every home like their own, Arclight is built on people who care as much about the outcome as you do.
-          </p>
         </div>
       </section>
 
