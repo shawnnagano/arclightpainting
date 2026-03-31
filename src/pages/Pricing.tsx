@@ -24,7 +24,7 @@ const Pricing = () => {
       <Header />
 
       {/* Hero with background image */}
-      <section className="relative min-h-[400px] overflow-hidden flex items-center">
+      <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
         <div
           className="absolute inset-0"
           style={{
@@ -34,7 +34,7 @@ const Pricing = () => {
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
-        <div className="container mx-auto px-4 relative z-10 py-16">
+        <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
             TrueQuote <span className="text-accent">Pricing</span>
           </h1>
