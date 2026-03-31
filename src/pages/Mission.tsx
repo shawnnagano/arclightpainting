@@ -218,8 +218,8 @@ const Mission = () => {
               ))}
             </div>
 
-            <p className="text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
-              Your home deserves the highest standard. Your experience should be hassle-free. And your project isn't done until you're truly satisfied—guaranteed.
+            <p className="text-center font-bold mt-8 max-w-2xl mx-auto">
+              Your home deserves the <span className="text-accent">highest standard</span>. Your experience should be <span className="text-accent">hassle-free</span>. And your project isn't done until you're <span className="text-accent">truly satisfied</span>—GUARANTEED.
             </p>
           </motion.div>
         </div>
