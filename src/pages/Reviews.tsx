@@ -65,7 +65,7 @@ const Reviews = () => {
                   />
                 ))}
               </div>
-              <p className="text-sm text-muted-foreground">{totalReviews} reviews on Google</p>
+              <p className="text-sm text-muted-foreground">Google Reviews</p>
             </div>
           </div>
           <p className="mt-4 text-muted-foreground max-w-lg">
