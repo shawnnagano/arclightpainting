@@ -51,10 +51,28 @@ const ValuesSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-4xl font-bold text-center mb-12"
+          className="text-3xl md:text-4xl font-bold text-center mb-4"
         >
-          The Arclight Painting Difference
+          Exceptional <span className="text-accent">Results</span>
         </motion.h2>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="text-xl md:text-2xl font-semibold text-center mb-2"
+        >
+          No Shortcuts. No Surprises.
+        </motion.p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.15 }}
+          className="text-muted-foreground text-center max-w-2xl mx-auto mb-12"
+        >
+          Our Above &amp; Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and craftsmanship our clients consistently rave about.
+        </motion.p>
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (
             <motion.div
