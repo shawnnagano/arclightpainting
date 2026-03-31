@@ -10,6 +10,7 @@ interface HeroSectionProps {
   cityName?: string;
   heroImage?: string;
   heroTitle?: string;
+  heroTitleNode?: React.ReactNode;
   backgroundPosition?: string;
   backgroundSize?: string;
 }
