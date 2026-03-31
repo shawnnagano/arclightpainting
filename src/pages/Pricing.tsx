@@ -30,7 +30,7 @@ const Pricing = () => {
             src="https://arclightpainting.com/wp-content/uploads/2025/09/image-8-1.webp"
             alt="Pricing hero"
             className="w-full h-full object-cover"
-            style={{ objectPosition: "70% 65%" }}
+            style={{ objectPosition: "70% 85%" }}
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
