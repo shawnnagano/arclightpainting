@@ -113,7 +113,7 @@ const Pricing = () => {
           <div className="text-center mt-8">
             <Link to="/schedule">
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-8">
-                Get A Fast Quote →
+                Get a TrueQuote →
               </Button>
             </Link>
           </div>
