@@ -235,17 +235,17 @@ const About = () => {
       {/* Team Leaders */}
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamLeaders.map((member) => (
-              <div key={member.name} className="text-center">
-                <div className="w-16 h-16 mx-auto rounded-full bg-accent/20 flex items-center justify-center mb-2 overflow-hidden">
+              <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
+                <div className="w-28 h-28 mx-auto mb-4 rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                   {member.image ? (
                     <img src={member.image} alt={member.name} className="w-full h-full object-cover" style={member.imageStyle || { objectPosition: 'center 20%' }} />
                   ) : (
-                    <span className="text-accent font-bold">{member.name.split(" ").map(n => n[0]).join("")}</span>
+                    <span className="text-2xl font-bold text-accent">{member.name.split(" ").map(n => n[0]).join("")}</span>
                   )}
                 </div>
-                <p className="font-semibold text-sm">{member.name}</p>
+                <h4 className="font-bold text-lg">{member.name}</h4>
               </div>
             ))}
           </div>
