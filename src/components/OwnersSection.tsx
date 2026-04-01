@@ -18,7 +18,7 @@ const OwnersSection = () => {
               Meet the <span className="text-accent">Owners</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-xl">
-              As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting on the belief that great work starts with great people. Every project we take on reflects our commitment to honesty, craftsmanship, and community.
+              As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting to serve our community through honesty, craftsmanship, and above-and-beyond care. Every project reflects our commitment to doing the job right and treating our customers like friends, not transactions.
             </p>
             <Link
               to="/about"
