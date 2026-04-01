@@ -164,7 +164,7 @@ const About = () => {
               <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
                 <div className="w-28 h-28 mx-auto mb-4 rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                   {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover object-top" />
+                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" style={member.imageStyle || { objectPosition: 'top' }} />
                   ) : (
                     <span className="text-2xl font-bold text-accent">
                       {member.name.split(" ").map(n => n[0]).join("")}
