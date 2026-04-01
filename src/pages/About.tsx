@@ -18,6 +18,11 @@ import ionImg from "@/assets/ion-botnariuc.png";
 import alejandroImg from "@/assets/alejandro-lopez.png";
 import sandorImg from "@/assets/sandor-kovacs.png";
 import shawnCImg from "@/assets/shawn-callihoo.png";
+import antoniImg from "@/assets/antoni-salvin.png";
+import georgeImg from "@/assets/george-linares.png";
+import robertoImg from "@/assets/roberto-alcazar.png";
+import vicenteImg from "@/assets/vicente-guerrero.png";
+import victorImg from "@/assets/victor-mendoza.png";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
