@@ -18,6 +18,11 @@ import ionImg from "@/assets/ion-botnariuc.png";
 import alejandroImg from "@/assets/alejandro-lopez.png";
 import sandorImg from "@/assets/sandor-kovacs.png";
 import shawnCImg from "@/assets/shawn-callihoo.png";
+import antoniImg from "@/assets/antoni-salvin.png";
+import georgeImg from "@/assets/george-linares.png";
+import robertoImg from "@/assets/roberto-alcazar.png";
+import vicenteImg from "@/assets/vicente-guerrero.png";
+import victorImg from "@/assets/victor-mendoza.png";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
@@ -85,12 +90,16 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
 const teamLeaders: { name: string; image?: string; imageStyle?: React.CSSProperties }[] = [
   { name: "Ion Botnariuc", image: ionImg, imageStyle: { objectPosition: "center 20%" } },
   { name: "Ricardo Guerrero" },
-  { name: "Roberto Alcazar" },
+  { name: "Roberto Alcazar", image: robertoImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Shawn Callihoo", image: shawnCImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Alejandro Lopez", image: alejandroImg, imageStyle: { objectPosition: "center 30%" } },
   { name: "Angel Andrade" },
   { name: "Sandor Kovacs", image: sandorImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Tuguldur Telmer" },
+  { name: "Antoni Salvin", image: antoniImg, imageStyle: { objectPosition: "center 20%" } },
+  { name: "George Linares", image: georgeImg, imageStyle: { objectPosition: "center 15%" } },
+  { name: "Vicente Guerrero", image: vicenteImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Victor Mendoza", image: victorImg, imageStyle: { objectPosition: "center 15%" } },
 ];
 
 const About = () => {
