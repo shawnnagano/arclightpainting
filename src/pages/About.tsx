@@ -14,6 +14,10 @@ import ellaineImg from "@/assets/ellaine-cristostomo.jpg";
 import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
 import danielImg from "@/assets/daniel-wolff.png";
+import ionImg from "@/assets/ion-botnariuc.png";
+import alejandroImg from "@/assets/alejandro-lopez.png";
+import sandorImg from "@/assets/sandor-kovacs.png";
+import shawnCImg from "@/assets/shawn-callihoo.png";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
