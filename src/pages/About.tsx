@@ -6,53 +6,62 @@ import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import aboutHeroImg from "@/assets/about-hero.jpg";
+import shawnImg from "@/assets/shawn-nagano-small.jpg";
+import jenniferImg from "@/assets/jennifer-pattison.jpg";
+import christopherImg from "@/assets/christopher-repaso.png";
+import brittanyImg from "@/assets/brittany-aguero.jpg";
+import ellaineImg from "@/assets/ellaine-cristostomo.jpg";
+import belleImg from "@/assets/belle-tijap.png";
+import jessaImg from "@/assets/jessa-cabrera.png";
+import danielImg from "@/assets/daniel-wolff.png";
+
 const teamMembers = [
   {
     name: "Shawn Nagano",
     title: "Executive Officer",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/09/image-9-scaled.webp",
+    image: shawnImg,
     bio: "Shawn casts the long-term vision for Arclight and protects its soul. A University of Washington alum and U.S. Army Captain (ret.), he brings extreme ownership and mission-driven leadership to every project.",
   },
   {
     name: "Jennifer Pattison",
     title: "Sales Manager & Co-Founder",
-    image: null,
+    image: jenniferImg,
     bio: "Jennifer leads with clarity, empathy, and integrity. A U.S. Army veteran and mother of three, she combines discipline with care, ensuring every client starts their project with confidence and trust.",
   },
   {
     name: "Christopher Repaso",
     title: "Executive Integrator",
-    image: null,
+    image: christopherImg,
     bio: "Christopher turns the Arclight Vision into actionable, accountable execution. He unifies the leadership team, manages cross-functional coordination, and drives discipline across all departments.",
   },
   {
     name: "Brittany Aguero",
     title: "Marketing Manager",
-    image: null,
+    image: brittanyImg,
     bio: "Brittany ensures Arclight's story is seen, heard, and trusted. She manages every campaign with excellence, from digital ads to community outreach.",
   },
   {
     name: "Ellaine Cristostomo",
     title: "Business Operations Manager",
-    image: null,
+    image: ellaineImg,
     bio: "Ellaine keeps Arclight's operations running smoothly behind the scenes, managing HR, finance, and compliance with grit and heart.",
   },
   {
     name: "Belle Tijap",
     title: "Controller",
-    image: null,
+    image: belleImg,
     bio: "Belle oversees Arclight's finances with discipline and precision, ensuring payroll, job costing, and reporting are always reliable.",
   },
   {
     name: "Jessa Cabrera",
     title: "Production Manager",
-    image: null,
+    image: jessaImg,
     bio: "Jessa orchestrates the logistics that drive Arclight's daily production. A licensed civil engineer, she brings planning precision and on-the-ground execution.",
   },
   {
     name: "Daniel Wolff",
     title: "Quality Supervisor",
-    image: null,
+    image: danielImg,
     bio: "Daniel oversees active job sites and ensures compliance with Arclight's production standards. He serves as quality assurance lead, safety officer, and training coordinator.",
   },
 ];
@@ -153,9 +162,9 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member) => (
               <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-secondary flex items-center justify-center overflow-hidden">
+                <div className="w-28 h-28 mx-auto mb-4 rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                   {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                    <img src={member.image} alt={member.name} className="w-full h-full object-cover object-top" />
                   ) : (
                     <span className="text-2xl font-bold text-accent">
                       {member.name.split(" ").map(n => n[0]).join("")}
