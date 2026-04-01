@@ -14,6 +14,10 @@ import ellaineImg from "@/assets/ellaine-cristostomo.jpg";
 import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
 import danielImg from "@/assets/daniel-wolff.png";
+import ionImg from "@/assets/ion-botnariuc.png";
+import alejandroImg from "@/assets/alejandro-lopez.png";
+import sandorImg from "@/assets/sandor-kovacs.png";
+import shawnCImg from "@/assets/shawn-callihoo.png";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
@@ -78,9 +82,15 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
   },
 ];
 
-const teamLeaders = [
-  "Ion Botnariuc", "Ricardo Guerrero", "Roberto Alcazar", "Shawn Callihoo",
-  "Alejandro Lopez", "Angel Andrade", "Sandor Kovacs", "Tuguldur Telmer",
+const teamLeaders: { name: string; image?: string; imageStyle?: React.CSSProperties }[] = [
+  { name: "Ion Botnariuc", image: ionImg, imageStyle: { objectPosition: "center 20%" } },
+  { name: "Ricardo Guerrero" },
+  { name: "Roberto Alcazar" },
+  { name: "Shawn Callihoo", image: shawnCImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Alejandro Lopez", image: alejandroImg, imageStyle: { objectPosition: "center 30%" } },
+  { name: "Angel Andrade" },
+  { name: "Sandor Kovacs", image: sandorImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Tuguldur Telmer" },
 ];
 
 const About = () => {
@@ -217,12 +227,16 @@ const About = () => {
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto">
-            {teamLeaders.map((name) => (
-              <div key={name} className="text-center">
-                <div className="w-16 h-16 mx-auto rounded-full bg-accent/20 flex items-center justify-center mb-2">
-                  <span className="text-accent font-bold">{name.split(" ").map(n => n[0]).join("")}</span>
+            {teamLeaders.map((member) => (
+              <div key={member.name} className="text-center">
+                <div className="w-16 h-16 mx-auto rounded-full bg-accent/20 flex items-center justify-center mb-2 overflow-hidden">
+                  {member.image ? (
+                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" style={member.imageStyle || { objectPosition: 'center 20%' }} />
+                  ) : (
+                    <span className="text-accent font-bold">{member.name.split(" ").map(n => n[0]).join("")}</span>
+                  )}
                 </div>
-                <p className="font-semibold text-sm">{name}</p>
+                <p className="font-semibold text-sm">{member.name}</p>
               </div>
             ))}
           </div>
