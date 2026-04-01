@@ -23,6 +23,9 @@ import georgeImg from "@/assets/george-linares.webp";
 import robertoImg from "@/assets/roberto-alcazar.webp";
 import vicenteImg from "@/assets/vicente-guerrero.webp";
 import victorImg from "@/assets/victor-mendoza.webp";
+import benjaminImg from "@/assets/benjamin-griffin.webp";
+import kevinImg from "@/assets/kevin-garnica.webp";
+import tonyImg from "@/assets/tony-garcia.webp";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
