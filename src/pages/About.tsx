@@ -15,7 +15,7 @@ import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
 import danielImg from "@/assets/daniel-wolff.png";
 
-const teamMembers = [
+const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
     name: "Shawn Nagano",
     title: "Executive Officer",
@@ -39,12 +39,14 @@ const teamMembers = [
     title: "Marketing Manager",
     image: brittanyImg,
     bio: "Brittany ensures Arclight's story is seen, heard, and trusted. She manages every campaign with excellence, from digital ads to community outreach.",
+    imageStyle: { objectPosition: 'top', transform: 'scale(1.25)' },
   },
   {
     name: "Ellaine Cristostomo",
     title: "Business Operations Manager",
     image: ellaineImg,
     bio: "Ellaine keeps Arclight's operations running smoothly behind the scenes, managing HR, finance, and compliance with grit and heart.",
+    imageStyle: { objectPosition: 'center 60%' },
   },
   {
     name: "Belle Tijap",
@@ -57,6 +59,7 @@ const teamMembers = [
     title: "Production Manager",
     image: jessaImg,
     bio: "Jessa orchestrates the logistics that drive Arclight's daily production. A licensed civil engineer, she brings planning precision and on-the-ground execution.",
+    imageStyle: { objectPosition: 'top', transform: 'scale(1.25)' },
   },
   {
     name: "Daniel Wolff",
@@ -164,7 +167,7 @@ const About = () => {
               <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
                 <div className="w-28 h-28 mx-auto mb-4 rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                   {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover object-top" />
+                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" style={member.imageStyle || { objectPosition: 'top' }} />
                   ) : (
                     <span className="text-2xl font-bold text-accent">
                       {member.name.split(" ").map(n => n[0]).join("")}
