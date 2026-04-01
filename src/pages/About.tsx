@@ -113,20 +113,30 @@ const About = () => {
 
       {/* 25 Years of Service */}
       <section id="our-story" className="py-16 bg-background scroll-mt-24">
-        <div className="container mx-auto px-4 max-w-4xl">
+        <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
             Proven <span className="text-accent">Experience</span>
           </h2>
-          <div className="space-y-6 text-muted-foreground leading-relaxed">
-            <p>
-              Arclight's story began in the mid-1990s, when founder Shawn Nagano started painting during college summers. What began as side work became a lifelong commitment to craftsmanship, integrity, and service.
-            </p>
-            <p>
-              After building his first business and serving as a commissioned officer in the U.S. Army, Shawn founded Arclight Painting in 2013 alongside co-founder Jennifer Pattison, also a veteran. Together, they built a company rooted in discipline, trust, and doing the job right.
-            </p>
-            <p>
-              The Arclight name reflects clarity, attention to detail, and transformation, values that continue to shape our culture and our work today.
-            </p>
+          <div className="flex flex-col md:flex-row items-center gap-10">
+            <div className="md:w-2/3 space-y-6 text-muted-foreground leading-relaxed">
+              <p>
+                Arclight's story began in the mid-1990s, when founder Shawn Nagano started painting during college summers. What began as side work became a lifelong commitment to craftsmanship, integrity, and service.
+              </p>
+              <p>
+                After building his first business and serving as a commissioned officer in the U.S. Army, Shawn founded Arclight Painting in 2013 alongside co-founder Jennifer Pattison, also a veteran. Together, they built a company rooted in discipline, trust, and doing the job right.
+              </p>
+              <p>
+                The Arclight name reflects clarity, attention to detail, and transformation, values that continue to shape our culture and our work today.
+              </p>
+            </div>
+            <div className="md:w-1/3 flex justify-center">
+              <img
+                src="https://arclightpainting.com/wp-content/uploads/2025/09/image__11_-removebg-preview.png"
+                alt="Shawn Nagano and Jennifer Pattison, owners of Arclight Painting"
+                className="max-w-[300px] w-full"
+                loading="lazy"
+              />
+            </div>
           </div>
         </div>
       </section>
