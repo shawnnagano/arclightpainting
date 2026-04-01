@@ -15,7 +15,7 @@ import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
 import danielImg from "@/assets/daniel-wolff.png";
 
-const teamMembers = [
+const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
     name: "Shawn Nagano",
     title: "Executive Officer",
@@ -39,12 +39,14 @@ const teamMembers = [
     title: "Marketing Manager",
     image: brittanyImg,
     bio: "Brittany ensures Arclight's story is seen, heard, and trusted. She manages every campaign with excellence, from digital ads to community outreach.",
+    imageStyle: { objectPosition: 'top', transform: 'scale(1.25)' },
   },
   {
     name: "Ellaine Cristostomo",
     title: "Business Operations Manager",
     image: ellaineImg,
     bio: "Ellaine keeps Arclight's operations running smoothly behind the scenes, managing HR, finance, and compliance with grit and heart.",
+    imageStyle: { objectPosition: 'center 60%' },
   },
   {
     name: "Belle Tijap",
@@ -57,6 +59,7 @@ const teamMembers = [
     title: "Production Manager",
     image: jessaImg,
     bio: "Jessa orchestrates the logistics that drive Arclight's daily production. A licensed civil engineer, she brings planning precision and on-the-ground execution.",
+    imageStyle: { objectPosition: 'top', transform: 'scale(1.25)' },
   },
   {
     name: "Daniel Wolff",
