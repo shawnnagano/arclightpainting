@@ -268,8 +268,6 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
             {/* Quote icon */}
             <Quote className="h-8 w-8 text-accent/30 mx-auto mb-4" />
 
-            {/* Category */}
-            <p className="font-bold text-sm mb-3">{t.category}</p>
 
             {/* Text */}
             <p className="text-muted-foreground leading-relaxed mb-6">{t.text}</p>
