@@ -92,17 +92,18 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
 
 const teamLeaders: { name: string; image?: string; imageStyle?: React.CSSProperties }[] = [
   { name: "Ion Botnariuc", image: ionImg, imageStyle: { objectPosition: "center 20%" } },
-  { name: "Ricardo Guerrero" },
   { name: "Roberto Alcazar", image: robertoImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Shawn Callihoo", image: shawnCImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Alejandro Lopez", image: alejandroImg, imageStyle: { objectPosition: "center 30%" } },
-  { name: "Angel Andrade" },
   { name: "Sandor Kovacs", image: sandorImg, imageStyle: { objectPosition: "center 25%" } },
-  { name: "Tuguldur Telmer" },
+  { name: "Todd Telmer" },
   { name: "Antoni Salvin", image: antoniImg, imageStyle: { objectPosition: "center 20%" } },
   { name: "George Linares", image: georgeImg, imageStyle: { objectPosition: "center 15%" } },
   { name: "Vicente Guerrero", image: vicenteImg, imageStyle: { objectPosition: "center 25%" } },
   { name: "Victor Mendoza", image: victorImg, imageStyle: { objectPosition: "center 15%" } },
+  { name: "Benjamin Griffin", image: benjaminImg, imageStyle: { objectPosition: "center 20%" } },
+  { name: "Kevin Garnica", image: kevinImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Tony Garcia", image: tonyImg, imageStyle: { objectPosition: "center 20%" } },
 ];
 
 const About = () => {
