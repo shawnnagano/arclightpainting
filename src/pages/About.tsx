@@ -39,7 +39,7 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     title: "Marketing Manager",
     image: brittanyImg,
     bio: "Brittany ensures Arclight's story is seen, heard, and trusted. She manages every campaign with excellence, from digital ads to community outreach.",
-    imageStyle: { objectPosition: 'center 20%', transform: 'scale(1.5)' },
+    imageStyle: { objectPosition: 'center 35%', transform: 'scale(1.5)' },
   },
   {
     name: "Ellaine Cristostomo",
