@@ -59,7 +59,7 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     title: "Production Manager",
     image: jessaImg,
     bio: "Jessa orchestrates the logistics that drive Arclight's daily production. A licensed civil engineer, she brings planning precision and on-the-ground execution.",
-    imageStyle: { objectPosition: 'top', transform: 'scale(1.25)' },
+    imageStyle: { objectPosition: 'top', transform: 'scale(1.5)' },
   },
   {
     name: "Daniel Wolff",
