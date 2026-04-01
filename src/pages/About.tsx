@@ -82,9 +82,15 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
   },
 ];
 
-const teamLeaders = [
-  "Ion Botnariuc", "Ricardo Guerrero", "Roberto Alcazar", "Shawn Callihoo",
-  "Alejandro Lopez", "Angel Andrade", "Sandor Kovacs", "Tuguldur Telmer",
+const teamLeaders: { name: string; image?: string; imageStyle?: React.CSSProperties }[] = [
+  { name: "Ion Botnariuc", image: ionImg, imageStyle: { objectPosition: "center 20%" } },
+  { name: "Ricardo Guerrero" },
+  { name: "Roberto Alcazar" },
+  { name: "Shawn Callihoo", image: shawnCImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Alejandro Lopez", image: alejandroImg, imageStyle: { objectPosition: "center 30%" } },
+  { name: "Angel Andrade" },
+  { name: "Sandor Kovacs", image: sandorImg, imageStyle: { objectPosition: "center 25%" } },
+  { name: "Tuguldur Telmer" },
 ];
 
 const About = () => {
