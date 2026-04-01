@@ -66,6 +66,7 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     title: "Quality Supervisor",
     image: danielImg,
     bio: "Daniel oversees active job sites and ensures compliance with Arclight's production standards. He serves as quality assurance lead, safety officer, and training coordinator.",
+    imageStyle: { objectPosition: 'top', transform: 'scale(0.75)' },
   },
 ];
 
