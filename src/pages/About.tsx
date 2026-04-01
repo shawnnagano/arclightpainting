@@ -13,7 +13,7 @@ import brittanyImg from "@/assets/brittany-aguero.jpg";
 import ellaineImg from "@/assets/ellaine-cristostomo.jpg";
 import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
-import danielImg from "@/assets/daniel-wolff.jpeg";
+import danielImg from "@/assets/daniel-wolff.png";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
@@ -39,14 +39,18 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     title: "Marketing Manager",
     image: brittanyImg,
     bio: "Brittany ensures Arclight's story is seen, heard, and trusted. She manages every campaign with excellence, from digital ads to community outreach.",
-    imageStyle: { objectPosition: 'center 35%', transform: 'scale(1.5)' },
+    imageStyle: {
+      objectFit: "cover",
+      objectPosition: "center 42%",
+      transform: "scale(1.22)",
+    },
   },
   {
     name: "Ellaine Cristostomo",
     title: "Business Operations Manager",
     image: ellaineImg,
     bio: "Ellaine keeps Arclight's operations running smoothly behind the scenes, managing HR, finance, and compliance with grit and heart.",
-    imageStyle: { objectPosition: 'center 60%' },
+    imageStyle: { objectPosition: "center 60%" },
   },
   {
     name: "Belle Tijap",
@@ -59,14 +63,18 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     title: "Production Manager",
     image: jessaImg,
     bio: "Jessa orchestrates the logistics that drive Arclight's daily production. A licensed civil engineer, she brings planning precision and on-the-ground execution.",
-    imageStyle: { objectPosition: 'top', transform: 'scale(1.5)' },
+    imageStyle: { objectPosition: "top", transform: "scale(1.5)" },
   },
   {
     name: "Daniel Wolff",
     title: "Quality Supervisor",
     image: danielImg,
     bio: "Daniel oversees active job sites and ensures compliance with Arclight's production standards. He serves as quality assurance lead, safety officer, and training coordinator.",
-    imageStyle: { objectPosition: 'top', transform: 'scale(0.75)' },
+    imageStyle: {
+      objectFit: "cover",
+      objectPosition: "center 18%",
+      transform: "scale(1.08)",
+    },
   },
 ];
 
