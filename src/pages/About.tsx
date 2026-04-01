@@ -162,9 +162,9 @@ const About = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamMembers.map((member) => (
               <div key={member.name} className="bg-card rounded-xl shadow-sm overflow-hidden text-center p-6 border border-border">
-                <div className="w-24 h-24 mx-auto mb-4 rounded-full bg-secondary flex items-center justify-center overflow-hidden">
+                <div className="w-28 h-28 mx-auto mb-4 rounded-xl bg-secondary flex items-center justify-center overflow-hidden">
                   {member.image ? (
-                    <img src={member.image} alt={member.name} className="w-full h-full object-cover" />
+                    <img src={member.image} alt={member.name} className="w-full h-full object-cover object-top" />
                   ) : (
                     <span className="text-2xl font-bold text-accent">
                       {member.name.split(" ").map(n => n[0]).join("")}
