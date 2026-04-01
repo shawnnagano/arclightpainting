@@ -180,7 +180,7 @@ const Mission = () => {
       </section>
 
       {/* 100% Satisfaction Guarantee */}
-      <section className="py-16 bg-background">
+      <section id="satisfaction-guarantee" className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
