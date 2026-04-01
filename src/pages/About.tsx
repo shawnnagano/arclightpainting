@@ -13,7 +13,7 @@ import brittanyImg from "@/assets/brittany-aguero.jpg";
 import ellaineImg from "@/assets/ellaine-cristostomo.jpg";
 import belleImg from "@/assets/belle-tijap.png";
 import jessaImg from "@/assets/jessa-cabrera.png";
-import danielImg from "@/assets/daniel-wolff.png";
+import danielImg from "@/assets/daniel-wolff.jpeg";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
