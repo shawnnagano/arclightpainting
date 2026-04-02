@@ -1,6 +1,9 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 export interface FAQItem {
   question: string;
-  answer: string;
+  answer: string | React.ReactNode;
 }
 
 export const generalFAQ: FAQItem[] = [
@@ -26,7 +29,7 @@ export const generalFAQ: FAQItem[] = [
   },
   {
     question: "Do you stand behind your work?",
-    answer: "Yes. We back our work with a 100% Satisfaction Guarantee and address any remaining touch-ups or concerns before the job is considered complete.",
+    answer: <>Yes. We back our work with a <Link to="/mission#satisfaction-guarantee" className="text-accent font-semibold hover:underline">100% Satisfaction Guarantee</Link> and address any remaining touch-ups or concerns before the job is considered complete.</>,
   },
   {
     question: "How soon can you start?",

@@ -129,7 +129,7 @@ const Mission = () => {
       </section>
 
       {/* FreshStart™ Touch-Up Plan */}
-      <section className="py-16 bg-secondary">
+      <section id="freshstart" className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
