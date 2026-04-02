@@ -52,7 +52,7 @@ const ValuesSection = () => {
           transition={{ duration: 0.5 }}
           className="text-3xl md:text-4xl font-bold text-center mb-12"
         >
-          The Arclight Painting Difference
+          The Arclight Painting <span className="text-accent">Difference</span>
         </motion.h2>
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (

@@ -74,7 +74,7 @@ const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
         {!hideHeader && (
           <>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-              Our Services
+              Our <span className="text-accent">Services</span>
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
               From residential homes to commercial spaces, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
