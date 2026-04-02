@@ -1,6 +1,8 @@
+import React from "react";
+
 export interface FAQItem {
   question: string;
-  answer: string;
+  answer: string | React.ReactNode;
 }
 
 export const generalFAQ: FAQItem[] = [
