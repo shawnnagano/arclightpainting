@@ -50,7 +50,6 @@ const guarantees = [
     title: "Backed by our FreshStart™ Touch-Up Plan",
     description:
       "Your 100% Satisfaction Guarantee doesn't expire when the project ends. With our FreshStart™ Touch-Up Plan, you're also covered by our five-year workmanship commitment—including touch-ups and repairs for peeling, blistering, or chipping paint.",
-    isMissionPage: true,
   },
 ];
 
