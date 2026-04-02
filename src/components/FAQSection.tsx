@@ -1,12 +1,64 @@
 import { motion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
-import { useState } from "react";
+import { Fragment, type ReactNode, useState } from "react";
+import { Link } from "react-router-dom";
 import type { FAQItem } from "@/data/faqData";
+
+const linkedPhrases = [
+  {
+    phrase: "FreshStart™ Touch-Up Plan",
+    to: "/mission#ongoing-service",
+  },
+  {
+    phrase: "100% Satisfaction Guarantee",
+    to: "/mission#satisfaction-guarantee",
+  },
+] as const;
 
 interface FAQSectionProps {
   faqs: FAQItem[];
   heading?: string;
 }
+
+const renderAnswer = (answer: string) => {
+  let parts: ReactNode[] = [answer];
+
+  linkedPhrases.forEach(({ phrase, to }) => {
+    parts = parts.flatMap((part, partIndex) => {
+      if (typeof part !== "string" || !part.includes(phrase)) {
+        return [part];
+      }
+
+      return part.split(phrase).flatMap((segment, segmentIndex, segments) => {
+        const nodes: ReactNode[] = [];
+
+        if (segment) {
+          nodes.push(
+            <Fragment key={`${phrase}-${partIndex}-${segmentIndex}-text`}>
+              {segment}
+            </Fragment>
+          );
+        }
+
+        if (segmentIndex < segments.length - 1) {
+          nodes.push(
+            <Link
+              key={`${phrase}-${partIndex}-${segmentIndex}-link`}
+              to={to}
+              className="text-accent font-semibold hover:underline"
+            >
+              {phrase}
+            </Link>
+          );
+        }
+
+        return nodes;
+      });
+    });
+  });
+
+  return parts;
+};
 
 const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSectionProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -56,7 +108,7 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSection
                 }`}
               >
                 <div className="px-6 py-4 text-muted-foreground leading-relaxed">
-                  {faq.answer}
+                  {renderAnswer(faq.answer)}
                 </div>
               </div>
             </motion.div>
