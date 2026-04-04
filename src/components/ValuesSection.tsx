@@ -59,7 +59,7 @@ const ValuesSection = () => {
               background: "linear-gradient(90deg, #56C4E8, #F5C842, #F5A623, #FF6B8A, #FF0D86)",
             }}
           >
-            <h2 className="text-2xl md:text-4xl font-black uppercase italic text-white tracking-wide">
+            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold uppercase tracking-tight italic text-white">
               The Arclight Difference
             </h2>
           </div>
