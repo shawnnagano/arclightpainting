@@ -273,8 +273,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "No. Quality depends on proper planning, realistic scope, surface preparation, and having the right crew for the job.",
     },
     {
-      question: "How is one-day painting priced?",
-      answer: "Pricing depends on the number of painters hired. One painter is $698 and two is $1,396.",
+      question: "How much does one-day painting service cost?",
+      answer: "Our Painter-for-a-Day service is priced by the number of painters hired. One painter is $698, and two painters are $1,396. This service works best for smaller, well-defined projects that can be completed in a single day. If your project looks like it may need more than one day, visit our Pricing Page to learn more about full-project pricing or get a TrueQuote™.",
     },
     {
       question: "How should I prepare for one-day service?",
