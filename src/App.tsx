@@ -18,6 +18,7 @@ import Blog from "./pages/Blog.tsx";
 import JoinOurTeam from "./pages/JoinOurTeam.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import Mission from "./pages/Mission.tsx";
+import ColorConsultation from "./pages/ColorConsultation.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 function ScrollToTop() {
@@ -53,6 +54,7 @@ const App = () => (
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/schedule" element={<Schedule />} />
             
+            <Route path="/services/color-consultation" element={<ColorConsultation />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/service-areas" element={<ServiceAreas />} />
             <Route path="/service-areas/:slug" element={<ServiceAreaDetail />} />
