@@ -56,7 +56,7 @@ const ServiceAreaDetail = () => {
             <div className="flex items-center gap-3 mb-6">
               <Heart className="h-6 w-6 text-accent" />
               <h2 className="text-2xl md:text-3xl font-bold">
-                Why We Love Working in {area.name}
+                Why We Love Working in <span className="text-accent">{area.name}</span>
               </h2>
             </div>
             <p className="text-muted-foreground text-lg leading-relaxed">
