@@ -34,6 +34,7 @@ const coreValues = [
 const guarantees = [
   {
     title: "We Don't Leave Until You're Happy",
+    titleNode: <>We Don't Leave Until You're <span className="text-accent">Happy</span></>,
     description:
       "Before we call the job complete, we'll walk the project with you—together. If something's not right, we'll make it right. Whether it's a touch-up, a missed detail, or something that just doesn't feel finished, we'll fix it before final payment is due.",
   },
@@ -45,11 +46,13 @@ const guarantees = [
   },
   {
     title: "Clear Communication, No Surprises",
+    titleNode: <><span className="text-accent">Clear Communication</span>, No Surprises</>,
     description:
       "You'll always know what to expect—before, during, and after the project. If you ever feel uncertain, unheard, or unsatisfied at any point, we encourage you to tell us. We're not just here to paint; we're here to serve.",
   },
   {
     title: "Backed by our FreshStart™ Touch-Up Plan",
+    titleNode: <>Backed by our Fresh<span className="text-accent">Start</span>™ Touch-Up Plan</>,
     description:
       "Your 100% Satisfaction Guarantee doesn't expire when the project ends. With our FreshStart™ Touch-Up Plan, you're also covered by our five-year workmanship commitment—including touch-ups and repairs for peeling, blistering, or chipping paint.",
   },
