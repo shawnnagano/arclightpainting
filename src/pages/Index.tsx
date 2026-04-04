@@ -20,7 +20,7 @@ const homeFaqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "How much does house painting cost in Bothell, WA?",
+      name: "How much will painting my house cost?",
       acceptedAnswer: {
         "@type": "Answer",
         text: "Painting costs vary by project scope. Arclight Painting provides free, transparent on-the-spot quotes that include labor, materials, and itemized pricing. Schedule a free estimate to get your exact cost.",
