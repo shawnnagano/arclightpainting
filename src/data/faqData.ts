@@ -41,8 +41,8 @@ export const generalFAQ: FAQItem[] = [
     answer: "Yes. We handle common prep work such as drywall repair, patching, sanding, scraping, caulking, and priming to help ensure a smooth, durable finish.",
   },
   {
-    question: "Do you offer cabinet refinishing and popcorn ceiling removal?",
-    answer: "Yes. We offer cabinet refinishing and popcorn ceiling removal and can include both in a detailed proposal based on your project goals.",
+    question: "How much will my house painting cost?",
+    answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
   },
 ];
 
@@ -80,6 +80,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Can you help me choose paint sheen?",
       answer: "Yes. We will guide you on flat, eggshell, satin, semi-gloss, and other finish options based on appearance, durability, and ease of cleaning.",
     },
+    {
+      question: "How much will my interior painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your interior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
   "exterior-painting": [
     {
@@ -113,6 +117,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
     {
       question: "Can you paint fences, decks, detached garages, and sheds too?",
       answer: "Yes. Those surfaces can often be included as part of a broader exterior project or quoted separately.",
+    },
+    {
+      question: "How much will my exterior painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your exterior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
   "cabinet-refinishing": [
@@ -148,6 +156,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Can you update hardware too?",
       answer: "Hardware replacement or reinstall can often be included, depending on the project.",
     },
+    {
+      question: "How much will my cabinet refinishing cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your cabinet refinishing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
   "drywall-repair": [
     {
@@ -178,6 +190,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Is drywall repair messy?",
       answer: "It can create dust, but we take steps to contain and clean the work area as much as possible.",
     },
+    {
+      question: "How much will my drywall repair cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your drywall repair price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
   "pressure-washing": [
     {
@@ -204,6 +220,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Is pressure washing recommended before exterior painting?",
       answer: "Often, yes. Clean surfaces are an important part of proper paint preparation.",
     },
+    {
+      question: "How much will my pressure washing cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your pressure washing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
   "commercial-painting": [
     {
@@ -229,6 +249,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
     {
       question: "Do you offer maintenance repainting for commercial properties?",
       answer: "Yes. Maintenance painting can help commercial properties stay clean, consistent, and protected over time.",
+    },
+    {
+      question: "How much will my commercial painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your commercial painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
   "painter-for-a-day": [
@@ -285,6 +309,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
     {
       question: "Should I test older popcorn ceilings for asbestos before removal?",
       answer: "If the ceiling is older, testing for asbestos may be appropriate before disturbing the material. We can discuss that during the estimate process.",
+    },
+    {
+      question: "How much will my popcorn ceiling removal cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your popcorn ceiling removal price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
 };

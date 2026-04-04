@@ -78,7 +78,7 @@ const Pricing = () => {
       </section>
 
       {/* Pricing Calculator Embed */}
-      <section>
+      <section id="pricing-calculator">
         <iframe
           src="https://app.priceguide.ai/estimator/recacVReUcqWb1d6D"
           width="100%"

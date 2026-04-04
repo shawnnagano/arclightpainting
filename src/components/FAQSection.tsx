@@ -13,6 +13,14 @@ const linkedPhrases = [
     phrase: "100% Satisfaction Guarantee",
     to: "/mission#satisfaction-guarantee",
   },
+  {
+    phrase: "Pricing Page",
+    to: "/pricing",
+  },
+  {
+    phrase: "Pricing Calculator",
+    to: "/pricing#pricing-calculator",
+  },
 ] as const;
 
 interface FAQSectionProps {
