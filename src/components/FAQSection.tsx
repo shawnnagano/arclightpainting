@@ -38,14 +38,10 @@ const renderAnswer = (answer: string) => {
       }
 
       return part.split(phrase).flatMap((segment, segmentIndex, segments) => {
-        const nodes: ReactNode[] = [];
+        const nodes: (string | ReactNode)[] = [];
 
         if (segment) {
-          nodes.push(
-            <Fragment key={`${phrase}-${partIndex}-${segmentIndex}-text`}>
-              {segment}
-            </Fragment>
-          );
+          nodes.push(segment);
         }
 
         if (segmentIndex < segments.length - 1) {
