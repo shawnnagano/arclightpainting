@@ -118,8 +118,11 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Can you paint fences, decks, detached garages, and sheds too?",
       answer: "Yes. Those surfaces can often be included as part of a broader exterior project or quoted separately.",
     },
+    {
+      question: "How much will my exterior painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your exterior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
-  "cabinet-refinishing": [
     {
       question: "What is cabinet refinishing?",
       answer: "Cabinet refinishing is the process of updating the appearance of existing cabinets by cleaning, preparing, priming, and applying a new finish rather than replacing the cabinets entirely.",
