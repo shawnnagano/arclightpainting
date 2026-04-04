@@ -46,7 +46,7 @@ const guarantees = [
   },
   {
     title: "Clear Communication, No Surprises",
-    titleNode: <><span className="text-accent">Clear Communication</span>, No Surprises</>,
+    titleNode: <>Clear <span className="text-accent">Communication</span>, No Surprises</>,
     description:
       "You'll always know what to expect—before, during, and after the project. If you ever feel uncertain, unheard, or unsatisfied at any point, we encourage you to tell us. We're not just here to paint; we're here to serve.",
   },
