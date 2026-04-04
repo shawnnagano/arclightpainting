@@ -81,7 +81,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. We will guide you on flat, eggshell, satin, semi-gloss, and other finish options based on appearance, durability, and ease of cleaning.",
     },
     {
-      question: "How much will my interior painting cost?",
+      question: "How much does interior painting cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your interior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -119,7 +119,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. Those surfaces can often be included as part of a broader exterior project or quoted separately.",
     },
     {
-      question: "How much will my exterior painting cost?",
+      question: "How much does exterior painting cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your exterior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -157,7 +157,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Hardware replacement or reinstall can often be included, depending on the project.",
     },
     {
-      question: "How much will my cabinet refinishing cost?",
+      question: "How much does cabinet refinishing cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your cabinet refinishing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -191,7 +191,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "It can create dust, but we take steps to contain and clean the work area as much as possible.",
     },
     {
-      question: "How much will my drywall repair cost?",
+      question: "How much does drywall repair cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your drywall repair price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -221,7 +221,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Often, yes. Clean surfaces are an important part of proper paint preparation.",
     },
     {
-      question: "How much will my pressure washing cost?",
+      question: "How much does pressure washing cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your pressure washing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -251,7 +251,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. Maintenance painting can help commercial properties stay clean, consistent, and protected over time.",
     },
     {
-      question: "How much will my commercial painting cost?",
+      question: "How much does commercial painting cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your commercial painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
@@ -311,7 +311,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "If the ceiling is older, testing for asbestos may be appropriate before disturbing the material. We can discuss that during the estimate process.",
     },
     {
-      question: "How much will my popcorn ceiling removal cost?",
+      question: "How much does popcorn ceiling removal cost?",
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your popcorn ceiling removal price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
