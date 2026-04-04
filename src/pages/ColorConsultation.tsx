@@ -73,7 +73,7 @@ const ColorConsultation = () => {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl md:text-5xl font-bold uppercase mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold mb-8">
               What You <span className="text-accent">Get</span>
             </h2>
             <div className="space-y-5">
