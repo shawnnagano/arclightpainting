@@ -188,8 +188,11 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Is drywall repair messy?",
       answer: "It can create dust, but we take steps to contain and clean the work area as much as possible.",
     },
+    {
+      question: "How much will my drywall repair cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your drywall repair price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
-  "pressure-washing": [
     {
       question: "What surfaces can you pressure wash?",
       answer: "Pressure washing may be appropriate for driveways, walkways, patios, some siding, fences, and other exterior surfaces. The correct method depends on the material and condition.",
