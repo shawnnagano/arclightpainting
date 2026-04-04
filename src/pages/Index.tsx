@@ -58,8 +58,8 @@ const Index = () => {
       <HeroSection heroImage={homeHero} />
       <TestimonialsSection />
       <OwnersSection />
-      <ServicesSection />
       <ValuesSection />
+      <ServicesSection />
       <GuaranteeSection />
       <BlueprintSection />
       <GallerySection />
