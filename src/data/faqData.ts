@@ -305,5 +305,9 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Should I test older popcorn ceilings for asbestos before removal?",
       answer: "If the ceiling is older, testing for asbestos may be appropriate before disturbing the material. We can discuss that during the estimate process.",
     },
+    {
+      question: "How much will my popcorn ceiling removal cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your popcorn ceiling removal price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
 };
