@@ -34,7 +34,7 @@ export const generalFAQ: FAQItem[] = [
   },
   {
     question: "How long will my project take?",
-    answer: "Project length depends on size, prep needs, repairs, and drying conditions. Before work begins, we provide a projected schedule so you know what to expect.",
+    answer: "Project length depends on the size and scope of the work, the amount of prep and repairs needed, and drying conditions. With PowerFlex™ Scheduling, we turn that into a clear, realistic plan, using accurate labor forecasting tied to your TrueQuote™, smart crew sizing, and professional coordination built around your calendar. That means clear expectations, daily updates, on-time arrival, and a project that stays on track from start to finish.",
   },
   {
     question: "Do you help with drywall repairs and prep work before painting?",

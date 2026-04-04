@@ -23,6 +23,11 @@ const linkedPhrases = [
   },
 ] as const;
 
+const highlightedPhrases = [
+  { phrase: "PowerFlex™", highlightPart: "Flex" },
+  { phrase: "TrueQuote™", highlightPart: "Quote" },
+] as const;
+
 interface FAQSectionProps {
   faqs: FAQItem[];
   heading?: string;
@@ -53,6 +58,33 @@ const renderAnswer = (answer: string) => {
             >
               {phrase}
             </Link>
+          );
+        }
+
+        return nodes;
+      });
+    });
+  });
+
+  highlightedPhrases.forEach(({ phrase, highlightPart }) => {
+    parts = parts.flatMap((part, partIndex) => {
+      if (typeof part !== "string" || !part.includes(phrase)) {
+        return [part];
+      }
+
+      return part.split(phrase).flatMap((segment, segmentIndex, segments) => {
+        const nodes: (string | ReactNode)[] = [];
+
+        if (segment) {
+          nodes.push(segment);
+        }
+
+        if (segmentIndex < segments.length - 1) {
+          const before = phrase.replace(highlightPart + "™", "").replace(highlightPart, "");
+          nodes.push(
+            <span key={`${phrase}-${partIndex}-${segmentIndex}-hl`} className="font-semibold">
+              {before}<span className="text-accent">{highlightPart}</span>™
+            </span>
           );
         }
 
