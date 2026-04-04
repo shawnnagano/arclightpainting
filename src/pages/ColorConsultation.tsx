@@ -73,7 +73,7 @@ const ColorConsultation = () => {
             transition={{ duration: 0.5 }}
             className="max-w-4xl mx-auto"
           >
-            <h2 className="text-3xl md:text-5xl font-bold uppercase mb-8">
+            <h2 className="text-3xl md:text-5xl font-bold mb-8">
               What You <span className="text-accent">Get</span>
             </h2>
             <div className="space-y-5">
@@ -112,7 +112,7 @@ const ColorConsultation = () => {
               No pressure. No guessing. Just confident, beautiful choices.
             </p>
             <div className="bg-muted rounded-xl p-8 md:p-12">
-              <h3 className="text-3xl md:text-5xl font-bold uppercase leading-snug">
+              <h3 className="text-3xl md:text-5xl font-bold leading-snug">
                 We don't just help you pick a color
                 <br />
                 <span className="text-accent">— we help you pick the right one.</span>
