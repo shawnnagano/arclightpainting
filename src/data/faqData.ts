@@ -41,7 +41,7 @@ export const generalFAQ: FAQItem[] = [
     answer: "Yes. We handle common prep work such as drywall repair, patching, sanding, scraping, caulking, and priming to help ensure a smooth, durable finish.",
   },
   {
-    question: "How much will my house painting cost?",
+    question: "How much will painting my house cost?",
     answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
   },
 ];
