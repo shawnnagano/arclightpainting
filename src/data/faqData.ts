@@ -26,7 +26,7 @@ export const generalFAQ: FAQItem[] = [
   },
   {
     question: "Do you stand behind your work?",
-    answer: "Yes. We back our work with a 100% Satisfaction Guarantee and address any remaining touch-ups or concerns before the job is considered complete.",
+    answer: "Yes. We back our work with a 100% Satisfaction Guarantee, and we verify the final result through a walkthrough based on PCA™ Quality Inspection. Every project is independently inspected by our Quality Supervisor according to PCA™ Industry Standards, and if anything falls short, we document it and correct it before the job is considered complete. For added peace of mind, we also include our 5-Year FreshStart™ Touch-Up Plan.",
   },
   {
     question: "How soon can you start?",
