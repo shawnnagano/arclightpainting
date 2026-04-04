@@ -33,16 +33,16 @@ const coreValues = [
 
 const guarantees = [
   {
-    title: "We Don't Leave Until You're Happy",
-    titleNode: <>We Don't Leave Until You're <span className="text-accent">Happy</span></>,
-    description:
-      "Before we call the job complete, we'll walk the project with you—together. If something's not right, we'll make it right. Whether it's a touch-up, a missed detail, or something that just doesn't feel finished, we'll fix it before final payment is due.",
-  },
-  {
     title: "PCA™ Quality Inspection",
     titleNode: <>PCA™ <span className="text-accent">Quality</span> Inspection</>,
     description:
       "Our guarantee is backed by a real inspection process. Before your project is considered complete, it receives an independent review by our Quality Supervisor based on PCA™ Industry Standards. If anything falls short, we document it, correct it, and make it right, so you can have confidence knowing the work was held to a clear, professional standard.",
+  },
+  {
+    title: "We Don't Leave Until You're Happy",
+    titleNode: <>We Don't Leave Until You're <span className="text-accent">Happy</span></>,
+    description:
+      "Before we call the job complete, we'll walk the project with you—together. If something's not right, we'll make it right. Whether it's a touch-up, a missed detail, or something that just doesn't feel finished, we'll fix it before final payment is due.",
   },
   {
     title: "Clear Communication, No Surprises",
