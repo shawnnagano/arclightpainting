@@ -58,7 +58,7 @@ const ColorConsultation = () => {
             Choose <span className="text-accent">Boldly.</span> Paint <span className="text-accent">Beautifully.</span>
           </p>
           <p className="text-lg md:text-xl text-muted-foreground mt-3">
-            Color regret is real. Our system eliminates doubt by giving you expert guidance and visual clarity.
+            Color regret is real. We eliminate doubt by giving you expert guidance and visual clarity.
           </p>
         </div>
       </section>
