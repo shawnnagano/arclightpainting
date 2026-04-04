@@ -80,6 +80,10 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Can you help me choose paint sheen?",
       answer: "Yes. We will guide you on flat, eggshell, satin, semi-gloss, and other finish options based on appearance, durability, and ease of cleaning.",
     },
+    {
+      question: "How much will my interior painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your interior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
   "exterior-painting": [
     {
