@@ -69,7 +69,7 @@ const services = [
 
 const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
   return (
-    <section id="services" className="py-20 bg-background">
+    <section id="services" className="pt-8 pb-20 bg-background">
       <div className="container mx-auto px-4">
         {!hideHeader && (
           <>

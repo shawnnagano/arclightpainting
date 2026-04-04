@@ -43,8 +43,9 @@ const values = [
 
 const ValuesSection = () => {
   return (
-    <section id="about" className="pt-8 pb-20 bg-background text-foreground">
+    <section id="about" className="pt-8 pb-8 bg-background text-foreground">
       <div className="container mx-auto px-4">
+        <hr className="border-border mb-12" />
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
