@@ -60,7 +60,6 @@ const ColorConsultation = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight mb-3">
               Color<span className="text-accent">Confidence</span>™ Consultation
             </h1>
-            </h1>
             <p className="text-2xl md:text-3xl font-bold uppercase mb-4">
               Choose Boldly. Paint Beautifully.
             </p>
