@@ -41,8 +41,8 @@ export const generalFAQ: FAQItem[] = [
     answer: "Yes. We handle common prep work such as drywall repair, patching, sanding, scraping, caulking, and priming to help ensure a smooth, durable finish.",
   },
   {
-    question: "Do you offer cabinet refinishing and popcorn ceiling removal?",
-    answer: "Yes. We offer cabinet refinishing and popcorn ceiling removal and can include both in a detailed proposal based on your project goals.",
+    question: "How much will my house painting cost?",
+    answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
   },
 ];
 
