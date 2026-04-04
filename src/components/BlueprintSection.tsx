@@ -1,8 +1,9 @@
 import { CheckCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
-  { step: "1", title: "TrueQuote™ Pricing", rendered: <>TrueQuote™ Pricing</> },
+  { step: "1", title: "TrueQuote™ Pricing", rendered: <Link to="/pricing" className="text-foreground hover:text-accent transition-colors duration-200">TrueQuote™ Pricing</Link>, isLink: true },
   { step: "2", title: "PowerFlex™ Scheduling", rendered: <>PowerFlex™ Scheduling</> },
   { step: "3", title: "ColorConfidence™ Consultation", rendered: <>ColorConfidence™ Consultation</> },
   { step: "4", title: "JobTrack™ Project Management", rendered: <>JobTrack™ Project Management</> },
