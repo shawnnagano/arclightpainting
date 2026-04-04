@@ -8,6 +8,8 @@ import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import CTASection from "@/components/CTASection";
+import FAQSection from "@/components/FAQSection";
+import { pricingFAQ } from "@/data/faqData";
 
 const Pricing = () => {
   return (
@@ -128,6 +130,9 @@ const Pricing = () => {
 
       {/* Blueprint */}
       <BlueprintSection />
+
+      {/* FAQ */}
+      <FAQSection faqs={pricingFAQ} />
 
       {/* CTA */}
       <CTASection />

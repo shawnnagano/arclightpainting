@@ -316,3 +316,26 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
     },
   ],
 };
+
+export const pricingFAQ: FAQItem[] = [
+  {
+    question: "Do You Offer Estimates or Fixed-Price Quotes?",
+    answer: "Yes. We provide a detailed written estimate that outlines the scope of work, preparation, materials, and pricing. Once approved, it becomes a fixed-price agreement unless the scope changes.",
+  },
+  {
+    question: "What Is Included in a TrueQuote™?",
+    answer: "A TrueQuote™ includes surface analysis, labor forecasting, materials, and a detailed scope of work so you understand exactly what is included and why.",
+  },
+  {
+    question: "Can I Get a Ballpark Estimate Before Booking a Consultation?",
+    answer: "Yes. Use our Pricing Calculator for a quick ballpark estimate. When you are ready for exact pricing, we will provide a TrueQuote™ based on the real scope of your project.",
+  },
+  {
+    question: "Why Do Painting Prices Vary So Much?",
+    answer: "Painting prices vary based on project size, surface condition, prep and repairs, product selection, and the level of detail involved. Not every quote includes the same scope, materials, or protection.",
+  },
+  {
+    question: "Can I Do Some of the Work Myself to Save Money?",
+    answer: "In some cases, yes. We can discuss shared responsibilities during the estimate and clarify them in the proposal so the project still runs smoothly and the result stays strong.",
+  },
+];
