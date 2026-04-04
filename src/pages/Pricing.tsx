@@ -131,6 +131,9 @@ const Pricing = () => {
       {/* Blueprint */}
       <BlueprintSection />
 
+      {/* FAQ */}
+      <FAQSection faqs={pricingFAQ} />
+
       {/* CTA */}
       <CTASection />
 
