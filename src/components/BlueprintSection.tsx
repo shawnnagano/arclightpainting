@@ -12,7 +12,7 @@ const steps = [
 
 const BlueprintSection = () => {
   return (
-    <section className="py-20 bg-secondary">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left: Text content */}
