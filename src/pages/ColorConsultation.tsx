@@ -99,8 +99,8 @@ const ColorConsultation = () => {
         </div>
       </section>
 
-      {/* The Arclight Difference */}
-      <section className="py-16 bg-secondary">
+      {/* Quote Section */}
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -108,13 +108,10 @@ const ColorConsultation = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-sm font-bold tracking-widest uppercase mb-3">
-              The <span className="text-accent">Arclight</span> Difference
-            </p>
             <p className="text-xl md:text-2xl font-semibold italic text-muted-foreground mb-10">
               No pressure. No guessing. Just confident, beautiful choices.
             </p>
-            <div className="bg-background rounded-xl p-8 md:p-12">
+            <div className="bg-muted rounded-xl p-8 md:p-12">
               <h3 className="text-2xl md:text-3xl font-bold uppercase leading-snug">
                 We don't just help you pick a color
                 <br />
