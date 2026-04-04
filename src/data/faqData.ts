@@ -246,8 +246,11 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Do you offer maintenance repainting for commercial properties?",
       answer: "Yes. Maintenance painting can help commercial properties stay clean, consistent, and protected over time.",
     },
+    {
+      question: "How much will my commercial painting cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your commercial painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
-  "painter-for-a-day": [
     {
       question: "What is one-day painting service?",
       answer: "Our Painter-for-a-Day service is designed for projects that can be completed efficiently in a single day with the right scope, crew size, and planning.",
