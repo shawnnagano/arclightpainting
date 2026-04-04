@@ -17,11 +17,11 @@ import { generalFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-confidence-hero.png";
 
 const features = [
-  { icon: Eye, text: "Virtual Consultation With In-House Colorist" },
+  { icon: Eye, text: "Virtual Or In-Home Consultation With Our Professional Colorist" },
   { icon: SwatchBook, text: "Visual Mockups of Your Real Home" },
   { icon: Pipette, text: "Custom Color Matching" },
   { icon: Palette, text: "On-Site Test Patches" },
-  { icon: FileText, text: "Full ColorConfidence™ Blueprint With Color Specs & Placement" },
+  { icon: FileText, rendered: <>Full Color<span className="text-accent">Confidence</span>™ Blueprint With Color Specs &amp; Placement</> },
 ];
 
 const ColorConsultation = () => {
@@ -90,7 +90,7 @@ const ColorConsultation = () => {
                     <f.icon className="h-5 w-5 text-accent" />
                   </div>
                   <span className="text-base md:text-lg font-semibold uppercase tracking-wide">
-                    {f.text}
+                    {f.rendered || f.text}
                   </span>
                 </motion.div>
               ))}
