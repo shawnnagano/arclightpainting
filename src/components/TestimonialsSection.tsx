@@ -254,7 +254,7 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
   const t = testimonials[current];
 
   return (
-    <section id="review" className="py-20 bg-secondary relative">
+    <section id="review" className="pt-20 pb-8 bg-secondary relative">
 
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-12">
