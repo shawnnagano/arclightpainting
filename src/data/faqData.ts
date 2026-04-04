@@ -217,8 +217,11 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       question: "Is pressure washing recommended before exterior painting?",
       answer: "Often, yes. Clean surfaces are an important part of proper paint preparation.",
     },
+    {
+      question: "How much will my pressure washing cost?",
+      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your pressure washing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    },
   ],
-  "commercial-painting": [
     {
       question: "What types of commercial properties do you paint?",
       answer: "We work on a variety of commercial spaces, which may include offices, retail spaces, tenant improvements, common areas, light industrial properties, and other business environments.",
