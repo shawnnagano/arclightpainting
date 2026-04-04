@@ -1,8 +1,9 @@
 import { CheckCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import blueprintImage from "@/assets/blueprint-photo.jpg";
 
 const steps = [
-  { step: "1", title: "TrueQuote™ Pricing", rendered: <>TrueQuote™ Pricing</> },
+  { step: "1", title: "TrueQuote™ Pricing", rendered: <Link to="/pricing" className="text-foreground hover:text-accent transition-colors duration-200">TrueQuote™ Pricing</Link>, isLink: true },
   { step: "2", title: "PowerFlex™ Scheduling", rendered: <>PowerFlex™ Scheduling</> },
   { step: "3", title: "ColorConfidence™ Consultation", rendered: <>ColorConfidence™ Consultation</> },
   { step: "4", title: "JobTrack™ Project Management", rendered: <>JobTrack™ Project Management</> },
@@ -33,9 +34,15 @@ const BlueprintSection = () => {
                     <div className="shrink-0 w-8 h-8 rounded-full bg-primary group-hover:bg-accent flex items-center justify-center z-10 -ml-8 transition-colors duration-200">
                       <CheckCircle className="h-5 w-5 text-primary-foreground" />
                     </div>
-                    <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
-                      {s.rendered}
-                    </span>
+                    {'isLink' in s && s.isLink ? (
+                      <span className="text-lg md:text-xl font-bold">
+                        {s.rendered}
+                      </span>
+                    ) : (
+                      <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
+                        {s.rendered}
+                      </span>
+                    )}
                   </div>
                 ))}
               </div>
