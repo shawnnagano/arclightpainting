@@ -37,8 +37,8 @@ export const generalFAQ: FAQItem[] = [
     answer: "Project length depends on the size and scope of the work, the amount of prep and repairs needed, and drying conditions. With PowerFlex™ Scheduling, we turn that into a clear, realistic plan, using accurate labor forecasting tied to your TrueQuote™, smart crew sizing, and professional coordination built around your calendar. That means clear expectations, daily updates, on-time arrival, and a project that stays on track from start to finish.",
   },
   {
-    question: "Do you help with drywall repairs and prep work before painting?",
-    answer: "Yes. We handle common prep work such as drywall repair, patching, sanding, scraping, caulking, and priming to help ensure a smooth, durable finish.",
+    question: "How do I choose the right paint colors?",
+    answer: "Color regret is real, which is why our ColorConfidence™ Consultation is designed to make the process easier and more certain. We guide you through the decision with a virtual consultation with our in-house colorist, visual mockups of your real home, custom color matching, and on-site test patches when needed. You will also receive a full ColorConfidence™ Blueprint with your final color specs and placement plan, so you can choose confidently and paint beautifully.",
   },
   {
     question: "How much will painting my house cost?",

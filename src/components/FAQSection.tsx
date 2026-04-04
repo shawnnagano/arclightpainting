@@ -26,6 +26,7 @@ const linkedPhrases = [
 const highlightedPhrases = [
   { phrase: "PowerFlex™", highlightPart: "Flex" },
   { phrase: "TrueQuote™", highlightPart: "Quote" },
+  { phrase: "ColorConfidence™", highlightPart: "Confidence" },
 ] as const;
 
 interface FAQSectionProps {
