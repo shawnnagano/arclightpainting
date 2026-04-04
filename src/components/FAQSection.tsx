@@ -23,6 +23,11 @@ const linkedPhrases = [
   },
 ] as const;
 
+const highlightedPhrases = [
+  { phrase: "PowerFlex™", highlightPart: "Flex" },
+  { phrase: "TrueQuote™", highlightPart: "Quote" },
+] as const;
+
 interface FAQSectionProps {
   faqs: FAQItem[];
   heading?: string;
