@@ -132,7 +132,7 @@ const Pricing = () => {
       <BlueprintSection />
 
       {/* FAQ */}
-      <FAQSection faqs={pricingFAQ} />
+      <FAQSection faqs={pricingFAQ} heading="Additional Frequently Asked Questions" />
 
       {/* CTA */}
       <CTASection />
