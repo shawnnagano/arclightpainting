@@ -14,7 +14,7 @@ import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { generalFAQ } from "@/data/faqData";
-import colorConfidenceHero from "@/assets/color-confidence-hero.jpg";
+import colorConfidenceHero from "@/assets/color-confidence-hero.png";
 
 const features = [
   { icon: Eye, text: "Virtual Consultation With In-House Colorist" },
