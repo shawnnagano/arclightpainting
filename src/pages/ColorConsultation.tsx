@@ -90,7 +90,7 @@ const ColorConsultation = () => {
                     <f.icon className="h-5 w-5 text-accent" />
                   </div>
                   <span className="text-base md:text-lg font-semibold uppercase tracking-wide">
-                    {f.text}
+                    {f.rendered || f.text}
                   </span>
                 </motion.div>
               ))}
