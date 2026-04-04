@@ -36,7 +36,7 @@ const guarantees = [
     title: "PCA™ Quality Inspection",
     titleNode: <>PCA™ <span className="text-accent">Quality</span> Inspection</>,
     description:
-      "Our guarantee is backed by a real inspection process. Before your project is considered complete, it receives an independent review by our Quality Supervisor based on PCA™ Industry Standards. If anything falls short, we document it, correct it, and make it right, so you can have confidence knowing the work was held to a clear, professional standard.",
+      "Our guarantee is backed by a real inspection process. Before your project is considered complete, it receives an independent review by our Quality Supervisor based on Painting Contractors of America Industry Standards. If anything falls short, we document it, correct it, and make it right, so you can have confidence knowing the work was held to a clear, professional standard.",
   },
   {
     title: "We Don't Leave Until You're Happy",
