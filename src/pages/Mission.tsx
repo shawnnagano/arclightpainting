@@ -38,9 +38,10 @@ const guarantees = [
       "Before we call the job complete, we'll walk the project with you—together. If something's not right, we'll make it right. Whether it's a touch-up, a missed detail, or something that just doesn't feel finished, we'll fix it before final payment is due.",
   },
   {
-    title: "Follow-Up Support After Completion",
+    title: "PCA™ Quality Inspection",
+    titleNode: <>PCA™ <span className="text-accent">Quality</span> Inspection</>,
     description:
-      "If something settles or shows up in the first few weeks after we finish (and it's within the agreed scope), we'll come back to address it—at no charge. It's part of how we honor your trust and ensure lasting results.",
+      "Our guarantee is backed by a real inspection process. Before your project is considered complete, it receives an independent review by our Quality Supervisor based on PCA™ Industry Standards. If anything falls short, we document it, correct it, and make it right, so you can have confidence knowing the work was held to a clear, professional standard.",
   },
   {
     title: "Clear Communication, No Surprises",
