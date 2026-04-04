@@ -212,7 +212,7 @@ const Mission = () => {
                   key={g.title}
                   className="p-6 rounded-xl bg-card border border-border/50"
                 >
-                  <h3 className="text-lg font-bold mb-3">{g.title}</h3>
+                  <h3 className="text-lg font-bold mb-3">{'titleNode' in g && g.titleNode ? g.titleNode : g.title}</h3>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     {g.description}
                   </p>
