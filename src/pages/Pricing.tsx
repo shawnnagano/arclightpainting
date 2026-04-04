@@ -71,12 +71,9 @@ const Pricing = () => {
               ))}
             </ul>
           </div>
-          <p className="text-xl md:text-2xl font-bold text-center mt-2 mb-2">
-            Want a ballpark estimate before scheduling your <span className="text-accent">True</span>Quote consultation?
-          </p>
-          <p className="text-lg md:text-xl font-semibold text-center text-muted-foreground">
-            Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of the cost will be to get your project done right.
-          </p>
+           <p className="text-lg md:text-xl font-semibold text-center mt-2 mb-2">
+             Want a ballpark estimate before scheduling your <span className="text-accent">True</span>Quote consultation? Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of the cost will be to get your project done right.
+           </p>
         </div>
       </section>
 
