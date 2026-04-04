@@ -38,9 +38,12 @@ const Pricing = () => {
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
             <span className="text-accent">True</span>Quote Pricing
           </h1>
-          <p className="text-xl md:text-2xl font-semibold">
-            <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises.
-          </p>
+           <p className="text-xl md:text-2xl font-semibold">
+             <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises.
+           </p>
+           <p className="text-lg md:text-xl text-muted-foreground mt-3">
+             Every project is different, but getting clear, honest pricing should not be.
+           </p>
         </div>
       </section>
 
