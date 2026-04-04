@@ -72,11 +72,11 @@ const ServiceAreaDetail = () => {
       {/* 3. Owners */}
       <OwnersSection />
 
-      {/* 4. Services */}
-      <ServicesSection />
-
-      {/* 5. USPs / Values */}
+      {/* 4. USPs / Values */}
       <ValuesSection />
+
+      {/* 5. Services */}
+      <ServicesSection />
 
       {/* 6. Guarantee */}
       <GuaranteeSection />

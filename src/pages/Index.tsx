@@ -3,8 +3,8 @@ import homeHero from "@/assets/home-hero.webp";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OwnersSection from "@/components/OwnersSection";
-import ServicesSection from "@/components/ServicesSection";
 import ValuesSection from "@/components/ValuesSection";
+import ServicesSection from "@/components/ServicesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
@@ -58,8 +58,8 @@ const Index = () => {
       <HeroSection heroImage={homeHero} />
       <TestimonialsSection />
       <OwnersSection />
-      <ServicesSection />
       <ValuesSection />
+      <ServicesSection />
       <GuaranteeSection />
       <BlueprintSection />
       <GallerySection />
