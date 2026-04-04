@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import BlueprintSection from "@/components/BlueprintSection";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
@@ -225,6 +226,8 @@ const Mission = () => {
         </div>
       </section>
 
+
+      <BlueprintSection />
 
       {/* CTA */}
       <section className="py-16 bg-background">
