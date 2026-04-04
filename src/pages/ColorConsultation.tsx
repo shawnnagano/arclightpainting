@@ -123,7 +123,7 @@ const ColorConsultation = () => {
       </section>
 
       {/* Testimonials */}
-      <TestimonialsSection />
+      <TestimonialsSection serviceName="Color Consultation" />
 
       {/* Owners */}
       <OwnersSection />
