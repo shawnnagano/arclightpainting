@@ -54,7 +54,7 @@ const Pricing = () => {
             How Much Will It <span className="text-accent">Cost?</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            This is one of the first questions homeowners ask, and we believe it deserves a straight answer. At Arclight Painting, every quote is built around the true scope of your project, with clear, itemized pricing and no hidden fees.
+            This is one of the first questions homeowners ask, and we believe it deserves a straight answer. <span className="text-accent font-semibold">True</span>Quote™ is our transparent pricing process, built around the real scope of your project so you can move forward with confidence and know what to expect from the start.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
             <h3 className="font-bold text-lg mb-4">Your <span className="text-accent">True</span>Quote™ price is based on:</h3>
