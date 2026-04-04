@@ -18,6 +18,7 @@ import Blog from "./pages/Blog.tsx";
 import JoinOurTeam from "./pages/JoinOurTeam.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
 import Mission from "./pages/Mission.tsx";
+import ColorConsultation from "./pages/ColorConsultation.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 function ScrollToTop() {
