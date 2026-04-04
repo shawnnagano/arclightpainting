@@ -100,7 +100,7 @@ const ColorConsultation = () => {
       </section>
 
       {/* Quote Section */}
-      <section className="py-16 bg-background">
+      <section className="pt-4 pb-16 bg-background">
         <div className="container mx-auto px-4 text-center max-w-3xl">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
