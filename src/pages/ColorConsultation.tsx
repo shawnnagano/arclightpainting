@@ -40,7 +40,7 @@ const ColorConsultation = () => {
       <Header />
 
       {/* Hero Section */}
-      <section className="relative min-h-[500px] overflow-hidden flex items-center">
+      <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
         <div
           className="absolute inset-0"
           style={{
@@ -49,29 +49,17 @@ const ColorConsultation = () => {
             backgroundPosition: "center right 30%",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent" />
-        <div className="container mx-auto px-4 relative z-10 py-20">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.7 }}
-            className="max-w-2xl"
-          >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight mb-3">
-              Color<span className="text-accent">Confidence</span>™ Consultation
-            </h1>
-            <p className="text-2xl md:text-3xl font-bold uppercase mb-4">
-              Choose Boldly. Paint Beautifully.
-            </p>
-            <p className="text-muted-foreground text-lg max-w-lg mb-8">
-              Color regret is real. Our system eliminates doubt by giving you expert guidance and visual clarity.
-            </p>
-            <Link to="/schedule">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-white font-bold px-8">
-                Get a TrueQuote
-              </Button>
-            </Link>
-          </motion.div>
+        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+        <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
+          <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
+            Color<span className="text-accent">Confidence</span> Consultation
+          </h1>
+          <p className="text-xl md:text-2xl font-semibold">
+            Choose <span className="text-accent">Boldly.</span> Paint <span className="text-accent">Beautifully.</span>
+          </p>
+          <p className="text-lg md:text-xl text-muted-foreground mt-3">
+            Color regret is real. Our system eliminates doubt by giving you expert guidance and visual clarity.
+          </p>
         </div>
       </section>
 
