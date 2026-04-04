@@ -46,7 +46,7 @@ const ColorConsultation = () => {
           style={{
             backgroundImage: `url(${colorConfidenceHero})`,
             backgroundSize: "cover",
-            backgroundPosition: "center top",
+            backgroundPosition: "center right 30%",
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-transparent" />
