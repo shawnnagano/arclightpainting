@@ -28,6 +28,7 @@ const highlightedPhrases = [
   { phrase: "TrueQuote™", highlightPart: "Quote" },
   { phrase: "ColorConfidence™", highlightPart: "Confidence" },
   { phrase: "FreshStart™", highlightPart: "Start" },
+  { phrase: "PCA™", highlightPart: "PCA" },
 ] as const;
 
 interface FAQSectionProps {
