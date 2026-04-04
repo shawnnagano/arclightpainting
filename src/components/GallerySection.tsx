@@ -107,8 +107,9 @@ const GallerySection = ({ cityName = "Bothell", serviceName }: GallerySectionPro
     : `Browse some of our recent painting projects in the ${cityName} area.`;
 
   return (
-    <section className="py-20 bg-background">
+    <section className="pt-8 pb-8 bg-background">
       <div className="container mx-auto px-4">
+        <hr className="border-border mb-12" />
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
           Results That <span className="text-accent">Speak For Themselves</span>
         </h2>
