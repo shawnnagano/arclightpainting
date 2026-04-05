@@ -38,7 +38,7 @@ const Reviews = () => {
           <p className="text-xl md:text-2xl font-semibold mb-4">
             <span className="text-accent">No</span> Shortcuts. <span className="text-accent">No</span> Surprises.
           </p>
-          <p className="text-muted-foreground max-w-lg">
+          <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
             Clear communication, professionalism, and results have made Arclight Painting a <span className="text-accent">trusted</span> name.
           </p>
         </div>
