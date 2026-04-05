@@ -42,10 +42,10 @@ const Footer = () => {
           <div className="absolute inset-0 bg-foreground/40 group-hover:bg-foreground/30 transition-colors flex items-center justify-center">
             <div className="text-center">
               <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Our Service Areas
+                Service Areas
               </h3>
               <p className="text-white/80 text-sm md:text-base">
-                Serving Bothell & Surrounding Areas →
+                Bothell & Greater Seattle Area →
               </p>
             </div>
           </div>
