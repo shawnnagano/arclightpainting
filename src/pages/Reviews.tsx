@@ -50,7 +50,7 @@ const Reviews = () => {
             <span className="text-accent">No</span> Shortcuts. <span className="text-accent">No</span> Surprises.
           </p>
           <p className="text-muted-foreground max-w-lg">
-            Our Above &amp; Beyond Blueprint™ is the proven process behind the experience our clients rave about.
+            Clear communication, professionalism, and results have made Arclight Painting a <span className="text-accent">trusted</span> name.
           </p>
         </div>
       </section>
