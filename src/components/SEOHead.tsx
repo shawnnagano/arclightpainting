@@ -128,7 +128,7 @@ export const serviceSchema = (name: string, description: string, slug: string) =
   "@type": "Service",
   name,
   description,
-  url: `https://arclightpainting.com/${slug}`,
+  url: `https://arclightpainting.com/services/${slug}`,
   provider: {
     "@type": "HousePainter",
     name: "Arclight Painting",
