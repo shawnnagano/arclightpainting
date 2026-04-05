@@ -12,40 +12,34 @@ interface Testimonial {
 
 const defaultTestimonials: Testimonial[] = [
   {
-    name: "Frank B",
-    location: "Bothell, WA",
+    name: "Lauren B",
+    location: "Lake Forest Park, WA",
     category: "House Painting",
-    text: "From the initial quote appointment to the final walk through, this company, Arclight Painting, was a pleasure to work with. They were courteous and very communicative by texts and emails regarding our project! Even when there were glitches, they made it right and solved the problems. We were very happy with their work and do not hesitate to recommend them for jobs! They repaired areas so they're better than they were before! So much more than just new paint!",
+    text: "Friends we trust recommended Arclight and we couldn't have been happier with the result. This is THE BEST experience we have had with having work done on our house in the 11 years we have lived here… we felt like Arclight was our partners in making our vision for our house become reality… Remarkable work all around!",
   },
   {
-    name: "Katia S",
+    name: "Frank B",
+    location: "Lynnwood, WA",
+    category: "House Painting",
+    text: "From the initial quote appointment to the final walk through, this company… was a pleasure to work with. They were courteous and very communicative by texts and emails… Even when there were glitches, they made it right… So much more than just new paint!",
+  },
+  {
+    name: "Amruta M",
     location: "Bothell, WA",
     category: "House Painting",
-    text: "Daniel and Mark did an amazing job on my kitchen cabinets and island. They are both very professional, details oriented, the job was done in a timely manner. Great team and great company! I will not hesitate to use them again for a future project. Thank you again.",
+    text: "If you like me are wondering if all the positive reviews about Arclight Painting are legit, in my personal experience they are… their quote was pretty competitive – it was only 10% more than the other quotes I got, and honestly… that extra 10% was money well spent because their service and quality is A+.",
   },
   {
     name: "Donna D",
-    location: "Bothell, WA",
+    location: "Everett, WA",
     category: "House Painting",
-    text: "This Company sets the standard for Customer Service, Quality and Craftmanship! From the initial contact to project completion Arclight Painting communicated the timeline and expectations. Daily they arrived on time, cleaned up job site and provided the details on what the next day would hold. Locally owned and experienced team members, wouldn't hesitate to have them back!! Thank you Arclight our Exterior looks wonderful!!",
+    text: "This Company sets the standard for Customer Service, Quality and Craftmanship! From the initial contact to project completion Arclight Painting communicated the timeline and expectations. Daily they arrived on time, cleaned up job site and provided the details on what the next day would hold.",
   },
   {
-    name: "Lauren B",
+    name: "Jakub K",
     location: "Bothell, WA",
     category: "House Painting",
-    text: "Friends we trust recommended Arclight and we couldn't have been happier with the result. This is THE BEST experience we have had with having work done on our house in the 11 years we have lived here. From the careful and detailed quote to the daily interactions with the team, we felt like Arclight was our partners in making our vision for our house become reality. We love the result and feel so lucky to have worked with them!",
-  },
-  {
-    name: "Margie C",
-    location: "Bothell, WA",
-    category: "House Painting",
-    text: "This company is very professional and organized. I felt that I was in good hands, and I was in good hands. Sandor was very pleasant and his work was meticulous. This was a small job: painting a door and the trim on some new windows. I am planning to use this company for some interior painting, and when my house exterior is repainted, I will probably use them as well. They really lived up to their A+ rating with the Better Business Bureau.",
-  },
-  {
-    name: "Linda C",
-    location: "Bothell, WA",
-    category: "House Painting",
-    text: "Roberto and Julio restored our Tigerwood deck including replacing some boards. They did a wonderful job. They were prompt, professional and efficient. Excellent communication throughout the project. Our deck looks like new!",
+    text: "We've had several drywall jobs done over the years and Arclight has been my favorite of all of them. They look super smooth and completely like the original wall… Arclight was SO communicative throughout the whole process… Daniel arrived promptly at 8 am… and texted updates on progress.",
   },
 ];
 
