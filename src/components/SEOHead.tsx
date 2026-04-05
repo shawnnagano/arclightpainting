@@ -96,7 +96,7 @@ export const localBusinessSchema = {
     "Bothell", "Kirkland", "Redmond", "Cottage Lake", "Kenmore",
     "Mill Creek", "Bellevue", "Union Hill-Novelty Hill", "Clearview",
     "Everett", "Lake Forest Park", "Woodinville",
-  ].map(name => ({ "@type": "City", name, "@id": `https://arclightpainting.com/service-areas/${name.toLowerCase().replace(/\s+/g, "-")}` })),
+  ].map(name => ({ "@type": "City", name, "@id": `https://arclightpainting.com/service-area/${name.toLowerCase().replace(/\s+/g, "-")}` })),
   sameAs: [],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
@@ -145,7 +145,7 @@ export const serviceAreaSchema = (areaName: string, slug: string, description: s
   "@type": "Service",
   name: `House Painting in ${areaName}, WA`,
   description,
-  url: `https://arclightpainting.com/service-areas/${slug}`,
+  url: `https://arclightpainting.com/service-area/${slug}`,
   provider: {
     "@type": "HousePainter",
     name: "Arclight Painting",

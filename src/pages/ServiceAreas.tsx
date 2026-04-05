@@ -14,10 +14,10 @@ const ServiceAreas = () => {
       <SEOHead
         title="Service Areas - Painting in Bothell, Kirkland, Redmond & More | Arclight Painting"
         description="Arclight Painting serves Bothell, Kirkland, Redmond, Bellevue, Woodinville, Kenmore, Mill Creek, Everett, Lake Forest Park, and more across the greater Eastside, WA."
-        canonical="/service-areas"
+        canonical="/service-area"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "/" },
-          { name: "Service Areas", url: "/service-areas" },
+          { name: "Service Areas", url: "/service-area" },
         ])}
       />
       <Header />
@@ -55,7 +55,7 @@ const ServiceAreas = () => {
                 transition={{ duration: 0.4, delay: i * 0.05 }}
               >
                 <Link
-                  to={`/service-areas/${area.slug}`}
+                  to={`/service-area/${area.slug}`}
                   className="group flex items-start gap-4 p-6 rounded-xl border border-border bg-card hover:shadow-lg hover:border-accent/30 transition-all"
                 >
                   <MapPin className="h-6 w-6 text-accent shrink-0 mt-1" />
