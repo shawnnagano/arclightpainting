@@ -12,8 +12,15 @@ import Pricing from "./pages/Pricing.tsx";
 import Reviews from "./pages/Reviews.tsx";
 import Schedule from "./pages/Schedule.tsx";
 
-import { Navigate } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import ServiceDetail from "./pages/ServiceDetail.tsx";
+
+// Redirect old /services/:slug paths to root-level /:slug
+function ServiceRedirect() {
+  const { slug } = useParams();
+  return <Navigate to={`/${slug}`} replace />;
+}
+
 import ServiceAreas from "./pages/ServiceAreas.tsx";
 import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
 import Blog from "./pages/Blog.tsx";
