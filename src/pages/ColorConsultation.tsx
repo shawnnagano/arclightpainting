@@ -89,7 +89,7 @@ const ColorConsultation = () => {
                   <div className="shrink-0 w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center">
                     <f.icon className="h-5 w-5 text-accent" />
                   </div>
-                  <span className="text-base md:text-lg font-semibold uppercase tracking-wide">
+                  <span className="text-base md:text-lg font-semibold tracking-wide">
                     {f.rendered || f.text}
                   </span>
                 </motion.div>
