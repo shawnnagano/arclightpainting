@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map.png";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned.png";
+import { serviceAreas } from "@/data/serviceAreas";
 
 const badges = [
   {
@@ -44,12 +45,26 @@ const Footer = () => {
                 Our Service Areas
               </h3>
               <p className="text-white/80 text-sm md:text-base">
-                Serving Bothell, Kirkland, Redmond, Bellevue & more →
+                Serving Bothell & Surrounding Areas →
               </p>
             </div>
           </div>
         </div>
       </Link>
+
+      {/* Service Areas Links */}
+      <div className="container mx-auto px-4 py-4">
+        <p className="text-center text-sm opacity-70 leading-relaxed">
+          {serviceAreas.map((area, i) => (
+            <span key={area.slug}>
+              <Link to={`/service-area/${area.slug}`} className="hover:text-accent transition-colors">
+                {area.name}
+              </Link>
+              {i < serviceAreas.length - 1 && <span className="mx-2">|</span>}
+            </span>
+          ))}
+        </p>
+      </div>
 
       {/* Trust badges */}
       <div className="container mx-auto px-4 py-8 border-b border-border">
