@@ -161,7 +161,7 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your cabinet refinishing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
     },
   ],
-  "drywall-repair": [
+  "drywall-repairs": [
     {
       question: "What kinds of drywall damage can you repair?",
       answer: "We can often address nail holes, dents, stress cracks, minor water damage, small holes, seam issues, and other common wall and ceiling defects.",

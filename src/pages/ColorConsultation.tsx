@@ -27,11 +27,10 @@ const ColorConsultation = () => {
       <SEOHead
         title="ColorConfidence™ Color Consultation | Arclight Painting"
         description="Eliminate color regret with Arclight's ColorConfidence™ Consultation. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches. Choose boldly. Paint beautifully."
-        canonical="/services/color-consultation"
+        canonical="/color-consultation"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "/" },
-          { name: "Services", url: "/services" },
-          { name: "Color Consultation", url: "/services/color-consultation" },
+          { name: "Color Consultation", url: "/color-consultation" },
         ])}
       />
       <Header />
