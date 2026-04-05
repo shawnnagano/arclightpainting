@@ -112,7 +112,7 @@ const ColorConsultation = () => {
               No pressure. No guessing. Just confident, beautiful choices.
             </p>
             <div className="bg-muted rounded-xl p-8 md:p-12">
-              <h3 className="text-3xl md:text-5xl font-bold leading-snug">
+              <h3 className="text-xl md:text-2xl font-semibold leading-snug">
                 We don't just help you pick a color
                 <br />
                 <span className="text-accent">— we help you pick the right one.</span>
