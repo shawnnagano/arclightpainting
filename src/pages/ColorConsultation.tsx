@@ -13,7 +13,7 @@ import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
-import { generalFAQ } from "@/data/faqData";
+import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-confidence-hero.png";
 
 const features = [
@@ -141,7 +141,7 @@ const ColorConsultation = () => {
       <GallerySection />
 
       {/* FAQ */}
-      <FAQSection faqs={generalFAQ} />
+      <FAQSection faqs={colorConsultationFAQ} />
 
       {/* CTA */}
       <CTASection serviceName="Color Consultation" />

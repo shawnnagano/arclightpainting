@@ -339,3 +339,38 @@ export const pricingFAQ: FAQItem[] = [
     answer: "In some cases, yes. We can discuss shared responsibilities during the estimate and clarify them in the proposal so the project still runs smoothly and the result stays strong.",
   },
 ];
+
+export const colorConsultationFAQ: FAQItem[] = [
+  {
+    question: "How does ColorConfidence™ Consultation work?",
+    answer: "Our ColorConfidence™ Consultation is designed to take the stress and second-guessing out of choosing colors. Depending on your needs, we guide you through expert color selection, visual clarity, and a plan you can move forward with confidently.",
+  },
+  {
+    question: "How much does ColorConfidence™ Consultation cost?",
+    answer: "A 30-minute virtual consultation is free and included with any painting project. A 60-minute in-home consultation is $195. Each option is tailored to your needs and designed to help bring out the full potential of your home.",
+  },
+  {
+    question: "Do I need an in-home consultation, or is virtual enough?",
+    answer: "That depends on the level of support you want. A virtual consultation is a great fit for many projects and is often enough to create clarity and direction. An in-home consultation is ideal if you want more hands-on guidance, help evaluating lighting and surroundings in person, or support making final decisions with greater confidence.",
+  },
+  {
+    question: "What if I already have a color in mind?",
+    answer: "That is a great starting point. ColorConfidence™ is not just for people starting from scratch, it is also for homeowners who want to refine an idea, compare options, confirm undertones, or make sure the final choice works beautifully in the space.",
+  },
+  {
+    question: "Can you help if I am deciding between several colors?",
+    answer: "Yes. That is one of the main reasons this service exists. We help narrow the options, reduce overwhelm, and guide you toward the choice that fits your home, lighting, style, and goals best.",
+  },
+  {
+    question: "Will this help me avoid choosing the wrong color?",
+    answer: "That is exactly the goal. ColorConfidence™ is designed to reduce doubt and help you make informed, confident decisions before painting begins, so you can avoid costly changes and color regret later.",
+  },
+  {
+    question: "Can you help match existing paint colors in my home?",
+    answer: "Yes. Our expert colorist will evaluate the current paint or finish and guide you toward the best match. We consider paint type, brand, sheen, tinting, and fading, because even a strong color match can look different once it is applied. That is why on-site test patches are so valuable, they let you see how the color actually reads in your home before making a final decision.",
+  },
+  {
+    question: "What happens after the consultation?",
+    answer: "You leave with a ColorConfidence™ Blueprint which provides clearer direction to your painter and a more confident plan for your project. The goal is not just to give you ideas, but to help you make decisions you feel good about before the painting starts.",
+  },
+];
