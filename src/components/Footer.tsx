@@ -79,7 +79,7 @@ const Footer = () => {
               Professional house painting services in Bothell, WA and the greater Seattle area.
             </p>
             <p className="text-sm font-bold leading-relaxed">
-              <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. <span className="text-accent">Exceptional</span> Results.
+              <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. Exceptional <span className="text-accent">Results.</span>
             </p>
           </div>
 
