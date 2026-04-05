@@ -21,20 +21,20 @@ const ServiceAreaDetail = () => {
   const { slug } = useParams<{ slug: string }>();
   const area = serviceAreas.find((a) => a.slug === slug);
 
-  if (!area) return <Navigate to="/service-areas" replace />;
+  if (!area) return <Navigate to="/service-area" replace />;
 
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
         title={`Professional House Painters in ${area.name} | Arclight Painting`}
         description={area.metaDescription}
-        canonical={`/service-areas/${area.slug}`}
+        canonical={`/service-area/${area.slug}`}
         jsonLd={[
           serviceAreaSchema(area.name, area.slug, area.metaDescription),
           breadcrumbSchema([
             { name: "Home", url: "/" },
-            { name: "Service Areas", url: "/service-areas" },
-            { name: area.name, url: `/service-areas/${area.slug}` },
+            { name: "Service Areas", url: "/service-area" },
+            { name: area.name, url: `/service-area/${area.slug}` },
           ]),
         ]}
       />

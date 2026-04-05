@@ -30,7 +30,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-foreground border-t border-border">
       {/* Service Areas Map */}
-      <Link to="/service-areas" className="block group">
+      <Link to="/service-area" className="block group">
         <div className="relative overflow-hidden">
           <img
             src={serviceAreasMap}
