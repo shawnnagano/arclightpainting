@@ -5,11 +5,8 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import OwnersSection from "@/components/OwnersSection";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
-import BlueprintSection from "@/components/BlueprintSection";
-import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
@@ -103,20 +100,11 @@ const ColorConsultation = () => {
       {/* Testimonials */}
       <TestimonialsSection serviceName="Color Consultation" />
 
-      {/* Owners */}
-      <OwnersSection />
-
       {/* Values */}
       <ValuesSection />
 
       {/* Guarantee */}
       <GuaranteeSection />
-
-      {/* Blueprint */}
-      <BlueprintSection />
-
-      {/* Gallery */}
-      <GallerySection />
 
       {/* FAQ */}
       <FAQSection faqs={colorConsultationFAQ} />
