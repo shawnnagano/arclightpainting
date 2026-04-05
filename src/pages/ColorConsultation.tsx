@@ -17,11 +17,11 @@ import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-confidence-hero.png";
 
 const features = [
-  { icon: Eye, text: "Virtual Or In-Home Consultation With Our Professional Colorist" },
-  { icon: SwatchBook, text: "Visual Mockups of Your Real Home" },
-  { icon: Pipette, text: "Custom Color Matching" },
-  { icon: Palette, text: "On-Site Test Patches" },
-  { icon: FileText, rendered: <>Full Color<span className="text-accent">Confidence</span>™ Blueprint With Color Specs &amp; Placement</> },
+  { icon: Eye, text: "Virtual or in-home consultation with our professional colorist" },
+  { icon: SwatchBook, text: "Visual mockups of your real home" },
+  { icon: Pipette, text: "Custom color matching with on-site test patches" },
+  { icon: Palette, text: "Paint swatches mailed to you" },
+  { icon: FileText, rendered: <>Full Color<span className="text-accent">Confidence</span>™ blueprint with color specs & placement</> },
 ];
 
 const ColorConsultation = () => {
