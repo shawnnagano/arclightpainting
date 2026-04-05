@@ -1,12 +1,9 @@
 const GlobalReviewWidget = () => (
-  <iframe
-    className="lc_reviews_widget"
-    src="https://reputationhub.site/reputation/widgets/review_widget/TGrxHZY8Y5wXqvLyDgYP?widgetId=69d20b6edc779894ab99f2da"
-    frameBorder="0"
-    scrolling="no"
-    style={{ minWidth: "100%", width: "100%" }}
-    title="Review Widget"
-  />
+  <div className="bg-secondary border-t border-border py-6 text-center">
+    <p className="text-sm text-muted-foreground tracking-wide">
+      Veteran-owned. Built on character, excellence, and above-and-beyond service.
+    </p>
+  </div>
 );
 
 export default GlobalReviewWidget;
