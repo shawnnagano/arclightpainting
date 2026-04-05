@@ -12,14 +12,7 @@ import Pricing from "./pages/Pricing.tsx";
 import Reviews from "./pages/Reviews.tsx";
 import Schedule from "./pages/Schedule.tsx";
 
-import { Navigate, useParams } from "react-router-dom";
 import ServiceDetail from "./pages/ServiceDetail.tsx";
-
-// Redirect old /services/:slug paths to root-level /:slug
-function ServiceRedirect() {
-  const { slug } = useParams();
-  return <Navigate to={`/${slug}`} replace />;
-}
 
 import ServiceAreas from "./pages/ServiceAreas.tsx";
 import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
@@ -62,12 +55,9 @@ const App = () => (
             <Route path="/pricing" element={<Pricing />} />
             <Route path="/reviews" element={<Reviews />} />
             <Route path="/schedule" element={<Schedule />} />
-            <Route path="/color-consultation" element={<ColorConsultation />} />
-            <Route path="/:slug" element={<ServiceDetail />} />
-            {/* 301-style redirects from old /services/ paths */}
-            <Route path="/services/color-consultation" element={<Navigate to="/color-consultation" replace />} />
-            <Route path="/services/drywall-repair" element={<Navigate to="/drywall-repairs" replace />} />
-            <Route path="/services/:slug" element={<ServiceRedirect />} />
+            <Route path="/services/color-consultation" element={<ColorConsultation />} />
+            <Route path="/services/drywall-repairs" element={<ServiceDetail />} />
+            <Route path="/services/:slug" element={<ServiceDetail />} />
             <Route path="/service-areas" element={<ServiceAreas />} />
             <Route path="/service-areas/:slug" element={<ServiceAreaDetail />} />
             <Route path="/blog" element={<Blog />} />
