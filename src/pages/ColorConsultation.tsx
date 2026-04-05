@@ -141,7 +141,7 @@ const ColorConsultation = () => {
       <GallerySection />
 
       {/* FAQ */}
-      <FAQSection faqs={generalFAQ} />
+      <FAQSection faqs={colorConsultationFAQ} />
 
       {/* CTA */}
       <CTASection serviceName="Color Consultation" />
