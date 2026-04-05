@@ -103,20 +103,11 @@ const ColorConsultation = () => {
       {/* Testimonials */}
       <TestimonialsSection serviceName="Color Consultation" />
 
-      {/* Owners */}
-      <OwnersSection />
-
       {/* Values */}
       <ValuesSection />
 
       {/* Guarantee */}
       <GuaranteeSection />
-
-      {/* Blueprint */}
-      <BlueprintSection />
-
-      {/* Gallery */}
-      <GallerySection />
 
       {/* FAQ */}
       <FAQSection faqs={colorConsultationFAQ} />
