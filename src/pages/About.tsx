@@ -158,7 +158,7 @@ const About = () => {
       {/* 25 Years of Service */}
       <section id="our-story" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4 max-w-5xl">
-          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
             Proven <span className="text-accent">Experience</span>
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-10">
