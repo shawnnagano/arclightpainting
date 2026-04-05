@@ -1,6 +1,9 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
+import ValuesSection from "@/components/ValuesSection";
+import GuaranteeSection from "@/components/GuaranteeSection";
+import BlueprintSection from "@/components/BlueprintSection";
 import { serviceAreas } from "@/data/serviceAreas";
 import { Link } from "react-router-dom";
 import { MapPin } from "lucide-react";
@@ -73,6 +76,10 @@ const ServiceAreas = () => {
           </div>
         </div>
       </section>
+
+      <ValuesSection />
+      <GuaranteeSection />
+      <BlueprintSection />
 
       <CTASection />
       <Footer />
