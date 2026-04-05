@@ -80,7 +80,7 @@ const serviceData: Record<string, {
       "Transforms your kitchen in days, not weeks",
     ],
   },
-  "drywall-repair": {
+  "drywall-repairs": {
     title: "Drywall Repair",
     tagline: "Seamless Walls, Every Time",
     description: [
@@ -193,13 +193,12 @@ const ServiceDetail = () => {
       <SEOHead
         title={`${service.title} in Bothell | Arclight Painting`}
         description={service.description[0].slice(0, 155) + "..."}
-        canonical={`/services/${slug}`}
+        canonical={`/${slug}`}
         jsonLd={[
           serviceSchema(service.title, service.description[0], slug || ""),
           breadcrumbSchema([
             { name: "Home", url: "/" },
-            { name: "Services", url: "/services" },
-            { name: service.title, url: `/services/${slug}` },
+            { name: service.title, url: `/${slug}` },
           ]),
         ]}
       />
