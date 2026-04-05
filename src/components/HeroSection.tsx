@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Star } from "lucide-react";
-import googleLogo from "@/assets/google-logo.png";
 
 
 
@@ -63,32 +61,15 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
             </p>
           </motion.div>
 
-          {/* Google Rating Summary */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             className="pt-2"
           >
-            <div className="flex items-center gap-2">
-              <img src={googleLogo} alt="Google" className="h-10 w-auto" />
-              <span className="font-bold text-foreground">4.9</span>
-              <div className="flex">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="h-3.5 w-3.5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-            </div>
-            <div className="flex items-center gap-2 mt-1">
-              <Link
-                to="/reviews"
-                className="text-sm font-semibold hover:underline"
-                style={{ color: '#4285F4' }}
-              >
-                Read All Reviews →
-              </Link>
-              
-            </div>
+            <p className="text-sm md:text-base text-muted-foreground">
+              Veteran-owned. Built on character, excellence, and above-and-beyond service.
+            </p>
           </motion.div>
         </div>
       </div>
