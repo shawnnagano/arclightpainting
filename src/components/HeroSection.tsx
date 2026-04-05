@@ -1,8 +1,6 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Star } from "lucide-react";
-import googleLogo from "@/assets/google-logo.png";
 
 
 
