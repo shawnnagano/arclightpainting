@@ -8,7 +8,6 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FAQSection from "@/components/FAQSection";
-import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { colorConsultationFAQ } from "@/data/faqData";
