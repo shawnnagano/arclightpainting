@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
@@ -9,16 +8,6 @@ const overallRating = 4.9;
 const totalReviews = 269;
 
 const Reviews = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://reputationhub.site/reputation/assets/review-widget.js";
-    script.type = "text/javascript";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">
