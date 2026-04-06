@@ -79,6 +79,9 @@ const Footer = () => {
             />
           ))}
         </div>
+        <p className="text-center text-sm opacity-70 mt-4">
+          BBB A+ Rating | PCA Legacy Member | Bothell-Kenmore Chamber Member | SBA-Certified Veteran Owned
+        </p>
       </div>
 
       <div className="container mx-auto px-4 py-12">
