@@ -45,21 +45,21 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
   },
   {
-    name: "Redmond",
-    slug: "redmond",
+    name: "Woodinville",
+    slug: "woodinville",
     state: "Washington",
     description:
-      "Redmond's fast-growing neighborhoods deserve a painting partner that keeps pace with quality. Arclight serves Redmond's tech-forward community with efficient scheduling, clean workmanship, and finishes that stand up to the region's weather patterns.",
+      "Woodinville's wine country charm extends to its beautifully maintained homes and estates. Arclight is the go-to painting company for Woodinville homeowners who want quality finishes that complement the area's relaxed yet refined lifestyle.",
     localFlavor:
-      "Redmond has this incredible energy — you've got the Redmond Town Center for a lunch break, and the Marymoor Park trails right around the corner for an after-work reset. We've painted homes all over Education Hill, Grass Lawn, and the newer developments around Redmond Ridge. Our crew loves the Saturday Redmond Farmers Market and the growing downtown scene. It's a city that's always evolving, and we're proud to help Redmond homeowners keep their properties looking as sharp as the community around them.",
+      "Woodinville is wine country right in our backyard, and we love it. Chateau Ste. Michelle — Washington's founding winery since 1967 — has that gorgeous 87-acre estate with summer concerts on the lawn that our team looks forward to every year. There are over 100 wineries and tasting rooms in the area, and the Warehouse District is always a fun stop. But beyond the wine, Woodinville has beautiful estate-style homes, horse properties, and newer developments around Woodinville proper. The mix of rural elegance and suburban convenience makes it a unique place to paint, and the homeowners here appreciate craftsmanship that matches their surroundings.",
     highlights: [
-      "Serving Redmond's established and new-construction neighborhoods",
-      "Flexible scheduling to accommodate busy Redmond professionals",
-      "Premium exterior coatings that withstand Pacific Northwest weather",
+      "Trusted by Woodinville homeowners in wine country and beyond",
+      "Exterior painting that enhances Woodinville's estate-style properties",
+      "Cabinet and interior painting to refresh Woodinville kitchens and living spaces",
     ],
     metaDescription:
-      "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
+      "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
   },
   {
     name: "Cottage Lake",
@@ -198,21 +198,21 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
   },
   {
-    name: "Woodinville",
-    slug: "woodinville",
+    name: "Redmond",
+    slug: "redmond",
     state: "Washington",
     description:
-      "Woodinville's wine country charm extends to its beautifully maintained homes and estates. Arclight is the go-to painting company for Woodinville homeowners who want quality finishes that complement the area's relaxed yet refined lifestyle.",
+      "Redmond's fast-growing neighborhoods deserve a painting partner that keeps pace with quality. Arclight serves Redmond's tech-forward community with efficient scheduling, clean workmanship, and finishes that stand up to the region's weather patterns.",
     localFlavor:
-      "Woodinville is wine country right in our backyard, and we love it. Chateau Ste. Michelle — Washington's founding winery since 1967 — has that gorgeous 87-acre estate with summer concerts on the lawn that our team looks forward to every year. There are over 100 wineries and tasting rooms in the area, and the Warehouse District is always a fun stop. But beyond the wine, Woodinville has beautiful estate-style homes, horse properties, and newer developments around Woodinville proper. The mix of rural elegance and suburban convenience makes it a unique place to paint, and the homeowners here appreciate craftsmanship that matches their surroundings.",
+      "Redmond has this incredible energy — you've got the Redmond Town Center for a lunch break, and the Marymoor Park trails right around the corner for an after-work reset. We've painted homes all over Education Hill, Grass Lawn, and the newer developments around Redmond Ridge. Our crew loves the Saturday Redmond Farmers Market and the growing downtown scene. It's a city that's always evolving, and we're proud to help Redmond homeowners keep their properties looking as sharp as the community around them.",
     highlights: [
-      "Trusted by Woodinville homeowners in wine country and beyond",
-      "Exterior painting that enhances Woodinville's estate-style properties",
-      "Cabinet and interior painting to refresh Woodinville kitchens and living spaces",
+      "Serving Redmond's established and new-construction neighborhoods",
+      "Flexible scheduling to accommodate busy Redmond professionals",
+      "Premium exterior coatings that withstand Pacific Northwest weather",
     ],
     metaDescription:
-      "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
+      "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Seattle",
