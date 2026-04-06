@@ -45,7 +45,7 @@ const Footer = () => {
                 Service Areas
               </h3>
               <p className="text-white/80 text-sm md:text-base">
-                Bothell & Greater Seattle Area →
+                Bothell & Surrounding Areas →
               </p>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
               className="h-12 mb-4"
             />
             <p className="text-sm opacity-70 leading-relaxed mb-3">
-              Professional house painting services in Bothell, WA and the greater Seattle area.
+              Professional house painting services in Bothell, WA and surrounding areas.
             </p>
             <p className="text-sm font-bold leading-relaxed">
               <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. Exceptional <span className="text-accent">Results.</span>

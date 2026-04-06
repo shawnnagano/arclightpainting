@@ -41,7 +41,7 @@ const ServiceAreas = () => {
             Areas We <span className="text-accent">Serve</span>
           </h1>
           <p className="text-muted-foreground max-w-2xl">
-            Arclight Painting proudly serves homeowners and businesses across the Bothell and greater Seattle area. Find out if we serve your community below.
+            Arclight Painting proudly serves homeowners and businesses across Bothell and surrounding areas. Find out if we serve your community below.
           </p>
         </div>
       </section>
