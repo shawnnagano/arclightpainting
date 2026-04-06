@@ -28,21 +28,21 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
   },
   {
-    name: "Kirkland",
-    slug: "kirkland",
+    name: "Kenmore",
+    slug: "kenmore",
     state: "Washington",
     description:
-      "Kirkland homeowners trust Arclight for painting that matches the waterfront city's high standards. Whether your home overlooks Lake Washington or sits in one of Kirkland's tree-lined neighborhoods, we deliver meticulous work that enhances curb appeal and interior comfort.",
+      "Kenmore's lakeside location and growing downtown make it an exciting place to live — and Arclight is proud to help homeowners keep their properties looking fresh. From waterfront homes to the neighborhoods along the Burke-Gilman Trail, we paint Kenmore with precision.",
     localFlavor:
-      "We love working in Kirkland — there's nothing like finishing up a lakeside exterior and walking down to the Kirkland waterfront for dinner at Hearth Restaurant at the Heathman Hotel. The public art along the Marina Park trail always inspires us to bring that same attention to detail to every brushstroke. Kirkland's mix of charming craftsman homes and modern builds keeps our work interesting, and the views from the hillside neighborhoods never get old.",
+      "Kenmore sits right at the north tip of Lake Washington, and you can feel the lake everywhere you go. We love biking the Burke-Gilman Trail through town on our days off, and grabbing a bite at one of the spots in the growing Kenmore Village. The Lodge at St. Edward State Park is one of our favorite places — the old seminary turned hotel has this incredible atmosphere tucked into 326 acres of forest. Painting homes in Kenmore means working near beautiful water views, towering evergreens, and a community that genuinely cares about how their neighborhood looks.",
     highlights: [
-      "Expert painters serving Kirkland's lakeside and hillside homes",
-      "Moisture-resistant exterior coatings suited to waterfront properties",
-      "Cabinet refinishing that refreshes Kirkland kitchens beautifully",
+      "Serving Kenmore homes near Lake Washington and the Sammamish River",
+      "Moisture-smart coatings for lakeside and river-adjacent properties",
+      "Quick, professional service for Kenmore's growing community",
     ],
     metaDescription:
-      "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
+      "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg/1280px-Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg",
   },
   {
     name: "Woodinville",
@@ -62,38 +62,21 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
   },
   {
-    name: "Cottage Lake",
-    slug: "cottage-lake",
+    name: "Kirkland",
+    slug: "kirkland",
     state: "Washington",
     description:
-      "The peaceful Cottage Lake community deserves painters who appreciate its rural charm. Arclight brings careful, detail-oriented craftsmanship to the larger properties and wooded lots that define this beautiful unincorporated area northeast of Woodinville.",
+      "Kirkland homeowners trust Arclight for painting that matches the waterfront city's high standards. Whether your home overlooks Lake Washington or sits in one of Kirkland's tree-lined neighborhoods, we deliver meticulous work that enhances curb appeal and interior comfort.",
     localFlavor:
-      "Cottage Lake is one of those hidden gems — quiet roads, tall trees, and homes with real character. We love the drive out past the rolling lots, and our crew has been known to take a detour to Cottage Lake Park to enjoy the waterfront during lunch. The fishing at Cottage Lake itself is legendary (Rainbow Trout and Cutthroat!), and the whole area has a peaceful, country feel that we respect by keeping our job sites tidy and our work unhurried but precise.",
+      "We love working in Kirkland — there's nothing like finishing up a lakeside exterior and walking down to the Kirkland waterfront for dinner at Hearth Restaurant at the Heathman Hotel. The public art along the Marina Park trail always inspires us to bring that same attention to detail to every brushstroke. Kirkland's mix of charming craftsman homes and modern builds keeps our work interesting, and the views from the hillside neighborhoods never get old.",
     highlights: [
-      "Experienced with larger rural properties around Cottage Lake",
-      "Exterior painting that protects against the area's wooded, humid environment",
-      "Respectful of the natural surroundings and peaceful neighborhood feel",
+      "Expert painters serving Kirkland's lakeside and hillside homes",
+      "Moisture-resistant exterior coatings suited to waterfront properties",
+      "Cabinet refinishing that refreshes Kirkland kitchens beautifully",
     ],
     metaDescription:
-      "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cottage_Lake_%28Washington%29_2026_-_01.jpg/1280px-Cottage_Lake_%28Washington%29_2026_-_01.jpg",
-  },
-  {
-    name: "Kenmore",
-    slug: "kenmore",
-    state: "Washington",
-    description:
-      "Kenmore's lakeside location and growing downtown make it an exciting place to live — and Arclight is proud to help homeowners keep their properties looking fresh. From waterfront homes to the neighborhoods along the Burke-Gilman Trail, we paint Kenmore with precision.",
-    localFlavor:
-      "Kenmore sits right at the north tip of Lake Washington, and you can feel the lake everywhere you go. We love biking the Burke-Gilman Trail through town on our days off, and grabbing a bite at one of the spots in the growing Kenmore Village. The Lodge at St. Edward State Park is one of our favorite places — the old seminary turned hotel has this incredible atmosphere tucked into 326 acres of forest. Painting homes in Kenmore means working near beautiful water views, towering evergreens, and a community that genuinely cares about how their neighborhood looks.",
-    highlights: [
-      "Serving Kenmore homes near Lake Washington and the Sammamish River",
-      "Moisture-smart coatings for lakeside and river-adjacent properties",
-      "Quick, professional service for Kenmore's growing community",
-    ],
-    metaDescription:
-      "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg/1280px-Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg",
+      "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
   },
   {
     name: "Mill Creek",
@@ -111,6 +94,40 @@ export const serviceAreas: ServiceArea[] = [
     metaDescription:
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
+  },
+  {
+    name: "Everett",
+    slug: "everett",
+    state: "Washington",
+    description:
+      "From Everett's historic neighborhoods to its waterfront developments, Arclight brings reliable painting services to Snohomish County's largest city. We understand the range of architecture across Everett and tailor our approach to each project.",
+    localFlavor:
+      "Everett has been reinventing itself beautifully. The waterfront is thriving — we love grabbing lunch at Fisherman Jack's on the marina for their incredible Asian-seafood fusion after finishing a job nearby. The Jetty Bar & Grille at Hotel Indigo is another crew favorite with those marina views. From the historic homes in the Rucker Hill neighborhood to the newer waterfront condos at Millwright District, Everett has an incredible range of architecture. The Port of Everett marina area is one of the most exciting waterfronts in the region, and we're proud to paint homes throughout this revitalized city.",
+    highlights: [
+      "Serving all of Everett including downtown, waterfront, and suburban areas",
+      "Experience with historic home restoration painting",
+      "Commercial painting available for Everett businesses",
+    ],
+    metaDescription:
+      "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
+  },
+  {
+    name: "Cottage Lake",
+    slug: "cottage-lake",
+    state: "Washington",
+    description:
+      "The peaceful Cottage Lake community deserves painters who appreciate its rural charm. Arclight brings careful, detail-oriented craftsmanship to the larger properties and wooded lots that define this beautiful unincorporated area northeast of Woodinville.",
+    localFlavor:
+      "Cottage Lake is one of those hidden gems — quiet roads, tall trees, and homes with real character. We love the drive out past the rolling lots, and our crew has been known to take a detour to Cottage Lake Park to enjoy the waterfront during lunch. The fishing at Cottage Lake itself is legendary (Rainbow Trout and Cutthroat!), and the whole area has a peaceful, country feel that we respect by keeping our job sites tidy and our work unhurried but precise.",
+    highlights: [
+      "Experienced with larger rural properties around Cottage Lake",
+      "Exterior painting that protects against the area's wooded, humid environment",
+      "Respectful of the natural surroundings and peaceful neighborhood feel",
+    ],
+    metaDescription:
+      "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cottage_Lake_%28Washington%29_2026_-_01.jpg/1280px-Cottage_Lake_%28Washington%29_2026_-_01.jpg",
   },
   {
     name: "Bellevue",
@@ -147,6 +164,23 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cascade_Range_cabin_%28Unsplash%29.jpg/1280px-Cascade_Range_cabin_%28Unsplash%29.jpg",
   },
   {
+    name: "Redmond",
+    slug: "redmond",
+    state: "Washington",
+    description:
+      "Redmond's fast-growing neighborhoods deserve a painting partner that keeps pace with quality. Arclight serves Redmond's tech-forward community with efficient scheduling, clean workmanship, and finishes that stand up to the region's weather patterns.",
+    localFlavor:
+      "Redmond has this incredible energy — you've got the Redmond Town Center for a lunch break, and the Marymoor Park trails right around the corner for an after-work reset. We've painted homes all over Education Hill, Grass Lawn, and the newer developments around Redmond Ridge. Our crew loves the Saturday Redmond Farmers Market and the growing downtown scene. It's a city that's always evolving, and we're proud to help Redmond homeowners keep their properties looking as sharp as the community around them.",
+    highlights: [
+      "Serving Redmond's established and new-construction neighborhoods",
+      "Flexible scheduling to accommodate busy Redmond professionals",
+      "Premium exterior coatings that withstand Pacific Northwest weather",
+    ],
+    metaDescription:
+      "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
+    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
+  },
+  {
     name: "Clearview",
     slug: "clearview",
     state: "Washington",
@@ -164,23 +198,6 @@ export const serviceAreas: ServiceArea[] = [
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Snohomish%2C_WA_-_Marks_Building_01.jpg/1280px-Snohomish%2C_WA_-_Marks_Building_01.jpg",
   },
   {
-    name: "Everett",
-    slug: "everett",
-    state: "Washington",
-    description:
-      "From Everett's historic neighborhoods to its waterfront developments, Arclight brings reliable painting services to Snohomish County's largest city. We understand the range of architecture across Everett and tailor our approach to each project.",
-    localFlavor:
-      "Everett has been reinventing itself beautifully. The waterfront is thriving — we love grabbing lunch at Fisherman Jack's on the marina for their incredible Asian-seafood fusion after finishing a job nearby. The Jetty Bar & Grille at Hotel Indigo is another crew favorite with those marina views. From the historic homes in the Rucker Hill neighborhood to the newer waterfront condos at Millwright District, Everett has an incredible range of architecture. The Port of Everett marina area is one of the most exciting waterfronts in the region, and we're proud to paint homes throughout this revitalized city.",
-    highlights: [
-      "Serving all of Everett including downtown, waterfront, and suburban areas",
-      "Experience with historic home restoration painting",
-      "Commercial painting available for Everett businesses",
-    ],
-    metaDescription:
-      "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
-  },
-  {
     name: "Lake Forest Park",
     slug: "lake-forest-park",
     state: "Washington",
@@ -196,23 +213,6 @@ export const serviceAreas: ServiceArea[] = [
     metaDescription:
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
     heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
-  },
-  {
-    name: "Redmond",
-    slug: "redmond",
-    state: "Washington",
-    description:
-      "Redmond's fast-growing neighborhoods deserve a painting partner that keeps pace with quality. Arclight serves Redmond's tech-forward community with efficient scheduling, clean workmanship, and finishes that stand up to the region's weather patterns.",
-    localFlavor:
-      "Redmond has this incredible energy — you've got the Redmond Town Center for a lunch break, and the Marymoor Park trails right around the corner for an after-work reset. We've painted homes all over Education Hill, Grass Lawn, and the newer developments around Redmond Ridge. Our crew loves the Saturday Redmond Farmers Market and the growing downtown scene. It's a city that's always evolving, and we're proud to help Redmond homeowners keep their properties looking as sharp as the community around them.",
-    highlights: [
-      "Serving Redmond's established and new-construction neighborhoods",
-      "Flexible scheduling to accommodate busy Redmond professionals",
-      "Premium exterior coatings that withstand Pacific Northwest weather",
-    ],
-    metaDescription:
-      "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
   },
   {
     name: "Seattle",
