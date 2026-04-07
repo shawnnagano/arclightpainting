@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import commercialLobby from "@/assets/commercial-lobby.png";
+import cabinetAfter from "@/assets/cabinet-after.jpg";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
 import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
