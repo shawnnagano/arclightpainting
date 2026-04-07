@@ -79,7 +79,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: cabinetAfter, alt: "Beautifully refinished white kitchen cabinets" },
     { src: cabinetWhiteVanity, alt: "White shaker bathroom vanity with marble countertop after refinishing" },
     { src: cabinetAntiqueVanity, alt: "Antique white shaker vanity cabinet in rustic bathroom" },
-    { src: cabinetStock2, alt: "Professionally refinished kitchen with white cabinetry" },
+    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Cabinet refinishing project in progress" },
     { src: cabinetStock3, alt: "Clean white cabinet finish in updated kitchen" },
   ],
   "Drywall Repair": [
