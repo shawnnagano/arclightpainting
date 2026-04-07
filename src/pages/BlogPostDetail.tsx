@@ -39,7 +39,7 @@ const BlogPostDetail = () => {
               name: "Arclight Painting",
               logo: {
                 "@type": "ImageObject",
-                url: "https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png",
+                url: "/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
               },
             },
           },

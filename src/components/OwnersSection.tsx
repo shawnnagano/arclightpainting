@@ -7,7 +7,7 @@ const OwnersSection = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="md:w-1/3 flex justify-center">
             <img
-              src="https://arclightpainting.com/wp-content/uploads/2025/09/image__11_-removebg-preview.png"
+              src="/images/wp-content/2025/09/image__11_-removebg-preview.png"
               alt="Owners of Arclight Painting"
               className="max-w-[300px] w-full"
               loading="lazy"

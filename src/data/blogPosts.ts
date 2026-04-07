@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
     slug: "neutral-paint-colors",
     title: "4 Stunning Neutral Paint Colors (That Aren't White)",
     excerpt: "Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.",
-    image: "https://arclightpainting.com/wp-content/uploads/2024/12/Main-Article.png",
+    image: "/images/wp-content/2024/12/Main-Article.png",
     date: "2026-03-14",
     content: `Neutral paint colors are getting a well-deserved spotlight—and not just the usual shades of white. Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.
 
@@ -27,7 +27,7 @@ Ready to take your walls to the next level? Here are a few neutral paint colors 
 
 ### Light Grays
 
-![French Grey-Pale by Little Greene](https://arclightpainting.com/wp-content/uploads/2025/01/French-Grey-Pale-by-Little-Greene-680x1024.webp)
+![French Grey-Pale by Little Greene](/images/wp-content/2025/01/French-Grey-Pale-by-Little-Greene-680x1024.webp)
 
 *IMAGE: French Grey-Pale by Little Greene.*
 
@@ -37,7 +37,7 @@ Benjamin Moore [Metro Gray](https://www.benjaminmoore.com/en-us/paint-colors/col
 
 ### Stone-Inspired Hues
 
-![Clay by Little Greene](https://arclightpainting.com/wp-content/uploads/2025/01/Clay-by-Little-Greene-688x1024.webp)
+![Clay by Little Greene](/images/wp-content/2025/01/Clay-by-Little-Greene-688x1024.webp)
 
 *IMAGE: Clay by Little Greene.*
 
@@ -49,7 +49,7 @@ O'Donnell suggests pairing this color with darker shades such as deep green or m
 
 ### Light Pink
 
-![Setting Plaster by Farrow & Ball](https://arclightpainting.com/wp-content/uploads/2025/01/Setting-Plaster-by-Farrow-Ball-681x1024.webp)
+![Setting Plaster by Farrow & Ball](/images/wp-content/2025/01/Setting-Plaster-by-Farrow-Ball-681x1024.webp)
 
 *IMAGE: Setting Plaster by Farrow & Ball.*
 
@@ -57,7 +57,7 @@ While pink has been a major trend in recent years, it's hardly a neutral hue. Ho
 
 ### Pale Yellow
 
-![Tallow by Farrow & Ball](https://arclightpainting.com/wp-content/uploads/2025/01/Tallow-by-Farrow-Ball-725x1024.webp)
+![Tallow by Farrow & Ball](/images/wp-content/2025/01/Tallow-by-Farrow-Ball-725x1024.webp)
 
 *IMAGE: Tallow by Farrow & Ball.*
 
@@ -67,7 +67,7 @@ While bright yellows aren't neutral, a creamy pale yellow, such as [Tallow](http
     slug: "hire-professional-painters",
     title: "Hire Professional Painters: 5 Powerful Reasons It's Worth Every Penny",
     excerpt: "Hire professional painters to ensure peace of mind and exceptional results in your home. Learn what to look for and why it matters.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/03/How-To-Choose-The-Best-House-Painter-Near-Me-01-.jpg",
+    image: "/images/wp-content/2025/03/How-To-Choose-The-Best-House-Painter-Near-Me-01-.jpg",
     date: "2026-03-14",
     content: `Hire professional painters to ensure peace of mind and exceptional results in your home. Bringing a painting crew into your home is not just about the final result—it's a matter of professionalism, reliability, and trust. That's why every craftsman should be thoroughly vetted, highly skilled, and committed to the highest standards of excellence in every detail.
 
@@ -100,7 +100,7 @@ Your safety and security should be top priorities. Every painter you let into yo
 
 Excellence isn't just a goal; it should be the standard. From the initial consultation to the final brushstroke, trusted professionals are meticulous about every aspect of the job. They only use top-quality materials, follow industry best practices, and go the extra mile to ensure your complete satisfaction.
 
-![Hire professional painters](https://arclightpainting.com/wp-content/uploads/2025/02/exterior-painting-service-company-near-me-in-bothell-wa-071.jpg)
+![Hire professional painters](/images/wp-content/2025/02/exterior-painting-service-company-near-me-in-bothell-wa-071.jpg)
 
 ### The Arclight Difference: Quality, Trust, and Lasting Results
 
@@ -112,7 +112,7 @@ When you're ready to transform your space with professionals you can trust, let 
     slug: "top-quality-paints",
     title: "6 Key Insights on Using Top Quality Paints for a Beautiful, Lasting Finish",
     excerpt: "Understanding what sets top quality paints apart—formulation, resin type, finish quality—can make a measurable difference in your investment.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/03/Choosing-the-Right-Paint.webp",
+    image: "/images/wp-content/2025/03/Choosing-the-Right-Paint.webp",
     date: "2026-03-14",
     content: `**Top quality paints** are difficult to distinguish when you're standing in front of rows of nearly identical cans at Home Depot or specialty retailers like Sherwin-Williams. Labels promise smooth coverage, rich color, and easy application—but how many truly deliver on long-term durability and consistent performance?
 
@@ -128,7 +128,7 @@ Selecting the wrong paint can be costly in more ways than one. Since COVID, pain
 
 The biggest loss, however, is your time or the cost of hiring a professional. A poor-quality paint prone to scuffing, fading, staining, or peeling will have you repainting far sooner than expected.
 
-![Top-Quality Paints](https://arclightpainting.com/wp-content/uploads/2025/03/CR-Home-Inlinehero-Best-Interior-Paints-0123.webp)
+![Top-Quality Paints](/images/wp-content/2025/03/CR-Home-Inlinehero-Best-Interior-Paints-0123.webp)
 
 ### Understanding Paint Grades and Performance
 
@@ -176,7 +176,7 @@ Ready to make a confident choice? [Talk to our team today](/schedule) about top 
     slug: "painting-wall-and-ceiling",
     title: "Painting Wall and Ceiling the Same Color: 5 Game-Changing Ideas",
     excerpt: "Should you paint your ceiling and walls the same color? Here's what the pros think about this bold design move.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/04/Main-Article.png",
+    image: "/images/wp-content/2025/04/Main-Article.png",
     date: "2026-03-14",
     content: `## Here's What the Pros Think
 
@@ -190,7 +190,7 @@ So, should you paint your ceiling and walls the same color? In short: **yes—if
 
 According to color consultants (and many of our happy clients), painting the ceiling the same color as the walls can be surprisingly impactful. "It's one of the best ways to wrap a room in warmth," says interior design expert [Lindsay Morse](https://andimorsedesign.com/). "Especially in rooms where you want a sense of calm or coziness, like a bedroom or den, using a single color eliminates stark contrast and makes the space feel more polished and complete."
 
-![painting wall and ceiling](https://arclightpainting.com/wp-content/uploads/2025/04/Calm-Cozy-Arclight-Painting-Bothell-WA.png)
+![painting wall and ceiling](/images/wp-content/2025/04/Calm-Cozy-Arclight-Painting-Bothell-WA.png)
 
 ### It's All About the Mood
 
@@ -198,7 +198,7 @@ Want a cozy retreat? Go for a mid-tone neutral—think soft taupe, gentle greige
 
 In larger rooms, or ones with high ceilings, using the same color throughout can help balance proportions and remove visual distractions.
 
-![High Ceilings](https://arclightpainting.com/wp-content/uploads/2025/04/High-Ceilings-Arclight-Painting-Bothell-WA.png)
+![High Ceilings](/images/wp-content/2025/04/High-Ceilings-Arclight-Painting-Bothell-WA.png)
 
 ### Light and Shadow Play a Role
 
@@ -206,19 +206,19 @@ Painting wall and ceiling the same color doesn't mean your space will look flat 
 
 Ceilings typically appear a shade lighter because they receive more direct light, creating a gentle contrast that adds dimension and softness.
 
-![Natural Light](https://arclightpainting.com/wp-content/uploads/2025/04/Natural-Light-Arclight-Painting-Bothell-WA.png)
+![Natural Light](/images/wp-content/2025/04/Natural-Light-Arclight-Painting-Bothell-WA.png)
 
 ### Not Just for Dark Colors
 
 While this look is often used with dramatic colors like deep navy or forest green, it works equally well with lighter tones. For an airy, modern vibe, consider pale neutrals like a soft gray-blue, a sandy cream, or even a warm pale pink.
 
-![Not Just for Dark Colors](https://arclightpainting.com/wp-content/uploads/2025/04/Not-Just-for-Dark-Colors-Arclight-Painting-Bothell-WA.png)
+![Not Just for Dark Colors](/images/wp-content/2025/04/Not-Just-for-Dark-Colors-Arclight-Painting-Bothell-WA.png)
 
 ### When One Color Isn't the Right Fit
 
 Of course, painting your ceiling and walls the same color isn't a one-size-fits-all solution. In some spaces—particularly ones that are very small or have low ceilings—a single color can make the room feel a bit enclosed if not chosen carefully.
 
-![Crown Molding](https://arclightpainting.com/wp-content/uploads/2025/04/Crown-Molding-Arclight-Painting-Bothell-WA.png)
+![Crown Molding](/images/wp-content/2025/04/Crown-Molding-Arclight-Painting-Bothell-WA.png)
 
 ## Final Thoughts
 
@@ -232,7 +232,7 @@ This approach isn't just stylish—it's smart. Fewer color transitions can simpl
     slug: "timeless-paint-colors",
     title: "Timeless Paint Colors: 7 Elegant Choices That Never Go Out of Style",
     excerpt: "Timeless paint colors hold more than aesthetic value—they reflect the principles that endure. Discover elegant choices for your home.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/05/Main-Article-1-1024x576.jpg",
+    image: "/images/wp-content/2025/05/Main-Article-1-1024x576.jpg",
     date: "2026-03-14",
     content: `Timeless paint colors hold more than aesthetic value—they reflect the principles that endure. As Memorial Day approaches, we pause to remember those who've served—and reflect on the values they stood for: honor, service, and home. For us at Arclight Painting, that reflection is deeply personal. Our founders are veterans, and the discipline, respect, and pride they carried in the military shape the way we show up for our customers every day.
 
@@ -246,19 +246,19 @@ Timeless paint colors have the power to completely shift the energy of a room. T
 
 **Soft Whites & Greiges:** Create a peaceful, clean backdrop that feels open and welcoming—perfect for living rooms, hallways, and other gathering spaces where connection happens.
 
-![Soft Whites & Greiges](https://arclightpainting.com/wp-content/uploads/2025/05/Soft-Whites-Greiges-1024x427.jpg)
+![Soft Whites & Greiges](/images/wp-content/2025/05/Soft-Whites-Greiges-1024x427.jpg)
 
 **Navy & Deep Blues:** These classic tones evoke calm, confidence, and clarity. Consider a navy accent wall in a home office, study, or guest room.
 
-![Navy & Deep Blues](https://arclightpainting.com/wp-content/uploads/2025/05/Navy-Deep-Blues-1024x427.jpg)
+![Navy & Deep Blues](/images/wp-content/2025/05/Navy-Deep-Blues-1024x427.jpg)
 
 **Earthy Neutrals:** Warm taupes, clay-like browns, and sand tones bring a natural elegance to your space. These colors work beautifully in kitchens, bathrooms, and bedrooms.
 
-![Earthy Neutrals](https://arclightpainting.com/wp-content/uploads/2025/05/Earthy-Neutrals-1-1024x427.jpg)
+![Earthy Neutrals](/images/wp-content/2025/05/Earthy-Neutrals-1-1024x427.jpg)
 
 **Inviting Front Door Colors:** Add character and curb appeal with a bold-but-tasteful front door color—rich red, heritage green, or even a deep eggplant.
 
-![Front Door](https://arclightpainting.com/wp-content/uploads/2025/05/Front-Door-1024x427.jpg)
+![Front Door](/images/wp-content/2025/05/Front-Door-1024x427.jpg)
 
 #### ✨ A Veteran-Led Team with a Heart for Home
 
@@ -274,7 +274,7 @@ Arclight isn't just about flawless finishes (though we're pretty great at those 
     slug: "paint-color-trends-2025",
     title: "Paint Color Trends 2025: 5 Stunning Designer Picks Dominating This Winter",
     excerpt: "Paint color trends 2025 are here! Discover the top designer-approved colors to create a cozy, stylish home this winter.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/01/Newsletter-1024x576.png",
+    image: "/images/wp-content/2025/01/Newsletter-1024x576.png",
     date: "2025-08-04",
     content: `**Paint Color Trends 2025** are here, just in time for the season of change. As fall winds down and winter approaches, it's the perfect opportunity to refresh your interiors while spending more time indoors. Whether you're aiming for a serene sanctuary in the bedroom or a sophisticated update in the living room, a fresh coat of paint can completely transform your space.
 
@@ -284,7 +284,7 @@ Not sure which shade to choose? We've gathered the top designer-approved colors 
 
 ### Soft Muted Colors
 
-![Soft Muted Colors](https://arclightpainting.com/wp-content/uploads/2024/11/sherwin-williams-snowbound-694x1024.jpg)
+![Soft Muted Colors](/images/wp-content/2024/11/sherwin-williams-snowbound-694x1024.jpg)
 
 Soft, muted tones are set to dominate this winter, creating cozy, tranquil atmospheres that invite you to unwind. Trina Rogers, a color consultant, points to shades like [**Snowbound by Sherwin-Williams**](https://www.sherwin-williams.com/en-us/color/color-family/white-paint-colors/sw7004-snowbound) as ideal for achieving this effect. Another standout is [**Hale Navy by Benjamin Moore**](https://www.benjaminmoore.com/en-us/paint-colors/color/hc-154/hale-navy).
 
@@ -292,25 +292,25 @@ While cooler grays are falling out of favor, warm neutrals like greige are makin
 
 ### Rich Green Hues
 
-![Rich Green Hues](https://arclightpainting.com/wp-content/uploads/2024/11/Screenshot-2024-11-04-204613.png)
+![Rich Green Hues](/images/wp-content/2024/11/Screenshot-2024-11-04-204613.png)
 
 There's no better color for winter than a deep, luxurious jewel tone. Shades like **Emerald Isle by Benjamin Moore** add sophistication to any space while remaining versatile enough to feel timeless.
 
 ### Burgundy
 
-![Burgundy](https://arclightpainting.com/wp-content/uploads/2024/11/d6eaa83599e8f5ee9d461b5aa379f546.jpg)
+![Burgundy](/images/wp-content/2024/11/d6eaa83599e8f5ee9d461b5aa379f546.jpg)
 
 Burgundy is poised to be one of the biggest color trends of 2025, says interior designer Becky Shea. "This rich Bordeaux shade has been a personal favorite of mine for years." Try **Dark Burgundy by Benjamin Moore** for a sophisticated choice.
 
 ### Black or Dark Brown
 
-![Black or Dark Brown](https://arclightpainting.com/wp-content/uploads/2024/11/Screenshot-2024-11-04-205316.png)
+![Black or Dark Brown](/images/wp-content/2024/11/Screenshot-2024-11-04-205316.png)
 
 If you're seeking something bold and dramatic, consider incorporating black or dark brown into your space. **Midsummer Night by Benjamin Moore** is ideal for furniture, accent walls, or architectural features.
 
 ### Warm Neutrals Paired With Bold, Dark Accents
 
-![Warm Neutrals Paired With Bold Accents](https://arclightpainting.com/wp-content/uploads/2024/11/Living-room-color-schemes-and-palettes-for-black-and-white-interior-1024x683.jpg)
+![Warm Neutrals Paired With Bold Accents](/images/wp-content/2024/11/Living-room-color-schemes-and-palettes-for-black-and-white-interior-1024x683.jpg)
 
 For those who crave a bit of drama, mixing warm neutrals with bold accents is a top trend. "Choose a warm neutral for the walls, then add bold accents in furnishings, textiles, or trim."
 
@@ -326,7 +326,7 @@ Book with Arclight Painting and experience above-and-beyond service that goes fa
     slug: "best-paint-for-high-traffic-areas",
     title: "The Best Paint for High Traffic Areas: 4 Commercial Interior Finishes That Last",
     excerpt: "Choosing the best paint for high traffic areas isn't just about color—it's about selecting coatings that withstand daily use and minimize maintenance costs.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/feature-image-1024x683.png",
+    image: "/images/wp-content/2025/08/feature-image-1024x683.png",
     date: "2025-08-07",
     content: `Choosing the right paint, especially the best paint for high traffic areas, isn't just about color—it's about selecting coatings that withstand daily use, resist stains, and minimize long-term maintenance costs.
 
@@ -340,7 +340,7 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 
 **Pro Tip:** Investing in durable finishes upfront can reduce touch-ups by 30–50% over five years.
 
-![Hotel lobby](https://arclightpainting.com/wp-content/uploads/2025/08/hotel-lobby-1024x683.png)
+![Hotel lobby](/images/wp-content/2025/08/hotel-lobby-1024x683.png)
 
 ## Best Commercial Paint Finishes for High Traffic Areas
 
@@ -363,7 +363,7 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 - Used sparingly for feature walls where a non-reflective finish is desired.
 - Not recommended for corridors, lobbies, or other high-traffic areas.
 
-![Restaurant](https://arclightpainting.com/wp-content/uploads/2025/08/restaurant-1024x683.png)
+![Restaurant](/images/wp-content/2025/08/restaurant-1024x683.png)
 
 ### Why Application Standards Matter
 
@@ -394,7 +394,7 @@ Ready to make a lasting improvement?
     slug: "best-interior-painting",
     title: "Best Interior Painting: Transform Your Home with Expert Tips and Trusted Products",
     excerpt: "From choosing the right finish to picking the best primer, learn the essentials of interior painting for lasting beauty and durability.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/best-interior-painting-3-1024x683.png",
+    image: "/images/wp-content/2025/08/best-interior-painting-3-1024x683.png",
     date: "2025-08-21",
     content: `A fresh coat of paint can completely change the way your home feels. From a single-room update to a full home makeover, understanding the essentials of the best interior painting ensures lasting beauty and durability.
 
@@ -410,7 +410,7 @@ The finish of your paint plays a big role in how it looks, how well it stands up
 
 For most interior walls, **eggshell or satin** finishes offer the right balance of style and durability.
 
-![best interior painting](https://arclightpainting.com/wp-content/uploads/2025/08/best-interior-painting-1.png)
+![best interior painting](/images/wp-content/2025/08/best-interior-painting-1.png)
 
 ## Best White Paint for Interior Walls: Timeless Choices
 
@@ -428,7 +428,7 @@ For most interior walls, **eggshell or satin** finishes offer the right balance 
 - [**Sherwin-Williams Multi-Purpose Latex Primer**](https://www.sherwin-williams.com/homeowners/products/multipurpose-interiorexterior-latex-primersealer): Reliable adhesion and stain-blocking.
 - [**INSL-X Aqua Lock Plus Primer**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/insl-x/aqua-lock-plus-primer): A strong acrylic option that seals new drywall beautifully.
 
-![best interior painting](https://arclightpainting.com/wp-content/uploads/2025/08/best-interior-painting-2-1024x683.png)
+![best interior painting](/images/wp-content/2025/08/best-interior-painting-2-1024x683.png)
 
 ## Elevate Your Space with Arclight Painting
 
@@ -440,7 +440,7 @@ At [Arclight Painting](/services/interior-painting), our team brings expertise, 
     slug: "how-to-pick-a-front-door-color",
     title: "How to Pick a Front Door Color: Transform Your Home's Curb Appeal",
     excerpt: "Your front door is more than just an entryway—it's the first impression your home makes. Learn how to pick the perfect color.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/how-to-pick-a-front-door-color-2-1024x683.png",
+    image: "/images/wp-content/2025/08/how-to-pick-a-front-door-color-2-1024x683.png",
     date: "2025-09-15",
     content: `Your front door is more than just an entryway—it's the first impression your home makes. Understanding how to pick a front door color comes down to balancing your home's design, exterior palette, and the overall look you want to achieve.
 
@@ -468,7 +468,7 @@ Your front door is one of the most noticeable features of your home. The paint y
 - **Finish:** Semi-gloss or gloss finishes are best for doors.
 - **Location:** Exterior doors need weather-resistant formulas.
 
-![how to pick a front door color](https://arclightpainting.com/wp-content/uploads/2025/08/how-to-pick-a-front-door-color.jpg)
+![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color.jpg)
 
 ## Exterior Front Door Paint: Built for Style and Weather Protection
 
@@ -479,7 +479,7 @@ Your front door is one of the most noticeable features of your home. The paint y
 - **Color Retention:** Vibrant, long-lasting color year after year.
 - **Easy Maintenance:** Washable, scuff-resistant finish.
 
-![how to pick a front door color](https://arclightpainting.com/wp-content/uploads/2025/08/how-to-pick-a-front-door-color-1.png)
+![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color-1.png)
 
 ## Professional Exterior & Interior Painting: Flawless Results That Last
 
@@ -491,7 +491,7 @@ Learning how to pick a front door color is more than just design—it's about cr
     slug: "professional-interior-painting",
     title: "DIY vs. Professional Interior Painting: 3 Pros and Cons",
     excerpt: "Should you tackle the painting yourself or hire a professional? Walk through the pros and cons of each option.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/09/diy-vs-pro-1.png",
+    image: "/images/wp-content/2025/09/diy-vs-pro-1.png",
     date: "2025-09-18",
     content: `Professional Interior Painting can completely change how your home feels. Whether you choose to handle it yourself or work with a professional, the right approach depends on your budget, time, energy, and goals.
 
@@ -501,7 +501,7 @@ Learning how to pick a front door color is more than just design—it's about cr
 
 Hiring a pro means way more than "just painting." At Arclight Painting, every project includes thorough prep (like drywall repair, caulking, and priming), premium paints, sharp clean lines, and a final walkthrough.
 
-![professional interior painting](https://arclightpainting.com/wp-content/uploads/2025/09/arclight-interior-painting.png)
+![professional interior painting](/images/wp-content/2025/09/arclight-interior-painting.png)
 
 ## Cost Comparison: DIY vs. Pro Interior Painting
 
@@ -530,7 +530,7 @@ If your goal is lasting quality and zero stress, professional interior painting 
 - One room = done in a day (or less!)
 - Multi-room homes scheduled efficiently
 
-![Time and effort](https://arclightpainting.com/wp-content/uploads/2025/09/time-and-effort.png)
+![Time and effort](/images/wp-content/2025/09/time-and-effort.png)
 
 ## Quality of Results: Good Enough vs. Wow
 
@@ -567,7 +567,7 @@ At the end of the day, your home should feel like a place you love to live in. W
     slug: "what-is-a-painting-contract",
     title: "What Is a Painting Contract and Why You Need It",
     excerpt: "A painting contract is a legally binding agreement that lays out expectations, responsibilities, and protections for both sides during your project.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/10/July-2025-Newsletter-6-1024x576.jpg",
+    image: "/images/wp-content/2025/10/July-2025-Newsletter-6-1024x576.jpg",
     date: "2025-10-08",
     content: `A painting contract is a legally binding agreement between the client (you) and a professional painting contractor. It lays out the expectations, responsibilities, and recourse for both sides during the project.
 
@@ -590,7 +590,7 @@ Be as detailed as possible: which surfaces, prep work, number of coats, type of 
 ### 3. Timeline & Milestones
 Project start date, estimated completion date, work hours, and how delays will be handled.
 
-![painting contract](https://arclightpainting.com/wp-content/uploads/2025/10/July-2025-Newsletter-7-1024x576.jpg)
+![painting contract](/images/wp-content/2025/10/July-2025-Newsletter-7-1024x576.jpg)
 
 ### 4. Payment Terms & Schedule
 Total contract price, payment schedule, accepted payment methods, and late payment penalties.
@@ -612,7 +612,7 @@ Workmanship warranty, duration, what's covered vs excluded.
 
 At [Arclight Painting](/about), we put everything in writing—because we stand behind our 100% Satisfaction Guarantee and 5-Year Touch-Ups.
 
-![painting contract](https://arclightpainting.com/wp-content/uploads/2025/10/July-2025-Newsletter-8-1024x576.jpg)
+![painting contract](/images/wp-content/2025/10/July-2025-Newsletter-8-1024x576.jpg)
 
 ### 10. Final Inspection, Punch List & Sign-off
 Walk-through inspection, punch list creation, deadline for completing fixes.
@@ -652,7 +652,7 @@ A painting contract is your roadmap to a smooth, successful paint job. Taking ti
     slug: "local-commercial-painters",
     title: "Top 10 Questions to Ask Your Local Commercial Painters",
     excerpt: "Hiring local commercial painters is a strategic decision. These 10 essential questions help you assess experience, transparency, and quality before committing.",
-    image: "https://arclightpainting.com/wp-content/uploads/2026/01/local-commercial-painters-1024x576.jpg",
+    image: "/images/wp-content/2026/01/local-commercial-painters-1024x576.jpg",
     date: "2026-01-15",
     content: `When you invest in commercial painting, you're not just changing how a building looks. You're protecting an asset, reinforcing your brand, and setting expectations for everyone who walks through your doors. The right local commercial painters will understand that balance and deliver results that are both durable and refined.
 
@@ -748,7 +748,7 @@ If you're planning a commercial painting project and want a partner who values q
     slug: "how-to-paint-a-room",
     title: "How to Paint a Room: A Step-by-Step Guide for a Polished Finish",
     excerpt: "Learning how to paint a room the right way goes beyond applying color to the walls. This step-by-step guide explains everything you need to know.",
-    image: "https://arclightpainting.com/wp-content/uploads/2026/01/how-to-paint-a-room-1024x576.jpg",
+    image: "/images/wp-content/2026/01/how-to-paint-a-room-1024x576.jpg",
     date: "2026-01-15",
     content: `Looking for ways on how to paint a room? Painting a room can look deceptively simple. In reality, achieving a clean, even, long-lasting finish requires planning, preparation, and the right technique. This guide walks through each stage of painting a room with a practical, professional mindset.
 
@@ -777,7 +777,7 @@ Essential supplies include:
 
 Investing in reliable brushes and rollers helps paint apply smoothly and reduces lint, streaking, and uneven texture.
 
-![how to paint a room](https://arclightpainting.com/wp-content/uploads/2026/01/how-to-paint-a-room-1-1024x576.jpg)
+![how to paint a room](/images/wp-content/2026/01/how-to-paint-a-room-1-1024x576.jpg)
 
 ## 2. Prepare the Room Thoroughly
 
@@ -855,7 +855,7 @@ If you're planning an interior painting project and want expert results, contact
     slug: "commercial-painting-cost",
     title: "Essential Commercial Painting Cost Insights: What Businesses Need To Know",
     excerpt: "A commercial painting cost varies based on building size, surface preparation, paint systems, and operational considerations.",
-    image: "https://arclightpainting.com/wp-content/uploads/2026/01/commercial-painting-cost-1024x576.jpg",
+    image: "/images/wp-content/2026/01/commercial-painting-cost-1024x576.jpg",
     date: "2026-01-15",
     content: `For business owners and property managers, commercial painting cost is not simply a line item—it's a strategic decision. The condition and appearance of your building influence how your brand is perceived, how well surfaces hold up over time, and how much maintenance you'll face in the future.
 
@@ -891,7 +891,7 @@ Commercial projects often take place in active buildings. Work may need to be co
 
 A professional contractor accounts for these factors upfront, ensuring the project progresses efficiently without compromising safety or quality.
 
-![commercial painting cost](https://arclightpainting.com/wp-content/uploads/2026/01/commercial-painting-cost-1-1024x576.jpg)
+![commercial painting cost](/images/wp-content/2026/01/commercial-painting-cost-1-1024x576.jpg)
 
 ## Commercial Painting Cost: General Framework
 
@@ -941,7 +941,7 @@ Contact Arclight Painting today for a detailed quote and experience commercial p
     slug: "bad-paint-job",
     title: "Bad Paint Job: Why Interior Painting Quality Matters for Your Home",
     excerpt: "A bad paint job reflects missed steps, not bad luck. This article explains how preparation, product selection, and proper application make all the difference.",
-    image: "https://arclightpainting.com/wp-content/uploads/2026/01/bad-paint-job-1024x576.jpg",
+    image: "/images/wp-content/2026/01/bad-paint-job-1024x576.jpg",
     date: "2026-01-15",
     content: `A bad paint job is rarely just a cosmetic issue. More often, it's the result of rushed decisions, missed steps or shortcuts that reveal themselves over time and quietly diminish the comfort and confidence you feel in your own home.
 
@@ -957,7 +957,7 @@ More serious issues—such as peeling, bubbling, or cracking are signs that the 
 
 The result isn't just visual disappointment—a bad paint job creates the sense that something you invested in didn't deliver the value you expected.
 
-![bad paint job](https://arclightpainting.com/wp-content/uploads/2026/01/bad-paint-job-1-1024x576.jpg)
+![bad paint job](/images/wp-content/2026/01/bad-paint-job-1-1024x576.jpg)
 
 ## Why Paint Jobs Fail (and Why They Don't Have To)
 
@@ -1009,7 +1009,7 @@ If you're looking for results that feel intentional, not rushed, Arclight Painti
     slug: "small-house-color-ideas",
     title: "Small House Color Ideas to Make Every Room Feel Brighter, Bigger, and More Stylish",
     excerpt: "Transform your compact spaces with the right small house color ideas. Discover colors that open up any room.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/12/small-house-color-ideas-1024x576.png",
+    image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.png",
     date: "2025-12-15",
     content: `Small spaces come with big potential—especially when the right small house color ideas are in play. Thoughtful color choices can make rooms feel more open, cohesive, and comfortable, even without changing a single piece of furniture.
 
@@ -1035,7 +1035,7 @@ Pairing these colors with minimalist decor and light-toned trim creates a calm, 
 
 **Best for:** Bedrooms, home offices, contemporary interiors, and areas where you want subtle elegance.
 
-![small house color ideas](https://arclightpainting.com/wp-content/uploads/2025/12/small-house-color-ideas-1-1024x576.png)
+![small house color ideas](/images/wp-content/2025/12/small-house-color-ideas-1-1024x576.png)
 
 ### 3. Pale Blue or Soft Pastel Blue — Airy and Calming
 
@@ -1100,7 +1100,7 @@ If you're ready to bring these small house color ideas to life, contact Arclight
     slug: "types-of-commercial-painting-services",
     title: "5 Types of Commercial Painting Services to Boost Curb Appeal, Branding, and Property Value",
     excerpt: "Understanding the types of commercial painting services available helps business owners improve curb appeal and protect long-term property value.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/12/types-of-commercial-painting-services-1024x576.jpg",
+    image: "/images/wp-content/2025/12/types-of-commercial-painting-services-1024x576.jpg",
     date: "2025-12-15",
     content: `Types of commercial painting services play a crucial role in how a building's appearance reflects a business—often even before anyone steps inside. Customers judge professionalism at a glance, employees feel more motivated in well-maintained spaces, and property value is strengthened when surfaces stay protected and polished.
 
@@ -1123,7 +1123,7 @@ A strong exterior sets the tone for your business. Exterior commercial painting 
 
 A well-executed exterior paint job enhances curb appeal, protects surfaces from the elements, and contributes to long-term property value.
 
-![types of commercial painting services](https://arclightpainting.com/wp-content/uploads/2025/12/types-of-commercial-painting-services-1-1024x576.jpg)
+![types of commercial painting services](/images/wp-content/2025/12/types-of-commercial-painting-services-1-1024x576.jpg)
 
 ### Interior Commercial Painting
 
@@ -1190,7 +1190,7 @@ With Arclight Painting, you gain a partner committed to quality and long-term re
     slug: "color-psychology-in-commercial-painting",
     title: "The Power of Color Psychology in Commercial Painting: How It Impacts Your Business",
     excerpt: "Color plays a powerful role in shaping how people think, feel, and behave inside your business.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/11/arclight-painting-5-1024x576.jpg",
+    image: "/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg",
     date: "2025-11-15",
     content: `Color isn't just decoration—it's strategy. In commercial spaces, the right palette can influence how people feel, focus, and even behave. When used thoughtfully, color psychology in commercial painting helps shape an environment that supports your goals, reflects your brand, and enhances the way customers and employees experience your business.
 
@@ -1226,7 +1226,7 @@ The right colors support the outcome you want:
 
 When the environment aligns with the purpose, everything works better.
 
-![color psychology in commercial painting](https://arclightpainting.com/wp-content/uploads/2025/11/arclight-painting-4-1024x576.jpg)
+![color psychology in commercial painting](/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg)
 
 ## Understanding Color Meaning—And How to Use It Well
 
@@ -1292,7 +1292,7 @@ Contact us today to request a quote and start creating a space where people feel
     slug: "peeling-paint-in-commercial-buildings",
     title: "Protect Your Investment: Peeling Paint in Commercial Buildings and How to Fix It",
     excerpt: "Peeling paint in commercial buildings is more than a cosmetic issue — it's a warning sign.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/11/arclight-painting-6-1024x576.jpg",
+    image: "/images/wp-content/2025/11/arclight-painting-6-1024x576.jpg",
     date: "2025-11-15",
     content: `Peeling paint in commercial buildings does more than hurt curb appeal—it sends a message. For clients, tenants, and employees, it can signal deferred maintenance or hidden issues behind the walls. And for property managers and business owners, it often points to conditions that need attention long before a new coat of paint is applied.
 
@@ -1332,7 +1332,7 @@ Peeling paint in commercial buildings affects more than aesthetics:
 
 Addressing peeling early is one of the simplest cost-saving decisions a building owner can make.
 
-![peeling paint in commercial buildings](https://arclightpainting.com/wp-content/uploads/2025/11/arclight-painting-7-1024x576.jpg)
+![peeling paint in commercial buildings](/images/wp-content/2025/11/arclight-painting-7-1024x576.jpg)
 
 ## How to Fix Peeling Paint in Commercial Buildings—The Right Way
 
@@ -1402,7 +1402,7 @@ If you're ready to restore your building with a professional finish that stands 
     slug: "how-long-after-painting-can-i-sleep-in-the-room",
     title: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
     excerpt: "Wondering how long after painting can I sleep in the room? Get expert tips for a healthier space.",
-    image: "https://arclightpainting.com/wp-content/uploads/2025/10/how-long-after-painting-can-i-sleep-in-the-room.png",
+    image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.png",
     date: "2025-10-15",
     content: `Painting your room is one of the simplest and most satisfying ways to refresh your space. However, it also raises an important question: **how long after painting can I sleep in the room?**
 
@@ -1442,7 +1442,7 @@ Here's how long you should ideally wait before sleeping in a recently painted ro
 
 **Rule of thumb:** If the smell lingers, wait a little longer. Fresh paint should look great and smell clean too.
 
-![how long after painting can i sleep in the room](https://arclightpainting.com/wp-content/uploads/2025/10/how-long-after-painting-can-i-sleep-in-the-room-2.png)
+![how long after painting can i sleep in the room](/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room-2.png)
 
 ## What Affects Drying Time and Air Safety?
 

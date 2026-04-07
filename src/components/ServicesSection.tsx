@@ -13,7 +13,7 @@ const services = [
     title: "Interior Painting",
     description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
     icon: Paintbrush,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg",
+    image: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg",
     link: "/services/interior-painting",
   },
   {
@@ -27,14 +27,14 @@ const services = [
     title: "Cabinet Refinishing",
     description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
     icon: PanelTop,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-2-1.jpg",
+    image: "/images/wp-content/2025/08/Image-2-1.jpg",
     link: "/services/cabinet-refinishing",
   },
   {
     title: "Drywall Repair",
     description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
     icon: Hammer,
-    image: "https://arclightpainting.com/wp-content/uploads/2025/08/Image-4-1-1024x683.jpg",
+    image: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg",
     link: "/services/drywall-repairs",
   },
   {
