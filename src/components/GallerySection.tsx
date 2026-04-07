@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import commercialLobby from "@/assets/commercial-lobby.png";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
 import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
@@ -27,7 +28,7 @@ const defaultImages: GalleryImage[] = [
   { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior after professional painting" },
   { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting detail on a home" },
   { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
-  { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Professional prep work before painting" },
+  { src: commercialLobby, alt: "Commercial lobby with blue accent wall and wood ceiling after painting" },
 ];
 
 const serviceImages: Record<string, GalleryImage[]> = {
