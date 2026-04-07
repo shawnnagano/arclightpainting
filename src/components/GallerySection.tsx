@@ -25,6 +25,11 @@ import exteriorSidingAfter from "@/assets/exterior-siding-painting-after.jpg";
 
 import exteriorDeckAfter from "@/assets/exterior-deck-painting-after.jpg";
 
+// Interior project images
+import interiorEntryway from "@/assets/interior-entryway-staircase-after.jpg";
+import interiorLivingRoom from "@/assets/interior-living-room-brown-walls.jpg";
+import interiorOpenConcept from "@/assets/interior-open-concept-columns.jpg";
+
 // PFAD images
 import pfadExteriorStaining from "@/assets/pfad-exterior-staining-work.jpg";
 import pfadCrewLadders from "@/assets/pfad-exterior-crew-ladders.jpg";
@@ -68,10 +73,10 @@ const serviceImages: Record<string, GalleryImage[]> = {
   "Interior Painting": [
     { src: pfadInteriorCeiling, alt: "Painter rolling a smooth interior ceiling finish" },
     { src: pfadHighCeiling, alt: "Interior foyer with high-ceiling painting in progress" },
-    { src: painterForADayHero, alt: "Freshly painted interior room with bright natural light" },
+    { src: interiorEntryway, alt: "Freshly painted entryway and staircase with dark railing" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls and natural light" },
-    { src: pfadProgress, alt: "Interior painting in progress with floors and furniture protected" },
-    { src: drywallAccentWall, alt: "Fresh accent wall and trim after detailed interior painting" },
+    { src: interiorLivingRoom, alt: "Elegant living room with warm brown walls and white wainscoting" },
+    { src: interiorOpenConcept, alt: "Open concept living space with painted columns and crown molding" },
   ],
   "Exterior Painting": [
     { src: exteriorHero, alt: "Completed exterior house painting project" },
