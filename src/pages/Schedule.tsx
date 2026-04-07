@@ -68,7 +68,7 @@ const Schedule = () => {
         </div>
       </section>
 
-      <section className="py-8" style={{ backgroundColor: "#ffffff" }}>
+      <section className="py-8" style={{ backgroundColor: "#f4fbfb" }}>
         <div className="max-w-4xl mx-auto px-4">
           <iframe
             ref={iframeRef}
