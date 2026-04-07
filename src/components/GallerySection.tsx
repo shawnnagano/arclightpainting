@@ -13,7 +13,7 @@ import commercial3 from "@/assets/commercial-3.jpg";
 import commercial4 from "@/assets/commercial-4.jpg";
 import commercial5 from "@/assets/commercial-5.jpg";
 import exteriorHero from "@/assets/exterior-hero.png";
-import homeHero from "@/assets/home-hero.webp";
+
 import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
 
 interface GalleryImage {
