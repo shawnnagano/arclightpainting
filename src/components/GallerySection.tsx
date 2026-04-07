@@ -27,7 +27,7 @@ const defaultImages: GalleryImage[] = [
   { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior after professional painting" },
   { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting detail on a home" },
   { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
-  { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Smooth finished wall after professional painting" },
+  { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Professional prep work before painting" },
 ];
 
 const serviceImages: Record<string, GalleryImage[]> = {
@@ -37,7 +37,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Kitchen with freshly painted cabinets" },
     { src: painterForADayHero, alt: "Painter working on interior trim details" },
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior space after professional painting" },
-    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Smooth interior walls after professional painting" },
+    { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Interior walls with clean professional finish" },
   ],
   "Exterior Painting": [
     { src: exteriorHero, alt: "Completed exterior house painting project" },
@@ -53,7 +53,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen refresh with updated painted surfaces" },
     { src: painterForADayHero, alt: "Professional applying a smooth finish to cabinetry" },
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Completed residential refinishing project" },
-    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Clean painted finish with crisp edges" },
+    { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Clean painted finish with crisp edges" },
   ],
   "Drywall Repair": [
     { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Seamless drywall repair with smooth finish" },
@@ -84,7 +84,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Painter working through a one-day project" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "One-day accent wall painting project" },
     { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Quick cabinet touch-up from one-day service" },
-    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "One-day painting touch-up results" },
+    { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "One-day painting touch-up results" },
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Completed residential refresh from a one-day visit" },
   ],
   "Popcorn Ceiling Removal": [
