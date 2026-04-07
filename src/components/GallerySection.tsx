@@ -31,6 +31,11 @@ import cabinetStock1 from "@/assets/cabinet-white-kitchen-stock-1.jpg";
 import cabinetStock2 from "@/assets/cabinet-white-kitchen-stock-2.jpg";
 import cabinetStock3 from "@/assets/cabinet-white-kitchen-stock-3.jpg";
 
+// Cabinet project images
+import cabinetBeforeAfter from "@/assets/cabinet-before-after-refinishing.jpg";
+import cabinetWhiteVanity from "@/assets/cabinet-white-bathroom-vanity.jpg";
+import cabinetAntiqueVanity from "@/assets/cabinet-antique-white-vanity.jpg";
+
 // Drywall images
 import drywallLivingRoom from "@/assets/drywall-living-room-prep.jpg";
 import drywallHallway from "@/assets/drywall-hallway-prep.jpg";
@@ -70,10 +75,10 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
   ],
   "Cabinet Refinishing": [
-    { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen cabinet painting by Arclight Painting" },
+    { src: cabinetBeforeAfter, alt: "Kitchen cabinet refinishing before and after transformation" },
     { src: cabinetAfter, alt: "Beautifully refinished white kitchen cabinets" },
-    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Cabinet refinishing project in progress" },
-    { src: cabinetStock1, alt: "White painted kitchen cabinets with modern hardware" },
+    { src: cabinetWhiteVanity, alt: "White shaker bathroom vanity with marble countertop after refinishing" },
+    { src: cabinetAntiqueVanity, alt: "Antique white shaker vanity cabinet in rustic bathroom" },
     { src: cabinetStock2, alt: "Professionally refinished kitchen with white cabinetry" },
     { src: cabinetStock3, alt: "Clean white cabinet finish in updated kitchen" },
   ],
