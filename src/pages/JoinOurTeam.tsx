@@ -173,7 +173,7 @@ const JoinOurTeam = () => {
                 </h2>
               </div>
               <div className="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
-                <img src={vividVisionImg} alt="Arclight Painting Vivid Vision" className="w-full h-auto" />
+                <img src={vividVisionImg} alt="Arclight Painting Vivid Vision" className="w-full h-auto" loading="lazy" />
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mt-8">
                 We are building a different kind of painting company, one where great people grow into leaders, take real ownership, and do meaningful work that customers can trust. Our vision is to raise the standard in our industry through craftsmanship, strong systems, genuine care for people, and a culture rooted in teamwork, passion, creativity, and above-and-beyond service.

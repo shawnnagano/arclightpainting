@@ -1,30 +1,32 @@
+import { lazy, Suspense } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes, useLocation, useParams } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Navigate, useLocation, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import GlobalReviewWidget from "@/components/GlobalReviewWidget";
 import { HelmetProvider } from "react-helmet-async";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import Index from "./pages/Index.tsx";
-import About from "./pages/About.tsx";
-import Pricing from "./pages/Pricing.tsx";
-import Reviews from "./pages/Reviews.tsx";
-import Schedule from "./pages/Schedule.tsx";
-
-import ServiceDetail from "./pages/ServiceDetail.tsx";
-
-import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
-import BlogPostDetail from "./pages/BlogPostDetail.tsx";
 import { serviceAreas } from "@/data/serviceAreas";
 import { blogPosts } from "@/data/blogPosts";
-import { Navigate } from "react-router-dom";
-import Blog from "./pages/Blog.tsx";
-import JoinOurTeam from "./pages/JoinOurTeam.tsx";
-import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
-import Mission from "./pages/Mission.tsx";
-import ColorConsultation from "./pages/ColorConsultation.tsx";
-import NotFound from "./pages/NotFound.tsx";
+
+// Eagerly load homepage for fast initial paint
+import Index from "./pages/Index.tsx";
+
+// Lazy-load secondary pages
+const About = lazy(() => import("./pages/About.tsx"));
+const Pricing = lazy(() => import("./pages/Pricing.tsx"));
+const Reviews = lazy(() => import("./pages/Reviews.tsx"));
+const Schedule = lazy(() => import("./pages/Schedule.tsx"));
+const ServiceDetail = lazy(() => import("./pages/ServiceDetail.tsx"));
+const ServiceAreaDetail = lazy(() => import("./pages/ServiceAreaDetail.tsx"));
+const BlogPostDetail = lazy(() => import("./pages/BlogPostDetail.tsx"));
+const Blog = lazy(() => import("./pages/Blog.tsx"));
+const JoinOurTeam = lazy(() => import("./pages/JoinOurTeam.tsx"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy.tsx"));
+const Mission = lazy(() => import("./pages/Mission.tsx"));
+const ColorConsultation = lazy(() => import("./pages/ColorConsultation.tsx"));
+const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation();
@@ -56,6 +58,7 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <ScrollToTop />
+          <Suspense fallback={<div className="min-h-screen bg-background" />}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about-new" element={<Navigate to="/about" replace />} />
@@ -122,6 +125,7 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </Suspense>
           <GlobalReviewWidget />
         </BrowserRouter>
       </TooltipProvider>
