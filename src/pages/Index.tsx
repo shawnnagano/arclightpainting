@@ -11,7 +11,7 @@ import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
-import SEOHead, { localBusinessSchema } from "@/components/SEOHead";
+import SEOHead, { localBusinessSchema, websiteSchema, organizationSchema } from "@/components/SEOHead";
 import { generalFAQ } from "@/data/faqData";
 
 const homeFaqSchema = {
@@ -52,7 +52,7 @@ const Index = () => {
         title="Professional House Painters in Bothell, WA | Arclight Painting"
         description="Arclight Painting provides professional house painting services in Bothell, WA. Interior, exterior, cabinet refinishing, drywall repair and more. 4.9★ rated with 269 Google reviews. Get a fast quote today!"
         canonical="/"
-        jsonLd={[localBusinessSchema, homeFaqSchema]}
+        jsonLd={[localBusinessSchema, homeFaqSchema, websiteSchema, organizationSchema]}
       />
       <Header />
       <HeroSection heroImage={homeHero} />

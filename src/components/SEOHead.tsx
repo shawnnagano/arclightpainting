@@ -62,7 +62,7 @@ export const localBusinessSchema = {
   "@type": "HousePainter",
   "@id": "https://arclightpainting.com/#business",
   name: "Arclight Painting",
-  image: "/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
+  image: "https://arclightpainting.com/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
   url: "https://arclightpainting.com",
   telephone: "+14257571199",
   email: "info@arclightpainting.com",
@@ -109,6 +109,36 @@ export const localBusinessSchema = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Pressure Washing" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Painting" } },
     ],
+  },
+};
+
+export const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Arclight Painting",
+  url: "https://arclightpainting.com",
+};
+
+export const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Arclight Painting",
+  url: "https://arclightpainting.com",
+  logo: "https://arclightpainting.com/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+1-425-757-1199",
+    contactType: "customer service",
+    areaServed: "US",
+    availableLanguage: "English",
+  },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "9906 NE 204th Place",
+    addressLocality: "Bothell",
+    addressRegion: "WA",
+    postalCode: "98011",
+    addressCountry: "US",
   },
 };
 
