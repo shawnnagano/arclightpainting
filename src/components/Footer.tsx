@@ -31,7 +31,7 @@ const Footer = () => {
   return (
     <footer className="bg-secondary text-foreground border-t border-border">
       {/* Service Areas Map */}
-      <Link to="/service-area" className="block group">
+      <Link to="/bothell" className="block group">
         <div className="relative overflow-hidden">
           <img
             src={serviceAreasMap}
@@ -57,7 +57,7 @@ const Footer = () => {
         <p className="text-center text-sm opacity-70 leading-relaxed">
           {serviceAreas.map((area, i) => (
             <span key={area.slug}>
-              <Link to={`/service-area/${area.slug}`} className="hover:text-accent transition-colors">
+              <Link to={`/${area.slug}`} className="hover:text-accent transition-colors">
                 {area.name}
               </Link>
               {i < serviceAreas.length - 1 && <span className="mx-2">|</span>}

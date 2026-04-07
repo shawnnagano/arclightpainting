@@ -93,74 +93,69 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Service Areas -->
+  <!-- Service Areas (root-level) -->
   <url>
-    <loc>https://arclightpainting.com/service-area</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://arclightpainting.com/service-area/bothell</loc>
+    <loc>https://arclightpainting.com/bothell</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/kenmore</loc>
+    <loc>https://arclightpainting.com/kirkland</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/woodinville</loc>
+    <loc>https://arclightpainting.com/kenmore</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/kirkland</loc>
+    <loc>https://arclightpainting.com/woodinville</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/mill-creek</loc>
+    <loc>https://arclightpainting.com/mill-creek</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/everett</loc>
+    <loc>https://arclightpainting.com/everett</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/cottage-lake</loc>
+    <loc>https://arclightpainting.com/cottage-lake</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/bellevue</loc>
+    <loc>https://arclightpainting.com/bellevue</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/union-hill-novelty-hill</loc>
+    <loc>https://arclightpainting.com/union-hill-novelty-hill</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/redmond</loc>
+    <loc>https://arclightpainting.com/redmond</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/clearview</loc>
+    <loc>https://arclightpainting.com/clearview</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/lake-forest-park</loc>
+    <loc>https://arclightpainting.com/lake-forest-park</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://arclightpainting.com/service-area/seattle</loc>
+    <loc>https://arclightpainting.com/seattle</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
