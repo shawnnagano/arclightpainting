@@ -137,14 +137,28 @@ const Header = () => {
             </Link>
           </div>
 
-          {/* Mobile toggle */}
-          <button
-            className="lg:hidden p-2"
-            onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Toggle menu"
-          >
-            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-          </button>
+          {/* Mobile CTA + toggle */}
+          <div className="lg:hidden flex items-center gap-2">
+            <a
+              href="tel:14257571199"
+              className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-2.5 shadow-lg transition-transform hover:scale-110"
+              aria-label="Call Arclight Painting"
+            >
+              <Phone className="h-4 w-4" />
+            </a>
+            <Link to="/schedule">
+              <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold px-4 py-2 text-xs rounded-md shadow-lg">
+                Get a TrueQuote →
+              </Button>
+            </Link>
+            <button
+              className="p-2"
+              onClick={() => setMobileOpen(!mobileOpen)}
+              aria-label="Toggle menu"
+            >
+              {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu */}
