@@ -4,6 +4,8 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { blogPosts } from "@/data/blogPosts";
+import BlueprintSection from "@/components/BlueprintSection";
+import CTASection from "@/components/CTASection";
 
 const sortedPosts = [...blogPosts].sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
@@ -91,6 +93,9 @@ const Blog = () => {
             </div>
           </div>
         </section>
+
+        <BlueprintSection />
+        <CTASection />
       </main>
       <Footer />
     </>
