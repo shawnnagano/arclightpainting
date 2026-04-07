@@ -7,10 +7,18 @@ import blueprintImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const Schedule = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);
-  const isMobile = window.innerWidth < 768;
-  const [iframeHeight, setIframeHeight] = useState(isMobile ? 1900 : 1250);
+  const [iframeHeight, setIframeHeight] = useState(
+    typeof window !== "undefined" && window.innerWidth < 768 ? 1900 : 1250
+  );
 
   useEffect(() => {
+    // Load the required form_embed.js script from the widget provider
+    const script = document.createElement("script");
+    script.src = "https://link.arclightpainting.com/js/form_embed.js";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+
     const handleMessage = (event: MessageEvent) => {
       if (event.data && typeof event.data === "object" && event.data.height) {
         setIframeHeight(event.data.height);
@@ -23,7 +31,10 @@ const Schedule = () => {
     };
 
     window.addEventListener("message", handleMessage);
-    return () => window.removeEventListener("message", handleMessage);
+    return () => {
+      window.removeEventListener("message", handleMessage);
+      document.body.removeChild(script);
+    };
   }, []);
 
   return (
@@ -62,11 +73,14 @@ const Schedule = () => {
           <iframe
             ref={iframeRef}
             src="https://link.arclightpainting.com/widget/booking/DbWlnGU0qizPxoW7pKkA"
+            scrolling="no"
+            id="cGPYYF6D3xaMA9TJVhte_booking"
             style={{
               width: "100%",
               height: `${iframeHeight}px`,
               border: "none",
-              background: "#ffffff",
+              overflow: "hidden",
+              background: "#f4fbfb",
               transition: "height 0.3s ease",
             }}
             title="Schedule a booking with Arclight Painting"
