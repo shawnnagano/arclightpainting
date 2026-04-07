@@ -1190,7 +1190,7 @@ With Arclight Painting, you gain a partner committed to quality and long-term re
     slug: "color-psychology-in-commercial-painting",
     title: "The Power of Color Psychology in Commercial Painting: How It Impacts Your Business",
     excerpt: "Color plays a powerful role in shaping how people think, feel, and behave inside your business.",
-    image: "/images/wp-content/2025/11/arclight-painting-5-1024x576.jpg",
+    image: "/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg",
     date: "2025-11-15",
     content: `Color isn't just decoration—it's strategy. In commercial spaces, the right palette can influence how people feel, focus, and even behave. When used thoughtfully, color psychology in commercial painting helps shape an environment that supports your goals, reflects your brand, and enhances the way customers and employees experience your business.
 
