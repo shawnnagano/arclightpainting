@@ -54,12 +54,12 @@ const defaultImages: GalleryImage[] = [
 
 const serviceImages: Record<string, GalleryImage[]> = {
   "Interior Painting": [
-    { src: "/images/wp-content/2025/09/arclight-interior-painting.png", alt: "Professional interior painting with clean wall finish" },
-    { src: "/images/wp-content/2025/08/best-interior-painting-2-1024x683.png", alt: "Beautiful interior room after professional painting" },
-    { src: "/images/wp-content/2025/08/best-interior-painting-3-1024x683.png", alt: "Freshly painted interior walls with modern decor" },
+    { src: pfadInteriorCeiling, alt: "Painter rolling a smooth interior ceiling finish" },
+    { src: pfadHighCeiling, alt: "Interior foyer with high-ceiling painting in progress" },
+    { src: painterForADayHero, alt: "Freshly painted interior room with bright natural light" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls and natural light" },
-    { src: "/images/wp-content/2026/01/how-to-paint-a-room-1024x576.jpg", alt: "Interior room painting project in progress" },
-    { src: "/images/wp-content/2025/08/best-interior-painting-1.png", alt: "Clean interior paint finish on living room walls" },
+    { src: pfadProgress, alt: "Interior painting in progress with floors and furniture protected" },
+    { src: drywallAccentWall, alt: "Fresh accent wall and trim after detailed interior painting" },
   ],
   "Exterior Painting": [
     { src: exteriorHero, alt: "Completed exterior house painting project" },
