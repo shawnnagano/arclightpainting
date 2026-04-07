@@ -30,7 +30,7 @@ const Services = () => {
             backgroundPosition: "center",
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#f4fbfb] via-[#f4fbfb]/85 to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Our <span className="text-accent">Services</span>
