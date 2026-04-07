@@ -12,6 +12,9 @@ import commercial2 from "@/assets/commercial-2.jpg";
 import commercial3 from "@/assets/commercial-3.jpg";
 import commercial4 from "@/assets/commercial-4.jpg";
 import commercial5 from "@/assets/commercial-5.jpg";
+import exteriorHero from "@/assets/exterior-hero.png";
+import homeHero from "@/assets/home-hero.webp";
+import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
 
 interface GalleryImage {
   src: string;
@@ -19,54 +22,54 @@ interface GalleryImage {
 }
 
 const defaultImages: GalleryImage[] = [
-  { src: "/images/wp-content/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Suburban home with gray and beige siding after exterior painting" },
-  { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Bright kitchen with white painted cabinets and granite countertops" },
-  { src: "/images/wp-content/2025/06/Exterior-Wood-Staining-Arclight-Painting-Bothell-WA.png", alt: "Rustic log cabin with freshly stained wood exterior" },
-  { src: "/images/wp-content/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Two-story house painted deep blue with white trim" },
-  { src: "/images/wp-content/2025/06/Exteiror-House-Painting-Green-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with sage green siding and dark trim" },
-  { src: "/images/wp-content/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with brown siding and stone accents" },
+  { src: exteriorHero, alt: "Freshly painted house exterior" },
+  { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Freshly painted kitchen cabinets" },
+  { src: homeHero, alt: "Completed residential painting project" },
+  { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting detail on a home" },
+  { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
+  { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Smooth finished wall after professional painting" },
 ];
 
 const serviceImages: Record<string, GalleryImage[]> = {
   "Interior Painting": [
-    { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Beautiful interior room with freshly painted walls" },
-    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright kitchen interior with white cabinets after painting" },
-    { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen interior with freshly painted white cabinets" },
-    { src: "/images/wp-content/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight painter working on interior trim details" },
-    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Interior cabinet and wall painting project" },
+    { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
+    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Interior painting project in progress" },
+    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Kitchen with freshly painted cabinets" },
+    { src: painterForADayHero, alt: "Painter working on interior trim details" },
+    { src: homeHero, alt: "Completed interior painting project" },
     { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Smooth interior walls after professional painting" },
   ],
   "Exterior Painting": [
-    { src: "/images/wp-content/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Suburban home with gray and beige siding after exterior painting" },
-    { src: "/images/wp-content/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Two-story house painted deep blue with crisp white trim" },
-    { src: "/images/wp-content/2025/06/Exteiror-House-Painting-Green-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with sage green siding and dark trim" },
-    { src: "/images/wp-content/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Two-story house with brown siding and stone accents" },
-    { src: "/images/wp-content/2025/06/Exterior-Wood-Staining-Arclight-Painting-Bothell-WA.png", alt: "Rustic log cabin with freshly stained wood exterior" },
-    { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Home exterior with professional paint finish" },
+    { src: exteriorHero, alt: "Completed exterior house painting project" },
+    { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Fresh exterior paint finish on a home" },
+    { src: commercial2, alt: "Building exterior with fresh paint and clean lines" },
+    { src: commercial3, alt: "Exterior siding painting project in progress" },
+    { src: homeHero, alt: "Residential exterior painting project" },
+    { src: painterForADayHero, alt: "Painter completing detailed exterior work" },
   ],
   "Cabinet Refinishing": [
-    { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Bright kitchen with white refinished cabinets and granite countertops" },
-    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Refinished kitchen cabinets with modern finish" },
-    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Kitchen with freshly refinished white cabinets" },
-    { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen cabinet refinishing project with smooth finish" },
-    { src: "/images/wp-content/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight painter applying cabinet finish" },
-    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Completed cabinet refinishing with flawless results" },
+    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Freshly refinished kitchen cabinets" },
+    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Cabinet painting project in progress" },
+    { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen refresh with updated painted surfaces" },
+    { src: painterForADayHero, alt: "Professional applying a smooth finish to cabinetry" },
+    { src: homeHero, alt: "Completed residential refinishing project" },
+    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Clean painted finish with crisp edges" },
   ],
   "Drywall Repair": [
     { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Seamless drywall repair with smooth finish" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior walls after drywall repair and painting" },
-    { src: "/images/wp-content/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Arclight professional performing wall repairs" },
-    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Repaired and painted interior walls" },
-    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Wall repair and repaint with texture matching" },
-    { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen walls after drywall repair and fresh paint" },
+    { src: painterForADayHero, alt: "Professional performing prep and repair work" },
+    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Repaired wall ready for paint" },
+    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Finished repair work with clean paint coverage" },
+    { src: homeHero, alt: "Completed interior wall repair and paint project" },
   ],
   "Pressure Washing": [
-    { src: "/images/wp-content/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway — clean results" },
+    { src: "/images/wp-content/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway with clean results" },
     { src: "/images/wp-content/2023/11/deck-and-fence-cleaning-0-1.jpg", alt: "Deck after professional pressure washing" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-10-1.jpg", alt: "Walkway after pressure washing service" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
-    { src: "/images/wp-content/2023/11/vinyl-siding-cleaning-house-washing-1.jpg", alt: "Vinyl siding cleaned with pressure washing" },
-    { src: "/images/wp-content/2023/11/house-washing-1.jpg", alt: "House exterior after professional washing" },
+    { src: pressureWashingHero, alt: "Exterior surface being cleaned with pressure washing equipment" },
+    { src: "/images/wp-content/2023/11/Pressure-Washing-Company-10-1.jpg", alt: "Freshly cleaned outdoor surface after washing" },
   ],
   "Commercial Painting": [
     { src: commercialHero, alt: "Commercial steel structure painting from scissor lift" },
@@ -78,11 +81,11 @@ const serviceImages: Record<string, GalleryImage[]> = {
   ],
   "One-Day Painting Service": [
     { src: painterForADayHero, alt: "Arclight Painter-for-a-Day professional at work" },
-    { src: "/images/wp-content/2025/06/Shawn-Arclight-Painting-Bothell-WA.png", alt: "Professional painter working on trim and details" },
+    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Painter working through a one-day project" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "One-day accent wall painting project" },
     { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Quick cabinet touch-up from one-day service" },
     { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "One-day painting touch-up results" },
-    { src: "/images/wp-content/2025/06/Kitchen-Cabinet-Painting-Arclight-Painting-Bothell-WA.png", alt: "Kitchen refresh from Painter-for-a-Day service" },
+    { src: homeHero, alt: "Completed residential refresh from a one-day visit" },
   ],
   "Popcorn Ceiling Removal": [
     { src: popcornCeilingHero, alt: "Popcorn ceiling texture being scraped off" },
