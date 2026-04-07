@@ -28,7 +28,7 @@ const Blog = () => {
           <div
             className="absolute inset-0"
             style={{
-              backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/residential-painting-services-exterior.webp')",
+              backgroundImage: "url('/images/blog-hero.png')",
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
