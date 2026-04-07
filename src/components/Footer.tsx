@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map-bothell-wa.webp";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned-business-badge.webp";
+import arclightLogo from "@/assets/arclight-logo.png";
 import { serviceAreas } from "@/data/serviceAreas";
 
 const badges = [
@@ -87,7 +88,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <img
-              src="/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png"
+              src={arclightLogo}
               alt="Arclight Painting"
               className="h-12 mb-4"
               loading="lazy"
