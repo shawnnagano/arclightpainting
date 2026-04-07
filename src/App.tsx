@@ -86,6 +86,39 @@ const App = () => (
             <Route path="/commercial-painting" element={<Navigate to="/services/commercial-painting" replace />} />
             <Route path="/popcorn-ceiling-removal" element={<Navigate to="/services/popcorn-ceiling-removal" replace />} />
             <Route path="/color-consultation" element={<Navigate to="/services/color-consultation" replace />} />
+            {/* Legacy staging "-new" duplicates */}
+            <Route path="/painter-for-a-day-new" element={<Navigate to="/services/painter-for-a-day" replace />} />
+            <Route path="/blog-new" element={<Navigate to="/blog" replace />} />
+            <Route path="/privacy-policy-new" element={<Navigate to="/privacy-policy" replace />} />
+            <Route path="/interior-painting-new" element={<Navigate to="/services/interior-painting" replace />} />
+            <Route path="/exterior-painting-new" element={<Navigate to="/services/exterior-painting" replace />} />
+            <Route path="/drywall-repair-new" element={<Navigate to="/services/drywall-repairs" replace />} />
+            <Route path="/cabinet-refinishing-new" element={<Navigate to="/services/cabinet-refinishing" replace />} />
+            <Route path="/gallery-new" element={<Navigate to="/about" replace />} />
+            <Route path="/service-area-new" element={<Navigate to="/" replace />} />
+            <Route path="/referral-rewards-new" element={<Navigate to="/" replace />} />
+            {/* Legacy staging location "-new" duplicates */}
+            <Route path="/house-painting-in-woodinville-new" element={<Navigate to="/woodinville" replace />} />
+            <Route path="/house-painting-in-redmond-new" element={<Navigate to="/redmond" replace />} />
+            <Route path="/house-painting-in-mill-creek-new" element={<Navigate to="/mill-creek" replace />} />
+            <Route path="/house-painting-in-lynnwood-new" element={<Navigate to="/lynnwood" replace />} />
+            <Route path="/house-painting-in-lake-forest-park-new" element={<Navigate to="/lake-forest-park" replace />} />
+            <Route path="/house-painting-in-kirkland-new" element={<Navigate to="/kirkland" replace />} />
+            <Route path="/house-painting-in-kenmore-new" element={<Navigate to="/kenmore" replace />} />
+            <Route path="/house-painting-in-everett-new" element={<Navigate to="/everett" replace />} />
+            <Route path="/house-painting-in-bothell-new" element={<Navigate to="/bothell" replace />} />
+            <Route path="/house-painting-in-bellevue-new" element={<Navigate to="/bellevue" replace />} />
+            {/* Other legacy WP pages */}
+            <Route path="/why-it-matters" element={<Navigate to="/mission" replace />} />
+            <Route path="/house-painting-new" element={<Navigate to="/" replace />} />
+            <Route path="/house-painting" element={<Navigate to="/" replace />} />
+            <Route path="/gallery" element={<Navigate to="/about" replace />} />
+            <Route path="/above-beyond-blueprint" element={<Navigate to="/about" replace />} />
+            <Route path="/about-arclight" element={<Navigate to="/about" replace />} />
+            <Route path="/faq" element={<Navigate to="/" replace />} />
+            <Route path="/referral-thank-you" element={<Navigate to="/" replace />} />
+            <Route path="/home-old" element={<Navigate to="/" replace />} />
+            <Route path="/services" element={<Navigate to="/" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
