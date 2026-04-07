@@ -18,6 +18,11 @@ import commercial5 from "@/assets/commercial-5.jpg";
 import exteriorHero from "@/assets/exterior-hero.png";
 import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
 
+// Exterior project images
+import exteriorPainterLadder from "@/assets/exterior-painter-ladder-bothell.jpg";
+import exteriorDarkCraftsman from "@/assets/exterior-dark-craftsman-after.jpg";
+import exteriorSidingAfter from "@/assets/exterior-siding-painting-after.jpg";
+
 // PFAD images
 import pfadExteriorStaining from "@/assets/pfad-exterior-staining-work.jpg";
 import pfadCrewLadders from "@/assets/pfad-exterior-crew-ladders.jpg";
@@ -68,11 +73,11 @@ const serviceImages: Record<string, GalleryImage[]> = {
   ],
   "Exterior Painting": [
     { src: exteriorHero, alt: "Completed exterior house painting project" },
-    { src: "/images/wp-content/2025/02/exterior-painting-service-company-near-me-in-bothell-wa-071.jpg", alt: "Exterior painting service in Bothell WA" },
-    { src: "/images/wp-content/2025/06/Exterior-House-Painting-Bothell-WA.jpg", alt: "Exterior house painting in Bothell WA" },
-    { src: "/images/wp-content/2025/06/Exterior-House-Painting-Brown-and-Tan-Arclight-Painting-Bothell-WA.png", alt: "Brown and tan exterior house painting by Arclight" },
-    { src: "/images/wp-content/2025/06/Exterior-Painting-Blue-House-Arclight-Painting-Bothell-WA.png", alt: "Blue exterior house painting by Arclight Painting" },
+    { src: exteriorPainterLadder, alt: "Arclight painter on ladder painting dark exterior trim in Bothell" },
+    { src: exteriorDarkCraftsman, alt: "Dark craftsman home exterior after professional painting" },
+    { src: exteriorSidingAfter, alt: "Light blue siding and white trim exterior painting completed" },
     { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
+    { src: pfadCrewLadders, alt: "Arclight crew on ladders painting house exterior" },
   ],
   "Cabinet Refinishing": [
     { src: cabinetBeforeAfter, alt: "Kitchen cabinet refinishing before and after transformation" },
