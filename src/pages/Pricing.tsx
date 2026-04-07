@@ -6,10 +6,10 @@ import { Link } from "react-router-dom";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
-import BlueprintSection from "@/components/BlueprintSection";
 import CTASection from "@/components/CTASection";
 import FAQSection from "@/components/FAQSection";
 import { pricingFAQ } from "@/data/faqData";
+import heroImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const Pricing = () => {
   return (
@@ -29,8 +29,8 @@ const Pricing = () => {
       <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
-            src="/images/wp-content/2025/09/image-8-1.webp"
-            alt="Pricing hero"
+            src={heroImage}
+            alt="Arclight Painting consultation with homeowner discussing pricing"
             className="w-full h-full object-cover"
             style={{ objectPosition: "70% 35%" }}
           />
@@ -128,8 +128,7 @@ const Pricing = () => {
       {/* Guarantee */}
       <GuaranteeSection />
 
-      {/* Blueprint */}
-      <BlueprintSection />
+      {/* FAQ */}
 
       {/* FAQ */}
       <FAQSection faqs={pricingFAQ} heading="Additional Frequently Asked Questions" />
