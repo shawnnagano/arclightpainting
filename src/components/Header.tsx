@@ -69,7 +69,7 @@ const Header = () => {
 
       {/* Main Header */}
       <header
-        className={`bg-background text-foreground sticky top-0 z-50 transition-shadow ${
+        className={`bg-[#f4fbfb] text-foreground sticky top-0 z-50 transition-shadow ${
           scrolled ? "shadow-md" : ""
         }`}
       >
