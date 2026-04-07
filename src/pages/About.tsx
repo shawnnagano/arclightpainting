@@ -53,8 +53,7 @@ const teamMembers: { name: string; title: string; image: string; bio: string; im
     bio: "Brittany helps tell the Arclight story in a way people can see, feel, and trust. She brings creativity, heart, and strategic focus to every campaign, while staying rooted in faith, growth, and service.",
     imageStyle: {
       objectFit: "cover",
-      objectPosition: "center 42%",
-      transform: "scale(1.22)",
+      objectPosition: "center 20%",
     },
   },
   {
