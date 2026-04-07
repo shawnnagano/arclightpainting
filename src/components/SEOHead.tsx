@@ -62,7 +62,7 @@ export const localBusinessSchema = {
   "@type": "HousePainter",
   "@id": "https://arclightpainting.com/#business",
   name: "Arclight Painting",
-  image: "https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png",
+  image: "/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
   url: "https://arclightpainting.com",
   telephone: "+14257571199",
   email: "info@arclightpainting.com",

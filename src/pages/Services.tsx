@@ -25,7 +25,7 @@ const Services = () => {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://arclightpainting.com/wp-content/uploads/2025/08/Image-5-1-1024x680.jpg')",
+            backgroundImage: "url('/images/wp-content/2025/08/Image-5-1-1024x680.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}

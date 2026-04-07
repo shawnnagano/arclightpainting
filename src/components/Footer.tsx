@@ -6,19 +6,19 @@ import { serviceAreas } from "@/data/serviceAreas";
 
 const badges = [
   {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/09/188-1884205_better-business-bureau-accredited-bussiness-better-business-bureau.jpg",
+    src: "/images/wp-content/2025/09/188-1884205_better-business-bureau-accredited-bussiness-better-business-bureau.jpg",
     alt: "Better Business Bureau Accredited",
   },
   {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/09/PCA-Logo-CMYK.webp",
+    src: "/images/wp-content/2025/09/PCA-Logo-CMYK.webp",
     alt: "PCA Member",
   },
   {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/09/Bothell-Kenmore-Chamber-logo-B-CMYK-600-e1532311661719.jpg",
+    src: "/images/wp-content/2025/09/Bothell-Kenmore-Chamber-logo-B-CMYK-600-e1532311661719.jpg",
     alt: "Bothell Kenmore Chamber",
   },
   {
-    src: "https://arclightpainting.com/wp-content/uploads/2025/09/OMWBE-Cerfitied-Badge-Final-01.png",
+    src: "/images/wp-content/2025/09/OMWBE-Cerfitied-Badge-Final-01.png",
     alt: "OMWBE Certified",
   },
   {
@@ -89,7 +89,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <img
-              src="https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png"
+              src="/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png"
               alt="Arclight Painting"
               className="h-12 mb-4"
             />
