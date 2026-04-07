@@ -4,6 +4,7 @@ import { Star } from "lucide-react";
 import SEOHead, { localBusinessSchema, breadcrumbSchema } from "@/components/SEOHead";
 import reviewsHero from "@/assets/reviews-hero.png";
 import BlueprintSection from "@/components/BlueprintSection";
+import CTASection from "@/components/CTASection";
 
 const overallRating = 4.9;
 const totalReviews = 269;
@@ -60,6 +61,7 @@ const Reviews = () => {
       </section>
 
       <BlueprintSection />
+      <CTASection />
 
       <Footer />
     </div>
