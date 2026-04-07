@@ -1,36 +1,16 @@
 
 
-## Plan: Migrate Remaining 9 External Blog Posts
+## Fix: Broken Logo Image
 
-### What's Happening Now
-11 of 24 blog posts are hosted internally with full content. These 9 still link externally to the old WordPress site:
+### Problem
+The header logo (`src/components/Header.tsx` line 79) references `https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png` — the old WordPress server. Now that DNS points to Lovable, this URL no longer resolves to the WordPress file.
 
-1. `/local-commercial-painters/`
-2. `/how-to-paint-a-room/`
-3. `/commercial-painting-cost/`
-4. `/bad-paint-job/`
-5. `/small-house-color-ideas/`
-6. `/types-of-commercial-painting-services/`
-7. `/color-psychology-in-commercial-painting/`
-8. `/peeling-paint-in-commercial-buildings/`
-9. `/how-long-after-painting-can-i-sleep-in-the-room/`
+### Solution
+1. Download/obtain the logo image and save it locally as `src/assets/arclight-logo.png`
+2. Update `src/components/Header.tsx` to import and use the local asset:
+   - Add: `import arclightLogo from "@/assets/arclight-logo.png"`
+   - Change the `src` attribute from the WordPress URL to `{arclightLogo}`
 
-### What Changes
-
-**Step 1: Scrape content** from each of the 9 URLs on the old WordPress site.
-
-**Step 2: Update `src/data/blogPosts.ts`**
-- Replace each post's `externalUrl` property with a `content` property containing the scraped markdown.
-
-**Step 3: Update `src/App.tsx`**
-- The existing route mapping (`blogPosts.filter(p => p.content).map(...)`) will automatically pick up the new posts — no route changes needed.
-
-**Step 4: Update `public/sitemap.xml`**
-- Add the 9 new internal blog URLs.
-
-**Step 5: Update `src/pages/Blog.tsx`**
-- These posts will automatically switch from external `<a>` tags to internal `<Link>` components (the existing logic already handles this based on `externalUrl` vs `content`).
-
-### Result
-All 24 blog posts hosted internally at root-level URLs, no external dependencies on the old WordPress site.
+### Quick Check
+Search the entire codebase for any other references to `arclightpainting.com/wp-content/` and replace those with local assets too, to prevent similar breakage.
 
