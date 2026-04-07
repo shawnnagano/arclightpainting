@@ -77,7 +77,6 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: exteriorDarkCraftsman, alt: "Dark craftsman home exterior after professional painting" },
     { src: exteriorSidingAfter, alt: "Light blue siding and white trim exterior painting completed" },
     { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
-    { src: exteriorHero, alt: "House exterior freshly painted with clean lines and modern finish" },
   ],
   "Cabinet Refinishing": [
     { src: cabinetBeforeAfter, alt: "Kitchen cabinet refinishing before and after transformation" },
