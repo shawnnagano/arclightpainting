@@ -15,7 +15,9 @@ import Schedule from "./pages/Schedule.tsx";
 import ServiceDetail from "./pages/ServiceDetail.tsx";
 
 import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
+import BlogPostDetail from "./pages/BlogPostDetail.tsx";
 import { serviceAreas } from "@/data/serviceAreas";
+import { blogPosts } from "@/data/blogPosts";
 import { Navigate } from "react-router-dom";
 import Blog from "./pages/Blog.tsx";
 import JoinOurTeam from "./pages/JoinOurTeam.tsx";
@@ -69,9 +71,21 @@ const App = () => (
             <Route path="/service-area/:slug" element={<ServiceAreaRedirect />} />
             <Route path="/service-area" element={<Navigate to="/" replace />} />
             <Route path="/blog" element={<Blog />} />
+            {blogPosts.filter(p => p.content).map((post) => (
+              <Route key={post.slug} path={`/${post.slug}`} element={<BlogPostDetail />} />
+            ))}
             <Route path="/join-our-team" element={<JoinOurTeam />} />
             <Route path="/mission" element={<Mission />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            {/* Legacy service redirects */}
+            <Route path="/interior-painting" element={<Navigate to="/services/interior-painting" replace />} />
+            <Route path="/exterior-painting" element={<Navigate to="/services/exterior-painting" replace />} />
+            <Route path="/cabinet-refinishing" element={<Navigate to="/services/cabinet-refinishing" replace />} />
+            <Route path="/drywall-repair" element={<Navigate to="/services/drywall-repairs" replace />} />
+            <Route path="/pressure-washing" element={<Navigate to="/services/pressure-washing" replace />} />
+            <Route path="/commercial-painting" element={<Navigate to="/services/commercial-painting" replace />} />
+            <Route path="/popcorn-ceiling-removal" element={<Navigate to="/services/popcorn-ceiling-removal" replace />} />
+            <Route path="/color-consultation" element={<Navigate to="/services/color-consultation" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

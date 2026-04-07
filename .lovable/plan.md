@@ -1,43 +1,107 @@
 
+## Consolidated Plan: Blog Migration, Redirects & SEO Cleanup
 
-## Plan: Move Location Pages to Root-Level URLs
+### ✅ Already Completed
+- Location pages moved to root-level URLs (`/bothell`, `/kirkland`, etc.)
+- `/service-area` directory page removed
+- `/service-area/:slug` redirects to `/:slug`
+- Sitemap, footer, SEO schema updated for root-level location URLs
 
-### What Changes
+---
 
-Remove the `/service-area` directory page and `/service-area/:slug` dynamic route. Instead, add an explicit root-level route for each location (e.g., `/bothell`, `/kirkland`). The ServiceAreaDetail page stays, but now reads its slug from explicit routes. Add a redirect from `/service-area` and `/service-area/:slug` to preserve old links.
+### 1. Migrate 24 Blog Posts as Internal Pages (Root-Level URLs)
 
-### Files to Update
+Create each blog post as its own page component with full content (scraped from the old WordPress site), using root-level routes to match the legacy URL structure.
 
-**1. `src/App.tsx`**
-- Remove `/service-area` and `/service-area/:slug` routes
-- Add explicit route for each of the 13 locations at root level (e.g., `<Route path="/bothell" element={<ServiceAreaDetail />} />`)
-- Add redirect: `/service-area/:slug` → `/:slug` and `/service-area` → `/` (or keep as redirect to homepage)
-- ServiceAreaDetail will need to accept slug as a prop or derive it from the path
+**Blog posts to migrate:**
+1. `/neutral-paint-colors/`
+2. `/hire-professional-painters/`
+3. `/top-quality-paints/`
+4. `/painting-wall-and-ceiling/`
+5. `/timeless-paint-colors/`
+6. `/painters-in-bothell/`
+7. `/bothell-painting-company/`
+8. `/exterior-painting-bothell/`
+9. `/house-painters-in-bothell/`
+10. `/how-much-does-it-cost-to-paint-a-house/`
+11. `/paint-color-trends-2025/`
+12. `/best-paint-for-high-traffic-areas/`
+13. `/best-interior-painting/`
+14. `/how-to-pick-a-front-door-color/`
+15. `/professional-interior-painting/`
+16. `/what-is-a-painting-contract/`
+17. `/how-to-choose-a-painting-company/`
+18. `/how-to-pick-exterior-paint-colors/`
+19. `/is-it-worth-it-to-hire-a-painter/`
+20. `/should-i-paint-my-house-before-selling/`
+21. `/how-long-does-exterior-paint-last/`
+22. `/do-painters-move-furniture/`
+23. `/how-long-does-it-take-to-paint-a-room/`
+24. `/how-long-does-it-take-to-paint-a-house/`
 
-**2. `src/pages/ServiceAreaDetail.tsx`**
-- Instead of `useParams`, derive slug from `useLocation().pathname` (strip leading `/`)
-- Update canonical URL from `/service-area/${slug}` to `/${slug}`
-- Update breadcrumb URLs to use root-level paths
-- Update fallback redirect from `/service-area` to `/`
+**Approach:**
+- Create a shared `BlogPost` layout component for consistent styling (header, footer, SEO, breadcrumbs)
+- Create a `src/data/blogPosts.ts` data file with all post content (title, body HTML/markdown, excerpt, featured image, date, slug)
+- Create a single `src/pages/BlogPostDetail.tsx` component that renders from the data
+- Add explicit routes in `App.tsx` for each blog slug
+- Update `src/pages/Blog.tsx` to link internally instead of externally
+- Add all 24 URLs to `public/sitemap.xml`
 
-**3. `src/components/Footer.tsx`**
-- Change map banner link from `/service-area` to `/bothell` (or homepage)
-- Change location links from `/service-area/${slug}` to `/${slug}`
+**Content:** Scrape each post from the live WordPress site to capture full text and images.
 
-**4. `src/components/SEOHead.tsx`**
-- Update `serviceAreaSchema` URL from `/service-area/${slug}` to `/${slug}`
-- Update city `@id` URLs from `/service-area/...` to `/...`
+---
 
-**5. `src/pages/ServiceAreas.tsx`**
-- Can be deleted or kept as a redirect target. Since we're removing the page, it can be deleted.
+### 2. Add Redirect Routes in App.tsx
 
-**6. `public/sitemap.xml`**
-- Change all location URLs from `/service-area/bothell` to `/bothell`, etc.
-- Remove the `/service-area` directory entry
+Add `<Navigate>` redirects for legacy WordPress URLs that have moved:
 
-### Technical Notes
+| Old URL | New URL | Reason |
+|---------|---------|--------|
+| `/service-area` | `/` | Directory page removed |
+| `/service-area/:slug` | `/:slug` | Location pages now root-level |
+| `/about-new` | `/about` | Staging URL cleanup |
+| `/interior-painting/` | `/services/interior-painting` | Legacy service URLs |
+| `/exterior-painting/` | `/services/exterior-painting` | Legacy service URLs |
+| `/cabinet-refinishing/` | `/services/cabinet-refinishing` | Legacy service URLs |
+| `/drywall-repair/` | `/services/drywall-repairs` | Legacy service URLs |
+| `/pressure-washing/` | `/services/pressure-washing` | Legacy service URLs |
+| `/commercial-painting/` | `/services/commercial-painting` | Legacy service URLs |
+| `/popcorn-ceiling-removal/` | `/services/popcorn-ceiling-removal` | Legacy service URLs |
+| `/color-consultation/` | `/services/color-consultation` | Legacy service URLs |
 
-- Each location gets its own explicit `<Route>` to avoid conflicts with other root-level routes like `/about`, `/pricing`
-- ServiceAreaDetail derives the slug from `window.location.pathname` instead of `useParams`
-- Redirect routes ensure any old `/service-area/...` links still work
+---
 
+### 3. Update Sitemap
+
+- Add all 24 blog post URLs to `public/sitemap.xml`
+- Verify all existing entries use correct current paths
+
+---
+
+### 4. Update Blog Listing Page
+
+- Change `src/pages/Blog.tsx` from external links to internal `<Link>` components
+- Show all 24 posts with excerpts and featured images
+- Order by date (newest first)
+
+---
+
+### Files to Create/Modify
+
+| File | Action |
+|------|--------|
+| `src/data/blogPosts.ts` | **Create** — all 24 posts' content |
+| `src/pages/BlogPostDetail.tsx` | **Create** — shared blog post renderer |
+| `src/App.tsx` | **Modify** — add 24 blog routes + legacy redirects |
+| `src/pages/Blog.tsx` | **Modify** — internal links, all 24 posts |
+| `public/sitemap.xml` | **Modify** — add blog URLs |
+| `src/components/SEOHead.tsx` | **Modify** — add `blogPostSchema` helper |
+
+### Execution Order
+1. Scrape all 24 blog posts from WordPress
+2. Create `blogPosts.ts` data file
+3. Create `BlogPostDetail.tsx` component
+4. Update `App.tsx` with blog routes + all redirects
+5. Update `Blog.tsx` listing page
+6. Update sitemap
+7. Verify all routes work
