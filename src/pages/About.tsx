@@ -30,13 +30,13 @@ import tonyImg from "@/assets/tony-garcia-arclight-painting.webp";
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
     name: "Shawn Nagano",
-    title: "Executive Officer",
+    title: "Founder",
     image: shawnImg,
     bio: "Shawn is the visionary behind Arclight and the one always pushing it forward. A University of Washington alum, Army Captain (ret.), and lifelong builder at heart, he leads with grit, purpose, and a deep belief in helping family and friends win.",
   },
   {
     name: "Jennifer Pattison",
-    title: "Director of Business Dev & Co-Founder",
+    title: "Co-Founder",
     image: jenniferImg,
     bio: "Jennifer brings heart, clarity, and confidence to every customer relationship. A U.S. Army veteran and mom of three, she has a natural way of helping homeowners feel comfortable, cared for, and ready to move forward.",
   },
