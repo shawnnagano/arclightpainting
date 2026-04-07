@@ -1,4 +1,4 @@
-import { useParams, Navigate } from "react-router-dom";
+import { useLocation, Navigate } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -18,23 +18,23 @@ import { motion } from "framer-motion";
 import SEOHead, { serviceAreaSchema, breadcrumbSchema } from "@/components/SEOHead";
 
 const ServiceAreaDetail = () => {
-  const { slug } = useParams<{ slug: string }>();
+  const location = useLocation();
+  const slug = location.pathname.replace("/", "");
   const area = serviceAreas.find((a) => a.slug === slug);
 
-  if (!area) return <Navigate to="/service-area" replace />;
+  if (!area) return <Navigate to="/" replace />;
 
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
         title={`Professional House Painters in ${area.name} | Arclight Painting`}
         description={area.metaDescription}
-        canonical={`/service-area/${area.slug}`}
+        canonical={`/${area.slug}`}
         jsonLd={[
           serviceAreaSchema(area.name, area.slug, area.metaDescription),
           breadcrumbSchema([
             { name: "Home", url: "/" },
-            { name: "Service Areas", url: "/service-area" },
-            { name: area.name, url: `/service-area/${area.slug}` },
+            { name: area.name, url: `/${area.slug}` },
           ]),
         ]}
       />

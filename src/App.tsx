@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { BrowserRouter, Route, Routes, useLocation, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import GlobalReviewWidget from "@/components/GlobalReviewWidget";
 import { HelmetProvider } from "react-helmet-async";
@@ -14,8 +14,9 @@ import Schedule from "./pages/Schedule.tsx";
 
 import ServiceDetail from "./pages/ServiceDetail.tsx";
 
-import ServiceAreas from "./pages/ServiceAreas.tsx";
 import ServiceAreaDetail from "./pages/ServiceAreaDetail.tsx";
+import { serviceAreas } from "@/data/serviceAreas";
+import { Navigate } from "react-router-dom";
 import Blog from "./pages/Blog.tsx";
 import JoinOurTeam from "./pages/JoinOurTeam.tsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy.tsx";
@@ -38,6 +39,11 @@ function ScrollToTop() {
   return null;
 }
 
+function ServiceAreaRedirect() {
+  const { slug } = useParams();
+  return <Navigate to={`/${slug}`} replace />;
+}
+
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -57,8 +63,11 @@ const App = () => (
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/services/color-consultation" element={<ColorConsultation />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
-            <Route path="/service-area" element={<ServiceAreas />} />
-            <Route path="/service-area/:slug" element={<ServiceAreaDetail />} />
+            {serviceAreas.map((area) => (
+              <Route key={area.slug} path={`/${area.slug}`} element={<ServiceAreaDetail />} />
+            ))}
+            <Route path="/service-area/:slug" element={<ServiceAreaRedirect />} />
+            <Route path="/service-area" element={<Navigate to="/" replace />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/join-our-team" element={<JoinOurTeam />} />
             <Route path="/mission" element={<Mission />} />
