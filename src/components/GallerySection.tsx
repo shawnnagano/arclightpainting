@@ -31,11 +31,12 @@ import cabinetStock1 from "@/assets/cabinet-white-kitchen-stock-1.jpg";
 import cabinetStock2 from "@/assets/cabinet-white-kitchen-stock-2.jpg";
 import cabinetStock3 from "@/assets/cabinet-white-kitchen-stock-3.jpg";
 
-// Drywall stock images
-import drywallStock1 from "@/assets/drywall-repair-stock-1.jpg";
-import drywallStock2 from "@/assets/drywall-repair-stock-2.jpg";
-import drywallStock3 from "@/assets/drywall-repair-stock-3.jpg";
-import drywallStock4 from "@/assets/drywall-repair-stock-4.jpg";
+// Drywall images
+import drywallLivingRoom from "@/assets/drywall-living-room-prep.jpg";
+import drywallHallway from "@/assets/drywall-hallway-prep.jpg";
+import drywallMudding from "@/assets/drywall-room-mudding.jpg";
+import drywallBathroom from "@/assets/drywall-bathroom-prep.jpg";
+import drywallAccentWall from "@/assets/drywall-accent-wall-painting.jpg";
 
 interface GalleryImage {
   src: string;
@@ -77,12 +78,12 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: cabinetStock3, alt: "Clean white cabinet finish in updated kitchen" },
   ],
   "Drywall Repair": [
-    { src: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg", alt: "Professional drywall repair with smooth finish" },
+    { src: drywallLivingRoom, alt: "Living room drywall repair and prep with crown molding" },
     { src: drywallSanding, alt: "Sanding drywall smooth after repair" },
-    { src: drywallStock1, alt: "Drywall patching and repair work in progress" },
-    { src: drywallStock2, alt: "Professional applying joint compound to drywall seam" },
-    { src: drywallStock3, alt: "Smoothing drywall surface after patching" },
-    { src: drywallStock4, alt: "Finished drywall repair ready for painting" },
+    { src: drywallHallway, alt: "Hallway prepped and protected for drywall repair" },
+    { src: drywallMudding, alt: "Drywall mudding and taping in commercial space" },
+    { src: drywallBathroom, alt: "Bathroom walls prepped for drywall finishing" },
+    { src: drywallAccentWall, alt: "Accent wall painting over repaired drywall surface" },
   ],
   "Pressure Washing": [
     { src: "/images/wp-content/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway with clean results" },
