@@ -63,7 +63,7 @@ interface GalleryImage {
 const defaultImages: GalleryImage[] = [
   { src: exteriorHero, alt: "Freshly painted house exterior" },
   { src: cabinetAfter, alt: "Freshly refinished kitchen cabinets with white finish" },
-  { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior after professional painting" },
+  { src: interiorLivingRoom, alt: "Elegant living room with warm brown walls and white wainscoting" },
   { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
   { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
   { src: commercialLobby, alt: "Commercial lobby with blue accent wall and wood ceiling after painting" },
