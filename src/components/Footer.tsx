@@ -90,6 +90,7 @@ const Footer = () => {
               src="/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png"
               alt="Arclight Painting"
               className="h-12 mb-4"
+              loading="lazy"
             />
             <p className="text-sm opacity-70 leading-relaxed mb-3">
               Professional house painting services in Bothell, WA and surrounding areas.
