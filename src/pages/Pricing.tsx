@@ -105,7 +105,7 @@ const Pricing = () => {
               <p className="text-muted-foreground text-sm">Some companies miss important details during the quoting process. That can lead to unexpected costs, change orders, or compromises later.</p>
             </div>
             <div className="bg-card p-6 rounded-xl shadow-sm border border-border">
-              <h4 className="font-bold text-lg mb-2 text-destructive">2. The scope or quality is reduced</h4>
+              <h4 className="font-bold text-lg mb-2 text-foreground">The scope or quality is reduced</h4>
               <p className="text-muted-foreground text-sm">Lower pricing often means less is included, whether in prep, materials, labor, supervision, or overall attention to detail.</p>
             </div>
           </div>
