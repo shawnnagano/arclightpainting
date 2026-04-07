@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import commercialLobby from "@/assets/commercial-lobby.png";
+import cabinetAfter from "@/assets/cabinet-after.jpg";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
 import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
@@ -24,7 +25,7 @@ interface GalleryImage {
 
 const defaultImages: GalleryImage[] = [
   { src: exteriorHero, alt: "Freshly painted house exterior" },
-  { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Freshly painted kitchen cabinets" },
+  { src: cabinetAfter, alt: "Freshly refinished kitchen cabinets with white finish" },
   { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior after professional painting" },
   { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting detail on a home" },
   { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
@@ -50,7 +51,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
   ],
   "Cabinet Refinishing": [
     { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Freshly refinished kitchen cabinets" },
-    { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Cabinet painting project in progress" },
+    { src: cabinetAfter, alt: "Beautifully refinished white kitchen cabinets" },
     { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Kitchen refresh with updated painted surfaces" },
     { src: painterForADayHero, alt: "Professional applying a smooth finish to cabinetry" },
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Completed residential refinishing project" },
