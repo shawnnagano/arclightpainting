@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import commercialLobby from "@/assets/commercial-lobby.png";
+import exteriorStaining from "@/assets/exterior-staining-kenmore.jpg";
 import cabinetAfter from "@/assets/cabinet-after.jpg";
 import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
 import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
@@ -27,7 +28,7 @@ const defaultImages: GalleryImage[] = [
   { src: exteriorHero, alt: "Freshly painted house exterior" },
   { src: cabinetAfter, alt: "Freshly refinished kitchen cabinets with white finish" },
   { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Bright interior after professional painting" },
-  { src: "/images/wp-content/2025/08/Image-3-1-683x1024.jpg", alt: "Exterior painting detail on a home" },
+  { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
   { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
   { src: commercialLobby, alt: "Commercial lobby with blue accent wall and wood ceiling after painting" },
 ];
@@ -47,7 +48,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: commercial2, alt: "Building exterior with fresh paint and clean lines" },
     { src: commercial3, alt: "Exterior siding painting project in progress" },
     { src: "/images/wp-content/2025/08/house-painting-service-company-near-me-in-bothell-wa-074.jpg", alt: "Residential painting project completed" },
-    { src: painterForADayHero, alt: "Painter completing detailed exterior work" },
+    { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
   ],
   "Cabinet Refinishing": [
     { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Freshly refinished kitchen cabinets" },
