@@ -29,8 +29,8 @@ const Pricing = () => {
       <section className="relative min-h-[400px] md:min-h-[450px] overflow-hidden flex items-center">
         <div className="absolute inset-0">
           <img
-            src="/images/wp-content/2025/09/image-8-1.webp"
-            alt="Pricing hero"
+            src={heroImage}
+            alt="Arclight Painting consultation with homeowner discussing pricing"
             className="w-full h-full object-cover"
             style={{ objectPosition: "70% 35%" }}
           />
