@@ -35,7 +35,7 @@ const Blog = () => {
               backgroundPosition: "center",
             }}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-white via-white/85 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#f4fbfb] via-[#f4fbfb]/85 to-transparent" />
           <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
               Arclight <span className="text-accent">Painting</span> Blog
