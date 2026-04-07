@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import homeHero from "@/assets/home-hero.webp";
+import homeHero from "@/assets/house-painting-bothell-wa-hero.webp";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import OwnersSection from "@/components/OwnersSection";

@@ -14,7 +14,7 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode, backgroundPosition, backgroundSize }: HeroSectionProps) => {
-  const bgImage = heroImage || "/images/wp-content/2025/07/hiyuse.jpg";
+  const bgImage = heroImage || "/images/hiyuse-bothell-wa-landmark.webp";
   const displayTitle = heroTitle || "Professional House Painters";
 
   return (

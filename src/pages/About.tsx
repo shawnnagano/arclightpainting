@@ -5,27 +5,27 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
-import aboutHeroImg from "@/assets/about-hero.jpg";
-import shawnImg from "@/assets/shawn-nagano-small.webp";
-import jenniferImg from "@/assets/jennifer-pattison.webp";
-import christopherImg from "@/assets/christopher-repaso.webp";
-import brittanyImg from "@/assets/brittany-aguero.webp";
-import ellaineImg from "@/assets/ellaine-cristostomo.webp";
-import belleImg from "@/assets/belle-tijap.webp";
-import jessaImg from "@/assets/jessa-cabrera.webp";
-import danielImg from "@/assets/daniel-wolff.webp";
-import ionImg from "@/assets/ion-botnariuc.webp";
-import alejandroImg from "@/assets/alejandro-lopez.webp";
-import sandorImg from "@/assets/sandor-kovacs.webp";
-import shawnCImg from "@/assets/shawn-callihoo.webp";
-import antoniImg from "@/assets/antoni-salvin.webp";
-import georgeImg from "@/assets/george-linares.webp";
-import robertoImg from "@/assets/roberto-alcazar.webp";
-import vicenteImg from "@/assets/vicente-guerrero.webp";
-import victorImg from "@/assets/victor-mendoza.webp";
-import benjaminImg from "@/assets/benjamin-griffin.webp";
-import kevinImg from "@/assets/kevin-garnica.webp";
-import tonyImg from "@/assets/tony-garcia.webp";
+import aboutHeroImg from "@/assets/about-us-arclight-painting-bothell-wa.webp";
+import shawnImg from "@/assets/shawn-nagano-owner-arclight-painting.webp";
+import jenniferImg from "@/assets/jennifer-pattison-co-owner-arclight.webp";
+import christopherImg from "@/assets/christopher-repaso-arclight-painting.webp";
+import brittanyImg from "@/assets/brittany-aguero-arclight-painting.webp";
+import ellaineImg from "@/assets/ellaine-cristostomo-arclight-painting.webp";
+import belleImg from "@/assets/belle-tijap-arclight-painting.webp";
+import jessaImg from "@/assets/jessa-cabrera-arclight-painting.webp";
+import danielImg from "@/assets/daniel-wolff-arclight-painting.webp";
+import ionImg from "@/assets/ion-botnariuc-arclight-painting.webp";
+import alejandroImg from "@/assets/alejandro-lopez-arclight-painting.webp";
+import sandorImg from "@/assets/sandor-kovacs-arclight-painting.webp";
+import shawnCImg from "@/assets/shawn-callihoo-arclight-painting.webp";
+import antoniImg from "@/assets/antoni-salvin-arclight-painting.webp";
+import georgeImg from "@/assets/george-linares-arclight-painting.webp";
+import robertoImg from "@/assets/roberto-alcazar-arclight-painting.webp";
+import vicenteImg from "@/assets/vicente-guerrero-arclight-painting.webp";
+import victorImg from "@/assets/victor-mendoza-arclight-painting.webp";
+import benjaminImg from "@/assets/benjamin-griffin-arclight-painting.webp";
+import kevinImg from "@/assets/kevin-garnica-arclight-painting.webp";
+import tonyImg from "@/assets/tony-garcia-arclight-painting.webp";
 
 const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
   {
@@ -174,7 +174,7 @@ const About = () => {
             </div>
             <div className="md:w-1/3 flex justify-center">
               <img
-                src="/images/wp-content/2025/09/image__11_-removebg-preview.png"
+                src="/images/painting-estimate-consultation-illustration.webp"
                 alt="Shawn Nagano and Jennifer Pattison, owners of Arclight Painting"
                 className="max-w-[300px] w-full"
                 loading="lazy"

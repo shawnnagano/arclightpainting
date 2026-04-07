@@ -1,59 +1,59 @@
 import { motion } from "framer-motion";
-import commercialLobby from "@/assets/commercial-lobby.png";
-import exteriorStaining from "@/assets/exterior-staining-kenmore.jpg";
-import cabinetAfter from "@/assets/cabinet-after.jpg";
-import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
-import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-1.jpg";
-import popcornCeiling2 from "@/assets/popcorn-ceiling-removal-2.jpg";
-import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-3.webp";
-import drywallSanding from "@/assets/drywall-sanding.jpg";
-import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-bothell.jpg";
-import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
-import commercialHero from "@/assets/commercial-hero.jpg";
-import commercial1 from "@/assets/commercial-1.jpg";
-import commercial2 from "@/assets/commercial-2.jpg";
-import commercial3 from "@/assets/commercial-3.jpg";
-import commercial4 from "@/assets/commercial-4.jpg";
-import commercial5 from "@/assets/commercial-5.jpg";
-import exteriorHero from "@/assets/exterior-hero.png";
-import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
+import commercialLobby from "@/assets/commercial-lobby-accent-wall-painting.webp";
+import exteriorStaining from "@/assets/exterior-wood-staining-kenmore-wa.webp";
+import cabinetAfter from "@/assets/cabinet-refinishing-white-kitchen-after.webp";
+import painterForADayHero from "@/assets/one-day-painting-service-bothell-wa.webp";
+import popcornCeiling1 from "@/assets/popcorn-ceiling-removal-contained-room.webp";
+import popcornCeiling2 from "@/assets/popcorn-ceiling-smooth-finish-rolling.webp";
+import popcornCeiling3 from "@/assets/popcorn-ceiling-removal-spraying.webp";
+import drywallSanding from "@/assets/drywall-sanding-smooth-finish.webp";
+import popcornCeilingBothell from "@/assets/popcorn-ceiling-removal-project-bothell.webp";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-bothell-wa.webp";
+import commercialHero from "@/assets/commercial-painting-service-bothell-wa.webp";
+import commercial1 from "@/assets/commercial-restaurant-interior-painting.webp";
+import commercial2 from "@/assets/commercial-building-exterior-painting.webp";
+import commercial3 from "@/assets/commercial-building-siding-painting.webp";
+import commercial4 from "@/assets/commercial-hotel-lobby-painting.webp";
+import commercial5 from "@/assets/commercial-office-accent-wall-painting.webp";
+import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
+import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
 // Exterior project images
-import exteriorPainterLadder from "@/assets/exterior-painter-ladder-bothell.jpg";
-import exteriorDarkCraftsman from "@/assets/exterior-dark-craftsman-after.jpg";
-import exteriorSidingAfter from "@/assets/exterior-siding-painting-after.jpg";
+import exteriorPainterLadder from "@/assets/exterior-painter-on-ladder-bothell-wa.webp";
+import exteriorDarkCraftsman from "@/assets/exterior-painting-dark-craftsman-home-after.webp";
+import exteriorSidingAfter from "@/assets/exterior-siding-painting-completed.webp";
 
-import exteriorDeckAfter from "@/assets/exterior-deck-painting-after.jpg";
+import exteriorDeckAfter from "@/assets/exterior-deck-painting-railing-after.webp";
 
 // Interior project images
-import interiorEntryway from "@/assets/interior-entryway-staircase-after.jpg";
-import interiorLivingRoom from "@/assets/interior-living-room-brown-walls.jpg";
-import interiorOpenConcept from "@/assets/interior-open-concept-columns.jpg";
+import interiorEntryway from "@/assets/interior-painting-entryway-staircase-bothell.webp";
+import interiorLivingRoom from "@/assets/interior-painting-living-room-brown-walls.webp";
+import interiorOpenConcept from "@/assets/interior-painting-open-concept-columns-trim.webp";
 
 // PFAD images
-import pfadExteriorStaining from "@/assets/pfad-exterior-staining-work.jpg";
-import pfadCrewLadders from "@/assets/pfad-exterior-crew-ladders.jpg";
-import pfadInteriorCeiling from "@/assets/pfad-interior-ceiling-painting.jpg";
-import pfadHighCeiling from "@/assets/pfad-high-ceiling-scaffolding.jpg";
-import pfadTeam from "@/assets/pfad-team-thumbs-up.jpg";
-import pfadProgress from "@/assets/pfad-interior-painting-progress.jpg";
+import pfadExteriorStaining from "@/assets/painter-for-a-day-exterior-staining.webp";
+import pfadCrewLadders from "@/assets/painter-for-a-day-crew-ladders-exterior.webp";
+import pfadInteriorCeiling from "@/assets/painter-for-a-day-ceiling-painting.webp";
+import pfadHighCeiling from "@/assets/painter-for-a-day-high-ceiling-scaffolding.webp";
+import pfadTeam from "@/assets/painter-for-a-day-team-completed-project.webp";
+import pfadProgress from "@/assets/painter-for-a-day-interior-progress.webp";
 
 // Cabinet stock images
-import cabinetStock1 from "@/assets/cabinet-white-kitchen-stock-1.jpg";
-import cabinetStock2 from "@/assets/cabinet-white-kitchen-stock-2.jpg";
-import cabinetStock3 from "@/assets/cabinet-white-kitchen-stock-3.jpg";
+import cabinetStock1 from "@/assets/white-kitchen-cabinets-modern-hardware.webp";
+import cabinetStock2 from "@/assets/professional-kitchen-cabinet-refinishing.webp";
+import cabinetStock3 from "@/assets/white-cabinet-finish-updated-kitchen.webp";
 
 // Cabinet project images
-import cabinetBeforeAfter from "@/assets/cabinet-before-after-refinishing.jpg";
-import cabinetWhiteVanity from "@/assets/cabinet-white-bathroom-vanity.jpg";
-import cabinetAntiqueVanity from "@/assets/cabinet-antique-white-vanity.jpg";
+import cabinetBeforeAfter from "@/assets/cabinet-refinishing-before-after-transformation.webp";
+import cabinetWhiteVanity from "@/assets/cabinet-refinishing-white-bathroom-vanity.webp";
+import cabinetAntiqueVanity from "@/assets/cabinet-refinishing-antique-white-vanity.webp";
 
 // Drywall images
-import drywallLivingRoom from "@/assets/drywall-living-room-prep.jpg";
-import drywallHallway from "@/assets/drywall-hallway-prep.jpg";
-import drywallMudding from "@/assets/drywall-room-mudding.jpg";
-import drywallBathroom from "@/assets/drywall-bathroom-prep.jpg";
-import drywallAccentWall from "@/assets/drywall-accent-wall-painting.jpg";
+import drywallLivingRoom from "@/assets/drywall-repair-living-room-prep.webp";
+import drywallHallway from "@/assets/drywall-repair-hallway-prep-protection.webp";
+import drywallMudding from "@/assets/drywall-mudding-taping-repair.webp";
+import drywallBathroom from "@/assets/drywall-repair-bathroom-walls.webp";
+import drywallAccentWall from "@/assets/drywall-accent-wall-painting-finish.webp";
 
 interface GalleryImage {
   src: string;
@@ -65,7 +65,7 @@ const defaultImages: GalleryImage[] = [
   { src: cabinetAfter, alt: "Freshly refinished kitchen cabinets with white finish" },
   { src: interiorLivingRoom, alt: "Elegant living room with warm brown walls and white wainscoting" },
   { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
-  { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls" },
+  { src: "/images/interior-room-painting-natural-light-bothell.webp", alt: "Interior room with newly painted walls" },
   { src: commercialLobby, alt: "Commercial lobby with blue accent wall and wood ceiling after painting" },
 ];
 
@@ -74,7 +74,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: pfadInteriorCeiling, alt: "Painter rolling a smooth interior ceiling finish" },
     { src: pfadHighCeiling, alt: "Interior foyer with high-ceiling painting in progress" },
     { src: interiorEntryway, alt: "Freshly painted entryway and staircase with dark railing" },
-    { src: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg", alt: "Interior room with newly painted walls and natural light" },
+    { src: "/images/interior-room-painting-natural-light-bothell.webp", alt: "Interior room with newly painted walls and natural light" },
     { src: interiorLivingRoom, alt: "Elegant living room with warm brown walls and white wainscoting" },
     { src: interiorOpenConcept, alt: "Open concept living space with painted columns and crown molding" },
   ],
@@ -91,7 +91,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: cabinetAfter, alt: "Beautifully refinished white kitchen cabinets" },
     { src: cabinetWhiteVanity, alt: "White shaker bathroom vanity with marble countertop after refinishing" },
     { src: cabinetAntiqueVanity, alt: "Antique white shaker vanity cabinet in rustic bathroom" },
-    { src: "/images/wp-content/2025/08/Image-2-1.jpg", alt: "Cabinet refinishing project in progress" },
+    { src: "/images/cabinet-refinishing-project-bothell.webp", alt: "Cabinet refinishing project in progress" },
     { src: cabinetStock3, alt: "Clean white cabinet finish in updated kitchen" },
   ],
   "Drywall Repair": [
@@ -103,7 +103,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: drywallAccentWall, alt: "Accent wall painting over repaired drywall surface" },
   ],
   "Pressure Washing": [
-    { src: "/images/wp-content/2023/11/pressure-washing-company-concrete-cleaning-1.jpg", alt: "Pressure washed concrete driveway with clean results" },
+    { src: "/images/pressure-washing-concrete-driveway-bothell.webp", alt: "Pressure washed concrete driveway with clean results" },
     { src: "/images/wp-content/2023/11/deck-and-fence-cleaning-0-1.jpg", alt: "Deck after professional pressure washing" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-10-1.jpg", alt: "Walkway after pressure washing service" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
