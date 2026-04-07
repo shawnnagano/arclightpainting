@@ -128,8 +128,7 @@ const Pricing = () => {
       {/* Guarantee */}
       <GuaranteeSection />
 
-      {/* Blueprint */}
-      <BlueprintSection />
+      {/* FAQ */}
 
       {/* FAQ */}
       <FAQSection faqs={pricingFAQ} heading="Additional Frequently Asked Questions" />
