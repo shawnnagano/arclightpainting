@@ -47,7 +47,7 @@ const Reviews = () => {
       </section>
 
       {/* Reviews Widget */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-[#f4fbfb]">
         <div className="container mx-auto px-4 max-w-6xl">
           <iframe
             className="lc_reviews_widget"
