@@ -1,55 +1,43 @@
 
 
-# Rebuild Arclight Painting Website
+## Plan: Move Location Pages to Root-Level URLs
 
-## Overview
-Recreate the arclightpainting.com website as a modern React single-page application, matching the design and content from the live site. The site is a painting company website with a homepage containing multiple sections. Subpages (Services, About, Pricing) are currently 404ing on the original site, so we'll focus on the homepage as the primary page and create placeholder routes for the nav links.
+### What Changes
 
-## Design System
-Based on the screenshot, the brand uses:
-- **Dark navy/blue** (#0a1628) for header/backgrounds
-- **Hot pink/magenta** (#e91e8c) for accent color (CTA buttons, highlighted words)
-- **White** for text on dark backgrounds
-- **Light gray** for alternate section backgrounds
-- **Clean, modern sans-serif typography** (likely Inter or similar)
+Remove the `/service-area` directory page and `/service-area/:slug` dynamic route. Instead, add an explicit root-level route for each location (e.g., `/bothell`, `/kirkland`). The ServiceAreaDetail page stays, but now reads its slug from explicit routes. Add a redirect from `/service-area` and `/service-area/:slug` to preserve old links.
 
-## Structure (Files to Create/Modify)
+### Files to Update
 
-### 1. Update design tokens (`src/index.css`)
-- Set primary to dark navy, accent to hot pink/magenta
-- Update CSS variables to match the Arclight brand
+**1. `src/App.tsx`**
+- Remove `/service-area` and `/service-area/:slug` routes
+- Add explicit route for each of the 13 locations at root level (e.g., `<Route path="/bothell" element={<ServiceAreaDetail />} />`)
+- Add redirect: `/service-area/:slug` → `/:slug` and `/service-area` → `/` (or keep as redirect to homepage)
+- ServiceAreaDetail will need to accept slug as a prop or derive it from the path
 
-### 2. Create homepage sections as components:
-- **`src/components/TopBar.tsx`** - Scrolling service ticker bar (House Painting | Exterior Painting | Interior Painting | Cabinet Refinishing | Drywall | Commercial Painting | Painter for a Day)
-- **`src/components/Header.tsx`** - Logo (text-based "ARCLIGHT PAINTING"), nav (HOME, SERVICES dropdown, ABOUT dropdown, PRICING), "Get A Fast Quote" CTA button
-- **`src/components/HeroSection.tsx`** - "PROFESSIONAL HOUSE PAINTERS IN BOTHELL, WA" heading with pink highlighted words, tagline "Real People. Real Purpose. Exceptional Results.", Google review cards carousel
-- **`src/components/TestimonialsSection.tsx`** - "See Why Customers Love Arclight" with review cards (Frank B, Katia S, Donna D, Lauren B, Margie C, Linda C)
-- **`src/components/OwnersSection.tsx`** - Photo placeholder of owners with transition into services
-- **`src/components/ServicesSection.tsx`** - 6 service cards (Interior Painting, Exterior Painting, Cabinet Refinishing, Drywall Repair, Pressure Washing, Commercial Painting) with placeholder images
-- **`src/components/ValuesSection.tsx`** - Three columns: Real People, Real Purpose, Exceptional Results with bullet points
-- **`src/components/GuaranteeSection.tsx`** - 100% Satisfaction Guarantee with subsections
-- **`src/components/BlueprintSection.tsx`** - "Above & Beyond Blueprint" 7-step accordion/tabs
-- **`src/components/GallerySection.tsx`** - Project photo grid with placeholder images
-- **`src/components/CTASection.tsx`** - "Get The Highest Quality House Painting in Bothell" with quote button
-- **`src/components/Footer.tsx`** - Company info, contact, social links
+**2. `src/pages/ServiceAreaDetail.tsx`**
+- Instead of `useParams`, derive slug from `useLocation().pathname` (strip leading `/`)
+- Update canonical URL from `/service-area/${slug}` to `/${slug}`
+- Update breadcrumb URLs to use root-level paths
+- Update fallback redirect from `/service-area` to `/`
 
-### 3. Update `src/pages/Index.tsx`
-- Compose all sections into the full homepage
+**3. `src/components/Footer.tsx`**
+- Change map banner link from `/service-area` to `/bothell` (or homepage)
+- Change location links from `/service-area/${slug}` to `/${slug}`
 
-### 4. Update `src/App.tsx`
-- Add routes for `/services`, `/about`, `/pricing`, `/schedule` (placeholder pages)
+**4. `src/components/SEOHead.tsx`**
+- Update `serviceAreaSchema` URL from `/service-area/${slug}` to `/${slug}`
+- Update city `@id` URLs from `/service-area/...` to `/...`
 
-### 5. Update `index.html`
-- Title: "Arclight Painting - Professional House Painters in Bothell, WA"
-- Meta descriptions updated
+**5. `src/pages/ServiceAreas.tsx`**
+- Can be deleted or kept as a redirect target. Since we're removing the page, it can be deleted.
 
-## Content Source
-All text content extracted from the live site scrape. Images will use Unsplash-style placeholder images relevant to house painting since the WordPress export doesn't contain usable image URLs for direct hotlinking.
+**6. `public/sitemap.xml`**
+- Change all location URLs from `/service-area/bothell` to `/bothell`, etc.
+- Remove the `/service-area` directory entry
 
-## Technical Notes
-- All components use Tailwind CSS and shadcn/ui primitives
-- Responsive design (mobile hamburger menu, stacked sections)
-- Smooth scroll between sections
-- Review carousel using existing UI components
-- No backend needed -- purely static content site
+### Technical Notes
+
+- Each location gets its own explicit `<Route>` to avoid conflicts with other root-level routes like `/about`, `/pricing`
+- ServiceAreaDetail derives the slug from `window.location.pathname` instead of `useParams`
+- Redirect routes ensure any old `/service-area/...` links still work
 
