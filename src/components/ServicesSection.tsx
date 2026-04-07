@@ -2,18 +2,18 @@ import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
-import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
-import commercialHero from "@/assets/commercial-hero.jpg";
-import exteriorHero from "@/assets/exterior-hero.png";
-import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
+import painterForADayHero from "@/assets/one-day-painting-service-bothell-wa.webp";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-bothell-wa.webp";
+import commercialHero from "@/assets/commercial-painting-service-bothell-wa.webp";
+import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
+import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
 const services = [
   {
     title: "Interior Painting",
     description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
     icon: Paintbrush,
-    image: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg",
+    image: "/images/interior-room-painting-natural-light-bothell.webp",
     link: "/services/interior-painting",
   },
   {
@@ -27,14 +27,14 @@ const services = [
     title: "Cabinet Refinishing",
     description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
     icon: PanelTop,
-    image: "/images/wp-content/2025/08/Image-2-1.jpg",
+    image: "/images/cabinet-refinishing-project-bothell.webp",
     link: "/services/cabinet-refinishing",
   },
   {
     title: "Drywall Repair",
     description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
     icon: Hammer,
-    image: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg",
+    image: "/images/drywall-repair-project-bothell-wa.webp",
     link: "/services/drywall-repairs",
   },
   {

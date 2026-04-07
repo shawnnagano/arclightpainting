@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Star } from "lucide-react";
 import SEOHead, { localBusinessSchema, breadcrumbSchema } from "@/components/SEOHead";
-import reviewsHero from "@/assets/reviews-hero.png";
+import reviewsHero from "@/assets/customer-reviews-arclight-painting-bothell.webp";
 import BlueprintSection from "@/components/BlueprintSection";
 import CTASection from "@/components/CTASection";
 

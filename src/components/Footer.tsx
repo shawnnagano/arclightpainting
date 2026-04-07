@@ -1,24 +1,24 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
-import serviceAreasMap from "@/assets/service-areas-map.png";
-import sbaVeteranOwned from "@/assets/sba-veteran-owned.png";
+import serviceAreasMap from "@/assets/service-areas-map-bothell-wa.webp";
+import sbaVeteranOwned from "@/assets/sba-veteran-owned-business-badge.webp";
 import { serviceAreas } from "@/data/serviceAreas";
 
 const badges = [
   {
-    src: "/images/wp-content/2025/09/188-1884205_better-business-bureau-accredited-bussiness-better-business-bureau.jpg",
+    src: "/images/bbb-accredited-business-badge.webp",
     alt: "Better Business Bureau Accredited",
   },
   {
-    src: "/images/wp-content/2025/09/PCA-Logo-CMYK.webp",
+    src: "/images/pca-painting-contractors-association-logo.webp",
     alt: "PCA Member",
   },
   {
-    src: "/images/wp-content/2025/09/Bothell-Kenmore-Chamber-logo-B-CMYK-600-e1532311661719.jpg",
+    src: "/images/bothell-kenmore-chamber-of-commerce-logo.webp",
     alt: "Bothell Kenmore Chamber",
   },
   {
-    src: "/images/wp-content/2025/09/OMWBE-Cerfitied-Badge-Final-01.png",
+    src: "/images/omwbe-certified-business-badge.webp",
     alt: "OMWBE Certified",
   },
   {

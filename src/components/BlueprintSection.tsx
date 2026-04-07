@@ -1,6 +1,6 @@
 import { CheckCircle } from "lucide-react";
 import { Link } from "react-router-dom";
-import blueprintImage from "@/assets/blueprint-photo.jpg";
+import blueprintImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const steps = [
   { step: "1", title: "TrueQuote™ Pricing", rendered: <Link to="/pricing" className="text-foreground hover:text-accent transition-colors duration-200">TrueQuote™ Pricing</Link>, isLink: true },

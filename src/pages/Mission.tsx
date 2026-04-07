@@ -6,7 +6,7 @@ import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { ShieldCheck, Heart, RefreshCw, Eye, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import aboutHeroImg from "@/assets/about-hero.jpg";
+import aboutHeroImg from "@/assets/about-us-arclight-painting-bothell-wa.webp";
 
 const coreValues = [
   {

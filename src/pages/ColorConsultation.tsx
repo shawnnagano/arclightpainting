@@ -11,7 +11,7 @@ import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { colorConsultationFAQ } from "@/data/faqData";
-import colorConfidenceHero from "@/assets/color-confidence-hero.png";
+import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
 const features = [
   { icon: Eye, text: "Virtual or in-home consultation with our professional colorist" },

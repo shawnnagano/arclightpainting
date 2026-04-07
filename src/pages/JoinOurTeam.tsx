@@ -4,8 +4,8 @@ import { Eye } from "lucide-react";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import teamHeroImg from "@/assets/join-team-hero.jpg";
-import vividVisionImg from "@/assets/vivid-vision.jpg";
+import teamHeroImg from "@/assets/join-painting-team-bothell-wa.webp";
+import vividVisionImg from "@/assets/arclight-painting-vivid-vision-mission.webp";
 
 const openings = [
   {

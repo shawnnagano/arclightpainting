@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Phone } from "lucide-react";
 import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
-import blueprintImage from "@/assets/blueprint-photo.jpg";
+import blueprintImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const Schedule = () => {
   const iframeRef = useRef<HTMLIFrameElement>(null);

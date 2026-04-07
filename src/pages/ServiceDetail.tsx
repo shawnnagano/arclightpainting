@@ -2,11 +2,11 @@ import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
-import painterForADayHero from "@/assets/painter-for-a-day-hero.jpg";
-import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-hero.webp";
-import commercialHero from "@/assets/commercial-hero.jpg";
-import exteriorHero from "@/assets/exterior-hero.png";
-import pressureWashingHero from "@/assets/pressure-washing-hero.webp";
+import painterForADayHero from "@/assets/one-day-painting-service-bothell-wa.webp";
+import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-bothell-wa.webp";
+import commercialHero from "@/assets/commercial-painting-service-bothell-wa.webp";
+import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
+import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -36,7 +36,7 @@ const serviceData: Record<string, {
       "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique. Our interior painting services are designed to bring your vision to life with precision, care, and premium materials.",
       "From accent walls to full-home repaints, our skilled team delivers flawless results that make your spaces feel brand new. We handle everything — from careful furniture protection and surface preparation to the final brushstroke.",
     ],
-    image: "/images/wp-content/2025/08/Image-5-1-1024x680.jpg",
+    image: "/images/interior-room-painting-natural-light-bothell.webp",
     benefits: [
       "Free color consultation with our ColorConfidence™ program",
       "Premium paints from Sherwin-Williams and Benjamin Moore",
@@ -70,7 +70,7 @@ const serviceData: Record<string, {
       "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time. Cabinet refinishing is a cost-effective way to give your kitchen a fresh, modern look without the expense of a full remodel.",
       "Our cabinet refinishing process involves careful removal of hardware, thorough cleaning, sanding, priming, and applying multiple coats of premium cabinet-grade paint or stain for a factory-smooth finish.",
     ],
-    image: "/images/wp-content/2025/08/Image-2-1.jpg",
+    image: "/images/cabinet-refinishing-project-bothell.webp",
     benefits: [
       "Fraction of the cost of new cabinets",
       "Factory-smooth finish with premium cabinet paints",
@@ -87,7 +87,7 @@ const serviceData: Record<string, {
       "Drywall may seem simple, but it is a key element for your home's structure and style. Whether you have nail holes, cracks, water damage, or larger patches that need repair, our team delivers seamless results.",
       "We match existing textures and finishes so repairs blend perfectly with the surrounding wall. Combined with our painting services, your walls will look flawless from corner to corner.",
     ],
-    image: "/images/wp-content/2025/08/Image-4-1-1024x683.jpg",
+    image: "/images/drywall-repair-project-bothell-wa.webp",
     benefits: [
       "Patch and repair holes of any size",
       "Texture matching for seamless results",
