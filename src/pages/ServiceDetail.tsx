@@ -251,8 +251,6 @@ const ServiceDetail = () => {
       <OwnersSection />
 
       {/* 4. USPs / Values */}
-
-      {/* 5. USPs / Values */}
       <ValuesSection />
 
       {/* 6. Guarantee */}

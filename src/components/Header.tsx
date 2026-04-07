@@ -4,25 +4,6 @@ import { Button } from "@/components/ui/button";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import arclightLogo from "@/assets/arclight-logo.png";
 
-const tickerServices = [
-  "House Painting",
-  "Exterior Painting",
-  "Interior Painting",
-  "Cabinet Refinishing",
-  "Drywall Repairs",
-  "Commercial Painting",
-  "Painter for a Day",
-  "Popcorn Ceiling Removal",
-  "House Painting",
-  "Exterior Painting",
-  "Interior Painting",
-  "Cabinet Refinishing",
-  "Drywall Repairs",
-  "Commercial Painting",
-  "Painter for a Day",
-  "Popcorn Ceiling Removal",
-];
-
 const navItems = [
   { label: "HOME", href: "/" },
   {

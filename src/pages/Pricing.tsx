@@ -129,8 +129,6 @@ const Pricing = () => {
       <GuaranteeSection />
 
       {/* FAQ */}
-
-      {/* FAQ */}
       <FAQSection faqs={pricingFAQ} heading="Additional Frequently Asked Questions" />
 
       {/* CTA */}
