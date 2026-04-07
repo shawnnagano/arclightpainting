@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
+import arclightLogo from "@/assets/arclight-logo.png";
 
 const tickerServices = [
   "House Painting",
@@ -76,7 +77,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center shrink-0">
             <img
-              src="https://arclightpainting.com/wp-content/uploads/2020/09/ARCLIGHT-LOGO-long-version.png"
+              src={arclightLogo}
               alt="Arclight Painting"
               className="h-12 md:h-14"
             />
