@@ -23,6 +23,8 @@ import exteriorPainterLadder from "@/assets/exterior-painter-ladder-bothell.jpg"
 import exteriorDarkCraftsman from "@/assets/exterior-dark-craftsman-after.jpg";
 import exteriorSidingAfter from "@/assets/exterior-siding-painting-after.jpg";
 
+import exteriorDeckAfter from "@/assets/exterior-deck-painting-after.jpg";
+
 // PFAD images
 import pfadExteriorStaining from "@/assets/pfad-exterior-staining-work.jpg";
 import pfadCrewLadders from "@/assets/pfad-exterior-crew-ladders.jpg";
@@ -77,7 +79,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: exteriorDarkCraftsman, alt: "Dark craftsman home exterior after professional painting" },
     { src: exteriorSidingAfter, alt: "Light blue siding and white trim exterior painting completed" },
     { src: exteriorStaining, alt: "Exterior wood staining project in Kenmore" },
-    { src: pfadCrewLadders, alt: "Arclight crew on ladders painting house exterior" },
+    { src: exteriorDeckAfter, alt: "Freshly painted white deck and railing after exterior painting" },
   ],
   "Cabinet Refinishing": [
     { src: cabinetBeforeAfter, alt: "Kitchen cabinet refinishing before and after transformation" },
