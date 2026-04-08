@@ -69,7 +69,7 @@ const Schedule = () => {
             Built for <span className="text-accent">clarity.</span> Designed for <span className="text-accent">confidence.</span>
           </p>
           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-2xl">
-            A <span className="font-semibold">True<span className="text-accent">Quote</span>™</span> Consultation is more than a quick estimate. It is a professional conversation designed to understand your project, guide your decisions, and give you clear, transparent pricing based on the real scope of work.
+            A professional conversation designed to understand your project, guide your decisions, and give you clear, transparent pricing based on the real scope of work.
           </p>
         </div>
       </section>
