@@ -122,6 +122,11 @@ const App = () => (
             <Route path="/referral-thank-you" element={<Navigate to="/" replace />} />
             <Route path="/home-old" element={<Navigate to="/" replace />} />
             <Route path="/services" element={<Navigate to="/" replace />} />
+            {/* Legacy 404 fixes from Search Console */}
+            <Route path="/home.html" element={<Navigate to="/" replace />} />
+            <Route path="/services-new" element={<Navigate to="/" replace />} />
+            <Route path="/interior-painting-bothell-wa" element={<Navigate to="/services/interior-painting" replace />} />
+            <Route path="/5-paint-color-trends-" element={<Navigate to="/blog" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
