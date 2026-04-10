@@ -21,6 +21,10 @@ const linkedPhrases = [
     phrase: "Pricing Calculator",
     to: "/pricing#pricing-calculator",
   },
+  {
+    phrase: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
+    to: "/how-long-after-painting-can-i-sleep-in-the-room",
+  },
 ] as const;
 
 const highlightedPhrases = [
