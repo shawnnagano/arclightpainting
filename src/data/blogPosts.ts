@@ -27,8 +27,6 @@ Ready to take your walls to the next level? Here are a few neutral paint colors 
 
 ### Light Grays
 
-![French Grey-Pale by Little Greene](/images/wp-content/2025/01/French-Grey-Pale-by-Little-Greene-680x1024.jpg)
-
 *IMAGE: French Grey-Pale by Little Greene.*
 
 Mottershead says her favorite Little Greene neutral is [French Grey-Pale](https://www.littlegreene.us/french-grey-pale). "It is a fabulous alternative to white and can be used in almost any interior space. Containing a little blue and red, this neutral is what's known as a middle tint. It is neither too warm nor too cold and therefore very flexible in lots of different lights and spaces."
@@ -36,8 +34,6 @@ Mottershead says her favorite Little Greene neutral is [French Grey-Pale](https:
 Benjamin Moore [Metro Gray](https://www.benjaminmoore.com/en-us/paint-colors/color/1459/metro-gray) is another paint worth considering, according to interior designer [Kate Dawson](https://decorwhore.com/). Dawson says it's a great neutral with a little bit of warmth. A more cool-toned option is [Sheep's Wool](https://www.benjaminmoore.com/en-us/paint-colors/color/857/sheeps-wool). "I like it when I'm working with a lot of blue," Dawson says.
 
 ### Stone-Inspired Hues
-
-![Clay by Little Greene](/images/wp-content/2025/01/Clay-by-Little-Greene-688x1024.jpg)
 
 *IMAGE: Clay by Little Greene.*
 
@@ -49,15 +45,11 @@ O'Donnell suggests pairing this color with darker shades such as deep green or m
 
 ### Light Pink
 
-![Setting Plaster by Farrow & Ball](/images/wp-content/2025/01/Setting-Plaster-by-Farrow-Ball-681x1024.jpg)
-
 *IMAGE: Setting Plaster by Farrow & Ball.*
 
 While pink has been a major trend in recent years, it's hardly a neutral hue. However, the right shade (such as Farrow & Ball's [Setting Plaster](https://www.farrow-ball.com/us/paint/setting-plaster)) can be considered neutral, says O'Donnell. "This most elegant of pinks, with just a touch of brown to steer clear of any saccharine appearance, is a good decorating friend," he says. "It's a brilliant choice for bathrooms, flattering the complexion, whilst delivering a cozy charm to poorly lit spaces."
 
 ### Pale Yellow
-
-![Tallow by Farrow & Ball](/images/wp-content/2025/01/Tallow-by-Farrow-Ball-725x1024.jpg)
 
 *IMAGE: Tallow by Farrow & Ball.*
 
@@ -100,8 +92,6 @@ Your safety and security should be top priorities. Every painter you let into yo
 
 Excellence isn't just a goal; it should be the standard. From the initial consultation to the final brushstroke, trusted professionals are meticulous about every aspect of the job. They only use top-quality materials, follow industry best practices, and go the extra mile to ensure your complete satisfaction.
 
-![Hire professional painters](/images/wp-content/2025/02/exterior-painting-service-company-near-me-in-bothell-wa-071.jpg)
-
 ### The Arclight Difference: Quality, Trust, and Lasting Results
 
 When you hire professional painters, you're doing more than refreshing your walls—you're investing in craftsmanship and trust. At Arclight Painting, we're not just painters; we're dedicated partners committed to bringing lasting beauty to your home. Our commitment to craftsmanship, integrity, and above-and-beyond service means you get a flawless finish and a stress-free experience every time.
@@ -127,8 +117,6 @@ Understanding what actually sets top quality paints apart—formulation, resin t
 Selecting the wrong paint can be costly in more ways than one. Since COVID, paint prices have steadily increased, with many top-performing options now ranging from $66 to $100 per gallon. If the paint you choose doesn't deliver the finish you envisioned, getting a refund may not be an option—most paint stores won't accept returns or exchanges on custom-mixed colors.
 
 The biggest loss, however, is your time or the cost of hiring a professional. A poor-quality paint prone to scuffing, fading, staining, or peeling will have you repainting far sooner than expected.
-
-![Top-Quality Paints](/images/wp-content/2025/03/CR-Home-Inlinehero-Best-Interior-Paints-0123.jpg)
 
 ### Understanding Paint Grades and Performance
 
@@ -190,15 +178,11 @@ So, should you paint your ceiling and walls the same color? In short: **yes—if
 
 According to color consultants (and many of our happy clients), painting the ceiling the same color as the walls can be surprisingly impactful. "It's one of the best ways to wrap a room in warmth," says interior design expert [Lindsay Morse](https://andimorsedesign.com/). "Especially in rooms where you want a sense of calm or coziness, like a bedroom or den, using a single color eliminates stark contrast and makes the space feel more polished and complete."
 
-![painting wall and ceiling](/images/wp-content/2025/04/Calm-Cozy-Arclight-Painting-Bothell-WA.jpg)
-
 ### It's All About the Mood
 
 Want a cozy retreat? Go for a mid-tone neutral—think soft taupe, gentle greige, or even a muted blush. These tones, when carried from walls up to the ceiling, create a seamless, cocoon-like effect.
 
 In larger rooms, or ones with high ceilings, using the same color throughout can help balance proportions and remove visual distractions.
-
-![High Ceilings](/images/wp-content/2025/04/High-Ceilings-Arclight-Painting-Bothell-WA.jpg)
 
 ### Light and Shadow Play a Role
 
@@ -206,19 +190,13 @@ Painting wall and ceiling the same color doesn't mean your space will look flat 
 
 Ceilings typically appear a shade lighter because they receive more direct light, creating a gentle contrast that adds dimension and softness.
 
-![Natural Light](/images/wp-content/2025/04/Natural-Light-Arclight-Painting-Bothell-WA.jpg)
-
 ### Not Just for Dark Colors
 
 While this look is often used with dramatic colors like deep navy or forest green, it works equally well with lighter tones. For an airy, modern vibe, consider pale neutrals like a soft gray-blue, a sandy cream, or even a warm pale pink.
 
-![Not Just for Dark Colors](/images/wp-content/2025/04/Not-Just-for-Dark-Colors-Arclight-Painting-Bothell-WA.jpg)
-
 ### When One Color Isn't the Right Fit
 
 Of course, painting your ceiling and walls the same color isn't a one-size-fits-all solution. In some spaces—particularly ones that are very small or have low ceilings—a single color can make the room feel a bit enclosed if not chosen carefully.
-
-![Crown Molding](/images/wp-content/2025/04/Crown-Molding-Arclight-Painting-Bothell-WA.jpg)
 
 ## Final Thoughts
 
@@ -246,19 +224,11 @@ Timeless paint colors have the power to completely shift the energy of a room. T
 
 **Soft Whites & Greiges:** Create a peaceful, clean backdrop that feels open and welcoming—perfect for living rooms, hallways, and other gathering spaces where connection happens.
 
-![Soft Whites & Greiges](/images/wp-content/2025/05/Soft-Whites-Greiges-1024x427.jpg)
-
 **Navy & Deep Blues:** These classic tones evoke calm, confidence, and clarity. Consider a navy accent wall in a home office, study, or guest room.
-
-![Navy & Deep Blues](/images/wp-content/2025/05/Navy-Deep-Blues-1024x427.jpg)
 
 **Earthy Neutrals:** Warm taupes, clay-like browns, and sand tones bring a natural elegance to your space. These colors work beautifully in kitchens, bathrooms, and bedrooms.
 
-![Earthy Neutrals](/images/wp-content/2025/05/Earthy-Neutrals-1-1024x427.jpg)
-
 **Inviting Front Door Colors:** Add character and curb appeal with a bold-but-tasteful front door color—rich red, heritage green, or even a deep eggplant.
-
-![Front Door](/images/wp-content/2025/05/Front-Door-1024x427.jpg)
 
 #### ✨ A Veteran-Led Team with a Heart for Home
 
@@ -284,33 +254,23 @@ Not sure which shade to choose? We've gathered the top designer-approved colors 
 
 ### Soft Muted Colors
 
-![Soft Muted Colors](/images/wp-content/2024/11/sherwin-williams-snowbound-694x1024.jpg)
-
 Soft, muted tones are set to dominate this winter, creating cozy, tranquil atmospheres that invite you to unwind. Trina Rogers, a color consultant, points to shades like [**Snowbound by Sherwin-Williams**](https://www.sherwin-williams.com/en-us/color/color-family/white-paint-colors/sw7004-snowbound) as ideal for achieving this effect. Another standout is [**Hale Navy by Benjamin Moore**](https://www.benjaminmoore.com/en-us/paint-colors/color/hc-154/hale-navy).
 
 While cooler grays are falling out of favor, warm neutrals like greige are making a comeback. Rogers recommends shades like *Pale Oak* by Benjamin Moore for its soft warmth that brightens rooms by reflecting natural light.
 
 ### Rich Green Hues
 
-![Rich Green Hues](/images/wp-content/2024/11/Screenshot-2024-11-04-204613.jpg)
-
 There's no better color for winter than a deep, luxurious jewel tone. Shades like **Emerald Isle by Benjamin Moore** add sophistication to any space while remaining versatile enough to feel timeless.
 
 ### Burgundy
-
-![Burgundy](/images/wp-content/2024/11/d6eaa83599e8f5ee9d461b5aa379f546.jpg)
 
 Burgundy is poised to be one of the biggest color trends of 2025, says interior designer Becky Shea. "This rich Bordeaux shade has been a personal favorite of mine for years." Try **Dark Burgundy by Benjamin Moore** for a sophisticated choice.
 
 ### Black or Dark Brown
 
-![Black or Dark Brown](/images/wp-content/2024/11/Screenshot-2024-11-04-205316.jpg)
-
 If you're seeking something bold and dramatic, consider incorporating black or dark brown into your space. **Midsummer Night by Benjamin Moore** is ideal for furniture, accent walls, or architectural features.
 
 ### Warm Neutrals Paired With Bold, Dark Accents
-
-![Warm Neutrals Paired With Bold Accents](/images/wp-content/2024/11/Living-room-color-schemes-and-palettes-for-black-and-white-interior-1024x683.jpg)
 
 For those who crave a bit of drama, mixing warm neutrals with bold accents is a top trend. "Choose a warm neutral for the walls, then add bold accents in furnishings, textiles, or trim."
 
@@ -340,8 +300,6 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 
 **Pro Tip:** Investing in durable finishes upfront can reduce touch-ups by 30–50% over five years.
 
-![Hotel lobby](/images/wp-content/2025/08/hotel-lobby-1024x683.jpg)
-
 ## Best Commercial Paint Finishes for High Traffic Areas
 
 ### Satin Finish
@@ -362,8 +320,6 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 ### Matte and Flat
 - Used sparingly for feature walls where a non-reflective finish is desired.
 - Not recommended for corridors, lobbies, or other high-traffic areas.
-
-![Restaurant](/images/wp-content/2025/08/restaurant-1024x683.jpg)
 
 ### Why Application Standards Matter
 
@@ -410,8 +366,6 @@ The finish of your paint plays a big role in how it looks, how well it stands up
 
 For most interior walls, **eggshell or satin** finishes offer the right balance of style and durability.
 
-![best interior painting](/images/wp-content/2025/08/best-interior-painting-1.jpg)
-
 ## Best White Paint for Interior Walls: Timeless Choices
 
 - [**Benjamin Moore Chantilly Lace (OC-65)**](https://www.benjaminmoore.com/en-us/paint-colors/color/oc-65/chantilly-lace): Crisp and clean, with a hint of cool undertone.
@@ -427,8 +381,6 @@ For most interior walls, **eggshell or satin** finishes offer the right balance 
 
 - [**Sherwin-Williams Multi-Purpose Latex Primer**](https://www.sherwin-williams.com/homeowners/products/multipurpose-interiorexterior-latex-primersealer): Reliable adhesion and stain-blocking.
 - [**INSL-X Aqua Lock Plus Primer**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/insl-x/aqua-lock-plus-primer): A strong acrylic option that seals new drywall beautifully.
-
-![best interior painting](/images/wp-content/2025/08/best-interior-painting-2-1024x683.jpg)
 
 ## Elevate Your Space with Arclight Painting
 
@@ -468,8 +420,6 @@ Your front door is one of the most noticeable features of your home. The paint y
 - **Finish:** Semi-gloss or gloss finishes are best for doors.
 - **Location:** Exterior doors need weather-resistant formulas.
 
-![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color.jpg)
-
 ## Exterior Front Door Paint: Built for Style and Weather Protection
 
 ### Key Qualities of Exterior Front Door Paint
@@ -478,8 +428,6 @@ Your front door is one of the most noticeable features of your home. The paint y
 - **Durability:** Handles frequent contact without chipping.
 - **Color Retention:** Vibrant, long-lasting color year after year.
 - **Easy Maintenance:** Washable, scuff-resistant finish.
-
-![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color-1.jpg)
 
 ## Professional Exterior & Interior Painting: Flawless Results That Last
 
@@ -500,8 +448,6 @@ Learning how to pick a front door color is more than just design—it's about cr
 ## What Professional Interior Painting Actually Includes
 
 Hiring a pro means way more than "just painting." At Arclight Painting, every project includes thorough prep (like drywall repair, caulking, and priming), premium paints, sharp clean lines, and a final walkthrough.
-
-![professional interior painting](/images/wp-content/2025/09/arclight-interior-painting.jpg)
 
 ## Cost Comparison: DIY vs. Pro Interior Painting
 
@@ -529,8 +475,6 @@ If your goal is lasting quality and zero stress, professional interior painting 
 **Pro Timeframe:**
 - One room = done in a day (or less!)
 - Multi-room homes scheduled efficiently
-
-![Time and effort](/images/wp-content/2025/09/time-and-effort.jpg)
 
 ## Quality of Results: Good Enough vs. Wow
 
@@ -590,8 +534,6 @@ Be as detailed as possible: which surfaces, prep work, number of coats, type of 
 ### 3. Timeline & Milestones
 Project start date, estimated completion date, work hours, and how delays will be handled.
 
-![painting contract](/images/wp-content/2025/10/July-2025-Newsletter-7-1024x576.jpg)
-
 ### 4. Payment Terms & Schedule
 Total contract price, payment schedule, accepted payment methods, and late payment penalties.
 
@@ -611,8 +553,6 @@ Liability for damage, procedure for reporting, protecting belongings.
 Workmanship warranty, duration, what's covered vs excluded.
 
 At [Arclight Painting](/about), we put everything in writing—because we stand behind our 100% Satisfaction Guarantee and 5-Year Touch-Ups.
-
-![painting contract](/images/wp-content/2025/10/July-2025-Newsletter-8-1024x576.jpg)
 
 ### 10. Final Inspection, Punch List & Sign-off
 Walk-through inspection, punch list creation, deadline for completing fixes.
@@ -777,8 +717,6 @@ Essential supplies include:
 
 Investing in reliable brushes and rollers helps paint apply smoothly and reduces lint, streaking, and uneven texture.
 
-![how to paint a room](/images/wp-content/2026/01/how-to-paint-a-room-1-1024x576.jpg)
-
 ## 2. Prepare the Room Thoroughly
 
 Preparation is the foundation of a professional-looking paint job.
@@ -891,8 +829,6 @@ Commercial projects often take place in active buildings. Work may need to be co
 
 A professional contractor accounts for these factors upfront, ensuring the project progresses efficiently without compromising safety or quality.
 
-![commercial painting cost](/images/wp-content/2026/01/commercial-painting-cost-1-1024x576.jpg)
-
 ## Commercial Painting Cost: General Framework
 
 While every project is unique, the following commercial painting cost structure provides a general framework:
@@ -956,8 +892,6 @@ Color may appear inconsistent from one wall to another (sign of a bad paint job)
 More serious issues—such as peeling, bubbling, or cracking are signs that the paint isn't properly bonded to the surface. These failures aren't random. They almost always trace back to preparation, product selection, or application methods that weren't suited to the space.
 
 The result isn't just visual disappointment—a bad paint job creates the sense that something you invested in didn't deliver the value you expected.
-
-![bad paint job](/images/wp-content/2026/01/bad-paint-job-1-1024x576.jpg)
 
 ## Why Paint Jobs Fail (and Why They Don't Have To)
 
@@ -1034,8 +968,6 @@ If pure white feels too stark, warm whites or soft off-whites add comfort while 
 Pairing these colors with minimalist decor and light-toned trim creates a calm, modern look.
 
 **Best for:** Bedrooms, home offices, contemporary interiors, and areas where you want subtle elegance.
-
-![small house color ideas](/images/wp-content/2025/12/small-house-color-ideas-1-1024x576.jpg)
 
 ### 3. Pale Blue or Soft Pastel Blue — Airy and Calming
 
@@ -1122,8 +1054,6 @@ A strong exterior sets the tone for your business. Exterior commercial painting 
 - Application of weather-resistant commercial coating
 
 A well-executed exterior paint job enhances curb appeal, protects surfaces from the elements, and contributes to long-term property value.
-
-![types of commercial painting services](/images/wp-content/2025/12/types-of-commercial-painting-services-1-1024x576.jpg)
 
 ### Interior Commercial Painting
 
@@ -1225,8 +1155,6 @@ The right colors support the outcome you want:
 - Support focus and clarity
 
 When the environment aligns with the purpose, everything works better.
-
-![color psychology in commercial painting](/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg)
 
 ## Understanding Color Meaning—And How to Use It Well
 
@@ -1331,8 +1259,6 @@ Peeling paint in commercial buildings affects more than aesthetics:
 - **It shortens the life of the building envelope.** Unprotected surfaces deteriorate faster, leading to more expensive repairs later.
 
 Addressing peeling early is one of the simplest cost-saving decisions a building owner can make.
-
-![peeling paint in commercial buildings](/images/wp-content/2025/11/arclight-painting-7-1024x576.jpg)
 
 ## How to Fix Peeling Paint in Commercial Buildings—The Right Way
 
@@ -1441,8 +1367,6 @@ Here's how long you should ideally wait before sleeping in a recently painted ro
   - **Tip:** If you have limited airflow or if children, pregnant individuals, or anyone with allergies will use the space, give it extra time to clear completely.
 
 **Rule of thumb:** If the smell lingers, wait a little longer. Fresh paint should look great and smell clean too.
-
-![how long after painting can i sleep in the room](/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room-2.jpg)
 
 ## What Affects Drying Time and Air Safety?
 
