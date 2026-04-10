@@ -274,7 +274,7 @@ Arclight isn't just about flawless finishes (though we're pretty great at those 
     slug: "paint-color-trends-2025",
     title: "Paint Color Trends 2025: 5 Stunning Designer Picks Dominating This Winter",
     excerpt: "Paint color trends 2025 are here! Discover the top designer-approved colors to create a cozy, stylish home this winter.",
-    image: "/images/wp-content/2025/01/Newsletter-1024x576.png",
+    image: "/images/wp-content/2025/01/Newsletter-1024x576.jpg",
     date: "2025-08-04",
     content: `**Paint Color Trends 2025** are here, just in time for the season of change. As fall winds down and winter approaches, it's the perfect opportunity to refresh your interiors while spending more time indoors. Whether you're aiming for a serene sanctuary in the bedroom or a sophisticated update in the living room, a fresh coat of paint can completely transform your space.
 
