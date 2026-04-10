@@ -13,7 +13,7 @@ export const blogPosts: BlogPost[] = [
     slug: "neutral-paint-colors",
     title: "4 Stunning Neutral Paint Colors (That Aren't White)",
     excerpt: "Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.",
-    image: "/images/wp-content/2024/12/Main-Article.png",
+    image: "/images/wp-content/2024/12/Main-Article.jpg",
     date: "2026-03-14",
     content: `Neutral paint colors are getting a well-deserved spotlight—and not just the usual shades of white. Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.
 
@@ -112,7 +112,7 @@ When you're ready to transform your space with professionals you can trust, let 
     slug: "top-quality-paints",
     title: "6 Key Insights on Using Top Quality Paints for a Beautiful, Lasting Finish",
     excerpt: "Understanding what sets top quality paints apart—formulation, resin type, finish quality—can make a measurable difference in your investment.",
-    image: "/images/wp-content/2025/03/Choosing-the-Right-Paint.webp",
+    image: "/images/wp-content/2025/03/Choosing-the-Right-Paint.jpg",
     date: "2026-03-14",
     content: `**Top quality paints** are difficult to distinguish when you're standing in front of rows of nearly identical cans at Home Depot or specialty retailers like Sherwin-Williams. Labels promise smooth coverage, rich color, and easy application—but how many truly deliver on long-term durability and consistent performance?
 
@@ -176,7 +176,7 @@ Ready to make a confident choice? [Talk to our team today](/schedule) about top 
     slug: "painting-wall-and-ceiling",
     title: "Painting Wall and Ceiling the Same Color: 5 Game-Changing Ideas",
     excerpt: "Should you paint your ceiling and walls the same color? Here's what the pros think about this bold design move.",
-    image: "/images/wp-content/2025/04/Main-Article.png",
+    image: "/images/wp-content/2025/04/Main-Article.jpg",
     date: "2026-03-14",
     content: `## Here's What the Pros Think
 
@@ -326,7 +326,7 @@ Book with Arclight Painting and experience above-and-beyond service that goes fa
     slug: "best-paint-for-high-traffic-areas",
     title: "The Best Paint for High Traffic Areas: 4 Commercial Interior Finishes That Last",
     excerpt: "Choosing the best paint for high traffic areas isn't just about color—it's about selecting coatings that withstand daily use and minimize maintenance costs.",
-    image: "/images/wp-content/2025/08/feature-image-1024x683.png",
+    image: "/images/wp-content/2025/08/feature-image-1024x683.jpg",
     date: "2025-08-07",
     content: `Choosing the right paint, especially the best paint for high traffic areas, isn't just about color—it's about selecting coatings that withstand daily use, resist stains, and minimize long-term maintenance costs.
 
@@ -394,7 +394,7 @@ Ready to make a lasting improvement?
     slug: "best-interior-painting",
     title: "Best Interior Painting: Transform Your Home with Expert Tips and Trusted Products",
     excerpt: "From choosing the right finish to picking the best primer, learn the essentials of interior painting for lasting beauty and durability.",
-    image: "/images/wp-content/2025/08/best-interior-painting-3-1024x683.png",
+    image: "/images/wp-content/2025/08/best-interior-painting-3-1024x683.jpg",
     date: "2025-08-21",
     content: `A fresh coat of paint can completely change the way your home feels. From a single-room update to a full home makeover, understanding the essentials of the best interior painting ensures lasting beauty and durability.
 
@@ -440,7 +440,7 @@ At [Arclight Painting](/services/interior-painting), our team brings expertise, 
     slug: "how-to-pick-a-front-door-color",
     title: "How to Pick a Front Door Color: Transform Your Home's Curb Appeal",
     excerpt: "Your front door is more than just an entryway—it's the first impression your home makes. Learn how to pick the perfect color.",
-    image: "/images/wp-content/2025/08/how-to-pick-a-front-door-color-2-1024x683.png",
+    image: "/images/wp-content/2025/08/how-to-pick-a-front-door-color-2-1024x683.jpg",
     date: "2025-09-15",
     content: `Your front door is more than just an entryway—it's the first impression your home makes. Understanding how to pick a front door color comes down to balancing your home's design, exterior palette, and the overall look you want to achieve.
 
@@ -491,7 +491,7 @@ Learning how to pick a front door color is more than just design—it's about cr
     slug: "professional-interior-painting",
     title: "DIY vs. Professional Interior Painting: 3 Pros and Cons",
     excerpt: "Should you tackle the painting yourself or hire a professional? Walk through the pros and cons of each option.",
-    image: "/images/wp-content/2025/09/diy-vs-pro-1.png",
+    image: "/images/wp-content/2025/09/diy-vs-pro-1.jpg",
     date: "2025-09-18",
     content: `Professional Interior Painting can completely change how your home feels. Whether you choose to handle it yourself or work with a professional, the right approach depends on your budget, time, energy, and goals.
 
@@ -1009,7 +1009,7 @@ If you're looking for results that feel intentional, not rushed, Arclight Painti
     slug: "small-house-color-ideas",
     title: "Small House Color Ideas to Make Every Room Feel Brighter, Bigger, and More Stylish",
     excerpt: "Transform your compact spaces with the right small house color ideas. Discover colors that open up any room.",
-    image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.png",
+    image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.jpg",
     date: "2025-12-15",
     content: `Small spaces come with big potential—especially when the right small house color ideas are in play. Thoughtful color choices can make rooms feel more open, cohesive, and comfortable, even without changing a single piece of furniture.
 
@@ -1402,7 +1402,7 @@ If you're ready to restore your building with a professional finish that stands 
     slug: "how-long-after-painting-can-i-sleep-in-the-room",
     title: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
     excerpt: "Wondering how long after painting can I sleep in the room? Get expert tips for a healthier space.",
-    image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.png",
+    image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.jpg",
     date: "2025-10-15",
     content: `Painting your room is one of the simplest and most satisfying ways to refresh your space. However, it also raises an important question: **how long after painting can I sleep in the room?**
 
