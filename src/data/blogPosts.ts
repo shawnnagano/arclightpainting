@@ -27,7 +27,7 @@ Ready to take your walls to the next level? Here are a few neutral paint colors 
 
 ### Light Grays
 
-![French Grey-Pale by Little Greene](/images/wp-content/2025/01/French-Grey-Pale-by-Little-Greene-680x1024.webp)
+![French Grey-Pale by Little Greene](/images/wp-content/2025/01/French-Grey-Pale-by-Little-Greene-680x1024.jpg)
 
 *IMAGE: French Grey-Pale by Little Greene.*
 
@@ -37,7 +37,7 @@ Benjamin Moore [Metro Gray](https://www.benjaminmoore.com/en-us/paint-colors/col
 
 ### Stone-Inspired Hues
 
-![Clay by Little Greene](/images/wp-content/2025/01/Clay-by-Little-Greene-688x1024.webp)
+![Clay by Little Greene](/images/wp-content/2025/01/Clay-by-Little-Greene-688x1024.jpg)
 
 *IMAGE: Clay by Little Greene.*
 
@@ -49,7 +49,7 @@ O'Donnell suggests pairing this color with darker shades such as deep green or m
 
 ### Light Pink
 
-![Setting Plaster by Farrow & Ball](/images/wp-content/2025/01/Setting-Plaster-by-Farrow-Ball-681x1024.webp)
+![Setting Plaster by Farrow & Ball](/images/wp-content/2025/01/Setting-Plaster-by-Farrow-Ball-681x1024.jpg)
 
 *IMAGE: Setting Plaster by Farrow & Ball.*
 
@@ -57,7 +57,7 @@ While pink has been a major trend in recent years, it's hardly a neutral hue. Ho
 
 ### Pale Yellow
 
-![Tallow by Farrow & Ball](/images/wp-content/2025/01/Tallow-by-Farrow-Ball-725x1024.webp)
+![Tallow by Farrow & Ball](/images/wp-content/2025/01/Tallow-by-Farrow-Ball-725x1024.jpg)
 
 *IMAGE: Tallow by Farrow & Ball.*
 
@@ -128,7 +128,7 @@ Selecting the wrong paint can be costly in more ways than one. Since COVID, pain
 
 The biggest loss, however, is your time or the cost of hiring a professional. A poor-quality paint prone to scuffing, fading, staining, or peeling will have you repainting far sooner than expected.
 
-![Top-Quality Paints](/images/wp-content/2025/03/CR-Home-Inlinehero-Best-Interior-Paints-0123.webp)
+![Top-Quality Paints](/images/wp-content/2025/03/CR-Home-Inlinehero-Best-Interior-Paints-0123.jpg)
 
 ### Understanding Paint Grades and Performance
 
@@ -190,7 +190,7 @@ So, should you paint your ceiling and walls the same color? In short: **yes—if
 
 According to color consultants (and many of our happy clients), painting the ceiling the same color as the walls can be surprisingly impactful. "It's one of the best ways to wrap a room in warmth," says interior design expert [Lindsay Morse](https://andimorsedesign.com/). "Especially in rooms where you want a sense of calm or coziness, like a bedroom or den, using a single color eliminates stark contrast and makes the space feel more polished and complete."
 
-![painting wall and ceiling](/images/wp-content/2025/04/Calm-Cozy-Arclight-Painting-Bothell-WA.png)
+![painting wall and ceiling](/images/wp-content/2025/04/Calm-Cozy-Arclight-Painting-Bothell-WA.jpg)
 
 ### It's All About the Mood
 
@@ -198,7 +198,7 @@ Want a cozy retreat? Go for a mid-tone neutral—think soft taupe, gentle greige
 
 In larger rooms, or ones with high ceilings, using the same color throughout can help balance proportions and remove visual distractions.
 
-![High Ceilings](/images/wp-content/2025/04/High-Ceilings-Arclight-Painting-Bothell-WA.png)
+![High Ceilings](/images/wp-content/2025/04/High-Ceilings-Arclight-Painting-Bothell-WA.jpg)
 
 ### Light and Shadow Play a Role
 
@@ -206,19 +206,19 @@ Painting wall and ceiling the same color doesn't mean your space will look flat 
 
 Ceilings typically appear a shade lighter because they receive more direct light, creating a gentle contrast that adds dimension and softness.
 
-![Natural Light](/images/wp-content/2025/04/Natural-Light-Arclight-Painting-Bothell-WA.png)
+![Natural Light](/images/wp-content/2025/04/Natural-Light-Arclight-Painting-Bothell-WA.jpg)
 
 ### Not Just for Dark Colors
 
 While this look is often used with dramatic colors like deep navy or forest green, it works equally well with lighter tones. For an airy, modern vibe, consider pale neutrals like a soft gray-blue, a sandy cream, or even a warm pale pink.
 
-![Not Just for Dark Colors](/images/wp-content/2025/04/Not-Just-for-Dark-Colors-Arclight-Painting-Bothell-WA.png)
+![Not Just for Dark Colors](/images/wp-content/2025/04/Not-Just-for-Dark-Colors-Arclight-Painting-Bothell-WA.jpg)
 
 ### When One Color Isn't the Right Fit
 
 Of course, painting your ceiling and walls the same color isn't a one-size-fits-all solution. In some spaces—particularly ones that are very small or have low ceilings—a single color can make the room feel a bit enclosed if not chosen carefully.
 
-![Crown Molding](/images/wp-content/2025/04/Crown-Molding-Arclight-Painting-Bothell-WA.png)
+![Crown Molding](/images/wp-content/2025/04/Crown-Molding-Arclight-Painting-Bothell-WA.jpg)
 
 ## Final Thoughts
 
@@ -292,7 +292,7 @@ While cooler grays are falling out of favor, warm neutrals like greige are makin
 
 ### Rich Green Hues
 
-![Rich Green Hues](/images/wp-content/2024/11/Screenshot-2024-11-04-204613.png)
+![Rich Green Hues](/images/wp-content/2024/11/Screenshot-2024-11-04-204613.jpg)
 
 There's no better color for winter than a deep, luxurious jewel tone. Shades like **Emerald Isle by Benjamin Moore** add sophistication to any space while remaining versatile enough to feel timeless.
 
@@ -304,7 +304,7 @@ Burgundy is poised to be one of the biggest color trends of 2025, says interior 
 
 ### Black or Dark Brown
 
-![Black or Dark Brown](/images/wp-content/2024/11/Screenshot-2024-11-04-205316.png)
+![Black or Dark Brown](/images/wp-content/2024/11/Screenshot-2024-11-04-205316.jpg)
 
 If you're seeking something bold and dramatic, consider incorporating black or dark brown into your space. **Midsummer Night by Benjamin Moore** is ideal for furniture, accent walls, or architectural features.
 
@@ -340,7 +340,7 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 
 **Pro Tip:** Investing in durable finishes upfront can reduce touch-ups by 30–50% over five years.
 
-![Hotel lobby](/images/wp-content/2025/08/hotel-lobby-1024x683.png)
+![Hotel lobby](/images/wp-content/2025/08/hotel-lobby-1024x683.jpg)
 
 ## Best Commercial Paint Finishes for High Traffic Areas
 
@@ -363,7 +363,7 @@ Your walls define the feel of your space—but in high-traffic zones, they're un
 - Used sparingly for feature walls where a non-reflective finish is desired.
 - Not recommended for corridors, lobbies, or other high-traffic areas.
 
-![Restaurant](/images/wp-content/2025/08/restaurant-1024x683.png)
+![Restaurant](/images/wp-content/2025/08/restaurant-1024x683.jpg)
 
 ### Why Application Standards Matter
 
@@ -410,7 +410,7 @@ The finish of your paint plays a big role in how it looks, how well it stands up
 
 For most interior walls, **eggshell or satin** finishes offer the right balance of style and durability.
 
-![best interior painting](/images/wp-content/2025/08/best-interior-painting-1.png)
+![best interior painting](/images/wp-content/2025/08/best-interior-painting-1.jpg)
 
 ## Best White Paint for Interior Walls: Timeless Choices
 
@@ -428,7 +428,7 @@ For most interior walls, **eggshell or satin** finishes offer the right balance 
 - [**Sherwin-Williams Multi-Purpose Latex Primer**](https://www.sherwin-williams.com/homeowners/products/multipurpose-interiorexterior-latex-primersealer): Reliable adhesion and stain-blocking.
 - [**INSL-X Aqua Lock Plus Primer**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/insl-x/aqua-lock-plus-primer): A strong acrylic option that seals new drywall beautifully.
 
-![best interior painting](/images/wp-content/2025/08/best-interior-painting-2-1024x683.png)
+![best interior painting](/images/wp-content/2025/08/best-interior-painting-2-1024x683.jpg)
 
 ## Elevate Your Space with Arclight Painting
 
@@ -479,7 +479,7 @@ Your front door is one of the most noticeable features of your home. The paint y
 - **Color Retention:** Vibrant, long-lasting color year after year.
 - **Easy Maintenance:** Washable, scuff-resistant finish.
 
-![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color-1.png)
+![how to pick a front door color](/images/wp-content/2025/08/how-to-pick-a-front-door-color-1.jpg)
 
 ## Professional Exterior & Interior Painting: Flawless Results That Last
 
@@ -501,7 +501,7 @@ Learning how to pick a front door color is more than just design—it's about cr
 
 Hiring a pro means way more than "just painting." At Arclight Painting, every project includes thorough prep (like drywall repair, caulking, and priming), premium paints, sharp clean lines, and a final walkthrough.
 
-![professional interior painting](/images/wp-content/2025/09/arclight-interior-painting.png)
+![professional interior painting](/images/wp-content/2025/09/arclight-interior-painting.jpg)
 
 ## Cost Comparison: DIY vs. Pro Interior Painting
 
@@ -530,7 +530,7 @@ If your goal is lasting quality and zero stress, professional interior painting 
 - One room = done in a day (or less!)
 - Multi-room homes scheduled efficiently
 
-![Time and effort](/images/wp-content/2025/09/time-and-effort.png)
+![Time and effort](/images/wp-content/2025/09/time-and-effort.jpg)
 
 ## Quality of Results: Good Enough vs. Wow
 
@@ -1035,7 +1035,7 @@ Pairing these colors with minimalist decor and light-toned trim creates a calm, 
 
 **Best for:** Bedrooms, home offices, contemporary interiors, and areas where you want subtle elegance.
 
-![small house color ideas](/images/wp-content/2025/12/small-house-color-ideas-1-1024x576.png)
+![small house color ideas](/images/wp-content/2025/12/small-house-color-ideas-1-1024x576.jpg)
 
 ### 3. Pale Blue or Soft Pastel Blue — Airy and Calming
 
@@ -1442,7 +1442,7 @@ Here's how long you should ideally wait before sleeping in a recently painted ro
 
 **Rule of thumb:** If the smell lingers, wait a little longer. Fresh paint should look great and smell clean too.
 
-![how long after painting can i sleep in the room](/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room-2.png)
+![how long after painting can i sleep in the room](/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room-2.jpg)
 
 ## What Affects Drying Time and Air Safety?
 
