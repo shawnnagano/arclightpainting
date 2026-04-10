@@ -69,12 +69,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "It depends on the number of rooms, the amount of prep work, drying conditions, and whether ceilings, trim, or doors are included. We provide a project timeline before work begins.",
     },
     {
-      question: "How soon can I use the room again?",
-      answer: "Rooms are often usable shortly after surfaces are dry, but full cure takes longer. We will advise you on when it is safe to move furniture back, hang artwork, or clean painted surfaces.",
-    },
-    {
-      question: "Will there be a strong odor?",
-      answer: "Odor levels depend on the products used, ventilation, and the size of the project. We can recommend lower-odor products when that is a priority.",
+      question: "After painting a room, how long should I wait before sleeping in it?",
+      answer: "With standard latex paint and good ventilation, most rooms are safe to sleep in after 24 hours. Low-VOC and zero-VOC paints can cut that wait to just a few hours. Oil-based paints take longer — 48 to 72 hours is recommended. Factors like humidity, airflow, and the number of coats also affect dry time and air quality. We always recommend keeping windows open and fans running to speed things up. For a deeper dive, check out our blog: How Long After Painting Can I Sleep in the Room? 4 Expert Tips.",
     },
     {
       question: "Can you help me choose paint sheen?",
