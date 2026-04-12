@@ -10,11 +10,12 @@ interface HeroSectionProps {
   heroTitle?: string;
   heroTitleNode?: React.ReactNode;
   heroDescription?: string;
+  heroTagline?: string;
   backgroundPosition?: string;
   backgroundSize?: string;
 }
 
-const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode, heroDescription, backgroundPosition, backgroundSize }: HeroSectionProps) => {
+const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode, heroDescription, heroTagline, backgroundPosition, backgroundSize }: HeroSectionProps) => {
   const bgImage = heroImage || "/images/hiyuse-bothell-wa-landmark.webp";
   const displayTitle = heroTitle || "Professional House Painters";
 
@@ -56,9 +57,13 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
               )}
             </h1>
             <p className="text-xl md:text-2xl font-semibold mb-8">
-              Real <span className="text-accent">People.</span> Real{" "}
-              <span className="text-accent">Purpose.</span> Exceptional{" "}
-              <span className="text-accent">Results.</span>
+              {heroTagline ? heroTagline : (
+                <>
+                  Real <span className="text-accent">People.</span> Real{" "}
+                  <span className="text-accent">Purpose.</span> Exceptional{" "}
+                  <span className="text-accent">Results.</span>
+                </>
+              )}
             </p>
           </motion.div>
 

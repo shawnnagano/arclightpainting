@@ -226,6 +226,7 @@ const ServiceDetail = () => {
         heroImage={service.image}
         heroTitle={`Professional ${service.title}`}
         heroDescription={service.heroDescription}
+        heroTagline={service.tagline}
         {...(slug === "painter-for-a-day" ? {
           backgroundPosition: "center",
           heroTitleNode: <>Professional<br /><span className="text-accent">One-Day Painting</span><br />Service in Bothell</>
