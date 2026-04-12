@@ -334,6 +334,10 @@ export const pricingFAQ: FAQItem[] = [
     question: "Can I use your pricing calculator to get an instant estimate?",
     answer: "Yes. Our Pricing Calculator gives you a ballpark estimate in minutes based on project type, size, and scope. When you are ready for exact pricing, schedule a free TrueQuote™ consultation for a detailed, fixed-price proposal.",
   },
+  {
+    question: "Do you also do commercial quotes?",
+    answer: "Yes. We provide commercial painting estimates for offices, retail spaces, restaurants, hotels, and other commercial properties. Our TrueQuote™ process applies to commercial projects the same way it does for residential — transparent, itemized, and scope-specific. Visit our commercial painting page or schedule a consultation to discuss your project.",
+  },
 ];
 
 export const colorConsultationFAQ: FAQItem[] = [
