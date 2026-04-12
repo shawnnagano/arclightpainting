@@ -30,19 +30,19 @@ export const generalFAQ: FAQItem[] = [
   },
   {
     question: "How soon can you start?",
-    answer: "Scheduling depends on the season, project size, and current workload. We will give you the most accurate timeline during your estimate.",
+    answer: "Most projects can be scheduled within one to three weeks, depending on the season, project size, and current workload. We will give you the most accurate timeline during your estimate.",
   },
   {
     question: "How long will my project take?",
-    answer: "Project length depends on the size and scope of the work, the amount of prep and repairs needed, and drying conditions. With PowerFlex™ Scheduling, we turn that into a clear, realistic plan, using accurate labor forecasting tied to your TrueQuote™, smart crew sizing, and professional coordination built around your calendar. That means clear expectations, daily updates, on-time arrival, and a project that stays on track from start to finish.",
+    answer: "Most interior painting projects take two to five days, and exterior projects may take three to seven days or more depending on size, prep, and weather. With PowerFlex™ Scheduling, we turn that into a clear, realistic plan — using accurate labor forecasting, smart crew sizing, and professional coordination built around your calendar.",
   },
   {
     question: "How do I choose the right paint colors?",
-    answer: "Color regret is real, which is why our ColorConfidence™ Consultation is designed to make the process easier and more certain. We guide you through the decision with a virtual consultation with our in-house colorist, visual mockups of your real home, custom color matching, and on-site test patches when needed. You will also receive a full ColorConfidence™ Blueprint with your final color specs and placement plan, so you can choose confidently and paint beautifully.",
+    answer: "Start with a ColorConfidence™ Consultation — a guided process that includes expert color selection, visual mockups of your real home, custom color matching, and on-site test patches when needed. You will also receive a full ColorConfidence™ Blueprint with your final color specs and placement plan, so you can choose confidently and paint beautifully.",
   },
   {
     question: "How much will painting my house cost?",
-    answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    answer: "The cost depends on the size of your home, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is built around your specific project with clear, itemized pricing and no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
   },
 ];
 
@@ -77,8 +77,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. We will guide you on flat, eggshell, satin, semi-gloss, and other finish options based on appearance, durability, and ease of cleaning.",
     },
     {
-      question: "How much does interior painting cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your interior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does interior painting cost?",
+      answer: "The cost of interior painting depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "exterior-painting": [
@@ -115,8 +115,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. Those surfaces can often be included as part of a broader exterior project or quoted separately.",
     },
     {
-      question: "How much does exterior painting cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your exterior painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does exterior painting cost?",
+      answer: "The cost of exterior painting depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "cabinet-refinishing": [
@@ -153,8 +153,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Hardware replacement or reinstall can often be included, depending on the project.",
     },
     {
-      question: "How much does cabinet refinishing cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your cabinet refinishing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does cabinet refinishing cost?",
+      answer: "The cost of cabinet refinishing depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "drywall-repairs": [
@@ -187,8 +187,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "It can create dust, but we take steps to contain and clean the work area as much as possible.",
     },
     {
-      question: "How much does drywall repair cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your drywall repair price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does drywall repair cost?",
+      answer: "The cost of drywall repair depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "pressure-washing": [
@@ -217,8 +217,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Often, yes. Clean surfaces are an important part of proper paint preparation.",
     },
     {
-      question: "How much does pressure washing cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your pressure washing price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does pressure washing cost?",
+      answer: "The cost of pressure washing depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "commercial-painting": [
@@ -247,8 +247,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Yes. Maintenance painting can help commercial properties stay clean, consistent, and protected over time.",
     },
     {
-      question: "How much does commercial painting cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your commercial painting price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does commercial painting cost?",
+      answer: "The cost of commercial painting depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "painter-for-a-day": [
@@ -307,8 +307,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "If the ceiling is older, testing for asbestos may be appropriate before disturbing the material. We can discuss that during the estimate process.",
     },
     {
-      question: "How much does popcorn ceiling removal cost?",
-      answer: "Every TrueQuote™ is built around the true scope of your project, with clear, itemized pricing and no hidden fees. Your popcorn ceiling removal price is based on labor, paint and materials, and the full scope of work. Visit our Pricing Page for more details. We also have a Pricing Calculator that you can use to get a ballpark estimate.",
+    question: "How much does popcorn ceiling removal cost?",
+      answer: "The cost of popcorn ceiling removal depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
 };
@@ -339,7 +339,7 @@ export const pricingFAQ: FAQItem[] = [
 export const colorConsultationFAQ: FAQItem[] = [
   {
     question: "How does ColorConfidence™ Consultation work?",
-    answer: "Our ColorConfidence™ Consultation is designed to take the stress and second-guessing out of choosing colors. Depending on your needs, we guide you through expert color selection, visual clarity, and a plan you can move forward with confidently.",
+    answer: "You meet with our in-house colorist for a virtual or in-home session where we evaluate your space, discuss your goals, and guide you through expert color selection with visual mockups and test patches when needed. The result is a clear, confident color plan you can move forward with.",
   },
   {
     question: "How much does ColorConfidence™ Consultation cost?",
@@ -347,11 +347,11 @@ export const colorConsultationFAQ: FAQItem[] = [
   },
   {
     question: "Do I need an in-home consultation, or is virtual enough?",
-    answer: "That depends on the level of support you want. A virtual consultation is a great fit for many projects and is often enough to create clarity and direction. An in-home consultation is ideal if you want more hands-on guidance, help evaluating lighting and surroundings in person, or support making final decisions with greater confidence.",
+    answer: "A virtual consultation is enough for most projects and provides expert guidance on color direction. An in-home consultation is ideal if you want hands-on support evaluating lighting, surroundings, and final choices in person.",
   },
   {
     question: "What if I already have a color in mind?",
-    answer: "That is a great starting point. ColorConfidence™ is not just for people starting from scratch, it is also for homeowners who want to refine an idea, compare options, confirm undertones, or make sure the final choice works beautifully in the space.",
+    answer: "We can refine it. ColorConfidence™ helps you compare options, confirm undertones, and make sure your choice works beautifully in the space — even if you are starting with a strong idea.",
   },
   {
     question: "Can you help if I am deciding between several colors?",
@@ -359,7 +359,7 @@ export const colorConsultationFAQ: FAQItem[] = [
   },
   {
     question: "Will this help me avoid choosing the wrong color?",
-    answer: "That is exactly the goal. ColorConfidence™ is designed to reduce doubt and help you make informed, confident decisions before painting begins, so you can avoid costly changes and color regret later.",
+    answer: "Yes. ColorConfidence™ is designed to reduce doubt and help you make informed, confident decisions before painting begins, so you avoid costly changes and color regret later.",
   },
   {
     question: "Can you help match existing paint colors in my home?",
@@ -367,6 +367,6 @@ export const colorConsultationFAQ: FAQItem[] = [
   },
   {
     question: "What happens after the consultation?",
-    answer: "You leave with a ColorConfidence™ Blueprint which provides clearer direction to your painter and a more confident plan for your project. The goal is not just to give you ideas, but to help you make decisions you feel good about before the painting starts.",
+    answer: "You receive a ColorConfidence™ Blueprint — a document with your final color specs, placement plan, and product recommendations. It gives your painter clearer direction and gives you a confident plan before the painting starts.",
   },
 ];
