@@ -18,6 +18,13 @@ import commercial5 from "@/assets/commercial-office-accent-wall-painting.webp";
 import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
 import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
+// Pressure washing project images
+import pwHouseExterior from "@/assets/pressure-washing-house-exterior-bothell.png";
+import pwSidewalk from "@/assets/pressure-washing-sidewalk-cleaning.webp";
+import pwDriveway from "@/assets/pressure-washing-driveway-surface-cleaner.jpg";
+import pwDeckClean from "@/assets/pressure-washing-deck-after-clean.jpg";
+import pwDeckStairs from "@/assets/pressure-washing-deck-stairs-bothell.jpg";
+
 // Exterior project images
 import exteriorPainterLadder from "@/assets/exterior-painter-on-ladder-bothell-wa.webp";
 import exteriorDarkCraftsman from "@/assets/exterior-painting-dark-craftsman-home-after.webp";
@@ -103,12 +110,12 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: drywallAccentWall, alt: "Accent wall painting over repaired drywall surface" },
   ],
   "Pressure Washing": [
-    { src: "/images/pressure-washing-concrete-driveway-bothell.webp", alt: "Pressure washed concrete driveway with clean results" },
-    { src: "/images/wp-content/2023/11/deck-and-fence-cleaning-0-1.jpg", alt: "Deck after professional pressure washing" },
-    { src: "/images/wp-content/2023/11/Pressure-Washing-Company-10-1.jpg", alt: "Walkway after pressure washing service" },
+    { src: pwHouseExterior, alt: "Arclight Painting crew pressure washing house exterior siding" },
+    { src: pwSidewalk, alt: "Professional pressure washing a commercial sidewalk" },
+    { src: pwDriveway, alt: "Surface cleaner pressure washing a concrete driveway" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
-    { src: pressureWashingHero, alt: "Exterior surface being cleaned with pressure washing equipment" },
-    { src: "/images/wp-content/2023/11/vinyl-siding-cleaning-house-washing-1.jpg", alt: "Vinyl siding cleaning and house washing" },
+    { src: pwDeckClean, alt: "Freshly pressure washed deck with clean finish" },
+    { src: pwDeckStairs, alt: "Pressure washing deck stairs and railing" },
   ],
   "Commercial Painting": [
     { src: commercialHero, alt: "Commercial steel structure painting from scissor lift" },
