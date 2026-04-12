@@ -539,14 +539,14 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* 3. Blueprint (combined with process) */}
+      {/* 3. Testimonials */}
+      <TestimonialsSection serviceName={service.title} />
+
+      {/* 4. Blueprint (combined with process) */}
       <BlueprintSection
         serviceName={service.title}
         steps={service.blueprintSteps}
       />
-
-      {/* 4. Testimonials */}
-      <TestimonialsSection serviceName={service.title} />
 
       {/* 5. Gallery */}
       <GallerySection serviceName={service.title} />
