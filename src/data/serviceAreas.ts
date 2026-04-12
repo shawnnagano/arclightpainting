@@ -1,5 +1,19 @@
 import type { FAQItem } from "@/data/faqData";
 
+import bothellHero from "@/assets/bothell-wa-hero.webp";
+import kenmoreHero from "@/assets/kenmore-wa-hero.webp";
+import woodinvilleHero from "@/assets/woodinville-wa-hero.webp";
+import kirklandHero from "@/assets/kirkland-wa-hero.webp";
+import millCreekHero from "@/assets/mill-creek-wa-hero.webp";
+import everettHero from "@/assets/everett-wa-hero.webp";
+import cottageLakeHero from "@/assets/cottage-lake-wa-hero.webp";
+import bellevueHero from "@/assets/bellevue-wa-hero.webp";
+import unionHillHero from "@/assets/union-hill-novelty-hill-wa-hero.webp";
+import redmondHero from "@/assets/redmond-wa-hero.webp";
+import clearviewHero from "@/assets/clearview-wa-hero.webp";
+import lakeForestParkHero from "@/assets/lake-forest-park-wa-hero.webp";
+import seattleHero from "@/assets/seattle-wa-hero.webp";
+
 export interface ServiceArea {
   name: string;
   slug: string;
@@ -12,6 +26,7 @@ export interface ServiceArea {
   heroDescription: string;
   neighborhoods: string[];
   cityFaqs: FAQItem[];
+  cityServiceHighlights?: string[];
 }
 
 export const serviceAreas: ServiceArea[] = [
