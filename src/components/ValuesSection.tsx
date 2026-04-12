@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Users, Heart, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const values = [
   {
@@ -13,6 +14,8 @@ const values = [
       "Empowered leadership",
       "Trusted professionals",
     ],
+    link: "/about",
+    linkLabel: "Meet Our Team →",
   },
   {
     icon: Heart,
@@ -25,6 +28,8 @@ const values = [
       "Ongoing support",
       "Guaranteed peace of mind",
     ],
+    link: "/mission",
+    linkLabel: "Our Mission →",
   },
   {
     icon: Award,
@@ -38,6 +43,8 @@ const values = [
       "Professional from start to finish",
       "Worth the investment",
     ],
+    link: "/reviews",
+    linkLabel: "See Our Reviews →",
   },
 ];
 
@@ -98,6 +105,12 @@ const ValuesSection = () => {
                   </li>
                 ))}
               </ul>
+              <Link
+                to={v.link}
+                className="inline-block mt-5 text-accent font-semibold text-sm hover:underline"
+              >
+                {v.linkLabel}
+              </Link>
             </motion.div>
           ))}
         </div>

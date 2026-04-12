@@ -28,12 +28,6 @@ const OwnersSection = ({ cityName }: OwnersSectionProps) => {
             <p className="text-muted-foreground leading-relaxed max-w-xl">
               As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting to serve our community through honesty, craftsmanship, and above-and-beyond care. Every project reflects our commitment to doing the job right and treating our customers like friends, not transactions.{cityMention}
             </p>
-            <Link
-              to="/about"
-              className="inline-block mt-4 text-accent font-semibold hover:underline"
-            >
-              Find out more about us →
-            </Link>
           </div>
         </div>
       </div>
