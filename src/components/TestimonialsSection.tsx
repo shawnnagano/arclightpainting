@@ -340,15 +340,6 @@ const TestimonialsSection = ({ cityName, serviceName }: TestimonialsSectionProps
             </Button>
           </div>
         </div>
-
-        {/* Read All Reviews */}
-        <div className="text-center mt-8">
-          <Link to="/reviews">
-            <Button variant="outline" className="font-semibold">
-              Read All Reviews
-            </Button>
-          </Link>
-        </div>
       </div>
     </section>
   );
