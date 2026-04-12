@@ -56,7 +56,6 @@ const Index = () => {
         heroImage={homeHero}
         heroDescription="Bothell's veteran-owned hometown painting company, built on character, excellence, and above-and-beyond service."
       />
-      <TestimonialsSection />
 
       {/* Why We Love Working in Bothell */}
       <section className="py-16 bg-background">
@@ -81,6 +80,7 @@ const Index = () => {
         </div>
       </section>
 
+      <TestimonialsSection />
       <OwnersSection />
       <ValuesSection />
       <GuaranteeSection />
