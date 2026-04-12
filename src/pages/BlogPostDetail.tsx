@@ -2,7 +2,7 @@ import { useLocation, Navigate, Link } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CTASection from "@/components/CTASection";
-import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { breadcrumbSchema, articleSchema } from "@/components/SEOHead";
 import { blogPosts } from "@/data/blogPosts";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
@@ -22,27 +22,13 @@ const BlogPostDetail = () => {
         description={post.excerpt}
         canonical={`/${post.slug}`}
         jsonLd={[
-          {
-            "@context": "https://schema.org",
-            "@type": "BlogPosting",
-            headline: post.title,
-            description: post.excerpt,
-            image: post.image,
-            datePublished: post.date,
-            url: `https://arclightpainting.com/${post.slug}`,
-            author: {
-              "@type": "Organization",
-              name: "Arclight Painting",
-            },
-            publisher: {
-              "@type": "Organization",
-              name: "Arclight Painting",
-              logo: {
-                "@type": "ImageObject",
-                url: "/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
-              },
-            },
-          },
+          articleSchema(
+            post.title,
+            post.excerpt,
+            post.slug,
+            post.date,
+            post.image.startsWith("http") ? post.image : `https://arclightpainting.com${post.image}`,
+          ),
           breadcrumbSchema([
             { name: "Home", url: "/" },
             { name: "Blog", url: "/blog" },

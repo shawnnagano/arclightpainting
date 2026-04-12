@@ -203,3 +203,30 @@ export const serviceAreaSchema = (areaName: string, slug: string, description: s
     },
   },
 });
+
+export const articleSchema = (title: string, description: string, slug: string, datePublished: string, image: string) => ({
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: title,
+  description,
+  image,
+  datePublished,
+  url: `https://arclightpainting.com/${slug}`,
+  author: {
+    "@type": "Organization",
+    name: "Arclight Painting",
+    url: "https://arclightpainting.com",
+  },
+  publisher: {
+    "@type": "Organization",
+    name: "Arclight Painting",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://arclightpainting.com/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": `https://arclightpainting.com/${slug}`,
+  },
+});
