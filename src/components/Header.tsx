@@ -18,6 +18,7 @@ const navItems = [
       { label: "Pressure Washing", href: "/services/pressure-washing" },
       { label: "Commercial Painting", href: "/services/commercial-painting" },
       { label: "Painter for a Day", href: "/services/painter-for-a-day" },
+      { label: "Color Consultation", href: "/services/color-consultation" },
     ],
   },
   {
