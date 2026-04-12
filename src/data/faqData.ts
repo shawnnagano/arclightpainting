@@ -149,7 +149,11 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Hardware replacement or reinstall can often be included, depending on the project.",
     },
     {
-    question: "How much does cabinet refinishing cost?",
+      question: "How do you choose which paints to use for cabinets?",
+      answer: "We select cabinet-grade coatings based on independent testing, adhesion performance, and durability under daily kitchen use — not brand partnerships. The right product ensures a factory-smooth finish that holds up to moisture, grease, and wear.",
+    },
+    {
+      question: "How much does cabinet refinishing cost in Bothell?",
       answer: "The cost of cabinet refinishing depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
