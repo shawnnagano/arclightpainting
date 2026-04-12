@@ -67,17 +67,18 @@ const services = [
   },
 ];
 
-const ServicesSection = ({ hideHeader = false }: { hideHeader?: boolean }) => {
+const ServicesSection = ({ hideHeader = false, cityName }: { hideHeader?: boolean; cityName?: string }) => {
+  const locationText = cityName ? ` in ${cityName}` : "";
   return (
     <section id="services" className="pt-8 pb-20 bg-background">
       <div className="container mx-auto px-4">
         {!hideHeader && (
           <>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-              Our <span className="text-accent">Services</span>
+              Our <span className="text-accent">Services</span>{cityName ? <> in <span className="text-accent">{cityName}</span></> : ""}
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
-              From residential homes to commercial spaces, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
+              From residential homes to commercial spaces{locationText}, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
             </p>
           </>
         )}
