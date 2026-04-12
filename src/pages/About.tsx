@@ -121,7 +121,7 @@ const About = () => {
     <div className="min-h-screen bg-background">
       <SEOHead
         title="About Us - Meet the Arclight Painting Team | Bothell, WA"
-        description="Meet the Arclight Painting team — 25 years of service, veteran-owned, and built on trust. Learn about our leadership, values, and commitment to quality house painting in Bothell, WA."
+        description="Meet the team behind Bothell's most trusted painting company. Veteran-owned with 25+ years of experience, every Arclight painter is trained, background-checked, and committed to quality."
         canonical="/about"
         jsonLd={breadcrumbSchema([
           { name: "Home", url: "/" },
@@ -218,7 +218,7 @@ const About = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            Trusted <span className="text-accent">Professionals</span>
+            What Sets Us Apart as a <span className="text-accent">Painting Company</span>
           </h2>
           <div className="grid md:grid-cols-3 gap-8 mb-12">
             {[
