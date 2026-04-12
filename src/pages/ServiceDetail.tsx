@@ -1,3 +1,4 @@
+import { type ReactNode } from "react";
 import { useParams, Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -21,7 +22,7 @@ import { serviceFAQs } from "@/data/faqData";
 
 const serviceData: Record<string, {
   title: string;
-  tagline: string;
+  tagline: ReactNode;
   heroDescription: string;
   sectionHeadline: string;
   description: string[];
@@ -30,7 +31,7 @@ const serviceData: Record<string, {
 }> = {
   "interior-painting": {
     title: "Interior Painting",
-    tagline: "Transform Your Living Spaces",
+    tagline: <>Transform Your <span className="text-accent">Living Spaces</span></>,
     heroDescription: "Premium interior painting that brings your vision to life — meticulous prep, flawless finishes, zero stress.",
     sectionHeadline: "Every Detail, Every Room, Done Right",
     description: [
@@ -49,7 +50,7 @@ const serviceData: Record<string, {
   },
   "exterior-painting": {
     title: "Exterior Painting",
-    tagline: "Boost Your Curb Appeal",
+    tagline: <>Boost Your <span className="text-accent">Curb Appeal</span></>,
     heroDescription: "Weather-tough exterior painting built to protect your home and turn heads for years to come.",
     sectionHeadline: "Protection That Looks as Good as It Performs",
     description: [
@@ -68,7 +69,7 @@ const serviceData: Record<string, {
   },
   "cabinet-refinishing": {
     title: "Cabinet Refinishing",
-    tagline: "Refresh Your Kitchen Without the Remodel",
+    tagline: <>Refresh Your Kitchen <span className="text-accent">Without the Remodel</span></>,
     heroDescription: "Factory-smooth cabinet finishes that transform your kitchen at a fraction of the cost of replacement.",
     sectionHeadline: "A New Kitchen Feel — Without the Remodel Price Tag",
     description: [
@@ -87,7 +88,7 @@ const serviceData: Record<string, {
   },
   "drywall-repairs": {
     title: "Drywall Repair",
-    tagline: "Seamless Walls, Every Time",
+    tagline: <><span className="text-accent">Seamless</span> Walls, Every Time</>,
     heroDescription: "Expert drywall repair that disappears into your walls — matched, blended, and paint-ready.",
     sectionHeadline: "Invisible Repairs That Make Walls Look New Again",
     description: [
@@ -106,7 +107,7 @@ const serviceData: Record<string, {
   },
   "pressure-washing": {
     title: "Pressure Washing",
-    tagline: "Restore Your Home's Clean, Fresh Look",
+    tagline: <>Restore Your Home's <span className="text-accent">Clean, Fresh Look</span></>,
     heroDescription: "Strip away years of grime, mold, and buildup — your home's fresh start begins here.",
     sectionHeadline: "Years of Buildup Gone in Hours",
     description: [
@@ -125,7 +126,7 @@ const serviceData: Record<string, {
   },
   "commercial-painting": {
     title: "Commercial Painting",
-    tagline: "Commercial Painting Tailored to Your Business",
+    tagline: <>Painting Tailored to <span className="text-accent">Your Business</span></>,
     heroDescription: "Professional results on your schedule — minimal disruption, maximum impact for your space.",
     sectionHeadline: "Your Business Stays Open. Your Space Gets Transformed.",
     description: [
@@ -144,7 +145,7 @@ const serviceData: Record<string, {
   },
   "painter-for-a-day": {
     title: "One-Day Painting Service",
-    tagline: "One Professional. One Day. One Fresh New Look.",
+    tagline: <>One Professional. One Day. One <span className="text-accent">Fresh New Look.</span></>,
     heroDescription: "A skilled, background-checked painter dedicated to your home for a full 8 hours. No estimate needed.",
     sectionHeadline: "Your Checklist. Our Painter. One Productive Day.",
     description: [
@@ -165,7 +166,7 @@ const serviceData: Record<string, {
   },
   "popcorn-ceiling-removal": {
     title: "Popcorn Ceiling Removal",
-    tagline: "Modernize Your Home — One Ceiling at a Time",
+    tagline: <><span className="text-accent">Modernize</span> Your Home — One Ceiling at a Time</>,
     heroDescription: "From dated texture to smooth, modern ceilings — full removal, repair, and painting in one project.",
     sectionHeadline: "Dated Ceilings Out. Smooth, Modern Finishes In.",
     description: [
