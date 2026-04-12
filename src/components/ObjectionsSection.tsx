@@ -8,9 +8,10 @@ export interface Objection {
 
 interface ObjectionsSectionProps {
   objections: Objection[];
+  serviceName?: string;
 }
 
-const ObjectionsSection = ({ objections }: ObjectionsSectionProps) => {
+const ObjectionsSection = ({ objections, serviceName }: ObjectionsSectionProps) => {
   return (
     <section className="py-16 bg-background">
       <div className="container mx-auto px-4">
@@ -22,7 +23,7 @@ const ObjectionsSection = ({ objections }: ObjectionsSectionProps) => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-2xl md:text-3xl font-bold mb-10">
-              Common Concerns
+              Common {serviceName || ""} Concerns
             </h2>
           </motion.div>
 
