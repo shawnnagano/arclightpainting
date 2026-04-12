@@ -45,8 +45,13 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Bothell, WA. Interior, exterior, cabinet refinishing & more. Arclight Painting delivers quality craftsmanship with our Above & Beyond Blueprint™.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Main_Street%2C_Bothell%2C_WA_02.jpg/1280px-Main_Street%2C_Bothell%2C_WA_02.jpg",
+    heroImage: bothellHero,
     heroDescription: "Bothell's hometown painting company — delivering meticulous craftsmanship to our own neighbors since day one.",
+    cityServiceHighlights: [
+      "Bothell homes range from 1970s cedar-sided split-levels in established neighborhoods to modern fiber-cement builds in Canyon Park. Each siding type demands different prep — cedar needs careful scraping and mildew treatment, while newer Hardie board needs proper primer adhesion. Our crew knows these homes because we live here and have painted hundreds of them.",
+      "The Pacific Northwest climate hits Bothell hard — north-facing walls stay damp well into spring, and moss can take hold on trim and soffits within a single wet season. We use moisture-resistant primers and mildew-inhibiting topcoats specifically formulated for prolonged rain exposure, which is why our exterior work lasts longer than the industry average.",
+      "Many Bothell neighborhoods like Canyon Park, Queensgate, and North Creek have HOA architectural guidelines governing exterior colors. We help homeowners navigate the approval process, recommend compliant palettes through our ColorConfidence™ consultation, and ensure the final result satisfies both the homeowner and the community standards.",
+    ],
     neighborhoods: ["Canyon Park", "North Creek", "Queensgate", "Bothell Landing", "Brickyard", "Maltby"],
     cityFaqs: [
       {
@@ -90,7 +95,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg/1280px-Kenmore%2C_WA_-_Log_Boom_Park%2C_seen_from_the_Pier_01.jpg",
+    heroImage: kenmoreHero,
     heroDescription: "Just minutes from our Bothell headquarters — trusted by Kenmore homeowners for lakeside-tough painting that lasts.",
     neighborhoods: ["Kenmore Village", "Northshore", "Arrowhead", "Linwood", "St. Edward", "Burke-Gilman corridor"],
     cityFaqs: [
@@ -135,7 +140,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Chateau_Ste._Michelle_Winery_exterior.jpg/1280px-Chateau_Ste._Michelle_Winery_exterior.jpg",
+    heroImage: woodinvilleHero,
     heroDescription: "Wine country homes deserve refined craftsmanship — Woodinville's trusted painters for estates, horse properties, and modern builds alike.",
     neighborhoods: ["Hollywood Hill", "Woodinville Proper", "Wellington", "Cottage Lake area", "Warehouse District", "Bear Creek"],
     cityFaqs: [
@@ -180,8 +185,13 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg/1280px-Beach_at_Marina_Park%2C_Kirkland%2C_WA_-_panoramio.jpg",
+    heroImage: kirklandHero,
     heroDescription: "Waterfront-grade craftsmanship for Kirkland's craftsman homes, hillside properties, and modern builds.",
+    cityServiceHighlights: [
+      "Kirkland's housing stock is one of the most architecturally diverse on the Eastside — from early-1900s Craftsman bungalows in Norkirk and Houghton to modern luxury builds in Bridle Trails. Craftsman homes feature exposed rafters, detailed trim, and multiple paint surfaces that require precise masking and careful color transitions. We have deep experience with these homes and understand what makes them special.",
+      "Homes near Lake Washington in Juanita and Moss Bay face elevated humidity and salt-air exposure that accelerates paint breakdown. We specify marine-grade primers and mildew-resistant exterior coatings for lakeside properties, and we pay particular attention to south- and west-facing walls that take the most UV and weather impact.",
+      "Kirkland hillside homes present unique access challenges — steep lots, multi-story rear elevations, and limited staging areas. Our crew is experienced with tall-ladder and scaffolding work on these properties, and we carry the safety certifications and insurance coverage that Kirkland homeowners expect from a professional painting contractor.",
+    ],
     neighborhoods: ["Juanita", "Houghton", "Totem Lake", "Bridle Trails", "Norkirk", "Moss Bay"],
     cityFaqs: [
       {
@@ -225,7 +235,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Mill_Creek_Town_Center.jpg/1280px-Mill_Creek_Town_Center.jpg",
+    heroImage: millCreekHero,
     heroDescription: "Painting that meets Mill Creek's elevated community standards — HOA-savvy, detail-focused, and built to last.",
     neighborhoods: ["Country Club", "Heatherwood", "The Farm", "Thomas Lake", "Penny Creek", "Gateway"],
     cityFaqs: [
@@ -270,7 +280,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg/1280px-Everett_WA._-_USA_02_19_2020_Boat_mooring_with_Anthony%27s_Homeport_Resturant_on_Port_Gardner_bay._%2849565791383%29.jpg",
+    heroImage: everettHero,
     heroDescription: "From Rucker Hill Victorians to waterfront condos — Everett's go-to painters for every style of home.",
     neighborhoods: ["Rucker Hill", "Bayside", "Boulevard Bluffs", "Glacier View", "Lowell", "Millwright District"],
     cityFaqs: [
@@ -315,7 +325,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cottage_Lake_%28Washington%29_2026_-_01.jpg/1280px-Cottage_Lake_%28Washington%29_2026_-_01.jpg",
+    heroImage: cottageLakeHero,
     heroDescription: "Rural properties and wooded lots need paint that can handle the shade and moisture — that's our specialty.",
     neighborhoods: ["Cottage Lake", "Avondale", "Bear Creek area", "Redmond Ridge border", "Woodinville outskirts"],
     cityFaqs: [
@@ -360,8 +370,13 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Bellevue_Downtown_Park_aerial%2C_April_2023.png/1280px-Bellevue_Downtown_Park_aerial%2C_April_2023.png",
+    heroImage: bellevueHero,
     heroDescription: "Premium painting for Bellevue's luxury homes and high-end properties — craftsmanship that matches the Eastside's highest standards.",
+    cityServiceHighlights: [
+      "Bellevue has the highest concentration of custom-built luxury homes on the Eastside. Properties in West Bellevue, Meydenbauer, and Bridle Trails feature complex trim profiles, 20-foot ceilings, specialty finishes, and premium materials that demand a painter with the skills to match. We bring precision taping, custom color matching, and premium products to every Bellevue project.",
+      "The Bel-Red corridor and downtown Bellevue are home to a growing commercial market — offices, retail, and mixed-use buildings that need painting on tight schedules with minimal disruption. We offer after-hours and phased commercial painting, working around tenants and business operations so your space looks sharp without losing a day of revenue.",
+      "Bellevue homeowners frequently invest in cabinet refinishing as part of kitchen and bathroom updates. The quality expectations here are high — factory-smooth finishes, clean lines, and durable coatings that hold up to daily use. Our cabinet refinishing process uses spray application with proper cure times to deliver results that rival (and often exceed) factory work.",
+    ],
     neighborhoods: ["Meydenbauer", "West Bellevue", "Bridle Trails", "Wilburton", "Bel-Red", "Crossroads"],
     cityFaqs: [
       {
@@ -405,7 +420,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Painting services in Union Hill-Novelty Hill, WA. Arclight Painting provides expert residential painting, cabinet refinishing, and drywall repair.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Cascade_Range_cabin_%28Unsplash%29.jpg/1280px-Cascade_Range_cabin_%28Unsplash%29.jpg",
+    heroImage: unionHillHero,
     heroDescription: "Spacious homes and tall ceilings deserve a crew built for scale — Union Hill and Novelty Hill's trusted painting team.",
     neighborhoods: ["Redmond Ridge", "Trilogy at Redmond Ridge", "Novelty Hill", "Union Hill", "Bear Creek area"],
     cityFaqs: [
@@ -450,7 +465,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Marymoor_Park_aerial%2C_April_2023.png/1280px-Marymoor_Park_aerial%2C_April_2023.png",
+    heroImage: redmondHero,
     heroDescription: "Efficient, premium painting for Redmond's busy professionals — flexible scheduling, clean work, lasting results.",
     neighborhoods: ["Education Hill", "Grass Lawn", "Overlake", "Southeast Redmond", "Idylwood", "Willows"],
     cityFaqs: [
@@ -495,7 +510,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Snohomish%2C_WA_-_Marks_Building_01.jpg/1280px-Snohomish%2C_WA_-_Marks_Building_01.jpg",
+    heroImage: clearviewHero,
     heroDescription: "Country properties, big lots, and rural charm — Clearview's trusted painters who treat your home like our own.",
     neighborhoods: ["Clearview", "Maltby border", "Highway 9 corridor", "Cathcart", "unincorporated Snohomish County"],
     cityFaqs: [
@@ -540,7 +555,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg/1280px-Third_Place_Books_-_Ravenna_-_Flickr_-_brewbooks.jpg",
+    heroImage: lakeForestParkHero,
     heroDescription: "Mid-century charm under towering evergreens — painting that protects and preserves Lake Forest Park's unique character.",
     neighborhoods: ["Town Center", "Sheridan Beach", "Horizon View", "Brookside", "Burke-Gilman Trail area"],
     cityFaqs: [
@@ -585,7 +600,7 @@ export const serviceAreas: ServiceArea[] = [
     ],
     metaDescription:
       "Professional house painters in Seattle, WA. Arclight Painting offers interior & exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
-    heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/SeattleI5Skyline.jpg/1280px-SeattleI5Skyline.jpg",
+    heroImage: seattleHero,
     heroDescription: "From Ballard Craftsman bungalows to Capitol Hill Victorians — Seattle's go-to painters for every neighborhood and style.",
     neighborhoods: ["Ballard", "Wallingford", "Fremont", "Capitol Hill", "Green Lake", "Ravenna", "University District", "West Seattle"],
     cityFaqs: [
