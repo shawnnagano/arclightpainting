@@ -14,7 +14,7 @@ import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
 const features = [
-  { icon: Eye, text: "Virtual or in-home consultation with our professional colorist" },
+  { icon: Eye, rendered: <>Virtual or in-home Color<span className="text-accent">Confidence</span> Consultation with our professional colorist</> },
   { icon: SwatchBook, text: "Visual mockups of your real home" },
   { icon: Pipette, text: "Custom color matching with on-site test patches" },
   { icon: Palette, text: "Paint swatches mailed to you" },
@@ -101,7 +101,7 @@ const ColorConsultation = () => {
                 Choosing paint colors is one of the most personal — and most stressful — parts of any painting project. Screens, swatches, and store lighting rarely tell the full story. Colors shift with natural light, room size, flooring, and neighboring finishes, and what looks perfect online can feel completely wrong on your wall.
               </p>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Our ColorConfidence™ Consultation is designed to eliminate that uncertainty. Whether virtual or in-home, you work directly with our professional colorist to evaluate your space, compare options in context, and build a clear color plan before any paint is applied. The result is a ColorConfidence™ Blueprint — a detailed document with your final color specs, placement plan, and product recommendations — so you and your painter are aligned from day one.
+                Our Color<span className="text-accent font-semibold">Confidence</span>™ Consultation is designed to eliminate that uncertainty. Whether virtual or in-home, you work directly with our professional colorist to evaluate your space, compare options in context, and build a clear color plan before any paint is applied. The result is a Color<span className="text-accent font-semibold">Confidence</span>™ Blueprint — a detailed document with your final color specs, placement plan, and product recommendations — so you and your painter are aligned from day one.
               </p>
             </motion.div>
           </div>
