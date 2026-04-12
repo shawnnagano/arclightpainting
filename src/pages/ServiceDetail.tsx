@@ -32,7 +32,10 @@ interface ServiceData {
   benefits: string[];
   metaTitle?: string;
   metaDescription?: string;
-  processSteps?: ProcessStep[];
+  /** Descriptions for each of the 5 branded blueprint steps */
+  brandedDescriptions?: string[];
+  /** Additional service-specific steps after the branded 5 */
+  additionalSteps?: { title: string; description: string }[];
   objections?: Objection[];
   internalLinks?: { label: string; href: string }[];
 }
