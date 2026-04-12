@@ -36,7 +36,7 @@ const values = [
     title: "EXCEPTIONAL RESULTS",
     subtitle: "No Shortcuts. No Surprises.",
     description:
-      "Clear communication, professionalism, and results have made Arclight Painting a trusted name. Our Above & Beyond Blueprint™ is the proven process behind the experience our clients rave about.",
+      "Clear communication, professionalism, and results have made Arclight Painting a trusted name.",
     points: [
       "Great communication",
       "Easy to work with",
