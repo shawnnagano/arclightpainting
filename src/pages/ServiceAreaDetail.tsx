@@ -82,7 +82,7 @@ const ServiceAreaDetail = () => {
       <ServicesSection cityName={area.name} />
 
       {/* 7. Blueprint */}
-      <BlueprintSection />
+      <BlueprintSection showImage />
 
       {/* 8. Gallery */}
       <GallerySection cityName={area.name} />
