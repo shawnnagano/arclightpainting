@@ -12,7 +12,7 @@ import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import { serviceAreas } from "@/data/serviceAreas";
-import { Heart, MapPin } from "lucide-react";
+import { Heart, MapPin, Paintbrush } from "lucide-react";
 import { motion } from "framer-motion";
 import SEOHead, { serviceAreaSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 
@@ -66,8 +66,36 @@ const ServiceAreaDetail = () => {
         </div>
       </section>
 
+      {/* City-Specific Painting Insights */}
+      {area.cityServiceHighlights && area.cityServiceHighlights.length > 0 && (
+        <section className="py-16 bg-muted/30">
+          <div className="container mx-auto px-4">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="max-w-4xl mx-auto"
+            >
+              <div className="flex items-center gap-3 mb-6">
+                <Paintbrush className="h-6 w-6 text-accent" />
+                <h2 className="text-2xl md:text-3xl font-bold">
+                  What Makes Painting in <span className="text-accent">{area.name}</span> Different
+                </h2>
+              </div>
+              <div className="space-y-4">
+                {area.cityServiceHighlights.map((paragraph, i) => (
+                  <p key={i} className="text-muted-foreground text-lg leading-relaxed">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </section>
+      )}
+
       {/* 2. Testimonials */}
-      <TestimonialsSection cityName={area.name} />
 
       {/* 3. Owners */}
       <OwnersSection cityName={area.name} />
