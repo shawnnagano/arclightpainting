@@ -28,9 +28,9 @@ interface BlueprintSectionProps {
 const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSectionProps) => {
   const isServicePage = !!steps && steps.length > 0;
   const displaySteps = isServicePage ? steps : defaultSteps;
-  const headingText = serviceName
-    ? `${serviceName} Made Simple and Stress-Free`
-    : "Painting Made Simple and Stress-Free";
+  const headingNode = serviceName
+    ? <>{serviceName} Made Simple and <span className="text-accent">Stress-Free</span></>
+    : <>Painting Made Simple and <span className="text-accent">Stress-Free</span></>;
 
   return (
     <section className="pt-8 pb-8 bg-background">
@@ -40,8 +40,8 @@ const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSe
           <div className={showImage ? "lg:w-1/2" : "max-w-3xl mx-auto"}>
             {isServicePage ? (
               <>
-                <h3 className="text-3xl md:text-4xl font-bold uppercase mb-2">
-                  {headingText}
+                <h3 className="text-3xl md:text-5xl font-bold mb-2">
+                  {headingNode}
                 </h3>
                 <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-10">
                   THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
@@ -52,8 +52,8 @@ const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSe
                 <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-2">
                   THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
                 </p>
-                <h2 className="text-3xl md:text-4xl font-bold uppercase mb-10">
-                  {headingText}
+                <h2 className="text-3xl md:text-5xl font-bold mb-10">
+                  {headingNode}
                 </h2>
               </>
             )}
