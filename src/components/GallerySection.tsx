@@ -24,6 +24,7 @@ import pwSidewalk from "@/assets/pressure-washing-sidewalk-cleaning.webp";
 import pwDriveway from "@/assets/pressure-washing-driveway-surface-cleaner.jpg";
 import pwDeckClean from "@/assets/pressure-washing-deck-after-clean.jpg";
 import pwDeckStairs from "@/assets/pressure-washing-deck-stairs-bothell.jpg";
+import pwPatioBeforeAfter from "@/assets/pressure-washing-patio-before-after.webp";
 
 // Exterior project images
 import exteriorPainterLadder from "@/assets/exterior-painter-on-ladder-bothell-wa.webp";
@@ -111,7 +112,7 @@ const serviceImages: Record<string, GalleryImage[]> = {
   ],
   "Pressure Washing": [
     { src: pwHouseExterior, alt: "Arclight Painting crew pressure washing house exterior siding" },
-    { src: pwSidewalk, alt: "Professional pressure washing a commercial sidewalk" },
+    { src: pwPatioBeforeAfter, alt: "Patio before and after pressure washing comparison" },
     { src: pwDriveway, alt: "Surface cleaner pressure washing a concrete driveway" },
     { src: "/images/wp-content/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
     { src: pwDeckClean, alt: "Freshly pressure washed deck with clean finish" },
