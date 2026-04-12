@@ -170,6 +170,19 @@ export const serviceSchema = (name: string, description: string, slug: string) =
   },
 });
 
+export const faqPageSchema = (faqs: { question: string; answer: string }[]) => ({
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map(faq => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+});
+
 export const serviceAreaSchema = (areaName: string, slug: string, description: string) => ({
   "@context": "https://schema.org",
   "@type": "Service",
