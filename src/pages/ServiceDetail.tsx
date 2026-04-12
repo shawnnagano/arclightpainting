@@ -65,7 +65,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true, description: "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence." },
       { title: "JobTrack™ Project Management", branded: true, description: "Real-time project tracking from prep through final coat — you always know where things stand." },
       { title: "Surface Preparation & Protection", branded: false, description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened." },
-      { title: "Top-Quality Paint Application", branded: false, description: "Every product is selected based on independent lab testing and real-world performance data — not brand deals. The right paint for each surface, applied with precision tools for consistent, even coats." },
+      { title: "Top-Quality Paint Application", branded: false, description: "Walls rolled with even, consistent coats. Trim and edges cut in by hand. Top-quality paints — selected through independent testing — deliver richer color, better coverage, and a finish that holds up to daily life." },
       { title: "PCA™ Quality Inspection", branded: true, description: "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed." },
     ],
     objections: [
