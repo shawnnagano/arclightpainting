@@ -17,7 +17,7 @@ import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import ProcessSection, { type ProcessStep } from "@/components/ProcessSection";
+import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
