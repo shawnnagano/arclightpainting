@@ -14,6 +14,8 @@ const values = [
       "Empowered leadership",
       "Trusted professionals",
     ],
+    link: "/about",
+    linkLabel: "Meet Our Team →",
   },
   {
     icon: Heart,
@@ -26,6 +28,8 @@ const values = [
       "Ongoing support",
       "Guaranteed peace of mind",
     ],
+    link: "/mission",
+    linkLabel: "Our Mission →",
   },
   {
     icon: Award,
@@ -39,6 +43,8 @@ const values = [
       "Professional from start to finish",
       "Worth the investment",
     ],
+    link: "/reviews",
+    linkLabel: "See Our Reviews →",
   },
 ];
 
