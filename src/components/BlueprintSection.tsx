@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import blueprintImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const brandedSteps = [
   { title: "TrueQuote™ Pricing", link: "/pricing" },
