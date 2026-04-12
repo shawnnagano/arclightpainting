@@ -66,12 +66,8 @@ const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSe
                     transition={{ duration: 0.4, delay: i * 0.08 }}
                     className="flex items-start gap-4 relative group"
                   >
-                    <div className={`shrink-0 w-8 h-8 rounded-full flex items-center justify-center z-10 -ml-8 transition-colors duration-200 ${
-                      s.branded !== false ? "bg-primary group-hover:bg-accent" : "bg-accent"
-                    }`}>
-                      <span className={`text-sm font-bold ${
-                        s.branded !== false ? "text-primary-foreground" : "text-accent-foreground"
-                      }`}>{i + 1}</span>
+                    <div className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center z-10 -ml-8 transition-colors duration-200 bg-primary group-hover:bg-accent">
+                      <span className="text-sm font-bold text-primary-foreground">{i + 1}</span>
                     </div>
 
                     <div>
