@@ -22,7 +22,7 @@ export const serviceAreas: ServiceArea[] = [
     description:
       "As Bothell's trusted painting team, Arclight has been transforming homes and businesses throughout this vibrant community. From the charming downtown corridor to the beautiful neighborhoods along the Sammamish River, we understand the unique character of Bothell properties and deliver finishes that complement the Pacific Northwest aesthetic.",
     localFlavor:
-      "Bothell is home for us — literally. We love grabbing a coffee at the Daily Grind on Main Street before heading to a job, or picking up pastries from T55 Patisserie for the crew. There's something special about painting homes in a town where we know the streets by heart, from the trails along the Sammamish River to the quirky shops downtown. When we finish a project in Bothell, we don't just drive away — we're still part of the neighborhood.",
+      "Bothell is home for us — literally. We love grabbing a coffee at the Daily Grind on Bothell Way before heading to a job, or picking up donuts from Hillcrest Bakery for the crew. There's something special about painting homes in a town where we know the streets by heart, from the trails along the Sammamish River to the quirky shops downtown. When we finish a project in Bothell, we don't just drive away — we're still part of the neighborhood.",
     highlights: [
       "Serving residential and commercial properties across Bothell",
       "Experienced with Bothell's mix of historic and modern architecture",
