@@ -17,10 +17,12 @@ import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
+import ProcessSection, { type ProcessStep } from "@/components/ProcessSection";
+import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
 
-const serviceData: Record<string, {
+interface ServiceData {
   title: string;
   tagline: ReactNode;
   heroDescription: string;
@@ -28,15 +30,24 @@ const serviceData: Record<string, {
   description: string[];
   image: string;
   benefits: string[];
-}> = {
+  metaTitle?: string;
+  metaDescription?: string;
+  processSteps?: ProcessStep[];
+  objections?: Objection[];
+  internalLinks?: { label: string; href: string }[];
+}
+
+const serviceData: Record<string, ServiceData> = {
   "interior-painting": {
     title: "Interior Painting",
+    metaTitle: "Interior House Painting in Bothell | Arclight Painting",
+    metaDescription: "Professional interior house painting in Bothell. Meticulous prep, premium paints, flawless finishes, and a 100% Satisfaction Guarantee. Get a free TrueQuote™.",
     tagline: <>Transform Your <span className="text-accent">Living Spaces</span></>,
-    heroDescription: "Premium interior painting that brings your vision to life — meticulous prep, flawless finishes, zero stress.",
-    sectionHeadline: "Every Detail, Every Room, Done Right",
+    heroDescription: "Premium interior house painting in Bothell — meticulous prep, flawless finishes, zero stress.",
+    sectionHeadline: "Interior Painting Done Right — Every Detail, Every Room",
     description: [
-      "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique. Our interior painting services are designed to bring your vision to life with precision, care, and premium materials.",
-      "From accent walls to full-home repaints, our skilled team delivers flawless results that make your spaces feel brand new. We handle everything — from careful furniture protection and surface preparation to the final brushstroke.",
+      "Your home's interior is where life happens, and every wall, ceiling, and trim piece plays a role in how it looks and feels. Our interior house painting process in Bothell is built around the details that make the difference — thorough surface preparation, premium paints from Sherwin-Williams and Benjamin Moore, and clean, organized worksites from start to finish.",
+      "Whether you need a single accent wall or a full-home repaint, our team delivers consistent, lasting results. We protect your furniture and floors, repair minor surface imperfections, and apply the right primer and paint system for every surface. The final walkthrough ensures every detail meets our standard — and yours.",
     ],
     image: "/images/interior-room-painting-natural-light-bothell.webp",
     benefits: [
@@ -46,6 +57,54 @@ const serviceData: Record<string, {
       "Clean, organized worksite — every day",
       "Detailed final walkthrough with you",
       "Backed by our 100% Satisfaction Guarantee",
+    ],
+    processSteps: [
+      {
+        title: "TrueQuote™ Estimate",
+        description: "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
+      },
+      {
+        title: "Color Selection",
+        description: "Our ColorConfidence™ Consultation helps you choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
+      },
+      {
+        title: "Surface Preparation",
+        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, and prime surfaces so paint adheres properly and lasts.",
+      },
+      {
+        title: "Protection & Masking",
+        description: "Floors, furniture, fixtures, and trim are carefully covered and masked. We treat your home the way we'd treat our own.",
+      },
+      {
+        title: "Painting",
+        description: "Premium paint applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
+      },
+      {
+        title: "Final Walkthrough & PCA™ Inspection",
+        description: "We walk through every room with you, then our Quality Supervisor inspects the work against Painting Contractors of America standards before the job is closed.",
+      },
+    ],
+    objections: [
+      {
+        concern: "Will there be a mess in my home?",
+        response: "We protect all surfaces before work begins and clean up at the end of every day. Most homeowners tell us the house looks better during the project than they expected.",
+      },
+      {
+        concern: "How long until I can use the room?",
+        response: "Most rooms are ready for light use the same evening. With standard latex paint and good airflow, you can sleep in the room within 24 hours. Low-VOC paints can shorten that further.",
+      },
+      {
+        concern: "What if I don't like the color once it's on the wall?",
+        response: "That's why we start with ColorConfidence™. You see your colors mocked up on your real walls before we paint. If something still isn't right, we make it right — that's our Satisfaction Guarantee.",
+      },
+      {
+        concern: "Is professional painting really worth the cost over DIY?",
+        response: "Professional prep, materials, and technique produce a finish that lasts years longer than most DIY jobs. Factor in time, tools, and the risk of redoing it, and professional painting typically costs less in the long run.",
+      },
+    ],
+    internalLinks: [
+      { label: "Drywall Repair", href: "/services/drywall-repairs" },
+      { label: "Color Consultation", href: "/services/color-consultation" },
     ],
   },
   "exterior-painting": {
@@ -204,14 +263,17 @@ const ServiceDetail = () => {
     );
   }
 
+  const pageTitle = service.metaTitle || `${service.title} in Bothell | Arclight Painting`;
+  const pageDescription = service.metaDescription || service.description[0].slice(0, 155) + "...";
+
   return (
     <div className="min-h-screen">
       <SEOHead
-        title={`${service.title} in Bothell | Arclight Painting`}
-        description={service.description[0].slice(0, 155) + "..."}
+        title={pageTitle}
+        description={pageDescription}
         canonical={`/services/${slug}`}
         jsonLd={[
-          serviceSchema(service.title, service.description[0], slug || ""),
+          serviceSchema(service.title, pageDescription, slug || ""),
           faqPageSchema(serviceFAQs[slug || ""] || []),
           breadcrumbSchema([
             { name: "Home", url: "/" },
@@ -222,7 +284,7 @@ const ServiceDetail = () => {
       />
       <Header />
 
-      {/* 1. Hero with service image */}
+      {/* 1. Hero */}
       <HeroSection
         cityName="Bothell"
         heroImage={service.image}
@@ -235,7 +297,7 @@ const ServiceDetail = () => {
         } : {})}
       />
 
-      {/* Service-specific content section */}
+      {/* 2. Description + Benefits */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
@@ -263,16 +325,26 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* Testimonials */}
+      {/* 3. Our Process (if defined) */}
+      {service.processSteps && service.processSteps.length > 0 && (
+        <ProcessSection steps={service.processSteps} serviceName={service.title} />
+      )}
+
+      {/* 4. Testimonials */}
       <TestimonialsSection serviceName={service.title} />
 
-      {/* Gallery - showcase work */}
+      {/* 5. Gallery */}
       <GallerySection serviceName={service.title} />
 
-      {/* Guarantee */}
+      {/* 6. Guarantee */}
       <GuaranteeSection serviceName={service.title} />
 
-      {/* Blueprint */}
+      {/* 7. Common Concerns (if defined) */}
+      {service.objections && service.objections.length > 0 && (
+        <ObjectionsSection objections={service.objections} />
+      )}
+
+      {/* 8. Blueprint */}
       <BlueprintSection serviceName={service.title} />
 
       {/* 9. FAQ */}
