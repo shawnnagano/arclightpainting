@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers } from "lucide-react";
+import { Paintbrush, Home, PanelTop, Hammer, Droplets, Building2, Clock, Layers, Palette } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import painterForADayHero from "@/assets/one-day-painting-service-bothell-wa.webp";
 import popcornCeilingHero from "@/assets/popcorn-ceiling-removal-bothell-wa.webp";
 import commercialHero from "@/assets/commercial-painting-service-bothell-wa.webp";
 import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
 import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
+import colorConsultationHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
 const getServices = (cityName?: string) => {
   const city = cityName || "Bothell";
@@ -66,6 +67,13 @@ const getServices = (cityName?: string) => {
       icon: Layers,
       image: popcornCeilingHero,
       link: "/services/popcorn-ceiling-removal",
+    },
+    {
+      title: "Color Consultation",
+      description: "Eliminate color regret with our ColorConfidence™ Consultation — expert guidance, visual mockups, and a clear color plan before any paint goes on.",
+      icon: Palette,
+      image: colorConsultationHero,
+      link: "/services/color-consultation",
     },
   ];
 };
