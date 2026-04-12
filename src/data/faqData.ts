@@ -350,10 +350,6 @@ export const colorConsultationFAQ: FAQItem[] = [
     answer: "A 30-minute virtual consultation is free and included with any painting project. A 60-minute in-home consultation is $195. Each option is tailored to your needs and designed to help bring out the full potential of your home.",
   },
   {
-    question: "Do I need an in-home consultation, or is virtual enough?",
-    answer: "A virtual consultation is enough for most projects and provides expert guidance on color direction. An in-home consultation is ideal if you want hands-on support evaluating lighting, surroundings, and final choices in person.",
-  },
-  {
     question: "What if I already have a color in mind?",
     answer: "We can refine it. ColorConfidence™ helps you compare options, confirm undertones, and make sure your choice works beautifully in the space — even if you are starting with a strong idea.",
   },
