@@ -247,17 +247,11 @@ const ServiceDetail = () => {
       {/* 2. Testimonials */}
       <TestimonialsSection serviceName={service.title} />
 
-      {/* 3. Owners */}
-      <OwnersSection />
-
-      {/* 4. USPs / Values */}
-      <ValuesSection />
-
       {/* 6. Guarantee */}
-      <GuaranteeSection />
+      <GuaranteeSection serviceName={service.title} />
 
       {/* 7. Blueprint */}
-      <BlueprintSection />
+      <BlueprintSection serviceName={service.title} />
 
       {/* 8. Gallery */}
       <GallerySection serviceName={service.title} />
