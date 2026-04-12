@@ -15,8 +15,8 @@ const Pricing = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="Painting Pricing - Transparent Quotes | Arclight Painting Bothell, WA"
-        description="Get transparent, itemized painting quotes from Arclight Painting in Bothell, WA. No hidden fees, no surprises. Learn about our pricing philosophy and get a fast quote."
+        title="House Painting Cost in Bothell | Transparent TrueQuote™ Pricing | Arclight Painting"
+        description="How much does house painting cost in Bothell, WA? Get a free, itemized TrueQuote™ with no hidden fees. Use our instant pricing calculator or schedule a consultation with Arclight Painting."
         canonical="/pricing"
         jsonLd={[
           faqPageSchema(pricingFAQ),
@@ -41,13 +41,13 @@ const Pricing = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#f4fbfb] via-[#f4fbfbda] to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
-            <span className="text-accent">True</span>Quote Pricing
+            House Painting <span className="text-accent">Cost</span>
           </h1>
            <p className="text-xl md:text-2xl font-semibold">
-             <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises.
+             <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises. <span className="text-accent">No</span> Hidden Fees.
            </p>
            <p className="text-lg md:text-xl text-muted-foreground mt-3">
-             Every project is different, but getting clear, honest pricing should not be.
+             Whether it is an <Link to="/services/interior-painting" className="text-accent hover:underline">interior repaint</Link>, a full <Link to="/services/exterior-painting" className="text-accent hover:underline">exterior refresh</Link>, or <Link to="/services/cabinet-refinishing" className="text-accent hover:underline">cabinet refinishing</Link> — get transparent pricing built around your project.
            </p>
         </div>
       </section>
@@ -56,18 +56,20 @@ const Pricing = () => {
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            How Much Will It <span className="text-accent">Cost?</span>
+            How Much Does House Painting <span className="text-accent">Cost?</span>
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            This is one of the first questions homeowners ask, and we believe it deserves a straight answer. <span className="text-accent font-semibold">True</span>Quote™ is our transparent pricing process, built around the real scope of your project so you can move forward with confidence and know what to expect from the start.
+            The cost of house painting in Bothell depends on the size of your home, the condition of the surfaces, and the scope of work involved. <span className="text-accent font-semibold">True</span>Quote™ is our transparent pricing process — built around the real scope of your project so you can move forward with confidence and know exactly what to expect.
           </p>
           <div className="bg-secondary rounded-xl p-8 mb-8">
             <h3 className="font-bold text-lg mb-4">Your <span className="text-accent">True</span>Quote™ price is based on:</h3>
             <ul className="space-y-3">
               {[
-                "Labor required",
-                "Paint and materials",
-                "The full scope of your project",
+                "Surface analysis and condition assessment",
+                "Labor required for your specific project",
+                "Premium paint and materials",
+                "All preparation, protection, and cleanup",
+                "The full, detailed scope of work",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3">
                   <Check className="h-5 w-5 text-accent flex-shrink-0" />
@@ -76,8 +78,11 @@ const Pricing = () => {
               ))}
             </ul>
           </div>
-           <p className="text-foreground leading-relaxed text-center mt-2 mb-2">
-             Want a ballpark estimate before scheduling your <span className="text-accent">True</span>Quote consultation? Use our <span className="text-accent">Pricing Calculator</span> (below) to get a quick starting point and a clearer idea of the cost will be to get your project done right.
+           <h3 className="text-xl md:text-2xl font-bold text-center mt-6 mb-3">
+             Want a Ballpark Painting Estimate <span className="text-accent">Right Now?</span>
+           </h3>
+           <p className="text-foreground leading-relaxed text-center mb-2">
+             Use our <a href="#pricing-calculator" className="text-accent font-semibold hover:underline">Pricing Calculator</a> (below) to get a quick starting point and a clearer idea of what the cost will be to get your project done right.
            </p>
         </div>
       </section>
@@ -97,7 +102,7 @@ const Pricing = () => {
       <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
-            Why Not Just Choose the <span className="text-accent">Cheapest</span> Quote?
+            Why the Cheapest Painting Quote Is Not Always the <span className="text-accent">Best Value</span>
           </h2>
           <p className="text-foreground mb-6">
             A lower price can look appealing, but it does not always reflect the <strong>true cost</strong> of a successful project. When a quote comes in significantly lower, it is usually because of one of two things:
