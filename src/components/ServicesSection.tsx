@@ -72,6 +72,7 @@ const getServices = (cityName?: string) => {
 
 const ServicesSection = ({ hideHeader = false, cityName }: { hideHeader?: boolean; cityName?: string }) => {
   const locationText = cityName ? ` in ${cityName}` : "";
+  const services = getServices(cityName);
   return (
     <section id="services" className="pt-8 pb-20 bg-background">
       <div className="container mx-auto px-4">
