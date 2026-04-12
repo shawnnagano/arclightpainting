@@ -19,11 +19,11 @@ import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
 import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
 // Pressure washing project images
-import pwHouseExterior from "@/assets/pressure-washing-house-exterior-bothell.png";
+import pwHouseExterior from "@/assets/pressure-washing-house-exterior-bothell.webp";
 import pwSidewalk from "@/assets/pressure-washing-sidewalk-cleaning.webp";
-import pwDriveway from "@/assets/pressure-washing-driveway-surface-cleaner.jpg";
-import pwDeckClean from "@/assets/pressure-washing-deck-after-clean.jpg";
-import pwDeckStairs from "@/assets/pressure-washing-deck-stairs-bothell.jpg";
+import pwDriveway from "@/assets/pressure-washing-driveway-surface-cleaner.webp";
+import pwDeckClean from "@/assets/pressure-washing-deck-after-clean.webp";
+import pwDeckStairs from "@/assets/pressure-washing-deck-stairs-bothell.webp";
 import pwPatioBeforeAfter from "@/assets/pressure-washing-patio-before-after.webp";
 
 // Exterior project images
