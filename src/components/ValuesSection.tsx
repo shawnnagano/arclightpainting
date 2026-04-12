@@ -53,24 +53,6 @@ const ValuesSection = () => {
     <section id="about" className="pt-8 pb-8 bg-background text-foreground">
       <div className="container mx-auto px-4">
         <hr className="border-border mb-12" />
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-          className="mb-12"
-        >
-          <div
-            className="w-full py-4 px-6 rounded-lg text-center"
-            style={{
-              background: "linear-gradient(90deg, #56C4E8, #F5C842, #F5A623, #FF6B8A, #FF0D86)",
-            }}
-          >
-            <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold uppercase tracking-tight italic text-white">
-              The Arclight Difference
-            </h2>
-          </div>
-        </motion.div>
         <div className="grid md:grid-cols-3 gap-10">
           {values.map((v, i) => (
             <motion.div
