@@ -49,36 +49,36 @@ export const generalFAQ: FAQItem[] = [
 export const serviceFAQs: Record<string, FAQItem[]> = {
   "interior-painting": [
     {
-      question: "What does interior painting usually include?",
-      answer: "Interior painting may include walls, ceilings, trim, doors, closets, and other painted surfaces, depending on the scope of work. Your estimate will clearly explain what is included.",
-    },
-    {
-      question: "Do I need to move furniture before interior painting?",
-      answer: "We ask customers to remove fragile items, valuables, electronics, and small décor. Larger furniture can often be moved and protected as part of the project, depending on the room and scope.",
-    },
-    {
-      question: "Do you protect floors, furniture, and fixtures?",
-      answer: "Yes. Protecting non-painted surfaces is a standard part of professional interior painting. We use drop cloths, masking, plastic, and other protection methods as needed.",
-    },
-    {
-      question: "Can you repair nail holes, dents, cracks, and drywall damage before painting?",
-      answer: "Yes. Minor wall repair and patching can often be included. Larger drywall repairs can also be addressed and will be listed in the estimate if needed.",
+      question: "What does interior house painting include in Bothell?",
+      answer: "Interior house painting typically includes walls, ceilings, trim, doors, and closets — with the exact scope outlined in your TrueQuote™ estimate. We handle all surface preparation, priming, painting, and cleanup so you get a complete, move-in-ready result.",
     },
     {
       question: "How long does interior painting take?",
-      answer: "It depends on the number of rooms, the amount of prep work, drying conditions, and whether ceilings, trim, or doors are included. We provide a project timeline before work begins.",
+      answer: "Most interior painting projects in Bothell take two to five days, depending on the number of rooms, the amount of prep work, and whether ceilings, trim, or doors are included. We provide a clear project timeline before work begins using PowerFlex™ Scheduling.",
+    },
+    {
+      question: "Do you protect floors and furniture during interior painting?",
+      answer: "Yes. We cover all floors with drop cloths and protect furniture, fixtures, and trim with plastic and masking before any painting begins. Protecting your home is a standard part of every interior painting project.",
+    },
+    {
+      question: "Can you repair drywall before painting?",
+      answer: "Yes. Minor drywall repair — including nail holes, dents, and small cracks — is included in the prep process. For larger drywall damage, we can scope the repair into your TrueQuote™ estimate.",
     },
     {
       question: "After painting a room, how long should I wait before sleeping in it?",
-      answer: "With standard latex paint and good ventilation, most rooms are safe to sleep in after 24 hours. Low-VOC and zero-VOC paints can cut that wait to just a few hours. Oil-based paints take longer — 48 to 72 hours is recommended. Factors like humidity, airflow, and the number of coats also affect dry time and air quality. We always recommend keeping windows open and fans running to speed things up. For a deeper dive, check out our blog: How Long After Painting Can I Sleep in the Room? 4 Expert Tips.",
+      answer: "With standard latex paint and good ventilation, most rooms are safe to sleep in after 24 hours. Low-VOC and zero-VOC paints can cut that wait to just a few hours. We always recommend keeping windows open and fans running to speed things up. For a deeper dive, check out our blog: How Long After Painting Can I Sleep in the Room? 4 Expert Tips.",
     },
     {
-      question: "Can you help me choose paint sheen?",
-      answer: "Yes. We will guide you on flat, eggshell, satin, semi-gloss, and other finish options based on appearance, durability, and ease of cleaning.",
+      question: "How do I choose the right paint colors for my interior?",
+      answer: "Start with a ColorConfidence™ Consultation — a guided process where our in-house colorist helps you select colors with visual mockups of your real rooms, expert guidance on undertones and lighting, and on-site test patches when needed.",
     },
     {
-    question: "How much does interior painting cost?",
-      answer: "The cost of interior painting depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
+      question: "What paint brands do you use for interior painting?",
+      answer: "We use premium paints from Sherwin-Williams and Benjamin Moore for all interior projects. Product selection is based on the surface type, desired finish, and durability requirements of each room.",
+    },
+    {
+      question: "How much does interior house painting cost in Bothell?",
+      answer: "The cost of interior house painting depends on the number of rooms, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "exterior-painting": [
