@@ -60,6 +60,14 @@ const BlogPostDetail = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight max-w-4xl">
             {post.title}
           </h1>
+          <p className="mt-4 text-white/70 text-sm">
+            By Arclight Painting &middot;{" "}
+            {new Date(post.date).toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })}
+          </p>
         </div>
       </section>
 
