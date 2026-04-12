@@ -282,7 +282,7 @@ const ServiceDetail = () => {
       />
 
       {/* 2. Description + Benefits */}
-      <section className="py-16 bg-background">
+      <section className="pt-16 pb-0 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <motion.div
