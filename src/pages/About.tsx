@@ -148,7 +148,7 @@ const About = () => {
           <p className="text-xl md:text-2xl font-semibold mb-6">
             Who <span className="text-accent">Care</span> Deeply
           </p>
-          <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground mb-6">
+          <p className="max-w-[50%] text-lg leading-relaxed text-muted-foreground mb-6">
             Our team is built on character, excellence, and genuine care, so you can feel confident knowing your project is in trusted hands.
           </p>
         </div>

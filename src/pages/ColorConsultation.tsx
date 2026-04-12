@@ -58,7 +58,7 @@ const ColorConsultation = () => {
           <p className="text-xl md:text-2xl font-semibold">
             Choose <span className="text-accent">Boldly.</span> Paint <span className="text-accent">Beautifully.</span>
           </p>
-          <p className="text-lg md:text-xl text-muted-foreground mt-3">
+           <p className="text-lg md:text-xl text-muted-foreground mt-3 max-w-[50%]">
             Color regret is real. We eliminate doubt by giving you expert guidance and visual clarity.
           </p>
         </div>

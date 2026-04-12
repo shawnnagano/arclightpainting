@@ -90,7 +90,7 @@ const Mission = () => {
           <p className="text-xl md:text-2xl font-semibold mb-6">
             Serving <span className="text-accent">People</span> Above Profits.
           </p>
-          <p className="max-w-2xl text-lg leading-relaxed text-muted-foreground">
+           <p className="max-w-[50%] text-lg leading-relaxed text-muted-foreground">
             Our Above &amp; Beyond Blueprint™ is the proven process behind the smooth experience, clear communication, and exceptional craftsmanship our clients consistently rave about.
           </p>
         </div>
