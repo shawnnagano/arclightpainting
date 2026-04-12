@@ -75,7 +75,7 @@ const ServicesSection = ({ hideHeader = false, cityName }: { hideHeader?: boolea
         {!hideHeader && (
           <>
             <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-              Our <span className="text-accent">Services</span>{cityName ? <> in <span className="text-accent">{cityName}</span></> : ""}
+              Our <span className="text-accent">Services</span>{cityName ? ` in ${cityName}` : ""}
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
               From residential homes to commercial spaces{locationText}, Arclight delivers exceptional results through craftsmanship, care, and our proven Above & Beyond Blueprint™.
