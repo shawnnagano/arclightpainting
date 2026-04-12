@@ -1,69 +1,57 @@
 
 
-# Pricing Page SEO/AEO Copy Improvements (Revised)
+# Rewrite FAQ Answers for AEO-First Format
 
-## Files to Edit
+## Problem
+17 FAQ answers across generalFAQ, service cost questions, and colorConsultationFAQ don't lead with a direct answer in the first sentence — hurting visibility in AI-generated answers and Google featured snippets.
 
-| File | Change |
-|---|---|
-| `src/pages/Pricing.tsx` | Update meta title, description, H1, H2s, body copy, add internal links, new H3 |
-| `src/data/faqData.ts` | Rewrite `pricingFAQ` with AEO-first answers, add new questions, no dollar amounts |
+## File to Edit
+`src/data/faqData.ts` — rewrites only, no structural changes.
 
-## Exact Copy Changes
+## Exact Rewrites
 
-### Meta Title & Description
+### generalFAQ
 
-**New title:** `House Painting Cost in Bothell | Transparent TrueQuote™ Pricing | Arclight Painting`
+**Q7 — "How soon can you start?"**
+> "Most projects can be scheduled within one to three weeks, depending on the season, project size, and current workload. We will give you the most accurate timeline during your estimate."
 
-**New description:** `How much does house painting cost in Bothell, WA? Get a free, itemized TrueQuote™ with no hidden fees. Use our instant pricing calculator or schedule a consultation with Arclight Painting.`
+**Q8 — "How long will my project take?"**
+> "Most interior painting projects take two to five days, and exterior projects may take three to seven days or more depending on size, prep, and weather. With PowerFlex™ Scheduling, we turn that into a clear, realistic plan — using accurate labor forecasting, smart crew sizing, and professional coordination built around your calendar."
 
-### Hero
+**Q9 — "How do I choose the right paint colors?"**
+> "Start with a ColorConfidence™ Consultation — a guided process that includes expert color selection, visual mockups of your real home, custom color matching, and on-site test patches when needed. You will also receive a full ColorConfidence™ Blueprint with your final color specs and placement plan, so you can choose confidently and paint beautifully."
 
-**New H1:** `House Painting Cost`
+**Q10 — "How much will painting my house cost?"**
+> "The cost depends on the size of your home, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is built around your specific project with clear, itemized pricing and no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate."
 
-**New subtitle:** `Clear Prices. No Surprises. No Hidden Fees.`
+### All 7 Service Cost Questions (interior, exterior, cabinet, drywall, pressure-washing, commercial, popcorn)
+Replace the identical template with an AEO-first version per service:
 
-**New supporting line:** `Whether it is an interior repaint, a full exterior refresh, or cabinet refinishing — get transparent pricing built around your project.`
-(with links: "interior repaint" → `/services/interior-painting`, "exterior refresh" → `/services/exterior-painting`, "cabinet refinishing" → `/services/cabinet-refinishing`)
+> "The cost of [service] depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate."
 
-### "How Much Does House Painting Cost?" Section
+(Each uses the service-specific name: "interior painting," "exterior painting," "cabinet refinishing," "drywall repair," "pressure washing," "commercial painting," "popcorn ceiling removal.")
 
-**New H2:** `How Much Does House Painting Cost?`
+### colorConsultationFAQ
 
-**New opening paragraph:** `The cost of house painting in Bothell depends on the size of your home, the condition of the surfaces, and the scope of work involved. TrueQuote™ is our transparent pricing process — built around the real scope of your project so you can move forward with confidence and know exactly what to expect.`
+**Q1 — "How does ColorConfidence™ Consultation work?"**
+> "You meet with our in-house colorist for a virtual or in-home session where we evaluate your space, discuss your goals, and guide you through expert color selection with visual mockups and test patches when needed. The result is a clear, confident color plan you can move forward with."
 
-**Expanded TrueQuote includes list (5 items):**
-- Surface analysis and condition assessment
-- Labor required for your specific project
-- Premium paint and materials
-- All preparation, protection, and cleanup
-- The full, detailed scope of work
+**Q3 — "Do I need an in-home consultation, or is virtual enough?"**
+> "A virtual consultation is enough for most projects and provides expert guidance on color direction. An in-home consultation is ideal if you want hands-on support evaluating lighting, surroundings, and final choices in person."
 
-**New H3:** `Want a Ballpark Painting Estimate Right Now?`
+**Q4 — "What if I already have a color in mind?"**
+> "We can refine it. ColorConfidence™ helps you compare options, confirm undertones, and make sure your choice works beautifully in the space — even if you are starting with a strong idea."
 
-**Answer below H3:** `Use our Pricing Calculator (below) to get a quick starting point and a clearer idea of what the cost will be to get your project done right.`
-("Pricing Calculator" links to `#pricing-calculator`)
+**Q6 — "Will this help me avoid choosing the wrong color?"**
+> "Yes. ColorConfidence™ is designed to reduce doubt and help you make informed, confident decisions before painting begins, so you avoid costly changes and color regret later."
 
-### "Why Not Cheapest" Section
+**Q8 — "What happens after the consultation?"**
+> "You receive a ColorConfidence™ Blueprint — a document with your final color specs, placement plan, and product recommendations. It gives your painter clearer direction and gives you a confident plan before the painting starts."
 
-**New H2:** `Why the Cheapest Painting Quote Is Not Always the Best Value`
-
-No other changes to this section.
-
-### Pricing FAQ Rewrites (no dollar amounts)
-
-**Q: "How much does it cost to paint a house in Bothell?"** (new/replace)
-> A: "The cost of house painting in Bothell varies based on the size of your home, the condition of the surfaces, and the scope of work. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees."
-
-**Q: "Do you offer free painting estimates?"** (rewrite)
-> A: "Yes, we offer free painting estimates. We provide a detailed written proposal that outlines scope of work, preparation, materials, and pricing. Once approved, it becomes a fixed-price agreement — no surprises."
-
-**Q: "What is included in a TrueQuote™?"** (rewrite)
-> A: "A TrueQuote™ includes a surface analysis, labor forecasting, material specifications, and a detailed scope of work. Every line item is explained so you understand exactly what you are paying for and why."
-
-**Q: "Why do painting prices vary so much between companies?"** (rewrite)
-> A: "Painting prices vary because not every company includes the same level of preparation, materials, insurance, or warranty coverage. A lower bid often means reduced scope — fewer coats, less prep, or no warranty — which can cost more in the long run."
-
-**Q: "Can I use your pricing calculator to get an instant estimate?"** (new)
-> A: "Yes. Our Pricing Calculator gives you a ballpark estimate in minutes based on project type, size, and scope. When you are ready for exact pricing, schedule a free TrueQuote™ consultation for a detailed, fixed-price proposal."
+## Summary
+- **17 answers rewritten** to lead with a direct response
+- No questions changed — only answers
+- No dollar amounts added
+- All branded terms (TrueQuote™, PowerFlex™, ColorConfidence™) preserved
+- Internal link phrases (Pricing Page, Pricing Calculator) preserved for the auto-linking system
 
