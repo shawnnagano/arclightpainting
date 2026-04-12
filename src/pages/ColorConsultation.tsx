@@ -95,7 +95,7 @@ const ColorConsultation = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-6">
-                Expert Color Guidance — <span className="text-accent">Tailored to Your Home</span>
+                Expert Color Guidance — <span className="text-accent">Tailored to You</span>
               </h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
                 Choosing paint colors is one of the most personal — and most stressful — parts of any painting project. Screens, swatches, and store lighting rarely tell the full story. Colors shift with natural light, room size, flooring, and neighboring finishes, and what looks perfect online can feel completely wrong on your wall.
