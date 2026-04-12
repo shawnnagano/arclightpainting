@@ -10,7 +10,7 @@ interface HeroSectionProps {
   heroTitle?: string;
   heroTitleNode?: React.ReactNode;
   heroDescription?: string;
-  heroTagline?: string;
+  heroTagline?: React.ReactNode;
   backgroundPosition?: string;
   backgroundSize?: string;
 }
