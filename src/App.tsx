@@ -68,9 +68,10 @@ const App = () => (
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/services/color-consultation" element={<ColorConsultation />} />
             <Route path="/services/:slug" element={<ServiceDetail />} />
-            {serviceAreas.map((area) => (
+            {serviceAreas.filter((area) => area.slug !== "bothell").map((area) => (
               <Route key={area.slug} path={`/${area.slug}`} element={<ServiceAreaDetail />} />
             ))}
+            <Route path="/bothell" element={<Navigate to="/" replace />} />
             <Route path="/service-area/:slug" element={<ServiceAreaRedirect />} />
             <Route path="/service-area" element={<Navigate to="/" replace />} />
             <Route path="/blog" element={<Blog />} />
@@ -109,7 +110,7 @@ const App = () => (
             <Route path="/house-painting-in-kirkland-new" element={<Navigate to="/kirkland" replace />} />
             <Route path="/house-painting-in-kenmore-new" element={<Navigate to="/kenmore" replace />} />
             <Route path="/house-painting-in-everett-new" element={<Navigate to="/everett" replace />} />
-            <Route path="/house-painting-in-bothell-new" element={<Navigate to="/bothell" replace />} />
+            <Route path="/house-painting-in-bothell-new" element={<Navigate to="/" replace />} />
             <Route path="/house-painting-in-bellevue-new" element={<Navigate to="/bellevue" replace />} />
             {/* Other legacy WP pages */}
             <Route path="/why-it-matters" element={<Navigate to="/mission" replace />} />
