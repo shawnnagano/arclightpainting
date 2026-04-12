@@ -113,12 +113,7 @@
   </url>
 
   <!-- Service Areas -->
-  <url>
-    <loc>https://arclightpainting.com/bothell</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- /bothell consolidated into homepage -->
   <url>
     <loc>https://arclightpainting.com/kenmore</loc>
     <lastmod>2026-04-12</lastmod>
