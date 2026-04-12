@@ -30,7 +30,7 @@ const Index = () => {
       <ValuesSection />
       <GuaranteeSection />
       <ServicesSection />
-      <BlueprintSection />
+      <BlueprintSection showImage />
       <GallerySection />
       <FAQSection faqs={generalFAQ} />
       <CTASection serviceName="House Painters" />

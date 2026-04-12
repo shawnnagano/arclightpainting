@@ -231,7 +231,7 @@ const Mission = () => {
       </section>
 
 
-      <BlueprintSection />
+      <BlueprintSection showImage />
 
       {/* CTA */}
       <section className="py-16 bg-background">
