@@ -18,6 +18,13 @@ import commercial5 from "@/assets/commercial-office-accent-wall-painting.webp";
 import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
 import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
+// Pressure washing project images
+import pwHouseExterior from "@/assets/pressure-washing-house-exterior-bothell.png";
+import pwSidewalk from "@/assets/pressure-washing-sidewalk-cleaning.webp";
+import pwDriveway from "@/assets/pressure-washing-driveway-surface-cleaner.jpg";
+import pwDeckClean from "@/assets/pressure-washing-deck-after-clean.jpg";
+import pwDeckStairs from "@/assets/pressure-washing-deck-stairs-bothell.jpg";
+
 // Exterior project images
 import exteriorPainterLadder from "@/assets/exterior-painter-on-ladder-bothell-wa.webp";
 import exteriorDarkCraftsman from "@/assets/exterior-painting-dark-craftsman-home-after.webp";
