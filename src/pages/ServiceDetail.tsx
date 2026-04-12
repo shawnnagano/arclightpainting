@@ -59,22 +59,14 @@ const serviceData: Record<string, ServiceData> = {
       "Detailed final walkthrough with you",
       "Backed by our 100% Satisfaction Guarantee",
     ],
-    brandedDescriptions: [
-      "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
-      "Your project scheduled around your life — flexible start dates, clear timelines, and daily updates.",
-      "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
-      "Real-time project tracking from prep through final coat — you always know where things stand.",
-      "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed.",
-    ],
-    additionalSteps: [
-      {
-        title: "Surface Preparation & Protection",
-        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened.",
-      },
-      {
-        title: "Premium Paint Application",
-        description: "Premium Sherwin-Williams and Benjamin Moore paints applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
-      },
+    blueprintSteps: [
+      { title: "TrueQuote™ Pricing", link: "/pricing", branded: true, description: "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises." },
+      { title: "PowerFlex™ Scheduling", branded: true, description: "Your project scheduled around your life — flexible start dates, clear timelines, and daily updates." },
+      { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true, description: "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence." },
+      { title: "JobTrack™ Project Management", branded: true, description: "Real-time project tracking from prep through final coat — you always know where things stand." },
+      { title: "Surface Preparation & Protection", branded: false, description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened." },
+      { title: "Premium Paint Application", branded: false, description: "Premium Sherwin-Williams and Benjamin Moore paints applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats." },
+      { title: "PCA™ Quality Inspection", branded: true, description: "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed." },
     ],
     objections: [
       {
