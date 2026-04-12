@@ -1,23 +1,38 @@
 
 
-## Add 5 Missing Legacy Redirects
+## Consolidate /bothell into Homepage with Bothell-Specific Content
 
-**Problem**: Five URLs in Google Search Console show as "Page with redirect" or are hitting the catch-all 404 instead of proper redirects. Adding explicit redirects ensures Google consolidates link equity to the correct pages.
+**What changes:**
 
-**Changes**: Add 5 redirect routes to `src/App.tsx` above the catch-all `*` route:
+The /bothell page gets redirected to `/`, and 4 pieces of Bothell-specific content get added to the homepage (Index.tsx):
 
-| Legacy URL | Redirect to |
-|---|---|
-| `/home` | `/` |
-| `/House` | `/` |
-| `/commercial` | `/services/commercial-painting` |
-| `/trusted-professionals` | `/about` |
-| `/4-versatile-neutral-paint-colors-that-arent-white` | `/neutral-paint-colors` |
-| `/5-paint-color-trends-taking-over-winter-2025-according-to-designers` | `/paint-color-trends-2025` |
+### 1. Update Hero Description
+Change the default `heroDescription` in the `HeroSection` call on Index.tsx to:
+> "Bothell's veteran-owned hometown painting company, built on character, excellence, and above-and-beyond service."
 
-**Note**: The existing `/5-paint-color-trends-` route only matches that exact path, not the full WordPress slug. Adding the full slug ensures it redirects properly.
+### 2. Add "Why We Love Working in Bothell" Section
+Add the existing `localFlavor` text from the Bothell service area data as a new section on the homepage, positioned after `TestimonialsSection`. Uses the same Heart icon + H2 layout from ServiceAreaDetail.
 
-**File modified**: `src/App.tsx` only — 6 new `<Route>` lines added in the legacy redirects section.
+### 3. Add "Neighborhoods We Serve in Bothell" Section
+Add the neighborhood pills (Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, Maltby) as a section on the homepage, positioned after the CTA section (same placement as ServiceAreaDetail).
 
-**Everything else in the "Page with redirect" list** (http→https, www→non-www, trailing slashes, `/pricing`, `/schedule`, etc.) is handled at the hosting/DNS level and is completely normal. No action needed for those.
+### 4. Add Bothell-Specific FAQs to Homepage
+Append the non-overlapping Bothell FAQs to the homepage FAQ section. These 4 are unique (not covered by generalFAQ):
+- "Are you locally based in Bothell?"
+- "Do you work with Bothell HOAs?"
+- "What types of homes do you paint in Bothell?"
+- "How does Bothell's climate affect exterior paint?"
+
+(The pricing and free estimates Bothell FAQs are already covered by generalFAQ, so they're excluded.)
+
+### 5. Redirect /bothell → /
+Add a redirect route in App.tsx (if not already present from the previous task).
+
+**Sections NOT added** (per your direction):
+- No "What Makes Painting in Bothell Different" section
+
+**Files modified:**
+- `src/pages/Index.tsx` — add hero description, Why We Love section, neighborhoods section, and merged FAQs
+- `src/App.tsx` — ensure /bothell redirects to /
+- `src/components/SEOHead.tsx` — update FAQ schema to include the combined FAQ list
 
