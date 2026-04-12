@@ -234,9 +234,6 @@ const ServiceDetail = () => {
         } : {})}
       />
 
-      {/* Testimonials - right below hero */}
-      <TestimonialsSection serviceName={service.title} />
-
       {/* Service-specific content section */}
       <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
@@ -264,6 +261,9 @@ const ServiceDetail = () => {
           </div>
         </div>
       </section>
+
+      {/* Testimonials */}
+      <TestimonialsSection serviceName={service.title} />
 
       {/* Gallery - showcase work */}
       <GallerySection serviceName={service.title} />
