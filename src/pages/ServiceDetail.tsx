@@ -11,9 +11,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import OwnersSection from "@/components/OwnersSection";
-
-import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
@@ -247,17 +244,11 @@ const ServiceDetail = () => {
       {/* 2. Testimonials */}
       <TestimonialsSection serviceName={service.title} />
 
-      {/* 3. Owners */}
-      <OwnersSection />
-
-      {/* 4. USPs / Values */}
-      <ValuesSection />
-
       {/* 6. Guarantee */}
-      <GuaranteeSection />
+      <GuaranteeSection serviceName={service.title} />
 
       {/* 7. Blueprint */}
-      <BlueprintSection />
+      <BlueprintSection serviceName={service.title} />
 
       {/* 8. Gallery */}
       <GallerySection serviceName={service.title} />

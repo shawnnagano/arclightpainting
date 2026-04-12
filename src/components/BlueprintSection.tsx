@@ -10,7 +10,12 @@ const steps = [
   { step: "5", title: "PCA™ Quality Inspection", rendered: <>PCA™ Quality Inspection</> },
 ];
 
-const BlueprintSection = () => {
+interface BlueprintSectionProps {
+  serviceName?: string;
+}
+
+const BlueprintSection = ({ serviceName }: BlueprintSectionProps) => {
+  const headingText = serviceName ? `${serviceName} Made Simple and Stress-Free` : "Painting Made Simple and Stress-Free";
   return (
     <section className="pt-8 pb-8 bg-background">
       <div className="container mx-auto px-4">
@@ -22,7 +27,7 @@ const BlueprintSection = () => {
               THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
             </p>
             <h2 className="text-3xl md:text-4xl font-bold uppercase mb-10">
-              Painting Made Simple and Stress-Free
+              {headingText}
             </h2>
 
             <div className="relative pl-8">

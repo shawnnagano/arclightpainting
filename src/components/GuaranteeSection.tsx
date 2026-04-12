@@ -1,7 +1,12 @@
 import { ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const GuaranteeSection = () => {
+interface GuaranteeSectionProps {
+  serviceName?: string;
+}
+
+const GuaranteeSection = ({ serviceName }: GuaranteeSectionProps) => {
+  const serviceText = serviceName ? ` ${serviceName.toLowerCase()}` : "";
   return (
     <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
@@ -15,14 +20,14 @@ const GuaranteeSection = () => {
             <div>
               <h3 className="text-xl font-bold mb-2">Your Peace of Mind Is Part of the Deal</h3>
               <p className="text-muted-foreground leading-relaxed">
-                At Arclight Painting, we don't just aim for satisfaction—we aim for delight. That's why we back every project with our <Link to="/mission#satisfaction-guarantee" className="text-accent font-semibold hover:underline">100% Satisfaction Guarantee</Link>.
+                At Arclight Painting, we don't just aim for satisfaction—we aim for delight. That's why we back every{serviceText} project with our <Link to="/mission#satisfaction-guarantee" className="text-accent font-semibold hover:underline">100% Satisfaction Guarantee</Link>.
               </p>
             </div>
           </div>
         </div>
 
         <p className="text-center font-bold mt-8 max-w-2xl mx-auto">
-          Your home deserves the <span className="text-accent">highest standard</span>. Your experience should be <span className="text-accent">hassle-free</span>. And your project isn't done until you're <span className="text-accent">truly satisfied</span>—GUARANTEED.
+          Your home deserves the <span className="text-accent">highest standard</span>. Your experience should be <span className="text-accent">hassle-free</span>. And your{serviceText} project isn't done until you're <span className="text-accent">truly satisfied</span>—GUARANTEED.
         </p>
       </div>
     </section>
