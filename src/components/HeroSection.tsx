@@ -73,7 +73,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
             transition={{ duration: 0.8, delay: 0.3 }}
             className="pt-2"
           >
-            <p className="text-lg md:text-xl text-muted-foreground">
+            <p className="text-lg md:text-xl text-muted-foreground max-w-[50%]">
               {heroDescription || "Veteran-owned. Built on character, excellence, and above-and-beyond service."}
             </p>
           </motion.div>

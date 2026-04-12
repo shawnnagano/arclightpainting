@@ -68,7 +68,7 @@ const Schedule = () => {
           <p className="text-xl md:text-2xl font-semibold mt-6">
             <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises.
           </p>
-          <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-2xl">
+           <p className="text-lg md:text-xl text-muted-foreground mt-4 max-w-[50%]">
             Schedule a professional conversation designed to understand your project, guide your decisions, and give you clear, transparent pricing based on the real scope of work.
           </p>
         </div>
