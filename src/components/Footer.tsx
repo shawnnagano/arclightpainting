@@ -65,24 +65,6 @@ const Footer = () => {
         </p>
       </div>
 
-      {/* Trust badges */}
-      <div className="container mx-auto px-4 py-8 border-b border-border">
-        <div className="flex flex-wrap items-center justify-center gap-8">
-          {badges.map((badge) => (
-            <img
-              key={badge.alt}
-              src={badge.src}
-              alt={badge.alt}
-              className="h-12 md:h-16 object-contain rounded p-1"
-              loading="lazy"
-            />
-          ))}
-        </div>
-        <p className="text-center text-sm opacity-70 mt-4">
-          BBB A+ Rating | PCA Legacy Member | Bothell-Kenmore Chamber Member | WA-Certified Minority Business | SBA-Certified Veteran Owned
-        </p>
-      </div>
-
       <div className="container mx-auto px-4 py-12">
         <div className="grid md:grid-cols-4 gap-10">
           {/* Brand */}
@@ -146,7 +128,25 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-border mt-10 pt-6 text-center text-sm opacity-50">
+        {/* Trust badges */}
+        <div className="mt-10 pt-6 border-t border-border">
+          <div className="flex flex-wrap items-center justify-center gap-8">
+            {badges.map((badge) => (
+              <img
+                key={badge.alt}
+                src={badge.src}
+                alt={badge.alt}
+                className="h-12 md:h-16 object-contain rounded p-1"
+                loading="lazy"
+              />
+            ))}
+          </div>
+          <p className="text-center text-sm opacity-70 mt-4">
+            BBB A+ Rating | PCA Legacy Member | Bothell-Kenmore Chamber Member | WA-Certified Minority Business | SBA-Certified Veteran Owned
+          </p>
+        </div>
+
+        <div className="border-t border-border mt-6 pt-6 text-center text-sm opacity-50">
           © {new Date().getFullYear()} Arclight Painting. All rights reserved. · <Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         </div>
       </div>
