@@ -265,14 +265,14 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* 6. Guarantee */}
+      {/* Gallery - showcase work */}
+      <GallerySection serviceName={service.title} />
+
+      {/* Guarantee */}
       <GuaranteeSection serviceName={service.title} />
 
-      {/* 7. Blueprint */}
+      {/* Blueprint */}
       <BlueprintSection serviceName={service.title} />
-
-      {/* 8. Gallery */}
-      <GallerySection serviceName={service.title} />
 
       {/* 9. FAQ */}
       {slug && serviceFAQs[slug] && (
