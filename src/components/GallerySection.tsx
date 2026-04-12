@@ -111,12 +111,12 @@ const serviceImages: Record<string, GalleryImage[]> = {
     { src: drywallAccentWall, alt: "Accent wall painting over repaired drywall surface" },
   ],
   "Pressure Washing": [
-    { src: pwHouseExterior, alt: "Arclight Painting crew pressure washing house exterior siding" },
-    { src: pwSidewalk, alt: "Professional pressure washing a commercial sidewalk" },
-    { src: pwDriveway, alt: "Surface cleaner pressure washing a concrete driveway" },
-    { src: pwPatioBeforeAfter, alt: "Patio before and after pressure washing comparison" },
-    { src: pwDeckClean, alt: "Freshly pressure washed deck with clean finish" },
-    { src: pwDeckStairs, alt: "Pressure washing deck stairs and railing" },
+    { src: pwHouseExterior, alt: "Arclight Painting crew pressure washing house exterior siding in Bothell" },
+    { src: pwSidewalk, alt: "Professional pressure washing a commercial sidewalk in Bothell WA" },
+    { src: pwDriveway, alt: "Surface cleaner pressure washing a concrete driveway in Bothell" },
+    { src: pwPatioBeforeAfter, alt: "Patio before and after pressure washing — clean results in Bothell" },
+    { src: pwDeckClean, alt: "Freshly pressure washed deck with clean finish in Bothell WA" },
+    { src: pwDeckStairs, alt: "Pressure washing deck stairs and railing in Bothell" },
   ],
   "Commercial Painting": [
     { src: commercialHero, alt: "Commercial steel structure painting from scissor lift" },
