@@ -66,6 +66,9 @@ const ServiceAreaDetail = () => {
         </div>
       </section>
 
+      {/* 2. Testimonials */}
+      <TestimonialsSection cityName={area.name} />
+
       {/* City-Specific Painting Insights */}
       {area.cityServiceHighlights && area.cityServiceHighlights.length > 0 && (
         <section className="py-16 bg-muted/30">
@@ -95,8 +98,6 @@ const ServiceAreaDetail = () => {
         </section>
       )}
 
-      {/* 2. Testimonials */}
-      <TestimonialsSection cityName={area.name} />
       {/* 3. Owners */}
       <OwnersSection cityName={area.name} />
 

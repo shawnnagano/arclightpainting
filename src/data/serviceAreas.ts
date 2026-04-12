@@ -97,6 +97,11 @@ export const serviceAreas: ServiceArea[] = [
       "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
     heroImage: kenmoreHero,
     heroDescription: "Just minutes from our Bothell headquarters — trusted by Kenmore homeowners for lakeside-tough painting that lasts.",
+    cityServiceHighlights: [
+      "Kenmore's position at the north tip of Lake Washington creates a unique microclimate for exterior painting. Homes in Northshore and along the Burke-Gilman Trail face constant moisture from the lake, which accelerates mildew growth and paint adhesion failure on untreated surfaces. We use marine-grade primers and mildew-inhibiting topcoats designed for lakeside conditions.",
+      "Many Kenmore homes are mid-century ramblers and split-levels built in the 1960s and 1970s with original cedar siding. These homes require careful scraping, wood repair, and proper priming before repainting. We inspect every surface for rot and moisture damage during the estimate so there are no surprises once the project starts.",
+      "Kenmore Village and the growing downtown corridor are bringing new townhomes and mixed-use buildings to the area. These newer structures use modern materials like Hardie board and composite trim that need different prep and coating systems than traditional wood siding. We tailor our approach to each material for maximum durability.",
+    ],
     neighborhoods: ["Kenmore Village", "Northshore", "Arrowhead", "Linwood", "St. Edward", "Burke-Gilman corridor"],
     cityFaqs: [
       {
@@ -142,6 +147,11 @@ export const serviceAreas: ServiceArea[] = [
       "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
     heroImage: woodinvilleHero,
     heroDescription: "Wine country homes deserve refined craftsmanship — Woodinville's trusted painters for estates, horse properties, and modern builds alike.",
+    cityServiceHighlights: [
+      "Woodinville's estate-style properties on Hollywood Hill and surrounding areas feature large exterior surfaces — often 4,000 to 6,000+ square feet of paintable area. These homes demand crews sized for scale, careful staging on sloped lots, and premium coatings that protect the investment. We handle full estate exteriors efficiently without cutting corners on prep.",
+      "The wine country aesthetic in Woodinville means homeowners often choose rich, earthy color palettes that complement the natural landscape. Our ColorConfidence™ consultation is especially popular here, helping homeowners select colors that work with stone accents, wood beams, and the surrounding evergreen and vineyard scenery.",
+      "Many Woodinville properties feature extensive natural wood — cedar siding, exposed beams, wood shingles, and stained decks. The Pacific Northwest's rain and humidity break down unprotected wood quickly. We use UV-blocking stains and moisture-resistant clear coats specifically formulated for wood in wet climates, extending the life of these natural surfaces significantly.",
+    ],
     neighborhoods: ["Hollywood Hill", "Woodinville Proper", "Wellington", "Cottage Lake area", "Warehouse District", "Bear Creek"],
     cityFaqs: [
       {
@@ -237,6 +247,11 @@ export const serviceAreas: ServiceArea[] = [
       "Mill Creek, WA painting experts. Arclight Painting offers residential painting, cabinet refinishing, and more. Quality craftsmanship backed by our guarantee.",
     heroImage: millCreekHero,
     heroDescription: "Painting that meets Mill Creek's elevated community standards — HOA-savvy, detail-focused, and built to last.",
+    cityServiceHighlights: [
+      "Mill Creek is a master-planned community with some of the most detailed HOA architectural guidelines in the region. Exterior color changes require committee approval, and the palette options are specific to each neighborhood. We have navigated this process many times, helping homeowners select colors that satisfy HOA requirements while still reflecting personal taste.",
+      "The homes in Mill Creek — particularly in Country Club, Heatherwood, and The Farm — are well-maintained two-story structures with complex rooflines, multiple gables, and detailed trim. These architectural features require precise masking, careful brush work on trim transitions, and consistent coverage across varied angles. Our crew excels at this level of detail.",
+      "Mill Creek's 15+ miles of trails wind directly behind many homes, creating shaded rear elevations that stay damp longer than front-facing walls. These back walls are prone to mildew, algae, and premature paint failure. We treat these high-moisture zones with dedicated mildew-resistant primers and recommend more frequent maintenance cycles for trail-side surfaces.",
+    ],
     neighborhoods: ["Country Club", "Heatherwood", "The Farm", "Thomas Lake", "Penny Creek", "Gateway"],
     cityFaqs: [
       {
@@ -282,6 +297,11 @@ export const serviceAreas: ServiceArea[] = [
       "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
     heroImage: everettHero,
     heroDescription: "From Rucker Hill Victorians to waterfront condos — Everett's go-to painters for every style of home.",
+    cityServiceHighlights: [
+      "Everett's Rucker Hill neighborhood is home to some of the finest Victorian and Craftsman homes in Snohomish County, many dating to the early 1900s. These historic homes feature intricate millwork, decorative brackets, and multiple paint surfaces that require period-appropriate color palettes and meticulous hand-brushing on detailed trim. We have the patience and skill these homes demand.",
+      "The Port of Everett marina area and Millwright District bring salt air, wind-driven rain, and coastal humidity that break down exterior coatings faster than inland locations. We specify marine-grade primers and elastomeric coatings for waterfront properties that flex with temperature changes and resist salt corrosion — a critical difference for long-lasting exterior paint in coastal Everett.",
+      "Everett's growing commercial corridor — from downtown offices to the waterfront retail district — needs painting contractors who can work around business operations. We schedule commercial projects in phases, coordinate after-hours and weekend work, and minimize disruption to tenants and customers while delivering clean, professional results.",
+    ],
     neighborhoods: ["Rucker Hill", "Bayside", "Boulevard Bluffs", "Glacier View", "Lowell", "Millwright District"],
     cityFaqs: [
       {
@@ -327,6 +347,11 @@ export const serviceAreas: ServiceArea[] = [
       "Painting services in Cottage Lake, WA. Arclight Painting offers interior, exterior, and cabinet refinishing for homes in the Cottage Lake area. Get a fast quote.",
     heroImage: cottageLakeHero,
     heroDescription: "Rural properties and wooded lots need paint that can handle the shade and moisture — that's our specialty.",
+    cityServiceHighlights: [
+      "Cottage Lake properties sit under heavy evergreen canopy that keeps exterior surfaces shaded and damp for much of the year. This persistent moisture creates ideal conditions for mildew, moss, and accelerated paint breakdown — especially on north-facing walls and lower siding courses. We prep these surfaces aggressively with mildew treatment, pressure washing, and thorough drying before any coating goes on.",
+      "Homes in the Cottage Lake area tend to be larger than typical suburban properties, often sitting on half-acre to multi-acre lots with outbuildings, detached garages, and extensive deck and fence surfaces. We crew-size these projects appropriately and use PowerFlex™ scheduling to keep larger rural projects on track without sacrificing the detail work.",
+      "Many Cottage Lake homes feature natural cedar siding and wood shingles that give the area its rustic character. These wood surfaces require specialized preparation — careful scraping without damaging the grain, targeted wood repair on rotted sections, and breathable stains or coatings that allow moisture to escape rather than trapping it beneath the surface.",
+    ],
     neighborhoods: ["Cottage Lake", "Avondale", "Bear Creek area", "Redmond Ridge border", "Woodinville outskirts"],
     cityFaqs: [
       {
@@ -422,6 +447,11 @@ export const serviceAreas: ServiceArea[] = [
       "Painting services in Union Hill-Novelty Hill, WA. Arclight Painting provides expert residential painting, cabinet refinishing, and drywall repair.",
     heroImage: unionHillHero,
     heroDescription: "Spacious homes and tall ceilings deserve a crew built for scale — Union Hill and Novelty Hill's trusted painting team.",
+    cityServiceHighlights: [
+      "Union Hill and Novelty Hill homes are among the largest in our service area — many range from 3,000 to 5,000+ square feet with open floor plans, vaulted ceilings, and two-story great rooms. Interior painting in these homes requires specialized equipment for high walls, careful color planning across connected open spaces, and crews experienced with the scale of these projects.",
+      "Most homes in Redmond Ridge and Trilogy were built in the 2000s and 2010s with builder-grade paint that is thinner and less durable than premium coatings. After 10-15 years, this paint shows wear — scuffs, fading, and uneven sheen. A professional repaint with premium products makes a dramatic difference in both appearance and longevity, and we see this transformation regularly in these communities.",
+      "The Cascade foothills climate brings slightly more weather exposure than neighborhoods closer to Lake Washington. Homes at higher elevations on Novelty Hill face more wind, UV exposure, and temperature swings that stress exterior coatings. We select products with strong UV protection and flexibility to handle thermal cycling without cracking or peeling.",
+    ],
     neighborhoods: ["Redmond Ridge", "Trilogy at Redmond Ridge", "Novelty Hill", "Union Hill", "Bear Creek area"],
     cityFaqs: [
       {
@@ -467,6 +497,11 @@ export const serviceAreas: ServiceArea[] = [
       "Professional painting services in Redmond, WA. Trusted by homeowners for interior painting, exterior painting, and cabinet refinishing. Get your free quote.",
     heroImage: redmondHero,
     heroDescription: "Efficient, premium painting for Redmond's busy professionals — flexible scheduling, clean work, lasting results.",
+    cityServiceHighlights: [
+      "Redmond's established neighborhoods like Education Hill and Grass Lawn feature homes from the 1970s through 1990s with a mix of cedar siding, T1-11 panels, and early composite materials. Each siding type has different prep requirements — cedar needs mildew treatment and careful scraping, while T1-11 requires seam sealing and targeted repair at the base where moisture damage is most common.",
+      "The tech-driven workforce in Redmond means many homeowners have demanding schedules and limited availability for project coordination. We designed PowerFlex™ scheduling specifically for this — flexible estimate times, clear daily updates via JobTrack™, and the ability to complete projects efficiently while homeowners are at work. You get premium results without rearranging your life.",
+      "Redmond's newer developments around Overlake and Southeast Redmond include townhomes and condos with shared walls and HOA-governed exteriors. We work with property managers and HOA boards on color approvals, phased scheduling across multiple units, and coordinated access — so the entire community benefits from consistent, professional work.",
+    ],
     neighborhoods: ["Education Hill", "Grass Lawn", "Overlake", "Southeast Redmond", "Idylwood", "Willows"],
     cityFaqs: [
       {
@@ -512,6 +547,11 @@ export const serviceAreas: ServiceArea[] = [
       "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
     heroImage: clearviewHero,
     heroDescription: "Country properties, big lots, and rural charm — Clearview's trusted painters who treat your home like our own.",
+    cityServiceHighlights: [
+      "Clearview's unincorporated setting means larger lots, longer driveways, and properties that sit further from the road — often surrounded by mature trees and natural vegetation. These rural properties require extra care in staging, equipment positioning, and landscape protection. We treat every Clearview property with the same respect we would give our own home.",
+      "The Highway 9 corridor and surrounding Clearview area include homes with outbuildings, barns, fences, and detached workshops that need painting or staining alongside the main residence. We can bundle these structures into a single project for better pricing and consistent color coordination across the entire property.",
+      "Clearview's semi-rural environment means more exposure to wind, debris, and organic growth than suburban neighborhoods. Exterior surfaces accumulate pollen, sap, and moss faster, which must be thoroughly cleaned before painting. Our pressure washing and surface prep process is especially thorough on Clearview properties to ensure proper adhesion and a long-lasting finish.",
+    ],
     neighborhoods: ["Clearview", "Maltby border", "Highway 9 corridor", "Cathcart", "unincorporated Snohomish County"],
     cityFaqs: [
       {
@@ -557,6 +597,11 @@ export const serviceAreas: ServiceArea[] = [
       "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
     heroImage: lakeForestParkHero,
     heroDescription: "Mid-century charm under towering evergreens — painting that protects and preserves Lake Forest Park's unique character.",
+    cityServiceHighlights: [
+      "Lake Forest Park's defining characteristic is its towering evergreen canopy. Homes here sit under 80- to 100-foot Douglas firs and western red cedars that keep surfaces shaded and damp year-round. This environment creates the most aggressive mildew and moss conditions in our service area. We use the strongest mildew-resistant primers and coatings available, and we prep these surfaces more thoroughly than typical suburban homes require.",
+      "The mid-century homes that define Lake Forest Park — built primarily in the 1950s through 1970s — have unique architectural details that newer homes lack: original wood siding, large picture windows, low-slope rooflines, and integrated planters. Painting these homes requires understanding mid-century proportions and color sensibilities, not just slapping on a modern palette. We help homeowners choose colors that honor their home's era while protecting it for decades.",
+      "Lake Forest Park's mature landscaping — established rhododendrons, Japanese maples, and native plantings — is as much a part of the property as the house itself. Our crew uses protective drop cloths, careful ladder placement, and manual staging techniques that avoid damaging root zones and delicate plantings. We've never had a homeowner complain about landscape damage, and we intend to keep it that way.",
+    ],
     neighborhoods: ["Town Center", "Sheridan Beach", "Horizon View", "Brookside", "Burke-Gilman Trail area"],
     cityFaqs: [
       {
@@ -602,6 +647,11 @@ export const serviceAreas: ServiceArea[] = [
       "Professional house painters in Seattle, WA. Arclight Painting offers interior & exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
     heroImage: seattleHero,
     heroDescription: "From Ballard Craftsman bungalows to Capitol Hill Victorians — Seattle's go-to painters for every neighborhood and style.",
+    cityServiceHighlights: [
+      "Seattle's architectural diversity is unmatched — Craftsman bungalows in Wallingford, Queen Anne Victorians on Capitol Hill, Tudor-style homes in Montlake, and modern infill construction in Ballard and Fremont. Each style has different prep demands, color traditions, and material considerations. Our crew has painted them all and understands what makes each neighborhood's homes unique.",
+      "Seattle's maritime climate delivers 150+ days of measurable rain per year, plus persistent overcast that limits UV curing of paint films. This means exterior coatings must be formulated for slow-cure conditions and high humidity resistance. We schedule Seattle exterior projects during optimal weather windows and use coatings specifically engineered for the Pacific Northwest's wet climate — not generic national-brand formulations.",
+      "Older Seattle homes — particularly pre-1978 construction in neighborhoods like Capitol Hill, Ravenna, and the University District — may contain lead paint on exterior surfaces. We follow EPA RRP (Renovation, Repair, and Painting) lead-safe work practices on all qualifying homes, including proper containment, HEPA vacuuming, and certified disposal. Safety is non-negotiable on every Seattle project.",
+    ],
     neighborhoods: ["Ballard", "Wallingford", "Fremont", "Capitol Hill", "Green Lake", "Ravenna", "University District", "West Seattle"],
     cityFaqs: [
       {
