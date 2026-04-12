@@ -55,15 +55,11 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
                 </>
               )}
             </h1>
-            {heroDescription ? (
-              <p className="text-xl md:text-2xl font-semibold mb-8">{heroDescription}</p>
-            ) : (
-              <p className="text-xl md:text-2xl font-semibold mb-8">
-                Real <span className="text-accent">People.</span> Real{" "}
-                <span className="text-accent">Purpose.</span> Exceptional{" "}
-                <span className="text-accent">Results.</span>
-              </p>
-            )}
+            <p className="text-xl md:text-2xl font-semibold mb-8">
+              Real <span className="text-accent">People.</span> Real{" "}
+              <span className="text-accent">Purpose.</span> Exceptional{" "}
+              <span className="text-accent">Results.</span>
+            </p>
           </motion.div>
 
           <motion.div
@@ -73,7 +69,7 @@ const HeroSection = ({ cityName = "Bothell", heroImage, heroTitle, heroTitleNode
             className="pt-2"
           >
             <p className="text-lg md:text-xl text-muted-foreground">
-              Veteran-owned. Built on character, excellence, and above-and-beyond service.
+              {heroDescription || "Veteran-owned. Built on character, excellence, and above-and-beyond service."}
             </p>
           </motion.div>
         </div>
