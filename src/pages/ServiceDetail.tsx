@@ -17,7 +17,6 @@ import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import ProcessSection, { type ProcessStep } from "@/components/ProcessSection";
 import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
@@ -32,7 +31,10 @@ interface ServiceData {
   benefits: string[];
   metaTitle?: string;
   metaDescription?: string;
-  processSteps?: ProcessStep[];
+  /** Descriptions for each of the 5 branded blueprint steps */
+  brandedDescriptions?: string[];
+  /** Additional service-specific steps after the branded 5 */
+  additionalSteps?: { title: string; description: string }[];
   objections?: Objection[];
   internalLinks?: { label: string; href: string }[];
 }
@@ -58,30 +60,21 @@ const serviceData: Record<string, ServiceData> = {
       "Detailed final walkthrough with you",
       "Backed by our 100% Satisfaction Guarantee",
     ],
-    processSteps: [
+    brandedDescriptions: [
+      "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
+      "Your project scheduled around your life — flexible start dates, clear timelines, and daily updates.",
+      "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
+      "Real-time project tracking from prep through final coat — you always know where things stand.",
+      "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed.",
+    ],
+    additionalSteps: [
       {
-        title: "TrueQuote™ Estimate",
-        description: "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
+        title: "Surface Preparation & Protection",
+        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened.",
       },
       {
-        title: "Color Selection",
-        description: "Our ColorConfidence™ Consultation helps you choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
-      },
-      {
-        title: "Surface Preparation",
-        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, and prime surfaces so paint adheres properly and lasts.",
-      },
-      {
-        title: "Protection & Masking",
-        description: "Floors, furniture, fixtures, and trim are carefully covered and masked. We treat your home the way we'd treat our own.",
-      },
-      {
-        title: "Painting",
-        description: "Premium paint applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
-      },
-      {
-        title: "Final Walkthrough & PCA™ Inspection",
-        description: "We walk through every room with you, then our Quality Supervisor inspects the work against Painting Contractors of America standards before the job is closed.",
+        title: "Premium Paint Application",
+        description: "Premium Sherwin-Williams and Benjamin Moore paints applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
       },
     ],
     objections: [
@@ -325,27 +318,26 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* 3. Our Process (if defined) */}
-      {service.processSteps && service.processSteps.length > 0 && (
-        <ProcessSection steps={service.processSteps} serviceName={service.title} />
-      )}
-
-      {/* 4. Testimonials */}
+      {/* 3. Testimonials */}
       <TestimonialsSection serviceName={service.title} />
 
-      {/* 5. Gallery */}
+      {/* 4. Gallery */}
       <GallerySection serviceName={service.title} />
 
-      {/* 6. Guarantee */}
+      {/* 5. Guarantee */}
       <GuaranteeSection serviceName={service.title} />
 
-      {/* 7. Common Concerns (if defined) */}
+      {/* 6. Common Concerns (if defined) */}
       {service.objections && service.objections.length > 0 && (
         <ObjectionsSection objections={service.objections} />
       )}
 
-      {/* 8. Blueprint */}
-      <BlueprintSection serviceName={service.title} />
+      {/* 7. Blueprint (combined with process) */}
+      <BlueprintSection
+        serviceName={service.title}
+        brandedDescriptions={service.brandedDescriptions}
+        additionalSteps={service.additionalSteps}
+      />
 
       {/* 9. FAQ */}
       {slug && serviceFAQs[slug] && (
