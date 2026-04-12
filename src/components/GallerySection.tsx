@@ -112,9 +112,9 @@ const serviceImages: Record<string, GalleryImage[]> = {
   ],
   "Pressure Washing": [
     { src: pwHouseExterior, alt: "Arclight Painting crew pressure washing house exterior siding" },
-    { src: pwPatioBeforeAfter, alt: "Patio before and after pressure washing comparison" },
+    { src: pwSidewalk, alt: "Professional pressure washing a commercial sidewalk" },
     { src: pwDriveway, alt: "Surface cleaner pressure washing a concrete driveway" },
-    { src: "/images/wp-content/2023/11/Pressure-Washing-Company-1.jpg", alt: "Home siding after pressure washing" },
+    { src: pwPatioBeforeAfter, alt: "Patio before and after pressure washing comparison" },
     { src: pwDeckClean, alt: "Freshly pressure washed deck with clean finish" },
     { src: pwDeckStairs, alt: "Pressure washing deck stairs and railing" },
   ],
