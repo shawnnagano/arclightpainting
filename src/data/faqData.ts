@@ -83,40 +83,36 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
   ],
   "exterior-painting": [
     {
-      question: "What does exterior painting usually include?",
-      answer: "Exterior painting may include siding, trim, fascia, soffits, doors, shutters, garages, fences, outbuildings, and other exterior surfaces depending on the project scope.",
+      question: "What does exterior house painting include in Bothell?",
+      answer: "Exterior house painting typically includes siding, trim, fascia, soffits, doors, shutters, and other exterior surfaces — with the exact scope outlined in your TrueQuote™ estimate. We handle all surface preparation, priming, painting, and cleanup.",
     },
     {
       question: "Do you pressure wash before exterior painting?",
-      answer: "In many cases, yes. Exterior surfaces often need washing to remove dirt, chalking, mildew, and loose material before paint can properly adhere.",
+      answer: "In most cases, yes. Exterior surfaces need washing to remove dirt, chalking, mildew, and loose material before paint can properly adhere. It's an essential first step in our exterior prep process.",
     },
     {
       question: "What prep work is included for exterior painting?",
-      answer: "Prep may include washing, scraping, sanding, spot priming, caulking, minor wood repair, stucco patching, and protection of landscaping and adjacent surfaces. The exact scope depends on the condition of the home.",
+      answer: "Prep may include power washing, scraping, sanding, spot priming, caulking, minor wood repair, and protection of landscaping and adjacent surfaces. The exact scope depends on the condition of your home.",
     },
     {
-      question: "Do you paint stucco, wood, fiber cement, and previously painted siding?",
-      answer: "Yes. We work on a variety of exterior surfaces and recommend the appropriate preparation and coating system for each one.",
+      question: "How long does exterior paint last in the Pacific Northwest?",
+      answer: "That depends on the substrate, exposure to sun and moisture, previous coatings, and the quality of preparation. A properly prepared exterior paint job with top-quality paints — selected through independent testing — will generally last much longer than a rushed one.",
     },
     {
-      question: "How long does exterior paint last?",
-      answer: "That depends on the substrate, exposure to sun and moisture, previous coatings, product choice, and the quality of preparation. A properly prepared paint job will generally last much longer than a rushed one.",
-    },
-    {
-      question: "What time of year is best for exterior painting?",
-      answer: "Exterior painting is best completed during favorable weather conditions that support proper adhesion, curing, and durability. Scheduling depends on temperature, moisture, and forecast conditions.",
+      question: "What time of year is best for exterior painting in Bothell?",
+      answer: "Exterior painting is best completed during favorable weather conditions. With PowerFlex™ Scheduling, we plan around optimal weather windows and adjust for rain delays so the paint cures properly.",
     },
     {
       question: "What happens if it rains during my exterior project?",
       answer: "We plan carefully around the weather. If conditions are not right for proper application or drying, we adjust the schedule rather than compromise the result.",
     },
     {
-      question: "Can you paint fences, decks, detached garages, and sheds too?",
-      answer: "Yes. Those surfaces can often be included as part of a broader exterior project or quoted separately.",
+      question: "How do you choose which paints to use for exterior projects?",
+      answer: "We select exterior paints based on independent lab testing, real-world durability data, and the specific demands of each surface — not brand partnerships. UV resistance, moisture protection, and adhesion performance determine which product goes on your home.",
     },
     {
-    question: "How much does exterior painting cost?",
-      answer: "The cost of exterior painting depends on the size of the project, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
+      question: "How much does exterior house painting cost in Bothell?",
+      answer: "The cost of exterior house painting depends on the size of your home, the condition of the surfaces, and the scope of work involved. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees. Visit our Pricing Page for more details, or use our Pricing Calculator for a quick ballpark estimate.",
     },
   ],
   "cabinet-refinishing": [
