@@ -73,8 +73,8 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
       answer: "Start with a ColorConfidence™ Consultation — a guided process where our in-house colorist helps you select colors with visual mockups of your real rooms, expert guidance on undertones and lighting, and on-site test patches when needed.",
     },
     {
-      question: "What paint brands do you use for interior painting?",
-      answer: "We use premium paints from Sherwin-Williams and Benjamin Moore for all interior projects. Product selection is based on the surface type, desired finish, and durability requirements of each room.",
+      question: "How do you choose which paints to use for interior projects?",
+      answer: "We select paints based on independent lab testing, real-world durability data, and the specific needs of each surface — not brand partnerships. Factors like hiding performance, stain resistance, and finish quality determine which product goes on your walls.",
     },
     {
       question: "How much does interior house painting cost in Bothell?",

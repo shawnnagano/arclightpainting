@@ -47,13 +47,13 @@ const serviceData: Record<string, ServiceData> = {
     heroDescription: "Premium interior house painting in Bothell — meticulous prep, flawless finishes, zero stress.",
     sectionHeadline: "Interior Painting Done Right — Every Detail, Every Room",
     description: [
-      "Your home's interior is where life happens, and every wall, ceiling, and trim piece plays a role in how it looks and feels. Our interior house painting process in Bothell is built around the details that make the difference — thorough surface preparation, premium paints from Sherwin-Williams and Benjamin Moore, and clean, organized worksites from start to finish.",
+      "Your home's interior is where life happens, and every wall, ceiling, and trim piece plays a role in how it looks and feels. Our interior house painting process in Bothell is built around the details that make the difference — thorough surface preparation, top-quality paints selected through independent testing, and clean, organized worksites from start to finish.",
       "Whether you need a single accent wall or a full-home repaint, our team delivers consistent, lasting results. We protect your furniture and floors, repair minor surface imperfections, and apply the right primer and paint system for every surface. The final walkthrough ensures every detail meets our standard — and yours.",
     ],
     image: "/images/interior-room-painting-natural-light-bothell.webp",
     benefits: [
       "Free color consultation with our ColorConfidence™ program",
-      "Premium paints from Sherwin-Williams and Benjamin Moore",
+      "Top-quality paints selected through independent testing",
       "Meticulous surface preparation and priming",
       "Clean, organized worksite — every day",
       "Detailed final walkthrough with you",
@@ -65,7 +65,7 @@ const serviceData: Record<string, ServiceData> = {
       { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true, description: "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence." },
       { title: "JobTrack™ Project Management", branded: true, description: "Real-time project tracking from prep through final coat — you always know where things stand." },
       { title: "Surface Preparation & Protection", branded: false, description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened." },
-      { title: "Premium Paint Application", branded: false, description: "Premium Sherwin-Williams and Benjamin Moore paints applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats." },
+      { title: "Top-Quality Paint Application", branded: false, description: "Every product is selected based on independent lab testing and real-world performance data — not brand deals. The right paint for each surface, applied with precision tools for consistent, even coats." },
       { title: "PCA™ Quality Inspection", branded: true, description: "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed." },
     ],
     objections: [
