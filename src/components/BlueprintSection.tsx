@@ -27,9 +27,8 @@ const BlueprintSection = ({ serviceName, brandedDescriptions, additionalSteps }:
     <section className="pt-8 pb-8 bg-background">
       <div className="container mx-auto px-4">
         <hr className="border-border mb-12" />
-        <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Left: Text content */}
-          <div className="lg:w-1/2">
+          <div className="max-w-3xl mx-auto">
             {isServicePage ? (
               <>
                 <h3 className="text-3xl md:text-4xl font-bold uppercase mb-2">
@@ -113,17 +112,6 @@ const BlueprintSection = ({ serviceName, brandedDescriptions, additionalSteps }:
                 ))}
               </div>
             </div>
-          </div>
-
-          {/* Right: Image */}
-          <div className="lg:w-1/2">
-            <img
-              src={blueprintImage}
-              alt="Arclight Painting consultation with homeowner"
-              className="rounded-xl shadow-lg w-full object-cover max-h-[400px]"
-              loading="lazy"
-            />
-          </div>
         </div>
       </div>
     </section>
