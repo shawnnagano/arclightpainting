@@ -14,7 +14,7 @@ import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
 const features = [
-  { icon: Eye, rendered: <>Virtual or in-home Color<span className="text-accent">Confidence</span> Consultation with our professional colorist</> },
+  { icon: Eye, rendered: <>Virtual or in-home Color<span className="text-accent">Confidence</span>™ Consultation with our professional colorist</> },
   { icon: SwatchBook, text: "Visual mockups of your real home" },
   { icon: Pipette, text: "Custom color matching with on-site test patches" },
   { icon: Palette, text: "Paint swatches mailed to you" },
