@@ -18,7 +18,6 @@ import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
 import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
-import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
 
