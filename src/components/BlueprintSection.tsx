@@ -52,8 +52,8 @@ const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSe
                 <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-2">
                   THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
                 </p>
-                <h2 className="text-3xl md:text-4xl font-bold uppercase mb-10">
-                  {headingText}
+                <h2 className="text-3xl md:text-5xl font-bold mb-10">
+                  {headingNode}
                 </h2>
               </>
             )}
