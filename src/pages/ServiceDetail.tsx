@@ -225,6 +225,7 @@ const ServiceDetail = () => {
         cityName="Bothell"
         heroImage={service.image}
         heroTitle={`Professional ${service.title}`}
+        heroDescription={service.heroDescription}
         {...(slug === "painter-for-a-day" ? {
           backgroundPosition: "center",
           heroTitleNode: <>Professional<br /><span className="text-accent">One-Day Painting</span><br />Service in Bothell</>
@@ -241,9 +242,9 @@ const ServiceDetail = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
             >
-              <p className="text-xl text-accent font-semibold mb-6">
-                {service.tagline}
-              </p>
+              <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                {service.sectionHeadline}
+              </h2>
               {service.description.map((p, i) => (
                 <p key={i} className="text-muted-foreground leading-relaxed mb-4">
                   {p}
