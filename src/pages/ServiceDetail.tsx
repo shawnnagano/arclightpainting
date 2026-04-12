@@ -27,7 +27,7 @@ interface ServiceData {
   title: string;
   tagline: ReactNode;
   heroDescription: string;
-  sectionHeadline: string;
+  sectionHeadline: ReactNode;
   description: string[];
   image: string;
   benefits: string[];
@@ -45,7 +45,7 @@ const serviceData: Record<string, ServiceData> = {
     metaDescription: "Professional interior house painting in Bothell. Meticulous prep, premium paints, flawless finishes, and a 100% Satisfaction Guarantee. Get a free TrueQuote™.",
     tagline: <>Transform Your <span className="text-accent">Living Spaces</span></>,
     heroDescription: "Premium interior house painting in Bothell — meticulous prep, flawless finishes, zero stress.",
-    sectionHeadline: "Interior Painting Done Right — Every Detail, Every Room",
+    sectionHeadline: <>Interior Painting <span className="text-accent">Done Right</span> — Every Detail, Every Room</>,
     description: [
       "Your home's interior is where life happens, and every wall, ceiling, and trim piece plays a role in how it looks and feels. Our interior house painting process in Bothell is built around the details that make the difference — thorough surface preparation, top-quality paints selected through independent testing, and clean, organized worksites from start to finish.",
       "Whether you need a single accent wall or a full-home repaint, our team delivers consistent, lasting results. We protect your furniture and floors, repair minor surface imperfections, and apply the right primer and paint system for every surface. The final walkthrough ensures every detail meets our standard — and yours.",
@@ -95,7 +95,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Exterior Painting",
     tagline: <>Boost Your <span className="text-accent">Curb Appeal</span></>,
     heroDescription: "Weather-tough exterior painting built to protect your home and turn heads for years to come.",
-    sectionHeadline: "Protection That Looks as Good as It Performs",
+    sectionHeadline: <>Protection That <span className="text-accent">Looks as Good</span> as It Performs</>,
     description: [
       "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA. We know the Pacific Northwest weather demands durable, high-quality finishes that stand the test of time.",
       "Our exterior painting process includes thorough power washing, scraping, sanding, caulking, and priming before we apply any paint. The result is a beautiful, long-lasting finish that protects your home for years to come.",
@@ -114,7 +114,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Cabinet Refinishing",
     tagline: <>Refresh Your Kitchen <span className="text-accent">Without the Remodel</span></>,
     heroDescription: "Factory-smooth cabinet finishes that transform your kitchen at a fraction of the cost of replacement.",
-    sectionHeadline: "A New Kitchen Feel — Without the Remodel Price Tag",
+    sectionHeadline: <>A New Kitchen Feel — <span className="text-accent">Without the Remodel</span> Price Tag</>,
     description: [
       "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time. Cabinet refinishing is a cost-effective way to give your kitchen a fresh, modern look without the expense of a full remodel.",
       "Our cabinet refinishing process involves careful removal of hardware, thorough cleaning, sanding, priming, and applying multiple coats of premium cabinet-grade paint or stain for a factory-smooth finish.",
@@ -133,7 +133,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Drywall Repair",
     tagline: <><span className="text-accent">Seamless</span> Walls, Every Time</>,
     heroDescription: "Expert drywall repair that disappears into your walls — matched, blended, and paint-ready.",
-    sectionHeadline: "Invisible Repairs That Make Walls Look New Again",
+    sectionHeadline: <><span className="text-accent">Invisible Repairs</span> That Make Walls Look New Again</>,
     description: [
       "Drywall may seem simple, but it is a key element for your home's structure and style. Whether you have nail holes, cracks, water damage, or larger patches that need repair, our team delivers seamless results.",
       "We match existing textures and finishes so repairs blend perfectly with the surrounding wall. Combined with our painting services, your walls will look flawless from corner to corner.",
@@ -152,7 +152,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Pressure Washing",
     tagline: <>Restore Your Home's <span className="text-accent">Clean, Fresh Look</span></>,
     heroDescription: "Strip away years of grime, mold, and buildup — your home's fresh start begins here.",
-    sectionHeadline: "Years of Buildup Gone in Hours",
+    sectionHeadline: <>Years of Buildup <span className="text-accent">Gone in Hours</span></>,
     description: [
       "Professional pressure washing cleans siding, driveways, decks, and walkways to restore a fresh, clean look. Years of dirt, mold, mildew, and algae buildup can make your home look aged and neglected.",
       "Our pressure washing service is also an essential first step before any exterior painting project, ensuring proper paint adhesion and a long-lasting finish.",
@@ -171,7 +171,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Commercial Painting",
     tagline: <>Painting Tailored to <span className="text-accent">Your Business</span></>,
     heroDescription: "Professional results on your schedule — minimal disruption, maximum impact for your space.",
-    sectionHeadline: "Your Business Stays Open. Your Space Gets Transformed.",
+    sectionHeadline: <>Your Business Stays Open. Your Space Gets <span className="text-accent">Transformed</span>.</>,
     description: [
       "Enhance your commercial space with our commercial painting services designed for durability and a polished look. Commercial painting services designed around your business, schedule, and standards.",
       "From offices and retail spaces to occupied commercial properties, we deliver clean, professional results with minimal disruption to your operations.",
@@ -190,7 +190,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "One-Day Painting Service",
     tagline: <>One Professional. One Day. One <span className="text-accent">Fresh New Look.</span></>,
     heroDescription: "A skilled, background-checked painter dedicated to your home for a full 8 hours. No estimate needed.",
-    sectionHeadline: "Your Checklist. Our Painter. One Productive Day.",
+    sectionHeadline: <>Your Checklist. Our Painter. <span className="text-accent">One Productive Day</span>.</>,
     description: [
       "Need a quick refresh? Our Painter-for-a-Day one-day painting service gives you a skilled, background-checked painter dedicated to your home for a full 8 hours. Perfect for touch-ups, small projects, or that one room you've been meaning to update.",
       "You provide the checklist, we provide the painter. From touch-up work and accent walls to painting entry doors and repairing trim — our Painter-for-a-Day handles it all. No estimate needed. Quality work guaranteed.",
@@ -211,7 +211,7 @@ const serviceData: Record<string, ServiceData> = {
     title: "Popcorn Ceiling Removal",
     tagline: <><span className="text-accent">Modernize</span> Your Home — One Ceiling at a Time</>,
     heroDescription: "From dated texture to smooth, modern ceilings — full removal, repair, and painting in one project.",
-    sectionHeadline: "Dated Ceilings Out. Smooth, Modern Finishes In.",
+    sectionHeadline: <>Dated Ceilings Out. <span className="text-accent">Smooth, Modern Finishes</span> In.</>,
     description: [
       "Popcorn ceilings are one of the most dated features in homes across the Pacific Northwest. Our popcorn ceiling removal service transforms rough, textured ceilings into smooth, modern finishes that brighten your rooms and increase your home's value.",
       "The process involves careful containment and protection, texture removal, skim coating, sanding, priming, and painting. Our experienced team handles every step so you get a flawless result without the mess and hassle of doing it yourself.",
