@@ -11,9 +11,6 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import OwnersSection from "@/components/OwnersSection";
-
-import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
