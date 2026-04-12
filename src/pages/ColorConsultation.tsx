@@ -73,7 +73,7 @@ const ColorConsultation = () => {
         <div className="absolute inset-0 bg-gradient-to-r from-[#f4fbfb] via-[#f4fbfbda] to-transparent" />
         <div className="container mx-auto px-4 relative z-10 py-10 md:py-14">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] uppercase tracking-tight mb-4">
-            Color<span className="text-accent">Confidence</span> Consultation
+            Paint Color <span className="text-accent">Consultation</span>
           </h1>
           <p className="text-xl md:text-2xl font-semibold">
             Choose <span className="text-accent">Boldly.</span> Paint <span className="text-accent">Beautifully.</span>
