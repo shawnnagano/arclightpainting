@@ -326,8 +326,7 @@ const ServiceDetail = () => {
       {/* 7. Blueprint (combined with process) */}
       <BlueprintSection
         serviceName={service.title}
-        brandedDescriptions={service.brandedDescriptions}
-        additionalSteps={service.additionalSteps}
+        steps={service.blueprintSteps}
       />
 
       {/* 9. FAQ */}
