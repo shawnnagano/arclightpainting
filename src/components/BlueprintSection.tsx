@@ -39,24 +39,17 @@ const BlueprintSection = ({ serviceName, showImage = false, steps }: BlueprintSe
         <div className={showImage ? "flex flex-col lg:flex-row items-center gap-12" : ""}>
           <div className={showImage ? "lg:w-1/2" : "max-w-3xl mx-auto"}>
             {isServicePage ? (
-              <>
-                <h3 className="text-3xl md:text-5xl font-bold mb-2">
-                  {headingNode}
-                </h3>
-                <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-10">
-                  THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
-                </p>
-              </>
+              <h3 className="text-3xl md:text-5xl font-bold mb-6">
+                {headingNode}
+              </h3>
             ) : (
-              <>
-                <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-2">
-                  THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
-                </p>
-                <h2 className="text-3xl md:text-5xl font-bold mb-10">
-                  {headingNode}
-                </h2>
-              </>
+              <h2 className="text-3xl md:text-5xl font-bold mb-6">
+                {headingNode}
+              </h2>
             )}
+            <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-6">
+              THE <span className="text-accent">ABOVE & BEYOND</span> BLUEPRINT
+            </p>
 
             <div className="relative pl-8">
               <div className="absolute left-[15px] top-4 bottom-4 w-0.5 bg-primary/30" />
