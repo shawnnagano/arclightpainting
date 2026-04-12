@@ -65,6 +65,33 @@ const ServiceAreaDetail = () => {
         </div>
       </section>
 
+      {/* 2. Testimonials */}
+      <TestimonialsSection cityName={area.name} />
+
+      {/* 3. Owners */}
+      <OwnersSection />
+
+      {/* 4. USPs / Values */}
+      <ValuesSection />
+
+      {/* 5. Guarantee */}
+      <GuaranteeSection />
+
+      {/* 6. Services */}
+      <ServicesSection />
+
+      {/* 7. Blueprint */}
+      <BlueprintSection />
+
+      {/* 8. Gallery */}
+      <GallerySection cityName={area.name} />
+
+      {/* 9. FAQ - use city-specific FAQs */}
+      <FAQSection faqs={area.cityFaqs} heading={`Frequently Asked Questions About Painting in ${area.name}`} />
+
+      {/* 10. CTA */}
+      <CTASection cityName={area.name} serviceName="House Painters" />
+
       {/* Neighborhoods We Serve */}
       {area.neighborhoods.length > 0 && (
         <section className="py-12 bg-muted/30">
@@ -96,33 +123,6 @@ const ServiceAreaDetail = () => {
           </div>
         </section>
       )}
-
-      {/* 2. Testimonials */}
-      <TestimonialsSection cityName={area.name} />
-
-      {/* 3. Owners */}
-      <OwnersSection />
-
-      {/* 4. USPs / Values */}
-      <ValuesSection />
-
-      {/* 5. Guarantee */}
-      <GuaranteeSection />
-
-      {/* 6. Services */}
-      <ServicesSection />
-
-      {/* 7. Blueprint */}
-      <BlueprintSection />
-
-      {/* 8. Gallery */}
-      <GallerySection cityName={area.name} />
-
-      {/* 9. FAQ - use city-specific FAQs */}
-      <FAQSection faqs={area.cityFaqs} heading={`Frequently Asked Questions About Painting in ${area.name}`} />
-
-      {/* 10. CTA */}
-      <CTASection cityName={area.name} serviceName="House Painters" />
 
       <Footer />
     </div>
