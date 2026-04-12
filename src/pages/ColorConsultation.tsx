@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { CheckCircle, Palette, Eye, Pipette, SwatchBook, FileText } from "lucide-react";
+import { CheckCircle, Eye, Pipette, SwatchBook, FileText, Palette } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
+import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import SEOHead, { breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
+import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
+import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
@@ -18,17 +18,37 @@ const features = [
   { icon: SwatchBook, text: "Visual mockups of your real home" },
   { icon: Pipette, text: "Custom color matching with on-site test patches" },
   { icon: Palette, text: "Paint swatches mailed to you" },
-  { icon: FileText, rendered: <>Full Color<span className="text-accent">Confidence</span>™ blueprint with color specs & placement</> },
+  { icon: FileText, rendered: <>Full Color<span className="text-accent">Confidence</span>™ blueprint with color specs &amp; placement</> },
+];
+
+const objections: Objection[] = [
+  {
+    concern: "Is a color consultation really worth the cost?",
+    response: "Color regret is one of the most common issues homeowners face after painting. A consultation eliminates guesswork, prevents costly repaints, and gives you a clear, confident plan before any paint goes on the wall.",
+  },
+  {
+    concern: "Can't I just pick colors from a paint swatch at the store?",
+    response: "Paint swatches are a starting point, but colors look dramatically different on a small chip versus a full wall — and they shift based on your lighting, flooring, and furnishings. A consultation accounts for all of those variables so the color you choose is the color you love.",
+  },
+  {
+    concern: "What if I already have a color in mind?",
+    response: "Great — we can refine it. ColorConfidence™ helps you confirm undertones, compare options, and make sure your choice works beautifully in your specific space before committing.",
+  },
+  {
+    concern: "Do I need an in-home visit, or is virtual enough?",
+    response: "A virtual consultation works well for most projects and provides expert guidance on color direction. An in-home session is ideal when you want hands-on support evaluating natural light, adjacent rooms, and how colors interact in person.",
+  },
 ];
 
 const ColorConsultation = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title="ColorConfidence™ Color Consultation | Arclight Painting"
-        description="Eliminate color regret with Arclight's ColorConfidence™ Consultation. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches. Choose boldly. Paint beautifully."
+        title="ColorConfidence™ Color Consultation in Bothell | Arclight Painting"
+        description="Eliminate color regret with Arclight's ColorConfidence™ Consultation in Bothell. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches. Choose boldly. Paint beautifully."
         canonical="/services/color-consultation"
         jsonLd={[
+          serviceSchema("Color Consultation", "Eliminate color regret with Arclight's ColorConfidence™ Consultation in Bothell. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches.", "color-consultation"),
           faqPageSchema(colorConsultationFAQ),
           breadcrumbSchema([
             { name: "Home", url: "/" },
@@ -58,57 +78,84 @@ const ColorConsultation = () => {
           <p className="text-xl md:text-2xl font-semibold">
             Choose <span className="text-accent">Boldly.</span> Paint <span className="text-accent">Beautifully.</span>
           </p>
-           <p className="text-lg md:text-xl text-muted-foreground mt-3 max-w-[50%]">
+          <p className="text-lg md:text-xl text-muted-foreground mt-3 max-w-[50%]">
             Color regret is real. We eliminate doubt by giving you expert guidance and visual clarity.
           </p>
         </div>
       </section>
 
-      {/* What You Get Section */}
-      <section className="pt-8 pb-16 bg-background">
+      {/* H2 Description Section */}
+      <section className="pt-16 pb-0 bg-background">
         <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="max-w-4xl mx-auto"
-          >
-            <h2 className="text-3xl md:text-5xl font-bold mb-8">
-              What You <span className="text-accent">Get</span>
-            </h2>
-            <div className="space-y-5">
-              {features.map((f, i) => (
-                <motion.div
-                  key={f.text}
-                  initial={{ opacity: 0, x: -20 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.1 }}
-                  className="flex items-center gap-4"
-                >
-                  <div className="shrink-0 w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center">
-                    <f.icon className="h-5 w-5 text-accent" />
-                  </div>
-                  <span className="text-base md:text-lg font-semibold tracking-wide">
-                    {f.rendered || f.text}
-                  </span>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
+          <div className="max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+            >
+              <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                Expert Color Guidance — <span className="text-accent">Tailored to Your Home</span>
+              </h2>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Choosing paint colors is one of the most personal — and most stressful — parts of any painting project. Screens, swatches, and store lighting rarely tell the full story. Colors shift with natural light, room size, flooring, and neighboring finishes, and what looks perfect online can feel completely wrong on your wall.
+              </p>
+              <p className="text-muted-foreground leading-relaxed mb-4">
+                Our ColorConfidence™ Consultation is designed to eliminate that uncertainty. Whether virtual or in-home, you work directly with our professional colorist to evaluate your space, compare options in context, and build a clear color plan before any paint is applied. The result is a ColorConfidence™ Blueprint — a detailed document with your final color specs, placement plan, and product recommendations — so you and your painter are aligned from day one.
+              </p>
+            </motion.div>
+          </div>
         </div>
       </section>
-
 
       {/* Testimonials */}
       <TestimonialsSection serviceName="Color Consultation" />
 
-      {/* Values */}
-      <ValuesSection />
+      {/* What You Get Section (replaces Blueprint) */}
+      <section className="pt-8 pb-8 bg-background">
+        <div className="container mx-auto px-4">
+          <hr className="border-border mb-12" />
+          <div className="max-w-3xl mx-auto">
+            <h3 className="text-3xl md:text-5xl font-bold mb-6">
+              Color Consultation Made Simple and <span className="text-accent">Stress-Free</span>
+            </h3>
+            <p className="text-lg md:text-xl font-bold tracking-widest uppercase mb-6">
+              WHAT YOU <span className="text-accent">GET</span>
+            </p>
+            <div className="relative pl-8">
+              <div className="absolute left-[15px] top-4 bottom-4 w-0.5 bg-primary/30" />
+              <div className="space-y-6">
+                {features.map((f, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, x: -15 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: i * 0.08 }}
+                    className="flex items-start gap-4 relative group"
+                  >
+                    <div className="shrink-0 w-8 h-8 rounded-full flex items-center justify-center z-10 -ml-8 transition-colors duration-200 bg-primary group-hover:bg-accent">
+                      <f.icon className="h-4 w-4 text-primary-foreground" />
+                    </div>
+                    <span className="text-lg md:text-xl font-bold group-hover:text-accent transition-colors duration-200">
+                      {f.rendered || f.text}
+                    </span>
+                  </motion.div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery */}
+      <GallerySection serviceName="Color Consultation" />
 
       {/* Guarantee */}
-      <GuaranteeSection />
+      <GuaranteeSection serviceName="Color Consultation" />
+
+      {/* Common Concerns */}
+      <ObjectionsSection objections={objections} serviceName="Color Consultation" />
 
       {/* FAQ */}
       <FAQSection faqs={colorConsultationFAQ} />
