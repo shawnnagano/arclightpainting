@@ -21,6 +21,8 @@ import ObjectionsSection, { type Objection } from "@/components/ObjectionsSectio
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
 
+import { type BlueprintStep } from "@/components/BlueprintSection";
+
 interface ServiceData {
   title: string;
   tagline: ReactNode;
@@ -31,10 +33,7 @@ interface ServiceData {
   benefits: string[];
   metaTitle?: string;
   metaDescription?: string;
-  /** Descriptions for each of the 5 branded blueprint steps */
-  brandedDescriptions?: string[];
-  /** Additional service-specific steps after the branded 5 */
-  additionalSteps?: { title: string; description: string }[];
+  blueprintSteps?: BlueprintStep[];
   objections?: Objection[];
   internalLinks?: { label: string; href: string }[];
 }
