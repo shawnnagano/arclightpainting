@@ -61,30 +61,21 @@ const serviceData: Record<string, ServiceData> = {
       "Detailed final walkthrough with you",
       "Backed by our 100% Satisfaction Guarantee",
     ],
-    processSteps: [
+    brandedDescriptions: [
+      "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
+      "Your project scheduled around your life — flexible start dates, clear timelines, and daily updates.",
+      "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
+      "Real-time project tracking from prep through final coat — you always know where things stand.",
+      "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed.",
+    ],
+    additionalSteps: [
       {
-        title: "TrueQuote™ Estimate",
-        description: "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises.",
+        title: "Surface Preparation & Protection",
+        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened.",
       },
       {
-        title: "Color Selection",
-        description: "Our ColorConfidence™ Consultation helps you choose colors with visual mockups, expert guidance, and test patches so you commit with confidence.",
-      },
-      {
-        title: "Surface Preparation",
-        description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, and prime surfaces so paint adheres properly and lasts.",
-      },
-      {
-        title: "Protection & Masking",
-        description: "Floors, furniture, fixtures, and trim are carefully covered and masked. We treat your home the way we'd treat our own.",
-      },
-      {
-        title: "Painting",
-        description: "Premium paint applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
-      },
-      {
-        title: "Final Walkthrough & PCA™ Inspection",
-        description: "We walk through every room with you, then our Quality Supervisor inspects the work against Painting Contractors of America standards before the job is closed.",
+        title: "Premium Paint Application",
+        description: "Premium Sherwin-Williams and Benjamin Moore paints applied with the right tools — brushes for detail work, rollers for smooth wall coverage — with consistent, even coats.",
       },
     ],
     objections: [
