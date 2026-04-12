@@ -25,6 +25,42 @@ const linkedPhrases = [
     phrase: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
     to: "/how-long-after-painting-can-i-sleep-in-the-room",
   },
+  {
+    phrase: "cabinet refinishing",
+    to: "/services/cabinet-refinishing",
+  },
+  {
+    phrase: "drywall repair",
+    to: "/services/drywall-repairs",
+  },
+  {
+    phrase: "pressure washing",
+    to: "/services/pressure-washing",
+  },
+  {
+    phrase: "commercial painting",
+    to: "/services/commercial-painting",
+  },
+  {
+    phrase: "interior painting",
+    to: "/services/interior-painting",
+  },
+  {
+    phrase: "exterior painting",
+    to: "/services/exterior-painting",
+  },
+  {
+    phrase: "popcorn ceiling removal",
+    to: "/services/popcorn-ceiling-removal",
+  },
+  {
+    phrase: "one-day painting service",
+    to: "/services/painter-for-a-day",
+  },
+  {
+    phrase: "Painter-for-a-Day",
+    to: "/services/painter-for-a-day",
+  },
 ] as const;
 
 const highlightedPhrases = [
