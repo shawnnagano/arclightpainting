@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Users, Heart, Award } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const values = [
   {
