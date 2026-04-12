@@ -315,24 +315,24 @@ export const serviceFAQs: Record<string, FAQItem[]> = {
 
 export const pricingFAQ: FAQItem[] = [
   {
-    question: "Do You Offer Estimates or Fixed-Price Quotes?",
-    answer: "Yes. We provide a detailed written estimate that outlines the scope of work, preparation, materials, and pricing. Once approved, it becomes a fixed-price agreement unless the scope changes.",
+    question: "How much does it cost to paint a house in Bothell?",
+    answer: "The cost of house painting in Bothell varies based on the size of your home, the condition of the surfaces, and the scope of work. Every TrueQuote™ is itemized and scope-specific, so your price reflects exactly what is included — with no hidden fees.",
   },
   {
-    question: "What Is Included in a TrueQuote™?",
-    answer: "A TrueQuote™ includes surface analysis, labor forecasting, materials, and a detailed scope of work so you understand exactly what is included and why.",
+    question: "Do you offer free painting estimates?",
+    answer: "Yes, we offer free painting estimates. We provide a detailed written proposal that outlines scope of work, preparation, materials, and pricing. Once approved, it becomes a fixed-price agreement — no surprises.",
   },
   {
-    question: "Can I Get a Ballpark Estimate Before Booking a Consultation?",
-    answer: "Yes. Use our Pricing Calculator for a quick ballpark estimate. When you are ready for exact pricing, we will provide a TrueQuote™ based on the real scope of your project.",
+    question: "What is included in a TrueQuote™?",
+    answer: "A TrueQuote™ includes a surface analysis, labor forecasting, material specifications, and a detailed scope of work. Every line item is explained so you understand exactly what you are paying for and why.",
   },
   {
-    question: "Why Do Painting Prices Vary So Much?",
-    answer: "Painting prices vary based on project size, surface condition, prep and repairs, product selection, and the level of detail involved. Not every quote includes the same scope, materials, or protection.",
+    question: "Why do painting prices vary so much between companies?",
+    answer: "Painting prices vary because not every company includes the same level of preparation, materials, insurance, or warranty coverage. A lower bid often means reduced scope — fewer coats, less prep, or no warranty — which can cost more in the long run.",
   },
   {
-    question: "Can I Do Some of the Work Myself to Save Money?",
-    answer: "In some cases, yes. We can discuss shared responsibilities during the estimate and clarify them in the proposal so the project still runs smoothly and the result stays strong.",
+    question: "Can I use your pricing calculator to get an instant estimate?",
+    answer: "Yes. Our Pricing Calculator gives you a ballpark estimate in minutes based on project type, size, and scope. When you are ready for exact pricing, schedule a free TrueQuote™ consultation for a detailed, fixed-price proposal.",
   },
 ];
 
