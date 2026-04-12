@@ -105,6 +105,12 @@ const ValuesSection = () => {
                   </li>
                 ))}
               </ul>
+              <Link
+                to={v.link}
+                className="inline-block mt-5 text-accent font-semibold text-sm hover:underline"
+              >
+                {v.linkLabel}
+              </Link>
             </motion.div>
           ))}
         </div>
