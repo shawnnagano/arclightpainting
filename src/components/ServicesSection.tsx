@@ -8,64 +8,67 @@ import commercialHero from "@/assets/commercial-painting-service-bothell-wa.webp
 import exteriorHero from "@/assets/exterior-house-painting-bothell-wa.webp";
 import pressureWashingHero from "@/assets/pressure-washing-service-bothell-wa.webp";
 
-const services = [
-  {
-    title: "Interior Painting",
-    description: "As a leading team of interior house painters in Bothell, WA, we understand that every home is unique.",
-    icon: Paintbrush,
-    image: "/images/interior-room-painting-natural-light-bothell.webp",
-    link: "/services/interior-painting",
-  },
-  {
-    title: "Exterior Painting",
-    description: "Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in Bothell, WA.",
-    icon: Home,
-    image: exteriorHero,
-    link: "/services/exterior-painting",
-  },
-  {
-    title: "Cabinet Refinishing",
-    description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
-    icon: PanelTop,
-    image: "/images/cabinet-refinishing-project-bothell.webp",
-    link: "/services/cabinet-refinishing",
-  },
-  {
-    title: "Drywall Repair",
-    description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
-    icon: Hammer,
-    image: "/images/drywall-repair-project-bothell-wa.webp",
-    link: "/services/drywall-repairs",
-  },
-  {
-    title: "Pressure Washing",
-    description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
-    icon: Droplets,
-    image: pressureWashingHero,
-    link: "/services/pressure-washing",
-  },
-  {
-    title: "Commercial Painting",
-    description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
-    icon: Building2,
-    image: commercialHero,
-    link: "/services/commercial-painting",
-  },
-  {
-    title: "Painter for a Day",
-    description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
-    icon: Clock,
-    image: painterForADayHero,
-    link: "/services/painter-for-a-day",
-  },
-  {
-    title: "Popcorn Ceiling Removal",
-    description: "Modernize your home by removing outdated popcorn ceilings for a smooth, clean finish.",
-    icon: Layers,
-    image: popcornCeilingHero,
-    link: "/services/popcorn-ceiling-removal",
-  },
-];
+const getServices = (cityName?: string) => {
+  const city = cityName || "Bothell";
+  return [
+    {
+      title: "Interior Painting",
+      description: `As a leading team of interior house painters in ${city}, WA, we understand that every home is unique.`,
+      icon: Paintbrush,
+      image: "/images/interior-room-painting-natural-light-bothell.webp",
+      link: "/services/interior-painting",
+    },
+    {
+      title: "Exterior Painting",
+      description: `Avoid the risks and hassles of DIY projects by trusting our experienced exterior painters here in ${city}, WA.`,
+      icon: Home,
+      image: exteriorHero,
+      link: "/services/exterior-painting",
+    },
+    {
+      title: "Cabinet Refinishing",
+      description: "Kitchen cabinets endure daily wear from food, grease, and stains, which fades and scuffs them over time.",
+      icon: PanelTop,
+      image: "/images/cabinet-refinishing-project-bothell.webp",
+      link: "/services/cabinet-refinishing",
+    },
+    {
+      title: "Drywall Repair",
+      description: "Drywall may seem simple, but it is a key element for your home's structure and style.",
+      icon: Hammer,
+      image: "/images/drywall-repair-project-bothell-wa.webp",
+      link: "/services/drywall-repairs",
+    },
+    {
+      title: "Pressure Washing",
+      description: "Professional pressure washing that cleans siding, driveways and decks to restore a fresh look.",
+      icon: Droplets,
+      image: pressureWashingHero,
+      link: "/services/pressure-washing",
+    },
+    {
+      title: "Commercial Painting",
+      description: "Enhance your business space with expert commercial painting services designed for durability and a polished look.",
+      icon: Building2,
+      image: commercialHero,
+      link: "/services/commercial-painting",
+    },
+    {
+      title: "Painter for a Day",
+      description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
+      icon: Clock,
+      image: painterForADayHero,
+      link: "/services/painter-for-a-day",
+    },
+    {
+      title: "Popcorn Ceiling Removal",
+      description: "Modernize your home by removing outdated popcorn ceilings for a smooth, clean finish.",
+      icon: Layers,
+      image: popcornCeilingHero,
+      link: "/services/popcorn-ceiling-removal",
+    },
+  ];
+};
 
 const ServicesSection = ({ hideHeader = false, cityName }: { hideHeader?: boolean; cityName?: string }) => {
   const locationText = cityName ? ` in ${cityName}` : "";
