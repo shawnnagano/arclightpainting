@@ -60,13 +60,13 @@ const serviceData: Record<string, ServiceData> = {
       "Backed by our 100% Satisfaction Guarantee",
     ],
     blueprintSteps: [
-      { title: "TrueQuote™ Pricing", link: "/pricing", branded: true, description: "We walk through your home, measure every surface, and build a detailed, fixed-price proposal — no guesswork, no surprises." },
-      { title: "PowerFlex™ Scheduling", branded: true, description: "Your project scheduled around your life — flexible start dates, clear timelines, and daily updates." },
-      { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true, description: "Choose colors with visual mockups, expert guidance, and test patches so you commit with confidence." },
-      { title: "JobTrack™ Project Management", branded: true, description: "Real-time project tracking from prep through final coat — you always know where things stand." },
+      { title: "TrueQuote™ Pricing", link: "/pricing", branded: true, description: "We walk through every room, measure walls, ceilings, and trim, and build a detailed, fixed-price proposal — no guesswork, no surprises." },
+      { title: "PowerFlex™ Scheduling", branded: true, description: "We schedule room by room so you can keep living in your home. Flexible start dates, clear timelines, and daily updates on what's next." },
+      { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true, description: "Choose interior colors with visual mockups of your actual rooms, expert guidance on undertones and lighting, and on-site test patches." },
+      { title: "JobTrack™ Project Management", branded: true, description: "Real-time tracking as we move room to room — from furniture protection through final touch-ups, you always know where things stand." },
       { title: "Surface Preparation & Protection", branded: false, description: "We fill holes, sand rough spots, repair minor drywall damage, caulk gaps, mask trim, and protect all floors and furniture before any paint is opened." },
       { title: "Top-Quality Paint Application", branded: false, description: "Walls rolled with even, consistent coats. Trim and edges cut in by hand. Top-quality paints — selected through independent testing — deliver richer color, better coverage, and a finish that holds up to daily life." },
-      { title: "PCA™ Quality Inspection", branded: true, description: "Our Quality Supervisor inspects every surface against Painting Contractors of America standards before the job is closed." },
+      { title: "PCA™ Quality Inspection", branded: true, description: "Our Quality Supervisor walks every room with you, inspecting walls, trim, and ceilings against Painting Contractors of America standards before the job is closed." },
     ],
     objections: [
       {
