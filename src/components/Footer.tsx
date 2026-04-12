@@ -52,7 +52,7 @@ const Footer = () => {
       </div>
 
       {/* Service Areas Links */}
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-4 border-b border-border">
         <p className="text-center text-sm opacity-70 leading-relaxed">
           {serviceAreas.map((area, i) => (
             <span key={area.slug}>
@@ -129,7 +129,7 @@ const Footer = () => {
         </div>
 
         {/* Trust badges */}
-        <div className="mt-10 pt-6 border-t border-border">
+        <div className="mt-10 pt-6">
           <div className="flex flex-wrap items-center justify-center gap-8">
             {badges.map((badge) => (
               <img
