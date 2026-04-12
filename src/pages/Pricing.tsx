@@ -46,7 +46,7 @@ const Pricing = () => {
            <p className="text-xl md:text-2xl font-semibold">
              <span className="text-accent">Clear</span> Prices. <span className="text-accent">No</span> Surprises. <span className="text-accent">No</span> Hidden Fees.
            </p>
-           <p className="text-lg md:text-xl text-muted-foreground mt-3">
+           <p className="text-lg md:text-xl text-muted-foreground mt-3 max-w-[50%]">
              Whether it is an <Link to="/services/interior-painting" className="text-accent hover:underline">interior repaint</Link>, a full <Link to="/services/exterior-painting" className="text-accent hover:underline">exterior refresh</Link>, or <Link to="/services/cabinet-refinishing" className="text-accent hover:underline">cabinet refinishing</Link> — get transparent pricing built around your project.
            </p>
         </div>
