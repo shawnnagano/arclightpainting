@@ -15,6 +15,8 @@ const defaultSteps: BlueprintStep[] = [
   { title: "PowerFlex™ Scheduling", branded: true },
   { title: "ColorConfidence™ Consultation", link: "/services/color-consultation", branded: true },
   { title: "JobTrack™ Project Management", branded: true },
+  { title: "Surface Preparation & Protection", branded: false },
+  { title: "Top-Quality Paint Application", branded: false },
   { title: "PCA™ Quality Inspection", branded: true },
 ];
 
