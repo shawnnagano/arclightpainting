@@ -1,6 +1,14 @@
 import { Link } from "react-router-dom";
 
-const OwnersSection = () => {
+interface OwnersSectionProps {
+  cityName?: string;
+}
+
+const OwnersSection = ({ cityName }: OwnersSectionProps) => {
+  const cityMention = cityName && cityName !== "Bothell"
+    ? ` We're proud to serve homeowners in ${cityName} and the surrounding area.`
+    : "";
+
   return (
     <section className="pt-8 pb-8 bg-background">
       <div className="container mx-auto px-4">
@@ -18,7 +26,7 @@ const OwnersSection = () => {
               Meet the <span className="text-accent">Owners</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-xl">
-              As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting to serve our community through honesty, craftsmanship, and above-and-beyond care. Every project reflects our commitment to doing the job right and treating our customers like friends, not transactions.
+              As a veteran-owned, values-driven company based in Bothell, WA, we built Arclight Painting to serve our community through honesty, craftsmanship, and above-and-beyond care. Every project reflects our commitment to doing the job right and treating our customers like friends, not transactions.{cityMention}
             </p>
             <Link
               to="/about"
