@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
-import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import CTASection from "@/components/CTASection";
@@ -18,10 +18,13 @@ const Pricing = () => {
         title="Painting Pricing - Transparent Quotes | Arclight Painting Bothell, WA"
         description="Get transparent, itemized painting quotes from Arclight Painting in Bothell, WA. No hidden fees, no surprises. Learn about our pricing philosophy and get a fast quote."
         canonical="/pricing"
-        jsonLd={breadcrumbSchema([
-          { name: "Home", url: "/" },
-          { name: "Pricing", url: "/pricing" },
-        ])}
+        jsonLd={[
+          faqPageSchema(pricingFAQ),
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Pricing", url: "/pricing" },
+          ]),
+        ]}
       />
       <Header />
 

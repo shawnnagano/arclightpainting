@@ -17,7 +17,7 @@ import BlueprintSection from "@/components/BlueprintSection";
 import GallerySection from "@/components/GallerySection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import SEOHead, { serviceSchema, breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { serviceFAQs } from "@/data/faqData";
 
 const serviceData: Record<string, {
@@ -212,6 +212,7 @@ const ServiceDetail = () => {
         canonical={`/services/${slug}`}
         jsonLd={[
           serviceSchema(service.title, service.description[0], slug || ""),
+          faqPageSchema(serviceFAQs[slug || ""] || []),
           breadcrumbSchema([
             { name: "Home", url: "/" },
             { name: "Services", url: "/services" },

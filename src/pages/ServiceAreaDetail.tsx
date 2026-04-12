@@ -14,7 +14,7 @@ import CTASection from "@/components/CTASection";
 import { serviceAreas } from "@/data/serviceAreas";
 import { Heart, MapPin } from "lucide-react";
 import { motion } from "framer-motion";
-import SEOHead, { serviceAreaSchema, breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { serviceAreaSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 
 const ServiceAreaDetail = () => {
   const location = useLocation();
@@ -31,6 +31,7 @@ const ServiceAreaDetail = () => {
         canonical={`/${area.slug}`}
         jsonLd={[
           serviceAreaSchema(area.name, area.slug, area.metaDescription),
+          faqPageSchema(area.cityFaqs),
           breadcrumbSchema([
             { name: "Home", url: "/" },
             { name: area.name, url: `/${area.slug}` },

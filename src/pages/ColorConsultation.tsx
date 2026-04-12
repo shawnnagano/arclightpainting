@@ -9,7 +9,7 @@ import ValuesSection from "@/components/ValuesSection";
 import GuaranteeSection from "@/components/GuaranteeSection";
 import FAQSection from "@/components/FAQSection";
 import CTASection from "@/components/CTASection";
-import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { colorConsultationFAQ } from "@/data/faqData";
 import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
 
@@ -28,11 +28,14 @@ const ColorConsultation = () => {
         title="ColorConfidence™ Color Consultation | Arclight Painting"
         description="Eliminate color regret with Arclight's ColorConfidence™ Consultation. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches. Choose boldly. Paint beautifully."
         canonical="/services/color-consultation"
-        jsonLd={breadcrumbSchema([
-          { name: "Home", url: "/" },
-          { name: "Services", url: "/services" },
-          { name: "Color Consultation", url: "/services/color-consultation" },
-        ])}
+        jsonLd={[
+          faqPageSchema(colorConsultationFAQ),
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Services", url: "/services" },
+            { name: "Color Consultation", url: "/services/color-consultation" },
+          ]),
+        ]}
       />
       <Header />
 
