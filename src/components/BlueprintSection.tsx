@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import blueprintImage from "@/assets/painting-consultation-meeting-photo.webp";
 
 const brandedSteps = [
   { title: "TrueQuote™ Pricing", link: "/pricing" },
@@ -11,13 +12,12 @@ const brandedSteps = [
 
 interface BlueprintSectionProps {
   serviceName?: string;
-  /** Service-specific descriptions for each of the 5 branded steps */
+  showImage?: boolean;
   brandedDescriptions?: string[];
-  /** Additional service-specific process steps shown after the branded 5 */
   additionalSteps?: { title: string; description: string }[];
 }
 
-const BlueprintSection = ({ serviceName, brandedDescriptions, additionalSteps }: BlueprintSectionProps) => {
+const BlueprintSection = ({ serviceName, showImage = false, brandedDescriptions, additionalSteps }: BlueprintSectionProps) => {
   const isServicePage = !!brandedDescriptions && brandedDescriptions.length === 5;
   const headingText = serviceName
     ? `${serviceName} Made Simple and Stress-Free`
@@ -27,8 +27,8 @@ const BlueprintSection = ({ serviceName, brandedDescriptions, additionalSteps }:
     <section className="pt-8 pb-8 bg-background">
       <div className="container mx-auto px-4">
         <hr className="border-border mb-12" />
-          {/* Left: Text content */}
-          <div className="max-w-3xl mx-auto">
+        <div className={showImage ? "flex flex-col lg:flex-row items-center gap-12" : ""}>
+          <div className={showImage ? "lg:w-1/2" : "max-w-3xl mx-auto"}>
             {isServicePage ? (
               <>
                 <h3 className="text-3xl md:text-4xl font-bold uppercase mb-2">
@@ -112,6 +112,18 @@ const BlueprintSection = ({ serviceName, brandedDescriptions, additionalSteps }:
                 ))}
               </div>
             </div>
+        </div>
+
+          {showImage && (
+            <div className="lg:w-1/2">
+              <img
+                src={blueprintImage}
+                alt="Arclight Painting consultation with homeowner"
+                className="rounded-xl shadow-lg w-full object-cover max-h-[400px]"
+                loading="lazy"
+              />
+            </div>
+          )}
         </div>
       </div>
     </section>
