@@ -127,6 +127,12 @@ const App = () => (
             <Route path="/services-new" element={<Navigate to="/" replace />} />
             <Route path="/interior-painting-bothell-wa" element={<Navigate to="/services/interior-painting" replace />} />
             <Route path="/5-paint-color-trends-" element={<Navigate to="/blog" replace />} />
+            <Route path="/5-paint-color-trends-taking-over-winter-2025-according-to-designers" element={<Navigate to="/paint-color-trends-2025" replace />} />
+            <Route path="/4-versatile-neutral-paint-colors-that-arent-white" element={<Navigate to="/neutral-paint-colors" replace />} />
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path="/House" element={<Navigate to="/" replace />} />
+            <Route path="/commercial" element={<Navigate to="/services/commercial-painting" replace />} />
+            <Route path="/trusted-professionals" element={<Navigate to="/about" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
