@@ -319,27 +319,26 @@ const ServiceDetail = () => {
         </div>
       </section>
 
-      {/* 3. Our Process (if defined) */}
-      {service.processSteps && service.processSteps.length > 0 && (
-        <ProcessSection steps={service.processSteps} serviceName={service.title} />
-      )}
-
-      {/* 4. Testimonials */}
+      {/* 3. Testimonials */}
       <TestimonialsSection serviceName={service.title} />
 
-      {/* 5. Gallery */}
+      {/* 4. Gallery */}
       <GallerySection serviceName={service.title} />
 
-      {/* 6. Guarantee */}
+      {/* 5. Guarantee */}
       <GuaranteeSection serviceName={service.title} />
 
-      {/* 7. Common Concerns (if defined) */}
+      {/* 6. Common Concerns (if defined) */}
       {service.objections && service.objections.length > 0 && (
         <ObjectionsSection objections={service.objections} />
       )}
 
-      {/* 8. Blueprint */}
-      <BlueprintSection serviceName={service.title} />
+      {/* 7. Blueprint (combined with process) */}
+      <BlueprintSection
+        serviceName={service.title}
+        brandedDescriptions={service.brandedDescriptions}
+        additionalSteps={service.additionalSteps}
+      />
 
       {/* 9. FAQ */}
       {slug && serviceFAQs[slug] && (
