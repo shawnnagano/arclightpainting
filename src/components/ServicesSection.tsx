@@ -70,7 +70,7 @@ const getServices = (cityName?: string) => {
     },
     {
       title: "Color Consultation",
-      description: "Eliminate color regret with our ColorConfidence™ Consultation — expert guidance, visual mockups, and a clear color plan before any paint goes on.",
+      description: "Eliminate color regret with our ColorConfidence™ Consultation.",
       icon: Palette,
       image: colorConsultationTile,
       link: "/services/color-consultation",
