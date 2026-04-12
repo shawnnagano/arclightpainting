@@ -326,7 +326,7 @@ const ServiceDetail = () => {
 
       {/* 7. Common Concerns (if defined) */}
       {service.objections && service.objections.length > 0 && (
-        <ObjectionsSection objections={service.objections} />
+        <ObjectionsSection objections={service.objections} serviceName={service.title} />
       )}
 
       {/* 9. FAQ */}
