@@ -29,3 +29,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://arclightpainting.com/sitemap.xml
+LLMs: https://arclightpainting.com/llms.txt
