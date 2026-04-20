@@ -149,7 +149,7 @@ Ready to make a confident choice? [Talk to our team today](/schedule) about top 
   {
     slug: "painting-wall-and-ceiling",
     title: "Painting Wall and Ceiling the Same Color: 5 Game-Changing Ideas",
-    excerpt: "Should you paint your ceiling and walls the same color? Here's what the pros think about this bold design move.",
+    excerpt: "Should you paint your ceiling and walls the same color? Discover 5 designer-approved ideas for creating cozy, cohesive rooms that feel polished and intentional.",
     image: "/images/wp-content/2025/04/Main-Article.jpg",
     date: "2026-03-14",
     content: `## Here's What the Pros Think
@@ -229,7 +229,7 @@ Arclight isn't just about flawless finishes (though we're pretty great at those 
   {
     slug: "paint-color-trends-2025",
     title: "Paint Color Trends 2025: 5 Stunning Designer Picks Dominating This Winter",
-    excerpt: "Paint color trends 2025 are here! Discover the top designer-approved colors to create a cozy, stylish home this winter.",
+    excerpt: "Paint color trends 2025 are here. Discover five designer-approved hues, from rich earth tones to soft warm neutrals, that bring cozy modern style to your home.",
     image: "/images/wp-content/2025/01/Newsletter-1024x576.jpg",
     date: "2025-08-04",
     content: `**Paint Color Trends 2025** are here, just in time for the season of change. As fall winds down and winter approaches, it's the perfect opportunity to refresh your interiors while spending more time indoors. Whether you're aiming for a serene sanctuary in the bedroom or a sophisticated update in the living room, a fresh coat of paint can completely transform your space.
@@ -424,7 +424,7 @@ Learning how to pick a front door color is more than just design—it's about cr
   {
     slug: "professional-interior-painting",
     title: "DIY vs. Professional Interior Painting: 3 Pros and Cons",
-    excerpt: "Should you tackle the painting yourself or hire a professional? Walk through the pros and cons of each option.",
+    excerpt: "Should you DIY or hire a pro for interior painting? Compare the real costs, time commitment, and quality differences to choose the right approach for your home.",
     image: "/images/wp-content/2025/09/diy-vs-pro-1.jpg",
     date: "2025-09-18",
     content: `Professional Interior Painting can completely change how your home feels. Whether you choose to handle it yourself or work with a professional, the right approach depends on your budget, time, energy, and goals.
@@ -928,7 +928,7 @@ If you're looking for results that feel intentional, not rushed, Arclight Painti
   {
     slug: "small-house-color-ideas",
     title: "Small House Color Ideas to Make Every Room Feel Brighter, Bigger, and More Stylish",
-    excerpt: "Transform your compact spaces with the right small house color ideas. Discover colors that open up any room.",
+    excerpt: "Transform compact spaces with smart small house color ideas — designer picks that visually expand rooms, brighten dim corners, and make any space feel open.",
     image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.jpg",
     date: "2025-12-15",
     content: `Small spaces come with big potential—especially when the right small house color ideas are in play. Thoughtful color choices can make rooms feel more open, cohesive, and comfortable, even without changing a single piece of furniture.
@@ -1105,7 +1105,7 @@ With Arclight Painting, you gain a partner committed to quality and long-term re
   {
     slug: "color-psychology-in-commercial-painting",
     title: "The Power of Color Psychology in Commercial Painting: How It Impacts Your Business",
-    excerpt: "Color plays a powerful role in shaping how people think, feel, and behave inside your business.",
+    excerpt: "Color shapes how customers and employees feel inside your business. Learn how strategic commercial paint choices boost mood, focus, and brand perception.",
     image: "/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg",
     date: "2025-11-15",
     content: `Color isn't just decoration—it's strategy. In commercial spaces, the right palette can influence how people feel, focus, and even behave. When used thoughtfully, color psychology in commercial painting helps shape an environment that supports your goals, reflects your brand, and enhances the way customers and employees experience your business.
@@ -1205,7 +1205,7 @@ Contact us today to request a quote and start creating a space where people feel
   {
     slug: "peeling-paint-in-commercial-buildings",
     title: "Protect Your Investment: Peeling Paint in Commercial Buildings and How to Fix It",
-    excerpt: "Peeling paint in commercial buildings is more than a cosmetic issue — it's a warning sign.",
+    excerpt: "Peeling paint in commercial buildings is more than cosmetic — it's a warning sign of deeper damage. Learn the causes, risks, and proven repair solutions.",
     image: "/images/wp-content/2025/11/arclight-painting-6-1024x576.jpg",
     date: "2025-11-15",
     content: `Peeling paint in commercial buildings does more than hurt curb appeal—it sends a message. For clients, tenants, and employees, it can signal deferred maintenance or hidden issues behind the walls. And for property managers and business owners, it often points to conditions that need attention long before a new coat of paint is applied.
@@ -1313,7 +1313,7 @@ If you're ready to restore your building with a professional finish that stands 
   {
     slug: "how-long-after-painting-can-i-sleep-in-the-room",
     title: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
-    excerpt: "Wondering how long after painting can I sleep in the room? Get expert tips for a healthier space.",
+    excerpt: "Wondering how long after painting you can safely sleep in the room? Get expert guidance on VOCs, ventilation, and timing to protect your air quality and health.",
     image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.jpg",
     date: "2025-10-15",
     content: `Painting your room is one of the simplest and most satisfying ways to refresh your space. However, it also raises an important question: **how long after painting can I sleep in the room?**
