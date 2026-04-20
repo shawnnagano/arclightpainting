@@ -1105,7 +1105,7 @@ With Arclight Painting, you gain a partner committed to quality and long-term re
   {
     slug: "color-psychology-in-commercial-painting",
     title: "The Power of Color Psychology in Commercial Painting: How It Impacts Your Business",
-    excerpt: "Color plays a powerful role in shaping how people think, feel, and behave inside your business.",
+    excerpt: "Color shapes how customers and employees think, feel, and behave inside your business — learn how strategic commercial paint choices boost mood, focus, and brand perception.",
     image: "/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg",
     date: "2025-11-15",
     content: `Color isn't just decoration—it's strategy. In commercial spaces, the right palette can influence how people feel, focus, and even behave. When used thoughtfully, color psychology in commercial painting helps shape an environment that supports your goals, reflects your brand, and enhances the way customers and employees experience your business.
@@ -1205,7 +1205,7 @@ Contact us today to request a quote and start creating a space where people feel
   {
     slug: "peeling-paint-in-commercial-buildings",
     title: "Protect Your Investment: Peeling Paint in Commercial Buildings and How to Fix It",
-    excerpt: "Peeling paint in commercial buildings is more than a cosmetic issue — it's a warning sign.",
+    excerpt: "Peeling paint in commercial buildings is more than a cosmetic issue — it's a warning sign of deeper damage. Learn the causes, risks, and proven repair solutions.",
     image: "/images/wp-content/2025/11/arclight-painting-6-1024x576.jpg",
     date: "2025-11-15",
     content: `Peeling paint in commercial buildings does more than hurt curb appeal—it sends a message. For clients, tenants, and employees, it can signal deferred maintenance or hidden issues behind the walls. And for property managers and business owners, it often points to conditions that need attention long before a new coat of paint is applied.
