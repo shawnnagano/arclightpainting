@@ -229,7 +229,7 @@ Arclight isn't just about flawless finishes (though we're pretty great at those 
   {
     slug: "paint-color-trends-2025",
     title: "Paint Color Trends 2025: 5 Stunning Designer Picks Dominating This Winter",
-    excerpt: "Paint color trends 2025 are here! Discover the top designer-approved colors to create a cozy, stylish home this winter.",
+    excerpt: "Paint color trends 2025 are here. Discover five designer-approved hues — from rich earth tones to soft warm neutrals — that bring cozy, modern style to your home.",
     image: "/images/wp-content/2025/01/Newsletter-1024x576.jpg",
     date: "2025-08-04",
     content: `**Paint Color Trends 2025** are here, just in time for the season of change. As fall winds down and winter approaches, it's the perfect opportunity to refresh your interiors while spending more time indoors. Whether you're aiming for a serene sanctuary in the bedroom or a sophisticated update in the living room, a fresh coat of paint can completely transform your space.
@@ -424,7 +424,7 @@ Learning how to pick a front door color is more than just design—it's about cr
   {
     slug: "professional-interior-painting",
     title: "DIY vs. Professional Interior Painting: 3 Pros and Cons",
-    excerpt: "Should you tackle the painting yourself or hire a professional? Walk through the pros and cons of each option.",
+    excerpt: "Should you DIY or hire a pro for interior painting? Compare the real costs, time commitment, and quality differences to choose the right approach for your home.",
     image: "/images/wp-content/2025/09/diy-vs-pro-1.jpg",
     date: "2025-09-18",
     content: `Professional Interior Painting can completely change how your home feels. Whether you choose to handle it yourself or work with a professional, the right approach depends on your budget, time, energy, and goals.
@@ -928,7 +928,7 @@ If you're looking for results that feel intentional, not rushed, Arclight Painti
   {
     slug: "small-house-color-ideas",
     title: "Small House Color Ideas to Make Every Room Feel Brighter, Bigger, and More Stylish",
-    excerpt: "Transform your compact spaces with the right small house color ideas. Discover colors that open up any room.",
+    excerpt: "Transform compact spaces with these small house color ideas — designer picks that visually expand rooms, brighten dim corners, and make every space feel airy and open.",
     image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.jpg",
     date: "2025-12-15",
     content: `Small spaces come with big potential—especially when the right small house color ideas are in play. Thoughtful color choices can make rooms feel more open, cohesive, and comfortable, even without changing a single piece of furniture.
@@ -1313,7 +1313,7 @@ If you're ready to restore your building with a professional finish that stands 
   {
     slug: "how-long-after-painting-can-i-sleep-in-the-room",
     title: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
-    excerpt: "Wondering how long after painting can I sleep in the room? Get expert tips for a healthier space.",
+    excerpt: "Wondering how long after painting you can safely sleep in the room? Get expert guidance on VOCs, ventilation, and timing so you protect your air quality and your health.",
     image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.jpg",
     date: "2025-10-15",
     content: `Painting your room is one of the simplest and most satisfying ways to refresh your space. However, it also raises an important question: **how long after painting can I sleep in the room?**
