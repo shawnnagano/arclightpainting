@@ -219,6 +219,17 @@ const About = () => {
                 <h4 className="font-bold text-lg">{member.name}</h4>
                 <p className="text-accent text-sm font-semibold mb-3">{member.title}</p>
                 <p className="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
+                {member.linkedin && (
+                  <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${member.name} on LinkedIn`}
+                    className="inline-flex items-center justify-center mt-3 text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+                )}
               </div>
             ))}
           </div>
