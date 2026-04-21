@@ -1,13 +1,39 @@
 
 
-## Add `llms.txt` for AI Crawlers
+## Plan A (Final): Enhance LocalBusiness Schema
 
-**What**: Create a `public/llms.txt` file that helps AI systems (ChatGPT, Claude, Gemini, Perplexity) understand your business, services, and service areas at a glance. This improves how AI search engines cite and recommend Arclight Painting.
+**What**: Add verified profiles, Washington contractor license, founding date, slogan, and credentials to `localBusinessSchema` so AI crawlers (ChatGPT, Perplexity, Claude) recognize Arclight as a verified, credentialed business entity.
 
-**What goes in it**: A structured plain-text summary of your business — name, location, services, service areas, key differentiators (veteran-owned, 269 reviews, 4.9 stars), and links to important pages.
+**Where**: `src/components/SEOHead.tsx` — extend the `localBusinessSchema` constant.
 
-**Technical details**:
-- Create `public/llms.txt` with business overview, service list, service area list, blog index, and contact info
-- Add a reference to it in `robots.txt` (similar to how Sitemap is declared)
-- No code changes needed — just two static files
+**Changes**:
+
+1. **`sameAs`** — populate with 7 verified profiles:
+   - Google Business Profile, Facebook, Yelp, LinkedIn, Instagram, BBB, Angi
+
+2. **`hasCredential`** — Washington State contractor license:
+   ```ts
+   {
+     "@type": "EducationalOccupationalCredential",
+     credentialCategory: "license",
+     name: "Washington State Contractor License",
+     identifier: "ARCLIP*747DW",
+     recognizedBy: {
+       "@type": "GovernmentOrganization",
+       name: "Washington State Department of Labor & Industries",
+     },
+   }
+   ```
+
+3. **`foundingDate`**: `"2013"`
+4. **`award`**: `"Veteran-Owned Business"`
+5. **`slogan`**: `"Real People. Real Purpose. Exceptional Results."`
+6. **`paymentAccepted`**: `"Cash, Check, Credit Card, Financing"`
+7. **`currenciesAccepted`**: `"USD"`
+
+**Why it matters**: AI engines weight cross-platform identity verification, government-issued licenses, and business longevity heavily when deciding whether to cite a source. These additions turn Arclight into a verified, credentialed entity in LLM knowledge graphs — improving citation rates in ChatGPT/Perplexity answers about Bothell-area painters.
+
+**Files modified**: 1 (`src/components/SEOHead.tsx`)
+
+**Risk**: None. Schema-only, additive, no visual changes. Validates in Google Rich Results Test.
 
