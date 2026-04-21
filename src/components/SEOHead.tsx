@@ -80,6 +80,21 @@ export const localBusinessSchema = {
     longitude: -122.2054,
   },
   priceRange: "$$",
+  foundingDate: "2013",
+  slogan: "Real People. Real Purpose. Exceptional Results.",
+  award: "Veteran-Owned Business",
+  paymentAccepted: "Cash, Check, Credit Card, Financing",
+  currenciesAccepted: "USD",
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    credentialCategory: "license",
+    name: "Washington State Contractor License",
+    identifier: "ARCLIP*747DW",
+    recognizedBy: {
+      "@type": "GovernmentOrganization",
+      name: "Washington State Department of Labor & Industries",
+    },
+  },
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "4.9",
@@ -97,7 +112,15 @@ export const localBusinessSchema = {
     "Mill Creek", "Bellevue", "Union Hill-Novelty Hill", "Clearview",
     "Everett", "Lake Forest Park", "Woodinville",
   ].map(name => ({ "@type": "City", name, "@id": `https://arclightpainting.com/${name.toLowerCase().replace(/\s+/g, "-")}` })),
-  sameAs: [],
+  sameAs: [
+    "https://maps.app.goo.gl/Q3E8cyNn3tbnnqkC9",
+    "https://www.facebook.com/arclightpainting/",
+    "https://www.yelp.com/biz/arclight-painting-bothell",
+    "https://www.linkedin.com/company/arclightpainting/",
+    "https://www.instagram.com/arclightpainting/",
+    "https://www.bbb.org/us/wa/bothell/profile/painting-contractors/arclight-painting-llc-1296-1000057322",
+    "https://www.angi.com/companylist/us/wa/bothell/arclight-painting-reviews-10518198.htm",
+  ],
   hasOfferCatalog: {
     "@type": "OfferCatalog",
     name: "Painting Services",
