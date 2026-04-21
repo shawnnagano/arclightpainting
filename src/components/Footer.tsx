@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, MessageSquareQuote, Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquareQuote, Facebook, Instagram, Linkedin, Star } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map-bothell-wa.webp";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned-business-badge.webp";
 import arclightLogo from "@/assets/arclight-logo.png";
@@ -33,7 +33,7 @@ const socials = [
   { href: "https://www.facebook.com/arclightpainting/", label: "Facebook", icon: Facebook },
   { href: "https://www.instagram.com/arclightpainting/", label: "Instagram", icon: Instagram },
   { href: "https://www.linkedin.com/company/arclightpainting/", label: "LinkedIn", icon: Linkedin },
-  { href: "https://www.yelp.com/biz/arclight-painting-bothell", label: "Yelp", icon: MessageSquareQuote },
+  { href: "https://www.yelp.com/biz/arclight-painting-bothell", label: "Yelp", icon: Star },
 ];
 
 const Footer = () => {
