@@ -130,10 +130,14 @@ const About = () => {
         title="About Us - Meet the Arclight Painting Team | Bothell, WA"
         description="Meet the team behind Bothell's most trusted painting company. Veteran-owned with 25+ years of experience, every Arclight painter is trained, background-checked, and committed to quality."
         canonical="/about"
-        jsonLd={breadcrumbSchema([
-          { name: "Home", url: "/" },
-          { name: "About Us", url: "/about" },
-        ])}
+        jsonLd={[
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "About Us", url: "/about" },
+          ]),
+          shawnNaganoSchema,
+          jenniferPattisonSchema,
+        ]}
       />
       <Header />
 
