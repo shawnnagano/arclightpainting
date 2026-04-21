@@ -142,6 +142,43 @@ export const websiteSchema = {
   url: "https://arclightpainting.com",
 };
 
+// Owner / Person schemas — tied to the business via worksFor / founder
+export const shawnNaganoSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://arclightpainting.com/about#shawn-nagano",
+  name: "Shawn Nagano",
+  jobTitle: "Founder & CEO",
+  worksFor: { "@id": "https://arclightpainting.com/#business" },
+  image: "https://arclightpainting.com/images/wp-content/2025/06/Shawn-Arclight-Painting-Bothell-WA.png",
+  url: "https://arclightpainting.com/about",
+  knowsAbout: [
+    "Interior Painting",
+    "Exterior Painting",
+    "Cabinet Refinishing",
+    "Color Consultation",
+    "Residential Painting",
+    "Commercial Painting",
+  ],
+  sameAs: ["https://www.linkedin.com/in/shawn-nagano/"],
+};
+
+export const jenniferPattisonSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://arclightpainting.com/about#jennifer-pattison",
+  name: "Jennifer Pattison",
+  jobTitle: "Co-Founder, Business Development",
+  worksFor: { "@id": "https://arclightpainting.com/#business" },
+  url: "https://arclightpainting.com/about",
+  knowsAbout: [
+    "Customer Experience",
+    "Business Development",
+    "Residential Painting Consultations",
+  ],
+  sameAs: ["https://www.linkedin.com/in/jennifer-pattison-48950865/"],
+};
+
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
