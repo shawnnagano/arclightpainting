@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, MessageSquareQuote } from "lucide-react";
+import { Phone, Mail, MapPin, MessageSquareQuote, Facebook, Instagram, Linkedin, Star } from "lucide-react";
 import serviceAreasMap from "@/assets/service-areas-map-bothell-wa.webp";
 import sbaVeteranOwned from "@/assets/sba-veteran-owned-business-badge.webp";
 import arclightLogo from "@/assets/arclight-logo.png";
@@ -26,6 +26,14 @@ const badges = [
     src: sbaVeteranOwned,
     alt: "SBA Veteran-Owned Certified",
   },
+];
+
+const socials = [
+  { href: "https://maps.app.goo.gl/Q3E8cyNn3tbnnqkC9", label: "Google Business Profile", icon: MapPin },
+  { href: "https://www.facebook.com/arclightpainting/", label: "Facebook", icon: Facebook },
+  { href: "https://www.instagram.com/arclightpainting/", label: "Instagram", icon: Instagram },
+  { href: "https://www.linkedin.com/company/arclightpainting/", label: "LinkedIn", icon: Linkedin },
+  { href: "https://www.yelp.com/biz/arclight-painting-bothell", label: "Yelp", icon: Star },
 ];
 
 const Footer = () => {
@@ -81,6 +89,20 @@ const Footer = () => {
             <p className="text-sm font-bold leading-relaxed">
               <span className="text-accent">Real</span> People. <span className="text-accent">Real</span> Purpose. Exceptional <span className="text-accent">Results.</span>
             </p>
+            <div className="flex items-center gap-3 mt-4">
+              {socials.map(({ href, label, icon: Icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-background/60 text-foreground/70 hover:bg-accent hover:text-accent-foreground transition-colors"
+                >
+                  <Icon className="h-4 w-4" />
+                </a>
+              ))}
+            </div>
           </div>
 
           {/* Services */}

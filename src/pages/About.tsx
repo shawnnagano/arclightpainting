@@ -4,7 +4,12 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import { Linkedin } from "lucide-react";
+import SEOHead, {
+  breadcrumbSchema,
+  shawnNaganoSchema,
+  jenniferPattisonSchema,
+} from "@/components/SEOHead";
 import aboutHeroImg from "@/assets/about-us-arclight-painting-bothell-wa.webp";
 import shawnImg from "@/assets/shawn-nagano-owner-arclight-painting.webp";
 import jenniferImg from "@/assets/jennifer-pattison-co-owner-arclight.webp";
@@ -27,18 +32,20 @@ import benjaminImg from "@/assets/benjamin-griffin-arclight-painting.webp";
 import kevinImg from "@/assets/kevin-garnica-arclight-painting.webp";
 import tonyImg from "@/assets/tony-garcia-arclight-painting.webp";
 
-const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties }[] = [
+const teamMembers: { name: string; title: string; image: string; bio: string; imageStyle?: React.CSSProperties; linkedin?: string }[] = [
   {
     name: "Shawn Nagano",
     title: "Founder",
     image: shawnImg,
     bio: "Shawn is the visionary behind Arclight and the one always pushing it forward. A University of Washington alum, Army Captain (ret.), and lifelong builder at heart, he leads with grit, purpose, and a deep belief in helping family and friends win.",
+    linkedin: "https://www.linkedin.com/in/shawn-nagano/",
   },
   {
     name: "Jennifer Pattison",
     title: "Co-Founder",
     image: jenniferImg,
     bio: "Jennifer brings heart, clarity, and confidence to every customer relationship. A U.S. Army veteran and mom of three, she has a natural way of helping homeowners feel comfortable, cared for, and ready to move forward.",
+    linkedin: "https://www.linkedin.com/in/jennifer-pattison-48950865/",
   },
   {
     name: "Christopher Repaso",
@@ -123,10 +130,14 @@ const About = () => {
         title="About Us - Meet the Arclight Painting Team | Bothell, WA"
         description="Meet the team behind Bothell's most trusted painting company. Veteran-owned with 25+ years of experience, every Arclight painter is trained, background-checked, and committed to quality."
         canonical="/about"
-        jsonLd={breadcrumbSchema([
-          { name: "Home", url: "/" },
-          { name: "About Us", url: "/about" },
-        ])}
+        jsonLd={[
+          breadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "About Us", url: "/about" },
+          ]),
+          shawnNaganoSchema,
+          jenniferPattisonSchema,
+        ]}
       />
       <Header />
 
@@ -208,6 +219,17 @@ const About = () => {
                 <h4 className="font-bold text-lg">{member.name}</h4>
                 <p className="text-accent text-sm font-semibold mb-3">{member.title}</p>
                 <p className="text-muted-foreground text-sm leading-relaxed">{member.bio}</p>
+                {member.linkedin && (
+                  <a
+                    href={member.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`${member.name} on LinkedIn`}
+                    className="inline-flex items-center justify-center mt-3 text-muted-foreground hover:text-accent transition-colors"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                  </a>
+                )}
               </div>
             ))}
           </div>
