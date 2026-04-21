@@ -83,6 +83,10 @@ export const localBusinessSchema = {
   foundingDate: "2013",
   slogan: "Real People. Real Purpose. Exceptional Results.",
   award: "Veteran-Owned Business",
+  founder: [
+    { "@id": "https://arclightpainting.com/about#shawn-nagano" },
+    { "@id": "https://arclightpainting.com/about#jennifer-pattison" },
+  ],
   paymentAccepted: "Cash, Check, Credit Card, Financing",
   currenciesAccepted: "USD",
   hasCredential: {
