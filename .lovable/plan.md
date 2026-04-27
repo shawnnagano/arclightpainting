@@ -1,39 +1,51 @@
+## Plan C: Add Verified Homepage Google Reviews to JSON-LD
 
+**What**: Add the 5 real Google reviews currently shown on the homepage to `localBusinessSchema` as structured `Review` objects.
 
-## Plan A (Final): Enhance LocalBusiness Schema
+**Source reviews**: The 5 default homepage testimonials in `src/components/TestimonialsSection.tsx`:
+- Lauren B
+- Frank B
+- Amruta M
+- Donna D
+- Jakub K
 
-**What**: Add verified profiles, Washington contractor license, founding date, slogan, and credentials to `localBusinessSchema` so AI crawlers (ChatGPT, Perplexity, Claude) recognize Arclight as a verified, credentialed business entity.
+**Date handling**: Use the real Google Business Profile dates where confirmable. If Google only exposes relative dates or the exact date is not accessible, use the **first day of the matching month** as the reasonable approximation, per your instruction. No invented review copy will be used.
 
-**Where**: `src/components/SEOHead.tsx` — extend the `localBusinessSchema` constant.
+**Where**:
+- `src/components/SEOHead.tsx`
 
-**Changes**:
+**Implementation details**:
+1. Add a `review` array inside `localBusinessSchema`.
+2. Add one `Review` object for each of the 5 homepage Google reviews.
+3. Preserve the homepage review text exactly as currently displayed.
+4. Use `reviewRating` of `5` / `5` for each review.
+5. Add Google as the review publisher.
+6. Keep the existing `aggregateRating` unchanged.
 
-1. **`sameAs`** — populate with 7 verified profiles:
-   - Google Business Profile, Facebook, Yelp, LinkedIn, Instagram, BBB, Angi
+Example shape:
+```ts
+review: [
+  {
+    "@type": "Review",
+    author: { "@type": "Person", name: "Lauren B" },
+    datePublished: "YYYY-MM-01",
+    reviewBody: "Friends we trust recommended Arclight...",
+    reviewRating: {
+      "@type": "Rating",
+      ratingValue: "5",
+      bestRating: "5",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Google",
+    },
+  },
+]
+```
 
-2. **`hasCredential`** — Washington State contractor license:
-   ```ts
-   {
-     "@type": "EducationalOccupationalCredential",
-     credentialCategory: "license",
-     name: "Washington State Contractor License",
-     identifier: "ARCLIP*747DW",
-     recognizedBy: {
-       "@type": "GovernmentOrganization",
-       name: "Washington State Department of Labor & Industries",
-     },
-   }
-   ```
+**Why it matters**: This gives AI crawlers and search engines specific, attributable customer-review evidence to extract, instead of only seeing the aggregate 4.9 rating.
 
-3. **`foundingDate`**: `"2013"`
-4. **`award`**: `"Veteran-Owned Business"`
-5. **`slogan`**: `"Real People. Real Purpose. Exceptional Results."`
-6. **`paymentAccepted`**: `"Cash, Check, Credit Card, Financing"`
-7. **`currenciesAccepted`**: `"USD"`
+**Files modified**: 1
+- `src/components/SEOHead.tsx`
 
-**Why it matters**: AI engines weight cross-platform identity verification, government-issued licenses, and business longevity heavily when deciding whether to cite a source. These additions turn Arclight into a verified, credentialed entity in LLM knowledge graphs — improving citation rates in ChatGPT/Perplexity answers about Bothell-area painters.
-
-**Files modified**: 1 (`src/components/SEOHead.tsx`)
-
-**Risk**: None. Schema-only, additive, no visual changes. Validates in Google Rich Results Test.
-
+**Risk**: Low. Schema-only, additive, no visual change.
