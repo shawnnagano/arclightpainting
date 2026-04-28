@@ -11,7 +11,7 @@ import CTASection from "@/components/CTASection";
 import ObjectionsSection, { type Objection } from "@/components/ObjectionsSection";
 import SEOHead, { serviceSchema, breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { colorConsultationFAQ } from "@/data/faqData";
-import colorConfidenceHero from "@/assets/color-consultation-service-bothell-wa.webp";
+import colorConfidenceHero from "@/assets/color-confidence-hero.webp";
 
 const features = [
   { icon: Eye, rendered: <>Virtual or in-home Color<span className="text-accent">Confidence</span>™ Consultation with our professional colorist</> },
