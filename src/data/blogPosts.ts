@@ -13,13 +13,13 @@ export const blogPosts: BlogPost[] = [
     slug: "neutral-paint-colors",
     title: "4 Stunning Neutral Paint Colors (That Aren't White)",
     excerpt: "Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.",
-    image: "/images/wp-content/2024/12/Main-Article.jpg",
+    image: "/images/blog/neutral-paint-colors.webp",
     date: "2026-03-14",
     content: `Neutral paint colors are getting a well-deserved spotlight—and not just the usual shades of white. Interior designers are sharing their favorite non-white neutrals, including both warm and cool options that offer depth, softness, and timeless appeal.
 
 If you're looking for a design element to magically transform a space, all you need is a coat of paint. But with so many colors on the spectrum that can tie a room together and create a beautifully cohesive space, why go with plain old white?
 
-It seems this color (or lack thereof!) is falling out of favor, according to [Ruth Mottershead](https://www.littlegreene.us/about-us), creative director of Little Greene. "More than ever, we've seen that there is a greater need to surround ourselves with comforting, soothing colors that are not only easy to live with but provide warmth and serenity within our living environments," she says. "This has been reflected in the increasing popularity of warmer, natural neutrals, in a clear shift away from the cooler, blue-toned grays that have been so popular in recent years. Instead, consumers have been opting for earthier tones that have an inherent warmth."
+It seems this color (or lack thereof!) is falling out of favor, according to [Ruth Mottershead](https://www.littlegreene.us/about-us), creative director of a heritage paint maker. "More than ever, we've seen that there is a greater need to surround ourselves with comforting, soothing colors that are not only easy to live with but provide warmth and serenity within our living environments," she says. "This has been reflected in the increasing popularity of warmer, natural neutrals, in a clear shift away from the cooler, blue-toned grays that have been so popular in recent years. Instead, consumers have been opting for earthier tones that have an inherent warmth."
 
 Ready to take your walls to the next level? Here are a few neutral paint colors that aren't white.
 
@@ -27,39 +27,39 @@ Ready to take your walls to the next level? Here are a few neutral paint colors 
 
 ### Light Grays
 
-*IMAGE: French Grey-Pale by Little Greene.*
+*IMAGE: a soft balanced gray.*
 
-Mottershead says her favorite Little Greene neutral is [French Grey-Pale](https://www.littlegreene.us/french-grey-pale). "It is a fabulous alternative to white and can be used in almost any interior space. Containing a little blue and red, this neutral is what's known as a middle tint. It is neither too warm nor too cold and therefore very flexible in lots of different lights and spaces."
+Mottershead says her favorite a heritage paint maker neutral is a soft balanced gray. "It is a fabulous alternative to white and can be used in almost any interior space. Containing a little blue and red, this neutral is what's known as a middle tint. It is neither too warm nor too cold and therefore very flexible in lots of different lights and spaces."
 
-Benjamin Moore [Metro Gray](https://www.benjaminmoore.com/en-us/paint-colors/color/1459/metro-gray) is another paint worth considering, according to interior designer [Kate Dawson](https://decorwhore.com/). Dawson says it's a great neutral with a little bit of warmth. A more cool-toned option is [Sheep's Wool](https://www.benjaminmoore.com/en-us/paint-colors/color/857/sheeps-wool). "I like it when I'm working with a lot of blue," Dawson says.
+A warm mid-tone gray is another paint worth considering, according to interior designer [Kate Dawson](https://decorwhore.com/). Dawson says it's a great neutral with a little bit of warmth. A more cool-toned option is a soft cool neutral. "I like it when I'm working with a lot of blue," Dawson says.
 
 ### Stone-Inspired Hues
 
-*IMAGE: Clay by Little Greene.*
+*IMAGE: a natural clay neutral.*
 
 Colors inspired by nature are another great alternative to white, says Mottershead. "Natural stone colors such as [Portland Stone](https://www.littlegreene.us/portland-stone), [Bath Stone](https://www.littlegreene.us/bath-stone), and [Clay](https://www.littlegreene.us/clay) are becoming increasingly popular, as these warm neutrals are perfect for creating restful living spaces that bring comfort to the home throughout the seasons," she says.
 
-In addition to this, Patrick O'Donnell, international brand ambassador for [Farrow & Ball](https://www.farrow-ball.com/us/), says that stone-inspired colors, such as [Stony Ground](https://www.farrow-ball.com/us/paint/stony-ground), are a better choice than white, especially when it comes to painting trim. "One of our perennial classics, Stony Ground has an earthy quality that makes it a great choice for trim," he says.
+In addition to this, Patrick O'Donnell, international brand ambassador for a traditional paint maker, says that stone-inspired colors, such as a grounded stone neutral, are a better choice than white, especially when it comes to painting trim. "One of our perennial classics, Stony Ground has an earthy quality that makes it a great choice for trim," he says.
 
 O'Donnell suggests pairing this color with darker shades such as deep green or muted blue. "It is equally capable as a solo color for walls when an off-white won't do, bringing warmth and neutrality to any space," he says.
 
 ### Light Pink
 
-*IMAGE: Setting Plaster by Farrow & Ball.*
+*IMAGE: a muted plaster pink.*
 
-While pink has been a major trend in recent years, it's hardly a neutral hue. However, the right shade (such as Farrow & Ball's [Setting Plaster](https://www.farrow-ball.com/us/paint/setting-plaster)) can be considered neutral, says O'Donnell. "This most elegant of pinks, with just a touch of brown to steer clear of any saccharine appearance, is a good decorating friend," he says. "It's a brilliant choice for bathrooms, flattering the complexion, whilst delivering a cozy charm to poorly lit spaces."
+While pink has been a major trend in recent years, it's hardly a neutral hue. However, the right shade (such as a muted plaster pink) can be considered neutral, says O'Donnell. "This most elegant of pinks, with just a touch of brown to steer clear of any saccharine appearance, is a good decorating friend," he says. "It's a brilliant choice for bathrooms, flattering the complexion, whilst delivering a cozy charm to poorly lit spaces."
 
 ### Pale Yellow
 
-*IMAGE: Tallow by Farrow & Ball.*
+*IMAGE: Tallow by a traditional paint maker.*
 
-While bright yellows aren't neutral, a creamy pale yellow, such as [Tallow](https://www.farrow-ball.com/us/paint/tallow) by Farrow & Ball, is a gorgeous neutral shade. "This pale, creamy yellow with a blush of pink is a glorious trim color. Often overlooked for more muted neutrals, Tallow brings a nostalgic charm to any space and works especially well when paired with yellow and terracotta tones," O'Donnell says.`,
+While bright yellows aren't neutral, a creamy pale yellow, such as a creamy pale yellow, is a gorgeous neutral shade. "This pale, creamy yellow with a blush of pink is a glorious trim color. Often overlooked for more muted neutrals, Tallow brings a nostalgic charm to any space and works especially well when paired with yellow and terracotta tones," O'Donnell says.`,
   },
   {
     slug: "hire-professional-painters",
     title: "Hire Professional Painters: 5 Powerful Reasons It's Worth Every Penny",
     excerpt: "Hire professional painters to ensure peace of mind and exceptional results in your home. Learn what to look for and why it matters.",
-    image: "/images/wp-content/2025/03/How-To-Choose-The-Best-House-Painter-Near-Me-01-.jpg",
+    image: "/images/blog/hire-professional-painters.webp",
     date: "2026-03-14",
     content: `Hire professional painters to ensure peace of mind and exceptional results in your home. Bringing a painting crew into your home is not just about the final result—it's a matter of professionalism, reliability, and trust. That's why every craftsman should be thoroughly vetted, highly skilled, and committed to the highest standards of excellence in every detail.
 
@@ -102,7 +102,7 @@ When you're ready to transform your space with professionals you can trust, let 
     slug: "top-quality-paints",
     title: "6 Key Insights on Using Top Quality Paints for a Beautiful, Lasting Finish",
     excerpt: "Understanding what sets top quality paints apart—formulation, resin type, finish quality—can make a measurable difference in your investment.",
-    image: "/images/wp-content/2025/03/Choosing-the-Right-Paint.jpg",
+    image: "/images/blog/top-quality-paints.webp",
     date: "2026-03-14",
     content: `**Top quality paints** are difficult to distinguish when you're standing in front of rows of nearly identical cans at the store. Labels promise smooth coverage, rich color, and easy application—but how many truly deliver on long-term durability and consistent performance?
 
@@ -150,7 +150,7 @@ Ready to make a confident choice? [Talk to our team today](/schedule) about top 
     slug: "painting-wall-and-ceiling",
     title: "Painting Wall and Ceiling the Same Color: 5 Game-Changing Ideas",
     excerpt: "Should you paint your ceiling and walls the same color? Discover 5 designer-approved ideas for creating cozy, cohesive rooms that feel polished and intentional.",
-    image: "/images/wp-content/2025/04/Main-Article.jpg",
+    image: "/images/blog/painting-wall-and-ceiling.webp",
     date: "2026-03-14",
     content: `## Here's What the Pros Think
 
@@ -196,7 +196,7 @@ This approach isn't just stylish—it's smart. Fewer color transitions can simpl
     slug: "timeless-paint-colors",
     title: "Timeless Paint Colors: 7 Elegant Choices That Never Go Out of Style",
     excerpt: "Timeless paint colors hold more than aesthetic value—they reflect the principles that endure. Discover elegant choices for your home.",
-    image: "/images/wp-content/2025/05/Main-Article-1-1024x576.jpg",
+    image: "/images/blog/timeless-paint-colors.webp",
     date: "2026-03-14",
     content: `Timeless paint colors hold more than aesthetic value—they reflect the principles that endure. As Memorial Day approaches, we pause to remember those who've served—and reflect on the values they stood for: honor, service, and home. For us at Arclight Painting, that reflection is deeply personal. Our founders are veterans, and the discipline, respect, and pride they carried in the military shape the way we show up for our customers every day.
 
@@ -230,7 +230,7 @@ Arclight isn't just about flawless finishes (though we're pretty great at those 
     slug: "paint-color-trends-2025",
     title: "Paint Color Trends 2025: 5 Stunning Designer Picks Dominating This Winter",
     excerpt: "Paint color trends 2025 are here. Discover five designer-approved hues, from rich earth tones to soft warm neutrals, that bring cozy modern style to your home.",
-    image: "/images/wp-content/2025/01/Newsletter-1024x576.jpg",
+    image: "/images/blog/paint-color-trends-2025.webp",
     date: "2025-08-04",
     content: `**Paint Color Trends 2025** are here, just in time for the season of change. As fall winds down and winter approaches, it's the perfect opportunity to refresh your interiors while spending more time indoors. Whether you're aiming for a serene sanctuary in the bedroom or a sophisticated update in the living room, a fresh coat of paint can completely transform your space.
 
@@ -240,21 +240,21 @@ Not sure which shade to choose? We've gathered the top designer-approved colors 
 
 ### Soft Muted Colors
 
-Soft, muted tones are set to dominate this winter, creating cozy, tranquil atmospheres that invite you to unwind. Trina Rogers, a color consultant, points to shades like [**Snowbound by Sherwin-Williams**](https://www.sherwin-williams.com/en-us/color/color-family/white-paint-colors/sw7004-snowbound) as ideal for achieving this effect. Another standout is [**Hale Navy by Benjamin Moore**](https://www.benjaminmoore.com/en-us/paint-colors/color/hc-154/hale-navy).
+Soft, muted tones are set to dominate this winter, creating cozy, tranquil atmospheres that invite you to unwind. Trina Rogers, a color consultant, points to shades like **a soft warm white** as ideal for achieving this effect. Another standout is **a deep classic navy**.
 
-While cooler grays are falling out of favor, warm neutrals like greige are making a comeback. Rogers recommends shades like *Pale Oak* by Benjamin Moore for its soft warmth that brightens rooms by reflecting natural light.
+While cooler grays are falling out of favor, warm neutrals like greige are making a comeback. Rogers recommends shades like a soft warm greige for its soft warmth that brightens rooms by reflecting natural light.
 
 ### Rich Green Hues
 
-There's no better color for winter than a deep, luxurious jewel tone. Shades like **Emerald Isle by Benjamin Moore** add sophistication to any space while remaining versatile enough to feel timeless.
+There's no better color for winter than a deep, luxurious jewel tone. Shades like **a saturated jewel green** add sophistication to any space while remaining versatile enough to feel timeless.
 
 ### Burgundy
 
-Burgundy is poised to be one of the biggest color trends of 2025, says interior designer Becky Shea. "This rich Bordeaux shade has been a personal favorite of mine for years." Try **Dark Burgundy by Benjamin Moore** for a sophisticated choice.
+Burgundy is poised to be one of the biggest color trends of 2025, says interior designer Becky Shea. "This rich Bordeaux shade has been a personal favorite of mine for years." Try **a dark burgundy** for a sophisticated choice.
 
 ### Black or Dark Brown
 
-If you're seeking something bold and dramatic, consider incorporating black or dark brown into your space. **Midsummer Night by Benjamin Moore** is ideal for furniture, accent walls, or architectural features.
+If you're seeking something bold and dramatic, consider incorporating black or dark brown into your space. **a soft black-brown** is ideal for furniture, accent walls, or architectural features.
 
 ### Warm Neutrals Paired With Bold, Dark Accents
 
@@ -272,7 +272,7 @@ Book with Arclight Painting and experience above-and-beyond service that goes fa
     slug: "best-paint-for-high-traffic-areas",
     title: "The Best Paint for High Traffic Areas: 4 Commercial Interior Finishes That Last",
     excerpt: "Choosing the best paint for high traffic areas isn't just about color—it's about selecting coatings that withstand daily use and minimize maintenance costs.",
-    image: "/images/wp-content/2025/08/feature-image-1024x683.jpg",
+    image: "/images/blog/best-paint-for-high-traffic-areas.webp",
     date: "2025-08-07",
     content: `Choosing the right paint, especially the best paint for high traffic areas, isn't just about color—it's about selecting coatings that withstand daily use, resist stains, and minimize long-term maintenance costs.
 
@@ -319,7 +319,7 @@ Even the most durable paint can underperform if it's not applied correctly. Our 
 ## FAQs
 
 **Q: What's the best paint for high traffic areas in commercial properties?**
-A: Satin or semi-gloss finishes from commercial-grade lines like Scuff-X or Pro Industrial.
+A: Satin or semi-gloss finishes from commercial-grade lines like commercial-grade washable coatings.
 
 **Q: Can matte paint be used in an office environment?**
 A: Only for accent or low-touch walls.
@@ -336,7 +336,7 @@ Ready to make a lasting improvement?
     slug: "best-interior-painting",
     title: "Best Interior Painting: Transform Your Home with Expert Tips and Trusted Products",
     excerpt: "From choosing the right finish to picking the best primer, learn the essentials of interior painting for lasting beauty and durability.",
-    image: "/images/wp-content/2025/08/best-interior-painting-3-1024x683.jpg",
+    image: "/images/blog/best-interior-painting.webp",
     date: "2025-08-21",
     content: `A fresh coat of paint can completely change the way your home feels. From a single-room update to a full home makeover, understanding the essentials of the best interior painting ensures lasting beauty and durability.
 
@@ -359,14 +359,14 @@ For most interior walls, **eggshell or satin** finishes offer the right balance 
 
 ## Best Paint for Interior Walls: Quality that Lasts
 
-- [**Sherwin-Williams Emerald® Interior**](https://www.sherwin-williams.com/homeowners/products/emerald-interior-acrylic-latex-paint): Exceptional coverage for high-traffic areas.
-- [**Benjamin Moore Aura® Interior**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/product-catalog/awip/aura-interior-paint): Rich color that resists fading.
-- [**Behr Marquee® Interior Paint & Primer**](https://www.behr.com/consumer/products/interior-paint/behr-marquee-interior): Excellent coverage with advanced stain resistance.
+- **a high-performance interior acrylic**: Exceptional coverage for high-traffic areas.
+- **a premium washable interior paint**: Rich color that resists fading.
+- **a high-hide interior paint and primer**: Excellent coverage with advanced stain resistance.
 
 ## Best Primer for Bedroom Walls
 
-- [**Sherwin-Williams Multi-Purpose Latex Primer**](https://www.sherwin-williams.com/homeowners/products/multipurpose-interiorexterior-latex-primersealer): Reliable adhesion and stain-blocking.
-- [**INSL-X Aqua Lock Plus Primer**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/insl-x/aqua-lock-plus-primer): A strong acrylic option that seals new drywall beautifully.
+- **a multipurpose latex primer**: Reliable adhesion and stain-blocking.
+- **a strong acrylic sealing primer**: A strong acrylic option that seals new drywall beautifully.
 
 ## Elevate Your Space with Arclight Painting
 
@@ -378,7 +378,7 @@ At [Arclight Painting](/services/interior-painting), our team brings expertise, 
     slug: "how-to-pick-a-front-door-color",
     title: "How to Pick a Front Door Color: Transform Your Home's Curb Appeal",
     excerpt: "Your front door is more than just an entryway—it's the first impression your home makes. Learn how to pick the perfect color.",
-    image: "/images/wp-content/2025/08/how-to-pick-a-front-door-color-2-1024x683.jpg",
+    image: "/images/blog/how-to-pick-a-front-door-color.webp",
     date: "2025-09-15",
     content: `Your front door is more than just an entryway—it's the first impression your home makes. Understanding how to pick a front door color comes down to balancing your home's design, exterior palette, and the overall look you want to achieve.
 
@@ -396,9 +396,9 @@ Your front door is one of the most noticeable features of your home. The paint y
 
 ### Recommended Options for Door Paint
 
-- [**Sherwin-Williams Emerald® Urethane Trim Enamel**](https://www.sherwin-williams.com/homeowners/products/emerald-interior-acrylic-latex-paint): Resists yellowing, scuffing, and fingerprints.
-- [**Benjamin Moore Advance® Interior/Exterior Paint**](https://www.benjaminmoore.com/en-us/interior-exterior-paints-stains/product-catalog/awiap/advance-interior-paint): Waterborne alkyd formula with smooth application.
-- [**Behr Premium® Cabinet, Door & Trim Enamel**](https://www.behr.com/consumer/products/specialty-paint/cabinet-and-trim-enamel): Fast-drying technology prevents sticking in just 2 hours.
+- **a urethane-reinforced trim enamel**: Resists yellowing, scuffing, and fingerprints.
+- **a waterborne alkyd trim enamel**: Waterborne alkyd formula with smooth application.
+- **a cabinet, door, and trim enamel**: Fast-drying technology prevents sticking in just 2 hours.
 
 ### Factors to Consider
 
@@ -425,7 +425,7 @@ Learning how to pick a front door color is more than just design—it's about cr
     slug: "professional-interior-painting",
     title: "DIY vs. Professional Interior Painting: 3 Pros and Cons",
     excerpt: "Should you DIY or hire a pro for interior painting? Compare the real costs, time commitment, and quality differences to choose the right approach for your home.",
-    image: "/images/wp-content/2025/09/diy-vs-pro-1.jpg",
+    image: "/images/blog/professional-interior-painting.webp",
     date: "2025-09-18",
     content: `Professional Interior Painting can completely change how your home feels. Whether you choose to handle it yourself or work with a professional, the right approach depends on your budget, time, energy, and goals.
 
@@ -497,7 +497,7 @@ At the end of the day, your home should feel like a place you love to live in. W
     slug: "what-is-a-painting-contract",
     title: "What Is a Painting Contract and Why You Need It",
     excerpt: "A painting contract is a legally binding agreement that lays out expectations, responsibilities, and protections for both sides during your project.",
-    image: "/images/wp-content/2025/10/July-2025-Newsletter-6-1024x576.jpg",
+    image: "/images/blog/what-is-a-painting-contract.webp",
     date: "2025-10-08",
     content: `A painting contract is a legally binding agreement between the client (you) and a professional painting contractor. It lays out the expectations, responsibilities, and recourse for both sides during the project.
 
@@ -578,7 +578,7 @@ A painting contract is your roadmap to a smooth, successful paint job. Taking ti
     slug: "local-commercial-painters",
     title: "Top 10 Questions to Ask Your Local Commercial Painters",
     excerpt: "Hiring local commercial painters is a strategic decision. These 10 essential questions help you assess experience, transparency, and quality before committing.",
-    image: "/images/wp-content/2026/01/local-commercial-painters-1024x576.jpg",
+    image: "/images/blog/local-commercial-painters.webp",
     date: "2026-01-15",
     content: `When you invest in commercial painting, you're not just changing how a building looks. You're protecting an asset, reinforcing your brand, and setting expectations for everyone who walks through your doors. The right local commercial painters will understand that balance and deliver results that are both durable and refined.
 
@@ -674,7 +674,7 @@ If you're planning a commercial painting project and want a partner who values q
     slug: "how-to-paint-a-room",
     title: "How to Paint a Room: A Step-by-Step Guide for a Polished Finish",
     excerpt: "Learning how to paint a room the right way goes beyond applying color to the walls. This step-by-step guide explains everything you need to know.",
-    image: "/images/wp-content/2026/01/how-to-paint-a-room-1024x576.jpg",
+    image: "/images/blog/how-to-paint-a-room.webp",
     date: "2026-01-15",
     content: `Looking for ways on how to paint a room? Painting a room can look deceptively simple. In reality, achieving a clean, even, long-lasting finish requires planning, preparation, and the right technique. This guide walks through each stage of painting a room with a practical, professional mindset.
 
@@ -692,7 +692,7 @@ Quality materials directly affect the final outcome. Before starting, make sure 
 
 Essential supplies include:
 
-- High-quality paint ([Sherwin Williams](https://www.sherwin-williams.com/), [Behr](https://www.behr.com/consumer), or [Benjamin Moore](https://www.benjaminmoore.com/en-us)) selected for the room's use and desired finish
+- High-quality paint (a high-quality coating) selected for the room's use and desired finish
 - Primer for improved adhesion and consistent color
 - Rollers and roller covers suited to your wall texture
 - Angled brushes for trim, corners, and detailed work
@@ -779,7 +779,7 @@ If you're planning an interior painting project and want expert results, contact
     slug: "commercial-painting-cost",
     title: "Essential Commercial Painting Cost Insights: What Businesses Need To Know",
     excerpt: "A commercial painting cost varies based on building size, surface preparation, paint systems, and operational considerations.",
-    image: "/images/wp-content/2026/01/commercial-painting-cost-1024x576.jpg",
+    image: "/images/blog/commercial-painting-cost.webp",
     date: "2026-01-15",
     content: `For business owners and property managers, commercial painting cost is not simply a line item—it's a strategic decision. The condition and appearance of your building influence how your brand is perceived, how well surfaces hold up over time, and how much maintenance you'll face in the future.
 
@@ -863,7 +863,7 @@ Contact Arclight Painting today for a detailed quote and experience commercial p
     slug: "bad-paint-job",
     title: "Bad Paint Job: Why Interior Painting Quality Matters for Your Home",
     excerpt: "A bad paint job reflects missed steps, not bad luck. This article explains how preparation, product selection, and proper application make all the difference.",
-    image: "/images/wp-content/2026/01/bad-paint-job-1024x576.jpg",
+    image: "/images/blog/bad-paint-job.webp",
     date: "2026-01-15",
     content: `A bad paint job is rarely just a cosmetic issue. More often, it's the result of rushed decisions, missed steps or shortcuts that reveal themselves over time and quietly diminish the comfort and confidence you feel in your own home.
 
@@ -929,7 +929,7 @@ If you're looking for results that feel intentional, not rushed, Arclight Painti
     slug: "small-house-color-ideas",
     title: "Small House Color Ideas to Make Every Room Feel Brighter, Bigger, and More Stylish",
     excerpt: "Transform compact spaces with smart small house color ideas — designer picks that visually expand rooms, brighten dim corners, and make any space feel open.",
-    image: "/images/wp-content/2025/12/small-house-color-ideas-1024x576.jpg",
+    image: "/images/blog/small-house-color-ideas.webp",
     date: "2025-12-15",
     content: `Small spaces come with big potential—especially when the right small house color ideas are in play. Thoughtful color choices can make rooms feel more open, cohesive, and comfortable, even without changing a single piece of furniture.
 
@@ -1018,7 +1018,7 @@ If you're ready to bring these small house color ideas to life, contact Arclight
     slug: "types-of-commercial-painting-services",
     title: "5 Types of Commercial Painting Services to Boost Curb Appeal, Branding, and Property Value",
     excerpt: "Understanding the types of commercial painting services available helps business owners improve curb appeal and protect long-term property value.",
-    image: "/images/wp-content/2025/12/types-of-commercial-painting-services-1024x576.jpg",
+    image: "/images/blog/types-of-commercial-painting-services.webp",
     date: "2025-12-15",
     content: `Types of commercial painting services play a crucial role in how a building's appearance reflects a business—often even before anyone steps inside. Customers judge professionalism at a glance, employees feel more motivated in well-maintained spaces, and property value is strengthened when surfaces stay protected and polished.
 
@@ -1106,7 +1106,7 @@ With Arclight Painting, you gain a partner committed to quality and long-term re
     slug: "color-psychology-in-commercial-painting",
     title: "The Power of Color Psychology in Commercial Painting: How It Impacts Your Business",
     excerpt: "Color shapes how customers and employees feel inside your business. Learn how strategic commercial paint choices boost mood, focus, and brand perception.",
-    image: "/images/wp-content/2025/11/arclight-painting-4-1024x576.jpg",
+    image: "/images/blog/color-psychology-in-commercial-painting.webp",
     date: "2025-11-15",
     content: `Color isn't just decoration—it's strategy. In commercial spaces, the right palette can influence how people feel, focus, and even behave. When used thoughtfully, color psychology in commercial painting helps shape an environment that supports your goals, reflects your brand, and enhances the way customers and employees experience your business.
 
@@ -1206,7 +1206,7 @@ Contact us today to request a quote and start creating a space where people feel
     slug: "peeling-paint-in-commercial-buildings",
     title: "Protect Your Investment: Peeling Paint in Commercial Buildings and How to Fix It",
     excerpt: "Peeling paint in commercial buildings is more than cosmetic — it's a warning sign of deeper damage. Learn the causes, risks, and proven repair solutions.",
-    image: "/images/wp-content/2025/11/arclight-painting-6-1024x576.jpg",
+    image: "/images/blog/peeling-paint-in-commercial-buildings.webp",
     date: "2025-11-15",
     content: `Peeling paint in commercial buildings does more than hurt curb appeal—it sends a message. For clients, tenants, and employees, it can signal deferred maintenance or hidden issues behind the walls. And for property managers and business owners, it often points to conditions that need attention long before a new coat of paint is applied.
 
@@ -1314,7 +1314,7 @@ If you're ready to restore your building with a professional finish that stands 
     slug: "how-long-after-painting-can-i-sleep-in-the-room",
     title: "How Long After Painting Can I Sleep in the Room? 4 Expert Tips",
     excerpt: "Wondering how long after painting you can safely sleep in the room? Get expert guidance on VOCs, ventilation, and timing to protect your air quality and health.",
-    image: "/images/wp-content/2025/10/how-long-after-painting-can-i-sleep-in-the-room.jpg",
+    image: "/images/blog/how-long-after-painting-can-i-sleep-in-the-room.webp",
     date: "2025-10-15",
     content: `Painting your room is one of the simplest and most satisfying ways to refresh your space. However, it also raises an important question: **how long after painting can I sleep in the room?**
 
@@ -1387,7 +1387,7 @@ If you're planning an interior painting project in Bothell, Kenmore, or Woodinvi
     slug: "how-long-does-interior-painting-take",
     title: "How Long Does Interior Painting Take? A Room-by-Room Timeline",
     excerpt: "Interior painting timelines depend on prep, room size, drying time, and finish details. Use this practical guide to plan your Bothell-area project.",
-    image: "/images/blog/interior-painting-timeline-bothell.webp",
+    image: "/images/blog/how-long-does-interior-painting-take.webp",
     date: "2026-01-25",
     content: `Planning an interior paint project is easier when you know what the schedule should look like. A single bedroom may be completed quickly, while a full main floor can take several days because the real work includes protection, patching, sanding, caulking, priming, painting, drying, and touch-ups.
 
@@ -1425,7 +1425,7 @@ A good estimate should explain the expected timeline, room sequence, and what co
     slug: "cabinet-refinishing-vs-replacing",
     title: "Cabinet Refinishing vs. Replacing: Which Makes Sense?",
     excerpt: "Compare cabinet refinishing and replacement by cost, disruption, durability, and design flexibility before updating your kitchen.",
-    image: "/images/blog/cabinet-refinishing-vs-replacement.webp",
+    image: "/images/blog/cabinet-refinishing-vs-replacing.webp",
     date: "2026-01-18",
     content: `Kitchen cabinets shape the entire room, but replacing them is not always the best path. If the boxes are solid and the layout works, professional refinishing can deliver a dramatic transformation with less disruption than a full remodel.
 
@@ -1463,7 +1463,7 @@ If your cabinets are good candidates, refinishing can give your kitchen a new fe
     slug: "drywall-repair-before-interior-painting",
     title: "Drywall Repair Before Painting: What Homeowners Should Know",
     excerpt: "Fresh paint looks best over smooth, stable walls. Learn when drywall repair should happen before interior painting.",
-    image: "/images/blog/drywall-repair-before-painting.webp",
+    image: "/images/blog/drywall-repair-before-interior-painting.webp",
     date: "2026-01-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, drywall repair before painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1513,7 +1513,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "best-season-for-exterior-painting-pnw",
     title: "Best Season for Exterior Painting in the Pacific Northwest",
     excerpt: "Exterior painting in the Pacific Northwest depends on dry weather, surface moisture, and smart scheduling.",
-    image: "/images/blog/exterior-painting-season-pnw.webp",
+    image: "/images/blog/best-season-for-exterior-painting-pnw.webp",
     date: "2025-12-22",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, exterior painting season in the Pacific Northwest is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1563,7 +1563,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "pressure-washing-before-exterior-painting",
     title: "Why Pressure Washing Before Exterior Painting Matters",
     excerpt: "Pressure washing removes contaminants that can shorten the life of an exterior paint job.",
-    image: "/images/blog/pressure-washing-before-painting.webp",
+    image: "/images/blog/pressure-washing-before-exterior-painting.webp",
     date: "2025-12-08",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, pressure washing before exterior painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1613,7 +1613,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "how-natural-light-affects-paint-color",
     title: "How Natural Light Affects Paint Color in Your Home",
     excerpt: "Natural light can make the same paint color look warm, cool, bright, or muted depending on the room.",
-    image: "/images/blog/color-consultation-natural-light.webp",
+    image: "/images/blog/how-natural-light-affects-paint-color.webp",
     date: "2025-11-24",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, how natural light affects paint color is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1663,7 +1663,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "best-projects-for-painter-for-a-day",
     title: "Best Projects for Painter-for-a-Day Service",
     excerpt: "Painter-for-a-Day is ideal for focused updates, repairs, touch-ups, and small projects that need professional execution.",
-    image: "/images/blog/painter-for-a-day-projects.webp",
+    image: "/images/blog/best-projects-for-painter-for-a-day.webp",
     date: "2025-11-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, Painter-for-a-Day projects is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1713,7 +1713,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "paint-colors-for-small-rooms",
     title: "Paint Colors for Small Rooms That Feel Bigger",
     excerpt: "Small rooms can feel larger, brighter, and more intentional with the right color strategy.",
-    image: "/images/blog/small-room-paint-colors.webp",
+    image: "/images/blog/paint-colors-for-small-rooms.webp",
     date: "2025-10-27",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, paint colors for small rooms is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1763,7 +1763,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "trim-and-door-painting-guide",
     title: "Trim and Door Painting Guide for a Sharper Home",
     excerpt: "Trim and doors take daily abuse, so the right prep and finish make a major difference.",
-    image: "/images/blog/trim-and-door-painting.webp",
+    image: "/images/blog/trim-and-door-painting-guide.webp",
     date: "2025-10-13",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, trim and door painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1813,7 +1813,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "commercial-office-repaint-planning",
     title: "Commercial Office Repaint Planning Without Disrupting Work",
     excerpt: "A commercial office repaint needs scheduling, durable finishes, and clear communication to minimize downtime.",
-    image: "/images/blog/commercial-office-repaint.webp",
+    image: "/images/blog/commercial-office-repaint-planning.webp",
     date: "2025-09-29",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, commercial office repaint planning is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1863,7 +1863,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "kitchen-cabinet-color-ideas",
     title: "Kitchen Cabinet Color Ideas That Still Feel Timeless",
     excerpt: "Cabinet color should work with counters, flooring, light, and long-term style—not just today’s trend.",
-    image: "/images/blog/kitchen-cabinet-color-planning.webp",
+    image: "/images/blog/kitchen-cabinet-color-ideas.webp",
     date: "2025-09-08",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, kitchen cabinet color ideas is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1913,7 +1913,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "exterior-wood-staining-vs-painting",
     title: "Exterior Wood Staining vs. Painting: How to Choose",
     excerpt: "Wood siding, trim, fences, and accents need the right protective finish for the exposure and look you want.",
-    image: "/images/blog/exterior-wood-staining.webp",
+    image: "/images/blog/exterior-wood-staining-vs-painting.webp",
     date: "2025-08-25",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, exterior wood staining vs painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -1963,7 +1963,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "front-door-paint-curb-appeal",
     title: "Front Door Paint and Curb Appeal: A Practical Guide",
     excerpt: "A front door color can refresh curb appeal quickly when it works with the whole exterior palette.",
-    image: "/images/blog/front-door-curb-appeal.webp",
+    image: "/images/blog/front-door-paint-curb-appeal.webp",
     date: "2025-08-11",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, front door paint and curb appeal is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2063,7 +2063,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "should-ceilings-match-walls",
     title: "Should Ceilings Match Walls? When the Look Works",
     excerpt: "Painting ceilings and walls the same color can feel calm and refined when the room supports it.",
-    image: "/images/blog/ceiling-and-wall-color.webp",
+    image: "/images/blog/should-ceilings-match-walls.webp",
     date: "2025-07-14",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, matching ceilings and walls is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2113,7 +2113,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "nursery-and-bedroom-low-voc-paint",
     title: "Nursery and Bedroom Painting: Low-Odor Planning Tips",
     excerpt: "Bedrooms and nurseries need careful paint timing, ventilation, and product selection for comfort.",
-    image: "/images/blog/nursery-low-voc-paint.webp",
+    image: "/images/blog/nursery-and-bedroom-low-voc-paint.webp",
     date: "2025-06-23",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, nursery and bedroom painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2163,7 +2163,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "rental-property-repaint-tips",
     title: "Rental Property Repaint Tips for Durable Turnovers",
     excerpt: "Rental repaints should balance speed, durability, neutral appeal, and easy maintenance.",
-    image: "/images/blog/rental-property-repaint.webp",
+    image: "/images/blog/rental-property-repaint-tips.webp",
     date: "2025-06-09",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, rental property repainting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2213,7 +2213,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "hoa-exterior-paint-approval",
     title: "HOA Exterior Paint Approval: How to Prepare",
     excerpt: "Exterior repainting in HOA communities goes smoother when colors and documentation are ready early.",
-    image: "/images/blog/hoa-exterior-color-approval.webp",
+    image: "/images/blog/hoa-exterior-paint-approval.webp",
     date: "2025-05-26",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, HOA exterior paint approval is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2263,7 +2263,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "painting-weathered-siding",
     title: "Painting Weathered Siding: Prep Steps That Matter",
     excerpt: "Weathered siding needs cleaning, sanding, priming, and moisture awareness before repainting.",
-    image: "/images/blog/weathered-siding-paint.webp",
+    image: "/images/blog/painting-weathered-siding.webp",
     date: "2025-05-12",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, painting weathered siding is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2313,7 +2313,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "best-paint-for-bathrooms",
     title: "Best Paint for Bathrooms and Moisture-Prone Rooms",
     excerpt: "Bathrooms need finishes that handle humidity, cleaning, and frequent temperature changes.",
-    image: "/images/blog/bathroom-paint-moisture.webp",
+    image: "/images/blog/best-paint-for-bathrooms.webp",
     date: "2025-04-28",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, bathroom paint for moisture-prone rooms is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2363,7 +2363,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "accent-wall-ideas-that-age-well",
     title: "Accent Wall Ideas That Age Well",
     excerpt: "Accent walls work best when they support architecture, lighting, and furniture placement.",
-    image: "/images/blog/accent-wall-planning.webp",
+    image: "/images/blog/accent-wall-ideas-that-age-well.webp",
     date: "2025-04-14",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, accent wall planning is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2463,7 +2463,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "restaurant-painting-color-durability",
     title: "Restaurant Painting: Color, Cleanability, and Downtime",
     excerpt: "Restaurant painting requires durable finishes, planned downtime, and colors that support the guest experience.",
-    image: "/images/blog/commercial-restaurant-paint.webp",
+    image: "/images/blog/restaurant-painting-color-durability.webp",
     date: "2025-03-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, restaurant painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2513,7 +2513,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "house-washing-before-painting",
     title: "House Washing Before Painting: What It Does",
     excerpt: "House washing helps exterior paint bond by removing dirt, mildew, pollen, and chalky residue.",
-    image: "/images/blog/house-washing-paint-prep.webp",
+    image: "/images/blog/house-washing-before-painting.webp",
     date: "2025-02-24",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, house washing before painting is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2563,7 +2563,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "deck-and-fence-staining-prep",
     title: "Deck and Fence Staining Prep for Better Results",
     excerpt: "Decks and fences need cleaning and drying before stain or paint can perform well.",
-    image: "/images/blog/deck-fence-staining-prep.webp",
+    image: "/images/blog/deck-and-fence-staining-prep.webp",
     date: "2025-02-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, deck and fence staining prep is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2613,7 +2613,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "questions-to-ask-before-paint-estimate",
     title: "Questions to Ask Before a Paint Estimate",
     excerpt: "The right questions help you compare painting estimates beyond the bottom-line price.",
-    image: "/images/blog/paint-estimate-questions.webp",
+    image: "/images/blog/questions-to-ask-before-paint-estimate.webp",
     date: "2025-01-27",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, questions to ask before a paint estimate is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2663,7 +2663,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "move-in-painting-checklist",
     title: "Move-In Painting Checklist for a Fresh Start",
     excerpt: "Painting before move-in can save time and protect furniture, but it requires good sequencing.",
-    image: "/images/blog/move-in-interior-painting.webp",
+    image: "/images/blog/move-in-painting-checklist.webp",
     date: "2024-12-16",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, move-in painting planning is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2713,7 +2713,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "open-concept-paint-color-flow",
     title: "Open-Concept Paint Color Flow: How to Connect Rooms",
     excerpt: "Open layouts need color transitions that feel connected without making every wall identical.",
-    image: "/images/blog/open-concept-color-flow.webp",
+    image: "/images/blog/open-concept-paint-color-flow.webp",
     date: "2024-10-21",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, open-concept paint color flow is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2763,7 +2763,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "garage-door-paint-color-ideas",
     title: "Garage Door Paint Color Ideas for Exterior Balance",
     excerpt: "Garage doors can blend in, add contrast, or support trim colors depending on your exterior design.",
-    image: "/images/blog/garage-door-exterior-paint.webp",
+    image: "/images/blog/garage-door-paint-color-ideas.webp",
     date: "2024-08-19",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, garage door paint color ideas is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2813,7 +2813,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "winter-interior-painting-benefits",
     title: "Winter Interior Painting Benefits for Busy Households",
     excerpt: "Winter can be a smart time for interior painting when exterior work slows and schedules are easier.",
-    image: "/images/blog/winter-interior-painting.webp",
+    image: "/images/blog/winter-interior-painting-benefits.webp",
     date: "2024-01-22",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, winter interior painting benefits is about balancing appearance, durability, timing, and the way your home is actually used.
 
@@ -2863,7 +2863,7 @@ The best estimate should explain prep, products, schedule, and what is included.
     slug: "home-paint-maintenance-schedule",
     title: "Home Paint Maintenance Schedule for the Northwest",
     excerpt: "A simple maintenance schedule helps homeowners catch paint issues before they become expensive repairs.",
-    image: "/images/blog/maintenance-painting-schedule.webp",
+    image: "/images/blog/home-paint-maintenance-schedule.webp",
     date: "2023-10-16",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, home paint maintenance scheduling is about balancing appearance, durability, timing, and the way your home is actually used.
 
