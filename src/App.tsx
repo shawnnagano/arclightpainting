@@ -18,7 +18,7 @@ const About = lazy(() => import("./pages/About.tsx"));
 const Pricing = lazy(() => import("./pages/Pricing.tsx"));
 const Reviews = lazy(() => import("./pages/Reviews.tsx"));
 const Schedule = lazy(() => import("./pages/Schedule.tsx"));
-const ServiceDetail = lazy(() => import("./pages/ServiceDetail.tsx"));
+import ServiceDetail from "./pages/ServiceDetail.tsx";
 const ServiceAreaDetail = lazy(() => import("./pages/ServiceAreaDetail.tsx"));
 const BlogPostDetail = lazy(() => import("./pages/BlogPostDetail.tsx"));
 const Blog = lazy(() => import("./pages/Blog.tsx"));
