@@ -37,6 +37,14 @@ const socials = [
   { href: "https://www.yelp.com/biz/arclight-painting-bothell", label: "Yelp", icon: FaYelp },
 ];
 
+const priorityGuides = [
+  { label: "Bad Paint Job Warning Signs", href: "/bad-paint-job" },
+  { label: "Commercial Painting Cost", href: "/commercial-painting-cost" },
+  { label: "High-Traffic Paint Finishes", href: "/best-paint-for-high-traffic-areas" },
+  { label: "Painting Contract Guide", href: "/what-is-a-painting-contract" },
+  { label: "When Can You Sleep in a Painted Room?", href: "/how-long-after-painting-can-i-sleep-in-the-room" },
+];
+
 const Footer = () => {
   return (
     <footer className="bg-secondary text-foreground border-t border-border">
@@ -65,7 +73,7 @@ const Footer = () => {
         <p className="text-center text-sm opacity-70 leading-relaxed">
           {serviceAreas.map((area, i) => (
             <span key={area.slug}>
-              <Link to={`/${area.slug}`} className="hover:text-accent transition-colors">
+              <Link to={area.slug === "bothell" ? "/" : `/${area.slug}`} className="hover:text-accent transition-colors">
                 {area.name}
               </Link>
               {i < serviceAreas.length - 1 && <span className="mx-2">|</span>}
@@ -75,7 +83,7 @@ const Footer = () => {
       </div>
 
       <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-4 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-10">
           {/* Brand */}
           <div>
             <img
@@ -132,6 +140,20 @@ const Footer = () => {
               <li><Link to="/blog" className="hover:text-accent transition-colors">Blog</Link></li>
               <li><Link to="/join-our-team" className="hover:text-accent transition-colors">Join Our Team</Link></li>
               
+            </ul>
+          </div>
+
+          {/* Helpful Guides */}
+          <div>
+            <h4 className="font-bold mb-4 text-accent">Helpful Guides</h4>
+            <ul className="space-y-2 text-sm opacity-70">
+              {priorityGuides.map((guide) => (
+                <li key={guide.href}>
+                  <Link to={guide.href} className="hover:text-accent transition-colors">
+                    {guide.label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
