@@ -69,7 +69,7 @@ const coreRoutes = [
   {
     path: "/privacy-policy",
     title: "Privacy Policy | Arclight Painting",
-    description: "Arclight Painting's privacy policy outlines how we collect, use, disclose, and protect your personal information.",
+    description: "Read Arclight Painting's privacy policy to understand how we collect, use, disclose, and protect personal information when you contact us or use our website.",
     priority: "0.3",
     changefreq: "yearly",
   },
