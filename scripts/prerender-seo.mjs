@@ -4,6 +4,7 @@ import { getSeoRoutes } from "./seo-routes.mjs";
 
 const distDir = path.join(process.cwd(), "dist");
 const templatePath = path.join(distDir, "index.html");
+const publicDir = path.join(process.cwd(), "public");
 
 if (!fs.existsSync(templatePath)) {
   throw new Error("dist/index.html not found. Run the Vite build before prerendering SEO metadata.");
@@ -41,6 +42,7 @@ function outputPath(routePath) {
 const routes = getSeoRoutes();
 for (const route of routes) {
   const filePath = outputPath(route.path);
+  if (filePath !== templatePath && fs.existsSync(path.join(publicDir, route.path.replace(/^\//, "")))) continue;
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   fs.writeFileSync(filePath, injectSeo(baseHtml, route));
 }
