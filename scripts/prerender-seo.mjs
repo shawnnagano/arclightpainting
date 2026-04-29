@@ -34,6 +34,56 @@ function injectSeo(html, route) {
   return cleaned.replace("</head>", `${routeSeo(route)}\n  </head>`);
 }
 
+function routeSeoRuntime(routes) {
+  const payload = JSON.stringify(
+    Object.fromEntries(routes.map((route) => [route.path, {
+      title: route.title,
+      description: route.description,
+      canonical: route.canonical,
+      image: route.image,
+      type: route.type === "article" ? "article" : "website",
+    }]))
+  ).replaceAll("<", "\\u003c");
+
+  return `
+    <!-- route-seo-runtime:start -->
+    <script>
+      (() => {
+        const routes = ${payload};
+        const normalizedPath = window.location.pathname.replace(/\\/+$/, "") || "/";
+        const route = routes[normalizedPath] || routes["/"];
+        if (!route) return;
+        const setMeta = (selector, attrs) => {
+          let el = document.head.querySelector(selector);
+          if (!el) {
+            el = document.createElement(attrs.property ? "meta" : attrs.rel ? "link" : "meta");
+            document.head.appendChild(el);
+          }
+          Object.entries(attrs).forEach(([key, value]) => el.setAttribute(key, value));
+        };
+        document.title = route.title;
+        setMeta('meta[name="description"]', { name: "description", content: route.description });
+        setMeta('link[rel="canonical"]', { rel: "canonical", href: route.canonical });
+        setMeta('meta[property="og:title"]', { property: "og:title", content: route.title });
+        setMeta('meta[property="og:description"]', { property: "og:description", content: route.description });
+        setMeta('meta[property="og:type"]', { property: "og:type", content: route.type });
+        setMeta('meta[property="og:image"]', { property: "og:image", content: route.image });
+        setMeta('meta[property="og:url"]', { property: "og:url", content: route.canonical });
+        setMeta('meta[name="twitter:title"]', { name: "twitter:title", content: route.title });
+        setMeta('meta[name="twitter:description"]', { name: "twitter:description", content: route.description });
+        setMeta('meta[name="twitter:image"]', { name: "twitter:image", content: route.image });
+      })();
+    </script>
+    <!-- route-seo-runtime:end -->`;
+}
+
+function injectRuntimeSeo(html, routes) {
+  const cleaned = html
+    .replace(/\n\s*<!-- route-seo:start -->[\s\S]*?<!-- route-seo:end -->/g, "")
+    .replace(/\n\s*<!-- route-seo-runtime:start -->[\s\S]*?<!-- route-seo-runtime:end -->/g, "");
+  return cleaned.replace("</head>", `${routeSeoRuntime(routes)}\n  </head>`);
+}
+
 function outputPath(routePath) {
   if (routePath === "/") return templatePath;
   return path.join(distDir, routePath.replace(/^\//, ""), "index.html");
@@ -45,8 +95,11 @@ function flatOutputPath(routePath) {
 }
 
 const routes = getSeoRoutes();
+fs.writeFileSync(templatePath, injectRuntimeSeo(baseHtml, routes));
+
 for (const route of routes) {
   const filePath = outputPath(route.path);
+  if (filePath === templatePath) continue;
   if (filePath !== templatePath && fs.existsSync(path.join(publicDir, route.path.replace(/^\//, "")))) continue;
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   const html = injectSeo(baseHtml, route);
