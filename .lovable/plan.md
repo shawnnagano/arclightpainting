@@ -1,95 +1,151 @@
-Revised plan
+I checked the live published custom domain after you published. The sitemap and robots.txt are good, but the live verification found one important remaining SEO issue that should be fixed before resubmitting in Google Search Console.
 
-Decision: do not bring back `/services`
+## What passed
 
-We should not recreate `/services` just for indexing. If the page was removed because it felt irrelevant or redundant, adding it back as a thin hub page could create more quality/canonical noise. The better approach is to keep the site focused on the real indexable service pages and use the homepage’s existing services section for general service discovery.
+1. `robots.txt` is live and crawlable.
+   - It allows Googlebot.
+   - It points to `https://arclightpainting.com/sitemap.xml`.
 
-Final redirect decisions
+2. `sitemap.xml` is live and using the correct root domain.
+   - Sitemap URLs use `https://arclightpainting.com/...`.
+   - The priority service, location, and blog URLs are included.
+   - It is not using the preview domain or the `www` domain.
 
-1. `/home.html`
-   - Target: `/`
-   - Purpose: classic migration cleanup.
-   - Keep out of sitemap.
+3. The pages render visually in the browser.
+   - Example: `/commercial-painting-cost` loads the correct blog article visually.
 
-2. `/interior-painting-bothell-wa/`
-   - Target: `/services/interior-painting`
-   - Purpose: strongest topical match; this is business-relevant and should not go to homepage.
-   - Keep out of sitemap.
+## What failed
 
-3. `/services-new/`
-   - Target: `/`
-   - Purpose: old generic/staging services URL. Since there is no current `/services` page by design, homepage is the best broad equivalent because it contains the current services section and routes users onward.
-   - Keep out of sitemap.
+The raw HTML currently sends the same homepage canonical/title for many deep pages:
 
-4. `?page_id=` WordPress URLs
-   - Do not map yet without evidence.
-   - Investigate each old page ID before deciding:
-     - `/?page_id=7850`
-     - `/?page_id=8582`
-     - `/?page_id=8521`
-     - `/?page_id=8488`
-     - `/?page_id=8547`
-     - `/?page_id=8343`
-   - If a page ID was a real service/location/blog page, redirect it to the closest current equivalent.
-   - If it was a draft, duplicate, staging, or test page, leave it as 404 and keep it out of the sitemap.
+```text
+<link rel="canonical" href="https://arclightpainting.com" />
+<title>Professional House Painters in Bothell, WA | Arclight Painting</title>
+```
 
-5. WordPress/security-probe URLs
-   - Do not create redirects for:
-     - `/wp-content/uploads/*`
-     - `/wp-content/themes/hello-elementor/*`
-     - `/wp-content/*`
-     - `/wp-*.php`
-     - `/*`
-   - These should not be redirected to homepage because that can create soft-404 patterns and confuse Google.
+This was found on pages like:
 
-Implementation plan
+```text
+/commercial-painting-cost
+/services/pressure-washing
+/about
+/woodinville
+```
 
-1. Keep the app route policy lean
-   - Keep `/services` redirected to `/` unless there is a future user-facing reason to build a true services overview page.
-   - Keep `/services` out of the sitemap and SEO route list.
-   - Keep all specific service pages indexable.
+That means Google may see those URLs as duplicates of the homepage, even though the browser eventually renders the correct content with JavaScript. This is likely contributing to the “Discovered, currently not indexed” issue.
 
-2. Update legacy redirect fallbacks
-   - Ensure these paths are handled consistently, including trailing-slash variants where the router needs them:
-     - `/home.html` → `/`
-     - `/services-new` and `/services-new/` → `/`
-     - `/interior-painting-bothell-wa` and `/interior-painting-bothell-wa/` → `/services/interior-painting`
-   - Keep existing relevant legacy service redirects that point to specific current service pages.
+There is also one legacy URL still returning a real 404:
 
-3. Fix crawler-visible metadata/canonical output for deep routes
-   - This remains the highest-priority technical issue.
-   - Update the static/prerender SEO process so every indexable route serves its own initial HTML metadata instead of inheriting homepage metadata.
-   - Verify raw HTML on the custom domain eventually shows correct route-specific values for:
-     - `/`
-     - `/blog`
-     - `/services/interior-painting`
-     - `/woodinville`
-     - a recent blog post
-   - Expected result: each route has its own title, description, and canonical URL before JavaScript runs.
+```text
+/home.html
+```
 
-4. Strengthen sitemap/audit checks
-   - Ensure `public/sitemap.xml` contains only canonical, indexable final URLs.
-   - Keep legacy redirects and WordPress probe URLs out of the sitemap.
-   - Extend the SEO audit so it catches:
-     - duplicate titles/descriptions
-     - missing or short descriptions
-     - canonical mismatch
-     - accidental noindex on sitemap URLs
-     - sitemap URLs that are redirects or non-200s
+And these legacy URLs visually redirect in the browser, but they are not server-level 301 redirects in the raw HTTP response:
 
-5. Validate post-publish
-   - Test the custom domain, not just preview/local output.
-   - Validate:
-     - `/home.html` resolves to `/`
-     - `/services-new/` resolves to `/`
-     - `/interior-painting-bothell-wa/` resolves to `/services/interior-painting`
-     - sitemap contains only final canonical URLs
-     - deep pages no longer show homepage canonical metadata
-   - Then in Google Search Console:
-     - inspect the three meaningful old URLs
-     - validate the 404 fix
-     - resubmit `https://arclightpainting.com/sitemap.xml`
+```text
+/the-arclight-difference/ -> /about visually
+/services-new -> / visually
+/interior-painting-bothell-wa -> /services/interior-painting visually
+/services -> / visually
+```
 
-Technical note
+## Fix plan
 
-A true HTTP 301 is controlled by the hosting layer. Lovable hosting does not use `_redirects`, `_headers`, `netlify.toml`, or `vercel.json`, so I will not add those. I will keep the app-side redirects as fallback behavior and focus the code changes on canonical/sitemap correctness and route-specific metadata, which are the most actionable fixes inside this project.
+### 1. Fix production prerender metadata for every indexable route
+
+Update the SEO/prerender generation so each route outputs its own canonical URL and route-specific metadata in the initial HTML.
+
+Examples:
+
+```text
+/about
+canonical: https://arclightpainting.com/about
+
+a/commercial-painting-cost
+canonical: https://arclightpainting.com/commercial-painting-cost
+
+/services/pressure-washing
+canonical: https://arclightpainting.com/services/pressure-washing
+
+/woodinville
+canonical: https://arclightpainting.com/woodinville
+```
+
+The homepage should remain:
+
+```text
+canonical: https://arclightpainting.com
+```
+
+### 2. Ensure titles/descriptions are route-specific in raw HTML
+
+The initial HTML should not use the homepage title for every page. Blog pages, service pages, and location pages should output their own titles and meta descriptions before JavaScript runs.
+
+This matters because Google evaluates the raw HTML and rendered HTML, and conflicting signals can slow indexing.
+
+### 3. Add `/home.html` to the legacy redirect handling
+
+Fix `/home.html` so it no longer returns a hard 404.
+
+Target:
+
+```text
+/home.html -> /
+```
+
+### 4. Re-check legacy redirects
+
+After the metadata fix, verify these again:
+
+```text
+/the-arclight-difference/ -> /about
+/services-new -> /
+/home.html -> /
+/interior-painting-bothell-wa -> /services/interior-painting
+/services -> /
+```
+
+Because Lovable hosting handles SPA routes automatically, these may still be app-level redirects rather than true HTTP 301s. The key requirement is that they no longer show 404/noindex pages. If true HTTP 301s are unavailable at the hosting layer, the app-level redirect is the best available in-code fix.
+
+### 5. Re-run the live verification checklist
+
+After implementation and another publish/update, verify:
+
+```text
+https://arclightpainting.com/commercial-painting-cost
+https://arclightpainting.com/services/pressure-washing
+https://arclightpainting.com/woodinville
+https://arclightpainting.com/union-hill-novelty-hill
+https://arclightpainting.com/timeless-paint-colors
+https://arclightpainting.com/about
+```
+
+Each should have:
+
+```text
+status: 200
+noindex: false
+canonical: exact same URL
+route-specific title/meta description
+visible rendered content
+```
+
+### 6. Then resubmit in Google Search Console
+
+Only after this fix is live:
+
+1. Resubmit `https://arclightpainting.com/sitemap.xml`.
+2. Use URL Inspection on the most valuable pages.
+3. Request indexing for priority URLs first:
+   - `/services/interior-painting`
+   - `/services/exterior-painting`
+   - `/services/pressure-washing`
+   - `/woodinville`
+   - `/union-hill-novelty-hill`
+   - `/commercial-painting-cost`
+   - `/bad-paint-job`
+   - `/what-is-a-painting-contract`
+
+## Bottom line
+
+Step 2 found the remaining blocker: deep pages are live and crawlable, but their initial HTML canonical currently points to the homepage. The next implementation should fix route-specific canonical/title/meta generation, then we can rerun the live checks and move to Search Console resubmission.
