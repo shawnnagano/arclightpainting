@@ -1462,7 +1462,7 @@ If your cabinets are good candidates, refinishing can give your kitchen a new fe
   {
     slug: "drywall-repair-before-interior-painting",
     title: "Drywall Repair Before Painting: What Homeowners Should Know",
-    excerpt: "Fresh paint looks best over smooth, stable walls. Learn when drywall repair should happen before interior painting.",
+    excerpt: "Learn when drywall repair should happen before interior painting so your Bothell-area home gets smoother walls, cleaner lines, and a longer-lasting finish.",
     image: "/images/blog/drywall-repair-before-interior-painting.webp",
     date: "2026-01-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, drywall repair before painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1512,7 +1512,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "best-season-for-exterior-painting-pnw",
     title: "Best Season for Exterior Painting in the Pacific Northwest",
-    excerpt: "Exterior painting in the Pacific Northwest depends on dry weather, surface moisture, and smart scheduling.",
+    excerpt: "Find the best season for exterior painting in the Pacific Northwest, including dry weather windows, surface moisture checks, and smart scheduling tips.",
     image: "/images/blog/best-season-for-exterior-painting-pnw.webp",
     date: "2025-12-22",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, exterior painting season in the Pacific Northwest is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1562,7 +1562,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "pressure-washing-before-exterior-painting",
     title: "Why Pressure Washing Before Exterior Painting Matters",
-    excerpt: "Pressure washing removes contaminants that can shorten the life of an exterior paint job.",
+    excerpt: "See why pressure washing before exterior painting matters, from removing mildew and pollen to helping new coatings bond better and last longer.",
     image: "/images/blog/pressure-washing-before-exterior-painting.webp",
     date: "2025-12-08",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, pressure washing before exterior painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1612,7 +1612,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "how-natural-light-affects-paint-color",
     title: "How Natural Light Affects Paint Color in Your Home",
-    excerpt: "Natural light can make the same paint color look warm, cool, bright, or muted depending on the room.",
+    excerpt: "Learn how natural light changes paint color throughout the day so you can choose interior colors that look right in your actual Bothell-area home.",
     image: "/images/blog/how-natural-light-affects-paint-color.webp",
     date: "2025-11-24",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, how natural light affects paint color is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1712,7 +1712,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "paint-colors-for-small-rooms",
     title: "Paint Colors for Small Rooms That Feel Bigger",
-    excerpt: "Small rooms can feel larger, brighter, and more intentional with the right color strategy.",
+    excerpt: "Explore paint colors for small rooms that feel bigger, brighter, and more intentional without sacrificing warmth, style, or everyday livability.",
     image: "/images/blog/paint-colors-for-small-rooms.webp",
     date: "2025-10-27",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, paint colors for small rooms is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1762,7 +1762,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "trim-and-door-painting-guide",
     title: "Trim and Door Painting Guide for a Sharper Home",
-    excerpt: "Trim and doors take daily abuse, so the right prep and finish make a major difference.",
+    excerpt: "Use this trim and door painting guide to understand prep, sheen, durability, and finish choices for sharper details that stand up to daily wear.",
     image: "/images/blog/trim-and-door-painting-guide.webp",
     date: "2025-10-13",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, trim and door painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1812,7 +1812,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "commercial-office-repaint-planning",
     title: "Commercial Office Repaint Planning Without Disrupting Work",
-    excerpt: "A commercial office repaint needs scheduling, durable finishes, and clear communication to minimize downtime.",
+    excerpt: "Plan a commercial office repaint with less disruption by coordinating schedules, durable finishes, workspace access, and clear communication from start to finish.",
     image: "/images/blog/commercial-office-repaint-planning.webp",
     date: "2025-09-29",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, commercial office repaint planning is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1862,7 +1862,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "kitchen-cabinet-color-ideas",
     title: "Kitchen Cabinet Color Ideas That Still Feel Timeless",
-    excerpt: "Cabinet color should work with counters, flooring, light, and long-term style—not just today’s trend.",
+    excerpt: "Choose kitchen cabinet colors that still feel timeless by balancing counters, floors, lighting, hardware, and long-term style instead of chasing trends.",
     image: "/images/blog/kitchen-cabinet-color-ideas.webp",
     date: "2025-09-08",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, kitchen cabinet color ideas is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1912,7 +1912,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "exterior-wood-staining-vs-painting",
     title: "Exterior Wood Staining vs. Painting: How to Choose",
-    excerpt: "Wood siding, trim, fences, and accents need the right protective finish for the exposure and look you want.",
+    excerpt: "Compare exterior wood staining vs. painting for siding, trim, decks, fences, and accents so you can protect wood while getting the look you want.",
     image: "/images/blog/exterior-wood-staining-vs-painting.webp",
     date: "2025-08-25",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, exterior wood staining vs painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -1962,7 +1962,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "front-door-paint-curb-appeal",
     title: "Front Door Paint and Curb Appeal: A Practical Guide",
-    excerpt: "A front door color can refresh curb appeal quickly when it works with the whole exterior palette.",
+    excerpt: "Pick a front door paint color that improves curb appeal by coordinating with siding, trim, roof color, landscaping, and your home's overall style.",
     image: "/images/blog/front-door-paint-curb-appeal.webp",
     date: "2025-08-11",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, front door paint and curb appeal is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2012,7 +2012,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "interior-paint-sheen-guide",
     title: "Interior Paint Sheen Guide: Where Each Finish Works Best",
-    excerpt: "Choosing the right sheen affects cleanability, touch-ups, glare, and long-term durability.",
+    excerpt: "Use this interior paint sheen guide to match each finish to the right room, balancing cleanability, touch-ups, glare, durability, and appearance.",
     image: "/images/blog/interior-paint-sheen-guide.webp",
     date: "2025-07-28",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, interior paint sheen selection is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2062,7 +2062,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "should-ceilings-match-walls",
     title: "Should Ceilings Match Walls? When the Look Works",
-    excerpt: "Painting ceilings and walls the same color can feel calm and refined when the room supports it.",
+    excerpt: "Learn when ceilings should match walls, how the look affects room height and mood, and when contrast is the better choice for your space.",
     image: "/images/blog/should-ceilings-match-walls.webp",
     date: "2025-07-14",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, matching ceilings and walls is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2112,7 +2112,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "nursery-and-bedroom-low-voc-paint",
     title: "Nursery and Bedroom Painting: Low-Odor Planning Tips",
-    excerpt: "Bedrooms and nurseries need careful paint timing, ventilation, and product selection for comfort.",
+    excerpt: "Plan nursery and bedroom painting with low-odor timing, ventilation, and product choices that support comfort before furniture and daily routines return.",
     image: "/images/blog/nursery-and-bedroom-low-voc-paint.webp",
     date: "2025-06-23",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, nursery and bedroom painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2162,7 +2162,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "rental-property-repaint-tips",
     title: "Rental Property Repaint Tips for Durable Turnovers",
-    excerpt: "Rental repaints should balance speed, durability, neutral appeal, and easy maintenance.",
+    excerpt: "Use these rental property repaint tips to balance quick turnovers, durable finishes, neutral colors, easy maintenance, and long-term value.",
     image: "/images/blog/rental-property-repaint-tips.webp",
     date: "2025-06-09",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, rental property repainting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2212,7 +2212,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "hoa-exterior-paint-approval",
     title: "HOA Exterior Paint Approval: How to Prepare",
-    excerpt: "Exterior repainting in HOA communities goes smoother when colors and documentation are ready early.",
+    excerpt: "Prepare for HOA exterior paint approval with color samples, documentation, timelines, and communication steps that help avoid repaint delays.",
     image: "/images/blog/hoa-exterior-paint-approval.webp",
     date: "2025-05-26",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, HOA exterior paint approval is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2262,7 +2262,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "painting-weathered-siding",
     title: "Painting Weathered Siding: Prep Steps That Matter",
-    excerpt: "Weathered siding needs cleaning, sanding, priming, and moisture awareness before repainting.",
+    excerpt: "Painting weathered siding starts with cleaning, sanding, priming, moisture checks, and repair decisions that help the new finish last longer.",
     image: "/images/blog/painting-weathered-siding.webp",
     date: "2025-05-12",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, painting weathered siding is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2312,7 +2312,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "best-paint-for-bathrooms",
     title: "Best Paint for Bathrooms and Moisture-Prone Rooms",
-    excerpt: "Bathrooms need finishes that handle humidity, cleaning, and frequent temperature changes.",
+    excerpt: "Choose bathroom paint finishes that handle humidity, cleaning, and temperature swings while keeping moisture-prone rooms looking fresh longer.",
     image: "/images/blog/best-paint-for-bathrooms.webp",
     date: "2025-04-28",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, bathroom paint for moisture-prone rooms is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2362,7 +2362,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "accent-wall-ideas-that-age-well",
     title: "Accent Wall Ideas That Age Well",
-    excerpt: "Accent walls work best when they support architecture, lighting, and furniture placement.",
+    excerpt: "Find accent wall ideas that age well by choosing walls, colors, and placements that support architecture, lighting, furniture, and long-term style.",
     image: "/images/blog/accent-wall-ideas-that-age-well.webp",
     date: "2025-04-14",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, accent wall planning is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2412,7 +2412,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "entryway-paint-ideas",
     title: "Entryway Paint Ideas for a Better First Impression",
-    excerpt: "Entryways need durable paint choices that welcome guests and handle daily traffic.",
+    excerpt: "Explore entryway paint ideas that create a better first impression while standing up to shoes, bags, pets, fingerprints, and everyday household traffic.",
     image: "/images/blog/entryway-paint-ideas.webp",
     date: "2025-03-24",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, entryway paint ideas is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2462,7 +2462,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "restaurant-painting-color-durability",
     title: "Restaurant Painting: Color, Cleanability, and Downtime",
-    excerpt: "Restaurant painting requires durable finishes, planned downtime, and colors that support the guest experience.",
+    excerpt: "Plan restaurant painting around durable finishes, cleanability, brand atmosphere, guest comfort, and downtime that keeps operations moving smoothly.",
     image: "/images/blog/restaurant-painting-color-durability.webp",
     date: "2025-03-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, restaurant painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2512,7 +2512,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "house-washing-before-painting",
     title: "House Washing Before Painting: What It Does",
-    excerpt: "House washing helps exterior paint bond by removing dirt, mildew, pollen, and chalky residue.",
+    excerpt: "Learn how professional house washing before painting removes dirt, mildew, pollen, and chalky residue so exterior paint bonds better and lasts longer.",
     image: "/images/blog/house-washing-before-painting.webp",
     date: "2025-02-24",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, house washing before painting is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2562,7 +2562,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "deck-and-fence-staining-prep",
     title: "Deck and Fence Staining Prep for Better Results",
-    excerpt: "Decks and fences need cleaning and drying before stain or paint can perform well.",
+    excerpt: "Get deck and fence staining prep tips for cleaning, drying, sanding, and timing so outdoor wood finishes absorb evenly and protect better.",
     image: "/images/blog/deck-and-fence-staining-prep.webp",
     date: "2025-02-10",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, deck and fence staining prep is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2612,7 +2612,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "questions-to-ask-before-paint-estimate",
     title: "Questions to Ask Before a Paint Estimate",
-    excerpt: "The right questions help you compare painting estimates beyond the bottom-line price.",
+    excerpt: "Ask better questions before a paint estimate so you can compare prep, products, scope, scheduling, warranty details, and total value—not just price.",
     image: "/images/blog/questions-to-ask-before-paint-estimate.webp",
     date: "2025-01-27",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, questions to ask before a paint estimate is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2662,7 +2662,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "move-in-painting-checklist",
     title: "Move-In Painting Checklist for a Fresh Start",
-    excerpt: "Painting before move-in can save time and protect furniture, but it requires good sequencing.",
+    excerpt: "Use this move-in painting checklist to plan colors, access, drying time, repairs, and scheduling before furniture and boxes make the work harder.",
     image: "/images/blog/move-in-painting-checklist.webp",
     date: "2024-12-16",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, move-in painting planning is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2712,7 +2712,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "open-concept-paint-color-flow",
     title: "Open-Concept Paint Color Flow: How to Connect Rooms",
-    excerpt: "Open layouts need color transitions that feel connected without making every wall identical.",
+    excerpt: "Create open-concept paint color flow with connected room transitions, balanced contrast, and coordinated trim so the layout feels cohesive, not flat.",
     image: "/images/blog/open-concept-paint-color-flow.webp",
     date: "2024-10-21",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, open-concept paint color flow is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2762,7 +2762,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "garage-door-paint-color-ideas",
     title: "Garage Door Paint Color Ideas for Exterior Balance",
-    excerpt: "Garage doors can blend in, add contrast, or support trim colors depending on your exterior design.",
+    excerpt: "Choose garage door paint colors that balance siding, trim, roof, stone, and curb appeal so the door either blends in or adds clean contrast.",
     image: "/images/blog/garage-door-paint-color-ideas.webp",
     date: "2024-08-19",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, garage door paint color ideas is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2812,7 +2812,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "winter-interior-painting-benefits",
     title: "Winter Interior Painting Benefits for Busy Households",
-    excerpt: "Winter can be a smart time for interior painting when exterior work slows and schedules are easier.",
+    excerpt: "See why winter interior painting can benefit busy households with easier scheduling, faster indoor updates, and less competition for project dates.",
     image: "/images/blog/winter-interior-painting-benefits.webp",
     date: "2024-01-22",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, winter interior painting benefits is about balancing appearance, durability, timing, and the way your home is actually used.
@@ -2862,7 +2862,7 @@ The best estimate should explain prep, products, schedule, and what is included.
   {
     slug: "home-paint-maintenance-schedule",
     title: "Home Paint Maintenance Schedule for the Northwest",
-    excerpt: "A simple maintenance schedule helps homeowners catch paint issues before they become expensive repairs.",
+    excerpt: "Follow a Northwest home paint maintenance schedule to catch mildew, peeling, caulk failure, and touch-up needs before small issues become costly.",
     image: "/images/blog/home-paint-maintenance-schedule.webp",
     date: "2023-10-16",
     content: `A successful paint project starts before the first brush touches the surface. For homeowners in Bothell, Kenmore, Woodinville, and nearby communities, home paint maintenance scheduling is about balancing appearance, durability, timing, and the way your home is actually used.

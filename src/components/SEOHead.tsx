@@ -22,27 +22,27 @@ const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", j
   return (
     <Helmet>
       <title>{fullTitle}</title>
-      <meta name="description" content={description} />
-      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+      <meta name="description" content={description} data-rh="true" />
+      {canonicalUrl && <link rel="canonical" href={canonicalUrl} data-rh="true" />}
 
       {/* Open Graph */}
-      <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
-      <meta property="og:type" content={ogType} />
-      <meta property="og:image" content={image} />
-      {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
-      <meta property="og:site_name" content="Arclight Painting" />
-      <meta property="og:locale" content="en_US" />
+      <meta property="og:title" content={fullTitle} data-rh="true" />
+      <meta property="og:description" content={description} data-rh="true" />
+      <meta property="og:type" content={ogType} data-rh="true" />
+      <meta property="og:image" content={image} data-rh="true" />
+      {canonicalUrl && <meta property="og:url" content={canonicalUrl} data-rh="true" />}
+      <meta property="og:site_name" content="Arclight Painting" data-rh="true" />
+      <meta property="og:locale" content="en_US" data-rh="true" />
 
       {/* Twitter */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
+      <meta name="twitter:card" content="summary_large_image" data-rh="true" />
+      <meta name="twitter:title" content={fullTitle} data-rh="true" />
+      <meta name="twitter:description" content={description} data-rh="true" />
+      <meta name="twitter:image" content={image} data-rh="true" />
 
       {/* Geo */}
-      <meta name="geo.region" content="US-WA" />
-      <meta name="geo.placename" content="Bothell" />
+      <meta name="geo.region" content="US-WA" data-rh="true" />
+      <meta name="geo.placename" content="Bothell" data-rh="true" />
 
       {/* JSON-LD */}
       {jsonLdArray.map((ld, i) => (
