@@ -9,6 +9,7 @@ const legacyRedirects = new Map([
   ["/home.html", "/"],
   ["/services-new", "/"],
   ["/interior-painting-bothell-wa", "/services/interior-painting"],
+  ["/the-arclight-difference", "/about"],
 ]);
 
 for (const route of routes) {
