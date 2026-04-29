@@ -114,8 +114,8 @@ const App = () => (
             <Route path="/house-painting-in-bellevue-new" element={<Navigate to="/bellevue" replace />} />
             {/* Other legacy WP pages */}
             <Route path="/why-it-matters" element={<Navigate to="/mission" replace />} />
-            <Route path="/house-painting-new" element={<Navigate to="/services/exterior-painting" replace />} />
-            <Route path="/house-painting" element={<Navigate to="/services/exterior-painting" replace />} />
+            <Route path="/house-painting-new" element={<Navigate to="/" replace />} />
+            <Route path="/house-painting" element={<Navigate to="/" replace />} />
             <Route path="/gallery" element={<Navigate to="/about" replace />} />
             <Route path="/above-beyond-blueprint" element={<Navigate to="/about" replace />} />
             <Route path="/about-arclight" element={<Navigate to="/about" replace />} />
