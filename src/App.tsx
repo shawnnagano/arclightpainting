@@ -125,8 +125,11 @@ const App = () => (
             <Route path="/services" element={<Navigate to="/" replace />} />
             {/* Legacy 404 fixes from Search Console */}
             <Route path="/home.html" element={<Navigate to="/" replace />} />
+            <Route path="/home.html/" element={<Navigate to="/" replace />} />
             <Route path="/services-new" element={<Navigate to="/" replace />} />
+            <Route path="/services-new/" element={<Navigate to="/" replace />} />
             <Route path="/interior-painting-bothell-wa" element={<Navigate to="/services/interior-painting" replace />} />
+            <Route path="/interior-painting-bothell-wa/" element={<Navigate to="/services/interior-painting" replace />} />
             <Route path="/5-paint-color-trends-" element={<Navigate to="/blog" replace />} />
             <Route path="/5-paint-color-trends-taking-over-winter-2025-according-to-designers" element={<Navigate to="/paint-color-trends-2025" replace />} />
             <Route path="/4-versatile-neutral-paint-colors-that-arent-white" element={<Navigate to="/neutral-paint-colors" replace />} />
