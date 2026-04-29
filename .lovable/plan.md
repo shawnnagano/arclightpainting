@@ -1,56 +1,95 @@
-Bing is flagging this because the live HTML currently serves the same empty React app shell for every route. I checked the live pages directly: `/`, `/blog`, `/house-washing-before-painting`, `/services/interior-painting`, and `/woodinville` all return initial HTML with 0 `<title>` tags and 0 `<meta name="description">` tags before JavaScript runs. The site does set unique metadata in React via `SEOHead`, but Bing’s top recommendations indicate it is not reliably treating that client-rendered metadata as unique page metadata.
+Revised plan
 
-Plan to fix it:
+Decision: do not bring back `/services`
 
-1. Add crawler-visible HTML metadata for every indexable route
-   - Create a build-time/prerender metadata step so each important URL gets its own initial `<title>`, meta description, canonical URL, OG tags, and Twitter tags in the served HTML.
-   - Cover:
-     - homepage
-     - core pages: about, pricing, reviews, schedule, blog, mission, join our team, privacy policy
-     - service pages
-     - service area pages
-     - all blog post pages
-   - Keep the canonical root domain as `https://arclightpainting.com`.
+We should not recreate `/services` just for indexing. If the page was removed because it felt irrelevant or redundant, adding it back as a thin hub page could create more quality/canonical noise. The better approach is to keep the site focused on the real indexable service pages and use the homepage’s existing services section for general service discovery.
 
-2. Fix short meta descriptions
-   - Update the blog excerpts used as meta descriptions.
-   - I found 28 blog excerpts under 120 characters, including the newer blog posts such as:
-     - house washing before painting
-     - deck and fence staining prep
-     - questions to ask before a paint estimate
-     - move-in painting checklist
-     - garage door paint color ideas
-     - winter interior painting benefits
-     - home paint maintenance schedule
-   - Rewrite these to roughly 140–155 characters, with natural local/service context and no specific paint brand names.
+Final redirect decisions
 
-3. Prevent duplicate titles and descriptions
-   - Keep `SEOHead` as the React runtime source of truth for browser/social metadata.
-   - Add stable Helmet keys so React replaces tags cleanly instead of accidentally stacking duplicates during navigation.
-   - Ensure `index.html` does not introduce a generic global title/description that competes with route-specific metadata.
+1. `/home.html`
+   - Target: `/`
+   - Purpose: classic migration cleanup.
+   - Keep out of sitemap.
 
-4. Audit all indexable routes against sitemap
-   - Compare route list, blog posts, service areas, and `public/sitemap.xml`.
-   - Make sure every sitemap URL has a unique title, unique description, canonical URL, and visible H1.
-   - Preserve current noindex/redirect rules for legacy/non-core pages.
+2. `/interior-painting-bothell-wa/`
+   - Target: `/services/interior-painting`
+   - Purpose: strongest topical match; this is business-relevant and should not go to homepage.
+   - Keep out of sitemap.
 
-5. Update sitemap workflow for future blogs
-   - Ensure the remembered blog-entry workflow is followed: new blog route, metadata, sitemap entry, image rules, ordering, and indexing checks.
-   - If practical, make sitemap generation more data-driven so new blog entries are less likely to be missed.
+3. `/services-new/`
+   - Target: `/`
+   - Purpose: old generic/staging services URL. Since there is no current `/services` page by design, homepage is the best broad equivalent because it contains the current services section and routes users onward.
+   - Keep out of sitemap.
 
-6. Verify after implementation
-   - Check the initial HTML for several live-equivalent routes to confirm title and description are present before JavaScript.
-   - Run an internal metadata audit for duplicates and short descriptions.
-   - After publishing, resubmit `https://arclightpainting.com/sitemap.xml` in Bing and rerun the Site Scan.
+4. `?page_id=` WordPress URLs
+   - Do not map yet without evidence.
+   - Investigate each old page ID before deciding:
+     - `/?page_id=7850`
+     - `/?page_id=8582`
+     - `/?page_id=8521`
+     - `/?page_id=8488`
+     - `/?page_id=8547`
+     - `/?page_id=8343`
+   - If a page ID was a real service/location/blog page, redirect it to the closest current equivalent.
+   - If it was a draft, duplicate, staging, or test page, leave it as 404 and keep it out of the sitemap.
 
-Technical approach:
+5. WordPress/security-probe URLs
+   - Do not create redirects for:
+     - `/wp-content/uploads/*`
+     - `/wp-content/themes/hello-elementor/*`
+     - `/wp-content/*`
+     - `/wp-*.php`
+     - `/*`
+   - These should not be redirected to homepage because that can create soft-404 patterns and confuse Google.
 
-- The app is Vite/React, so the likely fix is a static HTML generation/prerender script that reads route metadata from existing data files and writes route-specific HTML output during the build/publish process.
-- Existing files involved will likely include:
-  - `src/components/SEOHead.tsx`
-  - `src/data/blogPosts.ts`
-  - `src/data/serviceAreas.ts`
-  - route/page metadata sources
-  - `public/sitemap.xml`
-  - package build scripts if needed
-- No backend/database changes are needed.
+Implementation plan
+
+1. Keep the app route policy lean
+   - Keep `/services` redirected to `/` unless there is a future user-facing reason to build a true services overview page.
+   - Keep `/services` out of the sitemap and SEO route list.
+   - Keep all specific service pages indexable.
+
+2. Update legacy redirect fallbacks
+   - Ensure these paths are handled consistently, including trailing-slash variants where the router needs them:
+     - `/home.html` → `/`
+     - `/services-new` and `/services-new/` → `/`
+     - `/interior-painting-bothell-wa` and `/interior-painting-bothell-wa/` → `/services/interior-painting`
+   - Keep existing relevant legacy service redirects that point to specific current service pages.
+
+3. Fix crawler-visible metadata/canonical output for deep routes
+   - This remains the highest-priority technical issue.
+   - Update the static/prerender SEO process so every indexable route serves its own initial HTML metadata instead of inheriting homepage metadata.
+   - Verify raw HTML on the custom domain eventually shows correct route-specific values for:
+     - `/`
+     - `/blog`
+     - `/services/interior-painting`
+     - `/woodinville`
+     - a recent blog post
+   - Expected result: each route has its own title, description, and canonical URL before JavaScript runs.
+
+4. Strengthen sitemap/audit checks
+   - Ensure `public/sitemap.xml` contains only canonical, indexable final URLs.
+   - Keep legacy redirects and WordPress probe URLs out of the sitemap.
+   - Extend the SEO audit so it catches:
+     - duplicate titles/descriptions
+     - missing or short descriptions
+     - canonical mismatch
+     - accidental noindex on sitemap URLs
+     - sitemap URLs that are redirects or non-200s
+
+5. Validate post-publish
+   - Test the custom domain, not just preview/local output.
+   - Validate:
+     - `/home.html` resolves to `/`
+     - `/services-new/` resolves to `/`
+     - `/interior-painting-bothell-wa/` resolves to `/services/interior-painting`
+     - sitemap contains only final canonical URLs
+     - deep pages no longer show homepage canonical metadata
+   - Then in Google Search Console:
+     - inspect the three meaningful old URLs
+     - validate the 404 fix
+     - resubmit `https://arclightpainting.com/sitemap.xml`
+
+Technical note
+
+A true HTTP 301 is controlled by the hosting layer. Lovable hosting does not use `_redirects`, `_headers`, `netlify.toml`, or `vercel.json`, so I will not add those. I will keep the app-side redirects as fallback behavior and focus the code changes on canonical/sitemap correctness and route-specific metadata, which are the most actionable fixes inside this project.

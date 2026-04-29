@@ -39,12 +39,24 @@ function outputPath(routePath) {
   return path.join(distDir, routePath.replace(/^\//, ""), "index.html");
 }
 
+function flatOutputPath(routePath) {
+  if (routePath === "/") return templatePath;
+  return path.join(distDir, `${routePath.replace(/^\//, "")}.html`);
+}
+
 const routes = getSeoRoutes();
 for (const route of routes) {
   const filePath = outputPath(route.path);
   if (filePath !== templatePath && fs.existsSync(path.join(publicDir, route.path.replace(/^\//, "")))) continue;
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
-  fs.writeFileSync(filePath, injectSeo(baseHtml, route));
+  const html = injectSeo(baseHtml, route);
+  fs.writeFileSync(filePath, html);
+
+  const flatPath = flatOutputPath(route.path);
+  if (flatPath !== filePath) {
+    fs.mkdirSync(path.dirname(flatPath), { recursive: true });
+    fs.writeFileSync(flatPath, html);
+  }
 }
 
 console.log(`Prerendered SEO metadata for ${routes.length} routes.`);
