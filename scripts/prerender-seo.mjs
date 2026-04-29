@@ -86,6 +86,11 @@ function injectRuntimeSeo(html, routes) {
 
 function outputPath(routePath) {
   if (routePath === "/") return templatePath;
+  return path.join(distDir, routePath.replace(/^\//, ""));
+}
+
+function directoryOutputPath(routePath) {
+  if (routePath === "/") return templatePath;
   return path.join(distDir, routePath.replace(/^\//, ""), "index.html");
 }
 
@@ -104,6 +109,12 @@ for (const route of routes) {
   fs.mkdirSync(path.dirname(filePath), { recursive: true });
   const html = injectSeo(baseHtml, route);
   fs.writeFileSync(filePath, html);
+
+  const directoryPath = directoryOutputPath(route.path);
+  if (directoryPath !== filePath) {
+    fs.mkdirSync(path.dirname(directoryPath), { recursive: true });
+    fs.writeFileSync(directoryPath, html);
+  }
 
   const flatPath = flatOutputPath(route.path);
   if (flatPath !== filePath) {
