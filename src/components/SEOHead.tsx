@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { useEffect } from "react";
 
 interface SEOHeadProps {
   title: string;
@@ -18,6 +19,29 @@ const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", j
   const image = ogImage || DEFAULT_OG_IMAGE;
 
   const jsonLdArray = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+
+  useEffect(() => {
+    const upsert = (selector: string, tagName: "meta" | "link", attrs: Record<string, string>) => {
+      let element = document.head.querySelector(selector);
+      if (!element) {
+        element = document.createElement(tagName);
+        document.head.appendChild(element);
+      }
+      Object.entries(attrs).forEach(([key, value]) => element?.setAttribute(key, value));
+    };
+
+    document.title = fullTitle;
+    upsert('meta[name="description"]', "meta", { name: "description", content: description });
+    if (canonicalUrl) upsert('link[rel="canonical"]', "link", { rel: "canonical", href: canonicalUrl });
+    upsert('meta[property="og:title"]', "meta", { property: "og:title", content: fullTitle });
+    upsert('meta[property="og:description"]', "meta", { property: "og:description", content: description });
+    upsert('meta[property="og:type"]', "meta", { property: "og:type", content: ogType });
+    upsert('meta[property="og:image"]', "meta", { property: "og:image", content: image });
+    if (canonicalUrl) upsert('meta[property="og:url"]', "meta", { property: "og:url", content: canonicalUrl });
+    upsert('meta[name="twitter:title"]', "meta", { name: "twitter:title", content: fullTitle });
+    upsert('meta[name="twitter:description"]', "meta", { name: "twitter:description", content: description });
+    upsert('meta[name="twitter:image"]', "meta", { name: "twitter:image", content: image });
+  }, [canonicalUrl, description, fullTitle, image, ogType]);
 
   return (
     <Helmet>
