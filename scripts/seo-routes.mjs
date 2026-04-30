@@ -13,7 +13,7 @@ const coreRoutes = [
   {
     path: "/",
     title: "Professional House Painters in Bothell, WA | Arclight Painting",
-    description: "Bothell's highest-rated, veteran-owned house painters. Interior, exterior & cabinet painting. 4.9★ from 269 reviews. Get a TrueQuote today!",
+    description: "Bothell's highest-rated, veteran-owned house painters. Interior, exterior, and cabinet painting. 4.9★ from 269 reviews. Get a TrueQuote today!",
     priority: "1.0",
     changefreq: "weekly",
   },
@@ -47,7 +47,7 @@ const coreRoutes = [
   },
   {
     path: "/blog",
-    title: "Painting Tips & Insights Blog | Arclight Painting Bothell, WA",
+    title: "Painting Tips and Insights Blog | Arclight Painting Bothell, WA",
     description: "Expert painting tips, color inspiration, and home improvement insights from Arclight Painting — the #1-rated painting company in Bothell, WA.",
     priority: "0.7",
     changefreq: "weekly",
