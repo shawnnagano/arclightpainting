@@ -5,15 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && node scripts/prerender-seo.mjs && node scripts/audit-seo.mjs",
+    "build": "npm run generate:redirects && npm run build:base && npm run prerender && npm run audit:seo",
+    "build:base": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
+    "generate:redirects": "node scripts/generate-redirects.mjs",
+    "prerender": "node scripts/prerender-seo.mjs",
     "seo:sitemap": "node scripts/generate-sitemap.mjs",
     "seo:audit": "node scripts/audit-seo.mjs",
-    "test:watch": "vitest",
-    "build:cloudflare": "npx playwright install chromium && npm run build"
+    "audit:seo": "node scripts/audit-seo.mjs",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
