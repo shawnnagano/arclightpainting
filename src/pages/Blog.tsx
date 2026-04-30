@@ -15,7 +15,7 @@ const Blog = () => {
   return (
     <>
       <SEOHead
-        title="Painting Tips & Insights Blog | Arclight Painting Bothell, WA"
+        title="Painting Tips and Insights Blog | Arclight Painting Bothell, WA"
         description="Expert painting tips, color inspiration, and home improvement insights from Arclight Painting — the #1-rated painting company in Bothell, WA."
         canonical="/blog"
         jsonLd={breadcrumbSchema([

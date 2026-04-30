@@ -15,7 +15,7 @@ const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", jsonLd }: SEOHeadProps) => {
   const fullTitle = title.includes("Arclight") ? title : `${title} | Arclight Painting`;
-  const canonicalUrl = canonical ? `${SITE_URL}${canonical}` : undefined;
+  const canonicalUrl = canonical ? `${SITE_URL}${canonical === "/" ? "" : canonical}` : undefined;
   const image = ogImage || DEFAULT_OG_IMAGE;
 
   const jsonLdArray = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];

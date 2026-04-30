@@ -47,7 +47,7 @@ const Index = () => {
     <div className="min-h-screen">
       <SEOHead
         title="Professional House Painters in Bothell, WA | Arclight Painting"
-        description="Bothell's highest-rated, veteran-owned house painters. Interior, exterior & cabinet painting. 4.9★ from 269 reviews. Get a TrueQuote today!"
+        description="Bothell's highest-rated, veteran-owned house painters. Interior, exterior, and cabinet painting. 4.9★ from 269 reviews. Get a TrueQuote today!"
         canonical="/"
         jsonLd={[localBusinessSchema, faqPageSchema(homepageFaqs), websiteSchema, organizationSchema]}
       />

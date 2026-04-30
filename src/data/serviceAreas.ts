@@ -94,7 +94,7 @@ export const serviceAreas: ServiceArea[] = [
       "Quick, professional service for Kenmore's growing community",
     ],
     metaDescription:
-      "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
+      "Kenmore, WA painting company. Arclight Painting provides expert interior and exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
     heroImage: kenmoreHero,
     heroDescription: "Just minutes from our Bothell headquarters — trusted by Kenmore homeowners for lakeside-tough painting that lasts.",
     cityServiceHighlights: [
@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
       "Cabinet and interior painting to refresh Woodinville kitchens and living spaces",
     ],
     metaDescription:
-      "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
+      "Woodinville, WA painting services. Arclight Painting delivers quality interior and exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
     heroImage: woodinvilleHero,
     heroDescription: "Wine country homes deserve refined craftsmanship — Woodinville's trusted painters for estates, horse properties, and modern builds alike.",
     cityServiceHighlights: [
@@ -194,7 +194,7 @@ export const serviceAreas: ServiceArea[] = [
       "Cabinet refinishing that refreshes Kirkland kitchens beautifully",
     ],
     metaDescription:
-      "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
+      "Top-rated painting company in Kirkland, WA. Interior and exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
     heroImage: kirklandHero,
     heroDescription: "Waterfront-grade craftsmanship for Kirkland's craftsman homes, hillside properties, and modern builds.",
     cityServiceHighlights: [
@@ -294,7 +294,7 @@ export const serviceAreas: ServiceArea[] = [
       "Commercial painting available for Everett businesses",
     ],
     metaDescription:
-      "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
+      "Everett, WA painting company. Arclight Painting provides residential and commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
     heroImage: everettHero,
     heroDescription: "From Rucker Hill Victorians to waterfront condos — Everett's go-to painters for every style of home.",
     cityServiceHighlights: [
@@ -394,7 +394,7 @@ export const serviceAreas: ServiceArea[] = [
       "High-end cabinet refinishing and specialty finishes available",
     ],
     metaDescription:
-      "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
+      "Bellevue, WA painting services. Arclight Painting delivers premium interior and exterior painting for homes and businesses. Get your fast, free quote today.",
     heroImage: bellevueHero,
     heroDescription: "Premium painting for Bellevue's luxury homes and high-end properties — craftsmanship that matches the Eastside's highest standards.",
     cityServiceHighlights: [
@@ -544,7 +544,7 @@ export const serviceAreas: ServiceArea[] = [
       "Friendly, respectful crew that treats your home like our own",
     ],
     metaDescription:
-      "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
+      "Clearview, WA house painters. Arclight Painting offers professional interior and exterior painting, pressure washing, and cabinet refinishing near Clearview.",
     heroImage: clearviewHero,
     heroDescription: "Country properties, big lots, and rural charm — Clearview's trusted painters who treat your home like our own.",
     cityServiceHighlights: [
@@ -594,7 +594,7 @@ export const serviceAreas: ServiceArea[] = [
       "Careful prep work that protects mature landscaping and gardens",
     ],
     metaDescription:
-      "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
+      "Lake Forest Park, WA painters. Arclight Painting offers expert interior and exterior painting for this unique, tree-lined community. Schedule your quote today.",
     heroImage: lakeForestParkHero,
     heroDescription: "Mid-century charm under towering evergreens — painting that protects and preserves Lake Forest Park's unique character.",
     cityServiceHighlights: [
@@ -644,7 +644,7 @@ export const serviceAreas: ServiceArea[] = [
       "Moisture-resistant coatings built for Seattle's maritime climate",
     ],
     metaDescription:
-      "Professional house painters in Seattle, WA. Arclight Painting offers interior & exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
+      "Professional house painters in Seattle, WA. Arclight Painting offers interior and exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
     heroImage: seattleHero,
     heroDescription: "From Ballard Craftsman bungalows to Capitol Hill Victorians — Seattle's go-to painters for every neighborhood and style.",
     cityServiceHighlights: [
