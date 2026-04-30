@@ -34,7 +34,7 @@
   { "source": "/house-painting-in-woodinville-new", "destination": "/woodinville", "status": 301 },
   { "source": "/house-painting-in-redmond-new", "destination": "/redmond", "status": 301 },
   { "source": "/house-painting-in-mill-creek-new", "destination": "/mill-creek", "status": 301 },
-  { "source": "/house-painting-in-lynnwood-new", "destination": "/lynnwood", "status": 301 },
+  { "source": "/house-painting-in-lynnwood-new", "destination": "/", "status": 301 },
   { "source": "/house-painting-in-lake-forest-park-new", "destination": "/lake-forest-park", "status": 301 },
   { "source": "/house-painting-in-kirkland-new", "destination": "/kirkland", "status": 301 },
   { "source": "/house-painting-in-kenmore-new", "destination": "/kenmore", "status": 301 },
