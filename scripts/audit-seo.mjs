@@ -1,27 +1,110 @@
-import { getSeoRoutes } from "./seo-routes.mjs";
+import fs from "node:fs";
+import path from "node:path";
+import { getSeoRoutes, SITE_URL } from "./seo-routes.mjs";
 
 const routes = getSeoRoutes();
 const errors = [];
 const seenTitles = new Map();
 const seenDescriptions = new Map();
 const routePaths = new Set(routes.map((route) => route.path));
+const distDir = path.join(process.cwd(), "dist");
+const sitemapPath = path.join(process.cwd(), "public", "sitemap.xml");
 const legacyRedirects = new Map([
   ["/home.html", "/"],
+  ["/home", "/"],
+  ["/bothell", "/"],
+  ["/services", "/"],
   ["/services-new", "/"],
+  ["/interior-painting", "/services/interior-painting"],
+  ["/exterior-painting", "/services/exterior-painting"],
+  ["/cabinet-refinishing", "/services/cabinet-refinishing"],
+  ["/drywall-repair", "/services/drywall-repairs"],
+  ["/pressure-washing", "/services/pressure-washing"],
+  ["/commercial-painting", "/services/commercial-painting"],
+  ["/color-consultation", "/services/color-consultation"],
   ["/interior-painting-bothell-wa", "/services/interior-painting"],
   ["/the-arclight-difference", "/about"],
 ]);
 
+const expectedBodyText = new Map([
+  ["/", ["Professional House Painters", "Bothell", "Get a TrueQuote"]],
+  ["/blog", ["Painting", "Blog"]],
+  ["/services/interior-painting", ["Interior", "Painting", "Bothell"]],
+  ["/services/exterior-painting", ["Exterior", "Painting", "Bothell"]],
+  ["/services/pressure-washing", ["Pressure", "Washing", "Bothell"]],
+  ["/services/commercial-painting", ["Commercial", "Painting", "Bothell"]],
+  ["/woodinville", ["Woodinville", "Painting"]],
+  ["/kirkland", ["Kirkland", "Painting"]],
+]);
+
+const escapeRegex = (value) => String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+const htmlPathForRoute = (routePath) => routePath === "/"
+  ? path.join(distDir, "index.html")
+  : path.join(distDir, routePath.replace(/^\//, ""), "index.html");
+const flatHtmlPathForRoute = (routePath) => routePath === "/"
+  ? path.join(distDir, "index.html")
+  : path.join(distDir, `${routePath.replace(/^\//, "")}.html`);
+const stripTags = (html) => html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+const readIfExists = (filePath) => fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
+
+function countMatches(html, regex) {
+  return [...html.matchAll(regex)].length;
+}
+
+function auditGeneratedHtml(route) {
+  if (!fs.existsSync(distDir)) return;
+
+  const htmlPath = htmlPathForRoute(route.path);
+  if (!fs.existsSync(htmlPath)) {
+    errors.push(`${route.path}: missing generated HTML file at ${path.relative(process.cwd(), htmlPath)}`);
+    return;
+  }
+
+  const html = fs.readFileSync(htmlPath, "utf8");
+  const text = stripTags(html);
+  const expectedCanonical = `${SITE_URL}${route.path === "/" ? "" : route.path}`;
+  const titleRegex = new RegExp(`<title>\\s*${escapeRegex(route.title)}\\s*<\\/title>`, "i");
+  const descriptionRegex = new RegExp(`<meta[^>]+name=["']description["'][^>]+content=["']${escapeRegex(route.description)}["'][^>]*>`, "i");
+  const canonicalRegex = new RegExp(`<link[^>]+rel=["']canonical["'][^>]+href=["']${escapeRegex(expectedCanonical)}["'][^>]*>`, "i");
+
+  if (!titleRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact <title>`);
+  if (!descriptionRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact meta description`);
+  if (!canonicalRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact self-referencing canonical`);
+  if (countMatches(html, /<title>/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one <title>`);
+  if (countMatches(html, /<meta[^>]+name=["']description["']/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one meta description`);
+  if (countMatches(html, /<link[^>]+rel=["']canonical["']/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one canonical link`);
+  if (/lovable\.app|id-preview--|pages\.dev/i.test(html)) errors.push(`${route.path}: generated HTML contains preview/staging host text`);
+  if (/<meta[^>]+name=["']robots["'][^>]+noindex/i.test(html)) errors.push(`${route.path}: generated HTML contains noindex`);
+  if (/<div id=["']root["']><\/div>/i.test(html)) errors.push(`${route.path}: generated HTML still has an empty CSR root`);
+  if (!/<h1[\s>]/i.test(html)) errors.push(`${route.path}: generated HTML missing H1 content`);
+  if (text.length < 750) errors.push(`${route.path}: generated HTML body content too short (${text.length} chars)`);
+
+  for (const expected of expectedBodyText.get(route.path) || []) {
+    if (!text.toLowerCase().includes(expected.toLowerCase())) {
+      errors.push(`${route.path}: generated HTML missing expected body text "${expected}"`);
+    }
+  }
+
+  const flatPath = flatHtmlPathForRoute(route.path);
+  if (route.path !== "/" && !fs.existsSync(flatPath)) {
+    errors.push(`${route.path}: missing flat HTML fallback at ${path.relative(process.cwd(), flatPath)}`);
+  }
+}
+
 for (const route of routes) {
+  const expectedCanonical = `${SITE_URL}${route.path === "/" ? "" : route.path}`;
   if (!route.title || route.title.length > 115) errors.push(`${route.path}: title missing or too long (${route.title?.length || 0})`);
   if (!route.description || route.description.length < 120 || route.description.length > 205) errors.push(`${route.path}: description length ${route.description?.length || 0}`);
-  if (!route.canonical || route.canonical !== `https://arclightpainting.com${route.path === "/" ? "" : route.path}`) errors.push(`${route.path}: canonical mismatch (${route.canonical || "missing"})`);
+  if (!route.canonical || route.canonical !== expectedCanonical) errors.push(`${route.path}: canonical mismatch (${route.canonical || "missing"})`);
+  if (route.path !== "/" && route.canonical === `${SITE_URL}`) errors.push(`${route.path}: deep page incorrectly canonicalizes to homepage`);
+  if (/lovable\.app|id-preview--|pages\.dev/i.test(`${route.title} ${route.description} ${route.canonical}`)) errors.push(`${route.path}: route metadata contains preview/staging host text`);
   if (/noindex/i.test(`${route.title} ${route.description}`)) errors.push(`${route.path}: possible accidental noindex text in route metadata`);
   if (legacyRedirects.has(route.path)) errors.push(`${route.path}: legacy redirect URL must not be indexable or included in sitemap routes`);
   if (seenTitles.has(route.title)) errors.push(`${route.path}: duplicate title with ${seenTitles.get(route.title)}`);
   if (seenDescriptions.has(route.description)) errors.push(`${route.path}: duplicate description with ${seenDescriptions.get(route.description)}`);
   seenTitles.set(route.title, route.path);
   seenDescriptions.set(route.description, route.path);
+  auditGeneratedHtml(route);
 }
 
 for (const [from, to] of legacyRedirects) {
@@ -31,9 +114,21 @@ for (const [from, to] of legacyRedirects) {
 
 if (routePaths.has("/services")) errors.push("/services: should remain out of the indexable sitemap unless a real services page is restored");
 
+const sitemap = readIfExists(sitemapPath);
+if (sitemap) {
+  for (const route of routes) {
+    const loc = route.path === "/" ? `${SITE_URL}/` : `${SITE_URL}${route.path}`;
+    if (!sitemap.includes(`<loc>${loc}</loc>`)) errors.push(`${route.path}: sitemap missing ${loc}`);
+  }
+  for (const from of legacyRedirects.keys()) {
+    if (sitemap.includes(`<loc>${SITE_URL}${from}</loc>`)) errors.push(`${from}: legacy redirect appears in sitemap`);
+  }
+}
+
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);
 }
 
-console.log(`SEO audit passed for ${routes.length} routes: unique titles, unique descriptions, and crawler-ready description lengths.`);
+const buildOutputNote = fs.existsSync(distDir) ? " Generated HTML output was audited." : " Route metadata audited; dist/ not present, so generated HTML checks were skipped.";
+console.log(`SEO audit passed for ${routes.length} routes: unique titles, unique descriptions, canonicals, sitemap coverage, and crawler-ready output.${buildOutputNote}`);
