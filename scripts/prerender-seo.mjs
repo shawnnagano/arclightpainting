@@ -8,6 +8,14 @@ const distDir = path.join(process.cwd(), "dist");
 const templatePath = path.join(distDir, "index.html");
 const port = Number(process.env.PRERENDER_PORT || 4174);
 const host = "127.0.0.1";
+const logDir = path.join(process.cwd(), "playwright-prerender-logs");
+fs.mkdirSync(logDir, { recursive: true });
+const playwrightLogPath = path.join(logDir, "prerender.log");
+const logLines = [];
+const recordLog = (line) => {
+  logLines.push(line);
+  fs.writeFileSync(playwrightLogPath, `${logLines.join("\n")}\n`);
+};
 
 if (!fs.existsSync(templatePath)) {
   throw new Error("dist/index.html not found. Run the Vite build before prerendering SEO HTML.");
@@ -158,11 +166,24 @@ async function waitForRenderedContent(page) {
 async function prerenderRoute(browser, route) {
   const page = await browser.newPage({ viewport: { width: 1365, height: 1600 } });
   page.on("console", (message) => {
-    if (message.type() === "error") console.warn(`[prerender:${route.path}] ${message.text()}`);
+    const line = `[prerender:${route.path}] browser ${message.type()}: ${message.text()}`;
+    if (message.type() === "error") console.warn(line);
+    recordLog(line);
+  });
+  page.on("pageerror", (error) => {
+    const line = `[prerender:${route.path}] pageerror: ${error.message}`;
+    console.warn(line);
+    recordLog(line);
+  });
+  page.on("requestfailed", (request) => {
+    const line = `[prerender:${route.path}] requestfailed: ${request.url()} ${request.failure()?.errorText || "unknown"}`;
+    console.warn(line);
+    recordLog(line);
   });
 
   try {
     const url = `http://${host}:${port}${route.path}`;
+    recordLog(`[prerender:${route.path}] navigating ${url}`);
     const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 30000 });
     if (!response || !response.ok()) {
       throw new Error(`${route.path}: failed to load prerender route (${response?.status() || "no response"})`);
@@ -190,6 +211,7 @@ async function prerenderRoute(browser, route) {
       canonical: route.canonical,
     });
 
+    recordLog(`[prerender:${route.path}] rendered successfully`);
     return await page.content();
   } finally {
     await page.close();
@@ -208,6 +230,7 @@ function writeRouteHtml(routePath, html) {
   }
 }
 
+recordLog("Starting Playwright prerender run");
 const routes = getSeoRoutes().map((route) => ({ ...route, path: normalizeRoutePath(route.path) }));
 const spaHtml = injectRuntimeSeo(baseHtml, routes);
 fs.writeFileSync(templatePath, spaHtml);
@@ -227,4 +250,5 @@ try {
   await new Promise((resolve) => server.close(resolve));
 }
 
-console.log(`Prerendered complete HTML for ${routes.length} routes.`);
+recordLog(`Prerendered complete HTML for ${routes.length} routes.`);
+console.log(`Prerendered complete HTML for ${routes.length} routes. Logs retained at ${path.relative(process.cwd(), playwrightLogPath)}.`);

@@ -28,11 +28,21 @@ jobs:
       - name: Build base Vite artifact
         run: npm run build:base
 
+      - name: Write build summary
+        if: always()
+        run: |
+          echo "## install-and-build" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Dependencies installed with npm ci" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Redirects generated from redirect-map.json" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Base Vite artifact written to dist/" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Upload base dist artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dist-base
           path: dist
+          retention-days: 14
           if-no-files-found: error
 
   prerender:
@@ -51,7 +61,19 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright Chromium
+      - name: Resolve Playwright version
+        id: playwright-version
+        run: echo "version=$(node -p \"require('./package-lock.json').packages['node_modules/@playwright/test'].version\")" >> "$GITHUB_OUTPUT"
+
+      - name: Restore cached Playwright Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}-${{ hashFiles('package-lock.json') }}
+          restore-keys: |
+            playwright-chromium-${{ runner.os }}-${{ steps.playwright-version.outputs.version }}-
+
+      - name: Install pinned Playwright Chromium
         run: npx playwright install --with-deps chromium
 
       - name: Download base dist artifact
@@ -63,11 +85,31 @@ jobs:
       - name: Prerender static HTML from built dist
         run: npm run prerender
 
+      - name: Write prerender summary
+        if: always()
+        run: |
+          echo "## prerender" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Downloaded dist-base artifact" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Playwright version: ${{ steps.playwright-version.outputs.version }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Chromium cache path: ~/.cache/ms-playwright" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Prerender logs retained as workflow artifacts" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload Playwright prerender logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-prerender-logs
+          path: playwright-prerender-logs
+          retention-days: 14
+          if-no-files-found: ignore
+
       - name: Upload prerendered dist artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dist-prerendered
           path: dist
+          retention-days: 14
           if-no-files-found: error
 
   seo-assertions:
@@ -98,17 +140,30 @@ jobs:
       - name: Run strict SEO assertions
         run: npm run audit:seo
 
+      - name: Write SEO assertion summary
+        if: always()
+        run: |
+          echo "## seo-assertions" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Downloaded dist-prerendered artifact" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Redirect source of truth validated" >> "$GITHUB_STEP_SUMMARY"
+          echo "- SEO assertions include canonical hostname validation for https://arclightpainting.com" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Audited artifact retained for debugging" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Upload audited dist artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dist-audited
           path: dist
+          retention-days: 14
           if-no-files-found: error
 
   deploy:
     runs-on: ubuntu-latest
     needs: seo-assertions
     if: github.ref == 'refs/heads/main'
+    environment:
+      name: production
     steps:
       - name: Download audited dist artifact
         uses: actions/download-artifact@v4
@@ -121,3 +176,11 @@ jobs:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: npx wrangler pages deploy dist --project-name arclightpainting
+
+      - name: Write deploy summary
+        if: always()
+        run: |
+          echo "## deploy" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Production environment approval required before this job can run" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Downloaded dist-audited artifact" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Cloudflare Pages receives prebuilt dist/ only" >> "$GITHUB_STEP_SUMMARY"

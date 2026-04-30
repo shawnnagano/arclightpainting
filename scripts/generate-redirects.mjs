@@ -83,6 +83,7 @@ for (const source of exactRedirects.keys()) {
 }
 
 if (errors.length) {
+  console.error(`Redirect generation failed fast with ${errors.length} issue(s):`);
   console.error(errors.join("\n"));
   process.exit(1);
 }
@@ -97,4 +98,4 @@ const lines = [
 ];
 
 fs.writeFileSync(redirectsPath, lines.join("\n"));
-console.log(`Generated ${path.relative(root, redirectsPath)} from ${redirects.length} redirect-map entries.`);
+console.log(`Generated ${path.relative(root, redirectsPath)} from ${redirects.length} redirect-map entries. Redirect validation passed.`);

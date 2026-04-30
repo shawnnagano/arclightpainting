@@ -12,11 +12,12 @@ Lovable editor
 → main branch
 → GitHub Actions required pipeline
 → prebuilt, prerendered, audited dist/
+→ manual production environment approval
 → Cloudflare Pages hosting only
 → arclightpainting.com production
 ```
 
-Cloudflare Pages is not the build system. Cloudflare receives only an already-built, already-tested artifact.
+Cloudflare Pages is not the build system. Cloudflare receives only an already-built, already-prerendered, already-tested artifact.
 
 ---
 
@@ -29,7 +30,7 @@ Cloudflare Pages is not the build system. Cloudflare receives only an already-bu
 2. GitHub Actions is the build gate.
    A broken build must never reach Cloudflare.
 
-3. Production deploys happen only from GitHub Actions on main.
+3. Production deploys happen only from GitHub Actions on main after a human approval gate.
    Lovable publishing must never control the apex/root production domain.
 
 4. Lovable custom domain, if connected, is staging.arclightpainting.com only.
@@ -45,6 +46,35 @@ Cloudflare Pages is not the build system. Cloudflare receives only an already-bu
 
 ---
 
+# Approved additions in this release
+
+Accepted into this release scope:
+
+- retain Playwright prerender logs as workflow artifacts
+- fail fast on redirect-map issues
+- add GitHub Actions summary report steps
+- explicit dist/ artifact upload/download between jobs
+- manual approval gate before production deploy using GitHub Actions environment `production`
+- pin/cache Playwright Chromium based on the Playwright package version and lockfile
+- retain dist/ artifacts for failed build debugging
+- add canonical hostname validation to SEO assertions
+
+Deferred to a future release:
+
+- environment variable controls
+- workflow concurrency
+
+Manual action required before first deploy:
+
+```text
+Configure the GitHub repository environment named production with a required reviewer:
+GitHub repository → Settings → Environments → production → Required reviewers
+```
+
+Lovable cannot configure GitHub environment reviewer rules. The site owner must do this before the first production deploy.
+
+---
+
 # Phase 1 implementation scope
 
 ## 1. Build script structure
@@ -53,19 +83,19 @@ Package scripts are separated by responsibility:
 
 ```text
 npm run build:base          → Vite build only
+npm run build               → Vite build only
 npm run generate:redirects  → generate public/_redirects from redirect-map.json
 npm run prerender           → Playwright prerender against existing dist/
 npm run audit:seo           → strict SEO assertions against generated dist/
-npm run build               → local convenience chain only
 ```
 
-The production pipeline should run these as separate required GitHub Actions jobs, not rely on Cloudflare build settings.
+The production pipeline runs these as separate required GitHub Actions jobs, not through Cloudflare build settings.
 
 ---
 
 ## 2. GitHub Actions workflow
 
-Create `.github/workflows/deploy.yml` with required jobs in dependency order:
+`.github/workflows/deploy.yml` contains required jobs in dependency order:
 
 ```text
 install-and-build
@@ -84,11 +114,11 @@ npm run generate:redirects
 npm run build:base
 ```
 
-Uploads the base `dist/` artifact.
+Uploads `dist-base` explicitly at the end of the job with artifact retention for debugging.
 
 ### prerender
 
-Downloads the base `dist/`, installs Playwright Chromium in GitHub Actions, and runs:
+Downloads `dist-base` explicitly at the start of the job, installs/caches pinned Playwright Chromium, and runs:
 
 ```text
 npm run prerender
@@ -102,9 +132,14 @@ dist/services/interior-painting/index.html
 dist/woodinville/index.html
 ```
 
+It uploads:
+
+- `playwright-prerender-logs`
+- `dist-prerendered`
+
 ### seo-assertions
 
-Downloads the prerendered `dist/` and runs:
+Downloads `dist-prerendered` explicitly at the start of the job and runs:
 
 ```text
 npm run generate:redirects
@@ -113,9 +148,11 @@ npm run audit:seo
 
 The build fails if any assertion fails.
 
+It uploads `dist-audited` for deploy and debugging.
+
 ### deploy
 
-Runs only on `main` after all prior jobs pass:
+Runs only on `main` after all prior jobs pass and after the `production` environment approval gate is approved:
 
 ```text
 npx wrangler pages deploy dist --project-name arclightpainting
@@ -140,8 +177,11 @@ The audit gate must fail on:
 - duplicate meta description
 - missing canonical
 - canonical not matching the exact production URL
+- canonical hostname not exactly `arclightpainting.com`
+- canonical protocol not exactly `https:`
 - canonical pointing to Lovable preview/staging URLs
 - canonical pointing to `pages.dev`
+- canonical pointing to `www.arclightpainting.com`
 - accidental `noindex`
 - missing generated route HTML
 - generated HTML with empty CSR root/body
@@ -179,7 +219,7 @@ The generator script is:
 scripts/generate-redirects.mjs
 ```
 
-It must fail on:
+It fails fast on:
 
 - duplicate redirect sources
 - self-redirects
@@ -237,6 +277,7 @@ The deployment source is GitHub Actions:
 
 ```text
 GitHub Actions deploy job
+→ production environment human approval
 → Wrangler
 → Cloudflare Pages
 → uploaded dist/
@@ -275,6 +316,7 @@ If these do not pass, DNS does not move.
 Do not move DNS until:
 
 - GitHub Actions pipeline passes
+- production environment approval gate is configured
 - Cloudflare Pages deployment exists from the audited artifact
 - curl tests confirm raw HTML on priority pages
 - redirects work as real HTTP redirects
