@@ -594,7 +594,7 @@ export const serviceAreas: ServiceArea[] = [
       "Careful prep work that protects mature landscaping and gardens",
     ],
     metaDescription:
-      "Lake Forest Park, WA painters. Arclight Painting offers expert interior & exterior painting for this unique, tree-lined community. Schedule your quote today.",
+      "Lake Forest Park, WA painters. Arclight Painting offers expert interior and exterior painting for this unique, tree-lined community. Schedule your quote today.",
     heroImage: lakeForestParkHero,
     heroDescription: "Mid-century charm under towering evergreens — painting that protects and preserves Lake Forest Park's unique character.",
     cityServiceHighlights: [
@@ -644,7 +644,7 @@ export const serviceAreas: ServiceArea[] = [
       "Moisture-resistant coatings built for Seattle's maritime climate",
     ],
     metaDescription:
-      "Professional house painters in Seattle, WA. Arclight Painting offers interior & exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
+      "Professional house painters in Seattle, WA. Arclight Painting offers interior and exterior painting, cabinet refinishing, and drywall repair. Get a fast, free quote.",
     heroImage: seattleHero,
     heroDescription: "From Ballard Craftsman bungalows to Capitol Hill Victorians — Seattle's go-to painters for every neighborhood and style.",
     cityServiceHighlights: [
