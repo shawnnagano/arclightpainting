@@ -83,8 +83,53 @@ for (const source of exactRedirects.keys()) {
 }
 
 if (errors.length) {
-  console.error(`Redirect generation failed fast with ${errors.length} issue(s):`);
-  console.error(errors.join("\n"));
+  const categorize = (msg) => {
+    if (msg.includes("redirect cycle detected")) return "cycle";
+    if (msg.includes("is not an indexable SEO route")) return "unknown-target";
+    if (msg.includes("missing route parameter")) return "param-mismatch";
+    if (msg.includes("duplicate redirect source")) return "duplicate";
+    if (msg.includes("points to itself")) return "self-loop";
+    if (
+      msg.includes("must be") ||
+      msg.includes("are required") ||
+      msg.includes("must start with") ||
+      msg.includes("must contain an array") ||
+      msg.includes("entry must be an object")
+    ) return "schema";
+    return "other";
+  };
+
+  const groups = new Map();
+  const categoryCounts = new Map();
+
+  for (const raw of errors) {
+    const colonIdx = raw.indexOf(":");
+    const key = colonIdx > 0 ? raw.slice(0, colonIdx) : "(general)";
+    const message = colonIdx > 0 ? raw.slice(colonIdx + 1).trim() : raw;
+    const tag = categorize(raw);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push({ tag, message });
+    categoryCounts.set(tag, (categoryCounts.get(tag) || 0) + 1);
+  }
+
+  const summary = [...categoryCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([tag, count]) => `${count} ${tag}`)
+    .join(", ");
+
+  console.error(`--- Redirect generation failed: ${errors.length} issue(s) ---`);
+  console.error(`Categories: ${summary}`);
+  console.error("");
+
+  for (const [key, items] of groups) {
+    console.error(`${key}`);
+    for (const { tag, message } of items) {
+      console.error(`  - [${tag}] ${message}`);
+    }
+  }
+
+  console.error("");
+  console.error("--- Fix in redirect-map.json. Internal destinations must exist as routes in scripts/seo-routes.mjs. ---");
   process.exit(1);
 }
 
