@@ -1,109 +1,138 @@
-# Phase 1 Plan: Cloudflare Pages + Complete Build-Time HTML
+# Revised Plan: GitHub Actions Build Gate + Cloudflare Pages Static Hosting
 
 ## Objective
 
-Begin the Cloudflare Pages + build-time HTML migration by upgrading the current SEO prerendering system from metadata-only output to complete rendered HTML output.
+Close the CSR SEO issue by producing complete build-time HTML for every indexable SEO route before anything reaches production.
 
-The Phase 1 deliverable is a codebase that can run a production build and generate full static HTML for SEO routes, with strict audits that prevent broken SEO output from deploying.
+The production architecture is:
+
+```text
+Lovable editor
+→ GitHub sync
+→ main branch
+→ GitHub Actions required pipeline
+→ prebuilt, prerendered, audited dist/
+→ Cloudflare Pages hosting only
+→ arclightpainting.com production
+```
+
+Cloudflare Pages is not the build system. Cloudflare receives only an already-built, already-tested artifact.
 
 ---
 
-## Non-negotiable requirements
-
-Your three requirements will be treated as release gates:
+## Non-negotiable architecture rules
 
 ```text
-1. Strict SEO Audit
-   Build fails if any SEO page is missing:
-   - unique <title>
-   - unique <meta name="description">
-   - self-referencing <link rel="canonical">
+1. Cloudflare Pages is host/CDN only.
+   It must not run npm install, Vite builds, Playwright, prerendering, redirect generation, or SEO audits.
 
-2. Playwright/Cloudflare Compatibility
-   The renderer must be testable in Cloudflare Pages before DNS changes.
-   DNS will not move until Cloudflare build logs confirm success.
+2. GitHub Actions is the build gate.
+   A broken build must never reach Cloudflare.
 
-3. CURL Test
-   Before DNS switch, at least one service page and one city/location page from the temporary Cloudflare Pages URL must return full raw HTML body content and correct meta tags without JavaScript.
+3. Production deploys happen only from GitHub Actions on main.
+   Lovable publishing must never control the apex/root production domain.
+
+4. Lovable custom domain, if connected, is staging.arclightpainting.com only.
+   Never connect arclightpainting.com or www.arclightpainting.com to Lovable after this migration.
+
+5. Playwright remains the prerender engine.
+   Do not add react-dom/server SSR as a fallback.
+   If Playwright becomes unreliable, use route-specific static HTML shell templates instead.
+
+6. Redirects come from redirect-map.json only.
+   public/_redirects is generated output and must not be edited manually.
 ```
 
 ---
 
-# What I will implement in Phase 1
+# Phase 1 implementation scope
 
-## 1. Upgrade the prerender pipeline to full HTML rendering
+## 1. Build script structure
 
-Current script behavior:
-
-```text
-vite build
-→ dist/index.html exists
-→ script injects route-specific SEO metadata
-→ route files are created
-→ body content is still mostly CSR shell
-```
-
-New script behavior:
+Package scripts are separated by responsibility:
 
 ```text
-vite build
-→ launch local static server for dist
-→ open each SEO route with Playwright
-→ wait for React to finish rendering
-→ capture the complete final HTML document
-→ write it to dist/{route}/index.html
-→ keep JS/CSS assets so hydration still works for users
+npm run build:base          → Vite build only
+npm run generate:redirects  → generate public/_redirects from redirect-map.json
+npm run prerender           → Playwright prerender against existing dist/
+npm run audit:seo           → strict SEO assertions against generated dist/
+npm run build               → local convenience chain only
 ```
 
-Generated examples:
+The production pipeline should run these as separate required GitHub Actions jobs, not rely on Cloudflare build settings.
+
+---
+
+## 2. GitHub Actions workflow
+
+Create `.github/workflows/deploy.yml` with required jobs in dependency order:
+
+```text
+install-and-build
+→ prerender
+→ seo-assertions
+→ deploy
+```
+
+### install-and-build
+
+Runs:
+
+```text
+npm ci
+npm run generate:redirects
+npm run build:base
+```
+
+Uploads the base `dist/` artifact.
+
+### prerender
+
+Downloads the base `dist/`, installs Playwright Chromium in GitHub Actions, and runs:
+
+```text
+npm run prerender
+```
+
+This writes complete rendered HTML to route files such as:
 
 ```text
 dist/index.html
-dist/about/index.html
-dist/blog/index.html
 dist/services/interior-painting/index.html
-dist/services/exterior-painting/index.html
-dist/services/pressure-washing/index.html
 dist/woodinville/index.html
-dist/kirkland/index.html
-dist/commercial-painting-cost/index.html
 ```
 
-Each generated file must contain actual rendered page content, not only:
+### seo-assertions
 
-```html
-<div id="root"></div>
-```
-
----
-
-## 2. Keep `seo-routes.mjs` as the route source of truth
-
-The existing SEO route system will continue to drive:
-
-- generated HTML pages
-- sitemap URLs
-- audit checks
-- service pages
-- city/location pages
-- blog post pages
-
-This preserves the future Lovable workflow:
+Downloads the prerendered `dist/` and runs:
 
 ```text
-You ask Lovable to add/edit a page or blog
-→ route data updates
-→ Cloudflare rebuilds
-→ static HTML and sitemap update together
+npm run generate:redirects
+npm run audit:seo
+```
+
+The build fails if any assertion fails.
+
+### deploy
+
+Runs only on `main` after all prior jobs pass:
+
+```text
+npx wrangler pages deploy dist --project-name arclightpainting
+```
+
+Required GitHub secrets:
+
+```text
+CLOUDFLARE_API_TOKEN
+CLOUDFLARE_ACCOUNT_ID
 ```
 
 ---
 
-## 3. Add strict SEO audit enforcement
+## 3. Strict SEO assertions
 
-I will strengthen `scripts/audit-seo.mjs` so it validates both route definitions and generated build output.
-
-The build should fail if any indexable SEO route has:
+The audit gate must fail on:
 
 - missing title
 - duplicate title
@@ -111,167 +140,113 @@ The build should fail if any indexable SEO route has:
 - duplicate meta description
 - missing canonical
 - canonical not matching the exact production URL
-- canonical pointing to the homepage incorrectly
-- canonical pointing to Lovable preview URL
-- canonical pointing to Cloudflare `pages.dev`
+- canonical pointing to Lovable preview/staging URLs
+- canonical pointing to `pages.dev`
 - accidental `noindex`
-- missing generated HTML file
-- generated HTML with empty root/body content
+- missing generated route HTML
+- generated HTML with empty CSR root/body
+- missing H1
+- body text below the minimum crawler-ready threshold
+- invalid “Get a TrueQuote” CTA paths
+- legacy redirect URLs appearing as indexable SEO routes
+- sitemap omissions for indexable routes
+- legacy redirects appearing in the sitemap
+- `_redirects` not being generated from `redirect-map.json`
 
-Priority routes will also get body-content checks.
+---
 
-Examples:
+## 4. Redirect source of truth
+
+Redirects are maintained in:
 
 ```text
-/services/interior-painting must contain interior-painting-specific rendered text
-/services/exterior-painting must contain exterior-painting-specific rendered text
-/woodinville must contain Woodinville-specific rendered text
-/kirkland must contain Kirkland-specific rendered text
-/blog must contain blog/index content
+redirect-map.json
+```
+
+Each entry uses:
+
+```json
+{
+  "source": "/home.html",
+  "destination": "/",
+  "status": 301
+}
+```
+
+The generator script is:
+
+```text
+scripts/generate-redirects.mjs
+```
+
+It must fail on:
+
+- duplicate redirect sources
+- self-redirects
+- redirect cycles
+- invalid statuses
+- missing required fields
+- invalid source/destination formats
+- destination parameters not present in the source pattern
+- internal destinations that are not valid indexable SEO routes
+
+It writes:
+
+```text
+public/_redirects
+```
+
+That file is generated output only.
+
+---
+
+## 5. What stays the same
+
+Keep:
+
+- `scripts/seo-routes.mjs` as the SEO route source of truth
+- Playwright prerendering
+- existing SEO audit scripts, expanded
+- complete route HTML generation into `dist/{route}/index.html`
+- Cloudflare-compatible redirects in the final deployed artifact
+- DNS migration phases 3–5
+- temporary Cloudflare URL curl testing
+- email DNS preservation during migration
+- Prerender.io safety-net period after launch
+- post-launch Google Search Console monitoring
+
+Remove/avoid:
+
+- Cloudflare build commands
+- `build:cloudflare`
+- Cloudflare-running Playwright
+- Cloudflare as the build gate
+- `npx playwright install chromium` in Cloudflare build settings
+- `react-dom/server` SSR fallback
+- manual `_redirects` edits
+
+---
+
+# Phase 2: Cloudflare Pages project setup
+
+Cloudflare Pages should be configured as a host that receives the finished artifact from Wrangler.
+
+Do not configure Cloudflare Pages to build from GitHub with a build command.
+
+The deployment source is GitHub Actions:
+
+```text
+GitHub Actions deploy job
+→ Wrangler
+→ Cloudflare Pages
+→ uploaded dist/
 ```
 
 ---
 
-## 4. Add Cloudflare Pages routing/redirect support
+# Phase 3: Temporary Cloudflare URL verification
 
-I will add Cloudflare-compatible redirect handling for the future Cloudflare deployment.
-
-Important: this is specifically for Cloudflare Pages. Lovable hosting does not process `_redirects`.
-
-The Cloudflare deployment should include true HTTP redirects for legacy URLs such as:
-
-```text
-/home.html                         /                              301
-/home                              /                              301
-/bothell                           /                              301
-/services                          /                              301
-/interior-painting                 /services/interior-painting    301
-/exterior-painting                 /services/exterior-painting    301
-/cabinet-refinishing               /services/cabinet-refinishing  301
-/drywall-repair                    /services/drywall-repairs      301
-/pressure-washing                  /services/pressure-washing     301
-/commercial-painting               /services/commercial-painting  301
-/color-consultation                /services/color-consultation   301
-/the-arclight-difference           /about                         301
-/interior-painting-bothell-wa      /services/interior-painting    301
-/service-area/:slug                /:slug                         301
-```
-
-SPA fallback will remain last:
-
-```text
-/* /index.html 200
-```
-
----
-
-## 5. Add Cloudflare build compatibility scripts
-
-I will update package scripts so production builds include:
-
-```text
-Vite build
-→ full HTML prerender
-→ strict SEO audit
-```
-
-Likely target commands:
-
-```text
-npm run build
-npm run build:cloudflare
-npm run seo:audit
-```
-
-The Cloudflare-specific build command may include Chromium installation if needed:
-
-```text
-npx playwright install chromium && npm run build
-```
-
-or:
-
-```text
-npm run build:cloudflare
-```
-
-Exact command will be finalized after the Cloudflare test deployment.
-
----
-
-# What you will do after Phase 1 code is ready
-
-## 1. Confirm GitHub sync
-
-You will make sure the Lovable project is connected to GitHub:
-
-```text
-Lovable → Connectors → GitHub → Connect project
-```
-
-Cloudflare Pages needs the GitHub repo as its deployment source.
-
-## 2. Create Cloudflare Pages project
-
-In Cloudflare:
-
-```text
-Workers & Pages → Create Pages project → Connect GitHub repo
-```
-
-Initial settings:
-
-```text
-Framework preset: Vite
-Build command: npm run build
-Output directory: dist
-Production branch: main/default branch
-```
-
-If Playwright needs Chromium setup:
-
-```text
-Build command: npm run build:cloudflare
-```
-
-## 3. Do not change DNS yet
-
-At this stage:
-
-```text
-Do not move arclightpainting.com DNS
-Do not cancel Prerender.io
-Do not submit the pages.dev URL to Google
-```
-
----
-
-# Required verification before DNS switch
-
-## Cloudflare build verification
-
-We must confirm:
-
-```text
-Cloudflare Pages build completes successfully
-Playwright runs successfully in the Cloudflare build environment
-No Chromium/browser dependency errors appear
-Generated HTML files exist in deployment
-```
-
-If Playwright fails in Cloudflare, fallback order is:
-
-```text
-1. Add/adjust Chromium install step
-2. Use a dedicated build:cloudflare command
-3. Use GitHub Actions to build and deploy completed dist
-4. Use a React server-render script instead of Playwright
-5. Keep Prerender.io until static HTML path is proven
-```
-
-## CURL test verification
-
-Before DNS changes, test the temporary Cloudflare URL.
+Before DNS changes, test the temporary Cloudflare Pages URL.
 
 Examples:
 
@@ -282,49 +257,54 @@ curl -L https://temporary-project.pages.dev/woodinville
 
 The raw response must include:
 
-```text
-route-specific <title>
-route-specific meta description
-self-referencing canonical for arclightpainting.com
-actual H1/body content
-service or city page copy
-no accidental noindex
-no pages.dev canonical
-no Lovable preview canonical
-```
+- route-specific `<title>`
+- route-specific meta description
+- self-referencing canonical for `https://arclightpainting.com/...`
+- actual H1/body content
+- service or city page copy
+- no accidental `noindex`
+- no `pages.dev` canonical
+- no Lovable preview canonical
 
 If these do not pass, DNS does not move.
 
 ---
 
-# Phase 1 success criteria
+# Phase 4: DNS migration safety
 
-Phase 1 is complete only when:
+Do not move DNS until:
 
-```text
-Local production build generates complete route HTML
-Strict SEO audit runs during build
-Build fails on missing/duplicate title or description
-Build fails on missing/wrong canonical
-Build fails on empty/CSR-only route body
-Cloudflare-specific redirect file exists
-Build scripts are ready for Cloudflare Pages testing
-```
+- GitHub Actions pipeline passes
+- Cloudflare Pages deployment exists from the audited artifact
+- curl tests confirm raw HTML on priority pages
+- redirects work as real HTTP redirects
+- email DNS records are inventoried and preserved
 
-After Phase 1, the next milestone is a temporary Cloudflare Pages deployment and curl verification from the `pages.dev` URL.
+When moving DNS, preserve:
+
+- MX
+- SPF
+- DKIM
+- DMARC
+- any other email/provider verification records
+
+Move only the web records needed for the apex/root and `www` web traffic.
+
+---
+
+# Phase 5: Post-launch safety net
+
+Keep Prerender.io active for 1–2 weeks after launch while monitoring Google Search Console.
+
+Retire Prerender.io only after:
+
+- Google sees the new static HTML correctly
+- indexed pages remain stable
+- no major coverage regressions appear
+- priority service/location pages remain crawlable
 
 ---
 
 # Final safety rule
 
-No DNS switch until this is proven on Cloudflare itself:
-
-```text
-Cloudflare build succeeds
-Playwright or fallback renderer works
-Temporary Cloudflare URL returns full HTML via curl
-Priority pages have correct metadata and body content
-Redirects work as real HTTP redirects
-```
-
-This prevents repeating the SEO damage caused by moving to a CSR-only production setup.
+No production DNS switch until the temporary Cloudflare URL proves full HTML via curl and the GitHub Actions gate is the only production deployment path.
