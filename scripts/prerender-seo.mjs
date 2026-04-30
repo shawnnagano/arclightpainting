@@ -159,7 +159,13 @@ async function waitForRenderedContent(page) {
   await page.waitForLoadState("networkidle", { timeout: 15000 }).catch(() => undefined);
   await page.waitForFunction(() => {
     const root = document.getElementById("root");
-    return Boolean(root && root.innerText.trim().length > 250 && document.querySelector("h1"));
+    return Boolean(
+      root &&
+      root.innerText.trim().length > 250 &&
+      document.querySelector("h1") &&
+      document.querySelector('link[rel="canonical"]') &&
+      document.querySelector('meta[name="description"]')
+    );
   }, { timeout: 15000 });
 }
 
@@ -209,6 +215,27 @@ async function prerenderRoute(browser, route) {
       title: route.title,
       description: route.description,
       canonical: route.canonical,
+    });
+
+    // Deduplicate meta/canonical in the DOM before capturing
+    await page.evaluate(() => {
+      const dedup = (selector) => {
+        const els = Array.from(document.querySelectorAll(selector));
+        if (els.length > 1) {
+          // Keep the last one (React-injected), remove earlier ones
+          els.slice(0, -1).forEach((el) => el.remove());
+        }
+      };
+      dedup('meta[name="description"]');
+      dedup('link[rel="canonical"]');
+      dedup('meta[property="og:title"]');
+      dedup('meta[property="og:description"]');
+      dedup('meta[property="og:url"]');
+      dedup('meta[property="og:type"]');
+      dedup('meta[property="og:image"]');
+      dedup('meta[name="twitter:title"]');
+      dedup('meta[name="twitter:description"]');
+      dedup('meta[name="twitter:image"]');
     });
 
     recordLog(`[prerender:${route.path}] rendered successfully`);
