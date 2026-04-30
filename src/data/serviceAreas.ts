@@ -294,7 +294,7 @@ export const serviceAreas: ServiceArea[] = [
       "Commercial painting available for Everett businesses",
     ],
     metaDescription:
-      "Everett, WA painting company. Arclight Painting provides residential & commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
+      "Everett, WA painting company. Arclight Painting provides residential and commercial painting, drywall repair, and cabinet refinishing in Everett. Free estimates.",
     heroImage: everettHero,
     heroDescription: "From Rucker Hill Victorians to waterfront condos — Everett's go-to painters for every style of home.",
     cityServiceHighlights: [
@@ -394,7 +394,7 @@ export const serviceAreas: ServiceArea[] = [
       "High-end cabinet refinishing and specialty finishes available",
     ],
     metaDescription:
-      "Bellevue, WA painting services. Arclight Painting delivers premium interior & exterior painting for homes and businesses. Get your fast, free quote today.",
+      "Bellevue, WA painting services. Arclight Painting delivers premium interior and exterior painting for homes and businesses. Get your fast, free quote today.",
     heroImage: bellevueHero,
     heroDescription: "Premium painting for Bellevue's luxury homes and high-end properties — craftsmanship that matches the Eastside's highest standards.",
     cityServiceHighlights: [
@@ -544,7 +544,7 @@ export const serviceAreas: ServiceArea[] = [
       "Friendly, respectful crew that treats your home like our own",
     ],
     metaDescription:
-      "Clearview, WA house painters. Arclight Painting offers professional interior & exterior painting, pressure washing, and cabinet refinishing near Clearview.",
+      "Clearview, WA house painters. Arclight Painting offers professional interior and exterior painting, pressure washing, and cabinet refinishing near Clearview.",
     heroImage: clearviewHero,
     heroDescription: "Country properties, big lots, and rural charm — Clearview's trusted painters who treat your home like our own.",
     cityServiceHighlights: [
