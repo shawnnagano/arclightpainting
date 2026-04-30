@@ -46,7 +46,7 @@ for (const [index, entry] of (Array.isArray(redirects) ? redirects : []).entries
   if (!allowedStatuses.has(Number(status))) errors.push(`${label}: status must be one of 301, 302, 307, 308`);
 
   if (typeof source === "string" && typeof destination === "string") {
-    const normalizedSource = normalizePath(source);
+    const normalizedSource = String(source);
     const normalizedDestination = normalizePath(destination);
     if (normalizedSource === normalizedDestination) errors.push(`${source}: redirect points to itself`);
     if (bySource.has(normalizedSource)) errors.push(`${source}: duplicate redirect source; first seen at ${bySource.get(normalizedSource)}`);
