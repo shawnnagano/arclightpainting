@@ -14,6 +14,8 @@ const distRedirectsPath = path.join(distDir, "_redirects");
 const redirectMapPath = path.join(process.cwd(), "redirect-map.json");
 const redirectEntries = fs.existsSync(redirectMapPath) ? JSON.parse(fs.readFileSync(redirectMapPath, "utf8")) : [];
 const legacyRedirects = new Map(redirectEntries.map((entry) => [entry.source?.replace(/\/+$/, "") || "/", entry.destination?.replace(/\/+$/, "") || "/"]));
+const CANONICAL_HOSTNAME = "arclightpainting.com";
+const CANONICAL_PROTOCOL = "https:";
 
 const expectedBodyText = new Map([
   ["/", ["Professional House Painters", "Bothell", "Get a TrueQuote"]],
@@ -36,9 +38,33 @@ const flatHtmlPathForRoute = (routePath) => routePath === "/"
 const stripTags = (html) => html.replace(/<script[\s\S]*?<\/script>/gi, " ").replace(/<style[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 const readIfExists = (filePath) => fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
 const anchorRegex = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+const canonicalHrefRegex = /<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/gi;
 
 function countMatches(html, regex) {
   return [...html.matchAll(regex)].length;
+}
+
+function validateCanonicalHostname(canonical, context) {
+  let url;
+  try {
+    url = new URL(canonical);
+  } catch {
+    errors.push(`${context}: canonical is not a valid absolute URL (${canonical})`);
+    return;
+  }
+
+  if (url.protocol !== CANONICAL_PROTOCOL) {
+    errors.push(`${context}: canonical must use https, found ${url.protocol}`);
+  }
+  if (url.hostname !== CANONICAL_HOSTNAME) {
+    errors.push(`${context}: canonical hostname must be ${CANONICAL_HOSTNAME}, found ${url.hostname}`);
+  }
+  if (url.hostname.startsWith("www.")) {
+    errors.push(`${context}: canonical must use root domain, not www`);
+  }
+  if (/lovable\.app|id-preview--|pages\.dev/i.test(canonical)) {
+    errors.push(`${context}: canonical contains preview/staging hostname (${canonical})`);
+  }
 }
 
 function auditGeneratedHtml(route) {
@@ -56,13 +82,15 @@ function auditGeneratedHtml(route) {
   const titleRegex = new RegExp(`<title>\\s*${escapeRegex(route.title)}\\s*<\\/title>`, "i");
   const descriptionRegex = new RegExp(`<meta[^>]+name=["']description["'][^>]+content=["']${escapeRegex(route.description)}["'][^>]*>`, "i");
   const canonicalRegex = new RegExp(`<link[^>]+rel=["']canonical["'][^>]+href=["']${escapeRegex(expectedCanonical)}["'][^>]*>`, "i");
+  const canonicalMatches = [...html.matchAll(canonicalHrefRegex)];
 
   if (!titleRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact <title>`);
   if (!descriptionRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact meta description`);
   if (!canonicalRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact self-referencing canonical`);
   if (countMatches(html, /<title>/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one <title>`);
   if (countMatches(html, /<meta[^>]+name=["']description["']/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one meta description`);
-  if (countMatches(html, /<link[^>]+rel=["']canonical["']/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one canonical link`);
+  if (canonicalMatches.length !== 1) errors.push(`${route.path}: generated HTML must contain exactly one canonical link`);
+  for (const [, canonicalHref] of canonicalMatches) validateCanonicalHostname(canonicalHref, route.path);
   if (/lovable\.app|id-preview--|pages\.dev/i.test(html)) errors.push(`${route.path}: generated HTML contains preview/staging host text`);
   if (/<meta[^>]+name=["']robots["'][^>]+noindex/i.test(html)) errors.push(`${route.path}: generated HTML contains noindex`);
   if (/content=["'][^"']*noindex/i.test(html)) errors.push(`${route.path}: generated HTML contains noindex directive`);
@@ -95,6 +123,7 @@ for (const route of routes) {
   if (!route.title || route.title.length > 115) errors.push(`${route.path}: title missing or too long (${route.title?.length || 0})`);
   if (!route.description || route.description.length < 120 || route.description.length > 205) errors.push(`${route.path}: description length ${route.description?.length || 0}`);
   if (!route.canonical || route.canonical !== expectedCanonical) errors.push(`${route.path}: canonical mismatch (${route.canonical || "missing"})`);
+  if (route.canonical) validateCanonicalHostname(route.canonical, `${route.path} route metadata`);
   if (route.path !== "/" && route.canonical === `${SITE_URL}`) errors.push(`${route.path}: deep page incorrectly canonicalizes to homepage`);
   if (/lovable\.app|id-preview--|pages\.dev/i.test(`${route.title} ${route.description} ${route.canonical}`)) errors.push(`${route.path}: route metadata contains preview/staging host text`);
   if (/noindex/i.test(`${route.title} ${route.description}`)) errors.push(`${route.path}: possible accidental noindex text in route metadata`);
@@ -134,6 +163,7 @@ const sitemap = readIfExists(sitemapPath);
 if (sitemap) {
   for (const route of routes) {
     const loc = route.path === "/" ? `${SITE_URL}/` : `${SITE_URL}${route.path}`;
+    validateCanonicalHostname(loc, `${route.path} sitemap URL`);
     if (!sitemap.includes(`<loc>${loc}</loc>`)) errors.push(`${route.path}: sitemap missing ${loc}`);
   }
   for (const from of legacyRedirects.keys()) {
@@ -147,4 +177,4 @@ if (errors.length) {
 }
 
 const buildOutputNote = fs.existsSync(distDir) ? " Generated HTML output was audited." : " Route metadata audited; dist/ not present, so generated HTML checks were skipped.";
-console.log(`SEO audit passed for ${routes.length} routes: unique titles, unique descriptions, canonicals, sitemap coverage, and crawler-ready output.${buildOutputNote}`);
+console.log(`SEO audit passed for ${routes.length} routes: unique titles, unique descriptions, canonicals, canonical hostname, sitemap coverage, CTA paths, and crawler-ready output.${buildOutputNote}`);
