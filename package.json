@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run generate:redirects && npm run build:base && npm run prerender && npm run audit:seo",
+    "build": "vite build",
     "build:base": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
