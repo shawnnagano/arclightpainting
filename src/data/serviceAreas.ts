@@ -94,7 +94,7 @@ export const serviceAreas: ServiceArea[] = [
       "Quick, professional service for Kenmore's growing community",
     ],
     metaDescription:
-      "Kenmore, WA painting company. Arclight Painting provides expert interior & exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
+      "Kenmore, WA painting company. Arclight Painting provides expert interior and exterior painting, drywall repair, and cabinet refinishing. Schedule your estimate today.",
     heroImage: kenmoreHero,
     heroDescription: "Just minutes from our Bothell headquarters — trusted by Kenmore homeowners for lakeside-tough painting that lasts.",
     cityServiceHighlights: [
@@ -144,7 +144,7 @@ export const serviceAreas: ServiceArea[] = [
       "Cabinet and interior painting to refresh Woodinville kitchens and living spaces",
     ],
     metaDescription:
-      "Woodinville, WA painting services. Arclight Painting delivers quality interior & exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
+      "Woodinville, WA painting services. Arclight Painting delivers quality interior and exterior painting, cabinet refinishing, and more. Get a fast, free estimate.",
     heroImage: woodinvilleHero,
     heroDescription: "Wine country homes deserve refined craftsmanship — Woodinville's trusted painters for estates, horse properties, and modern builds alike.",
     cityServiceHighlights: [
@@ -194,7 +194,7 @@ export const serviceAreas: ServiceArea[] = [
       "Cabinet refinishing that refreshes Kirkland kitchens beautifully",
     ],
     metaDescription:
-      "Top-rated painting company in Kirkland, WA. Interior & exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
+      "Top-rated painting company in Kirkland, WA. Interior and exterior painting, cabinet refinishing, drywall repair. Get a fast quote from Arclight Painting today.",
     heroImage: kirklandHero,
     heroDescription: "Waterfront-grade craftsmanship for Kirkland's craftsman homes, hillside properties, and modern builds.",
     cityServiceHighlights: [
