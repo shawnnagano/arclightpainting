@@ -55,7 +55,7 @@ const getServices = (cityName?: string) => {
       link: "/services/commercial-painting",
     },
     {
-      title: "Painter for a Day",
+      title: "One Day Painting",
       description: "One professional. One day. One fresh new look. Get a skilled painter for 8 full hours — no estimate needed. Just $689.",
       icon: Clock,
       image: painterForADayHero,
