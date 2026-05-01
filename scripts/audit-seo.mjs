@@ -176,5 +176,19 @@ if (errors.length) {
   process.exit(1);
 }
 
+if (fs.existsSync(distDir)) {
+  const llmsTxtPath = path.join(distDir, "llms.txt");
+  if (!fs.existsSync(llmsTxtPath)) {
+    console.error("llms.txt missing from dist/ — AI visibility protection failed");
+    process.exit(1);
+  }
+  const llmsWordCount = fs.readFileSync(llmsTxtPath, "utf8").trim().split(/\s+/).length;
+  if (llmsWordCount < 300) {
+    console.error(`llms.txt below minimum word count (found ${llmsWordCount} words, minimum 300) — AI visibility protection failed`);
+    process.exit(1);
+  }
+  console.log(`llms.txt present and verified (${llmsWordCount} words)`);
+}
+
 const buildOutputNote = fs.existsSync(distDir) ? " Generated HTML output was audited." : " Route metadata audited; dist/ not present, so generated HTML checks were skipped.";
 console.log(`SEO audit passed for ${routes.length} routes: unique titles, unique descriptions, canonicals, canonical hostname, sitemap coverage, CTA paths, and crawler-ready output.${buildOutputNote}`);
