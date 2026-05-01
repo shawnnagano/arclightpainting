@@ -178,16 +178,30 @@ if (errors.length) {
 
 if (fs.existsSync(distDir)) {
   const llmsTxtPath = path.join(distDir, "llms.txt");
+  const llmsFullTxtPath = path.join(distDir, "llms-full.txt");
+
   if (!fs.existsSync(llmsTxtPath)) {
-    console.error("llms.txt missing from dist/ — AI visibility protection failed");
+    console.error("llms.txt missing or below 300 words — AI visibility check failed");
     process.exit(1);
   }
   const llmsWordCount = fs.readFileSync(llmsTxtPath, "utf8").trim().split(/\s+/).length;
   if (llmsWordCount < 300) {
-    console.error(`llms.txt below minimum word count (found ${llmsWordCount} words, minimum 300) — AI visibility protection failed`);
+    console.error(`llms.txt missing or below 300 words — AI visibility check failed`);
     process.exit(1);
   }
-  console.log(`llms.txt present and verified (${llmsWordCount} words)`);
+
+  if (!fs.existsSync(llmsFullTxtPath)) {
+    console.error("llms-full.txt missing or below 1,500 words — AI visibility check failed");
+    process.exit(1);
+  }
+  const llmsFullWordCount = fs.readFileSync(llmsFullTxtPath, "utf8").trim().split(/\s+/).length;
+  if (llmsFullWordCount < 1500) {
+    console.error(`llms-full.txt missing or below 1,500 words — AI visibility check failed`);
+    process.exit(1);
+  }
+
+  console.log(`llms.txt verified (${llmsWordCount} words)`);
+  console.log(`llms-full.txt verified (${llmsFullWordCount} words)`);
 }
 
 const buildOutputNote = fs.existsSync(distDir) ? " Generated HTML output was audited." : " Route metadata audited; dist/ not present, so generated HTML checks were skipped.";
