@@ -8,12 +8,13 @@ interface SEOHeadProps {
   ogImage?: string;
   ogType?: string;
   jsonLd?: object | object[];
+  noIndex?: boolean;
 }
 
 const SITE_URL = "https://arclightpainting.com";
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.jpg`;
 
-const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", jsonLd }: SEOHeadProps) => {
+const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", jsonLd, noIndex }: SEOHeadProps) => {
   const fullTitle = title.includes("Arclight") ? title : `${title} | Arclight Painting`;
   const canonicalUrl = canonical ? `${SITE_URL}${canonical === "/" ? "" : canonical}` : undefined;
   const image = ogImage || DEFAULT_OG_IMAGE;
@@ -33,6 +34,7 @@ const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", j
     document.title = fullTitle;
     upsert('meta[name="description"]', "meta", { name: "description", content: description });
     if (canonicalUrl) upsert('link[rel="canonical"]', "link", { rel: "canonical", href: canonicalUrl });
+    if (noIndex) upsert('meta[name="robots"]', "meta", { name: "robots", content: "noindex, nofollow" });
     upsert('meta[property="og:title"]', "meta", { property: "og:title", content: fullTitle });
     upsert('meta[property="og:description"]', "meta", { property: "og:description", content: description });
     upsert('meta[property="og:type"]', "meta", { property: "og:type", content: ogType });
@@ -41,13 +43,14 @@ const SEOHead = ({ title, description, canonical, ogImage, ogType = "website", j
     upsert('meta[name="twitter:title"]', "meta", { name: "twitter:title", content: fullTitle });
     upsert('meta[name="twitter:description"]', "meta", { name: "twitter:description", content: description });
     upsert('meta[name="twitter:image"]', "meta", { name: "twitter:image", content: image });
-  }, [canonicalUrl, description, fullTitle, image, ogType]);
+  }, [canonicalUrl, description, fullTitle, image, ogType, noIndex]);
 
   return (
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} data-rh="true" />
       {canonicalUrl && <link rel="canonical" href={canonicalUrl} data-rh="true" />}
+      {noIndex && <meta name="robots" content="noindex, nofollow" data-rh="true" />}
 
       {/* Open Graph */}
       <meta property="og:title" content={fullTitle} data-rh="true" />

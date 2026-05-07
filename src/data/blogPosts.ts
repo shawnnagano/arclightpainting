@@ -6,9 +6,45 @@ export interface BlogPost {
   date: string;
   content?: string; // markdown content for internal posts
   externalUrl?: string; // for posts still linked externally
+  hidden?: boolean; // if true, exclude from listings, sitemap, and search indexing
 }
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "homemade-strawberry-lemonade",
+    title: "Homemade Strawberry Lemonade: A Simple Summer Recipe",
+    excerpt: "A quick, refreshing homemade strawberry lemonade — perfect for warm afternoons, backyard projects, or relaxing after a long day of painting plans.",
+    image: "/images/blog/strawberry-lemonade.png",
+    date: "2026-05-07",
+    hidden: true,
+    content: `Summer in the Pacific Northwest is short, sweet, and worth savoring. After long days walking job sites, sketching color plans, and hauling ladders in the sun, there's nothing better than stepping onto the porch with something cold in hand. This little recipe has become a small ritual for our family this season — a five-minute pause that turns an ordinary afternoon into something a bit brighter.
+
+We're sharing it because the best parts of summer are the ones we share. A pitcher of homemade strawberry lemonade is the kind of thing that gets neighbors talking over the fence, gets kids running back from the yard, and reminds a hard-working crew that the day doesn't have to be all hustle. If it brings a little extra sunshine to your home the way it has to ours, it's worth passing along.
+
+## Simple Summer Recipe
+
+Looking for something easy and refreshing this season?
+
+Try this quick homemade strawberry lemonade — perfect for warm afternoons, backyard projects, or relaxing after a long day of painting plans. ☀️
+
+## 🍓 Fresh Strawberry Lemonade
+
+**What you'll need:**
+
+- 1 cup fresh strawberries
+- 4 lemons, juiced
+- 4 cups cold water
+- ¼ to ½ cup sugar or honey
+- Ice
+
+**Instructions:**
+
+Blend the strawberries until smooth, mix with lemon juice, water, and sweetener, then pour over ice.
+
+**Bonus tip:** Add mint leaves for an extra fresh summer feel.
+
+Pour a glass, share a glass, and enjoy the season.`,
+  },
   {
     slug: "neutral-paint-colors",
     title: "4 Stunning Neutral Paint Colors (That Aren't White)",

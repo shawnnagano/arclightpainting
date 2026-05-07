@@ -21,6 +21,7 @@ const BlogPostDetail = () => {
         title={post.title}
         description={post.excerpt}
         canonical={`/${post.slug}`}
+        noIndex={post.hidden}
         jsonLd={[
           articleSchema(
             post.title,
