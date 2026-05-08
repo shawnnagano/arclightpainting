@@ -17,33 +17,37 @@ export const blogPosts: BlogPost[] = [
     image: "/images/blog/strawberry-lemonade.png",
     date: "2026-05-07",
     hidden: true,
-    content: `Summer in the Pacific Northwest is short, sweet, and worth savoring. After long days walking job sites, sketching color plans, and hauling ladders in the sun, there's nothing better than stepping onto the porch with something cold in hand. This little recipe has become a small ritual for our family this season — a five-minute pause that turns an ordinary afternoon into something a bit brighter.
+    content: `There's something so comforting about a homemade drink on a warm day, especially when it's made with fresh strawberries and plenty of lemon. This strawberry lemonade is one of those simple little recipes that makes the whole afternoon feel softer and sweeter. It's bright, cheerful, and perfect for sipping outside while the sun is still up.
 
-We're sharing it because the best parts of summer are the ones we share. A pitcher of homemade strawberry lemonade is the kind of thing that gets neighbors talking over the fence, gets kids running back from the yard, and reminds a hard-working crew that the day doesn't have to be all hustle. If it brings a little extra sunshine to your home the way it has to ours, it's worth passing along.
+I love this recipe because it doesn't ask much from you. Just a few fresh ingredients, a blender, and a couple of minutes, and you have a pitcher of something that tastes special. The strawberries add natural sweetness and a lovely blush color, while the lemon keeps everything crisp and refreshing.
 
-## Simple Summer Recipe
+It's a beautiful drink for slow weekends, backyard time, casual visits with friends, or just keeping in the fridge for an easy treat during the week. Served over ice with a few strawberry or lemon slices, it feels simple and a little bit lovely all at once.
 
-Looking for something easy and refreshing this season?
+## Ingredients
 
-Try this quick homemade strawberry lemonade — perfect for warm afternoons, backyard projects, or relaxing after a long day of painting plans. ☀️
-
-## 🍓 Fresh Strawberry Lemonade
-
-**What you'll need:**
-
-- 1 cup fresh strawberries
-- 4 lemons, juiced
+- 1 cup fresh strawberries, hulled
+- 1 cup fresh lemon juice
+- 1/2 to 3/4 cup granulated sugar
 - 4 cups cold water
-- ¼ to ½ cup sugar or honey
 - Ice
+- Optional: lemon slices and strawberry slices for garnish
 
-**Instructions:**
+## Instructions
 
-Blend the strawberries until smooth, mix with lemon juice, water, and sweetener, then pour over ice.
+1. Add the strawberries, lemon juice, and sugar to a blender.
+2. Blend until smooth.
+3. Strain into a pitcher if you'd like a smoother lemonade.
+4. Stir in the cold water.
+5. Taste and adjust the sweetness or strength as needed.
+6. Serve over ice with fresh fruit slices if desired.
 
-**Bonus tip:** Add mint leaves for an extra fresh summer feel.
+## A Few Gentle Tips
 
-Pour a glass, share a glass, and enjoy the season.`,
+- The riper the strawberries, the sweeter and fuller the flavor will be.
+- If you prefer a lighter drink, add a little extra water.
+- Chill the pitcher before serving for an especially refreshing glass.
+
+This is the kind of recipe that slips easily into the season. Nothing complicated, nothing fancy, just fresh flavor and a pitcher full of something bright.`,
   },
   {
     slug: "neutral-paint-colors",
