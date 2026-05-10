@@ -106,7 +106,7 @@ const Header = () => {
           {/* CTA + Phone */}
           <div className="hidden lg:flex items-center gap-3 shrink-0">
             <a
-              href="tel:14257571199"
+              href="tel:+14257571199"
               className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-3 shadow-lg transition-transform hover:scale-110"
               aria-label="Call Arclight Painting"
             >
@@ -122,7 +122,7 @@ const Header = () => {
           {/* Mobile CTA + toggle */}
           <div className="lg:hidden flex items-center gap-2">
             <a
-              href="tel:14257571199"
+              href="tel:+14257571199"
               className="bg-accent hover:bg-accent/90 text-accent-foreground rounded-full p-2 shadow-lg transition-transform hover:scale-110"
               aria-label="Call Arclight Painting"
             >
