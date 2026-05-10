@@ -89,7 +89,7 @@ export const localBusinessSchema = {
   "@type": "HousePainter",
   "@id": "https://arclightpainting.com/#business",
   name: "Arclight Painting",
-  image: "https://arclightpainting.com/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
+  image: "https://arclightpainting.com/assets/arclight-logo-BYOfkAMk.png",
   url: "https://arclightpainting.com",
   telephone: "+14257571199",
   email: "info@arclightpainting.com",
@@ -184,6 +184,7 @@ export const localBusinessSchema = {
     "Bothell", "Kirkland", "Redmond", "Cottage Lake", "Kenmore",
     "Mill Creek", "Bellevue", "Union Hill-Novelty Hill", "Clearview",
     "Everett", "Lake Forest Park", "Woodinville",
+    "Seattle",
   ].map(name => ({ "@type": "City", name, "@id": `https://arclightpainting.com/${name.toLowerCase().replace(/\s+/g, "-")}` })),
   sameAs: [
     "https://maps.app.goo.gl/Q3E8cyNn3tbnnqkC9",
@@ -204,6 +205,9 @@ export const localBusinessSchema = {
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Drywall Repair" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Pressure Washing" } },
       { "@type": "Offer", itemOffered: { "@type": "Service", name: "Commercial Painting" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Popcorn Ceiling Removal" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Painter for a Day" } },
+      { "@type": "Offer", itemOffered: { "@type": "Service", name: "Color Consultation" } },
     ],
   },
 };
@@ -257,7 +261,7 @@ export const organizationSchema = {
   "@type": "Organization",
   name: "Arclight Painting",
   url: "https://arclightpainting.com",
-  logo: "https://arclightpainting.com/images/wp-content/2020/09/ARCLIGHT-LOGO-long-version.png",
+  logo: "https://arclightpainting.com/assets/arclight-logo-BYOfkAMk.png",
   contactPoint: {
     "@type": "ContactPoint",
     telephone: "+1-425-757-1199",
