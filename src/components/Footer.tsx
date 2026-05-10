@@ -163,7 +163,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm opacity-70">
               <li className="flex items-center gap-2">
                 <Phone className="h-4 w-4 text-accent" />
-                <a href="tel:4257571199" className="hover:text-accent transition-colors">(425) 757-1199</a>
+                <a href="tel:+14257571199" className="hover:text-accent transition-colors">(425) 757-1199</a>
               </li>
               <li className="flex items-center gap-2">
                 <MessageSquareQuote className="h-4 w-4 text-accent" />
