@@ -11,6 +11,196 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "exterior-painting-cost-bothell-wa",
+    title: "Exterior Painting Cost Bothell WA: What Affects Your Quote",
+    excerpt: "Exterior painting cost Bothell WA guide. Learn what affects your quote, what's included, and how to plan a lasting exterior repaint.",
+    image: "/images/blog/exterior-painting-cost-bothell-wa.webp",
+    date: "2026-05-15",
+    content: `Exterior painting cost in Bothell WA often ranges from about $4,000 to $12,000+ for many single-family homes, depending on size, siding condition, prep work, access, paint system, and weather timing. A detailed quote should include washing, scraping, sanding, caulking, priming, paint application, cleanup, and a clear warranty. In Bothell's wet Pacific Northwest climate, the cheapest bid is often not the best value if it skips prep or uses the wrong coating system.
+
+Bothell homes work hard. Rain, shade, moss, mildew, cedar siding, HOA color rules, and long damp seasons all affect how an exterior paint job should be priced.
+
+That's why exterior painting cost in Bothell WA can vary so much from one home to the next. A small, well-maintained home in North Creek is a different project than a weathered cedar-sided split-level in Canyon Park or a larger two-story home near Queensgate.
+
+This guide explains what affects your quote, what a quality estimate should include, and when a low bid may cost more later.
+
+## How Much Does Exterior Painting Cost in Bothell WA?
+
+For many Bothell homeowners, a professional [exterior repaint](/services/exterior-painting) often lands somewhere between $4,000 and $12,000+. Smaller homes with simple access and light prep may come in lower. Larger homes, tall elevations, cedar siding, heavy peeling, wood repairs, or multiple colors can push the price higher.
+
+National cost guides show broad ranges because every home is different. [HomeGuide](https://homeguide.com/costs/exterior-house-painting-cost) lists professional exterior painting at $1.50 to $5.00 per square foot, or $3,000 to $10,000 for an average 2,000-square-foot house. It also notes that prep work, home height, siding type, labor, paint quality, and added features can change the final price.
+
+That lines up with what we see locally. Bothell homes often need extra washing, scraping, caulking, and moisture-aware scheduling because exterior paint has to handle rain, shaded siding, and long wet seasons.
+
+At Arclight Painting, every exterior project starts with a TrueQuote™ estimate. That means we inspect the home, measure the scope, explain the prep, and build a fixed-price proposal with no hidden fees. Arclight is veteran-owned, locally operated, headquartered in Bothell, and backed by a 4.9-star rating with 269+ verified Google reviews.
+
+## 1. Home Size and Paintable Surface Area
+
+Square footage matters, but it is not the only number that counts.
+
+A 2,000-square-foot home does not always have 2,000 square feet of paintable siding. Windows, doors, gables, trim, fascia, soffits, and siding shape all change the amount of work.
+
+A simple one-story rambler may need less ladder work and masking. A two-story home with steep rear elevations, dormers, or detailed trim takes more time, equipment, and labor.
+
+In Bothell neighborhoods like Canyon Park, North Creek, and Queensgate, homes range from older cedar-sided split-levels to newer fiber-cement builds. Each style needs a different prep plan.
+
+## 2. Siding Type and Condition
+
+Siding material has a major impact on exterior painting cost in Bothell WA.
+
+Wood and cedar siding often need more prep. The crew may need to scrape loose paint, sand rough edges, spot prime bare wood, caulk gaps, and check for rot. Cedar can also bleed tannins if it is not primed correctly.
+
+Fiber cement is usually more stable, but it still needs cleaning, caulking, and the right coating system. T1-11 siding can need extra attention around grooves, seams, and lower edges where moisture sits.
+
+Vinyl, brick, and stucco each have their own rules. Product choice matters because the wrong coating can lead to poor adhesion, color issues, or early failure.
+
+## 3. Prep Work Before Painting
+
+Prep is where many quotes separate.
+
+A lower bid may look attractive because it includes less preparation. But prep is what helps paint last. A strong exterior painting quote should explain how the crew will handle:
+
+- Power washing
+- Scraping loose paint
+- Sanding rough edges
+- Caulking gaps and seams
+- Priming bare or stained areas
+- Protecting windows and landscaping
+- Spot repairs or wood replacement
+- Final cleanup
+
+Industry guidance from major paint manufacturers consistently lists surface preparation problems, moisture, and poor adhesion among the most common causes of peeling and cracking paint.
+
+In Bothell, prep matters even more because shaded siding can hold moisture. If mildew, dirt, chalking, or loose paint stays under the new coating, the finish may fail early.
+
+## 4. Amount of Peeling, Cracking, or Wood Rot
+
+If your home has peeling paint, cracked caulk, soft trim, or exposed wood, the quote will be higher than a basic repaint.
+
+That is not a bad thing. It means the painter is addressing the real problem before covering it up. [Drywall repair](/services/drywall-repairs) and minor wood repairs can also fold into the prep scope.
+
+Bothell's rain and shade can be hard on fascia, window trim, lower siding courses, and areas near shrubs. Homes near tree cover or damp slopes may need extra drying time and repairs before paint can be applied.
+
+A good painter should explain what is included and what would count as a change order if hidden damage appears during prep.
+
+## 5. Height, Access, and Safety
+
+Access affects labor.
+
+A one-story home with flat ground is faster to paint than a two-story home with steep side yards, decks, tight fences, or tall rear elevations. Crews may need ladders, planks, sprayers, masking systems, or extra setup time.
+
+This is common on Eastside homes where backyards slope away from the street. Even if the front looks simple, the rear elevation may be much taller.
+
+Safety planning is part of a professional quote. It protects the crew, the home, and the finished result.
+
+## 6. Number of Colors and Detail Work
+
+More colors usually mean more time.
+
+A simple body and trim combination is faster than a four-color scheme with shutters, doors, fascia, porch posts, and accent details. Homes with Craftsman trim, decorative brackets, railings, or multiple siding profiles take more masking and brushwork.
+
+Bothell HOAs may also have exterior color rules. In neighborhoods like Canyon Park, North Creek, and Queensgate, it is smart to check color approvals before work starts.
+
+Arclight's ColorConfidence™ Consultation helps homeowners choose colors with more confidence. A 30-minute virtual consultation is included with any painting project, and a 60-minute in-home consultation is available for $195.
+
+## 7. Paint Quality and Coating System
+
+Paint quality affects both price and lifespan.
+
+Premium exterior paints cost more, but they often offer better coverage, color retention, adhesion, and weather resistance. The right primer also matters. Bare wood, stained areas, patched surfaces, and big color changes may need special primer before finish coats.
+
+Arclight selects paints based on independent testing, real-world durability data, and the needs of each surface, not brand partnerships. For exterior projects, the team looks at UV resistance, moisture protection, and adhesion performance.
+
+## 8. Weather Windows in the Pacific Northwest
+
+Exterior painting in Bothell has to work around weather.
+
+Paint needs dry surfaces, proper temperature, and enough cure time. Manufacturer guidance is clear that surfaces should be completely dry before painting, and no rain or heavy dew should be expected during the product's drying and curing window.
+
+That is why a good Bothell exterior painter does not just "show up and spray." They watch the forecast, check conditions, and adjust when rain or heavy moisture would risk the finish.
+
+Arclight uses PowerFlex™ Scheduling to plan exterior work around weather windows and adjust for rain delays so the paint cures properly.
+
+## 9. Lead-Safe Work for Older Homes
+
+Older homes may need extra safety steps.
+
+The [EPA's Renovation, Repair and Painting program](https://www.epa.gov/lead/renovation-repair-and-painting-program) applies to renovation, repair, and painting work that disturbs lead-based paint in pre-1978 homes and child-occupied facilities. Contractors working under the rule must be certified and use lead-safe work practices.
+
+This can affect exterior painting cost if your Bothell home was built before 1978 and has older coatings that need scraping or sanding. Lead-safe work is not a place to cut corners. It protects your family, your neighbors, the crew, and the property.
+
+## What Should Be Included in an Exterior Painting Quote?
+
+A quality quote should be clear enough that you know exactly what you are buying.
+
+Look for:
+
+- A written scope of work
+- Surface washing plan
+- Prep details
+- Primer details
+- Paint product and sheen
+- Number of coats
+- Areas included and excluded
+- Wood repair allowance or process
+- Weather delay policy
+- Start and finish expectations
+- Cleanup standards
+- Warranty details
+
+At Arclight, the TrueQuote™ process turns the approved scope into a fixed-price agreement. The Above & Beyond Blueprint also includes JobTrack™ Project Management, surface preparation and protection, top-quality paint application, and a PCA™ Quality Inspection before the project is closed.
+
+## What Does a Low Exterior Painting Bid Usually Mean?
+
+A low bid is not always wrong. Sometimes a home is simple, clean, and ready for paint.
+
+But if one quote is far below the others, ask what is missing.
+
+It may leave out washing, scraping, sanding, primer, caulking, trim, fascia, doors, cleanup, warranty, insurance, or proper crew supervision. It may also use lower-cost paint or fewer coats.
+
+In Bothell's damp climate, skipped prep can show up later as peeling, bubbling, mildew, or early fading. The lowest price can become expensive if the home needs repainting sooner than expected.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight Painting
+
+Arclight Painting is a veteran-owned residential repainting company based in Bothell and serving Bothell, [Kirkland](/kirkland), Redmond, Kenmore, Woodinville, and the greater Seattle area.
+
+Homeowners choose Arclight because the process is clear, the crew respects the home, and the work is built around doing the job right. The company is licensed, bonded, insured, BBB A+ rated, a PCA Legacy Member, OMWBE certified, and backed by a 100% Satisfaction Guarantee and 5-Year FreshStart™ Touch-Up Plan.
+
+From cedar siding in Bothell to humid Lake Washington-area homes in Kirkland, Arclight brings local experience, careful prep, and above-and-beyond care.
+
+## Frequently Asked Questions
+
+**How much does exterior painting cost in Bothell WA?**
+
+Exterior painting cost in Bothell WA often ranges from about $4,000 to $12,000+ for many single-family homes. Smaller, simpler homes may cost less, while larger homes, cedar siding, heavy prep, tall elevations, repairs, and multiple colors can cost more.
+
+**Why do exterior painting quotes vary so much?**
+
+Exterior painting quotes vary because painters may include different levels of prep, paint quality, primer, repairs, warranty, crew supervision, and insurance. A lower quote may not include the washing, scraping, caulking, priming, or detail work needed for a long-lasting finish.
+
+**What affects the cost to paint a house exterior?**
+
+The biggest cost factors are home size, siding type, surface condition, height, access, prep work, paint system, number of colors, trim details, repairs, and weather timing. In Bothell, moisture, shade, cedar siding, and rain windows can also affect the quote.
+
+**Is exterior painting more expensive in the Pacific Northwest?**
+
+It can be. Pacific Northwest homes often need more moisture-aware prep, mildew removal, caulking, priming, and careful scheduling around rain and curing conditions. Those steps add labor, but they also help the finish last longer.
+
+**Should I choose the cheapest exterior painting estimate?**
+
+Not without comparing the scope. A cheap estimate may be fine for a simple project, but it can be risky if it skips prep, primer, repairs, or warranty coverage. Always compare what each quote includes, not just the final number.
+
+**How long does exterior painting take in Bothell?**
+
+Most exterior painting projects take about three to seven days or more, depending on home size, prep, repairs, crew size, and weather. Rain delays can extend the schedule, but waiting for proper conditions helps protect the finish.
+
+## Conclusion
+
+The right exterior painting quote should explain the cost, the prep, the products, the timeline, and the protection your home is getting.
+
+Ready to protect your Bothell home with a clear, fixed-price plan? [Schedule your free TrueQuote estimate](/schedule) with Arclight Painting.`,
+  },
+  {
     slug: "homemade-strawberry-lemonade",
     title: "Homemade Strawberry Lemonade: A Simple Summer Recipe",
     excerpt: "A quick, refreshing homemade strawberry lemonade — perfect for warm afternoons, backyard projects, or relaxing after a long day of painting plans.",
