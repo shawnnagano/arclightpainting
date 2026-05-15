@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Exterior painting cost Bothell WA guide. Learn what affects your quote, what's included, and how to plan a lasting exterior repaint.",
     image: "/images/blog/exterior-painting-cost-bothell-wa.webp",
     date: "2026-05-15",
-    content: `Exterior painting cost in Bothell WA often ranges from about $6,000 to $12,000+ for many single-family homes, depending on size, siding condition, prep work, access, paint system, and weather timing. A detailed quote should include washing, scraping, sanding, caulking, priming, paint application, cleanup, and a clear warranty. In Bothell's wet Pacific Northwest climate, the cheapest bid is often not the best value if it skips prep or uses the wrong coating system.
+    content: `Exterior painting cost in Bothell WA often ranges from about $6,000 to $12,000+ for many single-family homes, depending on size, siding condition, prep work, access, paint system, and weather timing. A detailed quote should include washing, scraping, sanding, caulking, priming, paint application, cleanup, and clear warranty terms. In Bothell's wet Pacific Northwest climate, a very low bid may not be the best value if it skips prep, primer, repairs, or the right coating system.
 
 Bothell homes work hard. Rain, shade, moss, mildew, cedar siding, HOA color rules, and long damp seasons all affect how an exterior paint job should be priced.
 
@@ -115,7 +115,7 @@ Arclight selects paints based on independent testing, real-world durability data
 
 Exterior painting in Bothell has to work around weather.
 
-Paint needs dry surfaces, proper temperature, and enough cure time. Manufacturer guidance is clear that surfaces should be completely dry before painting, and no rain or heavy dew should be expected during the product's drying and curing window.
+Paint needs dry surfaces, proper temperature, and enough cure time. Exterior paint performs best when surfaces are dry and weather is stable. [HomeGuide](https://homeguide.com/costs/exterior-house-painting-cost) recommends painting in warm, dry, stable weather and avoiding extreme heat, high humidity, freezing temperatures, and rain around the project window.
 
 That is why a good Bothell exterior painter does not just "show up and spray." They watch the forecast, check conditions, and adjust when rain or heavy moisture would risk the finish.
 
@@ -128,6 +128,8 @@ Older homes may need extra safety steps.
 The [EPA's Renovation, Repair and Painting program](https://www.epa.gov/lead/renovation-repair-and-painting-program) applies to renovation, repair, and painting work that disturbs lead-based paint in pre-1978 homes and child-occupied facilities. Contractors working under the rule must be certified and use lead-safe work practices.
 
 This can affect exterior painting cost if your Bothell home was built before 1978 and has older coatings that need scraping or sanding. Lead-safe work is not a place to cut corners. It protects your family, your neighbors, the crew, and the property.
+
+For homes built before 1978, review the [EPA's Renovation, Repair and Painting Program](https://www.epa.gov/lead/renovation-repair-and-painting-program) before disturbing old paint. It explains why certified contractors and lead-safe work practices matter for renovation and painting projects.
 
 ## What Should Be Included in an Exterior Painting Quote?
 
