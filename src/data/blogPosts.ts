@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Exterior painting cost Bothell WA guide. Learn what affects your quote, what's included, and how to plan a lasting exterior repaint.",
     image: "/images/blog/exterior-painting-cost-bothell-wa.webp",
     date: "2026-05-15",
-    content: `Exterior painting cost in Bothell WA often ranges from about $4,000 to $12,000+ for many single-family homes, depending on size, siding condition, prep work, access, paint system, and weather timing. A detailed quote should include washing, scraping, sanding, caulking, priming, paint application, cleanup, and a clear warranty. In Bothell's wet Pacific Northwest climate, the cheapest bid is often not the best value if it skips prep or uses the wrong coating system.
+    content: `Exterior painting cost in Bothell WA often ranges from about $6,000 to $12,000+ for many single-family homes, depending on size, siding condition, prep work, access, paint system, and weather timing. A detailed quote should include washing, scraping, sanding, caulking, priming, paint application, cleanup, and a clear warranty. In Bothell's wet Pacific Northwest climate, the cheapest bid is often not the best value if it skips prep or uses the wrong coating system.
 
 Bothell homes work hard. Rain, shade, moss, mildew, cedar siding, HOA color rules, and long damp seasons all affect how an exterior paint job should be priced.
 
@@ -26,7 +26,7 @@ This guide explains what affects your quote, what a quality estimate should incl
 
 ## How Much Does Exterior Painting Cost in Bothell WA?
 
-For many Bothell homeowners, a professional [exterior repaint](/services/exterior-painting) often lands somewhere between $4,000 and $12,000+. Smaller homes with simple access and light prep may come in lower. Larger homes, tall elevations, cedar siding, heavy peeling, wood repairs, or multiple colors can push the price higher.
+For many Bothell homeowners, a professional [exterior repaint](/services/exterior-painting) often lands somewhere between $6,000 and $12,000+. Smaller homes with simple access and light prep may come in lower. Larger homes, tall elevations, cedar siding, heavy peeling, wood repairs, or multiple colors can push the price higher.
 
 National cost guides show broad ranges because every home is different. [HomeGuide](https://homeguide.com/costs/exterior-house-painting-cost) lists professional exterior painting at $1.50 to $5.00 per square foot, or $3,000 to $10,000 for an average 2,000-square-foot house. It also notes that prep work, home height, siding type, labor, paint quality, and added features can change the final price.
 
@@ -172,7 +172,7 @@ From cedar siding in Bothell to humid Lake Washington-area homes in Kirkland, Ar
 
 **How much does exterior painting cost in Bothell WA?**
 
-Exterior painting cost in Bothell WA often ranges from about $4,000 to $12,000+ for many single-family homes. Smaller, simpler homes may cost less, while larger homes, cedar siding, heavy prep, tall elevations, repairs, and multiple colors can cost more.
+Exterior painting cost in Bothell WA often ranges from about $6,000 to $12,000+ for many single-family homes. Smaller, simpler homes may cost less, while larger homes, cedar siding, heavy prep, tall elevations, repairs, and multiple colors can cost more.
 
 **Why do exterior painting quotes vary so much?**
 
