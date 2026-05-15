@@ -77,7 +77,7 @@ In Bothell, prep matters even more because shaded siding can hold moisture. If m
 
 If your home has peeling paint, cracked caulk, soft trim, or exposed wood, the quote will be higher than a basic repaint.
 
-That is not a bad thing. It means the painter is addressing the real problem before covering it up. [Drywall repair](/services/drywall-repairs) and minor wood repairs can also fold into the prep scope.
+That is not a bad thing. It means the painter is addressing the real problem before covering it up. Minor wood repairs can also fold into the prep scope.
 
 Bothell's rain and shade can be hard on fascia, window trim, lower siding courses, and areas near shrubs. Homes near tree cover or damp slopes may need extra drying time and repairs before paint can be applied.
 
