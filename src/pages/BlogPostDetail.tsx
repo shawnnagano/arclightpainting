@@ -18,7 +18,7 @@ const BlogPostDetail = () => {
   return (
     <div className="min-h-screen bg-background">
       <SEOHead
-        title={post.title}
+        title={post.seoTitle || post.title}
         description={post.excerpt}
         canonical={`/${post.slug}`}
         noIndex={post.hidden}
