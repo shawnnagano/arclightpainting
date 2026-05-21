@@ -133,7 +133,7 @@ Yes. Arclight Painting is headquartered in Bothell and serves nearby communities
 
 ## Conclusion
 
-Choosing house painters in Bothell WA comes down to clear scope, strong prep, local experience, and a team that stands behind the work. Schedule your TrueQuote™ at [/schedule](/schedule) and get a clear plan for your home before the first drop cloth goes down.`,
+Choosing house painters in Bothell WA comes down to clear scope, strong prep, local experience, and a team that stands behind the work. [Schedule your TrueQuote™](/schedule) and get a clear plan for your home before the first drop cloth goes down.`,
   },
   {
     slug: "exterior-painting-cost-bothell-wa",
