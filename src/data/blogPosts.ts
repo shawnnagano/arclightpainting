@@ -12,6 +12,130 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "house-painters-bothell-wa",
+    title: "House Painters in Bothell WA: How to Choose the Right Team",
+    seoTitle: "House Painters in Bothell WA: How to Choose",
+    excerpt: "Need house painters in Bothell WA? Learn what to look for, what to ask, and how Arclight helps homeowners paint with confidence.",
+    image: "/images/blog/house-painters-bothell-wa.webp",
+    date: "2026-05-21",
+    content: `The best house painters in Bothell WA should be licensed, bonded, insured, clear about prep, and willing to explain exactly what is included in your estimate. For Bothell homes, that also means understanding Pacific Northwest moisture, cedar siding, HOA color rules, and weather windows. Arclight Painting is a veteran-owned Bothell painting company that serves local homeowners with fixed-price TrueQuote™ estimates, detailed prep, and a 5-Year FreshStart™ Touch-Up Plan.
+
+![Arclight crew painting a Bothell home exterior with protected landscaping](/images/blog/house-painters-bothell-wa.webp)
+
+## Why Choosing the Right House Painters in Bothell WA Matters
+
+Hiring house painters in Bothell WA is not just about getting a fresh color on the wall. It is about protecting your home, your time, and your budget.
+
+Bothell homes face real painting challenges. Older split-levels and ramblers may have cedar siding, worn trim, peeling paint, or old caulking. Newer homes in Canyon Park and North Creek often have fiber-cement siding, tall elevations, and HOA color guidelines. Homes near shaded lots or tree cover can hold moisture longer, which affects prep and paint performance.
+
+That is why the lowest bid is not always the best bid. A good painting company should explain what they will wash, scrape, sand, caulk, prime, paint, protect, and inspect before the job is complete.
+
+Arclight Painting is headquartered in Bothell and serves neighborhoods like Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, and Maltby. The company is veteran-owned, licensed, bonded, insured, BBB A+ rated, a PCA Legacy Member, and backed by a 4.9-star rating with 269+ Google reviews.
+
+## What Should House Painters in Bothell WA Include?
+
+A professional painting estimate should be more than one number at the bottom of a page. It should show you what is included, what is not included, and how the painter plans to protect your home.
+
+For [interior painting](/services/interior-painting), that may include walls, ceilings, trim, doors, drywall repair, furniture protection, floor protection, priming, paint application, cleanup, and a final walkthrough.
+
+For [exterior painting](/services/exterior-painting), that may include pressure washing, scraping, sanding, caulking, spot priming, full priming when needed, siding, trim, fascia, soffits, doors, and touch-ups.
+
+At Arclight, every project starts with TrueQuote™ Pricing. The team walks the home, measures the paintable surfaces, reviews the condition, and builds a fixed-price proposal. That helps homeowners avoid vague allowances, surprise fees, and unclear scope changes.
+
+Learn more on our [Bothell house painting page](/bothell), see our [exterior painting service](/services/exterior-painting), or read our guide on [exterior painting cost in Bothell WA](/exterior-painting-cost-bothell-wa).
+
+## Top 3 Questions to Ask Before Hiring a Painter
+
+### 1. What prep is included?
+
+Paint usually fails because of poor prep, not because someone picked the wrong color. Ask if the painter includes washing, sanding, scraping, caulking, priming, patching, and surface protection.
+
+For Bothell exteriors, prep matters even more. The wetter season in Bothell runs from October 9 to May 1, and November has the most wet days on average. That means exterior paint needs a dry surface, the right weather window, and careful scheduling.
+
+### 2. Is the estimate fixed or open-ended?
+
+Some estimates are loose ballparks. Others are detailed agreements. Ask whether your price is fixed once the scope is approved.
+
+Arclight's TrueQuote™ process is designed to answer that concern upfront. You should know what you are paying for before work begins.
+
+### 3. What happens if something goes wrong?
+
+A good painter should explain their warranty, touch-up policy, inspection process, and cleanup standards.
+
+Arclight backs projects with a 100% Satisfaction Guarantee and a 5-Year FreshStart™ Touch-Up Plan. Each project also receives a PCA™ Quality Inspection before it is closed.
+
+## What to Look for in House Painters in Bothell WA
+
+Use this simple checklist when comparing painters:
+
+| What to Check | Why It Matters |
+| --- | --- |
+| Licensed, bonded, and insured | Protects your home and reduces risk |
+| Clear written scope | Helps you compare bids fairly |
+| Prep details | Better prep usually means a longer-lasting finish |
+| Local Bothell experience | Local homes face rain, shade, cedar, and HOA rules |
+| Warranty or touch-up plan | Shows the painter stands behind the work |
+| Reviews and credentials | Helps confirm trust before you hire |
+
+A painter who gives a low price but skips prep can cost more later. Peeling, flashing, rough patches, failed caulk, and missed repairs often show up after the final check clears.
+
+## Interior vs. Exterior Painting in Bothell
+
+Interior painting is often about comfort, clean lines, and protecting your living space during the project. A good crew should cover floors, protect furniture, repair minor drywall issues, mask carefully, and clean up daily.
+
+Exterior painting is about curb appeal and protection. In Bothell, exterior paint has to stand up to rain, humidity, moss, mildew, shaded surfaces, and UV exposure during summer. Arclight's exterior process includes power washing, scraping, sanding, caulking, priming, and paint systems chosen for the surface and weather exposure.
+
+House painters in Bothell WA should also know when not to paint. If the surface is too wet, too cold, or too close to rain, rushing the job can hurt the final result.
+
+## A Note for Older Bothell Homes
+
+If your home was built before 1978, ask about lead-safe work practices before disturbing old paint. The EPA says renovation, repair, and painting work in pre-1978 homes with lead-based paint can create dangerous lead dust.
+
+That does not mean you should avoid painting. It means the contractor should understand when testing, containment, and lead-safe practices are needed.
+
+For older homes, review the [EPA's Renovation, Repair and Painting Program](https://www.epa.gov/lead/renovation-repair-and-painting-program) before starting work. It explains why certified contractors and lead-safe work practices matter for pre-1978 homes.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight Painting
+
+Arclight Painting is a veteran-owned painting company based in Bothell. Shawn Nagano and Jennifer Pattison built the company around honesty, ownership, friendship, and family. That shows up in the way the team communicates, protects homes, and stands behind the work.
+
+Homeowners choose Arclight because the process is clear. TrueQuote™ Pricing explains the scope. PowerFlex™ Scheduling keeps the project organized. ColorConfidence™ helps homeowners choose colors with less stress. JobTrack™ updates keep everyone informed. PCA™ Quality Inspection helps make sure the final result meets the standard before the project is complete.
+
+For homeowners in Bothell, [Kirkland](/kirkland), [Kenmore](/kenmore), [Woodinville](/woodinville), [Redmond](/redmond), and nearby areas, Arclight brings local experience and a process built for Pacific Northwest homes.
+
+Ready to compare your options? [Get a TrueQuote](/schedule).
+
+## FAQ
+
+### How do I choose the best house painters in Bothell WA?
+
+Start with licensing, insurance, reviews, local experience, and a detailed written estimate. Then ask what prep is included, who manages the project, what warranty is offered, and how the final walkthrough works. The best house painters in Bothell WA will explain the process clearly before you sign.
+
+### How much do house painters in Bothell WA cost?
+
+The cost depends on your home's size, surface condition, number of rooms or exterior surfaces, prep needs, repairs, paint system, and access. A full exterior repaint with peeling cedar siding will cost more than a simple interior wall refresh. The safest way to compare prices is to request a detailed, fixed-scope estimate.
+
+### When is the best time to paint a house exterior in Bothell?
+
+The best time is usually during drier weather windows when surfaces can be cleaned, prepped, painted, and cured properly. Bothell's wetter season runs from fall through spring, so exterior painting often requires flexible scheduling. A good painter will adjust around rain instead of forcing paint onto damp surfaces.
+
+### Do house painters help with HOA colors in Bothell neighborhoods?
+
+Yes, many professional painters can help homeowners think through HOA color guidelines. This matters in neighborhoods like Canyon Park, North Creek, and Queensgate, where exterior color choices may need approval. Arclight's ColorConfidence™ process can help narrow colors before you submit them.
+
+### Should I hire a painter or paint my Bothell home myself?
+
+DIY can work for small, simple areas if you have time, tools, and patience. Professional painters are usually a better fit for full interiors, exterior work, tall areas, damaged surfaces, cabinets, trim, or homes that need careful prep. A professional crew can also reduce mess, safety risks, and rework.
+
+### Are Arclight's house painters local to Bothell?
+
+Yes. Arclight Painting is headquartered in Bothell and serves nearby communities across the Eastside, Snohomish County, and North King County. The team regularly works in Bothell neighborhoods including Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, and Maltby.
+
+## Conclusion
+
+Choosing house painters in Bothell WA comes down to clear scope, strong prep, local experience, and a team that stands behind the work. Schedule your TrueQuote™ at [/schedule](/schedule) and get a clear plan for your home before the first drop cloth goes down.`,
+  },
+  {
     slug: "exterior-painting-cost-bothell-wa",
     title: "Exterior Painting Cost Bothell WA: What Affects Your Quote",
     excerpt: "Exterior painting cost Bothell WA guide. Learn what affects your quote, what's included, and how to plan a lasting exterior repaint.",
