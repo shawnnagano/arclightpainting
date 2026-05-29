@@ -140,11 +140,11 @@ Choosing house painters in Bothell WA comes down to clear scope, strong prep, lo
     title: "House Painters in Bothell WA: A Clear Guide for Bothell Homeowners",
     seoTitle: "House Painters in Bothell WA | Local Hiring Guide",
     excerpt: "Looking for house painters in Bothell WA? Learn what to ask, what prep matters, and how to choose a trusted local crew.",
-    image: "/images/blog/house-painters-bothell-wa.webp",
+    image: "/images/blog/house-painters-bothell-wa-guide.webp",
     date: "2026-05-29",
     content: `House painters in Bothell WA should understand local weather, siding types, HOA rules, and the prep work needed for Pacific Northwest homes. Arclight Painting is a veteran-owned painting company based in Bothell, serving Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, Maltby, and nearby communities with [interior painting](/services/interior-painting), [exterior painting](/services/exterior-painting), cabinet refinishing, drywall repair, and more.
 
-![House painters preparing a Bothell WA home exterior](/images/blog/house-painters-bothell-wa.webp)
+![Bothell house painter rolling fresh paint onto cedar lap siding at golden hour](/images/blog/house-painters-bothell-wa-guide.webp)
 
 If you are comparing house painters in Bothell WA, look for a licensed, bonded, and insured company with clear pricing, detailed prep, strong local reviews, and a written process for protecting your home.
 
