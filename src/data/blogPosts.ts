@@ -12,6 +12,58 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "grilled-chicken-avocado-wraps",
+    title: "Grilled Chicken & Avocado Wraps",
+    seoTitle: "Grilled Chicken & Avocado Wraps Recipe",
+    excerpt: "An easy, fresh, and satisfying summer recipe: quick Grilled Chicken & Avocado Wraps with crisp greens, juicy tomatoes, creamy avocado, and bright lime.",
+    image: "/images/blog/grilled-chicken-avocado-wraps.webp",
+    date: "2026-06-02",
+    content: `Looking for something easy, fresh, and satisfying this summer?
+
+Try these quick **Grilled Chicken & Avocado Wraps**: a light but filling meal that is perfect for warm afternoons, backyard lunches, busy weeknights, or relaxing after a long day of painting plans.
+
+![Grilled Chicken & Avocado Wraps on a wooden board with fresh ingredients](/images/blog/grilled-chicken-avocado-wraps.webp)
+
+They are especially great for summer because they come together fast, do not feel heavy, and are packed with fresh ingredients like crisp greens, juicy tomatoes, creamy avocado, and bright lime. The grilled chicken adds enough protein to keep you full, while the wrap format makes them easy to serve outside, pack for a picnic, or enjoy without heating up the kitchen too much.
+
+## Ingredients
+
+- 2 grilled chicken breasts, sliced
+- 2 large flour tortillas or wraps
+- 1 ripe avocado, sliced or mashed
+- 1 cup chopped romaine or mixed greens
+- 1/2 cup diced tomatoes
+- 1/4 cup shredded cheddar or Monterey Jack cheese
+- 2 tablespoons ranch, Greek yogurt sauce, or chipotle mayo
+- 1 tablespoon lime juice
+- Salt and black pepper, to taste
+
+## Optional Add-Ins
+
+- Red onion
+- Cilantro
+- Corn
+- Black beans
+- Jalapenos
+- Crispy bacon
+- Crumbled feta
+
+## Instructions
+
+1. Season and grill the chicken until cooked through, then let it rest for a few minutes before slicing.
+2. Toss the avocado with lime juice, salt, and pepper.
+3. Warm the tortillas briefly so they fold easily.
+4. Spread sauce over each tortilla.
+5. Layer with greens, grilled chicken, avocado, tomatoes, and cheese.
+6. Fold in the sides, roll tightly, and slice in half.
+7. Serve right away, or wrap in foil for an easy grab-and-go summer meal.
+
+## Quick Tip
+
+For extra flavor, season the chicken with garlic powder, smoked paprika, cumin, salt, pepper, and a squeeze of lime before grilling.
+`,
+  },
+  {
     slug: "house-painters-bothell-wa",
     title: "House Painters in Bothell WA: How to Choose the Right Team",
     seoTitle: "House Painters in Bothell WA: How to Choose",
