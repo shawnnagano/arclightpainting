@@ -18,13 +18,15 @@ export const blogPosts: BlogPost[] = [
     excerpt: "An easy, fresh, and satisfying summer recipe: quick Grilled Chicken & Avocado Wraps with crisp greens, juicy tomatoes, creamy avocado, and bright lime.",
     image: "/images/blog/grilled-chicken-avocado-wraps.webp",
     date: "2026-06-02",
-    content: `Looking for something easy, fresh, and satisfying this summer?
+    content: `When the weather heats up, dinner should feel simple, fresh, and easy to enjoy.
 
-Try these quick **Grilled Chicken & Avocado Wraps**: a light but filling meal that is perfect for warm afternoons, backyard lunches, busy weeknights, or relaxing after a long day of painting plans.
+These **Grilled Chicken & Avocado Wraps** are a great summer meal because they bring together crisp greens, juicy tomatoes, creamy avocado, and flavorful grilled chicken in one easy wrap. They are light enough for a warm day but still filling enough for lunch or dinner.
 
 ![Grilled Chicken & Avocado Wraps on a wooden board with fresh ingredients](/images/blog/grilled-chicken-avocado-wraps.webp)
 
-They are especially great for summer because they come together fast, do not feel heavy, and are packed with fresh ingredients like crisp greens, juicy tomatoes, creamy avocado, and bright lime. The grilled chicken adds enough protein to keep you full, while the wrap format makes them easy to serve outside, pack for a picnic, or enjoy without heating up the kitchen too much.
+This recipe is especially perfect during the summer because it does not require much time in the kitchen, works well for outdoor meals, and can be made ahead for busy afternoons, picnics, or casual family dinners. The fresh ingredients keep it bright and refreshing, while the chicken adds the protein you need to stay satisfied.
+
+Whether you are looking for a quick weeknight meal or something easy to serve on the patio, these wraps are a simple way to enjoy a fresh, no-fuss summer recipe.
 
 ## Ingredients
 
