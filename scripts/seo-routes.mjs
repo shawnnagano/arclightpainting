@@ -120,7 +120,7 @@ function parseServiceAreas() {
 function parseBlogPosts() {
   const text = read("src/data/blogPosts.ts");
   const routes = [];
-  const regex = /\{\s*slug:\s*"([^"]+)",\s*title:\s*"([^"]+)",\s*excerpt:\s*"([^"]+)",\s*image:\s*"([^"]+)",\s*date:\s*"([^"]+)",\s*content:/g;
+  const regex = /\{\s*slug:\s*"([^"]+)",\s*title:\s*"([^"]+)",(?:\s*seoTitle:\s*"[^"]+",)?\s*excerpt:\s*"([^"]+)",\s*image:\s*"([^"]+)",\s*date:\s*"([^"]+)",\s*content:/g;
   for (const match of text.matchAll(regex)) {
     const [, slug, title, description, image, date] = match;
     routes.push({
