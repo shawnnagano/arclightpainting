@@ -12,6 +12,184 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "house-painters-bothell-wa-questions-to-ask",
+    title: "House Painters in Bothell WA: Questions to Ask Before You Hire",
+    seoTitle: "House Painters in Bothell WA: Questions to Ask",
+    excerpt: "Hiring house painters in Bothell WA? Ask these key questions about prep, pricing, timing, warranty, and local experience before you choose.",
+    image: "/images/blog/house-painters-bothell-wa-questions-to-ask.webp",
+    date: "2026-06-04",
+    content: `Before hiring house painters in Bothell WA, ask about licensing, insurance, surface prep, pricing, warranty, products, timelines, and local experience. A good painter should explain how they handle Bothell's rain, cedar siding, mildew, HOA color rules, and older home surfaces before giving you a final quote.
+
+![Bothell house painter on an A-frame ladder inspecting cedar siding with a homeowner](/images/blog/house-painters-bothell-wa-questions-to-ask.webp)
+
+Hiring a painter should not feel like a guessing game. Your home is too important for vague pricing, rushed prep, or a crew that disappears after the final coat dries.
+
+In Bothell, the details matter. Many homes have cedar siding, older trim, shaded elevations, or HOA color rules in neighborhoods like Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, and Maltby. Bothell's mix of older split-levels and newer fiber-cement homes means each project needs a clear plan, not a one-size-fits-all bid.
+
+This guide walks through the questions to ask before you hire house painters in Bothell WA, so you can compare bids with confidence and avoid costly surprises.
+
+## 1. Are You Licensed, Bonded, and Insured?
+
+Start here. A professional painter should be able to confirm they are licensed, bonded, and insured in Washington State.
+
+This protects you if something goes wrong on the job. It also shows the contractor is operating as a real business, not a side crew with a ladder and a weekend opening.
+
+Ask: *"Can you confirm that your company is licensed, bonded, and insured?"*
+
+Do not feel awkward asking. Any professional painting company should expect the question.
+
+Arclight Painting is licensed, bonded, and insured. The company is also veteran-owned, BBB A+ rated, a PCA Legacy Member, and OMWBE certified.
+
+## 2. What Prep Work Is Included?
+
+Paint failure usually starts with poor prep, not poor paint.
+
+Before you compare prices, ask each painter what prep is included. For exterior painting, that may mean pressure washing, scraping, sanding, caulking, priming, and protecting landscaping. For interior painting, it may include filling nail holes, repairing minor drywall damage, sanding rough spots, masking trim, and covering floors and furniture.
+
+Ask: *"What prep work is included in this quote, and what would cost extra?"*
+
+This question helps you spot a low bid that skips important steps. If one painter includes washing, sanding, caulking, primer, and cleanup, and another only says "paint exterior," those are not equal bids.
+
+Arclight's exterior process includes power washing, scraping, sanding, caulking, priming, and surface-specific paint application. Interior projects include protection, minor surface repair, proper paint selection, and final walkthroughs.
+
+## 3. How Do You Handle Bothell Weather?
+
+Bothell painting is shaped by rain, shade, humidity, and seasonal weather windows. Exterior paint needs the right surface conditions to bond and cure.
+
+Ask: *"What happens if it rains during my project?"*
+
+A good answer should not be, "We'll make it work." A better answer is that the crew watches weather conditions, adjusts the schedule when needed, and does not paint when surfaces are too wet or conditions are wrong.
+
+This is especially important for shaded homes, cedar siding, and areas that stay damp longer. Paint applied too soon after rain can fail early.
+
+Arclight uses PowerFlex™ Scheduling to plan exterior work around weather windows and adjust for rain delays so paint can cure properly.
+
+## 4. What Is Included in the Quote?
+
+A clear quote should tell you what you are paying for. It should not leave you wondering which rooms, surfaces, repairs, or coats are included.
+
+Ask: *"Can you walk me through the quote line by line?"*
+
+A professional painting quote should explain:
+
+| Quote item | Why it matters |
+| --- | --- |
+| Surfaces included | Confirms exactly what gets painted |
+| Prep work | Shows whether repairs and surface prep are included |
+| Primer and paint system | Explains what products go on each surface |
+| Number of coats | Helps compare coverage and durability |
+| Protection plan | Covers floors, furniture, landscaping, and fixtures |
+| Timeline | Helps you plan around work, kids, pets, and weather |
+| Warranty or touch-up plan | Shows what happens after the job is done |
+
+Arclight uses TrueQuote™ Pricing, a detailed on-site evaluation that becomes a fixed-price agreement once the scope is approved.
+
+## 5. How Much Should I Expect to Pay?
+
+Cost depends on the home, not just square footage. Size matters, but so do height, siding type, trim detail, surface condition, color changes, repairs, access, and the amount of prep needed.
+
+Ask: *"What factors could change the price of this project?"*
+
+For Bothell homes, common cost drivers include peeling cedar siding, weathered trim, mildew, steep access, detailed fascia, multiple colors, drywall repair, and older surfaces.
+
+A low bid may look appealing, but it may leave out washing, sanding, caulking, primer, warranty support, or proper protection. That can cost more later if the paint peels early or the finish looks uneven.
+
+Arclight does not guess over the phone for complex projects. The TrueQuote™ process is built around measuring the actual surfaces, reviewing the condition, explaining each line item, and giving homeowners a clear fixed-price proposal.
+
+## 6. Who Will Manage the Project?
+
+A great estimate is not enough if no one manages the job once work begins.
+
+Ask: *"Who is my point of contact during the project?"*
+
+You should know who will answer questions, share updates, handle changes, and walk the job when it is done. This matters for both interior and exterior painting. You do not want to chase different crew members each day for basic updates.
+
+Arclight uses JobTrack™ Project Management to keep homeowners informed from setup through final coat. Daily updates and proactive communication help homeowners know what is prepped, primed, painted, and next on the schedule.
+
+## 7. What Paint Products Do You Use and Why?
+
+Do not just ask what brand the painter uses. Ask why they chose that product for your surface.
+
+Ask: *"What paint system do you recommend for my home, and why?"*
+
+Exterior siding, trim, doors, cabinets, ceilings, and interior walls do not all need the same coating. A cabinet finish needs durability against grease, stains, and daily use. Exterior paint needs moisture resistance, UV resistance, and strong adhesion. Interior walls need the right sheen for cleaning, light, and traffic.
+
+Arclight selects paints based on independent lab testing, real-world durability data, and the specific needs of each surface, not brand partnerships.
+
+## 8. How Long Will the Painting Project Take?
+
+A good painter should give you a realistic timeline, not just a start date.
+
+Ask: *"How many days will the project take, and what could delay it?"*
+
+Most interior painting projects take two to five days depending on the number of rooms, trim, doors, ceilings, and prep work. Exterior projects may take three to seven days or more depending on size, prep, and weather.
+
+The schedule should also explain how the crew will work around your home. For interior projects, ask whether rooms will be painted in stages so you can keep living in the house. For exterior work, ask how rain delays will be handled.
+
+## 9. Do You Offer a Warranty or Touch-Up Plan?
+
+Paint is a long-term investment. You should know what happens if something fails because of workmanship.
+
+Ask: *"What warranty or touch-up coverage is included?"*
+
+Some painters offer vague promises. Others put coverage in writing. Ask what is covered, how long coverage lasts, and what is excluded.
+
+Arclight backs projects with a 100% Satisfaction Guarantee and a 5-Year FreshStart™ Touch-Up Plan that includes free workmanship coverage for touch-ups related to peeling, blistering, or chipping paint.
+
+## 10. How Do You Inspect the Finished Work?
+
+The final walkthrough should be more than a quick glance.
+
+Ask: *"What does your final inspection include?"*
+
+A professional painter should review walls, trim, siding, edges, cleanup, missed spots, and touch-ups before closing the job.
+
+Arclight completes a PCA™ Quality Inspection before a project is considered complete. A Quality Supervisor reviews the work against Painting Contractors of America Industry Standards, documents anything that falls short, and makes sure it is corrected before the job is closed.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight Painting
+
+Arclight Painting is a veteran-owned, locally operated painting company headquartered in Bothell. The company was founded by Shawn Nagano and Jennifer Pattison, both U.S. Army veterans, and built around honesty, ownership, friendship, and family.
+
+The team serves [Bothell](/bothell), [Kirkland](/kirkland), [Redmond](/redmond), [Kenmore](/kenmore), [Woodinville](/woodinville), and the greater Seattle area with [interior painting](/services/interior-painting), [exterior painting](/services/exterior-painting), [cabinet refinishing](/services/cabinet-refinishing), drywall repair, pressure washing, commercial painting, popcorn ceiling removal, Painter for a Day, and color consultation services.
+
+Arclight is built for homeowners who want clarity before the job starts. TrueQuote™ Pricing explains the scope. PowerFlex™ Scheduling plans around your calendar and the weather. ColorConfidence™ helps with color decisions. JobTrack™ keeps the project organized. PCA™ Quality Inspection checks the finished result.
+
+Ready to ask better questions and get a clear plan? [Get a TrueQuote™](/schedule).
+
+## External Resource
+
+For homes built before 1978, ask your painter about lead-safe work practices before sanding, scraping, or disturbing old painted surfaces. The [EPA's Renovation, Repair and Painting Program](https://www.epa.gov/lead/renovation-repair-and-painting-program) is the official homeowner resource for lead-safe renovation rules.
+
+## Frequently Asked Questions
+
+**What questions should I ask house painters in Bothell WA before hiring?**
+
+Ask about licensing, insurance, prep work, pricing, paint products, timeline, project management, warranty, and final inspection. You should also ask how the painter handles Bothell's rain, mildew, cedar siding, and HOA color rules.
+
+**How do I compare painting bids fairly?**
+
+Compare the full scope, not just the final price. Look at prep work, repairs, primer, paint system, number of coats, protection, cleanup, warranty, and who manages the project.
+
+**Why are painting quotes so different?**
+
+Painting quotes vary because not every company includes the same prep, materials, insurance, crew training, warranty, or project management. A lower quote may leave out steps that affect how long the paint lasts.
+
+**Do Bothell homes need special exterior painting prep?**
+
+Yes. Bothell homes often deal with rain, shade, mildew, older cedar siding, and moisture-sensitive trim. Proper washing, scraping, sanding, caulking, priming, and weather planning help the paint bond and last longer.
+
+**Should I hire professional painters or paint my house myself?**
+
+DIY can work for small, simple rooms. Hiring professional painters is usually better for exterior work, cabinets, trim, ceilings, older homes, drywall repair, large projects, and any job where prep, safety, speed, and finish quality matter.
+
+**Do I need HOA approval before exterior painting in Bothell?**
+
+Some Bothell neighborhoods have HOA color rules, especially for exterior repainting. Check your HOA guidelines before finalizing colors or scheduling work so your project does not get delayed.
+
+The right questions help you find the right painter. For house painters in Bothell WA who bring clear pricing, careful prep, local experience, and a veteran-owned process, [Get a TrueQuote™](/schedule).
+`,
+  },
+  {
     slug: "grilled-chicken-avocado-wraps",
     title: "Grilled Chicken & Avocado Wraps",
     seoTitle: "Grilled Chicken & Avocado Wraps Recipe",
