@@ -12,6 +12,144 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "bothell-home-needs-exterior-painting-wa",
+    title: "7 Warning Signs Your Bothell Home Needs Exterior Painting Before Fall Rain",
+    seoTitle: "7 Warning Signs Your Bothell Home Needs Exterior Painting",
+    excerpt: "See 7 signs your Bothell home needs exterior painting before fall rain. Learn what to check and when to schedule a TrueQuote.",
+    image: "/images/blog/warning-signs-exterior-painting-bothell-wa.jpg",
+    date: "2026-06-11",
+    content: `Your Bothell home likely needs exterior painting if you see peeling paint, cracked caulk, exposed wood, fading, mildew, chalking, or swollen trim before the rainy season. These signs mean your paint may no longer be protecting siding, trim, and fascia from Pacific Northwest moisture. A professional exterior painting inspection can help you decide whether you need touch-ups, repairs, or a full repaint.
+
+![Peeling exterior paint on a Bothell home before fall rain](/images/blog/warning-signs-exterior-painting-bothell-wa.jpg)
+
+If your Bothell home needs exterior painting, the signs usually show up before the rain does. Peeling edges, cracked caulk, faded siding, and exposed wood are not just cosmetic problems. They are early warnings that your home's first layer of protection may be wearing out.
+
+That matters here in the Pacific Northwest. Bothell homes in neighborhoods like Canyon Park, North Creek, Queensgate, Bothell Landing, and Brickyard deal with long wet seasons, shaded lots, cedar siding, and moisture-heavy north-facing walls. Once fall rain settles in, small paint problems can turn into bigger prep, repair, and scheduling issues.
+
+Here are seven warning signs to check before the rain returns.
+
+## 1. Paint Is Peeling, Flaking, or Lifting
+
+Peeling paint is one of the clearest signs that your exterior coating is no longer bonded to the surface. You might see edges lifting on siding, trim, fascia, or around windows.
+
+This can happen when older paint breaks down, when moisture gets behind the coating, or when past prep was not done well. Once paint starts peeling, rain can reach the wood or siding underneath.
+
+A few small flakes may be a touch-up issue. Wider peeling across several walls usually means your home needs more than spot repair. Exterior paint problems like peeling, cracking, blistering, chalking, fading, and mildew are common warning signs of coating failure.
+
+## 2. Caulk Is Cracked, Split, or Missing
+
+Caulk seals gaps around trim, windows, doors, siding joints, and other exterior seams. When caulk cracks or pulls away, water can enter places it should not.
+
+This is especially important in Bothell because wind-driven rain can work into small openings. Homes with lots of trim, older siding, or shaded elevations need close attention.
+
+Walk around your home and look at window trim, corner boards, fascia joints, and siding transitions. If the caulk looks dry, split, or separated, it may be time to repaint and reseal before the wet season.
+
+## 3. Bare Wood or Raw Siding Is Showing
+
+Bare wood is a bigger warning sign than faded paint. Paint protects wood from moisture, UV exposure, and daily weather. Once raw wood is exposed, it can absorb water.
+
+That can lead to swelling, cracking, soft spots, and more prep work later. Cedar-sided homes in older Bothell neighborhoods are especially worth watching because cedar needs the right prep and coating system to perform well.
+
+Arclight's [exterior painting](/services/exterior-painting) process includes washing, scraping, sanding, caulking, and priming before paint is applied. That prep matters because exterior paint is not just color. It is protection.
+
+## 4. The Color Looks Faded or Washed Out
+
+Fading is easy to overlook because it happens slowly. One day, the siding just looks tired. South and west-facing walls often fade first because they get more sun.
+
+Fading does not always mean the paint has failed, but it can be a sign that the coating is aging. If fading shows up with chalking, cracking, or exposed areas, your paint may be near the end of its useful life.
+
+This is a good time to compare different sides of the home. If the front still looks decent but the sunny wall looks dull or patchy, a professional painter can help you decide whether targeted work or a full repaint makes more sense.
+
+## 5. You See Mildew, Algae, or Dark Staining
+
+Bothell's shaded lots and tree cover can make mildew and algae more common on siding, trim, decks, fences, and north-facing walls. Dark green, gray, or black staining often shows up where surfaces stay damp.
+
+Sometimes staining can be cleaned. Other times, it points to an older coating that is holding moisture or no longer shedding water well.
+
+Do not paint over mildew. It needs to be cleaned and treated first so the new coating can bond properly. Arclight typically pressure washes exterior surfaces before painting to remove dirt, chalking, mildew, and loose material.
+
+## 6. The Paint Leaves a Chalky Residue
+
+Run your hand across the siding. If it leaves a powdery residue on your fingers, that is called chalking.
+
+Some chalking can happen as paint ages, but heavy chalking can keep new paint from bonding if it is not cleaned and prepared correctly. It can also make the home look dull, faded, or streaky after rain.
+
+Chalking is one reason exterior painting should start with proper washing and prep. A quick coat over a chalky surface may look better for a while, but it may not last.
+
+## 7. Trim Looks Swollen, Soft, or Separated
+
+Trim boards take a beating in the Pacific Northwest. Window trim, fascia, rake boards, and lower trim near landscaping can collect water, stay damp, and wear faster than open siding.
+
+Look for swollen edges, soft spots, gaps at seams, bubbling paint, or areas where the board looks uneven. These signs may mean water has already found its way in.
+
+Painting alone will not fix rotten wood. A good exterior painting estimate should identify repair needs before the project starts. That is one reason Arclight builds each TrueQuote™ around the actual condition of the home, not a quick guess. Once the scope is approved, the estimate becomes a fixed-price agreement with no hidden fees.
+
+## Why Fall Rain Changes the Timeline
+
+Exterior painting depends on dry surfaces and the right weather window. If siding is damp, dirty, or too cold, the coating may not cure the way it should.
+
+That is why waiting until heavy rain arrives can limit your options. Once the wet season starts, painters may need to work around shorter dry windows, surface moisture, and weather delays.
+
+Arclight uses PowerFlex™ Scheduling to plan exterior projects around weather windows and adjust for rain delays so paint cures properly. That can make a big difference for Bothell homeowners trying to protect their homes before the season changes.
+
+## Quick Bothell Exterior Paint Check
+
+Before you call a painter, walk around your home and check these areas:
+
+- South and west-facing siding for fading
+- North-facing walls for mildew or algae
+- Window trim for cracked caulk
+- Fascia and roofline trim for peeling
+- Lower siding near shrubs or soil
+- Garage trim and entry areas
+- Exposed cedar, raw wood, or bare spots
+
+Take photos of anything that looks worn. This helps your estimator understand your concerns and check those areas closely during the visit.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight Painting
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell and serving [Bothell](/bothell), [Kirkland](/kirkland), [Redmond](/redmond), [Kenmore](/kenmore), [Woodinville](/woodinville), and the greater Seattle area. The team is licensed, bonded, and insured, with a 4.9-star rating and 269+ verified Google reviews.
+
+For [exterior painting](/services/exterior-painting), Arclight focuses on careful prep, clear communication, and the right paint system for each surface. That includes power washing, scraping, sanding, caulking, priming, and coating based on the needs of your siding, trim, fascia, and other exterior surfaces.
+
+Every project follows the Above & Beyond Blueprint, including TrueQuote™ Pricing, PowerFlex™ Scheduling, JobTrack™ Project Management, and a PCA™ Quality Inspection before the job is closed.
+
+Ready to find out whether your home needs touch-ups, repairs, or a full repaint? [Get a TrueQuote™](/schedule).
+
+## External Resource
+
+For more on common exterior paint problems like peeling, blistering, chalking, fading, and mildew, see this [exterior paint problem guide from The Spruce](https://www.thespruce.com/common-exterior-paint-problems-1822540). For Arclight's local service, see our [exterior painting](/services/exterior-painting) page or our guide on [exterior painting cost in Bothell WA](/exterior-painting-cost-bothell-wa).
+
+## Frequently Asked Questions
+
+**How do I know if my Bothell home needs exterior painting?**
+
+Your Bothell home may need exterior painting if you see peeling paint, cracked caulk, bare wood, fading, mildew, chalking, or soft trim. One small issue may only need repair, but several warning signs across the home usually mean it is time for a professional inspection.
+
+**Is peeling exterior paint serious?**
+
+Yes, peeling exterior paint can be serious because it means the coating is no longer protecting the surface underneath. In Bothell's wet climate, exposed wood or siding can absorb moisture and lead to more repair work if ignored.
+
+**Can I paint my house after fall rain starts?**
+
+Sometimes, but the weather window becomes harder to manage. Exterior paint needs the right surface conditions, temperature, and drying time. If siding is damp or rain is expected too soon, the project may need to wait.
+
+**Should I repaint or just touch up the bad spots?**
+
+Touch-ups may work if the damage is small and the rest of the coating is sound. If you see widespread fading, peeling, chalking, or caulk failure, a full repaint may protect the home better and create a more even finish.
+
+**What happens if I wait too long to repaint?**
+
+Waiting too long can lead to more scraping, sanding, priming, caulking, and repair work before painting can begin. Once moisture reaches wood trim or siding, the project may become more expensive than a planned repaint.
+
+**Do exterior painters check for wood damage before painting?**
+
+A professional exterior painter should check for peeling paint, failing caulk, exposed wood, soft trim, and other surface issues before painting. Arclight's TrueQuote™ process includes a detailed on-site evaluation so homeowners understand the scope before work begins.
+
+If your Bothell home shows several of these warning signs, it is better to inspect it before fall rain makes small problems harder to fix. [Get a TrueQuote™](/schedule) and get a clear plan for protecting your home.
+`,
+  },
+  {
     slug: "house-painters-bothell-wa-questions-to-ask",
     title: "House Painters in Bothell WA: Questions to Ask Before You Hire",
     seoTitle: "House Painters in Bothell WA: Questions to Ask",
