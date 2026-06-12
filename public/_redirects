@@ -58,4 +58,17 @@
 /trusted-professionals                                                /about                             301
 /attributions                                                         /about                             301
 /thank-you                                                            /                                  301
+/about-new/                                                           /about                             301
+/blog-new/                                                            /blog                              301
+/pricing-new                                                          /pricing                           301
+/pricing-new/                                                         /pricing                           301
+/painter-for-a-day-new/                                               /services/painter-for-a-day        301
+/cabinet-refinishing-new/                                             /services/cabinet-refinishing      301
+/interior-painting-new/                                               /services/interior-painting        301
+/house-painting-in-everett-new/                                       /everett                           301
+/house-painting-in-kirkland-new/                                      /kirkland                          301
+/house-painting-in-bellevue-new/                                      /bellevue                          301
+/bothell/                                                             /                                  301
+/contact                                                              /                                  301
+/contact/                                                             /                                  301
 /*                                                                    /index.html                        200
