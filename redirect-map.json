@@ -348,5 +348,15 @@
     "source": "/bothell/",
     "destination": "/",
     "status": 301
+  },
+  {
+    "source": "/contact",
+    "destination": "/",
+    "status": 301
+  },
+  {
+    "source": "/contact/",
+    "destination": "/",
+    "status": 301
   }
 ]

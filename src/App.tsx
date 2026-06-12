@@ -141,6 +141,8 @@ const App = () => (
             <Route path="/trusted-professionals" element={<Navigate to="/about" replace />} />
             <Route path="/attributions" element={<Navigate to="/about" replace />} />
             <Route path="/thank-you" element={<Navigate to="/" replace />} />
+            <Route path="/contact" element={<Navigate to="/" replace />} />
+            <Route path="/contact/" element={<Navigate to="/" replace />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
