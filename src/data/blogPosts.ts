@@ -334,6 +334,7 @@ The right questions help you find the right painter. For house painters in Bothe
     excerpt: "An easy, fresh, and satisfying summer recipe: quick Grilled Chicken & Avocado Wraps with crisp greens, juicy tomatoes, creamy avocado, and bright lime.",
     image: "/images/blog/grilled-chicken-avocado-wraps.webp",
     date: "2026-06-02",
+    hidden: true,
     content: `When the weather heats up, dinner should feel simple, fresh, and easy to enjoy.
 
 These **Grilled Chicken & Avocado Wraps** are a great summer meal because they bring together crisp greens, juicy tomatoes, creamy avocado, and flavorful grilled chicken in one easy wrap. They are light enough for a warm day but still filling enough for lunch or dinner.
