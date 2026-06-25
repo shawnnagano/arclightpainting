@@ -24,6 +24,7 @@ const BlogPostDetail = lazy(() => import("./pages/BlogPostDetail.tsx"));
 const Blog = lazy(() => import("./pages/Blog.tsx"));
 const JoinOurTeam = lazy(() => import("./pages/JoinOurTeam.tsx"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy.tsx"));
+const Eula = lazy(() => import("./pages/Eula.tsx"));
 const Mission = lazy(() => import("./pages/Mission.tsx"));
 const ColorConsultation = lazy(() => import("./pages/ColorConsultation.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
@@ -81,6 +82,7 @@ const App = () => (
             <Route path="/join-our-team" element={<JoinOurTeam />} />
             <Route path="/mission" element={<Mission />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/eula" element={<Eula />} />
             {/* Legacy service redirects */}
             <Route path="/interior-painting" element={<Navigate to="/services/interior-painting" replace />} />
             <Route path="/exterior-painting" element={<Navigate to="/services/exterior-painting" replace />} />
