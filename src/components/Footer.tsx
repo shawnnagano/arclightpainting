@@ -192,7 +192,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-6 pt-6 text-center text-sm opacity-50">
-          © {new Date().getFullYear()} Arclight Painting. All rights reserved. · <Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link>
+          © {new Date().getFullYear()} Arclight Painting. All rights reserved. · <Link to="/privacy-policy" className="hover:underline">Privacy Policy</Link> · <Link to="/eula" className="hover:underline">EULA</Link>
         </div>
       </div>
     </footer>
