@@ -12,6 +12,173 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "cabinet-refinishing-cost-kirkland-wa",
+    title: "Cabinet Refinishing Cost Kirkland WA: Is It Worth It?",
+    seoTitle: "Cabinet Refinishing Cost Kirkland WA: Is It Worth It?",
+    excerpt: "Cabinet refinishing cost Kirkland WA guide with price ranges, prep factors, timelines, and when refinishing beats replacing your cabinets.",
+    image: "/images/blog/cabinet-refinishing-cost-kirkland-wa.webp",
+    date: "2026-06-25",
+    content: `Cabinet refinishing cost in Kirkland WA usually depends on cabinet size, door count, surface condition, finish type, and how much prep is needed. For many solid cabinet boxes, refinishing is worth it because it can refresh the kitchen for much less than replacing cabinets, especially when the layout still works.
+
+![Freshly refinished kitchen cabinets in a Kirkland WA home](/images/blog/cabinet-refinishing-cost-kirkland-wa.webp)
+
+If your cabinets are sturdy, close properly, and fit your kitchen well, refinishing can be one of the smartest updates you make. It gives your kitchen a cleaner, more current look without tearing out the room or paying for a full remodel.
+
+For Kirkland homeowners in Juanita, Houghton, Totem Lake, Bridle Trails, Norkirk, and Moss Bay, the decision often comes down to one question: are the cabinets worn out, or are they just the wrong color? If the answer is mostly color, finish wear, or dated stain, refinishing may be the better move.
+
+Arclight Painting offers cabinet refinishing for homeowners across Kirkland and the Eastside, with a process built around cleaning, sanding, priming, and cabinet-grade coatings. That prep matters because kitchen cabinets take daily abuse from hands, food, grease, moisture, and cleaning products.
+
+## Cabinet Refinishing Cost Kirkland WA: What Should You Budget?
+
+National cost guides often place professional cabinet painting around $30 to $70 per linear foot, or $2,000 to $6,500 for an average kitchen, with large kitchens costing more. Spray-applied finishes can cost more because they need more masking, setup, and surface control.
+
+In Kirkland, your final price may land higher or lower based on the scope. A smaller condo kitchen near Totem Lake may cost less than a larger custom kitchen in Bridle Trails or Houghton. Door count, drawer count, cabinet condition, color change, and finish expectations all matter.
+
+A dark-to-light color change usually costs more than a simple refresh. Going from espresso or cherry cabinets to warm white, soft gray, or greige often needs more primer and more finish coats to block bleed-through and create an even result.
+
+Hardware also affects cost. If you are keeping the same pulls and hinges, the job is simpler. If you are changing hardware sizes, old holes may need to be filled and new holes drilled.
+
+## Is Cabinet Refinishing Worth It?
+
+Cabinet refinishing is worth it when the cabinet boxes are solid, the doors are in good shape, and you like the current kitchen layout. In that case, replacing everything may solve a cosmetic problem with a much more expensive construction project.
+
+Refinishing is often a good fit when:
+
+- The cabinets feel dated but still work well.
+- The layout fits how your family uses the kitchen.
+- The doors and drawer fronts are not warped or falling apart.
+- You want a cleaner look before selling your home.
+- You want a kitchen refresh without weeks of disruption.
+
+It may not be worth it if the cabinet boxes are water-damaged, swollen, poorly built, or no longer fit your storage needs. If you hate the layout, need new cabinet sizes, or want to remove walls, replacement may make more sense.
+
+That is the honest trade-off. Refinishing improves the finish. It does not change the structure of the kitchen.
+
+## What Affects Cabinet Refinishing Cost in Kirkland?
+
+### 1. Number of doors and drawers
+
+Cabinet refinishing is labor-heavy. Every door and drawer front needs to be removed, cleaned, sanded, primed, coated, dried, and reinstalled. More pieces mean more labor.
+
+Large kitchens with islands, tall pantry cabinets, glass doors, or built-ins take more time. A kitchen with 35 doors will cost more than one with 18.
+
+### 2. Existing cabinet condition
+
+Grease, old wax, peeling clear coat, dents, and deep grain all add prep time. Prep is where a professional result is won or lost.
+
+Kitchens near Lake Washington or in older Kirkland homes may also have years of moisture exposure. That does not mean the cabinets cannot be refinished, but the surfaces need to be checked carefully before pricing.
+
+### 3. Color change
+
+A light refresh from beige to soft white is different from changing dark stained oak to a clean modern white. Strong color shifts often need stain-blocking primer, extra sanding, and more coats.
+
+That is one reason cabinet quotes vary so much. A low bid may not include enough prep to handle the actual surface.
+
+### 4. Coating system
+
+Cabinets should not be painted like bedroom walls. They need a cabinet-grade coating that can stand up to frequent touching and cleaning.
+
+Arclight selects cabinet coatings based on durability, adhesion, and real-world performance, not brand partnerships. That is important because the wrong coating can feel sticky, chip early, or fail around high-touch areas.
+
+### 5. Site protection and setup
+
+Cabinet refinishing can create dust, fumes, and overspray risk if it is not controlled. A professional scope should include masking, protection, ventilation planning, and cleanup.
+
+If doors are sprayed off-site or in a controlled area, that setup will be reflected in the quote. It may cost more than a quick brush job, but the finish quality is usually the reason homeowners choose professional cabinet refinishing in the first place.
+
+## Refinishing vs. Refacing vs. Replacing
+
+Cabinet refinishing means keeping the existing doors, drawer fronts, and boxes, then updating the finish.
+
+Cabinet refacing usually means keeping the boxes but replacing the visible door and drawer fronts. It costs more than refinishing but less than a full custom replacement in many cases.
+
+Cabinet replacement means removing the existing cabinets and installing new ones. This is best when the layout, boxes, or cabinet quality no longer make sense.
+
+For many Kirkland homes, refinishing is the sweet spot. It improves the look without turning a cosmetic update into a full remodel.
+
+## How Long Does Cabinet Refinishing Take?
+
+Most cabinet refinishing projects take several days to a week or more, depending on the kitchen size, drying times, and coating system. The process is not just "paint and done."
+
+A typical project includes:
+
+1. Removing doors, drawers, and hardware
+2. Protecting the kitchen and surrounding areas
+3. Cleaning grease and residue from surfaces
+4. Sanding and deglossing
+5. Priming with the right bonding primer
+6. Applying cabinet-grade finish coats
+7. Allowing proper dry and cure time
+8. Reinstalling doors, drawers, and hardware
+9. Final walkthrough and touch-ups
+
+The cure time matters. Cabinets may feel dry before the finish is fully hardened. Your painter should explain when you can use the kitchen normally and how to avoid damaging the finish during the first few days.
+
+## A Note for Older Kirkland Homes
+
+Some older homes may have coatings or painted surfaces that need extra care before sanding or disturbance. EPA rules say paid contractors who disturb painted surfaces in pre-1978 homes must be certified and trained in lead-safe work practices when lead-based paint may be present.
+
+This does not mean every older cabinet project has a lead issue. It means older homes deserve a careful conversation before work begins.
+
+That matters in established Kirkland neighborhoods where older homes sit near newer remodels and custom builds. The right prep protects the home, the crew, and the final result.
+
+## What Should Be Included in a Cabinet Refinishing Quote?
+
+A good quote should tell you more than the final number. It should explain what is included, what is excluded, and what product system will be used.
+
+Look for:
+
+- A clear door and drawer count.
+- Surface prep steps.
+- Primer and coating details.
+- Whether hardware is removed and reinstalled.
+- How the kitchen will be protected.
+- Timeline and cure expectations.
+- Cleanup and final inspection.
+- Any assumptions about repairs or color changes.
+
+Arclight uses a detailed TrueQuote process so homeowners understand the scope before work begins. You can also review [Arclight's pricing guide](/pricing) to understand how project variables affect cost.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company based in Bothell and serving Kirkland, Redmond, Kenmore, Woodinville, and the greater Eastside. The team brings a disciplined process to cabinet refinishing, from prep and protection to coating selection and final walkthrough.
+
+That matters because cabinets are one of the most handled surfaces in your home. Shortcuts show quickly.
+
+Arclight is known for clear communication, careful prep, and a warm, professional approach that fits the brand promise: Veteran-Built. Community-Trusted. Proven Results.
+
+If you are comparing cabinet refinishing cost in Kirkland WA, start with a clear scope. [Get a TrueQuote](/schedule) and get a cabinet refinishing plan built around your kitchen.
+
+## FAQ
+
+### How much does cabinet refinishing cost in Kirkland WA?
+
+Cabinet refinishing cost in Kirkland WA depends on cabinet size, door and drawer count, condition, color change, and finish system. National averages often show cabinet painting at about $30 to $70 per linear foot, but your actual quote should be based on an in-home scope.
+
+### Is it cheaper to refinish or replace kitchen cabinets?
+
+It is usually cheaper to refinish kitchen cabinets than replace them if the boxes and layout are still in good shape. Replacement makes more sense when cabinets are damaged, poorly built, or no longer fit how you use the kitchen.
+
+### How long does cabinet refinishing last?
+
+A properly cleaned, sanded, primed, and coated cabinet finish can last for years with normal care. Durability depends on prep quality, coating choice, cure time, and how heavily the kitchen is used.
+
+### Can dark cabinets be refinished in a light color?
+
+Yes, dark cabinets can often be refinished in a light color, but the process may need more prep, stain-blocking primer, and extra coats. This can increase the cost because the finish has to fully hide the old color.
+
+### Is cabinet refinishing messy?
+
+Cabinet refinishing can be dusty and disruptive if it is not managed well. A professional painter should protect the kitchen, control dust, remove doors and hardware, and explain what areas will be usable during the project.
+
+### Should I refinish cabinets before selling my Kirkland home?
+
+Cabinet refinishing can be a smart pre-sale update when the kitchen feels dated but the cabinets are still solid. A clean, current cabinet color can help the kitchen photograph better and feel more move-in ready.
+
+Cabinet refinishing is worth it when your cabinets are structurally sound and your main goal is a cleaner, updated kitchen without the cost of replacement. For a clear cabinet refinishing cost in Kirkland WA, [Get a TrueQuote](/schedule) with Arclight Painting.
+`,
+  },
+  {
     slug: "painting-estimate-near-me-bothell-wa",
     title: "Painting Estimate Near Me Bothell WA: A Homeowner's Guide to Better Quotes",
     seoTitle: "Painting Estimate Near Me Bothell WA: Better Quotes",
