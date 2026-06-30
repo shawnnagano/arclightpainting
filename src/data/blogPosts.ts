@@ -12,6 +12,151 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "summer-exterior-painting-bothell-wa",
+    title: "Summer Exterior Painting in Bothell: 7 Signs to Check Around the 4th of July",
+    seoTitle: "Summer Exterior Painting in Bothell: 7 Signs",
+    excerpt: "Summer exterior painting in Bothell starts with spotting peeling paint, cracked caulk, mildew, faded trim, and siding wear before bigger repairs begin.",
+    image: "/images/blog/summer-exterior-painting-bothell-wa.webp",
+    date: "2026-07-03",
+    content: `Summer exterior painting in Bothell is best planned when your home shows early signs of wear, not after peeling paint turns into bigger siding damage. Around the 4th of July, check for peeling paint, cracked caulking, mildew, chalky siding, faded trim, bare wood, and moisture-prone areas before the rest of summer gets away from you.
+
+![Bothell home exterior with fresh paint ready for summer weather](/images/blog/summer-exterior-painting-bothell-wa.webp)
+
+July 3 is a natural time to look at your home with fresh eyes. You may be setting up patio chairs, cleaning the walkway, mowing the lawn, or getting ready for friends and family to stop by. While you are already outside, take 10 minutes to walk around your home and look closely at the siding, trim, fascia, gutters, garage door, and front entry.
+
+In [Bothell](/bothell), exterior paint does more than improve curb appeal. It helps protect your home from rain, damp shade, UV exposure, moss, mildew, and seasonal temperature swings. Homes in Canyon Park, North Creek, Queensgate, and nearby neighborhoods often deal with shaded sides, cedar siding, HOA color rules, and moisture-heavy conditions.
+
+The goal is not to rush a repaint before the fireworks. The goal is to notice what your home needs, then schedule the right [exterior painting](/services/exterior-painting) plan while summer weather is still on your side.
+
+## Why July 3 Is the Perfect Time to Look Around Your Home
+
+The day before the 4th of July is one of those moments when homeowners notice things they usually miss. Guests are coming. Outdoor spaces are getting used. The front door, porch, siding, trim, and walkways are suddenly part of the experience.
+
+That makes July 3 a helpful reminder. Walk around your home slowly. Look at the sunny sides and the shaded sides. Check areas near gutters, decks, fences, downspouts, and landscaping. These spots often show paint wear first because they take the most moisture, sunlight, or splashback.
+
+Exterior painting is not a last-minute holiday project. Good paint work needs dry surfaces, steady weather, careful prep, and enough time for coatings to cure correctly. Rain, heavy dew, high humidity, and direct heat can all affect how paint performs.
+
+So use July 3 as your inspection day, not your panic day. If you see signs of wear, write them down, take photos, and [schedule a professional exterior painting estimate](/schedule).
+
+## 1. Peeling or Flaking Paint
+
+Peeling paint is one of the clearest signs your exterior needs attention. It can show up on siding, window trim, fascia boards, porch posts, or garage trim. Once paint starts lifting, water can get behind the coating and reach the surface underneath.
+
+In the Pacific Northwest, that matters. Moisture can sit in shaded areas longer than homeowners expect. If peeling paint is ignored, the issue may move from a paint problem to a wood repair problem.
+
+A quality exterior repaint starts by removing loose paint, sanding rough edges, priming bare areas, and applying the right coating system. Painting over peeling paint without prep may look better for a short time, but it usually fails faster.
+
+## 2. Cracked or Missing Caulking
+
+Caulking seals gaps around trim, windows, doors, siding joints, and other exterior transitions. When caulking cracks, shrinks, or pulls away, water can sneak into places it should not be.
+
+Check around window frames, door frames, corner boards, belly bands, and areas where different materials meet. If the caulking looks split or brittle, your home may need prep before repainting.
+
+This is one reason exterior painting quotes can vary so much. A lower bid may skip careful caulking or only spot-treat the most visible gaps. A better scope looks at the full exterior and includes the prep needed to protect the home.
+
+## 3. Faded Trim or Washed-Out Color
+
+Fading does not always mean failure, but it is a sign the coating is aging. South- and west-facing sides often fade faster because they get more direct sun. Dark colors can show fading more clearly, especially on trim, shutters, garage doors, and front doors.
+
+If your home looked sharp a few summers ago but now feels dull, chalky, or uneven, it may be time to plan a repaint. Fresh exterior paint can restore curb appeal, but it should also be chosen for durability, adhesion, moisture protection, and UV resistance.
+
+Arclight Painting selects exterior paints based on independent testing, real-world durability data, and the needs of each surface, not brand partnerships.
+
+## 4. Chalky Siding
+
+Run your hand across the siding. If a powdery residue comes off on your fingers, that is chalking. Some chalking is part of normal paint aging, but heavy chalking can keep new paint from bonding properly.
+
+This is why washing matters before exterior painting. Dirt, mildew, pollen, and chalky residue need to be removed so the new coating can grip the surface. Arclight's exterior painting process typically includes power washing, scraping, sanding, caulking, and priming before paint is applied.
+
+Skipping this step is one of the fastest ways to shorten the life of a paint job.
+
+## 5. Mildew, Algae, or Dark Staining
+
+Bothell homes can collect mildew, algae, and dark staining on shaded walls, north-facing sides, lower siding, and areas near trees or landscaping. Homes near wooded lots, greenbelts, or damp yards may show this faster.
+
+Mildew is not just cosmetic. It can signal that a surface is staying damp, which can affect paint adhesion and long-term performance. Before repainting, the surface needs to be cleaned and allowed to dry properly.
+
+If you are not ready for a full repaint, [pressure washing](/services/pressure-washing) may still help restore the look of siding, walkways, patios, driveways, and other exterior surfaces. If paint is already failing, washing alone will not solve the issue, but it can reveal the true condition of the surface.
+
+## 6. Bare Wood or Exposed Siding
+
+Bare wood is a bigger concern than faded paint. Once wood is exposed, it can absorb moisture. Over time, that can lead to swelling, cracking, rot, or more involved repairs.
+
+Check trim boards, deck railings, fascia, siding edges, and areas close to gutters. If you see bare wood, do not wait too long. A professional painter can determine whether the area needs sanding, priming, repair, or replacement before painting.
+
+Exterior painting protects best when the prep is done before damage spreads. That is one reason summer is a smart time to act. You still have a better chance of finding dry weather windows before fall rain returns.
+
+## 7. Paint Failure Near Gutters, Decks, and Landscaping
+
+Some areas fail faster because they get more water. Look below gutters, behind shrubs, around deck connections, near hose bibs, and along lower siding. These spots often show peeling, staining, soft wood, or mildew before the rest of the home.
+
+If only one side of the house looks bad, you may wonder whether you need a full repaint or targeted work. The honest answer depends on the coating age, color match, surface condition, and how visible the area is. A professional estimate should explain your options clearly.
+
+With Arclight's TrueQuote™ process, the team walks the surfaces, reviews prep needs, and builds a clear fixed-price proposal so you understand what is included before work begins.
+
+## Why Summer Weather Matters for Exterior Painting in Bothell
+
+Summer is one of the best times to plan exterior painting in Bothell, but good timing still matters. Paint needs dry surfaces and the right weather window. Rain, heavy dew, high humidity, and extreme heat can all affect the result.
+
+That is why professional scheduling matters. Arclight uses PowerFlex™ Scheduling to plan exterior projects around weather windows and adjust for rain delays when needed. The goal is not to force paint onto a damp surface. The goal is to give the coating the conditions it needs to cure properly.
+
+If your July 3 walk-around reveals peeling paint or exposed wood, now is a smart time to schedule. Waiting until fall can make scheduling harder and may leave your siding exposed during wetter months.
+
+## What a Professional Exterior Painting Project Should Include
+
+A proper exterior painting project should include more than paint. The prep usually matters most.
+
+For many Bothell homes, that means washing away dirt and mildew, scraping loose paint, sanding rough areas, caulking gaps, priming bare surfaces, protecting landscaping, and applying the right paint system for the siding and trim.
+
+A strong estimate should explain the scope in plain language. It should tell you what surfaces are included, what prep will be done, what products will be used, how weather delays are handled, and what warranty or workmanship support comes with the project.
+
+Washington State Labor & Industries recommends checking a contractor's license, bond, insurance, references, written bids, and contract details before hiring.
+
+## Why Bothell Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell. The team serves Bothell, Kirkland, Redmond, Kenmore, Woodinville, and the greater Seattle area with exterior painting, interior painting, cabinet refinishing, pressure washing, drywall repair, popcorn ceiling removal, and Painter for a Day services.
+
+Homeowners choose Arclight because the process is clear. The Above & Beyond Blueprint includes TrueQuote™ Pricing, PowerFlex™ Scheduling, ColorConfidence™ Consultation, JobTrack™ Project Management, detailed prep and protection, top-quality paint application, and a PCA™ Quality Inspection.
+
+Arclight is licensed, bonded, and insured, with a 4.9-star rating and 269+ verified Google reviews. The company is also BBB A+ rated, a PCA Legacy Member, and veteran-owned.
+
+Ready to protect your home before the rest of summer gets away from you? [Schedule your free TrueQuote™](/schedule) with Arclight Painting.
+
+## External Resource
+
+Before hiring any painting contractor, review Washington State Labor & Industries' guidance on hiring a contractor. It explains how to check licensing, bonding, insurance, written bids, and contract terms.
+
+[Washington State L&I: Hiring a Contractor](https://lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/)
+
+## FAQ
+
+### Is summer a good time for exterior painting in Bothell?
+
+Yes, summer can be a good time for exterior painting in Bothell because there are usually more dry weather windows than in fall or winter. The key is making sure surfaces are dry, humidity is manageable, and no rain is expected during the needed drying window.
+
+### Should I paint my house right before the 4th of July?
+
+A full exterior repaint should not be rushed right before a holiday. July 3 is better used as a walk-around day to check for peeling paint, cracked caulking, mildew, fading, and exposed siding. If you see warning signs, schedule an estimate and plan the project correctly.
+
+### What are the biggest signs my exterior paint is failing?
+
+The biggest signs include peeling paint, cracked caulking, chalky siding, bare wood, fading, mildew, and paint failure near gutters or shaded areas. These signs often mean the coating is no longer protecting the surface as well as it should.
+
+### How long does exterior painting take?
+
+Most exterior painting projects take several days or more depending on home size, prep needs, weather, siding condition, and the number of surfaces included. Arclight plans exterior projects around weather windows so the paint can cure properly.
+
+### Does exterior painting include pressure washing?
+
+In most cases, yes. Exterior surfaces usually need washing before painting to remove dirt, chalking, mildew, pollen, and loose material. Clean, dry surfaces help the new coating bond better.
+
+### What neighborhoods does Arclight serve near Bothell?
+
+Arclight serves Bothell neighborhoods such as Canyon Park, North Creek, Queensgate, Bothell Landing, Brickyard, and Maltby. The team also serves nearby areas including Kirkland, Kenmore, Woodinville, Redmond, Bellevue, Mill Creek, and greater Seattle.
+
+If your home is showing signs of exterior paint wear this summer, do not wait for the rain to return. Use the 4th of July as your reminder, walk around your home, and [schedule your free TrueQuote™](/schedule) with Arclight Painting.`,
+  },
+  {
     slug: "cabinet-refinishing-cost-kirkland-wa",
     title: "Cabinet Refinishing Cost Kirkland WA: Is It Worth It?",
     seoTitle: "Cabinet Refinishing Cost Kirkland WA: Is It Worth It?",
