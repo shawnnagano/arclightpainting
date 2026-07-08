@@ -12,6 +12,131 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "bothell-4th-of-july-reflection",
+    title: "Small-Town Energy, Big Smiles: A Bothell 4th of July Reflection",
+    excerpt: "A personal Arclight reflection on Bothell's 4th of July parade, lion dancers, sparklers, and the small-town moments that make this community feel like home.",
+    image: "/images/blog/bothell-4th-sign.webp",
+    date: "2026-07-06",
+    hidden: true,
+    content: `Bothell brought the color for the 4th of July.
+
+![Bothell WA sign with red, white, and blue stars downtown](/images/blog/bothell-4th-sign.webp)
+
+The parade, the flags, the kids, the lion dancers, the sparklers, the familiar streets, and the gray Pacific Northwest sky all came together in that way only Bothell can. It felt simple, joyful, and full of the kind of small-town energy that makes a place feel like home.
+
+Some days are not about doing more. They are about slowing down long enough to notice what is already around you.
+
+This 4th of July was one of those days.
+
+## A Parade Full of Color
+
+There was no shortage of color downtown.
+
+A bright red Bothell fire truck rolled through the parade with kids and families gathered along the street. It had that classic, hometown look that makes everyone stop and smile. People waved. Kids leaned forward to see what was coming next. Phones came out, but so did the real smiles.
+
+![Vintage red Bothell fire truck rolling through the 4th of July parade](/images/blog/bothell-4th-firetruck.webp)
+
+Then came the lion dancers, full of movement, music, and energy. Their colors stood out against the city streets and cloudy sky. Kids watched from the curb. Parents pointed things out. Neighbors clapped as the dancers moved past.
+
+![Lion dancers performing in downtown Bothell during the 4th of July parade](/images/blog/bothell-4th-lion-dancers.webp)
+
+There was also a colorful art car covered in patterns, texture, sparkle, and personality. It was the kind of thing you can only really appreciate in person because every inch had something new to notice.
+
+![Colorful mosaic art car in the Bothell 4th of July parade](/images/blog/bothell-4th-art-car.webp)
+
+That is what made the day so fun. Everywhere you looked, there was color, motion, and a little bit of surprise.
+
+## The Bothell Sign Said It All
+
+One of the best moments was the Bothell sign with the red, white, and blue stars.
+
+It was simple, but it said a lot.
+
+Bothell is growing. You can see it in the buildings, the roads, the restaurants, and the busy streets. But days like the 4th of July remind us that the heart of the city is still personal. It is still families taking photos. Kids standing near big decorations. Neighbors gathering in the same places year after year.
+
+The sign was more than a backdrop. It felt like a marker for the day.
+
+This is where we live.
+This is where we gather.
+This is where memories get made.
+
+## Family, Neighbors, and a Slower Pace
+
+The best part of the day was not one single float or one perfect photo.
+
+It was the feeling.
+
+![Motorcycle rider carrying the American flag through downtown Bothell](/images/blog/bothell-4th-motorcycle-flag.webp)
+
+Families lined the streets together. Kids waved flags. People smiled at strangers. Neighbors found each other in the crowd. The day had that easy pace that feels rare during a busy year.
+
+There is something grounding about standing in a crowd and realizing that everyone came out for the same simple reason. To celebrate. To be together. To give their kids a memory. To enjoy the place they call home.
+
+That kind of community does not happen by accident. It is built through small moments. A wave. A shared laugh. A parade seat saved for a friend. A sparkler handed to a kid at dusk. A family photo in front of the Bothell sign.
+
+Those are the moments that stay with you.
+
+## Sparklers at Dusk
+
+Later in the day, the energy shifted.
+
+The parade excitement gave way to the glow of sparklers, smoke in the air, and kids moving carefully across the pavement with bright lights in their hands. It was not fancy. It did not need to be.
+
+![Kids lighting sparklers at dusk on the 4th of July in Bothell](/images/blog/bothell-4th-sparklers.webp)
+
+Sometimes the simplest memories are the ones that stick.
+
+The sparklers brought out that quiet kind of joy. Kids focused on the light. Parents watched close by. The sky softened. The day slowed down.
+
+It was one of those little scenes that feels ordinary while it is happening, then special when you look back at the photos.
+
+## Why Days Like This Matter
+
+Life moves fast.
+
+Work schedules fill up. School calendars fill up. Home projects fill up. Weekends disappear before we even realize they started. That is why community days matter.
+
+They give us a reason to stop.
+
+They remind us that home is more than the place where we sleep at night. Home is the parade route. The familiar storefronts. The people sitting next to us on the curb. The kids growing up in the same community where we are building our lives.
+
+Bothell has changed over the years, and it will keep changing. But the feeling of a day like this is worth holding onto.
+
+Small-town energy.
+Big smiles.
+Family close by.
+Neighbors all around.
+Memories worth keeping.
+
+## A Little Gratitude for Bothell
+
+The 4th of July can mean a lot of different things to different people.
+
+For us, this year, it felt like gratitude.
+
+Gratitude for family.
+Gratitude for community.
+Gratitude for a city that still shows up.
+Gratitude for kids who get to grow up with parade memories, sparklers, waving flags, and neighbors cheering from the sidewalk.
+
+It was not a perfect sunny day. It did not need to be. The clouds were part of it. The crowds were part of it. The laughter, the noise, the waiting, the waving, the color, and the smoke from the sparklers were all part of it.
+
+That is what real memories look like.
+
+Not polished. Not staged. Just lived.
+
+## A Day Worth Remembering
+
+Bothell brought the color for the 4th of July, but the people brought the heart.
+
+The parade smiles, waving flags, lion dancers, sparklers, and happy memories with family and neighbors made the day feel full in the best way.
+
+Small-town energy. Big smiles. Memories worth keeping.
+
+And one more reason to be thankful for this place we call home.
+`,
+  },
+  {
     slug: "summer-exterior-painting-bothell-wa",
     title: "Summer Exterior Painting in Bothell: 7 Signs to Check Around the 4th of July",
     seoTitle: "Summer Exterior Painting in Bothell: 7 Signs",
