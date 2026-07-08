@@ -12,6 +12,97 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "no-bake-lemon-berry-icebox-cake",
+    title: "No-Bake Lemon Berry Icebox Cake: The Perfect Summer Dessert After the Fourth of July",
+    seoTitle: "No-Bake Lemon Berry Icebox Cake Recipe",
+    excerpt: "A light, no-bake lemon berry icebox cake layered with whipped cream, fresh berries, lemon curd, and graham crackers. The perfect easy summer dessert.",
+    image: "/images/blog/no-bake-lemon-berry-icebox-cake.webp",
+    date: "2026-07-08",
+    hidden: true,
+    content: `The fireworks may be over, but summer is just getting started. If you are looking for an easy dessert that captures the bright flavors of the season without heating up your kitchen, this **No-Bake Lemon Berry Icebox Cake** is a perfect choice.
+
+![A slice of no-bake lemon berry icebox cake on a white plate with fresh berries and mint](/images/blog/no-bake-lemon-berry-icebox-cake.webp)
+
+With layers of whipped cream, fresh berries, lemon, and graham crackers, this chilled dessert comes together with minimal effort and becomes even better after a few hours in the refrigerator. It is ideal for family gatherings, backyard cookouts, or simply enjoying a cool treat on a warm afternoon.
+
+## Why You Will Love This Recipe
+
+- No oven required
+- Ready with just a handful of ingredients
+- Light, refreshing, and not overly sweet
+- Easy to prepare ahead of time
+- Perfect for showcasing fresh summer berries
+
+## Ingredients
+
+- 2 cups heavy whipping cream
+- 1/4 cup powdered sugar
+- 1 teaspoon vanilla extract
+- 8 ounces cream cheese, softened
+- 1/3 cup lemon curd
+- Zest of 1 lemon
+- 1 package graham crackers
+- 2 cups sliced strawberries
+- 1 cup blueberries
+- 1 cup raspberries
+- Extra berries and lemon slices for garnish
+
+## Instructions
+
+### 1. Prepare the Filling
+
+In a large bowl, whip the heavy cream with the powdered sugar and vanilla until stiff peaks form.
+
+In a separate bowl, beat the softened cream cheese until smooth. Mix in the lemon curd and lemon zest. Gently fold the whipped cream into the cream cheese mixture until fully combined.
+
+### 2. Build the Layers
+
+Spread a thin layer of the cream mixture on the bottom of an 8x8-inch baking dish.
+
+Arrange a single layer of graham crackers over the cream.
+
+Spread another layer of the lemon cream mixture over the crackers, then top with a generous handful of strawberries, blueberries, and raspberries.
+
+Repeat the layers until all ingredients are used, finishing with the cream mixture on top.
+
+### 3. Chill
+
+Cover and refrigerate for at least 6 hours, or overnight. During this time, the graham crackers soften into a cake-like texture.
+
+### 4. Garnish and Serve
+
+Before serving, decorate with fresh berries, thin lemon slices, and a little extra lemon zest for a bright finishing touch.
+
+## Tips for the Best Icebox Cake
+
+- Overnight chilling creates the best texture.
+- Use ripe, fresh berries for the sweetest flavor.
+- Add fresh mint for a refreshing garnish.
+- Swap in blackberries or peaches for a fun seasonal variation.
+- Make individual servings in mason jars for picnics or parties.
+
+## Frequently Asked Questions
+
+**Can I make this ahead of time?**
+
+Absolutely. In fact, it is even better when made the day before serving.
+
+**How long will it keep?**
+
+Store covered in the refrigerator for up to three days.
+
+**Can I use frozen berries?**
+
+Fresh berries are recommended for the best texture and presentation. If using frozen berries, thaw and drain them well before layering.
+
+## A Refreshing Way to Celebrate Summer
+
+After a busy holiday weekend, simple recipes often become the favorites. This No-Bake Lemon Berry Icebox Cake delivers bright citrus flavor, fresh seasonal fruit, and a cool, creamy texture that is perfect for warm weather.
+
+Whether you are hosting friends, bringing dessert to a family gathering, or simply treating yourself after a long summer day, this easy no-bake dessert is sure to become one you will make again and again.
+`,
+  },
+  {
     slug: "bothell-4th-of-july-reflection",
     title: "Small-Town Energy, Big Smiles: A Bothell 4th of July Reflection",
     excerpt: "A personal Arclight reflection on Bothell's 4th of July parade, lion dancers, sparklers, and the small-town moments that make this community feel like home.",
