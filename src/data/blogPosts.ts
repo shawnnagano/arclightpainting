@@ -12,6 +12,171 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "popcorn-ceiling-removal-cost-bothell-wa",
+    title: "Popcorn Ceiling Removal Cost Bothell WA: What to Expect",
+    seoTitle: "Popcorn Ceiling Removal Cost Bothell WA",
+    excerpt: "Popcorn ceiling removal cost Bothell WA depends on size, repairs, asbestos risk, and finish level. Learn what to expect before scheduling.",
+    image: "/images/blog/popcorn-ceiling-removal-cost-bothell-wa.webp",
+    date: "2026-07-15",
+    content: `Popcorn ceiling removal cost in Bothell, WA usually depends on square footage, ceiling height, asbestos testing, repairs, skim coating, priming, and painting. Many professional popcorn ceiling removal projects fall in the low thousands, while smaller rooms cost less and older ceilings with asbestos concerns can cost more.
+
+![Smooth white ceiling after popcorn ceiling removal in a Bothell WA home](/images/blog/popcorn-ceiling-removal-cost-bothell-wa.webp)
+
+If your Bothell home still has popcorn ceilings, you are not alone. Many homes around North Creek, Canyon Park, Queensgate, and older Northshore neighborhoods were built when textured ceilings were common. They hid seams, softened sound, and helped builders move quickly. Today, many homeowners want a smoother, brighter ceiling that feels cleaner and more current.
+
+The real question is not just, "How much does removal cost?" It is, "What does the price include?" A clean popcorn ceiling removal project is more than scraping texture. It often includes room protection, safe testing, ceiling repair, skim coating, sanding, priming, painting, cleanup, and a final walkthrough.
+
+At Arclight Painting, we help Bothell homeowners understand the full scope before work begins. That way, you know what you are paying for, what can change the price, and what kind of result to expect.
+
+## Popcorn Ceiling Removal Cost Bothell WA: Main Price Factors
+
+Popcorn ceiling removal cost in Bothell WA can vary because no two ceilings are the same. A small bedroom with low ceilings is very different from a vaulted living room with furniture, fixtures, and old texture that may need testing.
+
+The biggest cost factors are:
+
+- Total square footage
+- Ceiling height and access
+- Whether the ceiling has been painted before
+- Amount of ceiling damage hidden under the texture
+- Whether asbestos testing is needed
+- Finish level after removal
+- Whether priming and painting are included
+- Furniture protection and room setup
+
+National cost guides often place professional popcorn ceiling removal around $900 to $2,500 for many projects. That range can be helpful, but Bothell homeowners should treat it as a starting point. Local labor, ceiling condition, disposal needs, and finish expectations all matter.
+
+For example, scraping texture and leaving the ceiling unfinished is not the same as creating a smooth, painted ceiling. Most homeowners want the finished result, not just the removal step. That is why the full scope should be clear in your estimate.
+
+## What Is Usually Included in Professional Popcorn Ceiling Removal?
+
+A professional popcorn ceiling removal project should include more than scraping. The work is messy, overhead, and detail-heavy. If the crew skips protection or repair, dust can spread and the final ceiling may show waves, seams, or patch marks.
+
+A complete scope often includes:
+
+- Protecting floors, walls, fixtures, and furniture
+- Checking whether asbestos testing is needed
+- Wetting and removing the texture when safe
+- Repairing joints, dents, gouges, and surface flaws
+- Skim coating where needed
+- Sanding the ceiling smooth
+- Priming the repaired surface
+- Painting the ceiling
+- Cleaning the room
+- Completing a final quality check
+
+Arclight's [popcorn ceiling removal service](/services/popcorn-ceiling-removal) follows a careful process built around containment, surface repair, sanding, priming, and painting. The goal is not just to remove texture. The goal is to leave the room cleaner, brighter, and ready to enjoy.
+
+## Why Older Bothell Ceilings May Need Asbestos Testing
+
+Older popcorn ceilings should be handled with care. Some textured ceiling materials used decades ago may contain asbestos. You cannot tell if a ceiling contains asbestos just by looking at it.
+
+The safest path is simple: test before disturbing older texture. This is especially important for homes built before the 1980s or homes where the ceiling history is unknown.
+
+Asbestos testing is not about creating fear. It is about making the right plan. If the test is clear, the project can usually move forward as a standard removal and refinishing job. If asbestos is found, the removal needs to follow the proper safety and disposal rules.
+
+For homeowners, this matters because asbestos changes the scope, timeline, and cost. A low bid that ignores testing may look cheaper, but it may also leave out a serious safety step.
+
+The EPA explains that asbestos-containing materials should not be sanded, scraped, drilled, or disturbed unless they are properly evaluated first. Learn more from the [EPA asbestos guidance](https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos).
+
+## How Long Does Popcorn Ceiling Removal Take?
+
+Most popcorn ceiling removal projects take longer than homeowners expect. At Arclight Painting, popcorn ceiling removal takes a minimum of three days because the process includes several stages that need time to dry and cure.
+
+A typical room may need:
+
+1. Day 1: Protection, setup, and texture removal
+2. Day 2: Ceiling repairs, skim coating, and sanding
+3. Day 3: Priming, painting, cleanup, and walkthrough
+
+Larger projects can take longer. So can homes with high ceilings, heavy texture, painted popcorn, moisture stains, or multiple rooms. If the project includes asbestos testing or abatement, the timeline can change again.
+
+This is where a clear estimate helps. A good contractor should explain how the schedule works, when rooms will be usable, and what needs to happen before painting begins.
+
+## Why the Finish Level Affects the Price
+
+After popcorn texture comes down, the ceiling underneath may not look smooth. Texture often hides seams, patches, uneven drywall, and old repairs. That is why the finish level matters.
+
+Some homeowners want a basic retexture. Others want a smooth, modern ceiling. A smooth finish usually takes more labor because it may require skim coating, sanding, and careful priming before paint.
+
+Here is the honest trade-off: a basic finish may cost less, but it may still show small flaws. A smooth finish costs more, but it gives the cleanest, most updated look.
+
+In Bothell homes with open layouts, natural light can make ceiling flaws easier to see. Rooms with large windows, skylights, or angled light need extra care. This is common in homes around North Creek, Queensgate, and newer remodeled spaces across the Eastside.
+
+## What Can Make a Popcorn Ceiling Removal Quote Higher?
+
+A quote may be higher when the project needs more than simple removal. That is not always a bad thing. It may mean the contractor is including the work needed for a better final result.
+
+Your quote may increase if:
+
+- The ceiling has been painted
+- There are old stains or water marks
+- The ceiling has cracks or loose tape
+- The room has high or vaulted ceilings
+- Large furniture needs protection or moving
+- The project includes multiple rooms
+- A smooth finish is requested
+- Asbestos testing or abatement is needed
+- Ceiling painting is included
+
+Be careful when comparing quotes. One contractor may price only texture scraping. Another may include repairs, skim coat, primer, paint, cleanup, and a quality inspection. Those are not the same scope.
+
+If you want help comparing numbers, [Arclight's pricing guide](/pricing) is a good place to start before requesting a full TrueQuote.
+
+## Is Popcorn Ceiling Removal Worth It?
+
+For many Bothell homeowners, yes. Popcorn ceiling removal can make rooms feel brighter, cleaner, and more updated. It can also make future ceiling repairs easier because smooth or lightly textured ceilings are usually easier to patch than heavy popcorn texture.
+
+It is especially worth considering if you are:
+
+- Updating an older home
+- Preparing to sell
+- Remodeling a living room, hallway, or primary bedroom
+- Removing stained or damaged texture
+- Pairing ceiling work with [interior painting](/services/interior-painting)
+- Tired of dust collecting on rough texture
+
+The best time to remove popcorn ceilings is before new paint, flooring, or major furniture arrives. The project is cleaner and easier when rooms are already being refreshed.
+
+## Why Bothell Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company based in Bothell. We serve homeowners across Bothell, Kirkland, Kenmore, Woodinville, Redmond, and the greater Seattle Eastside.
+
+Our team brings the same approach to ceiling work that we bring to painting: clear pricing, careful prep, clean job sites, and no shortcuts. Every project starts with a detailed TrueQuote so you understand the scope before work begins.
+
+We are licensed, bonded, and insured in Washington State. Arclight is also backed by a 4.9-star rating with 269+ verified Google reviews, a 100% Satisfaction Guarantee, and a 5-Year FreshStart Touch-Up Plan.
+
+If you want a smoother ceiling without guesswork, [Get a TrueQuote](/schedule). We will look at the rooms, explain what needs to happen, and give you a clear plan.
+
+## FAQ
+
+### How much does popcorn ceiling removal cost in Bothell, WA?
+
+Popcorn ceiling removal cost in Bothell, WA depends on room size, ceiling height, texture condition, asbestos risk, repairs, and finish level. Smaller rooms may cost less, while whole-home projects or smooth ceiling finishes usually cost more. The most accurate price comes from an on-site estimate.
+
+### Do I need asbestos testing before removing a popcorn ceiling?
+
+You may need asbestos testing if your home is older or the ceiling history is unknown. Testing is the safest way to know whether the texture can be disturbed. If asbestos is present, the project needs a different safety and disposal plan.
+
+### Can I remove popcorn ceiling myself?
+
+Some homeowners can remove non-asbestos popcorn texture themselves, but it is messy and labor-heavy. The harder part is often the finish work after removal. Skim coating, sanding, priming, and painting are what make the ceiling look clean when the project is done.
+
+### How long does popcorn ceiling removal take?
+
+Popcorn ceiling removal usually takes at least three days because the process includes removal, repair, sanding, priming, and painting. Larger rooms, high ceilings, painted texture, or asbestos testing can add time.
+
+### Will the ceiling need repairs after popcorn removal?
+
+Yes, many ceilings need repair after popcorn texture is removed. The texture may hide seams, patches, cracks, and uneven drywall. For the best result, those areas should be repaired before primer and paint.
+
+### Should I remove popcorn ceilings before selling my Bothell home?
+
+It can be a smart update before selling, especially in older Bothell homes. Smooth ceilings can make rooms feel cleaner and more current. Before spending the money, compare the cost with your overall selling plan and the condition of the rest of the home.
+
+Popcorn ceiling removal cost in Bothell WA comes down to scope, safety, and the finish you want. If you want clear pricing and a clean result, [Get a TrueQuote](/schedule) with Arclight Painting and we will take care of you.
+`,
+  },
+  {
     slug: "no-bake-lemon-berry-icebox-cake",
     title: "No-Bake Lemon Berry Icebox Cake: The Perfect Summer Dessert After the Fourth of July",
     seoTitle: "No-Bake Lemon Berry Icebox Cake Recipe",
