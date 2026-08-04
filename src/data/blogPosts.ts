@@ -20,7 +20,6 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Some family bonds grow through shared time, familiar laughter, and the simple comfort of being welcomed, known, and included.",
     image: "/images/blog/the-family-we-choose-dock.webp",
     date: "2026-08-05",
-    hidden: true,
     content: `# The Family We Choose
 
 Some of the strongest family bonds are not created by blood. They grow through shared time, familiar laughter, and the simple comfort of knowing you belong.
@@ -49,7 +48,6 @@ Extended family becomes especially meaningful when it is chosen. These are the p
     excerpt: "Peach Caprese Toasts are a fresh August snack with ripe peaches, mozzarella, basil, and balsamic on crisp sourdough. Simple, sunny, and easy to serve.",
     image: peachCapreseToastsAsset.url,
     date: "2026-08-05",
-    hidden: true,
     content: `# Peach Caprese Toasts: A Simple Late-Summer Snack
 
 Some recipes just feel like August.
