@@ -18,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Family We Choose",
     seoTitle: "The Family We Choose | Arclight Painting",
     excerpt: "Some family bonds grow through shared time, familiar laughter, and the simple comfort of being welcomed, known, and included.",
-    image: "/images/blog/the-family-we-choose-sunset.webp",
+    image: "/images/blog/the-family-we-choose-dock.webp",
     date: "2026-08-05",
     hidden: true,
     content: `# The Family We Choose
