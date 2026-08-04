@@ -11,8 +11,8 @@ export interface BlogPost {
 }
 
 import peachCapreseToastsAsset from "@/assets/peach-caprese-hero-option-1.jpg.asset.json";
-import familyWeChooseSunsetAsset from "@/assets/family-we-choose-sunset.jpeg.asset.json";
-import familyWeChooseDockAsset from "@/assets/family-we-choose-dock.jpeg.asset.json";
+import familyWeChooseSunsetAsset from "@/assets/family-we-choose-sunset.jpg.asset.json";
+import familyWeChooseDockAsset from "@/assets/family-we-choose-dock.jpg.asset.json";
 
 export const blogPosts: BlogPost[] = [
   {
