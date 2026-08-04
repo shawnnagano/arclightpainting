@@ -11,8 +11,39 @@ export interface BlogPost {
 }
 
 import peachCapreseToastsAsset from "@/assets/peach-caprese-hero-option-1.jpg.asset.json";
+import familyWeChooseSunsetAsset from "@/assets/family-we-choose-sunset.jpeg.asset.json";
+import familyWeChooseDockAsset from "@/assets/family-we-choose-dock.jpeg.asset.json";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "the-family-we-choose",
+    title: "The Family We Choose",
+    seoTitle: "The Family We Choose | Arclight Painting",
+    excerpt: "Some family bonds grow through shared time, familiar laughter, and the simple comfort of being welcomed, known, and included.",
+    image: familyWeChooseSunsetAsset.url,
+    date: "2026-08-05",
+    hidden: true,
+    content: `# The Family We Choose
+
+Some of the strongest family bonds are not created by blood. They grow through shared time, familiar laughter, and the simple comfort of knowing you belong.
+
+These photos capture a few of those moments with our close family friends: the kids relaxing by the water, enjoying the sunset, dressing up, and turning an ordinary afternoon into a full Beyblade competition.
+
+![Sunset over a lakeside yard with a dock, boats, and outdoor seating.](${familyWeChooseSunsetAsset.url})
+
+*Some of the best memories happen in simple places, with the people who feel like home.*
+
+My boys and their best friend Carson love building their attack spinners and battling to see which one gets knocked out of the ring, stops first, or comes apart. Lisa, my best friend, joined in with Sylas, making the game even more memorable.
+
+Nothing about these moments needs to be elaborate. It is the conversations, friendly competition, and time spent together that build relationships meant to last.
+
+Extended family becomes especially meaningful when it is chosen. These are the people who show up, grow alongside us, and help create the stories our children will remember for years to come.
+
+![Children sitting on a dock by the water at sunset near boats.](${familyWeChooseDockAsset.url})
+
+*The stories our children remember often begin with evenings like this.*
+`,
+  },
   {
     slug: "peach-caprese-toasts",
     title: "Peach Caprese Toasts: A Simple Late-Summer Snack",
