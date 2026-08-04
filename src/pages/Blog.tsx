@@ -7,7 +7,7 @@ import { blogPosts } from "@/data/blogPosts";
 import BlueprintSection from "@/components/BlueprintSection";
 import CTASection from "@/components/CTASection";
 
-const sortedPosts = [...blogPosts].sort(
+const sortedPosts = blogPosts.filter((post) => !post.hidden).sort(
   (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 );
 

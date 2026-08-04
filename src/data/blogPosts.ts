@@ -10,7 +10,230 @@ export interface BlogPost {
   hidden?: boolean; // if true, exclude from listings, sitemap, and search indexing
 }
 
+import peachCapreseToastsAsset from "@/assets/peach-caprese-toasts.webp.asset.json";
+
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "peach-caprese-toasts",
+    title: "Peach Caprese Toasts: A Simple Late-Summer Snack",
+    seoTitle: "Peach Caprese Toasts: A Simple August Recipe",
+    excerpt: "Peach Caprese Toasts are a fresh August snack with ripe peaches, mozzarella, basil, and balsamic on crisp sourdough. Simple, sunny, and easy to serve.",
+    image: peachCapreseToastsAsset.url,
+    date: "2026-08-05",
+    hidden: true,
+    content: `# Peach Caprese Toasts: A Simple Late-Summer Snack
+
+Some recipes just feel like August.
+
+Peach Caprese Toasts are fresh, colorful, and easy to make when the days are warm and no one wants to spend too much time in the kitchen. You get sweet peaches, creamy mozzarella, fresh basil, crisp toast, and a little balsamic glaze in every bite.
+
+It is simple food, but it feels special. This is the kind of snack you can make for lunch, serve before dinner, or set out on the patio while everyone is still deciding what to do with the rest of the evening.
+
+At Arclight, we spend a lot of time thinking about homes. Not just how they look after a fresh coat of paint, but how they feel when people are actually living in them. A good home has room for easy meals, sunny counters, friends stopping by, and small moments that make the season feel memorable.
+
+This recipe fits right into that.
+
+## Why This Recipe Works So Well in August
+
+August is peach season, and this is one of the easiest ways to use them while they are sweet, juicy, and full of flavor.
+
+A classic caprese usually uses tomatoes, mozzarella, basil, olive oil, and balsamic. This version swaps in peaches for a softer, sweeter late-summer twist. The peaches bring a bright flavor that works beautifully with creamy mozzarella and fresh basil.
+
+The toast gives everything structure. It adds crunch, keeps the recipe from feeling too delicate, and turns a few simple ingredients into something that feels like a real snack or light meal.
+
+It is also flexible. You can make one piece for yourself or a full tray for guests. You can serve it warm, at room temperature, or lightly chilled. You do not need special equipment, and you do not need to measure everything perfectly.
+
+That is the best kind of summer recipe.
+
+## Ingredients
+
+This recipe makes 4 large toasts.
+
+### You will need:
+
+- 4 slices sourdough bread
+- 2 ripe peaches, thinly sliced
+- 8 ounces fresh mozzarella, sliced or torn
+- 1 small handful fresh basil leaves
+- 2 tablespoons olive oil
+- 1 to 2 tablespoons balsamic glaze
+- Flaky salt, to taste
+- Fresh black pepper, to taste
+- Optional: a drizzle of honey
+- Optional: a handful of arugula
+
+## How to Make Peach Caprese Toasts
+
+### 1. Toast the bread
+
+Brush both sides of the sourdough with a little olive oil.
+
+Toast the bread in a skillet, toaster oven, or on the grill until golden and crisp. You want the outside to have some crunch while the center stays sturdy enough to hold the toppings.
+
+If you are using a skillet, medium heat works well. Give each side 2 to 3 minutes.
+
+### 2. Slice the peaches
+
+Cut the peaches into thin wedges.
+
+Ripe peaches should feel slightly soft when you press them gently. If they are too firm, they will not have the same sweetness. If they are too soft, they can get messy on the toast.
+
+You want peaches that are juicy, but still easy to slice.
+
+### 3. Add the mozzarella
+
+Place slices or torn pieces of fresh mozzarella on each piece of toast.
+
+Torn mozzarella gives the toast a relaxed, rustic look. Sliced mozzarella is cleaner and easier if you are serving guests. Either one works.
+
+### 4. Layer on the peaches
+
+Add the peach slices over the mozzarella.
+
+Do not worry about making them perfect. A little overlap looks beautiful and gives every bite a good mix of sweet peach and creamy cheese.
+
+### 5. Finish with basil and balsamic
+
+Tuck fresh basil leaves over the top.
+
+Drizzle with balsamic glaze, then add flaky salt and fresh black pepper. If your peaches are not very sweet, add a small drizzle of honey.
+
+Serve right away while the toast is still crisp.
+
+## Simple Swaps and Add-Ons
+
+This recipe is easy to adjust based on what you have at home.
+
+If you do not have sourdough, use ciabatta, French bread, or any sturdy bakery-style loaf. Softer sandwich bread can work, but it will not hold up as well under the peaches and mozzarella.
+
+If you want more greens, add a small handful of arugula before the peaches. It gives the toast a peppery bite and makes it feel a little more like lunch.
+
+If you want protein, add prosciutto. It brings a salty flavor that works well with the peaches and balsamic.
+
+If you want a little heat, add a pinch of red pepper flakes.
+
+If you do not have balsamic glaze, you can use regular balsamic vinegar. Just use a lighter hand since it is thinner and can soak into the toast quickly.
+
+## What to Serve With Peach Caprese Toasts
+
+These toasts are great on their own, but they also play nicely with other easy summer foods.
+
+Serve them with grilled chicken, a simple green salad, iced tea, lemonade, or a bowl of fresh berries. They also make a nice appetizer before a backyard dinner.
+
+For a casual August lunch, pair two toasts with arugula and a cold drink.
+
+For a small gathering, slice each toast in half and serve them on a board. Add extra basil, sliced peaches, cherry tomatoes, and a small bowl of balsamic glaze on the side.
+
+It looks thoughtful without being fussy.
+
+## A Few Tips Before You Start
+
+Use ripe peaches, but not mushy ones. The flavor matters here because there are only a few ingredients.
+
+Toast the bread well. The toppings are soft and juicy, so the bread needs enough crunch to hold everything together.
+
+Use fresh mozzarella if you can. It gives the toast that creamy caprese texture.
+
+Add salt at the end. A small pinch of flaky salt makes the peaches taste sweeter and the mozzarella taste richer.
+
+Do not build the toasts too early. They are best served shortly after assembling so the bread stays crisp.
+
+## Make-Ahead Notes
+
+You can prep parts of this recipe ahead, but it is best to assemble the toasts right before serving.
+
+You can slice the mozzarella a few hours early and keep it covered in the fridge. You can wash and dry the basil ahead of time too.
+
+The peaches are best sliced close to serving. If you need to cut them early, toss them very lightly with lemon juice to slow browning. Use just a little so the lemon does not take over the flavor.
+
+Toast the bread right before assembling if possible.
+
+If you are serving a group, set everything out assembly-style. Toast the bread, place the toppings in small bowls, and let everyone build their own.
+
+That keeps things easy and relaxed.
+
+## Why We Like This One
+
+Some recipes are about doing more. This one is about doing less, but doing it well.
+
+Good bread. Good peaches. Fresh basil. Creamy mozzarella. A little balsamic. That is it.
+
+It is the same idea we believe in around the home. You do not always need to make things complicated to make them better. Sometimes the right details, handled with care, can change the whole feel of a space.
+
+A fresh wall color can brighten a room. A clean front door can make the whole entry feel more welcoming. A simple summer recipe can turn an ordinary afternoon into something worth slowing down for.
+
+That is the kind of August we like.
+
+## Peach Caprese Toasts Recipe
+
+### Prep time
+
+10 minutes
+
+### Cook time
+
+5 minutes
+
+### Total time
+
+15 minutes
+
+### Servings
+
+4 large toasts
+
+### Ingredients
+
+- 4 slices sourdough bread
+- 2 ripe peaches, thinly sliced
+- 8 ounces fresh mozzarella, sliced or torn
+- 1 small handful fresh basil leaves
+- 2 tablespoons olive oil
+- 1 to 2 tablespoons balsamic glaze
+- Flaky salt, to taste
+- Fresh black pepper, to taste
+- Optional: honey
+- Optional: arugula
+
+### Instructions
+
+1. Brush both sides of the sourdough with olive oil.
+2. Toast the bread in a skillet, toaster oven, or on the grill until crisp and golden.
+3. Add fresh mozzarella to each slice of toast.
+4. Layer peach slices over the mozzarella.
+5. Add fresh basil leaves.
+6. Drizzle with balsamic glaze.
+7. Finish with flaky salt, black pepper, and a little honey if desired.
+8. Serve right away.
+
+## FAQ
+
+### Can I use nectarines instead of peaches?
+
+Yes. Nectarines work well in this recipe and have a similar sweet, bright flavor. They are also a little firmer, which can make them easier to slice.
+
+### Can I make Peach Caprese Toasts ahead of time?
+
+You can prep the ingredients ahead, but wait to assemble until just before serving. The bread can soften if the peaches and mozzarella sit on it too long.
+
+### What bread works best?
+
+Sourdough is a great choice because it has flavor, texture, and enough structure to hold the toppings. Ciabatta or French bread also works well.
+
+### Do I need balsamic glaze?
+
+Balsamic glaze gives the best finish because it is thicker and sweeter than regular balsamic vinegar. If you only have balsamic vinegar, use a small amount so the toast does not get soggy.
+
+### Can I add tomatoes?
+
+Yes. Cherry tomatoes are a great addition, especially if you want the recipe to feel closer to a classic caprese. Slice them in half and add them with the peaches.
+
+## Here's to Simple August Moments
+
+Peach Caprese Toasts are easy, fresh, and just a little special. They are perfect for late summer days when you want something beautiful without making a big production out of it.
+
+From our Arclight family to yours, we hope this brings a little more color, comfort, and ease to your August table.`,
+  },
   {
     slug: "what-can-a-painter-do-in-one-day-bothell-wa",
     title: "What Can a Painter Do in One Day in Bothell?",
