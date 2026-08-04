@@ -11,8 +11,6 @@ export interface BlogPost {
 }
 
 import peachCapreseToastsAsset from "@/assets/peach-caprese-hero-option-1.jpg.asset.json";
-import familyWeChooseSunsetAsset from "@/assets/family-we-choose-sunset.jpg.asset.json";
-import familyWeChooseDockAsset from "@/assets/family-we-choose-dock.jpg.asset.json";
 
 export const blogPosts: BlogPost[] = [
   {
@@ -20,7 +18,7 @@ export const blogPosts: BlogPost[] = [
     title: "The Family We Choose",
     seoTitle: "The Family We Choose | Arclight Painting",
     excerpt: "Some family bonds grow through shared time, familiar laughter, and the simple comfort of being welcomed, known, and included.",
-    image: familyWeChooseSunsetAsset.url,
+    image: "/images/blog/the-family-we-choose-sunset.webp",
     date: "2026-08-05",
     hidden: true,
     content: `# The Family We Choose
@@ -29,7 +27,7 @@ Some of the strongest family bonds are not created by blood. They grow through s
 
 These photos capture a few of those moments with our close family friends: the kids relaxing by the water, enjoying the sunset, dressing up, and turning an ordinary afternoon into a full Beyblade competition.
 
-![Sunset over a lakeside yard with a dock, boats, and outdoor seating.](${familyWeChooseSunsetAsset.url})
+![Sunset over a lakeside yard with a dock, boats, and outdoor seating.](/images/blog/the-family-we-choose-sunset.webp)
 
 *Some of the best memories happen in simple places, with the people who feel like home.*
 
@@ -39,7 +37,7 @@ Nothing about these moments needs to be elaborate. It is the conversations, frie
 
 Extended family becomes especially meaningful when it is chosen. These are the people who show up, grow alongside us, and help create the stories our children will remember for years to come.
 
-![Children sitting on a dock by the water at sunset near boats.](${familyWeChooseDockAsset.url})
+![Children sitting on a dock by the water at sunset near boats.](/images/blog/the-family-we-choose-dock.webp)
 
 *The stories our children remember often begin with evenings like this.*
 `,
