@@ -44,7 +44,7 @@ Extended family becomes especially meaningful when it is chosen. These are the p
     title: "Peach Caprese Toasts: A Simple Late-Summer Snack",
     seoTitle: "Peach Caprese Toasts: A Simple August Recipe",
     excerpt: "Peach Caprese Toasts are a fresh August snack with ripe peaches, mozzarella, basil, and balsamic on crisp sourdough. Simple, sunny, and easy to serve.",
-    image: peachCapreseToastsAsset.url,
+    image: "/images/blog/peach-caprese-toasts.webp",
     date: "2026-08-05",
     content: `# Peach Caprese Toasts: A Simple Late-Summer Snack
 
