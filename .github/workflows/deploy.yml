@@ -134,6 +134,12 @@ jobs:
       - name: Validate redirect source of truth
         run: bun run generate:redirects
 
+      - name: Regenerate sitemap from SEO route source of truth
+        run: bun run seo:sitemap
+
+      - name: Fail if checked-in sitemap drifted
+        run: git diff --exit-code public/sitemap.xml
+
       - name: Run strict SEO assertions
         run: bun run audit:seo
 
@@ -143,6 +149,7 @@ jobs:
           echo "## seo-assertions" >> "$GITHUB_STEP_SUMMARY"
           echo "- Downloaded dist-prerendered artifact" >> "$GITHUB_STEP_SUMMARY"
           echo "- Redirect source of truth validated" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Sitemap regenerated from getSeoRoutes() and checked for drift" >> "$GITHUB_STEP_SUMMARY"
           echo "- SEO assertions include canonical hostname validation for https://arclightpainting.com" >> "$GITHUB_STEP_SUMMARY"
           echo "- Audited artifact retained for debugging" >> "$GITHUB_STEP_SUMMARY"
 
