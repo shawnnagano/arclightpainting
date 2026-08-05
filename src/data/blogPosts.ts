@@ -10,8 +10,6 @@ export interface BlogPost {
   hidden?: boolean; // if true, exclude from listings, sitemap, and search indexing
 }
 
-import peachCapreseToastsAsset from "@/assets/peach-caprese-hero-option-1.jpg.asset.json";
-
 export const blogPosts: BlogPost[] = [
   {
     slug: "the-family-we-choose",
