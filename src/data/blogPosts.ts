@@ -442,7 +442,7 @@ Ready to make your small painting list disappear? [Schedule your Painter for a D
     date: "2026-08-15",
     content: `Interior painting cost in Bothell, WA usually depends on the number of rooms, ceiling height, trim and doors, drywall repairs, color changes, and how much protection and prep your home needs. Around the greater Seattle area, current cost guides commonly show interior painting from about $2 to $6 per square foot for full-home interiors and $4 to $8 per square foot for individual rooms, but your true price depends on the exact scope.
 
-![Bothell homeowner reviewing an interior painting estimate for walls, trim, and ceilings](/images/blog/interior-painting-cost-bothell-wa.webp)
+![Blank painting estimate notebook with paint swatches, calculator, and a home floor plan on a Bothell table](/images/blog/interior-painting-cost-bothell-wa.webp)
 
 If you are pricing interior painting in Bothell, the most helpful question is not "What is the cheapest painter near me?" It is "What is included in the quote?"
 
