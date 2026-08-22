@@ -194,7 +194,7 @@ Yes, getting more than one estimate can help you understand the market. Just mak
 
 Yes. Arclight Painting serves Redmond and nearby Eastside communities, including Bothell, Kirkland, Kenmore, and Woodinville. The team handles exterior painting, interior painting, cabinet refinishing, drywall repair, pressure washing, and other residential painting services.
 
-A good exterior painting quote should make the project clearer, not more confusing. If you want a fixed-price scope built around your Redmond home, [schedule your free TrueQuote™](/schedule) today.\`,
+A good exterior painting quote should make the project clearer, not more confusing. If you want a fixed-price scope built around your Redmond home, [schedule your free TrueQuote™](/schedule) today.`,
   },
   {
     slug: "the-family-we-choose",
