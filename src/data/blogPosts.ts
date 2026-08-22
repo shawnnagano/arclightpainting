@@ -12,6 +12,191 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "exterior-painting-cost-redmond-wa",
+    title: "Exterior Painting Cost Redmond WA: What Homeowners Should Expect",
+    seoTitle: "Exterior Painting Cost Redmond WA: What to Expect",
+    excerpt: "Exterior painting cost Redmond WA guide for local homeowners. Learn price ranges, siding factors, prep, quote details, and when to schedule.",
+    image: "/images/blog/exterior-painting-cost-redmond-wa.webp",
+    date: "2026-08-22",
+    content: `Exterior painting cost in Redmond WA often ranges from about $6,500 to $13,000+ for a full single-family home repaint. Smaller or simpler projects may cost less, while cedar siding, T1-11 panels, peeling paint, trim repair, steep access, and premium coating systems can push the price higher.
+
+![Redmond WA home exterior being prepared for professional painting](/images/blog/exterior-painting-cost-redmond-wa.webp)
+
+If you are pricing an exterior repaint in Redmond, the real question is not just "How much does paint cost?" It is "What does the quote include, and will it hold up in our weather?"
+
+That matters here. Redmond homes in Education Hill, Grass Lawn, Idylwood, Willows, and Overlake see a mix of rain, shade, tree cover, summer UV, and older siding materials. Many homes from the 1970s through 1990s have cedar, T1-11, or early composite siding. Those surfaces can paint beautifully, but only when the prep is done right.
+
+This guide breaks down what Redmond homeowners should expect to pay, why prices vary, and how to compare bids without getting stuck with shortcuts.
+
+## Exterior Painting Cost Redmond WA: Realistic Price Ranges
+
+Most full exterior repaint projects in Redmond fall into a few broad ranges:
+
+| Project Type | Typical Cost Range |
+| --- | --- |
+| Small exterior refresh or trim-focused project | $3,500 to $6,500 |
+| Standard full-home exterior repaint | $6,500 to $13,000+ |
+| Larger home, heavy prep, complex access, or detailed trim | $13,000 to $20,000+ |
+
+These ranges are not one-size-fits-all. A clean, newer fiber-cement home with simple access may land near the lower end. A two-story cedar-sided home on a slope with peeling paint, failing caulk, and detailed fascia may cost much more.
+
+The big swing factor is preparation. Paint is only the visible finish. The value is in the washing, scraping, sanding, caulking, priming, masking, coating, cleanup, and final inspection.
+
+For a precise number, [schedule a free TrueQuote™](/schedule). Arclight builds fixed-price proposals around your actual siding, trim, access, and prep needs.
+
+## What Affects Exterior Painting Cost in Redmond?
+
+Several factors shape the final price of an exterior painting quote.
+
+### Home size and paintable surface area
+
+Square footage matters, but it is not the only measure. A 2,400-square-foot home with simple siding may cost less than a 1,900-square-foot home with lots of trim, gables, dormers, decks, railings, and difficult access.
+
+Painters price the surfaces they need to prep and coat. That includes siding, trim, fascia, soffits, doors, shutters, garage doors, and other exterior details.
+
+### Siding material
+
+Redmond has a lot of siding variety. Cedar siding, T1-11, older wood trim, and composite materials all behave differently.
+
+Cedar may need more scraping, sanding, stain blocking, or spot priming. T1-11 can absorb moisture through grooves and exposed edges. Fiber cement is more stable, but it still needs proper washing, caulking, and coating.
+
+The more care your siding needs, the more labor your project requires.
+
+### Paint condition
+
+A home with faded but stable paint is usually simpler to repaint. A home with peeling, blistering, cracked caulk, bare wood, or mildew needs more prep.
+
+This is where low bids often look tempting. If a quote skips scraping, sanding, priming, or caulking, it may be cheaper now but more expensive later.
+
+### Access and height
+
+Some Redmond homes sit on slopes, especially near Education Hill and Idylwood. Others have tall rear elevations, decks, tight side yards, or landscaping close to the siding.
+
+When crews need more ladder work, staging, masking, or protection, the cost goes up. It also takes more planning to work safely and cleanly.
+
+### Weather timing
+
+Exterior painting in the Pacific Northwest depends on weather windows. Paint needs the right conditions to bond and cure. Rain, heavy moisture, cold temperatures, and damp surfaces can all affect the result.
+
+That is why scheduling matters. Arclight uses PowerFlex™ Scheduling to plan around weather windows and adjust when conditions are not right.
+
+## What Should Be Included in a Redmond Exterior Painting Quote?
+
+A strong exterior painting quote should tell you more than the final price. It should explain what the contractor is actually doing.
+
+Look for these items:
+
+- Power washing or soft washing
+- Scraping loose paint
+- Sanding rough edges
+- Caulking failed gaps and seams
+- Spot priming bare or problem areas
+- Protecting landscaping, windows, fixtures, and hardscape
+- Paint products and sheen
+- Number of coats or coating system
+- Areas included and excluded
+- Timeline and weather plan
+- Warranty or workmanship coverage
+- Final walkthrough or inspection process
+
+Arclight's [exterior painting service](/services/exterior-painting) is built around prep first. That includes washing, scraping, sanding, caulking, priming, and applying the right coating system for the surface.
+
+## Why Some Exterior Painting Quotes Are So Low
+
+A lower price is not always wrong. A smaller scope should cost less. But a low bid should be easy to explain.
+
+If one quote is thousands less than the others, ask what is missing.
+
+Common shortcuts include:
+
+- Skipping full washing
+- Minimal scraping
+- Little or no sanding
+- Cheap caulk
+- No spot primer
+- One thin coat instead of the right coating system
+- No clear warranty
+- No written scope
+- No proof of insurance or contractor registration
+
+Washington State Labor & Industries recommends that homeowners verify contractor registration and get a written contract before hiring. That is a smart step for any exterior repaint, especially when the bid feels unclear.
+
+A complete quote protects you. It also protects the contractor, because everyone agrees on the scope before work begins.
+
+## How Redmond Neighborhoods Affect Exterior Painting
+
+Redmond is not one uniform housing market. Exterior painting needs vary by neighborhood.
+
+In Education Hill, many homes sit on elevated lots with more exposure to wind, rain, and sun. In Grass Lawn, established residential streets often include older siding and mature landscaping. In Idylwood, homes near Lake Sammamish may deal with more moisture and shade. Around Overlake and Willows, homeowners may have busy schedules and want a clean, predictable process.
+
+Those details matter. A good painter should look at the home in person, not price your project from a generic calculator.
+
+If you are planning a repaint in Redmond, you can also review Arclight's [Redmond painting service area](/redmond) to see how local home types shape the project plan.
+
+## How to Compare Exterior Painting Bids
+
+When you compare bids, do not start with the total. Start with the scope.
+
+Ask each painter:
+
+- What prep is included?
+- What gets caulked, primed, and repaired?
+- Which paint system will you use?
+- How many coats are included?
+- How do you handle rain delays?
+- Who supervises quality?
+- What warranty or touch-up plan is included?
+- Are you licensed, bonded, and insured?
+
+Then compare the answers side by side.
+
+A professional quote should feel clear. You should know what is included, what is not included, and what could change the price.
+
+For more pricing context, Arclight's [pricing guide](/pricing) explains why quotes vary and how project scope affects cost.
+
+## Why Bothell and Redmond Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned, locally operated painting company based in Bothell and serving Redmond, Kirkland, Kenmore, Woodinville, and the greater Seattle Eastside.
+
+The company was founded by U.S. Army veterans Shawn Nagano and Jennifer Pattison. That background shows up in the process: clear communication, detailed prep, job tracking, clean worksites, and accountability from estimate to final walkthrough.
+
+Arclight is licensed, bonded, and insured, with a 4.9-star rating and 269+ verified Google reviews. Every project follows the Above & Beyond Blueprint™, including TrueQuote™ pricing, PowerFlex™ Scheduling, JobTrack™ project management, surface preparation, top-quality paint application, and PCA™ Quality Inspection.
+
+Ready to price your Redmond exterior repaint? [Schedule your free TrueQuote™](/schedule). No pressure, no vague ballpark, just a clear scope for your home.
+
+## External Resource
+
+Before hiring any contractor, Washington State Labor & Industries recommends checking contractor registration and getting a written contract. You can review their homeowner guidance here: [Washington L&I Hire Smart Step-by-Step](https://lni.wa.gov/licensing-permits/contractors/hiring-a-contractor/).
+
+## FAQ
+
+### How much does exterior painting cost in Redmond WA?
+
+Exterior painting in Redmond WA often costs about $6,500 to $13,000+ for a full single-family home repaint. The price depends on home size, siding type, paint condition, access, trim detail, and prep work. Larger homes or homes with peeling paint, cedar siding, or steep access can cost more.
+
+### Why do exterior painting quotes vary so much?
+
+Quotes vary because contractors do not always include the same prep, materials, insurance, warranty, or supervision. One quote may include washing, scraping, sanding, caulking, priming, and two coats, while another may only include light prep and paint. Always compare the scope, not just the price.
+
+### Is cedar siding more expensive to paint?
+
+Cedar siding can cost more to paint when it needs extra scraping, sanding, priming, or stain blocking. It is common on many older Eastside homes and needs careful prep because exposed wood and failed coatings can affect adhesion. When done right, cedar can hold a beautiful finish.
+
+### What time of year is best for exterior painting in Redmond?
+
+Exterior painting is usually best during dry, mild weather windows. In Redmond, that often means late spring through early fall, though timing depends on the year. A good contractor will watch moisture, temperature, rain, and curing conditions instead of forcing paint onto damp surfaces.
+
+### Should I get more than one exterior painting estimate?
+
+Yes, getting more than one estimate can help you understand the market. Just make sure each quote includes the same scope. A cheaper quote may not be a better deal if it leaves out prep, primer, warranty, insurance, or a written contract.
+
+### Does Arclight paint homes in Redmond?
+
+Yes. Arclight Painting serves Redmond and nearby Eastside communities, including Bothell, Kirkland, Kenmore, and Woodinville. The team handles exterior painting, interior painting, cabinet refinishing, drywall repair, pressure washing, and other residential painting services.
+
+A good exterior painting quote should make the project clearer, not more confusing. If you want a fixed-price scope built around your Redmond home, [schedule your free TrueQuote™](/schedule) today.\`,
+  },
+  {
     slug: "the-family-we-choose",
     title: "The Family We Choose",
     seoTitle: "The Family We Choose | Arclight Painting",
