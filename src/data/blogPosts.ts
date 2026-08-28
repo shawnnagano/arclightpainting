@@ -12,6 +12,201 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "drywall-repair-cost-bothell-wa",
+    title: "Drywall Repair Cost Bothell WA: What Homeowners Should Expect",
+    seoTitle: "Drywall Repair Cost Bothell WA: 2026 Guide",
+    excerpt: "Drywall repair cost Bothell WA depends on hole size, texture, paint matching, and water damage. Learn what affects price before you book.",
+    image: "/images/blog/drywall-repair-cost-bothell-wa.webp",
+    date: "2026-08-28",
+    content: `Drywall repair cost in Bothell WA usually depends on the size of the damage, the wall texture, whether paint matching is needed, and whether water damage is involved. Small nail holes and dents cost less than larger patches, ceiling repairs, or repairs that need texture matching and full-wall repainting.
+
+![Bothell drywall repair patch before interior painting](/images/blog/drywall-repair-cost-bothell-wa.webp)
+
+If you live in Bothell, Canyon Park, North Creek, Queensgate, or nearby Eastside neighborhoods, the smartest way to price drywall repair is to look at the full finish, not just the patch. A cheap patch that shows through fresh paint is not really a finished repair.
+
+## What Is a Fair Drywall Repair Cost in Bothell WA?
+
+For small drywall repairs in the Seattle area, third-party cost sources show a wide range. Angi lists the average drywall repair project in Seattle at about $834 in 2026, while RenovCost reports many Seattle-area drywall patches around $95 to $370 per patch, with small jobs often landing near a service-call minimum.
+
+Bothell pricing can vary because every wall is different. A simple nail hole may be quick. A cracked seam, ceiling patch, water stain, or textured wall takes more time. If the repair also needs primer and paint, the cost should include that finish work too.
+
+At Arclight Painting, [drywall repair](/services/drywall-repairs) is often paired with [interior painting](/services/interior-painting) so the repaired area blends with the rest of the room. That matters because the patch is only one part of the job. The final result depends on sanding, priming, texture matching, sheen, color, lighting, and where the repair sits on the wall.
+
+For a clear number, [schedule a TrueQuote™ estimate](/schedule). Arclight walks the area, reviews the surface, explains the scope, and gives you a detailed written proposal before work begins.
+
+## Why Drywall Repair Prices Vary So Much
+
+Drywall repair looks simple until you try to make the repair disappear. That is where price differences show up.
+
+A low bid may only include filling the hole. A better scope may include cutting out damaged material, fastening backing, taping, mudding, sanding, matching texture, priming, painting, and cleaning the area.
+
+Here are the biggest cost factors.
+
+### Size of the damage
+
+Tiny nail holes, picture hanger holes, and small dents are the least expensive repairs. Medium holes from door handles, furniture bumps, or removed fixtures usually take more prep. Larger holes may need a new drywall patch, backing, tape, multiple coats of compound, and more drying time.
+
+Ceiling repairs often cost more than wall repairs because overhead work is slower and messier. They may also need more protection for floors, furniture, lighting, and nearby rooms.
+
+### Texture matching
+
+Texture is one of the hardest parts of drywall repair. Many Bothell homes have orange peel, knockdown, or older hand-applied texture. Matching that texture takes skill.
+
+Even when the repair is done well, the patch may still show if the wall has years of paint buildup, fading, or uneven sheen. In many cases, the best-looking result comes from priming and painting the full wall plane instead of touching up only the patched area.
+
+That is why Arclight often looks beyond the hole itself. The goal is not just to repair drywall. The goal is to leave the room looking clean from corner to corner.
+
+### Paint matching and sheen
+
+Paint changes over time. Sunlight, moisture, cleaning, smoke, cooking residue, and normal wear can all shift the color. Even if you still have the original paint can, the touch-up may flash or show from certain angles.
+
+Sheen matters too. A satin or semi-gloss wall can reveal patch edges faster than a flat wall. Strong light from windows, lamps, or skylights can make small surface differences stand out.
+
+If the repair sits in a visible area, like a hallway, stairwell, kitchen, living room, or primary bedroom, painting the full wall may be the better value.
+
+### Water damage
+
+Water damage is different from a normal patch. Before drywall is repaired, the moisture source needs to be fixed. Otherwise, the stain, bubbling, or softness can come back.
+
+Water-damaged drywall may need removal, drying, stain-blocking primer, new drywall, texture, and paint. If the damage is near a bathroom, laundry room, kitchen, window, or roofline, the repair may need extra review before painting begins.
+
+Arclight can repair minor water damage as part of a painting scope, but the cause of the water problem should be handled first.
+
+### Age of the home
+
+Many Bothell and North King County homes were built before 1978 or have older painted surfaces. If repair work disturbs painted surfaces in a pre-1978 home, lead-safe work practices may be required.
+
+This is not a scare tactic. It is a safety issue. Sanding, cutting, or scraping old painted surfaces can create dust. A professional should know when lead-safe rules apply and how to protect the home.
+
+## Common Drywall Repair Scenarios in Bothell Homes
+
+Bothell homes range from older ramblers and split-levels to newer homes in Canyon Park, North Creek, and Queensgate. The most common drywall repairs we see are practical, everyday issues.
+
+### Nail holes and small dents
+
+These are common after moving furniture, taking down art, or preparing a home for sale. Small repairs are often best handled in groups. If you have several nail holes or dents across a room, bundling them into one visit is usually more efficient.
+
+### Door handle holes
+
+Door handle damage usually needs more than spackle. A lasting repair may need a patch, backing, tape, compound, sanding, primer, and paint. Adding a door stop after the repair can help prevent the same problem from happening again.
+
+### Cracks and seam issues
+
+Cracks can come from settling, humidity, seasonal movement, or previous poor repairs. A professional should look at whether the crack is only cosmetic or whether the seam needs reinforcement. Simply caulking over a crack may not hold.
+
+### Water stains
+
+A stain on a ceiling or wall should be treated carefully. The leak or moisture source should be fixed first. Then the damaged area can be repaired, primed with the right product, and painted so the stain does not bleed through.
+
+### Texture repairs before painting
+
+If you are already planning interior painting, it is smart to repair drywall first. Fresh paint makes dents, seams, and patches more visible, not less visible. Good prep helps the final paint job look smooth and consistent.
+
+## Is It Cheaper to Patch Drywall Yourself?
+
+Sometimes, yes. If the damage is a tiny nail hole in a low-visibility area, a careful homeowner may be able to handle it.
+
+But DIY drywall repair gets harder when the hole is larger, the wall is textured, the paint is older, or the repair sits in strong light. The risk is not only that the patch fails. The bigger risk is that it stays visible after painting.
+
+DIY can make sense for:
+
+- Small nail holes
+- Minor dents in hidden areas
+- Basic touch-ups with matching paint
+- Low-visibility utility rooms or closets
+
+Professional repair is usually better for:
+
+- Larger holes
+- Ceiling damage
+- Water stains
+- Cracks that keep returning
+- Texture matching
+- Pre-sale repairs in main rooms
+- Repairs before a full interior repaint
+
+If you are selling your home or refreshing a main living area, professional repair usually pays off in the finished look.
+
+## What Should Be Included in a Drywall Repair Quote?
+
+A good drywall repair quote should make the scope clear. You should not have to guess what is included.
+
+Look for details like:
+
+- Which walls or ceilings are being repaired
+- Approximate size and type of damage
+- Whether texture matching is included
+- Whether primer is included
+- Whether paint and full-wall repainting are included
+- How the work area will be protected
+- How dust and cleanup will be handled
+- Whether older painted surfaces need special precautions
+
+This is where Arclight's TrueQuote™ process helps. Every project starts with a detailed evaluation. The team reviews the surface, explains the prep, and gives a fixed-price proposal with clear line items. Once the scope is approved, the estimate becomes a fixed-price agreement with no hidden fees.
+
+## Drywall Repair Cost Bothell WA: When Painting the Full Wall Is Worth It
+
+Many homeowners ask if they can paint only the patched spot. Sometimes that works. Often, it does not.
+
+A spot repair is more likely to show when:
+
+- The wall gets strong side light
+- The old paint has faded
+- The wall has satin or eggshell sheen
+- The texture is hard to match
+- The paint color is dark or very bright
+- The repair is at eye level
+- The room has open sightlines
+
+Painting the full wall from corner to corner creates a cleaner break. Your eye reads the whole wall as one surface instead of seeing a patch in the middle. For main rooms, hallways, stairwells, kitchens, and living rooms, this is often the better choice.
+
+If you are already hiring [house painters in Bothell](/), ask whether drywall repair and painting can be combined in one scope. Our [pricing guide](/pricing) explains how scope affects the final number.
+
+## Why Bothell & Kirkland Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell. The company serves Bothell, [Kirkland](/kirkland), [Redmond](/redmond), [Kenmore](/kenmore), [Woodinville](/woodinville), and the greater Seattle Eastside.
+
+Homeowners choose Arclight because the team treats drywall repair as part of the full finish, not as an isolated patch. That means careful surface prep, clean protection, clear communication, and paint systems selected for the surface.
+
+Arclight is licensed, bonded, and insured in Washington State. The company is also BBB A+ rated, a PCA Legacy Member, OMWBE certified, and backed by a 4.9-star rating with 269+ verified Google reviews.
+
+Every project follows the Above & Beyond Blueprint, including TrueQuote™ pricing, PowerFlex™ scheduling, JobTrack™ project management, surface preparation and protection, and a PCA™ Quality Inspection before the job is closed.
+
+Ready to get a clear number? [Schedule your TrueQuote™](/schedule) today. No pressure. No guessing. Just a clear scope and a professional plan.
+
+## External Resource: Lead-Safe Repair Rules
+
+For older homes, drywall repair may disturb painted surfaces. The EPA explains that renovation, repair, and painting work in pre-1978 homes can create lead dust if lead-based paint is present. Homeowners can review the EPA's guidance here: [EPA Renovation, Repair and Painting Program](https://www.epa.gov/lead/renovation-repair-and-painting-program).
+
+## FAQ: Drywall Repair Cost in Bothell WA
+
+### How much does drywall repair cost in Bothell WA?
+
+Drywall repair cost in Bothell WA depends on the size of the damage, whether texture matching is needed, and whether the wall needs primer and paint afterward. Small repairs cost less, while larger holes, ceiling patches, water damage, and full-wall repainting cost more.
+
+### Is drywall repair included with interior painting?
+
+Minor drywall repair can often be included as part of an interior painting scope. Larger repairs, water damage, or texture matching may need to be listed separately in the estimate so the prep, primer, and painting are priced correctly.
+
+### Can you match my existing wall texture?
+
+In many cases, yes. Texture matching depends on the existing finish, the repair size, lighting, and the surrounding wall. For the best visual result, it may be better to prime and paint the full wall or ceiling plane after the repair.
+
+### Do I need to paint the whole wall after drywall repair?
+
+Not always, but it is often the better choice. Spot painting can show if the old paint has faded, the sheen is different, or the room has strong natural light. Painting corner to corner gives the cleanest finish.
+
+### Should water-damaged drywall be repaired before painting?
+
+Yes. The moisture source should be fixed first, then the damaged drywall can be repaired, primed, and painted. Painting over water damage without proper repair can lead to stains, bubbling, or recurring issues.
+
+### Is drywall repair safe in older Bothell homes?
+
+It can be, but older homes need extra care. If the home was built before 1978 and the work disturbs painted surfaces, lead-safe rules may apply. A professional should know when testing or lead-safe work practices are needed.
+
+Drywall repair cost in Bothell WA is not just about filling a hole. It is about making the wall look finished, clean, and ready for real life. If you want a clear scope and a fixed-price plan, [schedule your TrueQuote™](/schedule) with Arclight Painting.`,
+  },
+  {
     slug: "exterior-painting-cost-redmond-wa",
     title: "Exterior Painting Cost Redmond WA: What Homeowners Should Expect",
     seoTitle: "Exterior Painting Cost Redmond WA: What to Expect",
