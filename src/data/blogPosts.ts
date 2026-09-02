@@ -12,6 +12,80 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "summer-bothell-uw-campus-3-lessons",
+    title: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
+    seoTitle: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
+    excerpt: "A summer day climbing at the Bothell UW Campus brought back three simple lessons: show up, try hard things, and support the people beside you.",
+    image: "/images/blog/bothell-uw-campus-climbing-summer.webp",
+    date: "2026-09-02",
+    hidden: true,
+    content: `# Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward
+
+Summer at the Bothell UW Campus was a good reminder that growth doesn't happen all at once.
+
+It happens one hold at a time.
+
+![Young climber reaching for a hold on the climbing wall at the Bothell UW campus](/images/blog/bothell-uw-campus-climbing-summer.webp)
+
+Watching our boys climb, reach, pause, adjust, and keep going brought a few simple lessons back into focus. The kind of lessons we want them to carry with them. The kind we try to carry into our work every day.
+
+Here are the three that stood out most: show up, try hard things, and support the people beside you.
+
+## Lesson 1: Show Up
+
+The first step is usually the hardest.
+
+Before the climb, there's that little moment of doubt. Is this too high? What if I slip? What if I can't do it?
+
+But growth starts when you step up anyway.
+
+That's true for our boys, and it's true in the work we do at Arclight. Showing up matters. Showing up prepared matters even more. Whether we're walking into a home for an estimate, protecting a room before painting, or doing the final walkthrough, the goal is the same: be present, be steady, and do the work with care.
+
+## Lesson 2: Try Hard Things
+
+![Climber resetting his footing partway up the bouldering wall](/images/blog/bothell-uw-campus-climbing-summer-2.webp)
+
+Some routes are easy. Some take more effort.
+
+You reach for a hold, miss it, reset your feet, and try again. That's where confidence grows. Not from doing everything perfectly, but from learning that hard things can be figured out.
+
+We see the same thing in painting.
+
+The best results usually come from the parts people don't always see. Sanding. Patching. Caulking. Priming. Protecting floors and furniture. Choosing the right product for the surface. Taking the time to do the prep right.
+
+There are no shortcuts that lead to lasting work. That belief is part of who Arclight is as a veteran-owned company, built around discipline, ownership, and doing the job right.
+
+## Lesson 3: Support the People Beside You
+
+The best part of watching kids climb isn't just seeing who gets to the top.
+
+It's hearing the encouragement from below.
+
+"You've got it."
+
+"Try that one."
+
+"Keep going."
+
+"I'm right here."
+
+That support changes everything.
+
+At Arclight, we believe the same thing about our team and our customers. Good work is never just about paint on a wall. It's about trust, communication, and taking care of the people beside you.
+
+That's why our process is built around clear estimates, careful scheduling, clean worksites, and follow-through. It's also why we talk about customers like friends, not transactions.
+
+Summer has a way of slowing us down just enough to notice what matters.
+
+For us, this day at the Bothell UW Campus was a reminder that growth comes from showing up, trying hard things, and supporting the people beside you.
+
+That's true on the climbing wall.
+
+It's true at home.
+
+And it's true in the work we do every day.`,
+  },
+  {
     slug: "washington-pear-apple-harvest-crisp",
     title: "Washington Pear & Apple Harvest Crisp",
     seoTitle: "Washington Pear & Apple Harvest Crisp",
