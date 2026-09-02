@@ -18,7 +18,6 @@ export const blogPosts: BlogPost[] = [
     excerpt: "A summer day climbing at the Bothell UW Campus brought back three simple lessons: show up, try hard things, and support the people beside you.",
     image: "/images/blog/bothell-uw-campus-climbing-summer.webp",
     date: "2026-09-02",
-    hidden: true,
     content: `# Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward
 
 Summer at the Bothell UW Campus was a good reminder that growth doesn't happen all at once.
