@@ -12,6 +12,144 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "washington-pear-apple-harvest-crisp",
+    title: "Washington Pear & Apple Harvest Crisp",
+    seoTitle: "Washington Pear & Apple Harvest Crisp",
+    excerpt: "A cozy Washington Pear & Apple Harvest Crisp with cinnamon, oats, and walnuts. Simple, family-friendly, and perfect for fall.",
+    image: "/images/blog/washington-pear-apple-harvest-crisp.webp",
+    date: "2026-09-02",
+    hidden: true,
+    content: `# Washington Pear & Apple Harvest Crisp
+
+This Washington Pear & Apple Harvest Crisp is a simple fall dessert made with sliced pears, apples, cinnamon, oats, and walnuts. It is warm, cozy, easy to make, and perfect for sharing after dinner, bringing to a neighbor, or serving on a cool Northwest weekend.
+
+There is something special about fall in Washington. The air turns crisp, the trees start showing color, and local apples and pears begin showing up everywhere from farm stands to grocery bins. This recipe celebrates that season in the easiest way possible: tender fruit baked under a buttery oat-and-walnut topping.
+
+It is the kind of dessert that feels homemade without being fussy. You do not need a mixer, pie crust, or special equipment. Just slice the fruit, stir the topping, bake until bubbling, and let the kitchen smell like cinnamon.
+
+Washington grows a remarkable share of the apples enjoyed across the country, and pears are also a meaningful part of the state's tree fruit story. That makes this crisp feel right at home for a fall newsletter recipe. It is local, familiar, family-friendly, and just sweet enough.
+
+![Washington Pear & Apple Harvest Crisp](/images/blog/washington-pear-apple-harvest-crisp.webp)
+
+## Why We Love This Recipe
+
+A crisp is one of the most forgiving fall desserts. Apples bring structure and a little tartness. Pears soften as they bake and add a gentle honey-like sweetness. Together, they make a filling that tastes richer than the short prep time suggests.
+
+The topping is simple: rolled oats, flour, brown sugar, cinnamon, walnuts, and butter. It bakes into a golden, crunchy layer that balances the soft fruit underneath.
+
+This is also a great recipe for busy households. You can prep it before dinner, bake it while everyone eats, and serve it warm with vanilla ice cream or whipped cream. Leftovers are just as good the next morning with a spoonful of yogurt.
+
+## Ingredients
+
+### For the fruit filling
+
+- 3 medium Washington apples, peeled if desired, cored, and thinly sliced
+- 3 medium pears, cored and thinly sliced
+- 2 tablespoons lemon juice
+- 1/3 cup brown sugar
+- 1 tablespoon cornstarch
+- 1 teaspoon ground cinnamon
+- 1/4 teaspoon ground nutmeg
+- 1/4 teaspoon salt
+- 1 teaspoon vanilla extract
+
+### For the oat-and-walnut topping
+
+- 1 cup old-fashioned rolled oats
+- 3/4 cup all-purpose flour
+- 1/2 cup chopped walnuts
+- 1/2 cup brown sugar
+- 1 teaspoon ground cinnamon
+- 1/4 teaspoon salt
+- 1/2 cup cold unsalted butter, cut into small cubes
+
+## Instructions
+
+### 1. Heat the oven
+
+Preheat the oven to 350°F. Lightly grease an 8x8-inch or 9x9-inch baking dish.
+
+### 2. Prepare the fruit
+
+Add the sliced apples and pears to a large bowl. Toss with lemon juice, brown sugar, cornstarch, cinnamon, nutmeg, salt, and vanilla.
+
+The cornstarch helps thicken the fruit juices as the crisp bakes. The lemon juice keeps the fruit bright and balances the sweetness.
+
+### 3. Fill the baking dish
+
+Spread the fruit mixture evenly into the prepared baking dish. Try to keep the slices in an even layer so they bake at the same pace.
+
+### 4. Make the topping
+
+In a medium bowl, stir together the oats, flour, walnuts, brown sugar, cinnamon, and salt. Add the cold butter cubes.
+
+Use your fingers, a fork, or a pastry cutter to work the butter into the oat mixture until it forms small crumbs. Some larger buttery pieces are fine. They help the topping bake up crisp and golden.
+
+### 5. Add the topping
+
+Sprinkle the oat-and-walnut topping evenly over the fruit. Do not press it down too firmly. A loose topping gives the crisp better texture.
+
+### 6. Bake
+
+Bake for 40 to 45 minutes, or until the fruit is bubbling around the edges and the topping is golden brown.
+
+If the topping starts to brown too quickly, loosely cover the dish with foil for the final 10 minutes.
+
+### 7. Cool and serve
+
+Let the crisp rest for at least 15 minutes before serving. This helps the fruit filling settle and makes it easier to scoop.
+
+Serve warm on its own, or add vanilla ice cream, whipped cream, or a drizzle of caramel sauce.
+
+## Simple Tips
+
+Use a mix of sweet and tart apples if you can. Honeycrisp, Gala, Granny Smith, Cosmic Crisp, and Fuji all work well.
+
+Choose pears that are ripe but still firm. Very soft pears can turn mushy in the oven.
+
+Keep the butter cold for the topping. Cold butter creates a better crumb and helps the topping stay crisp.
+
+Chop the walnuts small enough that every bite gets a little crunch.
+
+Let the crisp cool before serving. It will smell amazing right out of the oven, but a short rest gives the filling time to thicken.
+
+## Easy Variations
+
+For extra warmth, add a pinch of ground ginger or cardamom to the filling.
+
+For a nut-free version, skip the walnuts and add another 1/2 cup of oats.
+
+For a little more texture, mix 1/4 cup shredded coconut into the topping.
+
+For a sweeter dessert, add 2 tablespoons maple syrup to the fruit filling.
+
+For a breakfast-style version, reduce the brown sugar slightly and serve with Greek yogurt.
+
+## Make-Ahead Notes
+
+You can assemble the fruit filling and topping separately up to one day ahead. Store both covered in the refrigerator. Add the topping right before baking so it stays crisp.
+
+You can also bake the crisp ahead and reheat it. Warm individual servings in the microwave, or reheat the full dish in a 300°F oven until heated through.
+
+Leftovers keep well in the refrigerator for 3 to 4 days.
+
+## A Little Washington Harvest Note
+
+This recipe is tied to the best kind of Northwest fall rhythm: local fruit, cooler evenings, and simple food that brings people together. Washington apples are part of the state's agricultural identity, and pears have a strong place in our regional harvest season too.
+
+That is what makes this crisp such a natural fit for September and October. It tastes like the season without needing anything fancy.
+
+## What to Serve With It
+
+This crisp is easy to serve after a casual family dinner. It pairs well with roasted chicken, soup night, chili, or a simple weekend meal.
+
+For dessert, keep it classic with vanilla ice cream. For a lighter option, spoon it over plain yogurt. For a cozy evening treat, serve it warm with coffee, tea, or cider.
+
+## Final Note
+
+Washington Pear & Apple Harvest Crisp is simple, cozy, and hard to mess up. It is the kind of recipe that makes the house feel warm, smells like fall, and gives everyone a reason to linger at the table a little longer.`,
+  },
+  {
     slug: "drywall-repair-cost-bothell-wa",
     title: "Drywall Repair Cost Bothell WA: What Homeowners Should Expect",
     seoTitle: "Drywall Repair Cost Bothell WA: 2026 Guide",
