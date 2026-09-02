@@ -18,7 +18,6 @@ export const blogPosts: BlogPost[] = [
     excerpt: "A cozy Washington Pear & Apple Harvest Crisp with cinnamon, oats, and walnuts. Simple, family-friendly, and perfect for fall.",
     image: "/images/blog/washington-pear-apple-harvest-crisp.webp",
     date: "2026-09-02",
-    hidden: true,
     content: `# Washington Pear & Apple Harvest Crisp
 
 This Washington Pear & Apple Harvest Crisp is a simple fall dessert made with sliced pears, apples, cinnamon, oats, and walnuts. It is warm, cozy, easy to make, and perfect for sharing after dinner, bringing to a neighbor, or serving on a cool Northwest weekend.
