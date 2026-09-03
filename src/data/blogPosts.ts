@@ -99,7 +99,7 @@ There is something special about fall in Washington. The air turns crisp, the tr
 
 It is the kind of dessert that feels homemade without being fussy. You do not need a mixer, pie crust, or special equipment. Just slice the fruit, stir the topping, bake until bubbling, and let the kitchen smell like cinnamon.
 
-Washington grows a remarkable share of the apples enjoyed across the country, and pears are also a meaningful part of the state's tree fruit story. That makes this crisp feel right at home for a fall newsletter recipe. It is local, familiar, family-friendly, and just sweet enough.
+Washington grows a remarkable share of the apples enjoyed across the country, and pears are also a meaningful part of the state's tree fruit story. That makes this crisp feel right at home on the table this time of year. It is local, familiar, family-friendly, and just sweet enough.
 
 ![Washington Pear & Apple Harvest Crisp](/images/blog/washington-pear-apple-harvest-crisp.webp)
 
