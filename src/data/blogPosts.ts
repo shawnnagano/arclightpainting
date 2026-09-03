@@ -88,7 +88,7 @@ And it's true in the work we do every day.`,
     slug: "washington-pear-apple-harvest-crisp",
     title: "Washington Pear & Apple Harvest Crisp",
     seoTitle: "Washington Pear & Apple Harvest Crisp",
-    excerpt: "Washington Pear & Apple Harvest Crisp made with cinnamon, oats, walnuts, and local fall fruit. A cozy family dessert for your fall newsletter readers.",
+    excerpt: "Washington Pear & Apple Harvest Crisp made with cinnamon, oats, walnuts, and local fall fruit — a cozy family dessert perfect for fall.",
     image: "/images/blog/washington-pear-apple-harvest-crisp.webp",
     date: "2026-09-02",
     content: `# Washington Pear & Apple Harvest Crisp
