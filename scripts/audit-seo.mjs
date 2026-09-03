@@ -39,6 +39,16 @@ const stripTags = (html) => html.replace(/<script[\s\S]*?<\/script>/gi, " ").rep
 const readIfExists = (filePath) => fs.existsSync(filePath) ? fs.readFileSync(filePath, "utf8") : "";
 const anchorRegex = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
 const canonicalHrefRegex = /<link\b[^>]*rel=["']canonical["'][^>]*href=["']([^"']+)["'][^>]*>/gi;
+const decodeEntities = (value) => String(value)
+  .replace(/&(?:#39|apos|#x27);/gi, "'")
+  .replace(/&(?:quot|#34);/gi, '"')
+  .replace(/&(?:#8212|#x2014);/gi, "\u2014")
+  .replace(/&(?:#8211|#x2013);/gi, "\u2013")
+  .replace(/&(?:nbsp|#160);/gi, " ")
+  .replace(/&(?:lt|#60);/gi, "<")
+  .replace(/&(?:gt|#62);/gi, ">")
+  .replace(/&(?:amp|#38);/gi, "&");
+const normalizeText = (value) => decodeEntities(value).replace(/\s+/g, " ").trim();
 
 function countMatches(html, regex) {
   return [...html.matchAll(regex)].length;
