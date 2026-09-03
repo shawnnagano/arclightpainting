@@ -90,12 +90,14 @@ function auditGeneratedHtml(route) {
   const text = stripTags(html);
   const expectedCanonical = `${SITE_URL}${route.path === "/" ? "" : route.path}`;
   const titleMatch = html.match(/<title>([\s\S]*?)<\/title>/i);
-  const descriptionMatch = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["'][^>]*>/i);
+  const descriptionMatch = html.match(/<meta\b[^>]*\bname=(["'])description\1[^>]*\bcontent=(["'])([\s\S]*?)\2[^>]*>/i)
+    || html.match(/<meta\b[^>]*\bcontent=(["'])([\s\S]*?)\1[^>]*\bname=(["'])description\3[^>]*>/i);
+  const descriptionContent = descriptionMatch ? (descriptionMatch[3] ?? descriptionMatch[2]) : null;
   const canonicalRegex = new RegExp(`<link[^>]+rel=["']canonical["'][^>]+href=["']${escapeRegex(expectedCanonical)}["'][^>]*>`, "i");
   const canonicalMatches = [...html.matchAll(canonicalHrefRegex)];
 
   if (!titleMatch || normalizeText(titleMatch[1]) !== normalizeText(route.title)) errors.push(`${route.path}: generated HTML missing exact <title>`);
-  if (!descriptionMatch || normalizeText(descriptionMatch[1]) !== normalizeText(route.description)) errors.push(`${route.path}: generated HTML missing exact meta description`);
+  if (descriptionContent === null || normalizeText(descriptionContent) !== normalizeText(route.description)) errors.push(`${route.path}: generated HTML missing exact meta description`);
   if (!canonicalRegex.test(html)) errors.push(`${route.path}: generated HTML missing exact self-referencing canonical`);
   if (countMatches(html, /<title>/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one <title>`);
   if (countMatches(html, /<meta[^>]+name=["']description["']/gi) !== 1) errors.push(`${route.path}: generated HTML must contain exactly one meta description`);
