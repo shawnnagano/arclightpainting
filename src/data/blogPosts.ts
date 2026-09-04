@@ -16,7 +16,7 @@ export const blogPosts: BlogPost[] = [
     title: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
     seoTitle: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
     excerpt: "A summer day climbing at the Bothell UW Campus brought back three simple lessons: show up, try hard things, and support the people beside you.",
-    image: "/images/blog/bothell-uw-campus-climbing-summer-2.webp",
+    image: "/images/blog/bothell-uw-campus-climbing-summer-banner.webp",
     date: "2026-09-02",
     content: `# Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward
 
