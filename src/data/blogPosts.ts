@@ -12,6 +12,169 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "one-pot-chicken-wild-rice-soup",
+    title: "One-Pot Chicken and Wild Rice Soup",
+    seoTitle: "One-Pot Chicken and Wild Rice Soup",
+    excerpt: "A cozy one-pot chicken and wild rice soup recipe for crisp fall evenings, rainy weekends, and simple family dinners at home.",
+    image: "/images/blog/one-pot-chicken-wild-rice-soup.webp",
+    date: "2026-09-07",
+    hidden: true,
+    content: `# One-Pot Chicken and Wild Rice Soup
+
+This one-pot chicken and wild rice soup is warm, simple, and made for crisp fall evenings at home. It uses tender chicken, hearty wild rice, vegetables, herbs, and a creamy broth that feels comforting without being fussy.
+
+When the days start getting cooler and the rain settles in, a good soup recipe can make the whole house feel calmer. This one is the kind of meal you can start in one pot, let simmer while the kitchen fills with good smells, and serve with bread, crackers, or a simple green salad.
+
+At Arclight Painting, we spend a lot of time helping families make their homes feel fresh, cared for, and ready for the season. Sometimes that means a new wall color before the holidays. Sometimes it just means a warm bowl of soup on a gray evening after a long day.
+
+![A warm bowl of chicken and wild rice soup on a fall table](/images/blog/one-pot-chicken-wild-rice-soup.webp)
+
+## Why This Soup Works So Well in Fall
+
+Fall food should be comforting, but it should also be realistic. This soup checks both boxes.
+
+It uses simple ingredients you can find at most grocery stores. It does not need a long list of fancy steps. It also reheats well, which makes it helpful for busy school nights, work-from-home lunches, or weekends when the house is full of projects.
+
+Wild rice gives the soup a nutty flavor and a heartier texture than plain white rice. Chicken adds protein. Carrots, celery, onion, and garlic build the base. A little cream at the end gives it that cozy finish without making it too heavy.
+
+## Ingredients
+
+This recipe makes about 6 servings.
+
+- 2 tablespoons olive oil or butter
+
+- 1 small yellow onion, diced
+
+- 3 carrots, peeled and sliced
+
+- 3 celery stalks, sliced
+
+- 3 garlic cloves, minced
+
+- 1 teaspoon dried thyme
+
+- 1 teaspoon dried parsley
+
+- 1/2 teaspoon salt, plus more to taste
+
+- 1/2 teaspoon black pepper
+
+- 1 cup uncooked wild rice blend
+
+- 6 cups low-sodium chicken broth
+
+- 1 pound boneless, skinless chicken breasts or thighs
+
+- 1 cup half-and-half or heavy cream
+
+- 2 tablespoons flour, optional for thickening
+
+- 1 tablespoon lemon juice, optional
+
+- Fresh parsley for serving
+
+## How to Make One-Pot Chicken and Wild Rice Soup
+
+### 1. Soften the vegetables
+
+Heat the olive oil or butter in a large soup pot or Dutch oven over medium heat. Add the onion, carrots, and celery. Cook for 5 to 7 minutes, stirring now and then, until the vegetables begin to soften.
+
+Add the garlic, thyme, parsley, salt, and pepper. Stir for about 1 minute. This helps the herbs and garlic wake up before the broth goes in.
+
+### 2. Add the rice, broth, and chicken
+
+Stir in the wild rice blend. Pour in the chicken broth, then add the chicken breasts or thighs.
+
+Bring the soup to a gentle boil. Once it starts bubbling, reduce the heat to low, cover the pot, and let it simmer for 40 to 45 minutes. Stir a few times as it cooks so the rice does not stick to the bottom.
+
+The soup is ready for the next step when the chicken is cooked through and the rice is tender.
+
+### 3. Shred the chicken
+
+Carefully remove the chicken from the pot and place it on a cutting board. Use two forks to shred it into bite-size pieces.
+
+Return the shredded chicken to the soup and stir everything together.
+
+### 4. Make it creamy
+
+For a lighter soup, stir in the half-and-half or cream and let it warm through for 3 to 5 minutes.
+
+For a thicker soup, whisk the flour into the half-and-half before adding it to the pot. Stir well and simmer for another 5 minutes, until the broth thickens slightly.
+
+Do not boil hard after adding the cream. A gentle simmer keeps the soup smooth.
+
+### 5. Taste and finish
+
+Taste the soup and add more salt or pepper if needed. A small splash of lemon juice can brighten the flavor, especially if the soup tastes rich.
+
+Top with fresh parsley and serve warm.
+
+## Easy Substitutions
+
+This soup is forgiving, which makes it a good recipe for real life.
+
+If you have leftover rotisserie chicken, use it instead of raw chicken. Add it after the rice is tender so it does not dry out.
+
+If you want more vegetables, mushrooms are a great fit. Add them with the carrots and celery.
+
+If you want a dairy-free version, skip the cream or use an unsweetened dairy-free creamer. The soup will be lighter, but still comforting.
+
+If you only have regular rice, you can use it, but the cooking time will change. White rice cooks faster, so add it later and simmer until tender.
+
+## What to Serve With It
+
+This soup is filling enough to stand on its own, but a simple side makes it feel like a full dinner.
+
+Try it with crusty bread, sourdough toast, a green salad, roasted vegetables, or a grilled cheese sandwich. For a cozy weekend meal, serve it with warm rolls and apple slices.
+
+It also works well for a casual fall lunch. Make a pot on Sunday, then reheat leftovers during the week.
+
+## Storage and Reheating Tips
+
+Let the soup cool before storing. Place leftovers in an airtight container and refrigerate for up to 4 days.
+
+The rice will continue to absorb broth as it sits. When reheating, add a splash of broth, milk, or water to loosen it back up.
+
+Warm it on the stovetop over medium-low heat or in the microwave in short intervals, stirring between each one.
+
+You can freeze this soup, but creamy soups can separate after thawing. For best results, freeze it before adding the cream. Add the cream after reheating.
+
+## A Cozy Home Note From Arclight
+
+Fall is a good time to make small changes that help your home feel ready for the months ahead. That might be a pot of soup on the stove, a clean entryway, or finally freshening up the room where everyone gathers.
+
+If your walls, trim, or cabinets are starting to feel tired before the holidays, our team can help with thoughtful [interior painting](/services/interior-painting), [cabinet refinishing](/services/cabinet-refinishing), or a simple [Painter for a Day](/services/painter-for-a-day) project.
+
+Arclight Painting is veteran-owned, locally operated, and based in Bothell. We serve families across Bothell, Kirkland, Redmond, Kenmore, Woodinville, and nearby communities with the same mindset we bring to every project: no shortcuts, clear communication, and care for the home you live in every day.
+
+Ready to make your home feel fresh for fall? [Schedule your consultation](/schedule) and we'll take care of you.
+
+## Frequently Asked Questions
+
+### Can I make this soup ahead of time?
+
+Yes. This soup is a good make-ahead meal because the flavors deepen after a day in the fridge. The rice will thicken the soup as it sits, so add extra broth when reheating.
+
+### Can I use rotisserie chicken?
+
+Yes. Rotisserie chicken is a great shortcut. Cook the vegetables, rice, and broth first, then stir in shredded rotisserie chicken near the end so it stays tender.
+
+### Can I make this soup without cream?
+
+Yes. You can leave the cream out for a lighter broth-based soup. It will still have plenty of flavor from the chicken, vegetables, herbs, and wild rice.
+
+### Can I freeze chicken and wild rice soup?
+
+Yes, but it freezes best before the cream is added. If you know you want to freeze part of the batch, set some aside first, then add cream only to the portion you plan to eat right away.
+
+### How do I keep the rice from getting mushy?
+
+Use a wild rice blend and avoid overcooking it. If you plan to store the soup for several days, you can cook the rice separately and add it to each bowl when serving.
+
+Good homes are built around simple comforts: warm meals, cared-for rooms, and people you love gathering in the same place. Enjoy the soup, and when your home is ready for its next refresh, [get your free TrueQuote™ today](/schedule).`,
+  },
+  {
+
     slug: "summer-bothell-uw-campus-3-lessons",
     title: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
     seoTitle: "Summer at the Bothell UW Campus: 3 Lessons Worth Carrying Forward",
