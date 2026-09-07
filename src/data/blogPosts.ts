@@ -18,7 +18,6 @@ export const blogPosts: BlogPost[] = [
     excerpt: "A cozy one-pot chicken and wild rice soup recipe for crisp fall evenings, rainy weekends, and simple family dinners at home.",
     image: "/images/blog/one-pot-chicken-wild-rice-soup.webp",
     date: "2026-09-07",
-    hidden: true,
     content: `# One-Pot Chicken and Wild Rice Soup
 
 This one-pot chicken and wild rice soup is warm, simple, and made for crisp fall evenings at home. It uses tender chicken, hearty wild rice, vegetables, herbs, and a creamy broth that feels comforting without being fussy.
