@@ -12,6 +12,177 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "cabinet-refinishing-timeline-kirkland-wa",
+    title: "How Long Does Cabinet Refinishing Take in Kirkland, WA?",
+    seoTitle: "Cabinet Refinishing Timeline Kirkland WA",
+    excerpt: "How long does cabinet refinishing take in Kirkland, WA? Learn the 3-5 day timeline, cure time, kitchen access, and how to plan with Arclight Painting.",
+    image: "/images/blog/cabinet-refinishing-timeline-kirkland-wa.webp",
+    date: "2026-09-16",
+    content: `# How Long Does Cabinet Refinishing Take in Kirkland, WA? Timeline, Cure Time, and Kitchen Disruption
+
+Most cabinet refinishing projects in Kirkland take **3 to 5 days of active work**, depending on kitchen size, cabinet condition, color change, repairs, and drying conditions. Full cure takes longer than dry time, so your cabinets may be usable soon after the project but still need gentle care while the finish hardens.
+
+![Kirkland kitchen cabinets being refinished with doors removed and surfaces protected](/images/blog/cabinet-refinishing-timeline-kirkland-wa.webp)
+
+[Cabinet refinishing](/services/cabinet-refinishing) is one of the fastest ways to give a Kirkland kitchen a fresh look without a full remodel. It can update dated wood tones, worn finishes, or builder-grade cabinets while keeping your existing layout intact.
+
+For homeowners in Juanita, Houghton, Totem Lake, Bridle Trails, Norkirk, and Moss Bay, the biggest question is usually not just "How long will this take?" It is "How long will my kitchen be disrupted?"
+
+That is the right question. A good refinishing plan should explain the active work timeline, what happens each day, when you can use the kitchen again, and how to care for the finish while it cures.
+
+At Arclight Painting, cabinet refinishing includes careful hardware removal, cleaning, sanding, priming, and multiple coats of cabinet-grade paint or stain. The goal is a clean, durable finish that looks right and holds up to daily kitchen use.
+
+## How Long Does Cabinet Refinishing Take in Kirkland?
+
+For most Kirkland kitchens, professional cabinet refinishing takes 3 to 5 days of active work. Larger kitchens, detailed cabinet layouts, damaged doors, heavy grease buildup, major color changes, or added finish steps can extend the schedule.
+
+A small kitchen with sound cabinet boxes and a modest color change may stay near the shorter end. A larger Eastside kitchen with an island, built-ins, glass doors, detailed trim, or a dark-to-light color change may need more prep and more dry time between coats.
+
+The timeline also depends on the coating system. Cabinet finishes dry in stages. A coating may be dry to the touch within hours, but that does not mean it has reached full hardness. Manufacturer technical data for cabinet and trim coatings often separates dry time, recoat time, and full cure because each stage affects handling and durability.
+
+That is why the best cabinet refinishing schedules do not rush. A finish that looks dry can still dent, stick, or mark if doors are handled too aggressively too soon.
+
+## A Day-by-Day Cabinet Refinishing Timeline
+
+Every kitchen is different, but this is the general rhythm most homeowners can expect.
+
+### Day 1: Protection, Labeling, Removal, and Cleaning
+
+The project starts with protecting the kitchen and surrounding areas. Floors, counters, appliances, and nearby surfaces are covered. Doors and drawer fronts are removed, labeled, and organized so everything returns to the right place.
+
+This step matters more than most homeowners realize. Cabinet doors may look alike, but small hinge adjustments and frame differences can affect how they sit when reinstalled.
+
+Next comes cleaning and degreasing. Kitchen cabinets collect cooking oil, fingerprints, food residue, and cleaning products over time. If those contaminants stay on the surface, primer and paint may not bond correctly.
+
+### Day 2: Sanding, Repairs, and Primer
+
+After cleaning, the surfaces are sanded or scuff-sanded to create the right profile for adhesion. Small imperfections may be filled. Loose areas, worn edges, or damaged spots are corrected before primer goes on.
+
+Primer is not just a base coat. It helps the finish bond, improves coverage, and can help block stains or tannins depending on the cabinet material.
+
+This is where older Kirkland homes can vary. Cabinets in a 1970s Juanita split-level may need different prep than newer cabinetry in a Bridle Trails remodel. Wood species, old finish, moisture exposure, and past DIY work all affect the plan.
+
+### Day 3: First Finish Coats
+
+Once primer is ready, the first finish coats are applied. Cabinet-grade coatings are chosen for adhesion, durability, and daily kitchen use. These products are different from standard wall paint.
+
+Doors, drawer fronts, frames, and exposed cabinet surfaces must be coated evenly. Thin, controlled coats are better than heavy coats because they dry and cure more predictably.
+
+Depending on the system, sanding between coats may be needed. That adds time, but it improves smoothness and helps the final finish look more refined.
+
+### Day 4: Additional Coats and Detail Work
+
+Many cabinet refinishing projects need more than one finish coat. Large color changes often need extra coverage. Going from dark wood to white, cream, greige, or soft green may require added priming and finish steps to achieve a clean result.
+
+Detail work also happens here. Edges, corners, face frames, trim, and panels are checked closely. Any rough spots or thin areas are corrected before the project moves toward reassembly.
+
+This is also when patience matters. Rushing a second or third coat can trap moisture or solvents under the surface. That can affect the look and durability of the finish.
+
+### Day 5: Reinstall, Adjust, Cleanup, and Walkthrough
+
+Once the finish is ready for careful handling, doors and drawer fronts are reinstalled. Hinges and hardware are adjusted. The work area is cleaned, protection is removed, and the final details are checked.
+
+A walkthrough should confirm that doors line up, drawers move properly, visible surfaces look consistent, and the finish meets the agreed scope.
+
+At Arclight, the final result is checked through the Above & Beyond Blueprint process, including quality review and a clear handoff before the project is considered complete.
+
+## Dry Time vs. Cure Time: What Is the Difference?
+
+Dry time and cure time are not the same.
+
+**Dry time** means the coating is dry enough for a next step, light handling, or another coat under the right conditions. **Cure time** means the finish has hardened enough to reach its intended durability.
+
+This matters with cabinets because doors, drawers, and hardware get touched every day. A finish can feel dry but still be soft under the surface. During that early cure period, the surface is more vulnerable to dents, fingerprints, sticking, and aggressive cleaning.
+
+Many cabinet coatings allow recoating within a few hours under proper conditions, but full cure can take days or longer depending on the product, temperature, humidity, and airflow. In a Kirkland kitchen near Lake Washington or in a shaded, damp home, drying conditions may be different than a dry, warm shop setting.
+
+The safest approach is simple: use the kitchen gently at first, avoid scrubbing, keep cabinet doors from slamming, and follow the care instructions from your painter.
+
+## How Long Is the Kitchen Out of Service?
+
+Your kitchen may not be fully out of service for the entire project, but access will be limited.
+
+During cabinet refinishing, you should expect some disruption around cabinet contents, cooking, sink access, appliance access, and foot traffic. If frames are being worked on inside the kitchen, some areas may be masked off or harder to reach.
+
+Most homeowners plan simple meals, set up a coffee station outside the work zone, and move daily items to a temporary spot before work begins. That small prep step can make the project feel much easier.
+
+You may still be able to use parts of the kitchen at certain times, but it depends on the scope. The crew should explain what areas are available each day and what needs to stay untouched.
+
+## What Can Make Cabinet Refinishing Take Longer?
+
+A 3 to 5 day timeline is realistic for many projects, but some conditions add time.
+
+Large kitchens take longer because there are more doors, drawers, frames, panels, and edges to prep and coat. Built-ins, islands, wine storage, glass-panel doors, and custom trim also add detail work.
+
+Surface condition matters too. Peeling clear coat, old brush marks, heavy grease, water damage, chipped edges, or failed DIY paint must be corrected before new coatings go on.
+
+Color change is another factor. Dark-to-light cabinet refinishing can require extra priming and more finish coats. That is normal. It is better to build the finish correctly than force coverage too quickly.
+
+Humidity, temperature, airflow, and coating type also affect dry time. The Pacific Northwest climate makes this worth planning carefully.
+
+## Cabinet Refinishing vs. Replacement: Timeline Difference
+
+Cabinet refinishing is usually less disruptive than replacement because your cabinet boxes stay in place and your kitchen layout does not change. Replacement may involve demolition, ordering cabinets, adjusting plumbing or electrical, countertop work, and more time without a usable kitchen.
+
+Refinishing makes the most sense when your cabinet boxes are solid, the layout works, and you want a new look without a full tear-out. If the cabinets are warped, water damaged, poorly built, or the layout no longer fits your life, replacement may be the better path.
+
+For a deeper comparison, read our guide to [cabinet refinishing vs. replacing](/cabinet-refinishing-vs-replacing). If budget is your next question, see [cabinet refinishing cost in Kirkland, WA](/cabinet-refinishing-cost-kirkland-wa).
+
+## How to Prepare Before Cabinet Refinishing Starts
+
+A little prep makes the timeline smoother.
+
+Clear counters near the work area. Remove items you use every day from cabinets and drawers that will be hard to access. Set up a simple meal plan. Move small appliances, coffee supplies, pet bowls, and kids' lunch items to another space.
+
+It also helps to choose colors before production starts. Cabinet color decisions affect primer choice, coat count, and schedule. If you are unsure, our [Color Consultation](/services/color-consultation) can help you narrow options before the work begins.
+
+If you are planning cabinet refinishing in [Kirkland](/kirkland), start with a clear scope. A detailed cabinet refinishing estimate should explain the process, surfaces included, products used, timeline, and care instructions.
+
+## Why Bothell and Kirkland Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell and serving Kirkland, Redmond, Kenmore, Woodinville, and the greater Seattle Eastside. The company is licensed, bonded, and insured, with a 4.9-star rating and 269+ verified Google reviews.
+
+Cabinet refinishing takes patience and process. Our team does not treat it like a quick wall-painting job. Cabinets need careful prep, the right coating system, controlled application, and honest expectations about drying and curing.
+
+Our Above & Beyond Blueprint gives homeowners a clear process from estimate to final walkthrough. That includes TrueQuote™ pricing, organized scheduling, surface preparation, quality application, and a PCA™ Quality Inspection before the job is closed.
+
+If you are planning cabinet refinishing in Kirkland, [Get a TrueQuote](/schedule). We will look at your cabinets, explain the timeline, and help you decide whether refinishing is the right fit.
+
+## External Resource: Why Cure Time Matters
+
+For homeowners who want to understand why coatings need time between steps, manufacturer technical data sheets are a useful reference. Cabinet and trim coatings typically separate dry-to-touch, recoat, and cure information because each stage affects how soon the surface can be handled or cleaned.
+
+A useful example is a [manufacturer technical data sheet from Miller Paint](https://www.millerpaint.com/), which lists dry and recoat guidance for a cabinet and trim coating.
+
+## FAQ: Cabinet Refinishing Timeline in Kirkland
+
+**How long does cabinet refinishing take in Kirkland, WA?**
+
+Most cabinet refinishing projects in Kirkland take 3 to 5 days of active work. Larger kitchens, detailed cabinets, repairs, major color changes, or added dry time can extend the schedule.
+
+**Can I use my kitchen during cabinet refinishing?**
+
+You may be able to use parts of the kitchen at certain times, but access will be limited. Plan simple meals, move daily items out of the work zone, and ask your painter which areas need to stay untouched each day.
+
+**How long before I can use my cabinets after refinishing?**
+
+Cabinets can often be used carefully after reinstallation, but the finish still needs time to cure. During the early cure period, avoid slamming doors, scrubbing surfaces, hanging damp towels, or using harsh cleaners.
+
+**Why does cabinet refinishing take several days?**
+
+Cabinet refinishing takes several days because the process includes cleaning, sanding, repairs, priming, multiple finish coats, drying time, reinstallation, and final adjustments. Skipping steps may save time upfront, but it can lead to chipping, sticking, or uneven results.
+
+**Does dark-to-light cabinet refinishing take longer?**
+
+Yes, it can. Going from dark cabinets to a light color often requires added prep, primer, and finish coats to get clean coverage and a durable result.
+
+**Is cabinet refinishing faster than replacing cabinets?**
+
+In most cases, yes. Refinishing usually keeps the existing cabinet boxes and layout in place, while replacement can involve demolition, ordering, installation, and other trades. The right choice depends on cabinet condition, layout, budget, and goals.
+
+A well-planned cabinet refinishing project gives your Kirkland kitchen a fresh look without turning your home into a long remodel. If your cabinet boxes are solid and your layout still works, [Get a TrueQuote](/schedule) and we will help you plan the right timeline.`,
+  },
+  {
     slug: "prepare-for-painter-for-a-day-bothell-wa",
     title: "How to Prepare for Painter for a Day in Bothell WA",
     seoTitle: "Prepare for Painter for a Day in Bothell WA",
