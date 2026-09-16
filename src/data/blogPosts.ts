@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
 
 Most cabinet refinishing projects in Kirkland take **3 to 5 days of active work**, depending on kitchen size, cabinet condition, color change, repairs, and drying conditions. Full cure takes longer than dry time, so your cabinets may be usable soon after the project but still need gentle care while the finish hardens.
 
-![Kirkland kitchen cabinets being refinished with doors removed and surfaces protected](/images/blog/cabinet-refinishing-timeline-kirkland-wa.webp)
+![Kirkland kitchen with freshly refinished cabinets, smooth painted doors, and updated hardware](/images/blog/cabinet-refinishing-timeline-kirkland-wa.webp)
 
 [Cabinet refinishing](/services/cabinet-refinishing) is one of the fastest ways to give a Kirkland kitchen a fresh look without a full remodel. It can update dated wood tones, worn finishes, or builder-grade cabinets while keeping your existing layout intact.
 
