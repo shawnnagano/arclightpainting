@@ -12,6 +12,153 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "exterior-painting-fall-winter-bothell-wa",
+    title: "Can You Paint a House Exterior in Fall or Winter in Bothell, WA?",
+    seoTitle: "Fall and Winter Exterior Painting Bothell WA",
+    excerpt: "Can you paint a house exterior in fall or winter in Bothell, WA? Learn the temperature, rain, and dew limits, what can still get done, and when to wait.",
+    image: "/images/blog/exterior-painting-fall-winter-bothell-wa.webp",
+    date: "2026-09-26",
+    hidden: true,
+    content: `# Can You Paint a House Exterior in Fall or Winter in Bothell, WA?
+
+Yes, you can paint a house exterior in Bothell during fall or winter, but only on the right days. Many modern exterior paints can be applied as low as 35°F, but the surface also has to be dry, the forecast has to hold, and the paint needs time to set before rain or evening dew arrives. In the Pacific Northwest, that means cold-season exterior painting depends on planning around the weather, not on the calendar.
+
+![Bothell home exterior being painted on a dry, overcast fall day with ladders and drop cloths in place](/images/blog/exterior-painting-fall-winter-bothell-wa.webp)
+
+Most Bothell homeowners already know summer is the easiest time for [exterior painting](/services/exterior-painting). The harder question comes in October, when you notice peeling trim or bare siding and wonder whether it can wait until spring.
+
+Sometimes it can wait. Sometimes it should not. And sometimes the right answer is to do part of the job now and the rest when the weather turns.
+
+This guide explains what actually limits cold-weather exterior painting, what work can still get done between Northwest rain systems, and how to decide whether your project belongs in this season or the next.
+
+## What Limits Exterior Painting in Cold, Wet Weather?
+
+Three things decide whether an exterior paint job can happen on a given day: temperature, surface moisture, and what happens to the paint after it goes on.
+
+### Temperature
+
+Older latex paints needed warm weather to cure well. Sherwin-Williams notes that traditional latex paints needed temperatures above 60°F to cure properly, while newer products can be applied as low as 35°F.
+
+That 35°F floor is not a suggestion. Benjamin Moore's technical data sheet for Aura exterior paint states plainly: do not apply when air or surface temperatures are below 35°F. The key word is surface. Siding on the north side of a house, or trim that stays shaded all day, can be colder than the air around it.
+
+### Surface Moisture
+
+Paint needs a dry surface to bond. After a heavy rain, siding and trim can hold moisture well after the rain stops. Sherwin-Williams advises waiting a minimum of one day after a heavy rain before applying latex paint, because the surface must be dry before painting.
+
+In Bothell, where fall storms can arrive back to back, that one-day wait matters. A dry afternoon does not always mean dry wood.
+
+### Dew and Rain After Application
+
+This is the part homeowners often overlook. Paint can go on in perfect conditions and still be damaged that evening.
+
+As temperatures drop after sunset, dew forms on almost every outdoor surface. Sherwin-Williams warns that this moisture can seep into uncured paint. Their guidance is that temperatures should stay in the product's suggested range and above the dew point for at least 48 hours after application.
+
+Manufacturers also note that cool temperatures and high humidity slow things down. Benjamin Moore's data sheet states that high humidity and cool temperatures will result in longer dry, recoat, and service times. So a coat that would be ready for a second coat in a few hours in July may need much longer in November.
+
+## What Bothell's Fall and Winter Weather Actually Looks Like
+
+The Seattle area's cold-season weather is less about freezing temperatures and more about how often it rains.
+
+Based on 1991 to 2020 climate normals for Sea-Tac, average highs are about 52°F in November, 47°F in December, and 48°F in January. Those temperatures are within the range many modern exterior paints can handle.
+
+The challenge is frequency. November, December, and January each average about 18 days with measurable precipitation, and those three months account for roughly half of the area's annual rainfall.
+
+In practice, that means:
+
+- **October** often still has usable painting windows, with average highs near 60°F and fewer rainy days.
+- **November through January** offer only scattered dry stretches, and short daylight hours leave less time for paint to set before evening dew.
+- **February and March** gradually open up again as rain frequency drops and temperatures begin to climb.
+
+Bothell sits slightly inland from the airport, so conditions on your street will not match Sea-Tac exactly. The pattern is the same, though. Rain frequency, not cold alone, is what shrinks the painting calendar.
+
+## What Can Still Get Done in Fall and Winter
+
+Cold-season exterior work is less about repainting a whole house and more about protecting it until the next dry season. Here is what often makes sense.
+
+### Spot Repairs and Touch-Ups
+
+Small areas of peeling paint, exposed wood, or failed coating on trim can often be scraped, primed, and painted during a dry window. These are smaller surfaces, so they are easier to finish before evening moisture arrives.
+
+This matters because bare wood left exposed through a Northwest winter can absorb water, swell, and start to rot. Protecting it now can prevent a bigger repair later.
+
+### Caulking and Sealing
+
+Cracked or missing caulk around windows, doors, and trim lets water behind your siding. Many exterior sealants can be applied in cooler weather, as long as the joint is dry and clean and the product is used within its listed temperature range.
+
+### Doors, Trim, and Smaller Elevations
+
+A front door, a set of shutters, a porch, or a single sheltered side of the house can sometimes be completed in one well-planned dry window. Covered areas under eaves or porches are easier to protect from rain.
+
+### Prep for a Spring Repaint
+
+Fall and winter are also a good time to get your project scoped. An estimate, color decisions, and repair planning can all happen before the weather clears, so your project is ready to start as soon as spring windows open.
+
+For help with colors before the season starts, Arclight's [Color Consultation](/services/color-consultation) can help you narrow options.
+
+## When It Is Better to Wait for Spring
+
+Some projects are simply not a good fit for the rainy season.
+
+- **A full-house repaint** needs several days of cooperative weather in a row. In November through January, those stretches are hard to find.
+- **Large sun-exposed or north-facing walls** may not warm or dry enough during short winter days.
+- **Surfaces that need significant prep**, such as heavy scraping, [pressure washing](/services/pressure-washing), or wood repair, need time to dry out fully before paint goes on.
+- **Stain on decks and fences** usually needs dry wood and dry forecasts, which are both rare in midwinter.
+
+If your house shows the kind of wear covered in our guide to [warning signs your Bothell home needs exterior painting](/bothell-home-needs-exterior-painting-wa), the best plan may be to handle urgent spot repairs now and schedule the full repaint for the dry season. Our guide to the [best season for exterior painting in the Pacific Northwest](/best-season-for-exterior-painting-pnw) explains how to plan that timing.
+
+## How a Professional Plans Cold-Season Exterior Painting
+
+A cold-weather exterior job depends on judgment as much as technique. A good painter will:
+
+- **Check the forecast several days out**, not just for the day of painting but for the nights that follow.
+- **Check the surface, not just the air.** Shaded walls and trim can be colder and wetter than the air temperature suggests.
+- **Start after morning moisture burns off and stop early enough** for the paint to set before evening dew.
+- **Choose products rated for low-temperature application** and follow the manufacturer's temperature and recoat guidance.
+- **Be willing to reschedule.** Pushing paint onto a damp surface to stay on schedule is how cold-weather jobs fail.
+
+That last point is the most important. The right painter will tell you honestly when a day is not good enough, even if it means moving your project.
+
+## Why Bothell Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell and serving Kenmore, Woodinville, Kirkland, Mill Creek, Redmond, Bellevue, and nearby Eastside and north Seattle communities. The company is licensed, bonded, and insured, with a 4.9-star rating from 269 Google reviews.
+
+Every project starts with a TrueQuote™ evaluation. The team looks at the actual condition of your siding and trim, explains what should be handled now and what can wait, and builds a fixed-price proposal with the scope clearly laid out. Work is checked through a PCA™ Quality Inspection and backed by a 100% Satisfaction Guarantee and the 5-Year FreshStart™ Touch-Up Plan.
+
+If you are not sure whether your exterior can wait until spring, [schedule your TrueQuote™](/schedule). We will look at your home and give you an honest answer.
+
+## External Resource: Why Temperature and Dew Matter
+
+For homeowners who want to understand the technical side, Sherwin-Williams publishes an exterior product application FAQ that explains how temperature, dew, and rain affect fresh paint. Paint manufacturer technical data sheets, such as Benjamin Moore's Aura exterior data sheet, also list each product's minimum application temperature and how cool, humid conditions affect dry and recoat times.
+
+## FAQ: Fall and Winter Exterior Painting in Bothell
+
+### Can you paint a house exterior in winter in Bothell, WA?
+
+Yes, on the right days. Many modern exterior paints can be applied as low as 35°F, but the surface must be dry, and the paint needs time to set before rain or dew. In Bothell, frequent winter rain limits how many days work.
+
+### What is the lowest temperature for exterior painting?
+
+It depends on the product. Many current exterior paints are rated for application as low as 35°F air and surface temperature. Older or standard latex products may need much warmer conditions. Always follow the product's technical data sheet.
+
+### How long after rain can you paint outside?
+
+Sherwin-Williams advises waiting at least one day after a heavy rain before applying latex paint, and longer if the surface is still damp. Wood, shaded siding, and trim can stay wet well after the rain stops.
+
+### What happens if it rains or dew forms on fresh exterior paint?
+
+Moisture can seep into uncured paint and affect how it looks and holds up. That is why manufacturers recommend keeping conditions within the product's range and above the dew point for at least 48 hours after application.
+
+### Is fall a good time to paint a house exterior in the Pacific Northwest?
+
+Early fall, especially September and October, often still has good painting windows. By November, rain becomes much more frequent, so larger projects are usually better scheduled for spring or summer.
+
+### Should I fix peeling exterior paint before winter?
+
+Often, yes. Bare or exposed wood can absorb moisture through the rainy season. Spot repairs, priming, and caulking during a dry window can protect your home until a full repaint is possible.
+
+A little planning now can save you from a bigger repair later. If your Bothell home needs exterior attention before winter, [schedule your TrueQuote™](/schedule) and we will help you decide what to do now and what can wait for spring.`,
+  },
+  {
     slug: "cabinet-refinishing-timeline-kirkland-wa",
     title: "How Long Does Cabinet Refinishing Take in Kirkland, WA?",
     seoTitle: "Cabinet Refinishing Timeline Kirkland WA",
