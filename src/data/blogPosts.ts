@@ -18,7 +18,6 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Can you paint a house exterior in fall or winter in Bothell, WA? Learn the temperature, rain, and dew limits, what can still get done, and when to wait.",
     image: "/images/blog/exterior-painting-fall-winter-bothell-wa.webp",
     date: "2026-09-26",
-    hidden: true,
     content: `# Can You Paint a House Exterior in Fall or Winter in Bothell, WA?
 
 Yes, you can paint a house exterior in Bothell during fall or winter, but only on the right days. Many modern exterior paints can be applied as low as 35°F, but the surface also has to be dry, the forecast has to hold, and the paint needs time to set before rain or evening dew arrives. In the Pacific Northwest, that means cold-season exterior painting depends on planning around the weather, not on the calendar.
