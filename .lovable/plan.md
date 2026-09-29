@@ -1,51 +1,25 @@
 ## Scope
 
-Single file: `scripts/generate-redirects.mjs`. Replace the error-reporting block (lines 85–89) with grouped, categorized output. No other changes anywhere.
+Create one new file only: `public/images/blog/holiday-interior-painting-woodinville-wa.webp`. No other files are added, edited, or replaced. The blog post itself is not created.
 
-## Change
+## Image brief
 
-Replace this block:
+- Scene: a bright, freshly painted living and dining room in a Pacific Northwest home in autumn.
+- Walls: warm soft neutral (greige or warm white). Trim: crisp white.
+- Furniture pushed to the center and partly covered with clean drop cloths.
+- A roller, a tray, and a small step ladder set neatly to one side, as if painting just finished.
+- Window view: overcast fall light, evergreen trees, and a few yellow and orange leaves.
+- Seasonal touch: a folded plaid throw or a small pumpkin on a side table.
+- Exclusions: no Christmas decorations, text, logos, brand names, or faces. The image will show no people at all.
+- Style: photorealistic, natural light, clean, matching the existing blog banners.
 
-```js
-if (errors.length) {
-  console.error(`Redirect generation failed fast with ${errors.length} issue(s):`);
-  console.error(errors.join("\n"));
-  process.exit(1);
-}
-```
+## Technical details
 
-With a reporter that:
-
-1. Categorizes each existing error string into a tag by pattern matching on substrings already produced upstream:
-   - `[schema]` — "must be", "are required", "must start with", "must contain an array", "entry must be an object"
-   - `[self-loop]` — "points to itself"
-   - `[duplicate]` — "duplicate redirect source"
-   - `[param-mismatch]` — "missing route parameter"
-   - `[unknown-target]` — "is not an indexable SEO route"
-   - `[cycle]` — "redirect cycle detected"
-   - `[other]` — fallback
-2. Groups errors by source path when the error string starts with a `/source:` prefix; entry-numbered errors group under their `entry N` label.
-3. Prints a header with total count and per-category counts, e.g.:
-   ```
-   --- Redirect generation failed: 5 issue(s) ---
-   Categories: 2 schema, 1 cycle, 2 unknown-target
-   ```
-4. Prints each group with its source/label as a sub-header, then bullet lines `  - [tag] message`.
-5. Prints a remediation footer:
-   ```
-   --- Fix in redirect-map.json. Internal destinations must exist as routes in scripts/seo-routes.mjs. ---
-   ```
-6. `process.exit(1)` unchanged.
+1. Generate the image at 1600x900 (standard quality) to a temporary file in `/tmp`.
+2. Convert it to WebP at 1600x900 with web compression, aiming for under 250 KB. Lower the quality step by step if needed.
+3. Save the result only to `public/images/blog/holiday-interior-painting-woodinville-wa.webp`, then confirm it doesn't overwrite an existing file.
+4. Check the final size and dimensions, then show the image for review.
 
 ## Out of scope
 
-- No new validation rules
-- No changes to validation logic, success path, generated `_redirects` output, or any other file
-- No "preview generated redirects" feature
-- No dependencies added
-
-## After applying
-
-Stop. Hold for confirmation that the two manual GitHub steps are complete:
-1. Production environment with required reviewer configured in repo Settings → Environments
-2. `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` added as repository secrets
+No changes to `blogPosts.ts`, pages, routes, sitemap, robots.txt, _redirects, llms.txt, redirect-map.json, or SEO scripts. Nothing gets published.
