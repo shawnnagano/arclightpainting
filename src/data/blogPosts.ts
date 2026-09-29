@@ -12,6 +12,147 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "holiday-interior-painting-woodinville-wa",
+    title: "Interior Painting Before the Holidays in Woodinville, WA: When to Book and What to Expect",
+    seoTitle: "Holiday Interior Painting Woodinville WA: When to Book",
+    excerpt: "Want fresh walls before the holidays? Learn when to book interior painting in Woodinville, WA, how long paint takes to cure, and how to plan around guests.",
+    image: "/images/blog/holiday-interior-painting-woodinville-wa.webp",
+    date: "2026-09-30",
+    content: `# Interior Painting Before the Holidays in Woodinville, WA: When to Book and What to Expect
+
+If you want freshly painted rooms before holiday guests arrive, the time to plan is early fall, not the week before. The painting itself often takes only a few days, but latex paint needs roughly two to three weeks to fully cure, and fresh paint also needs a few days of good ventilation. For a Woodinville home hosting Thanksgiving on November 26, that means booking interior work now and aiming to finish by early November.
+
+![Woodinville living room freshly painted in a warm neutral, furniture covered and ready to move back before the holidays](/images/blog/holiday-interior-painting-woodinville-wa.webp)
+
+Fall is when a lot of Woodinville homeowners look around the living room, the entry, or the guest bedroom and decide it is time for [interior painting](/services/interior-painting). The rain has started, the house is closed up, and the scuffs and faded walls are suddenly easier to see.
+
+The good news is that interior painting is not limited by the weather the way [exterior painting](/services/exterior-painting) is. The catch is timing. A room that looks finished is not always ready to be decorated, cleaned, or crowded with guests.
+
+This guide walks through how long interior paint really takes, how to work backward from your holiday dates, and which rooms are worth prioritizing.
+
+## Why Interior Painting Timing Matters Before the Holidays
+
+Most homeowners think about how long the painters will be in the house. That is only one part of the timeline. There are three stages to plan around.
+
+### Stage 1: The Painting Itself
+
+For a typical room, the work includes moving and covering furniture, patching and sanding, caulking trim, priming where needed, and two finish coats. A single room is often a one- to two-day job, while a larger main-floor project can take several days. Our guide on [how long interior painting takes](/how-long-does-interior-painting-take) breaks this down room by room.
+
+### Stage 2: Drying and Ventilation
+
+Modern latex paint dries quickly to the touch. Sherwin-Williams notes that latex paint dries to the touch in about one hour, and Benjamin Moore lists a one-hour dry time and a one- to two-hour recoat time for its Regal® Select interior paint.
+
+Dry to the touch does not mean the room is back to normal. The U.S. Environmental Protection Agency's guide to healthy indoor painting recommends keeping windows open, as weather permits, for about two to three days after painting to let paint vapors clear. That same guide notes that water-based paints generally emit fewer chemical vapors than oil-based paints.
+
+### Stage 3: Curing
+
+Curing is the stage most people do not know about. Sherwin-Williams explains the difference simply: dry time is how long paint takes to be dry to the touch, while cure time is how long it needs to reach its best performance. For acrylic and latex paints, Sherwin-Williams says curing typically takes two or three weeks.
+
+During that window, the paint film is still hardening. That is when walls are most likely to scuff, pick up marks from furniture pushed against them, or show wear from heavy cleaning. It is also why freshly painted shelves and doors can feel slightly tacky when something is set on them too soon.
+
+## How Woodinville's Fall Weather Affects Interior Paint
+
+Interior painting happens indoors, but the weather outside still plays a role.
+
+Sherwin-Williams notes that moisture slows drying and that cooler temperatures can also slow dry time for latex paints. It specifically advises against opening windows on a humid day to speed things up. In a Woodinville November, that is a real tension: the EPA recommends fresh air after painting, but cold, damp outdoor air can slow the paint down.
+
+In practice, a good plan balances both:
+
+- **Keep the house heated** to a normal, comfortable temperature while paint dries. Benjamin Moore lists an application range of 50°F to 90°F for Regal® Select, so a cold, closed-off room is not a good place to paint.
+- **Ventilate on drier days or in shorter intervals**, and use a fan to move air through the room.
+- **Consider a dehumidifier.** Sherwin-Williams suggests running dehumidifiers around a freshly painted room to reduce moisture in the air and speed drying.
+
+A professional crew will plan around these conditions so you do not have to guess.
+
+## A Simple Holiday Painting Timeline
+
+Here is a practical way to work backward from your hosting date. These are planning guidelines, not guarantees. Your actual schedule depends on your home, the scope, and availability.
+
+- **Early October: Get your estimate and pick colors.** This is the best time to lock in scope and colors. If you are torn between shades, a [color consultation](/services/color-consultation) can help you decide quickly and confidently.
+- **Mid to late October: Paint.** Finishing in October gives the paint two to three weeks to cure before Thanksgiving week.
+- **Early November: Ventilate, move furniture back, rehang art.** Give the rooms a few days of fresh air, then gently return furniture, leaving a little space between it and the walls.
+- **Mid-November: Light cleaning only.** Avoid scrubbing freshly painted walls while the paint is still curing.
+- **Thanksgiving, November 26: Host.**
+
+If your project slips into November, it can still work for December gatherings. Christmas Day falls on Friday, December 25 this year, so painting in early to mid-November still leaves plenty of time to cure before the holiday rush.
+
+## Which Rooms to Prioritize
+
+If time or budget is limited, focus on the spaces guests will actually see and use.
+
+### Entryway and Stairwell
+
+The entry sets the first impression, and it takes the most wear from coats, bags, and boots. Our [entryway paint ideas](/entryway-paint-ideas) cover colors and finishes that hold up to traffic.
+
+### Living and Dining Rooms
+
+These are where guests spend the most time. In open layouts, it helps to plan colors across connected spaces. See our guide to [open-concept paint color flow](/open-concept-paint-color-flow) for ideas.
+
+### Guest Bedroom
+
+If someone is staying over, paint the guest room first, not last. That gives it the most time to ventilate and cure before anyone sleeps in it. Our article on [how long after painting you can sleep in a room](/how-long-after-painting-can-i-sleep-in-the-room) explains why a little extra time helps.
+
+### Trim, Doors, and Wall Repairs
+
+Sometimes the room does not need a full repaint. Fresh trim, touched-up doors, and patched dings can make a big difference in a short visit. Nail holes, cracks, and dents should be handled first through proper [drywall repairs](/services/drywall-repairs), so the new paint does not highlight the damage.
+
+## Should You DIY Before the Holidays?
+
+DIY painting can work for a small room with plenty of lead time. The risk before the holidays is the schedule. A weekend project that runs long, a patch that needs another coat, or a color that looks different on the wall than on the chip can push your finish date right up against your hosting date.
+
+A professional crew handles prep, protection, repairs, and cleanup in a planned sequence, which makes the timeline far more predictable. Our comparison of [DIY vs. professional interior painting](/professional-interior-painting) goes deeper on the trade-offs.
+
+## How to Get Ready for Painting Day
+
+A little preparation helps the work go faster and keeps your holiday plans on track.
+
+- **Decide on colors before the crew arrives.** Last-minute color changes are the most common cause of delays.
+- **Clear small items** like décor, photos, and valuables from the rooms being painted.
+- **Plan where furniture will go.** Larger pieces are usually moved to the center of the room and covered.
+- **Hold off on holiday decorating** in freshly painted rooms until the paint has had time to cure.
+- **Plan for ventilation and heat.** Keep the home at a comfortable temperature and plan for fresh air in the days after painting.
+
+## Why Woodinville Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell and serving Woodinville, Kenmore, Kirkland, Mill Creek, Redmond, Bellevue, and nearby Eastside and north Seattle communities. The company is licensed, bonded, and insured.
+
+Every project starts with a TrueQuote™ evaluation. The team looks at your rooms, walks through prep and repair needs, and builds a fixed-price proposal with the scope clearly laid out, so you know what to expect before the work begins. Work is checked through a PCA™ Quality Inspection and backed by a 100% Satisfaction Guarantee and the 5-Year FreshStart™ Touch-Up Plan.
+
+Learn more about our work in [Woodinville](/woodinville), or [schedule your TrueQuote™](/schedule) to get your holiday project on the calendar.
+
+## External Resources: Drying, Curing, and Indoor Air
+
+For homeowners who want the technical details, Sherwin-Williams publishes guidance on the difference between paint dry time and cure time, including how humidity and temperature affect drying. The U.S. Environmental Protection Agency's guide, *Healthy Indoor Painting Practices*, explains how to ventilate during and after interior painting. Benjamin Moore's product pages list dry times, recoat times, and application temperature ranges for each interior paint.
+
+## FAQ: Holiday Interior Painting in Woodinville
+
+### How far in advance should I book interior painting before Thanksgiving?
+
+Plan to have painting finished by late October or early November. That allows two to three weeks for latex paint to cure and a few days for ventilation before guests arrive on November 26. Getting your estimate in early October gives you the most flexibility.
+
+### How long does interior paint take to dry?
+
+Latex paint is typically dry to the touch in about one hour, and many interior paints can be recoated within a few hours. Cooler temperatures and humidity can slow drying, so times vary from home to home.
+
+### What is the difference between paint drying and curing?
+
+Drying means the surface is no longer wet to the touch. Curing means the paint film has fully hardened and reached its best durability. Sherwin-Williams notes that acrylic and latex paints typically take two or three weeks to cure.
+
+### Can I paint interior rooms in the winter in Washington?
+
+Yes. Interior painting can happen year-round because the work is done indoors. The key is keeping the home heated within the paint's recommended temperature range and managing humidity and ventilation while the paint dries.
+
+### How long should I ventilate a room after painting?
+
+The EPA recommends keeping windows open, as weather permits, for about two to three days after painting. On cold or damp days, shorter periods of fresh air, fans, and a dehumidifier can help.
+
+### When can I hang decorations on freshly painted walls?
+
+It is best to wait until the paint has had time to cure, typically two to three weeks for latex paint. Adhesive hooks and tape can pull off or mark paint that has not fully hardened.
+
+A fresh coat of paint can make your home feel ready for the season. If you want your Woodinville home painted before the holidays, [schedule your TrueQuote™](/schedule) and we will help you build a timeline that works.`,
+  },
+  {
     slug: "exterior-painting-fall-winter-bothell-wa",
     title: "Can You Paint a House Exterior in Fall or Winter in Bothell, WA?",
     seoTitle: "Fall and Winter Exterior Painting Bothell WA",
