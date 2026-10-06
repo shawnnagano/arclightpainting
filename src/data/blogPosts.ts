@@ -73,9 +73,9 @@ If you are seeing a lot of these signs at once, our list of [warning signs your 
 
 Northwest homes collect green and black growth on shaded siding, north-facing walls, and anywhere that stays damp. Beyond looking bad, mildew holds moisture against the paint and can work into the surface.
 
-Not sure if a dark spot is mildew or dirt? Sherwin-Williams suggests a simple test: apply a few drops of household bleach. If the stain lightens or disappears, it is probably mildew. If it stays, it is probably dirt.
+Not sure if a dark spot is mildew or dirt? Paint manufacturers suggest a simple test: apply a few drops of household bleach. If the stain lightens or disappears, it is probably mildew. If it stays, it is probably dirt.
 
-For cleaning, Sherwin-Williams recommends a solution of one part liquid bleach to three parts water, scrubbed in and left for about 10 minutes, then rinsed thoroughly. For wood and recently painted surfaces, they note that vinegar is a gentler option, since bleach can discolor them. Protect your plants, wear eye protection, and let the surface dry fully before any paint goes on.
+For cleaning, a common manufacturer recommendation is a solution of one part liquid bleach to three parts water, scrubbed in and left for about 10 minutes, then rinsed thoroughly. For wood and recently painted surfaces, they note that vinegar is a gentler option, since bleach can discolor them. Protect your plants, wear eye protection, and let the surface dry fully before any paint goes on.
 
 For larger areas, professional [pressure washing](/services/pressure-washing) and house washing with the right pressure and cleaners can remove growth without damaging siding.
 
@@ -123,7 +123,7 @@ Learn more about our work in [Mill Creek](/mill-creek), or [schedule your TrueQu
 
 ## External Resources: Mildew, Weather, and Older Homes
 
-Sherwin-Williams publishes homeowner guidance on how to identify and remove mildew, including how to tell it apart from dirt and which cleaning solutions to use on different surfaces. Seattle-area climate normals from NOAA show how rainfall builds through fall and peaks in November. For homes built before 1978, the U.S. Environmental Protection Agency provides information on lead-safe renovation and repair practices.
+Major paint manufacturers publish homeowner guidance on how to identify and remove mildew, including how to tell it apart from dirt and which cleaning solutions to use on different surfaces. Seattle-area climate normals from NOAA show how rainfall builds through fall and peaks in November. For homes built before 1978, the U.S. Environmental Protection Agency provides information on lead-safe renovation and repair practices.
 
 ## FAQ: Fall Exterior Maintenance in Mill Creek
 
