@@ -12,6 +12,148 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fall-exterior-checklist-mill-creek-wa",
+    title: "Fall Exterior Checklist for Mill Creek Homes: 8 Things to Do Before the Rain Sets In",
+    seoTitle: "Fall Exterior Checklist Mill Creek WA: Before the Rain",
+    excerpt: "Protect your Mill Creek home's exterior paint before winter. An 8-point October checklist covering gutters, caulk, peeling paint, mildew, and when to call a pro.",
+    image: "/images/blog/fall-exterior-checklist-mill-creek-wa.webp",
+    date: "2026-10-07",
+    content: `# Fall Exterior Checklist for Mill Creek Homes: 8 Things to Do Before the Rain Sets In
+
+October is the last easy month to look after your home's exterior paint before the Pacific Northwest rainy season takes over. A one-hour walk around your Mill Creek house now (checking gutters, caulk, peeling spots, mildew, and anything touching the siding) can catch small problems while there are still dry days to fix them. Left alone, those same problems spend the next five months soaking up water.
+
+![Mill Creek home exterior on a clear October afternoon with fall leaves, freshly cleaned gutters, and a ladder set against the trim](/images/blog/fall-exterior-checklist-mill-creek-wa.webp)
+
+Most homeowners think about [exterior painting](/services/exterior-painting) as a summer project, and for a full repaint, that is usually right. But fall is when your paint job either gets protected or gets left exposed. Seattle-area rainfall normals put the yearly total at about 39 inches, and November is by far the wettest month. Whatever shape your siding and trim are in by Halloween is roughly the shape they will face that rain in.
+
+This checklist walks through what to look at, what you can handle yourself, and what is worth having a professional fix before winter.
+
+## Why October Matters for Your Exterior Paint
+
+Paint is your home's raincoat. When it is intact, water runs off. When it cracks, peels, or pulls away at a joint, water gets behind it and into the wood, where it can cause swelling, more peeling, and eventually rot.
+
+October still gives you usable weather. Average highs in the Seattle area are around 60°F, and dry stretches are still fairly common. That changes quickly. Daylight saving time ends on Sunday, November 1 this year, and with shorter, wetter days, the windows for drying, priming, and painting get much smaller.
+
+If you want the full picture of what can and cannot be painted in cold weather, our guide to [painting a house exterior in fall or winter](/exterior-painting-fall-winter-bothell-wa) covers temperature, dew, and rain limits in detail. This post focuses on the practical side: what to check this month.
+
+## The 8-Point Fall Exterior Checklist
+
+### 1. Clean Out Gutters and Check Downspouts
+
+Clogged gutters are one of the most common causes of paint failure we see on fascia boards and the siding just below the roofline. When gutters overflow, water sheets down the face of the house again and again, and the paint there wears out years early.
+
+Clean gutters after most of the leaves have dropped, which in Mill Creek's tree-lined neighborhoods is often late October or early November. Make sure downspouts are clear and that they empty away from the foundation, not against the bottom row of siding.
+
+**What to look for:** peeling or stained fascia, dark streaks under gutter seams, and soft wood at the corners of the roofline.
+
+### 2. Inspect Caulk Around Windows, Doors, and Trim
+
+Caulk is the seal between your trim and siding, and it is one of the first things to fail. Look for cracks, gaps, or caulk that has pulled away from one side of a joint. Pay closest attention to:
+
+- The tops of window and door trim, where water lands first
+- Corner boards and where siding meets trim
+- Penetrations like hose bibs, dryer vents, light fixtures, and utility boxes
+
+Small gaps can be re-caulked on a dry day with a quality exterior sealant. Check the product label for its minimum application temperature and how long it needs before rain. Long runs of failed caulk usually mean it is time to plan a fuller repaint, since the caulk and paint have likely aged out together.
+
+### 3. Find and Protect Bare or Peeling Spots
+
+Walk the house slowly, especially the south and west sides, which take the most sun, and the north side, which stays damp the longest. Look for:
+
+- Paint peeling or flaking off trim, sills, and siding
+- Bare gray wood showing through
+- Bubbles or blisters in the paint film
+- Cracks running along the grain of the wood
+
+Bare wood is the one problem you should not leave until spring. On a dry day, loose paint can be scraped, the area spot-primed, and a finish coat applied to protect it through winter. If your home was built before 1978, keep in mind that older layers may contain lead-based paint, so scraping should be done with lead-safe practices or left to a certified contractor.
+
+If you are seeing a lot of these signs at once, our list of [warning signs your home needs exterior painting](/bothell-home-needs-exterior-painting-wa) can help you decide whether spot repairs are enough.
+
+### 4. Treat Mildew and Algae Before It Spreads
+
+Northwest homes collect green and black growth on shaded siding, north-facing walls, and anywhere that stays damp. Beyond looking bad, mildew holds moisture against the paint and can work into the surface.
+
+Not sure if a dark spot is mildew or dirt? Sherwin-Williams suggests a simple test: apply a few drops of household bleach. If the stain lightens or disappears, it is probably mildew. If it stays, it is probably dirt.
+
+For cleaning, Sherwin-Williams recommends a solution of one part liquid bleach to three parts water, scrubbed in and left for about 10 minutes, then rinsed thoroughly. For wood and recently painted surfaces, they note that vinegar is a gentler option, since bleach can discolor them. Protect your plants, wear eye protection, and let the surface dry fully before any paint goes on.
+
+For larger areas, professional [pressure washing](/services/pressure-washing) and house washing with the right pressure and cleaners can remove growth without damaging siding.
+
+### 5. Trim Back Shrubs and Trees
+
+Plants that touch your siding hold moisture against it, block airflow, and rub the paint as they move in the wind. They are also a direct route for moss and mildew to spread.
+
+Before winter storms arrive, cut shrubs back so there are at least a foot or so of clearance from the house, and trim any branches that hang over the roof or brush the gutters.
+
+### 6. Check Decks, Railings, and Fences
+
+Horizontal wood takes the most punishment in the rain. Pour a little water on your deck boards. If it beads up, the finish is still working. If it soaks in quickly and darkens the wood, the stain or sealer has worn through.
+
+Fall is usually too late in the season for a full deck stain in Western Washington, because wood needs to be dry and the forecast needs to stay dry. But now is the time to sweep off leaves and debris, which trap moisture and stain the boards, and to note what needs attention so it is ready for spring. Our guide on [exterior wood staining vs. painting](/exterior-wood-staining-vs-painting) explains which finish fits which surface.
+
+### 7. Look at the Front Door and High-Touch Areas
+
+Front doors, garage doors, and railings get handled, bumped, and splashed all year. A front door is also small enough that it can often be repainted during a dry fall window, and it makes a real difference to your entry heading into the holidays. Our [front door paint and curb appeal guide](/front-door-paint-curb-appeal) has color and finish ideas.
+
+### 8. Book Your Spring Repaint Now
+
+If your walk-around turns up more than a few trouble spots, the best move is usually to protect the worst areas now and schedule a full repaint for the next dry season.
+
+Booking in fall has real advantages. You can get your estimate, settle on colors, and handle HOA approval over the winter, so your project is ready to start as soon as the weather turns. Many Mill Creek neighborhoods have exterior color rules, and our guide to [HOA exterior paint approval](/hoa-exterior-paint-approval) walks through what to prepare. If you want help narrowing down colors, a [color consultation](/services/color-consultation) can make that decision much easier.
+
+## What to DIY and What to Leave to a Pro
+
+Many items on this list are reasonable weekend tasks: clearing gutters from a stable ladder, trimming shrubs, small caulk touch-ups, and spot-cleaning mildew at ground level.
+
+It is worth calling a professional when:
+
+- **The work is high up.** Second-story trim, fascia, and gutters are where most ladder accidents happen.
+- **You find soft or rotted wood.** Painting over rot traps the problem. It needs to be repaired or replaced first.
+- **Peeling is widespread.** That often points to moisture or adhesion problems that a spot repair will not solve.
+- **Your home was built before 1978** and the paint needs scraping or sanding.
+- **You are not sure whether it can wait.** A quick professional look can save you from either overspending or under-protecting.
+
+## Why Mill Creek Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell and serving Mill Creek, Kenmore, Woodinville, Kirkland, Redmond, Bellevue, and nearby Eastside and north Seattle communities. The company is licensed, bonded, and insured.
+
+Every project starts with a TrueQuote™ evaluation. The team looks at the real condition of your siding, trim, and caulk, explains what should be handled before winter and what can wait for spring, and builds a fixed-price proposal with the scope clearly laid out. Work is checked through a PCA™ Quality Inspection and backed by a 100% Satisfaction Guarantee and the 5-Year FreshStart™ Touch-Up Plan.
+
+Learn more about our work in [Mill Creek](/mill-creek), or [schedule your TrueQuote™](/schedule) to get an honest look at your exterior before the rain sets in.
+
+## External Resources: Mildew, Weather, and Older Homes
+
+Sherwin-Williams publishes homeowner guidance on how to identify and remove mildew, including how to tell it apart from dirt and which cleaning solutions to use on different surfaces. Seattle-area climate normals from NOAA show how rainfall builds through fall and peaks in November. For homes built before 1978, the U.S. Environmental Protection Agency provides information on lead-safe renovation and repair practices.
+
+## FAQ: Fall Exterior Maintenance in Mill Creek
+
+### When should I check my home's exterior before winter in Mill Creek?
+
+October is the best time. The weather is usually still dry enough to make small repairs, and you will catch problems before November, which is typically the wettest month of the year in the Seattle area.
+
+### Can I fix peeling exterior paint in the fall?
+
+Often, yes. Small areas can be scraped, primed, and painted on a dry day within the paint's temperature range. The goal is to cover any bare wood before the rainy season so it does not absorb water over the winter.
+
+### How do I know if the dark spots on my siding are mildew?
+
+Apply a few drops of household bleach. If the spot lightens or disappears, it is likely mildew. If it does not change, it is likely dirt.
+
+### Should I clean my gutters before or after the leaves fall?
+
+Ideally after most leaves have dropped, which in Mill Creek is often late October or early November. Homes with a lot of tree cover may need a second cleaning later in the season.
+
+### Is it better to repaint in fall or wait until spring?
+
+For a full exterior repaint, spring or summer usually offers more reliable weather. Fall is a good time to protect problem areas, get an estimate, and choose colors so your project is ready to start when the weather turns.
+
+### Can caulking be done in cold weather?
+
+Many exterior sealants can be applied in cool weather, as long as the joint is clean and dry and the temperature is within the range listed on the product label. Check how long the product needs before it can handle rain.
+
+A little attention this month can keep a small problem from turning into a big repair. If you want a professional opinion on your Mill Creek home before winter, [schedule your TrueQuote™](/schedule) and we will help you decide what to do now and what can wait for spring.`,
+  },
+  {
     slug: "holiday-interior-painting-woodinville-wa",
     title: "Interior Painting Before the Holidays in Woodinville, WA: When to Book and What to Expect",
     seoTitle: "Holiday Interior Painting Woodinville WA: When to Book",
