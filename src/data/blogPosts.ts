@@ -12,6 +12,83 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "fall-in-bothell-coming-home",
+    title: "Fall in Bothell: Coming Home to the Season",
+    seoTitle: "Fall in Bothell: Coming Home to the Season | Arclight Painting",
+    excerpt: "A personal reflection on fall in Bothell: rainy family days, busy kitchens, growing kids, and the season that brings everyone back home.",
+    image: "/images/blog/fall-in-bothell-coming-home.webp",
+    date: "2026-10-07",
+    content: `# Fall in Bothell: Coming Home to the Season
+
+Fall in Bothell has a way of pulling everyone back inside.
+
+Not in a bad way. In a good way.
+
+![Autumn trees in gold and red along a quiet walking path in Bothell on an overcast fall day](/images/blog/fall-in-bothell-coming-home.webp)
+
+Summer is wide open. Long evenings, late sunsets, lake days, and plans that stretch as far as the daylight will let them. This summer, that looked like [climbing at the Bothell UW campus](/summer-bothell-uw-campus-3-lessons), parade smiles on the 4th of July, and slow evenings by the water with [the family we choose](/the-family-we-choose).
+
+Then October shows up.
+
+The rain comes back. The maples turn gold and red. The mornings get a little darker and the jackets come out of the closet. And somehow, without anyone planning it, the whole family ends up closer together.
+
+## The Rhythm Changes
+
+There is a different pace to fall.
+
+School is back in full swing. Mornings are about finding shoes, packing lunches, and getting out the door on time. Evenings are about homework at the kitchen table, practices, and figuring out what is for dinner.
+
+It can feel busy. But it also feels steady.
+
+Summer is about doing more. Fall is about settling in. The routines come back, and with them comes a kind of comfort. Everyone knows where they need to be. Everyone comes home at the end of the day.
+
+## Rainy Days Are Family Days
+
+In the Pacific Northwest, the rain is not a reason to stop. It is just part of the backdrop.
+
+Some of the best fall days start with a gray sky. A walk along the trail with the leaves crunching underfoot. Puddles that are impossible for kids to walk past. A drive out for pumpkins and apples. Coming home soaked, a little muddy, and laughing about it.
+
+And then there are the days you stay in.
+
+Board games on the living room floor. Movies under blankets. A pot of soup on the stove. The kids building something, battling something, or inventing a game that only makes sense to them.
+
+Those are not big, planned moments. They just happen. And they are often the ones we remember most.
+
+## The Kitchen Becomes the Center of the House
+
+Every fall, the kitchen seems to get a little busier.
+
+The oven comes back on. The smell of something roasting fills the house. Someone is always asking when dinner will be ready. Someone else is sneaking a taste before it is done.
+
+There is something about cooler weather that makes people want to gather around the table. Not because they have to, but because it feels good to be there. Sharing the day. Telling stories. Laughing at the same jokes for the hundredth time.
+
+The table is where the season really happens.
+
+## Watching the Seasons Through Our Kids
+
+One of the strange things about being a parent is how fast the seasons move.
+
+It feels like we were just watching the boys reach for the next hold on a climbing wall. Now there are new school years, new interests, and new friends. They are a little taller this fall. A little more independent. A little more themselves.
+
+Fall has a way of making you notice that.
+
+The leaves change, and so do the kids. It is a good reminder to slow down and enjoy where they are right now, because next fall they will be somewhere new.
+
+## A Little Gratitude for the Season
+
+Fall in Bothell is not flashy.
+
+It is gray skies and gold leaves. Wet sidewalks and warm kitchens. Busy mornings and quiet evenings. Friends who feel like family and a community that still shows up for each other.
+
+It is the season that brings us home.
+
+For us, that is worth slowing down for. Worth noticing. Worth being thankful for.
+
+So grab a warm drink, put on a sweater, and enjoy the people around you this fall. The rain will keep coming. The leaves will keep falling. And the best memories will keep happening right at home.
+
+From our family to yours, happy fall.`,
+  },
+  {
     slug: "sheet-pan-maple-dijon-chicken-squash-apples",
     title: "Sheet-Pan Maple Dijon Chicken with Butternut Squash and Apples",
     seoTitle: "Sheet-Pan Maple Dijon Chicken with Squash and Apples",
