@@ -12,6 +12,144 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "sheet-pan-maple-dijon-chicken-squash-apples",
+    title: "Sheet-Pan Maple Dijon Chicken with Butternut Squash and Apples",
+    seoTitle: "Sheet-Pan Maple Dijon Chicken with Squash and Apples",
+    excerpt: "An easy one-pan fall dinner: maple Dijon chicken thighs roasted with butternut squash, Washington apples, and red onion. About 15 minutes of prep.",
+    image: "/images/blog/sheet-pan-maple-dijon-chicken-squash-apples.webp",
+    date: "2026-10-07",
+    content: `# Sheet-Pan Maple Dijon Chicken with Butternut Squash and Apples
+
+This sheet-pan maple Dijon chicken is an easy fall dinner made on one pan. Juicy chicken thighs roast alongside sweet butternut squash, crisp Washington apples, and red onion, all brushed with a simple maple, mustard, and garlic glaze. It takes about 15 minutes of hands-on time, and the oven does the rest.
+
+October is when fall cooking really starts to feel right. The rain is back, the evenings are darker, and Washington apples are at their best in grocery stores and farm stands. This recipe is built for exactly that kind of night: cozy, colorful, and simple enough for a busy weeknight.
+
+At Arclight Painting, we spend our days helping families make their homes feel warm and cared for. Some evenings, that just means getting a good dinner on the table without a sink full of pans.
+
+![Sheet-pan maple Dijon chicken with roasted butternut squash, apples, and red onion on a rustic fall table](/images/blog/sheet-pan-maple-dijon-chicken-squash-apples.webp)
+
+## Why This Fall Recipe Works
+
+A good fall dinner should feel comforting without taking all evening. This one does both.
+
+Everything cooks on a single sheet pan, so cleanup is quick. The maple syrup and Dijon mustard make a glaze that is sweet, tangy, and a little savory, and it caramelizes in the oven. Butternut squash turns soft and golden, the apples get just tender enough to hold their shape, and the chicken thighs stay juicy.
+
+It is also flexible. You can swap in sweet potatoes, use chicken breasts, or add Brussels sprouts with whatever you have on hand.
+
+## Ingredients
+
+This recipe makes about 4 servings.
+
+**For the maple Dijon glaze:**
+
+- 3 tablespoons pure maple syrup
+- 2 tablespoons Dijon mustard
+- 2 tablespoons olive oil
+- 1 tablespoon apple cider vinegar
+- 2 garlic cloves, minced
+- 1 teaspoon fresh thyme leaves, or 1/2 teaspoon dried thyme
+- 1/2 teaspoon salt
+- 1/4 teaspoon black pepper
+
+**For the sheet pan:**
+
+- 1 1/2 to 2 pounds boneless, skinless chicken thighs
+- 1 small butternut squash (about 2 pounds), peeled, seeded, and cut into 1-inch cubes
+- 1 medium red onion, cut into wedges
+- 2 tablespoons olive oil
+- 1/2 teaspoon salt
+- 1/4 teaspoon black pepper
+- 2 firm, crisp apples, such as Honeycrisp, Gala, or Pink Lady, cored and cut into wedges
+- Fresh thyme or chopped parsley for serving
+- Optional: a handful of toasted pecans or crumbled goat cheese for topping
+
+## How to Make Sheet-Pan Maple Dijon Chicken
+
+### 1. Preheat the oven and prep the pan
+
+Heat the oven to 425°F. Line a large rimmed baking sheet with parchment paper or foil for easier cleanup. If your pan is small, use two pans so the vegetables have room to roast instead of steam.
+
+### 2. Make the glaze
+
+In a small bowl, whisk together the maple syrup, Dijon mustard, olive oil, apple cider vinegar, garlic, thyme, salt, and pepper. Set aside about 2 tablespoons of the glaze to brush on at the end.
+
+### 3. Start the squash first
+
+Toss the butternut squash and red onion with 2 tablespoons of olive oil, salt, and pepper right on the pan. Spread them out in a single layer.
+
+Roast for 10 minutes. Squash takes longer than the chicken and apples, so this head start helps everything finish at the same time.
+
+### 4. Add the chicken and apples
+
+While the squash roasts, pat the chicken thighs dry and toss them in the larger portion of the glaze.
+
+Take the pan out of the oven. Push the vegetables to the sides, then add the chicken to the center and tuck the apple wedges around it. Spoon any extra glaze from the bowl over the chicken.
+
+### 5. Roast until done
+
+Return the pan to the oven and roast for 20 to 25 minutes, until the squash is tender and browned at the edges and the chicken reaches 165°F on an instant-read thermometer.
+
+For extra color, brush the chicken with the reserved glaze and broil for 1 to 2 minutes. Watch closely, because maple syrup can go from golden to burned quickly.
+
+### 6. Finish and serve
+
+Let the chicken rest for a few minutes. Sprinkle with fresh thyme or parsley, and add toasted pecans or goat cheese if you like. Serve warm, straight from the pan.
+
+## Easy Substitutions
+
+- **Chicken breasts:** Cut them into large pieces so they cook evenly, and start checking the temperature a few minutes early so they do not dry out.
+- **Sweet potatoes:** Use them in place of butternut squash, cut into 1-inch cubes.
+- **Pears:** Firm pears work well in place of apples.
+- **Brussels sprouts:** Halve them and add them with the chicken.
+- **Honey:** It can stand in for maple syrup, though it browns a little faster.
+
+## What to Serve With It
+
+This dinner is filling on its own, but a simple side rounds it out. Try it with wild rice, quinoa, buttered egg noodles, crusty bread, or a green salad with a light vinaigrette.
+
+For a full fall menu, finish with our [Washington Pear and Apple Harvest Crisp](/washington-pear-apple-harvest-crisp). On a rainy night, pair it with a small cup of our [One-Pot Chicken and Wild Rice Soup](/one-pot-chicken-wild-rice-soup).
+
+## Storage and Reheating Tips
+
+Let leftovers cool, then store them in an airtight container in the refrigerator for up to 3 to 4 days.
+
+Reheat in a 375°F oven or air fryer for 8 to 10 minutes to keep the squash from getting soggy. The microwave works too, but the vegetables will be softer. Leftovers also make a great lunch bowl over rice or greens.
+
+## A Cozy Home Note From Arclight
+
+Fall is a good time to get your home ready for the months ahead. That might mean a warm dinner on the table, or it might mean freshening up the kitchen and dining room before the holidays.
+
+If your walls, trim, or cabinets are starting to look tired, our team can help with [interior painting](/services/interior-painting), [cabinet refinishing](/services/cabinet-refinishing), or a quick [Painter for a Day](/services/painter-for-a-day) project.
+
+Arclight Painting is veteran-owned, locally operated, and based in Bothell. We serve families across Bothell, Kirkland, Redmond, Kenmore, Woodinville, Mill Creek, and nearby communities with the same mindset we bring to every project: no shortcuts, clear communication, and care for the home you live in every day.
+
+Ready to make your home feel fresh for fall? [Schedule your consultation](/schedule) and we'll take care of you.
+
+## Frequently Asked Questions
+
+### Can I use bone-in chicken thighs?
+
+Yes. Bone-in, skin-on thighs need more time, usually 35 to 45 minutes at 425°F. Add them to the pan at the same time as the squash, then add the apples for the last 20 minutes.
+
+### How do I know when the chicken is done?
+
+Use an instant-read thermometer. Chicken is safe to eat when the thickest part reaches 165°F.
+
+### What are the best apples for roasting?
+
+Firm, crisp apples hold their shape best. Honeycrisp, Gala, Pink Lady, and Braeburn all work well. Softer apples can turn mushy in a hot oven.
+
+### Can I prep this ahead of time?
+
+Yes. You can cut the squash, onion, and apples and mix the glaze up to a day ahead. Store the apples with a squeeze of lemon juice so they do not brown. Keep everything refrigerated, then assemble and roast when you are ready.
+
+### How do I make butternut squash easier to cut?
+
+Pierce the skin a few times with a fork, then microwave the whole squash for 2 to 3 minutes to soften the skin slightly. Then cut off both ends, peel it with a sturdy vegetable peeler, and cut it in half to scoop out the seeds. Many stores also sell pre-cut butternut squash.
+
+Good homes are built around simple comforts: warm meals, cared-for rooms, and people gathered around the table. Enjoy the recipe, and when your home is ready for its next refresh, [get your free TrueQuote™ today](/schedule).`,
+  },
+  {
     slug: "fall-exterior-checklist-mill-creek-wa",
     title: "Fall Exterior Checklist for Mill Creek Homes: 8 Things to Do Before the Rain Sets In",
     seoTitle: "Fall Exterior Checklist Mill Creek WA: Before the Rain",
