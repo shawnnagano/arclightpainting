@@ -12,6 +12,146 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "check-painting-contractor-license-insurance-kenmore-wa",
+    title: "How to Check a Painting Contractor's License, Bond, and Insurance in Kenmore, WA",
+    seoTitle: "Check a Painter's License and Insurance in Kenmore WA",
+    excerpt: "Hiring a painter in Kenmore, WA? Learn how to check a contractor's state registration, bond, and insurance in a few minutes, and which red flags to watch for.",
+    image: "/images/blog/check-painting-contractor-license-insurance-kenmore-wa.webp",
+    date: "2026-10-17",
+    content: `Before you hire a painter in Kenmore, take five minutes to check three things: their state registration, their bond, and their insurance. Washington requires every construction contractor, painters included, to register with the Department of Labor & Industries (L&I) and to be bonded and insured. You can check all of it for free online.
+
+![Kenmore homeowner checking a painting contractor's registration on a laptop at the kitchen table](/images/blog/check-painting-contractor-license-insurance-kenmore-wa.webp)
+
+Most people hire a painter because of a good price or a friendly visit. Those things matter. But if something goes wrong, the paperwork is what protects you. A registered, bonded, and insured contractor gives you a way to recover money or damage. An unregistered one often gives you nothing.
+
+This guide shows you exactly what to check, where to check it, and what the results mean. It works whether you need [interior painting](/services/interior-painting), [exterior painting](/services/exterior-painting), or a small repair.
+
+## Why Checking a Painter Matters in Washington
+
+Washington has clear rules for contractors. According to L&I, all construction contractors must register with the state. L&I also says it is not legal for anyone to do the work, advertise, or submit bids without being registered.
+
+Registration is not just a formality. To register, a contractor has to carry two kinds of protection:
+
+- **A bond.** This is money set aside that a customer can make a claim against if the contractor does not do the job right.
+- **Liability insurance.** This pays for damage the contractor causes to your home or to other people.
+
+Here is the catch. L&I points out that bond protections only apply if you hire a registered contractor. If you hire someone who is not registered, you may have no bond to claim against at all.
+
+## What Washington Requires From Painting Contractors
+
+Painters are usually registered as **specialty contractors**. That means they work in one trade instead of managing a whole building project. Here is what the state requires, based on L&I's published rules.
+
+| Requirement | General contractor | Specialty contractor (most painters) |
+|---|---|---|
+| Registration with L&I | Required | Required |
+| Bond amount (since July 1, 2024) | $30,000 | $15,000 |
+| Liability insurance | $250,000 combined, or $200,000 public liability plus $50,000 property damage | Same as general |
+
+The bond amounts went up in 2024. L&I reports that the specialty contractor bond rose from $6,000 to $15,000, and the general contractor bond rose from $12,000 to $30,000. If a painter's paperwork still shows the old amounts, ask about it.
+
+### What About Workers' Comp?
+
+Workers' compensation covers a worker who gets hurt on the job. L&I says registered contractors with employees should have workers' comp through L&I.
+
+This matters to you as a homeowner. L&I warns that if you hire an unregistered worker, you could be considered their employer. Most homeowner insurance policies do not cover workers. So if someone gets hurt on a ladder at your house, you could be left with the bill.
+
+## How to Check a Contractor in 5 Minutes
+
+You do not need to call anyone or pay anything. Here is the step-by-step process.
+
+1. **Ask for the company's exact business name and registration number.** A real contractor will give these to you right away. Many put the number on their estimates, trucks, or website.
+2. **Go to L&I's free lookup tool.** Visit Lni.wa.gov/Verify or ProtectMyHome.net. You can also call L&I at 1-800-647-0982.
+3. **Search by name or registration number.** Make sure the name on the screen matches the name on your estimate.
+4. **Check that the registration is active.** An expired or suspended registration is a red flag.
+5. **Look at the bond and insurance details.** Confirm the bond amount and that insurance is on file.
+6. **Check workers' comp status.** L&I says ProtectMyHome.net shows registration, workers' comp status, and legal actions.
+7. **Look for past legal actions.** A long list of claims against a bond is worth asking about.
+8. **Ask to see the insurance policy.** L&I says you can ask to see a contractor's liability insurance policy. For bigger projects, it suggests reviewing it with your own insurance agent, because some policies have exclusions.
+
+That is it. If everything checks out, you can compare bids knowing each painter is playing by the same rules.
+
+## Does Your Kenmore Home Need a Lead-Safe Painter?
+
+If your Kenmore home was built **before 1978**, there is one more thing to check.
+
+Lead-based paint was common in older homes. Sanding, scraping, or cutting through old paint can create lead dust. That is why there are special rules for this work.
+
+In Washington, the Department of Commerce runs the lead Renovation, Repair and Painting (RRP) program. According to Commerce, RRP certification is required for work on pre-1978 homes and child-occupied facilities, such as daycares. A certified firm must have a certified renovator who performs or supervises the work.
+
+The EPA's advice to homeowners is simple: find an EPA or state lead-certified contractor, and look for the lead-safe certified firm logo. If your home is older, ask any painter you are considering whether they are RRP certified before you sign anything.
+
+Not sure when your home was built? Your county property records usually list the year built.
+
+## Red Flags When Hiring a Painter
+
+Most painters are honest, hardworking people. But a few warning signs should make you slow down.
+
+- **No registration number,** or they get vague when you ask for it.
+- **Their name does not match** what shows up on L&I's lookup tool.
+- **No written contract or bid.** L&I says to be wary of a contractor who will not give you a written contract or complete bid.
+- **A large deposit up front,** or full payment before the work is done. L&I's advice is: "Don't pay in full until the job gets done."
+- **Cash only.** L&I lists cash-only payment as a reason to be cautious.
+- **Pressure to sign today.** A fair offer will still be fair tomorrow.
+
+L&I also recommends getting three written bids. Comparing bids side by side makes it easier to spot a price or scope that does not add up. Our guide on [questions to ask before a paint estimate](/questions-to-ask-before-paint-estimate) can help you compare them fairly.
+
+## What to Look for in the Written Contract
+
+Once you pick a painter, get the deal in writing. A good painting contract should clearly list:
+
+- The rooms or surfaces being painted
+- Prep work, such as patching, sanding, caulking, or pressure washing
+- Paint brand, product, and number of coats
+- Start date and expected finish date
+- Total price and payment schedule
+- How changes to the job will be handled
+- Any warranty or touch-up promise
+
+Our article on [what a painting contract is and why you need it](/what-is-a-painting-contract) walks through each part in more detail.
+
+One more thing to know: L&I explains that the property owner is ultimately responsible for making sure suppliers, subcontractors, and workers get paid. If they are not paid, they can file a lien on your property. Paying in stages as work is finished, and asking for proof that suppliers were paid on large jobs, helps protect you.
+
+## Why Kenmore Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell, right next door to Kenmore. We also serve Woodinville, Kirkland, Mill Creek, Redmond, Bellevue, and nearby Eastside and north Seattle communities. The company is licensed, bonded, and insured.
+
+Every project starts with a TrueQuote™ evaluation. The team looks at your home in person, explains the prep work, and builds a fixed-price proposal with the scope written out clearly. Work is checked through a PCA™ Quality Inspection and backed by a 100% Satisfaction Guarantee and the 5-Year FreshStart™ Touch-Up Plan.
+
+Learn more about our work in [Kenmore](/kenmore), meet the team on our [About page](/about), or [schedule your TrueQuote™](/schedule).
+
+## External Resources
+
+The Washington State Department of Labor & Industries publishes a free guide called *What You Should Know About Hiring a Contractor*, and its online lookup at Lni.wa.gov/Verify lets you check any contractor's registration, bond, and insurance. For homes built before 1978, the Washington State Department of Commerce explains the state's lead Renovation, Repair and Painting program, and the EPA's RRP consumer page explains how to find a lead-safe certified contractor.
+
+## FAQ: Checking a Painting Contractor in Kenmore, WA
+
+### Do painters need a license in Washington?
+
+Yes. Washington requires all construction contractors, including painters, to register with the Department of Labor & Industries. Registered contractors must also be bonded and insured.
+
+### How do I check if a painter is registered in Washington?
+
+Use L&I's free lookup tool at Lni.wa.gov/Verify or ProtectMyHome.net, or call 1-800-647-0982. Search by the company name or registration number and confirm the registration is active.
+
+### How much bond does a painting contractor need in Washington?
+
+Most painters register as specialty contractors. Since July 1, 2024, specialty contractors must carry a $15,000 bond. General contractors must carry $30,000.
+
+### What insurance should a painter have?
+
+Washington requires contractors to carry liability insurance of either $250,000 combined, or $200,000 public liability plus $50,000 property damage. Painters with employees should also have workers' comp through L&I.
+
+### What happens if I hire an unregistered painter?
+
+You lose the protection of a contractor bond, because bond protections only apply to registered contractors. L&I also warns you could be considered the worker's employer, and most homeowner policies do not cover workers.
+
+### Does my painter need lead certification?
+
+If your home was built before 1978, the painter should be lead-safe certified under Washington's Renovation, Repair and Painting program. Ask before you sign, especially if the job includes sanding or scraping old paint.
+
+A few minutes of checking can save you months of trouble. When you are ready for a painter you can verify, [schedule your TrueQuote™](/schedule) and we will walk you through our credentials and your project.`,
+  },
+  {
     slug: "fall-in-bothell-coming-home",
     title: "Fall in Bothell: Coming Home to the Season",
     seoTitle: "Fall in Bothell: Coming Home to the Season | Arclight Painting",
