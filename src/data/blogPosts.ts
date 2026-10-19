@@ -12,6 +12,172 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "prevent-mildew-interior-walls-bellevue-wa",
+    title: "How Do You Stop Mildew on Interior Walls During Bellevue's Rainy Season?",
+    seoTitle: "Stop Interior Wall Mildew in the Rainy Season | Bellevue WA",
+    excerpt: "Foggy windows and spotty bathroom ceilings? Learn why mildew shows up on Bellevue walls each fall and how to clean, dry and repaint so it stays gone.",
+    image: "/images/blog/prevent-mildew-interior-walls-bellevue-wa.webp",
+    date: "2026-10-19",
+    content: `
+If you're seeing gray or black specks on your bathroom ceiling, foggy windows every morning, or paint bubbling near a window, the cause is almost always the same: too much moisture inside the house and cold surfaces for it to settle on. The fix is to clean the mildew, dry and repair the surface, bring indoor humidity down, and then repaint with a coating made for damp rooms. Paint alone won't solve it, but the right paint on a properly prepared wall makes a big difference through Bellevue's long, wet season.
+
+![Bright Bellevue bathroom with a freshly painted ceiling and rain on the window on a gray fall morning](/images/blog/prevent-mildew-interior-walls-bellevue-wa.webp)
+
+This guide walks through why mildew shows up every fall, what to do about it yourself, and when it makes sense to bring in a pro for [interior painting](/services/interior-painting) or [drywall repairs](/services/drywall-repairs).
+
+## Why Mildew Shows Up Every Fall in Bellevue
+
+### The rainy season is long
+
+The National Weather Service's climate study of Seattle describes a rainy season that runs from October through March, with more than 75 percent of the year's precipitation falling in that winter wet season. Bellevue sits just across Lake Washington and shares that pattern. For about half the year, the air outside is damp and doors and windows stay shut.
+
+### Cold air holds less water
+
+The EPA explains it simply: as the temperature goes down, air can hold less moisture. When warm, damp indoor air touches a cold window, an outside wall, or a bathroom ceiling under a cold attic, water condenses onto that surface. That thin film of water is exactly what mildew needs.
+
+### Your household adds a lot of moisture
+
+According to the U.S. Department of Energy, a typical family adds about three gallons of water per day to indoor air just by breathing and perspiring. Showers, cooking, and laundry add more. In summer, open windows carry that moisture away. In a closed-up fall house, it stays inside and looks for the coldest surface it can find.
+
+## Where to Look First
+
+Mildew and moisture damage tend to show up in the same places in most homes:
+
+- **Bathroom ceilings and the wall behind the shower:** Steam rises and settles on the coldest, least-ventilated spot.
+- **Window sills and the wall right under windows:** Condensation runs down the glass and soaks into the sill and paint.
+- **Exterior-wall corners and closets:** Cold corners with little air movement, especially behind furniture.
+- **Laundry rooms:** Especially if the dryer isn't vented outside.
+- **Kitchen walls near the stove:** Steam from cooking with no range hood running.
+
+The Washington State Department of Health suggests checking around your windows for signs of condensation and water droplets and wiping moisture up promptly so mold can't take hold.
+
+## Step 1: Clean It the Right Way
+
+### Don't paint over it
+
+Both the EPA and the Washington State Department of Health say the same thing: don't paint or caulk over mold. The state's guide explains that the mold will grow under the paint and the paint will peel. That's why a quick coat of white over ceiling spots usually looks bad again within months.
+
+### Small areas you can handle
+
+The Department of Health defines a small area as less than about ten square feet, roughly a patch three feet by three feet. For spots that size:
+
+- **Protect yourself:** Wear gloves and open a window or run a fan.
+- **Scrub the surface:** Use soap and water to remove the growth.
+- **Optional bleach step:** The state guide lists an optional wipe with 1/4 cup bleach to one gallon of water, waiting 20 minutes and repeating. Never mix bleach with ammonia or other cleaners.
+- **Dry it completely:** The surface needs to be fully dry before any repair or paint.
+
+### When it's bigger than that
+
+If the damage covers more than about ten square feet, the Department of Health suggests considering a cleaning professional. Large patches, soft or crumbling drywall, or mildew that keeps returning in the same spot can point to a leak or hidden water problem. Fix the water source first. Painting comes last.
+
+## Step 2: Bring Indoor Humidity Down
+
+Painting won't hold up if the room stays wet. The EPA recommends keeping indoor humidity below 60 percent, ideally between 30 and 50 percent. A basic hygrometer from a hardware store tells you where you stand.
+
+| Problem | What to do |
+|---|---|
+| Foggy bathroom after showers | Run the bathroom fan or open a window while showering (EPA) |
+| Fan vents into the attic | Have it vented directly outside; DOE says never vent into the attic |
+| Damp laundry room | Vent the clothes dryer to the outside (EPA) |
+| Wet windows every morning | Wipe them dry; storm windows and caulking keep the glass warmer and reduce condensation (EPA) |
+| House feels damp overall | Use a dehumidifier when needed (EPA) |
+| Leak or spill | Dry wet areas within 24 to 48 hours to prevent mold growth (EPA) |
+
+A noisy, weak bath fan is easy to ignore. The Department of Energy suggests replacing noisy fans with quiet ENERGY STAR models, which people are more likely to actually use.
+
+## Step 3: Repair the Surface
+
+Once the area is clean and dry, look closely at what's underneath.
+
+### Peeling or bubbling paint
+
+Moisture often breaks the bond between paint and wall. Scrape off anything loose, sand the edges smooth, and spot-prime bare areas so the new paint has a sound surface to grip.
+
+### Damaged drywall
+
+Drywall that got wet for a long time can soften, stain or crumble. Small damaged areas can be cut out and patched. Water stains often bleed through regular paint, so they need a stain-blocking primer first. Our guide to [drywall repair before interior painting](/drywall-repair-before-interior-painting) covers what a solid repair looks like.
+
+### Window sills and trim
+
+Sills that see condensation every morning take a beating. Fill small cracks, sand, and use a durable trim enamel. Our [trim and door painting guide](/trim-and-door-painting-guide) explains sheen and prep for these high-wear spots.
+
+## Step 4: Choose Paint Made for Damp Rooms
+
+### Look for a mildew-resistant coating
+
+Major paint manufacturers make interior paints for bathrooms and other humid rooms, and some of these products state on their label or data sheet that they provide a mildew-resistant coating. Whatever product you choose, read the label and data sheet and look for that statement rather than assuming every paint has it.
+
+Keep in mind what mildew-resistant paint does and doesn't do. It helps the paint film itself resist growth. It does not fix a room that stays wet, and it won't stop mold that was painted over.
+
+### Pick the right sheen
+
+Smoother, tighter finishes are easier to wipe down, which matters in rooms with steam. Our [interior paint sheen guide](/interior-paint-sheen-guide) and [best paint for bathrooms](/best-paint-for-bathrooms) post go deeper on choosing a finish for each room.
+
+### Follow the label on dry and recoat times
+
+Each product lists its own dry time, recoat time and application temperature range. Keep the room within that range while painting, and give the paint the time its label calls for before heavy steam.
+
+## Is Fall a Good Time to Paint Inside?
+
+Yes. Interior painting doesn't depend on dry weather outside, so Bellevue's rainy months are a practical time to take care of rooms that took a beating. Keep the room warm, keep air moving, and plan ventilation around shower use while the new paint dries. Our post on [winter interior painting benefits](/winter-interior-painting-benefits) explains more, and if you're painting a bedroom, see [how long after painting you can sleep in the room](/how-long-after-painting-can-i-sleep-in-the-room).
+
+## DIY or Hire a Pro?
+
+| You can probably DIY | Call a pro |
+|---|---|
+| A few small spots under ten square feet | Damage larger than about ten square feet |
+| Paint is sound, just stained | Paint peeling over large areas |
+| Smooth, intact drywall | Soft, crumbling or water-stained drywall |
+| One small bathroom | High ceilings, stairwells or several rooms |
+| No sign of a leak | Mildew that keeps coming back in the same spot |
+
+If you suspect a leak, call the right trade (roofer, plumber or window specialist) first. A painter's job is to restore the surface after the water problem is solved.
+
+## Why Bellevue Homeowners Choose Arclight
+
+Arclight Painting is veteran-owned and headquartered in Bothell, serving Woodinville, Kenmore, Kirkland, Mill Creek, Redmond, Bellevue and nearby Eastside and north Seattle communities. We're licensed, bonded and insured, and every project comes with:
+
+- **TrueQuote™** fixed-price proposal
+- **PCA™ Quality Inspection**
+- **100% Satisfaction Guarantee**
+- **5-Year FreshStart™ Touch-Up Plan**
+
+Learn more about our work in [Bellevue](/bellevue), or [schedule a visit](/schedule) and we'll look at the rooms giving you trouble.
+
+## External Resources
+
+The facts in this post come from public guidance you can read yourself. Indoor humidity targets, condensation tips, drying times and the advice not to paint over mold come from the U.S. Environmental Protection Agency's A Brief Guide to Mold, Moisture and Your Home and its page on the main ways to control moisture in your home. The ten-square-foot cleanup guideline, the optional bleach mix and the window condensation tip come from the Washington State Department of Health's mold fact sheet. The household moisture figure and bath fan venting advice come from the U.S. Department of Energy's home ventilation guide. The rainy season description comes from the National Weather Service's Climate of Seattle, Washington technical memorandum.
+
+## FAQ: Mildew and Interior Paint in Bellevue
+
+### Can I just paint over mildew with mildew-resistant paint?
+
+No. The EPA and the Washington State Department of Health both say not to paint or caulk over mold. Clean it, dry the surface, fix any damage, and then paint.
+
+### What indoor humidity should I aim for in the winter?
+
+The EPA recommends keeping indoor humidity below 60 percent, ideally between 30 and 50 percent. A simple hygrometer helps you track it.
+
+### Why are my windows wet every morning?
+
+Warm, damp indoor air condenses on cold glass. Lowering humidity, running bath and kitchen fans, and improving windows with storm windows or caulking all help, according to the EPA.
+
+### How big a mildew spot can I clean myself?
+
+The Washington State Department of Health calls an area under about ten square feet small. For more than that, it suggests considering a cleaning professional.
+
+### Does my bathroom fan really matter?
+
+Yes. The EPA recommends running the bathroom fan or opening a window when showering, and the Department of Energy says bathroom vents should lead directly outside, never into the attic.
+
+### Can you paint interior rooms during the rainy season?
+
+Yes. Interior painting doesn't depend on outdoor weather. Keep the room within the paint's listed temperature range and follow its dry and recoat times.
+
+Mildew and peeling paint are frustrating, but they're fixable when you deal with the moisture first and the paint second. If a bathroom, window wall or ceiling in your Bellevue home needs a fresh start this season, [schedule your TrueQuote™](/schedule) and we'll help you get it right.
+`,
+  },
+  {
     slug: "check-painting-contractor-license-insurance-kenmore-wa",
     title: "How to Check a Painting Contractor's License, Bond, and Insurance in Kenmore, WA",
     seoTitle: "Check a Painter's License and Insurance in Kenmore WA",
