@@ -12,6 +12,173 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "winter-interior-painting-lake-forest-park-wa",
+    title: "Winter Interior Painting in Lake Forest Park, WA: What to Know Before You Start",
+    seoTitle: "Winter Interior Painting Tips | Lake Forest Park, WA",
+    excerpt: "Planning to paint inside this winter in Lake Forest Park? Learn the temperature, ventilation, lighting and paint storage tips that help the job go smoothly.",
+    image: "/images/blog/winter-interior-painting-lake-forest-park-wa.webp",
+    date: "2026-10-26",
+    content: `Yes, winter is a fine time to paint inside your Lake Forest Park home, as long as you plan for a few things that are different from summer. The rooms need to stay warm, fresh air has to come in without chilling the house, short gray days change how colors look, and leftover paint needs a spot where it won't freeze. Get those right and a winter project can go just as smoothly as one in July.
+
+![Freshly painted living room in a Pacific Northwest home on a gray winter afternoon, with soft window light and a warm lamp glowing](/images/blog/winter-interior-painting-lake-forest-park-wa.webp)
+
+This guide walks through what to know before [interior painting](/services/interior-painting) starts, so you can plan the rooms, the timing, and your household around the work.
+
+## 1. Keep the Rooms Warm Enough
+
+Paint is made to go on within a set temperature range. The label tells you what it is.
+
+For example, one major paint maker's technical data sheet for a popular interior paint says: "Do not apply when air and surface temperatures are below 50 °F (10 °C)." The same sheet lists a maximum surface temperature of 90 °F.
+
+### Why the Wall Matters, Not Just the Room
+
+That rule covers the **surface**, not only the air. In winter, some spots run colder than the rest of the room:
+
+- **Outside walls**, especially on the north side of the house.
+- **Window frames and sills**, which sit right next to cold glass.
+- **Rooms you keep closed off**, like a guest room or bonus room with the vent turned down.
+
+### What to Do
+
+- **Turn the heat up a day early** in any room you're painting, and keep it on.
+- **Open closed vents** in rarely used rooms.
+- **Keep the heat on overnight** while the paint dries. Don't turn it down to save energy until the job is finished.
+
+## 2. Expect Paint to Dry More Slowly
+
+Dry times on a paint can assume ideal conditions. That same data sheet lists the paint as dry to the touch in 1 hour and ready to recoat in 1 to 2 hours, but those times are measured at 77 °F and 50% relative humidity. It adds: "High humidity and cool temperatures will result in longer dry, recoat and service times."
+
+Pacific Northwest winters are cool and damp, so plan for:
+
+- **More time between coats**, especially on trim and doors.
+- **Rooms out of use a bit longer** than you might expect.
+- **Gentle handling at first.** Don't push furniture against fresh walls or hang art right away.
+
+If your home has damp spots, foggy windows, or bathroom ceilings that get spotty, our guide on [stopping mildew on interior walls](/prevent-mildew-interior-walls-bellevue-wa) explains how to bring humidity down before you paint.
+
+## 3. Plan Fresh Air Without Freezing the House
+
+Ventilation still matters in winter. The EPA's *Healthy Indoor Painting Practices* guide recommends:
+
+- **Using window-mounted box fans** to pull vapors out of the work area.
+- **Keeping windows open, as weather permits, for about 2 to 3 days** after painting.
+- **Taking frequent fresh-air breaks** while painting.
+- **Keeping young children and people with breathing problems** out of freshly painted rooms.
+
+### How to Do It in Cold Weather
+
+The key phrase is "as weather permits." In winter, that usually means:
+
+- **Air out in short bursts** instead of leaving windows wide open all day.
+- **Close the door** to the painted room so the rest of the house stays warm.
+- **Run the heat** while windows are cracked, so the room doesn't drop below the paint's temperature range.
+- **Pick lower-odor paints.** Many interior lines list low VOC (volatile organic compound) levels on the label. For example, the paint maker cited above lists its interior paint's VOC range as under 50 grams per liter.
+
+For more on timing, see [how long after painting you can sleep in the room](/how-long-after-painting-can-i-sleep-in-the-room).
+
+## 4. Choose Colors for Short Winter Days
+
+Winter light changes how paint looks. In Seattle, published sunrise and sunset tables show the sun setting around 4:20 p.m. in December, with about 8 hours and 25 minutes of daylight on December 21, 2026. That means you'll see your new color under lamps and ceiling lights for much of the day.
+
+### Test Under Your Real Lighting
+
+Federal energy-efficiency guidance for buying light bulbs explains that light color is measured in Kelvin (K). Lower numbers give warmer, yellowish light, and higher numbers give cooler, bluer light. The same paint can look quite different under each.
+
+Before you commit:
+
+- **Put up large samples** on more than one wall.
+- **Look at them in the morning, mid-afternoon, and at night** with your usual lights on.
+- **Check your bulbs.** If one room has warm bulbs and the next has cool ones, the same color may not match from room to room.
+
+Our post on [how natural light affects paint color](/how-natural-light-affects-paint-color) goes deeper, and a [color consultation](/services/color-consultation) can help if you're stuck between shades.
+
+### Pick a Sheen That Fits the Room
+
+Winter means more time indoors, more wet boots, and more cooking. Wipeable finishes help in hallways, mudrooms, kitchens, and kids' rooms. Our [interior paint sheen guide](/interior-paint-sheen-guide) explains which finish works best where.
+
+## 5. Get the House Ready
+
+A little prep before painting day keeps the job moving:
+
+1. **Clear small items** off walls, shelves, and tabletops.
+2. **Move furniture** to the center of the room, or out if you can.
+3. **Point out problem spots** like cracks, nail pops, or water stains so they can be fixed first. [Drywall repairs](/services/drywall-repairs) go faster when they're planned from the start.
+4. **Plan for pets and kids.** Decide where they'll stay while rooms are being painted and aired out.
+5. **Think about holidays and guests.** If you're hosting, finish the rooms guests will use first. Our post on [interior painting before the holidays](/holiday-interior-painting-woodinville-wa) has a sample timeline.
+
+## 6. Store Leftover Paint So It Doesn't Freeze
+
+Most homes end up with a few partial cans for touch-ups. In winter, where you keep them matters.
+
+- **Keep paint above freezing.** The paint maker's data sheet cited above says "PROTECT FROM FREEZING" and lists a storage range of 40 °F to 90 °F.
+- **Skip the unheated garage or shed** on cold nights. A heated closet or utility room is safer.
+- **Seal the lid tightly.** The EPA notes that vapors can leak from containers that aren't sealed well.
+- **Label each can** with the room and the date, so touch-ups are easy later.
+
+### Getting Rid of Paint You Don't Need
+
+The EPA suggests buying only what you need. If you do have extra, Washington has a statewide paint recycling program. It started on April 1, 2021, under a state paint stewardship law passed in 2019. The program says most of its drop-off sites take both latex and oil-based paints, stains, and varnishes in their original labeled containers, and every site accepts at least five gallons per customer. Search online for Washington paint recycling drop-off sites to find the nearest one, and call ahead to confirm.
+
+## 7. Know What to Save for Spring
+
+Winter is a great time for inside work. Outside work is a different story. Many exterior paints need the air and surface to stay above 35 °F, plus dry weather while the paint sets. If your siding or trim needs attention, read [can you paint a house exterior in fall or winter](/exterior-painting-fall-winter-bothell-wa) and plan the big outdoor job for the drier months.
+
+Good winter projects inside include:
+
+- **Main living areas and hallways** that took a beating over summer.
+- **Bedrooms and guest rooms**, done one at a time.
+- **Trim and doors**, which can freshen a whole room.
+- **Kitchen cabinets.** See our [cabinet refinishing](/services/cabinet-refinishing) service.
+
+## Why Lake Forest Park Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned company headquartered in Bothell, serving Lake Forest Park, Woodinville, Kenmore, Kirkland, Mill Creek, Redmond, Bellevue, and nearby Eastside and north Seattle communities. We are licensed, bonded, and insured.
+
+Every project starts with a **TrueQuote™ fixed-price proposal**, so you know the cost before work begins. Our **PCA™ Quality Inspection** checks the work before we call it done, and every job is backed by our **100% Satisfaction Guarantee** and **5-Year FreshStart™ Touch-Up Plan**.
+
+Learn more about our work in [Lake Forest Park](/lake-forest-park), or [schedule a visit](/schedule) to plan your winter project.
+
+## External Resources
+
+These are the sources used for this article:
+
+- A major paint maker's technical data sheet and product page for a popular interior paint, for application temperature, dry times, VOC range, and storage.
+- The U.S. Environmental Protection Agency's *Healthy Indoor Painting Practices* guide, for ventilation and leftover paint.
+- Federal energy-efficiency guidance on buying light bulbs, for light color and the Kelvin scale.
+- Published Seattle sunrise and sunset tables for December 2026.
+- The announcement of Washington's statewide paint recycling program.
+- A major paint maker's painting application FAQs, for exterior temperature limits.
+
+## FAQ: Winter Interior Painting in Lake Forest Park
+
+### Can you paint inside a house in winter in Washington?
+
+Yes. Interior painting works well in winter as long as the room and the walls stay within the paint's temperature range. For example, one major paint maker says its popular interior paint should not go on below 50 °F.
+
+### Should I keep the heat on while paint dries?
+
+Yes. Keep the room warm during painting and while the paint dries. Cool temperatures slow drying, and cold outside walls can fall below the paint's minimum temperature.
+
+### Is it okay to open windows in winter after painting?
+
+Yes, in short bursts. The EPA recommends ventilating for about 2 to 3 days after painting, as weather permits. Close the room's door and keep the heat on so the room stays warm.
+
+### Why does paint take longer to dry in winter?
+
+Paint dry times are measured in warm, moderate conditions. Paint makers note that high humidity and cool temperatures lead to longer dry, recoat, and service times.
+
+### Can I store leftover paint in the garage over winter?
+
+It's better not to if the garage gets cold. Paint makers say to protect paint from freezing. One major brand lists a storage range of 40 °F to 90 °F for its interior paint. Keep cans in a heated part of the house.
+
+### How should I pick paint colors in winter?
+
+Test large samples at different times of day under your normal lights. Short winter days mean you'll often see the color under lamps, and warm and cool bulbs can make the same paint look different.
+
+Ready to plan a winter refresh for your Lake Forest Park home? [Schedule your TrueQuote™](/schedule) and we'll help you pick the rooms, the colors, and the timing.
+`,
+  },
+  {
     slug: "prevent-mildew-interior-walls-bellevue-wa",
     title: "How Do You Stop Mildew on Interior Walls During Bellevue's Rainy Season?",
     seoTitle: "Stop Interior Wall Mildew in the Rainy Season | Bellevue WA",
