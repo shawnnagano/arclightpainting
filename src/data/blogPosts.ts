@@ -12,6 +12,144 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "leftover-turkey-cranberry-hand-pies",
+    title: "Leftover Turkey and Cranberry Hand Pies: The Best Part of the Day After Thanksgiving",
+    seoTitle: "Leftover Turkey and Cranberry Hand Pies",
+    excerpt: "Turn Thanksgiving leftovers into golden turkey and cranberry hand pies. Store-bought crust, about 20 minutes of prep, and a fun job for the kids.",
+    image: "/images/blog/leftover-turkey-cranberry-hand-pies.webp",
+    date: "2026-10-27",
+    content: `These leftover turkey and cranberry hand pies turn the day after Thanksgiving into its own little feast. Chopped turkey, a spoonful of stuffing, and a swipe of cranberry sauce get folded into store-bought pie crust and baked until golden. They take about 20 minutes of hands-on time, and they are easy enough for kids to help make.
+
+![Golden turkey and cranberry hand pies on a parchment-lined baking sheet with a small bowl of cranberry sauce on a wooden kitchen counter](/images/blog/leftover-turkey-cranberry-hand-pies.webp)
+
+In our house, the leftovers are half the reason we love Thanksgiving. This year we are [doing Thanksgiving a little differently](/thanksgiving-in-bothell-doing-it-differently), and that includes giving Friday lunch its own tradition. Instead of another plate of reheated everything, everyone gets to build their own hand pie.
+
+## Why This Recipe Works
+
+A hand pie is a full Thanksgiving plate you can hold in one hand.
+
+- **It uses what you already have.** Turkey, stuffing, cranberry sauce, and a little gravy or cream cheese. No extra shopping beyond the crust.
+- **It is fast.** Store-bought refrigerated pie crust does the hard part.
+- **It is kid-friendly.** Kids can roll, fill, fold, and crimp with a fork. Every pie looks a little different, and that is part of the fun.
+- **It is flexible.** Mix and match fillings so everyone gets their favorite bite.
+
+## Ingredients
+
+This recipe makes about 8 hand pies.
+
+**For the hand pies:**
+
+- 2 refrigerated pie crusts (one 14 to 15 ounce box)
+- 1 1/2 cups cooked turkey, chopped small
+- 3/4 cup leftover stuffing
+- 1/3 cup cranberry sauce, plus more for dipping
+- 1/4 cup thick leftover gravy, or 2 ounces softened cream cheese
+- Salt and black pepper, to taste
+- A little flour for the counter
+
+**For the topping:**
+
+- 1 large egg
+- 1 tablespoon water or milk
+- Optional: a pinch of flaky salt, dried thyme, or everything bagel seasoning
+
+## How to Make Leftover Turkey and Cranberry Hand Pies
+
+### 1. Heat the oven
+
+Heat the oven to 400°F. Line a large baking sheet with parchment paper.
+
+### 2. Mix the filling
+
+In a bowl, stir together the turkey, stuffing, and gravy or cream cheese. Taste and add a little salt and pepper. Keep the cranberry sauce separate for now.
+
+The filling should hold together when you press it with a spoon. If it seems dry, add another spoonful of gravy.
+
+### 3. Cut the crust
+
+Unroll the pie crusts on a lightly floured counter. Use a 5-inch bowl or lid as a guide and cut out circles. Gather the scraps, roll them out once more, and cut a few more circles. You should get about 8.
+
+### 4. Fill and fold
+
+Place a heaping spoonful of the turkey filling on one half of each circle, leaving about 1/2 inch of space around the edge. Add about a teaspoon of cranberry sauce on top.
+
+Fold the empty half over the filling to make a half-moon. Press the edges together, then crimp them with a fork so they stay sealed.
+
+**Kid job:** this is the best step for little hands. Too much filling makes the pies burst, so a small spoon helps.
+
+### 5. Brush and vent
+
+Whisk the egg with the water or milk. Brush it over the tops of the pies. Cut one or two small slits in each pie so steam can escape. Sprinkle with flaky salt or thyme if you like.
+
+### 6. Bake
+
+Bake for 18 to 22 minutes, until the crust is deep golden brown and the filling is hot all the way through. Let the pies cool for 5 minutes before eating. The filling will be very hot.
+
+Serve with extra cranberry sauce or warm gravy for dipping.
+
+## Mix-and-Match Filling Ideas
+
+| Filling | What to add |
+|---|---|
+| **Classic** | Turkey, stuffing, cranberry sauce |
+| **Creamy** | Turkey, cream cheese, a pinch of sage |
+| **Mashed potato** | Turkey, mashed potatoes, a little gravy |
+| **Veggie** | Roasted vegetables, stuffing, shredded cheese |
+| **Ham** | Chopped ham, Swiss or cheddar cheese, a little mustard |
+
+## Leftover Food Safety Tips
+
+Hand pies are only as good as the leftovers inside them. A few simple rules from the U.S. food safety guidance at FoodSafety.gov:
+
+- **Refrigerate leftovers within two hours** of cooking.
+- **Use leftovers within three to four days** of the big meal.
+- **Reheat leftovers to 165°F**, measured with a food thermometer.
+- **Freeze for later.** Frozen leftovers are best within 2 to 6 months.
+
+If you are making hand pies on Friday or Saturday, you are well within the window.
+
+## Make-Ahead and Storage Notes
+
+- **Freeze unbaked:** Place assembled, unbaked pies on a tray and freeze until firm. Then move them to a freezer bag. Bake from frozen at 400°F, adding a few extra minutes, until golden and hot in the center.
+- **Store baked pies:** Keep cooled pies in an airtight container in the refrigerator.
+- **Reheat:** Warm them in a 350°F oven or air fryer until heated through, so the crust stays crisp. The microwave works, but the crust will be softer.
+
+## What to Serve With Them
+
+These hand pies make a full lunch with a simple green salad or a bowl of soup. For a cozy weekend menu, pair them with our [One-Pot Chicken and Wild Rice Soup](/one-pot-chicken-wild-rice-soup) and finish with a warm scoop of [Washington Pear and Apple Harvest Crisp](/washington-pear-apple-harvest-crisp).
+
+## A Cozy Home Note From Arclight
+
+The holidays bring people into our homes, and the kitchen and dining room are where everyone ends up. If your walls, trim, or cabinets are looking tired before the next round of guests, our team can help with [interior painting](/services/interior-painting), [cabinet refinishing](/services/cabinet-refinishing), or a quick [Painter for a Day](/services/painter-for-a-day) project.
+
+Arclight Painting is veteran-owned, locally operated, and based in Bothell. We serve families across Bothell, Kirkland, Redmond, Kenmore, Woodinville, Mill Creek, and nearby communities with clear communication and care for the home you live in every day.
+
+## Frequently Asked Questions
+
+### Can I make these with homemade pie crust?
+
+Yes. Any pie dough for a double-crust pie works. Roll it about 1/8 inch thick and cut it the same way.
+
+### Can I use puff pastry instead?
+
+Yes. Puff pastry makes flakier, puffier hand pies. Cut it into squares, fold them into triangles, and bake until deep golden.
+
+### Why did my hand pies leak?
+
+They were probably overfilled or not sealed well. Use a little less filling, leave a clean 1/2-inch edge, and press firmly with a fork. The slits on top also let steam out so the pies do not burst.
+
+### Can I make them without turkey?
+
+Yes. Use leftover ham, chicken, or roasted vegetables with cheese. The method stays the same.
+
+### How long are Thanksgiving leftovers safe to use?
+
+According to FoodSafety.gov, leftovers can be kept in the refrigerator for three to four days. Refrigerate them within two hours of cooking.
+
+The best part of Thanksgiving does not have to end on Thursday. Enjoy the hand pies, and when your home is ready for a refresh before the next gathering, [get your free TrueQuote™ today](/schedule).
+`,
+  },
+  {
     slug: "thanksgiving-in-bothell-doing-it-differently",
     title: "Thanksgiving in Bothell: Doing It a Little Differently This Year",
     seoTitle: "Thanksgiving in Bothell, Done Differently | Arclight Painting",
