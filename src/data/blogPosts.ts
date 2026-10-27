@@ -12,6 +12,84 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "thanksgiving-in-bothell-doing-it-differently",
+    title: "Thanksgiving in Bothell: Doing It a Little Differently This Year",
+    seoTitle: "Thanksgiving in Bothell, Done Differently | Arclight Painting",
+    excerpt: "A personal Bothell Thanksgiving: a thankful wall, a rainy trail walk, kids in the kitchen, an open seat at the table, and one better question to ask.",
+    image: "/images/blog/thanksgiving-in-bothell-doing-it-differently.webp",
+    date: "2026-10-27",
+    content: `Every year, Thanksgiving looks about the same.
+
+And that is part of what we love about it. But this year, we decided to change a few things.
+
+![A warm dining table set for Thanksgiving by a rain-streaked window, with gray November light and wet autumn leaves outside a Pacific Northwest home](/images/blog/thanksgiving-in-bothell-doing-it-differently.webp)
+
+Not the turkey. Not the pie. The big stuff stays. But somewhere between [settling into fall](/fall-in-bothell-coming-home) and the first real November rain, we started asking a simple question at the kitchen table: what if Thanksgiving felt less like one big day and more like a whole month of paying attention?
+
+Here is what we are trying.
+
+## A Thankful Wall in the Hallway
+
+Starting November 1, we are taping a long roll of brown paper down the hallway.
+
+There are no rules. Anyone who walks by can grab a marker and write something down. A name. A moment. A bad joke. One of the kids has already promised to draw the dog. Someone will probably write "the heater works."
+
+By the middle of the month, it will be getting crowded. That is the point.
+
+Going around the table and saying what you are thankful for is a good tradition. But it is hard to sum up a whole year in one sentence while the gravy gets cold. The wall gives everyone a few weeks to notice the small things as they happen. On Thanksgiving Day, we will read it out loud before dinner.
+
+## A Walk in the Rain Before the Oven Goes On
+
+In the Pacific Northwest, Thanksgiving morning is usually gray. Maybe wet. Probably both.
+
+This year we are going anyway.
+
+Before the kitchen takes over, the plan is a slow walk along the Sammamish River Trail. Jackets, boots, and no phones. Just the river, the last of the leaves, and a little quiet before a loud day.
+
+We have learned that the rain is not a reason to stay in. It is just part of living here. And a cold walk makes a warm house feel even warmer when you get back.
+
+## The Kids Own a Dish
+
+In past years, the kitchen on Thanksgiving was mostly an adult zone. Hot oven, sharp knives, a lot of timing.
+
+This year, each kid gets one dish that is theirs. They pick it. They help shop for it. They help make it. They serve it.
+
+It will not be perfect. There may be too much cinnamon. But the pride on their faces when someone asks for seconds is worth more than a perfect plate. One of them has already claimed the [pear and apple crisp](/washington-pear-apple-harvest-crisp) we made back in September.
+
+## An Open Seat at the Table
+
+Not everyone has somewhere to go on Thanksgiving.
+
+A neighbor whose family lives out of state. A coworker who just moved here. A friend who is going through a hard year. People who would never ask for an invitation.
+
+This year, we are setting one extra place on purpose and filling it.
+
+Some of the best people in our lives started out as guests. That is how [the family we choose](/the-family-we-choose) keeps growing. A folding chair and a little more mashed potato is a small price for that.
+
+## One Better Question
+
+"What are you thankful for?" is a good question. But the answers can start to sound the same.
+
+So this year we are adding one more:
+
+**What was hard this year that made you better?**
+
+It is a bigger question. Some answers will be funny. Some might be quiet. But we have found that the hard parts of a year are often where the real gratitude lives. The tough season at work. The move. The injury. The friendship that changed. Looking back, those are usually the things that taught us the most.
+
+## The Same Day, a Little Different
+
+None of this is complicated. Paper and markers. A rainy walk. A kid with a mixing bowl. One more chair. One more question.
+
+Thanksgiving this year falls on November 26. The turkey will still take longer than we planned. Someone will still fall asleep on the couch. The leftovers will still be the best part of Friday.
+
+But we hope this year we notice a little more along the way.
+
+We are thankful for this community. For the neighbors who wave in the rain. For the families who open their doors and let us be part of their homes. And for a town that still feels like home when the days get short.
+
+From our family to yours, happy Thanksgiving.
+`,
+  },
+  {
     slug: "winter-interior-painting-lake-forest-park-wa",
     title: "Winter Interior Painting in Lake Forest Park, WA: What to Know Before You Start",
     seoTitle: "Winter Interior Painting Tips | Lake Forest Park, WA",
