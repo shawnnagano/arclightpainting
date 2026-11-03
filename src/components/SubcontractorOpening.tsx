@@ -26,9 +26,14 @@ const SubcontractorOpening = () => {
       </h3>
       <motion.div id="subcontractor-opening-content" initial={false} animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} className="overflow-hidden" {...(open ? {} : { inert: "" })}>
         <div className="px-6 pb-6 space-y-6 text-muted-foreground leading-relaxed">
-          <div><p className="text-2xl md:text-3xl font-bold text-foreground mb-3">Better painting career? Better boss? <span className="text-accent">Better pay?</span></p><p>Lead with purpose — join Arclight as our next Sub Team Leader!</p></div>
+          <div>
+            <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+              <p className="min-w-0 text-2xl md:text-3xl font-bold text-foreground">Better painting career?<br />Better boss?<br /><span className="text-accent">Better pay?</span></p>
+              <Button asChild className="shrink-0 bg-accent hover:bg-accent/90 text-accent-foreground font-bold"><a href={subcontractorApplicationUrl} target="_blank" rel="noopener noreferrer">Apply Now →</a></Button>
+            </div>
+            <p>Lead with purpose — join Arclight as our next Sub Team Leader!</p>
+          </div>
           {subcontractorOpeningBlocks.map((block, index) => <div key={index} className={!block.heading && block.items ? "pl-6" : undefined}><SubcontractorContent block={block} /></div>)}
-          <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold"><a href={subcontractorApplicationUrl} target="_blank" rel="noopener noreferrer">Apply Now →</a></Button>
         </div>
       </motion.div>
     </motion.div>
