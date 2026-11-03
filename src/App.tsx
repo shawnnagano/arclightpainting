@@ -9,6 +9,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { serviceAreas } from "@/data/serviceAreas";
 import { blogPosts } from "@/data/blogPosts";
+import { canRenderTradeAlliance } from "@/lib/tradeAlliancePreview";
 
 // Eagerly load homepage for fast initial paint
 import Index from "./pages/Index.tsx";
@@ -23,6 +24,7 @@ const ServiceAreaDetail = lazy(() => import("./pages/ServiceAreaDetail.tsx"));
 const BlogPostDetail = lazy(() => import("./pages/BlogPostDetail.tsx"));
 const Blog = lazy(() => import("./pages/Blog.tsx"));
 const JoinOurTeam = lazy(() => import("./pages/JoinOurTeam.tsx"));
+const TradeAlliance = lazy(() => import("./pages/TradeAlliance.tsx"));
 const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy.tsx"));
 const Eula = lazy(() => import("./pages/Eula.tsx"));
 const Mission = lazy(() => import("./pages/Mission.tsx"));
@@ -80,6 +82,7 @@ const App = () => (
               <Route key={post.slug} path={`/${post.slug}`} element={<BlogPostDetail />} />
             ))}
             <Route path="/join-our-team" element={<JoinOurTeam />} />
+            <Route path="/trade-alliance" element={canRenderTradeAlliance(window.location.hostname) ? <TradeAlliance /> : <NotFound />} />
             <Route path="/mission" element={<Mission />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/eula" element={<Eula />} />
