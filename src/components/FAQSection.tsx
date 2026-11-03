@@ -1,6 +1,7 @@
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
-import { Fragment, type ReactNode, useState } from "react";
+import { Fragment, type ReactNode, useId, useState } from "react";
+import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import type { FAQItem } from "@/data/faqData";
 
@@ -74,6 +75,9 @@ const highlightedPhrases = [
 interface FAQSectionProps {
   faqs: FAQItem[];
   heading?: string;
+  subtitle?: string;
+  groups?: { heading: string; faqs: FAQItem[] }[];
+  renderRichAnswer?: (faq: FAQItem) => ReactNode;
 }
 
 const renderAnswer = (answer: string) => {
@@ -139,8 +143,10 @@ const renderAnswer = (answer: string) => {
   return parts;
 };
 
-const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSectionProps) => {
+const FAQSection = ({ faqs, heading = "Frequently Asked Questions", subtitle, groups, renderRichAnswer }: FAQSectionProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const id = useId();
+  const reducedMotion = useReducedMotion();
 
   const toggle = (i: number) => {
     setOpenIndex(openIndex === i ? null : i);
@@ -155,13 +161,16 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSection
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="text-3xl md:text-5xl font-bold text-center mb-12"
+          className={`text-3xl md:text-5xl font-bold text-center ${subtitle ? "mb-4" : "mb-12"}`}
         >
           Frequently Asked <span className="text-accent">Questions</span>
         </motion.h2>
+        {subtitle && <p className="text-center text-muted-foreground mb-12">{subtitle}</p>}
 
         <div className="max-w-4xl mx-auto space-y-3">
           {faqs.map((faq, i) => (
+            <Fragment key={faq.question}>
+              {groups?.some(group => group.faqs[0]?.question === faq.question) && <h3 className="text-sm font-bold uppercase text-muted-foreground pt-6 pb-2">{groups.find(group => group.faqs[0]?.question === faq.question)?.heading}</h3>}
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 10 }}
@@ -169,9 +178,11 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSection
               viewport={{ once: true }}
               transition={{ duration: 0.3, delay: i * 0.04 }}
             >
-              <button
+              <Button variant="ghost"
                 onClick={() => toggle(i)}
-                className="w-full flex items-center justify-between bg-card border border-border rounded-lg px-6 py-5 text-left hover:border-accent/40 transition-colors"
+                aria-expanded={openIndex === i}
+                aria-controls={`${id}-answer-${i}`}
+                className="w-full h-auto whitespace-normal flex items-center justify-between bg-card border border-border rounded-lg px-6 py-5 text-left hover:bg-card hover:text-foreground hover:border-accent/40 transition-colors text-base"
               >
                 <span className="font-semibold text-foreground pr-4">{faq.question}</span>
                 <span className="shrink-0 text-accent">
@@ -181,8 +192,19 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSection
                     <Plus className="h-5 w-5" />
                   )}
                 </span>
-              </button>
-              <div
+              </Button>
+              {groups ? <motion.div
+                id={`${id}-answer-${i}`}
+                initial={false}
+                animate={{ height: openIndex === i ? "auto" : 0, opacity: openIndex === i ? 1 : 0 }}
+                transition={{ duration: reducedMotion ? 0 : 0.3 }}
+                {...(openIndex === i ? {} : { inert: "" })}
+                className="overflow-hidden"
+              >
+                <div className="px-6 py-4 text-muted-foreground leading-relaxed">{renderRichAnswer ? renderRichAnswer(faq) : renderAnswer(faq.answer)}</div>
+              </motion.div> : <div
+                id={`${id}-answer-${i}`}
+                aria-hidden={openIndex !== i}
                 className={`overflow-hidden transition-all duration-300 ${
                   openIndex === i ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
                 }`}
@@ -190,8 +212,9 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions" }: FAQSection
                 <div className="px-6 py-4 text-muted-foreground leading-relaxed">
                   {renderAnswer(faq.answer)}
                 </div>
-              </div>
+              </div>}
             </motion.div>
+            </Fragment>
           ))}
         </div>
       </div>

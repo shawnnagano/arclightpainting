@@ -4,12 +4,13 @@ import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { motion } from "framer-motion";
-import { Linkedin } from "lucide-react";
+import { Eye, Linkedin } from "lucide-react";
 import SEOHead, {
   breadcrumbSchema,
   shawnNaganoSchema,
   jenniferPattisonSchema,
 } from "@/components/SEOHead";
+import vividVisionImg from "@/assets/arclight-painting-vivid-vision-mission.webp";
 import aboutHeroImg from "@/assets/about-us-arclight-painting-bothell-wa.webp";
 import shawnImg from "@/assets/shawn-nagano-owner-arclight-painting.webp";
 import jenniferImg from "@/assets/jennifer-pattison-co-owner-arclight.webp";
@@ -195,8 +196,33 @@ const About = () => {
         </div>
       </section>
 
+        {/* Our Vision */}
+        <section id="vivid-vision" className="py-16 bg-secondary scroll-mt-24">
+          <div className="container mx-auto px-4 max-w-4xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <div className="flex items-center justify-center gap-3 mb-6">
+                <Eye className="h-8 w-8 text-accent" />
+                <h2 className="text-3xl md:text-4xl font-bold">
+                  Our Vivid <span className="text-accent">Vision</span>
+                </h2>
+              </div>
+              <div className="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
+                <img src={vividVisionImg} alt="Arclight Painting Vivid Vision" className="w-full h-auto" loading="lazy" />
+              </div>
+              <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mt-8">
+                We are building a different kind of painting company, one where great people grow into leaders, take real ownership, and do meaningful work that customers can trust. Our vision is to raise the standard in our industry through craftsmanship, strong systems, genuine care for people, and a culture rooted in teamwork, passion, creativity, and above-and-beyond service.
+              </p>
+            </motion.div>
+          </div>
+        </section>
+
       {/* Empowered Leaders */}
-      <section id="our-team" className="py-16 bg-secondary scroll-mt-24">
+      <section id="our-team" className="py-16 bg-background scroll-mt-24">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Empowered <span className="text-accent">Leaders</span>
@@ -237,7 +263,7 @@ const About = () => {
       </section>
 
       {/* Trusted Professionals */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 max-w-4xl">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             What Sets Us Apart as a <span className="text-accent">Painting Company</span>
@@ -258,7 +284,7 @@ const About = () => {
       </section>
 
       {/* Team Leaders */}
-      <section className="py-16 bg-secondary">
+      <section className="py-16 bg-background">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {teamLeaders.map((member) => (
@@ -278,7 +304,7 @@ const About = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-background">
+      <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Ready to <span className="text-accent">Get Started</span>?
