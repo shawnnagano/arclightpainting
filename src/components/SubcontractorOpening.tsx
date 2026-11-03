@@ -24,7 +24,7 @@ const SubcontractorOpening = () => {
           {open ? <Minus className="text-accent shrink-0" /> : <Plus className="text-accent shrink-0" />}
         </Button>
       </h3>
-      <motion.div id="subcontractor-opening-content" initial={false} animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} className="overflow-hidden" inert={open ? undefined : ""}>
+      <motion.div id="subcontractor-opening-content" initial={false} animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} className="overflow-hidden" {...(open ? {} : { inert: "" })}>
         <div className="px-6 pb-6 space-y-6 text-muted-foreground leading-relaxed">
           <div><p className="text-2xl md:text-3xl font-bold text-foreground mb-3">Better painting career? Better boss? <span className="text-accent">Better pay?</span></p><p>Lead with purpose — join Arclight as our next Sub Team Leader!</p></div>
           {subcontractorOpeningBlocks.map((block, index) => <div key={index} className={!block.heading && block.items ? "pl-6" : undefined}><SubcontractorContent block={block} /></div>)}
