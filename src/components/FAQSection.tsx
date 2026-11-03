@@ -1,6 +1,6 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { Plus, Minus } from "lucide-react";
-import { Fragment, type ReactNode, useId, useState } from "react";
+import { type ReactNode, useId, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import type { FAQItem } from "@/data/faqData";
@@ -145,6 +145,7 @@ const renderAnswer = (answer: string) => {
 
 const FAQSection = ({ faqs, heading = "Frequently Asked Questions", subtitle, groups, renderRichAnswer }: FAQSectionProps) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [openGroup, setOpenGroup] = useState<number | null>(null);
   const id = useId();
   const reducedMotion = useReducedMotion();
 
@@ -168,9 +169,32 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions", subtitle, gr
         {subtitle && <p className="text-center text-muted-foreground mb-12">{subtitle}</p>}
 
         <div className="max-w-4xl mx-auto space-y-3">
-          {faqs.map((faq, i) => (
-            <Fragment key={faq.question}>
-              {groups?.some(group => group.faqs[0]?.question === faq.question) && <h3 className="text-sm font-bold uppercase text-muted-foreground pt-6 pb-2">{groups.find(group => group.faqs[0]?.question === faq.question)?.heading}</h3>}
+          {groups ? groups.map((group, groupIndex) => (
+            <div key={group.heading}>
+              <h3>
+                <Button variant="ghost" aria-expanded={openGroup === groupIndex} aria-controls={`${id}-group-${groupIndex}`} onClick={() => { setOpenGroup(openGroup === groupIndex ? null : groupIndex); setOpenIndex(null); }} className="w-full h-auto whitespace-normal flex items-center justify-between bg-card border border-border rounded-lg px-6 py-5 text-left hover:bg-card hover:text-foreground hover:border-accent/40 text-base">
+                  <span className="font-bold text-foreground pr-4">{group.heading}</span>
+                  {openGroup === groupIndex ? <Minus className="text-accent shrink-0" /> : <Plus className="text-accent shrink-0" />}
+                </Button>
+              </h3>
+              <motion.div id={`${id}-group-${groupIndex}`} initial={false} animate={{ height: openGroup === groupIndex ? "auto" : 0, opacity: openGroup === groupIndex ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} {...(openGroup === groupIndex ? {} : { inert: "" })} className="overflow-hidden">
+                <div className="pl-3 md:pl-6 pt-3 space-y-3">
+                  {group.faqs.map(faq => {
+                    const i = faqs.findIndex(item => item.question === faq.question);
+                    return <div key={faq.question}>
+                      <Button variant="ghost" aria-expanded={openIndex === i} aria-controls={`${id}-answer-${i}`} onClick={() => toggle(i)} className="w-full h-auto whitespace-normal flex items-center justify-between bg-card border border-border rounded-lg px-6 py-5 text-left hover:bg-card hover:text-foreground hover:border-accent/40 text-base">
+                        <span className="font-semibold text-foreground pr-4">{faq.question}</span>
+                        {openIndex === i ? <Minus className="text-accent shrink-0" /> : <Plus className="text-accent shrink-0" />}
+                      </Button>
+                      <motion.div id={`${id}-answer-${i}`} initial={false} animate={{ height: openIndex === i ? "auto" : 0, opacity: openIndex === i ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} {...(openIndex === i ? {} : { inert: "" })} className="overflow-hidden">
+                        <div className="px-6 py-4 text-muted-foreground leading-relaxed">{renderRichAnswer ? renderRichAnswer(faq) : renderAnswer(faq.answer)}</div>
+                      </motion.div>
+                    </div>;
+                  })}
+                </div>
+              </motion.div>
+            </div>
+          )) : faqs.map((faq, i) => (
             <motion.div
               key={i}
               initial={{ opacity: 0, y: 10 }}
@@ -193,16 +217,7 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions", subtitle, gr
                   )}
                 </span>
               </Button>
-              {groups ? <motion.div
-                id={`${id}-answer-${i}`}
-                initial={false}
-                animate={{ height: openIndex === i ? "auto" : 0, opacity: openIndex === i ? 1 : 0 }}
-                transition={{ duration: reducedMotion ? 0 : 0.3 }}
-                {...(openIndex === i ? {} : { inert: "" })}
-                className="overflow-hidden"
-              >
-                <div className="px-6 py-4 text-muted-foreground leading-relaxed">{renderRichAnswer ? renderRichAnswer(faq) : renderAnswer(faq.answer)}</div>
-              </motion.div> : <div
+              <div
                 id={`${id}-answer-${i}`}
                 aria-hidden={openIndex !== i}
                 className={`overflow-hidden transition-all duration-300 ${
@@ -212,9 +227,8 @@ const FAQSection = ({ faqs, heading = "Frequently Asked Questions", subtitle, gr
                 <div className="px-6 py-4 text-muted-foreground leading-relaxed">
                   {renderAnswer(faq.answer)}
                 </div>
-              </div>}
+              </div>
             </motion.div>
-            </Fragment>
           ))}
         </div>
       </div>
