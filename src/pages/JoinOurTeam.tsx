@@ -1,11 +1,12 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Eye } from "lucide-react";
-import SEOHead, { breadcrumbSchema } from "@/components/SEOHead";
+import SEOHead, { breadcrumbSchema, faqPageSchema } from "@/components/SEOHead";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 import teamHeroImg from "@/assets/join-painting-team-bothell-wa.webp";
-import vividVisionImg from "@/assets/arclight-painting-vivid-vision-mission.webp";
+import FAQSection from "@/components/FAQSection";
+import SubcontractorOpening, { SubcontractorContent } from "@/components/SubcontractorOpening";
+import { subcontractorFAQGroups } from "@/data/subcontracting";
 
 const openings = [
   {
@@ -58,10 +59,10 @@ const JoinOurTeam = () => {
         title="Join Our Team | Arclight Painting Careers in Bothell, WA"
         description="Join the #1-rated residential painting company in Bothell, WA. We're looking for dedicated painters who share our values of quality craftsmanship and exceptional service."
         canonical="/join-our-team"
-        jsonLd={breadcrumbSchema([
+        jsonLd={[breadcrumbSchema([
           { name: "Home", url: "/" },
           { name: "Join Our Team", url: "/join-our-team" },
-        ])}
+        ]), faqPageSchema(subcontractorFAQGroups.flatMap(group => group.faqs))]}
       />
       <Header />
       <main>
@@ -134,7 +135,7 @@ const JoinOurTeam = () => {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-bold text-foreground mb-10 text-center">Our Openings</h2>
             <div className="space-y-4">
-              {openings.map((job) => (
+              {openings.slice(0, 2).map((job) => (
                 <motion.div
                   key={job.title}
                   initial={{ opacity: 0, y: 10 }}
@@ -153,34 +154,15 @@ const JoinOurTeam = () => {
                   </a>
                 </motion.div>
               ))}
+              <SubcontractorOpening />
             </div>
           </div>
         </section>
 
-        {/* Our Vision */}
-        <section className="py-16 bg-secondary">
-          <div className="container mx-auto px-4 max-w-4xl">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="flex items-center justify-center gap-3 mb-6">
-                <Eye className="h-8 w-8 text-accent" />
-                <h2 className="text-3xl md:text-4xl font-bold">
-                  Our Vivid <span className="text-accent">Vision</span>
-                </h2>
-              </div>
-              <div className="max-w-3xl mx-auto rounded-xl overflow-hidden shadow-lg">
-                <img src={vividVisionImg} alt="Arclight Painting Vivid Vision" className="w-full h-auto" loading="lazy" />
-              </div>
-              <p className="text-lg text-muted-foreground leading-relaxed text-center max-w-3xl mx-auto mt-8">
-                We are building a different kind of painting company, one where great people grow into leaders, take real ownership, and do meaningful work that customers can trust. Our vision is to raise the standard in our industry through craftsmanship, strong systems, genuine care for people, and a culture rooted in teamwork, passion, creativity, and above-and-beyond service.
-              </p>
-            </motion.div>
-          </div>
-        </section>
+        <FAQSection faqs={subcontractorFAQGroups.flatMap(group => group.faqs)} groups={subcontractorFAQGroups} subtitle="About subcontracting with Arclight Painting" renderRichAnswer={faq => {
+          const item = subcontractorFAQGroups.flatMap(group => group.faqs).find(item => item.question === faq.question);
+          return item?.content ? <SubcontractorContent block={item.content} /> : faq.answer;
+        }} />
       </main>
       <Footer />
     </>
