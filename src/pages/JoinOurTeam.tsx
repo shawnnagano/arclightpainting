@@ -8,27 +8,7 @@ import FAQSection from "@/components/FAQSection";
 import SubcontractorOpening, { SubcontractorContent } from "@/components/SubcontractorOpening";
 import { subcontractorFAQGroups } from "@/data/subcontracting";
 import TeamLeaderOpening from "@/components/TeamLeaderOpening";
-
-const openings = [
-  {
-    title: "Professional Team Member Painter",
-    location: "Bothell, WA",
-    salary: "$23.18 – $37.46",
-    applyUrl: "https://link.arclightpainting.com/widget/form/gWvGAtmZ20X3MldL7DVe",
-  },
-  {
-    title: "Professional Team Leader Painter",
-    location: "Bothell, WA",
-    salary: "$36.80 – $48.41",
-    applyUrl: "https://link.arclightpainting.com/widget/form/HbZ0eGzrgHtkFG3k3WuF",
-  },
-  {
-    title: "Professional Subcontracting Painter",
-    location: "Bothell, WA",
-    salary: "$44.94 – $47.36",
-    applyUrl: "https://link.arclightpainting.com/widget/form/Q6xZk6j2VybZl0pnRBxj",
-  },
-];
+import TeamMemberOpening from "@/components/TeamMemberOpening";
 
 const values = [
   {
@@ -136,25 +116,7 @@ const JoinOurTeam = () => {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-bold text-foreground mb-10 text-center">Our Openings</h2>
             <div className="space-y-4">
-              {openings.slice(0, 1).map((job) => (
-                <motion.div
-                  key={job.title}
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  className="bg-secondary rounded-xl p-6 flex flex-col md:flex-row md:items-center justify-between gap-4"
-                >
-                  <div>
-                    <h3 className="text-lg font-bold text-foreground">{job.title}</h3>
-                    <p className="text-muted-foreground text-sm">{job.location} · {job.salary}</p>
-                  </div>
-                  <a href={job.applyUrl} target="_blank" rel="noopener noreferrer">
-                    <Button className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold">
-                      Apply Now →
-                    </Button>
-                  </a>
-                </motion.div>
-              ))}
+              <TeamMemberOpening />
               <TeamLeaderOpening />
               <SubcontractorOpening />
             </div>

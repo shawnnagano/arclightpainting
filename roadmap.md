@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Add the uploaded Team Member posting in a matching dropdown and verify application links and mobile layout.
 - [x] Move Vivid Vision to About and alternate section backgrounds.
 - [x] Add expandable subcontractor opening with approved content.
 - [x] Add grouped subcontractor FAQs and FAQPage schema.
