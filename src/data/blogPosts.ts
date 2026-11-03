@@ -12,6 +12,64 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "mini-pumpkin-pies-thanksgiving-recipe",
+    title: "How to Make Mini Pumpkin Pies for Thanksgiving",
+    seoTitle: "Easy Mini Pumpkin Pies for Thanksgiving | Arclight Painting",
+    excerpt: "Mini pumpkin pies are an easy make-ahead Thanksgiving dessert. Get the ingredient list, step-by-step method and tips from the Arclight Painting team.",
+    image: "/images/blog/mini-pumpkin-pies-thanksgiving-recipe.webp",
+    date: "2026-11-03",
+    content: `After a plate of turkey, stuffing and every side on the table, a full slice of pie can feel like a lot. That's why we love mini pumpkin pies. They have all the flavor of the classic in a size that leaves room for seconds, and you can make them the day before.
+
+![Mini pumpkin pies topped with whipped cream on a Thanksgiving table](/images/blog/mini-pumpkin-pies-thanksgiving-recipe.webp)
+
+This recipe comes from PureWow's collection of mini Thanksgiving desserts. Here's how to make them at home.
+
+## At a Glance
+
+| | |
+|---|---|
+| **Makes** | 12 mini pies |
+| **Prep time** | 20 minutes |
+| **Bake time** | About 1 hour |
+| **Chill time** | At least 2 hours |
+
+## Ingredients
+
+- 1¼ cups pumpkin purée
+- ¾ cup firmly packed dark brown sugar
+- ½ cup heavy cream
+- ¼ cup milk
+- 1 large egg
+- 1 teaspoon cinnamon
+- ½ teaspoon pumpkin pie spice
+- ½ teaspoon kosher salt
+- 2 unbaked pie crusts (homemade or store-bought)
+- Whipped cream, for serving (optional)
+
+## How to Make Them
+
+1. **Mix the filling.** Whisk everything except the crusts and whipped cream together, then put the bowl in the fridge while you prep the crusts.
+2. **Shape the shells.** Heat the oven to 425°F. Cut twelve 4½-inch rounds from the crusts and press them into a muffin tin. Prick the bottoms with a fork, line each with a paper liner and add pie weights or dried beans.
+3. **Pre-bake.** Bake 10 to 12 minutes, lift out the liners and weights, then bake about 5 minutes more. Turn the oven down to 350°F.
+4. **Fill and bake.** Fill each shell to the top and bake 35 to 45 minutes, until the edges are set and the centers barely wobble.
+5. **Cool and chill.** Let them rest in the pan for 10 minutes, cool fully on a rack, then refrigerate at least 2 hours. Top with whipped cream to serve.
+
+## Tips for Thanksgiving Day
+
+- **Bake them the day before.** They need to chill anyway, and it frees up your oven for the turkey.
+- **Store-bought crust is fine.** It saves time and the filling is the star.
+- **Keep them cold.** Store the pies in the fridge until about 30 minutes before dessert.
+
+## Happy Thanksgiving from Arclight
+
+From all of us at Arclight Painting, thank you for being part of our community. We hope your table is full of good food and great company this year.
+
+## Recipe Source
+
+Recipe by Katherine Gillen for PureWow. See the [original Mini Pumpkin Pies recipe on PureWow](https://www.purewow.com/recipes/mini-pumpkin-pies) and their full [list of mini Thanksgiving desserts](https://www.purewow.com/food/mini-thanksgiving-dessert-recipes). Photo: PureWow.
+`,
+  },
+  {
     slug: "leftover-turkey-cranberry-hand-pies",
     title: "Leftover Turkey and Cranberry Hand Pies: The Best Part of the Day After Thanksgiving",
     seoTitle: "Leftover Turkey and Cranberry Hand Pies",
