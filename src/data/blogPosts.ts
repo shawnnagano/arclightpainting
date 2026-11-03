@@ -22,7 +22,7 @@ export const blogPosts: BlogPost[] = [
 
 ![Mini pumpkin pies topped with whipped cream on a Thanksgiving table](/images/blog/mini-pumpkin-pies-thanksgiving-recipe.webp)
 
-This recipe comes from PureWow's collection of mini Thanksgiving desserts. Here's how to make them at home.
+Here's how to make them at home.
 
 ## At a Glance
 
@@ -64,9 +64,6 @@ This recipe comes from PureWow's collection of mini Thanksgiving desserts. Here'
 
 From all of us at Arclight Painting, thank you for being part of our community. We hope your table is full of good food and great company this year.
 
-## Recipe Source
-
-Recipe by Katherine Gillen for PureWow. See the [original Mini Pumpkin Pies recipe on PureWow](https://www.purewow.com/recipes/mini-pumpkin-pies) and their full [list of mini Thanksgiving desserts](https://www.purewow.com/food/mini-thanksgiving-dessert-recipes). Photo: PureWow.
 `,
   },
   {
