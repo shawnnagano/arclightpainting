@@ -18,9 +18,14 @@ const TeamMemberOpening = () => {
       </h3>
       <motion.div id="team-member-opening-content" initial={false} animate={{ height: open ? "auto" : 0, opacity: open ? 1 : 0 }} transition={{ duration: reducedMotion ? 0 : 0.3 }} className="overflow-hidden" {...(open ? {} : { inert: "" })}>
         <div className="px-6 pb-6 space-y-6 text-muted-foreground leading-relaxed">
-          <div><p className="text-2xl md:text-3xl font-bold text-foreground mb-3">BETTER PAINTING CAREER?<br />BETTER BOSS?<br /><span className="text-accent">BETTER PAY?</span></p><p>GROW WITH PURPOSE — Join Arclight as Our Next TEAM MEMBER!</p></div>
+          <div>
+            <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
+              <p className="min-w-0 text-2xl md:text-3xl font-bold text-foreground">BETTER PAINTING CAREER?<br />BETTER BOSS?<br /><span className="text-accent">BETTER PAY?</span></p>
+              <Button asChild className="shrink-0 bg-accent hover:bg-accent/90 text-accent-foreground font-bold"><a href={teamMemberApplicationUrl} target="_blank" rel="noopener noreferrer">Apply Now →</a></Button>
+            </div>
+            <p>GROW WITH PURPOSE — Join Arclight as Our Next TEAM MEMBER!</p>
+          </div>
           {teamMemberOpeningBlocks.map((block, index) => <SubcontractorContent key={index} block={block} />)}
-          <Button asChild className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold"><a href={teamMemberApplicationUrl} target="_blank" rel="noopener noreferrer">Apply Now →</a></Button>
         </div>
       </motion.div>
     </motion.div>
