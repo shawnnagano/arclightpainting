@@ -7,6 +7,7 @@ import teamHeroImg from "@/assets/join-painting-team-bothell-wa.webp";
 import FAQSection from "@/components/FAQSection";
 import SubcontractorOpening, { SubcontractorContent } from "@/components/SubcontractorOpening";
 import { subcontractorFAQGroups } from "@/data/subcontracting";
+import TeamLeaderOpening from "@/components/TeamLeaderOpening";
 
 const openings = [
   {
@@ -135,7 +136,7 @@ const JoinOurTeam = () => {
           <div className="container mx-auto px-4 max-w-4xl">
             <h2 className="text-3xl font-bold text-foreground mb-10 text-center">Our Openings</h2>
             <div className="space-y-4">
-              {openings.slice(0, 2).map((job) => (
+              {openings.slice(0, 1).map((job) => (
                 <motion.div
                   key={job.title}
                   initial={{ opacity: 0, y: 10 }}
@@ -154,6 +155,7 @@ const JoinOurTeam = () => {
                   </a>
                 </motion.div>
               ))}
+              <TeamLeaderOpening />
               <SubcontractorOpening />
             </div>
           </div>
