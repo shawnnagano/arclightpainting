@@ -28,7 +28,7 @@ const SubcontractorOpening = () => {
         <div className="px-6 pb-6 space-y-6 text-muted-foreground leading-relaxed">
           <div>
             <div className="flex flex-wrap items-start justify-between gap-4 mb-3">
-              <p className="min-w-0 text-2xl md:text-3xl font-bold text-foreground">Better painting career?<br />Better boss?<br /><span className="text-accent">Better pay?</span></p>
+              <p className="min-w-0 text-2xl md:text-3xl font-bold text-foreground">BETTER PAINTING CAREER?<br />BETTER BOSS?<br /><span className="text-accent">BETTER PAY?</span></p>
               <Button asChild className="shrink-0 bg-accent hover:bg-accent/90 text-accent-foreground font-bold"><a href={subcontractorApplicationUrl} target="_blank" rel="noopener noreferrer">Apply Now →</a></Button>
             </div>
             <p>Lead with purpose — join Arclight as our next Sub Team Leader!</p>

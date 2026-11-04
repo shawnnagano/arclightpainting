@@ -18,7 +18,6 @@ export const teamMemberOpeningBlocks: ContentBlock[] = [
       "FRIENDS: You treat customers with care and respect, as if they were close friends trusting you with their home.",
       "OWNERSHIP: You take pride in your part of every job and follow the plan your Team Leader sets, so the crew can focus on quality work without confusion.",
       "HONESTY: You work with integrity, track your time and progress openly and own your results. No drama, no blame.",
-      "CREATIVITY: You stay flexible and look for smart ways to keep things moving when plans change.",
       "PASSION: You bring energy and purpose to every job, knowing that your excellence brings peace of mind to customers and teammates.",
     ],
   },
