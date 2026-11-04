@@ -9,8 +9,7 @@ export const teamLeaderOpeningBlocks: ContentBlock[] = [
       "FAMILY: You work shoulder-to-shoulder with your team and leadership to ensure everyone is safe, supported, and set up to win every day. You lead by example and build strong bonds.",
       "FRIENDS: You treat customers with care and respect as if they were close friends trusting you with their home.",
       "OWNERSHIP: You take full ownership of your job site and make responsible decisions to move projects forward without needing constant oversight.",
-      "HONESTY: You communicate clearly, set realistic expectations, and take immediate action when problems arise, owning both mistakes and successes.",
-      "CREATIVITY: You think ahead, solve problems with smart solutions, and look for ways to improve systems and results without being told."
+      "HONESTY: You communicate clearly, set realistic expectations, and take immediate action when problems arise, owning both mistakes and successes."
     ]
   },
   {

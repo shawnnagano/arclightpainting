@@ -24,7 +24,6 @@ export const subcontractorOpeningBlocks: ContentBlock[] = [
     "Friends: You treat customers with care and respect as if they were close friends trusting you with their home.",
     "Ownership: You take full ownership of your job site and make responsible decisions to move projects forward without needing constant oversight.",
     "Honesty: You communicate clearly, set realistic expectations, and take immediate action when problems arise, owning both mistakes and successes.",
-    "Creativity: You think ahead, solve problems with smart solutions, and look for ways to improve systems and results without being told.",
   ] },
   { heading: "WHAT YOU'RE EXPECTED TO DELIVER" },
   { heading: "Safety", items: ["Follow and enforce all safety policies and directives", "Conduct risk assessments and weekly tailgate trainings", "Lead by example in maintaining safe, compliant job sites"] },
