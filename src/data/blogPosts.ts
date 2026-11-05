@@ -12,6 +12,163 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "asbestos-abatement-before-painting-seattle-wa",
+    title: "Asbestos Abatement Before Painting in Seattle, WA: What Homeowners Need to Know",
+    seoTitle: "Asbestos Abatement Before Painting Seattle WA",
+    excerpt: "Planning to paint, patch or remove a popcorn ceiling in Seattle? Learn when asbestos testing and abatement come first and how to plan the job safely.",
+    image: "/images/blog/asbestos-abatement-before-painting-seattle-wa.webp",
+    date: "2026-11-06",
+    content: `If your Seattle painting project will sand, scrape, cut or remove older ceilings, walls or texture, asbestos testing should come before any paint. If the test finds asbestos in material that will be disturbed, a certified asbestos contractor needs to remove or handle it first. Only then should the painters start. Undamaged material that will not be touched can usually be left alone. Here is how to tell which situation you are in, what Washington requires, and how to line up testing, abatement and painting so your project stays safe and on schedule.
+
+![Older Seattle home interior with a textured ceiling and plastic-sheeted doorway ready for testing before painting, soft winter daylight](/images/blog/asbestos-abatement-before-painting-seattle-wa.webp)
+
+Most [interior painting](/services/interior-painting) jobs never touch asbestos. But some of the projects homeowners ask about most, like popcorn ceiling removal, big drywall repairs, and smoothing out old textured walls, can disturb materials that may contain it. Planning for that up front avoids surprises, delays and fines.
+
+## What Asbestos Is and Where It Hides
+
+Asbestos is a mineral fiber that was used in many building products for years. The U.S. Environmental Protection Agency (EPA) lists textured paint and patching compounds used on walls and ceilings among the places asbestos may be found.
+
+### Materials That Matter for Painting Projects
+
+**Popcorn and other textured ceilings.** These are the most common concern when a painting project includes texture removal.
+
+**Older drywall joint compound and patching.** Sanding old seams or patches can disturb what is in them.
+
+**Textured wall finishes.** Skim coating or scraping old texture can disturb the original material.
+
+**Other building materials** such as old flooring or roofing are outside most painting jobs, but they matter if your project is part of a larger remodel.
+
+### You Cannot Tell by Looking
+
+The EPA says you generally cannot tell whether a material contains asbestos just by looking at it, unless it is labeled. If in doubt, the EPA advises treating the material as if it contains asbestos and leaving it alone until it is tested.
+
+## When Asbestos Is a Hazard
+
+Asbestos is mainly a problem when it is disturbed. According to the EPA, exposure may occur only when asbestos-containing material is disturbed or damaged in a way that releases particles and fibers into the air.
+
+The EPA lists ways that can happen. Materials may release fibers when they are disturbed, damaged, removed improperly, repaired, cut, torn, sanded, sawed, drilled or scraped. Several of those are normal steps in painting prep, which is why testing matters before the work starts.
+
+The EPA names three major health effects linked to asbestos exposure:
+
+- **Lung cancer.**
+- **Mesothelioma**, a rare cancer of the thin lining of the lung, chest, abdomen and heart.
+- **Asbestosis**, a serious, progressive, long-term lung disease.
+
+The EPA also says that if building materials in your home are not damaged and will not be disturbed, you do not need to have your home tested for asbestos.
+
+## What Washington Requires Before Work Starts
+
+Washington State's Department of Labor & Industries (L&I) sets the rules for asbestos and construction work in our state.
+
+### Good Faith Inspection
+
+L&I says that before any construction, renovation, remodeling, maintenance, repair or demolition project, homeowners, building owners and contractors must have a good faith inspection for asbestos on the materials that could be disturbed. L&I says these inspections must be done by an accredited inspector, such as an AHERA Building Inspector. AHERA is the federal asbestos training standard for inspectors.
+
+L&I also says work should not start until a copy of the inspection results has been provided. If an inspection is not provided before work starts, both the contractor and the property owner may be cited. L&I lists a fine of $600 a day for work done without an AHERA Building Inspector testing for asbestos, or for not sharing the results with contractors and workers who could be exposed.
+
+### The Homeowner Exception
+
+L&I notes that if you are doing work yourself in your own home that is not used for commercial purposes, you are exempt from the general survey requirements. However, you must still give relevant information to any contractors and workers you bring in. In other words, once you hire a painter, the painter needs to know what is in the materials they will disturb.
+
+### Certified Abatement
+
+If asbestos is found in material that will be disturbed, L&I says contractors and workers must be trained and certified to work with asbestos. A painting company is not an asbestos abatement contractor, and neither are most general handymen. Abatement is its own specialty.
+
+| Situation | What Usually Happens |
+|---|---|
+| Painting only, no sanding or scraping of old texture | Testing often not needed if materials are undamaged and will not be disturbed |
+| Popcorn ceiling removal or texture scraping | Test first. If positive, certified abatement before any painting |
+| Large drywall repairs in older walls or ceilings | Test the materials being cut or sanded |
+| Damaged or crumbling older ceiling texture | Leave it alone and have it tested |
+
+## How Testing, Abatement and Painting Fit Together
+
+Here is the order we recommend for Seattle homeowners planning a project that may disturb older materials.
+
+1. **Tell your painter what the project includes.** Removing texture, cutting drywall and heavy sanding change the plan.
+2. **Get a good faith inspection.** An accredited inspector takes samples of the materials that will be disturbed and documents the results.
+3. **Share the results with your contractors.** Washington requires this, and it protects the crew and your family.
+4. **If asbestos is found, schedule certified abatement.** The abatement contractor removes or handles the material under the proper controls.
+5. **Then schedule repairs and painting.** Once the area is cleared, our team can handle [drywall repairs](/services/drywall-repairs), ceiling refinishing and painting.
+
+If the test comes back negative, you can move straight to the work. For ceilings that test clear, our [popcorn ceiling removal](/services/popcorn-ceiling-removal) service takes the texture down, and our post on [popcorn ceiling removal cost](/popcorn-ceiling-removal-cost-bothell-wa) explains what goes into pricing. Once the ceiling is smooth, our guide to [ceiling painting](/ceiling-painting-everett-wa) covers the finish.
+
+### What Not to Do
+
+The EPA's guidance is clear on a few things to avoid:
+
+- **Do not saw, sand, scrape or drill** into materials that may contain asbestos.
+- **Do not dust, sweep or vacuum** debris that may contain asbestos.
+- **Do leave undamaged asbestos-containing materials alone.**
+
+The EPA also notes that federal law does not require people who inspect, repair or remove asbestos in detached single-family homes to be trained and accredited, but some states and localities do, and Washington is one of them. For safety, the EPA says homeowners should make sure the workers they hire to handle asbestos are trained and accredited.
+
+## A Local Asbestos Partner We Recommend
+
+When a project needs testing or abatement, we point homeowners to [Asbestos Removal of Puget Sound](https://asbestosremovalofpugetsound.com/).
+
+Tina Page opened the company in 2018. According to the company's website, she has worked around asbestos since 2006, became certified to do asbestos inspections in 2012, and has performed asbestos and lead inspections since then. She still works in the field as well as the office.
+
+According to its website, Asbestos Removal of Puget Sound:
+
+- **Is woman-owned**, small and local.
+- **Describes itself as state-licensed and AHERA certified.**
+- **Offers asbestos surveys and sampling**, including samples of drywall, popcorn texture and roofing.
+- **Offers lead testing and inspections**, which can matter on older homes before a remodel.
+- **Handles removal** with full containment, negative pressure and HEPA disposal.
+- **Serves King, Snohomish and Pierce counties.**
+
+You can reach the team through the contact page on their website or by phone at (206) 786-6667. Having test results and any abatement finished before our crew arrives keeps the painting part of your project simple.
+
+## Why Seattle Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned company headquartered in Bothell, serving Seattle, Woodinville, Kenmore, Kirkland, Mill Creek, Redmond, Bellevue and nearby Eastside and north Seattle communities. We are licensed, bonded and insured. If you want to check any contractor before you hire, our post on [checking a painting contractor's license, bond and insurance](/check-painting-contractor-license-insurance-kenmore-wa) walks you through it.
+
+**TrueQuote™ fixed-price proposal.** You know the price before work starts.
+
+**PCA™ Quality Inspection.** Every job is checked before we call it done.
+
+**100% Satisfaction Guarantee.** If something is not right, we make it right.
+
+**5-Year FreshStart™ Touch-Up Plan.** Help keeping your paint looking fresh after the job.
+
+Learn more about our work in [Seattle](/seattle), or [schedule your estimate](/schedule) and tell us if your project includes texture removal or older ceilings, so we can plan the right order of work.
+
+## External Resources
+
+The U.S. Environmental Protection Agency explains where asbestos may be found in homes, when it becomes a hazard, and what to do and not do in its pages on learning about asbestos and protecting your family from exposure. Washington State Department of Labor & Industries explains good faith inspections, certification for asbestos contractors and workers, and the homeowner exception on its asbestos safety page. Asbestos Removal of Puget Sound describes its testing, lead inspection and removal services on its website.
+
+## FAQ: Asbestos Abatement Before Painting in Seattle, WA
+
+### Do I need an asbestos test before painting my house?
+
+Not always. If the materials are undamaged and the job will not disturb them, the EPA says testing is not needed. If the project will sand, scrape, cut or remove older ceilings, walls or texture, get a good faith inspection first.
+
+### Can I paint over a popcorn ceiling that might contain asbestos?
+
+Painting over it does not remove the material. If you plan to remove or scrape the texture at any point, test it first. Talk with your painter and an asbestos professional before deciding.
+
+### Who can do an asbestos inspection in Washington?
+
+L&I says good faith inspections must be done by an accredited inspector, such as an AHERA Building Inspector.
+
+### Can a painter remove asbestos?
+
+No, not unless they are a certified asbestos contractor. L&I requires contractors and workers to be trained and certified to work with asbestos. Most painting companies, including ours, bring in an abatement specialist and paint after the area is cleared.
+
+### What happens if work starts without an asbestos inspection?
+
+L&I says both the contractor and the property owner may be cited, and it lists fines of $600 a day for work done without the required testing or without sharing the results.
+
+### How do I schedule testing, abatement and painting together?
+
+Start with the inspection, then abatement if needed, then repairs and paint. Let us know about the test results when you request your quote, and we will plan the painting around the abatement schedule.
+
+An older home can still get a fresh, smooth, modern finish. It just needs the right steps in the right order. When your ceilings and walls are cleared and ready, [schedule your TrueQuote™](/schedule) and we will take it from there.
+
+`,
+  },
+  {
     slug: "ceiling-painting-everett-wa",
     title: "Ceiling Painting in Everett, WA: How to Fix Stains and Refresh a Tired Ceiling",
     seoTitle: "Ceiling Painting Everett WA: Stains, Prep and Finish",
