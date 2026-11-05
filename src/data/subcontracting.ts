@@ -54,7 +54,7 @@ const specialtyItems = ["Drywall repair and installation", "Popcorn ceiling remo
 const documentItems = ["Business license information", "Proof of insurance and a Certificate of Insurance (COI) naming Arclight Painting as an additional insured", "W-9 form", "Subcontractor agreement", "References from previous customers", "Background check and relevant skills assessment"];
 const applicationLinks = [
   { label: "Painting Subcontractor Application", href: subcontractorApplicationUrl },
-  { label: "Specialty Subcontractor Application", href: "https://docs.google.com/forms/d/e/1FAIpQLSdXXhxWGcYbv2Jef0geVv3_nv03_bhGJyk7jsYYDWBH7EU8Vw/viewform" },
+  { label: "Specialty Subcontractor Application", href: "https://link.arclightpainting.com/widget/form/ygJUMoN8RQmpqR7NysKp" },
 ];
 
 export const subcontractorFAQGroups: SubcontractorFAQGroup[] = [
