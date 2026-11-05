@@ -1,21 +1,27 @@
-# Everett ceiling-painting blog banner (image only)
+# Seattle asbestos-abatement blog banner (image only)
 
-Confirmed: `public/images/blog/ceiling-painting-everett-wa.webp` does not exist yet.
+Checked: `public/images/blog/asbestos-abatement-before-painting-seattle-wa.webp` does not exist yet.
 
-## What will be created
-One new photo-style banner: a living room in an Everett-area home in late autumn or early winter.
-- Low camera angle so the freshly painted, bright white, smooth flat ceiling fills most of the frame.
-- A clean, crisp line where the ceiling meets soft neutral walls.
-- A roller on an extension pole leaning in a corner and a neat drop cloth on part of the floor.
-- Soft, cool, overcast daylight through tall windows, with evergreens and a gray sky outside.
-- No text, numbers, logos, brands, people, or holiday decorations.
+## What gets made
+One new file: `public/images/blog/asbestos-abatement-before-painting-seattle-wa.webp`, 1600×900 WebP, under 250 KB.
 
-## Checks before finishing
-- Look over the image for any text, logos, people, or decorations, and regenerate if any show up.
-- Confirm it is 1600×900 WebP, under 250 KB, with quality of at least 60.
-- Confirm the new image is the only project change. It won't be added to any post, and nothing will be published.
+## Image
+- Photorealistic interior of an older mid-century Seattle-area home, late autumn / early winter
+- Room has an older popcorn-style ceiling and no furniture. The doorway is sealed with clear plastic sheeting and tape, so the room looks prepared and contained
+- Calm, clean, professional feel. Nothing scary or dirty
+- Soft, cool overcast daylight through a window, with evergreens and a gray sky outside
+- No people or faces, hazmat suits, readable text, numbers, warning signs, labels, logos, brand names, government seals or holiday decorations
+
+## Checks
+- Look at the result for anything banned (text, signs, logos, people) and regenerate if any appear
+- Confirm the size is exactly 1600×900, the file is WebP, and it is under 250 KB
+- Confirm this new image is the only changed file
+
+## Not changing
+blogPosts.ts, sitemap, robots.txt, redirects, llms.txt, SEO scripts, or any existing images or code. No publishing.
+
+## Note
+The image is AI-generated, same as the Everett banner, because no project photo exists for this post.
 
 ## Technical details
-- Generate the image to /tmp first, then convert it with PIL (LANCZOS resize/crop to 1600×900, WebP quality 75, lowering the quality only if needed to stay under 250 KB) and save it to the target path.
-- Check scope with `git status`. Only the new file should show.
-- Note: this is an AI-generated image. Saved project rules allow AI images only as blog thumbnail fallbacks, so please confirm this use is OK.
+Generate at 1600×900 with the standard image tier, convert to WebP with PIL (quality around 80, lowered if needed to stay under 250 KB), then run `git status` to confirm scope.
