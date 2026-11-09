@@ -160,12 +160,16 @@ export default function TradeAlliance() {
       </section>
 
       <section className="border-b border-border bg-secondary py-10">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div><h2 className="text-2xl font-bold">Rooted Here. <span className="text-accent">Trusted Here.</span></h2><p className="mt-2 text-sm text-muted-foreground">Arclight Painting · Veteran-owned. Community-minded.</p></div>
-          <div className="flex flex-wrap justify-center items-center gap-8">
-            <img src="/images/bbb-accredited-business-badge.webp" alt="Arclight Painting: BBB Accredited Business" loading="lazy" className="h-16 w-24 object-contain" />
-            <img src="/images/bothell-kenmore-chamber-of-commerce-logo.webp" alt="Arclight Painting: Bothell-Kenmore Chamber member" loading="lazy" className="h-16 w-28 object-contain" />
-            <img src={veteranBadge} alt="Arclight Painting: SBA-certified veteran-owned business" loading="lazy" className="h-16 w-24 object-contain" />
+          <div className="flex flex-wrap justify-center items-center gap-4">
+            {[
+              { src: "/images/bbb-accredited-business-badge.webp", alt: "Arclight Painting: BBB Accredited Business" },
+              { src: "/images/bothell-kenmore-chamber-of-commerce-logo.webp", alt: "Arclight Painting: Bothell-Kenmore Chamber member" },
+              { src: veteranBadge, alt: "Arclight Painting: SBA-certified veteran-owned business" },
+            ].map(badge => <div key={badge.alt} className="flex h-32 w-44 items-center justify-center rounded-lg border border-border bg-card p-4 shadow-sm">
+              <img src={badge.src} alt={badge.alt} loading="lazy" className="h-24 w-36 object-contain" />
+            </div>)}
           </div>
         </div>
       </section>
