@@ -1,5 +1,5 @@
 # Tasks
-- [ ] Add a light brand background to Rooted Here and hide incomplete directory companies; verify visible letter navigation while keeping the page draft-only.
+- [x] Add a light brand background to Rooted Here and hide incomplete directory companies; verify visible letter navigation while keeping the page draft-only.
 - [x] Move the Trade Alliance directory after the form, add alphabetical expandable tiles and letter navigation, and check desktop/mobile without publishing.
 - [ ] Complete missing partner branding: awaiting logos for AK Electric, M&I Painting, Power Electric, Riverside Roofing, Sound Gutter and Roofing Co, and West Coast Wallcovering; awaiting the confirmed official website and description for Power Electric.
 - [x] Capitalize the subcontractor career headline and remove Creativity from all three openings.
