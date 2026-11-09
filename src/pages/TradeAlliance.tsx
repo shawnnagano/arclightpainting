@@ -1,7 +1,8 @@
 import { useEffect, useState, type FormEvent } from "react";
 import { Helmet } from "react-helmet-async";
 import { z } from "zod";
-import { ArrowRight, BadgePercent, CheckCircle2, ClipboardList, Handshake, Home, House, PaintRoller, PanelsTopLeft, ShieldCheck, Wrench, Zap } from "lucide-react";
+import { ArrowRight, BadgePercent, CheckCircle2, ClipboardList, Handshake, Home, ShieldCheck } from "lucide-react";
+import TradeAllianceDirectory from "@/components/TradeAllianceDirectory";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -33,14 +34,6 @@ const steps = [
   { icon: ClipboardList, title: "Tell Us What You Need", text: "Pick the service and share a few details about your project." },
   { icon: Handshake, title: "We Connect You", text: "We introduce you to the right Alliance partner, usually within 2 business days." },
   { icon: BadgePercent, title: "Save 5%", text: "Mention the Arclight Trade Alliance when you hire them." },
-];
-const trades = [
-  { name: "Roofing", icon: House, photo: exteriorPhoto, alt: "Rooflines of an Arclight-painted Craftsman home", text: "Keep your home protected, from the top down.", partners: ["Sound Gutter and Roofing Co (Bothell)", "Riverside Roofing (Marysville)", "Three Tree Roofing (Kent)", "Do It Right Roofing (Tacoma)", "Rock Roofing (Bothell)", "Squatch Roofing (Woodinville)"] },
-  { name: "Electrical", icon: Zap, text: "Power your next project with a trusted local electrician.", partners: ["AK Electric (Lake Forest Park)", "Power Electric (Bothell)", "Hello Electric (Bothell)"] },
-  { name: "General Contracting & Remodeling", icon: Wrench, photo: "/images/cabinet-refinishing-project-bothell.webp", alt: "Cabinet finishes from an existing Arclight project", text: "Bring your bigger home plans to life with the right team.", partners: ["Zee Construction", "Perdue Builders", "M&I Painting (Greater Seattle area / Lynnwood)"] },
-  { name: "Gutters", icon: House, photo: "/images/house-painting-service-bothell-wa.webp", alt: "Exterior and gutters of a local home from the Arclight photo collection", text: "Help rainwater go where it belongs—not into your home.", partners: ["Sound Gutter and Roofing Co (Bothell)"] },
-  { name: "Drywall", icon: PanelsTopLeft, photo: "/images/drywall-repair-project-bothell-wa.webp", alt: "Arclight crew member finishing an interior wall", text: "Smooth walls and a fresh start for your space.", partners: ["PNW Drywall Finishing & Painting (Bothell)"] },
-  { name: "Wallpaper & Wallcovering", icon: PaintRoller, text: "Add personality to your walls with a careful, polished finish.", partners: ["West Coast Wallcovering (Bothell)"] },
 ];
 const schema = z.object({
   name: z.string().trim().min(1, "Full name is required").max(100),
@@ -167,22 +160,6 @@ export default function TradeAlliance() {
         </div>
       </section>
 
-      <section className="bg-secondary py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="mb-4 text-center text-3xl md:text-4xl font-bold">Meet the Trades <span className="text-accent">in Our Alliance</span></h2>
-          <p className="mb-10 text-center text-muted-foreground">Local people. Trusted connections. A team for the home you love.</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {trades.map(({ name, icon: Icon, photo, alt, text, partners }) => <article key={name} className="overflow-hidden rounded-lg border border-border bg-card">
-              <div className="aspect-[16/10] relative bg-muted">
-                {photo ? <><img src={photo} alt={alt} loading="lazy" className="h-full w-full object-cover" /><span className="absolute bottom-3 left-3 rounded bg-background/95 px-2 py-1 text-xs text-muted-foreground">From the Arclight photo collection</span></> : <div className="flex h-full flex-col items-center justify-center gap-4 border-b border-border bg-accent/5"><Icon className="h-14 w-14 text-accent" /><p className="text-sm text-muted-foreground">Partner photo coming soon</p></div>}
-              </div>
-              <div className="p-6"><h3 className="mb-2 text-2xl font-bold">{name}</h3><p className="mb-5 text-sm text-muted-foreground leading-relaxed">{text}</p><ul className="space-y-1.5 text-xs text-muted-foreground leading-relaxed">{partners.map(partner => <li key={partner}>{partner}</li>)}</ul></div>
-            </article>)}
-          </div>
-          <p className="mt-6 text-center text-xs text-muted-foreground">[DRAFT - partner listing and photos pending each partner's approval]</p>
-        </div>
-      </section>
-
       <section className="border-b border-border py-10">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
           <div><h2 className="text-2xl font-bold">Rooted Here. <span className="text-accent">Trusted Here.</span></h2><p className="mt-2 text-sm text-muted-foreground">Arclight Painting · Veteran-owned. Community-minded.</p></div>
@@ -205,7 +182,9 @@ export default function TradeAlliance() {
         </div>
       </section>
 
-      <section className="bg-secondary py-12"><div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12"><h2 className="text-3xl md:text-4xl font-bold text-center">Good people know <span className="text-accent">good people.</span></h2><FindButton /></div></section>
+      <TradeAllianceDirectory />
+
+      <section className="py-12"><div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12"><h2 className="text-3xl md:text-4xl font-bold text-center">Good people know <span className="text-accent">good people.</span></h2><FindButton /></div></section>
     </main>
     <Footer />
   </div>;

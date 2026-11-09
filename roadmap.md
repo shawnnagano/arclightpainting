@@ -1,4 +1,6 @@
 # Tasks
+- [x] Move the Trade Alliance directory after the form, add alphabetical expandable tiles and letter navigation, and check desktop/mobile without publishing.
+- [ ] Complete missing partner branding: awaiting logos for AK Electric, M&I Painting, Power Electric, Riverside Roofing, Sound Gutter and Roofing Co, and West Coast Wallcovering; awaiting the confirmed official website and description for Power Electric.
 - [x] Capitalize the subcontractor career headline and remove Creativity from all three openings.
 - [x] Add the supplied Trade Alliance draft with a tested preview-only gate, verify images/form/layout and unchanged sitemap, and do not publish.
 - [x] Move all three careers Apply Now buttons opposite their opening headlines and verify placement.
