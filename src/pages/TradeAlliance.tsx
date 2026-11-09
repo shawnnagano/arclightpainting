@@ -21,7 +21,6 @@ const GHL_FORM_SRC = `https://link.arclightpainting.com/widget/form/${GHL_FORM_I
 const GHL_EMBED_SCRIPT = "https://link.arclightpainting.com/js/form_embed.js";
 
 const savings = "Save 5% when you hire an Arclight Trade Alliance partner.";
-const discountDraft = "[DRAFT - discount terms pending approval]";
 const services = ["Roofing", "Electrical", "General Contracting / Remodeling", "Gutters", "Drywall", "Wallpaper / Wallcovering", "Other / Not sure"] as const;
 const timingOptions = ["As soon as possible", "Within 1 month", "1-3 months", "Just planning"] as const;
 const benefits = [
@@ -138,7 +137,7 @@ export default function TradeAlliance() {
       <section className="border-y border-accent/25 bg-accent/5 py-6">
         <div className="container mx-auto px-4 flex items-center justify-center gap-4">
           <BadgePercent className="h-10 w-10 shrink-0 text-accent" />
-          <div><p className="text-lg md:text-xl font-bold">Save <span className="text-accent">5%</span> when you hire an Arclight Trade Alliance partner.</p><p className="mt-1 text-xs text-muted-foreground">{discountDraft}</p></div>
+          <div><p className="text-lg md:text-xl font-bold">Save <span className="text-accent">5%</span> when you hire an Arclight Trade Alliance partner.</p></div>
         </div>
       </section>
 
@@ -174,7 +173,7 @@ export default function TradeAlliance() {
       <section id="find-a-pro" className="scroll-mt-32 py-16">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 items-start">
-            <div><h2 className="text-3xl md:text-4xl font-bold mb-4">Find a <span className="text-accent">Trusted Pro</span></h2><p className="text-muted-foreground leading-relaxed mb-8">Your next home project starts with a good connection. Tell us what you have in mind—we'll help you find the right people.</p><aside className="rounded-lg border-2 border-accent bg-accent/5 p-6"><BadgePercent className="mb-3 h-10 w-10 text-accent" /><p className="text-xl font-bold">{savings}</p><p className="mt-3 text-xs text-muted-foreground">{discountDraft}</p></aside></div>
+            <div><h2 className="text-3xl md:text-4xl font-bold mb-4">Find a <span className="text-accent">Trusted Pro</span></h2><p className="text-muted-foreground leading-relaxed mb-8">Your next home project starts with a good connection. Tell us what you have in mind—we'll help you find the right people.</p><aside className="rounded-lg border-2 border-accent bg-accent/5 p-6"><BadgePercent className="mb-3 h-10 w-10 text-accent" /><p className="text-xl font-bold">{savings}</p></aside></div>
             <div className="rounded-lg border border-border bg-card p-6 md:p-8">
               <GhlFormEmbed />
             </div>
