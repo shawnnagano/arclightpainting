@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { allianceCompanies, directoryLetters, firstCompanyForLetter } from "./tradeAllianceCompanies";
+import { allianceCompanies, directoryLetters, firstCompanyForLetter, hasCompleteCompanyData, visibleAllianceCompanies } from "./tradeAllianceCompanies";
 
 describe("Trade Alliance directory", () => {
   it("retains all 14 companies without duplicating the roofing and gutters partner", () => {
@@ -12,7 +12,18 @@ describe("Trade Alliance directory", () => {
   it("provides all 26 letters and selects the first matching company", () => {
     expect(directoryLetters.join("")).toBe("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     expect(firstCompanyForLetter("P")?.name).toBe("Perdue Builders");
-    expect(firstCompanyForLetter("S")?.name).toBe("Sound Gutter and Roofing Co");
+    expect(firstCompanyForLetter("S")?.name).toBe("Squatch Roofing");
+    expect(firstCompanyForLetter("A")).toBeUndefined();
     expect(firstCompanyForLetter("B")).toBeUndefined();
+  });
+  it.each(["logo", "description", "website"] as const)("hides a company with missing or blank %s", field => {
+    const complete = { id: "example", name: "Example", trade: "Roofing", logo: "/logo.png", description: "Roofing services", website: "https://example.com/" };
+    expect(hasCompleteCompanyData(complete)).toBe(true);
+    expect(hasCompleteCompanyData({ ...complete, [field]: undefined })).toBe(false);
+    expect(hasCompleteCompanyData({ ...complete, [field]: "  " })).toBe(false);
+  });
+  it("shows only the eight complete companies while preserving incomplete records", () => {
+    expect(visibleAllianceCompanies.map(company => company.id)).toEqual(["do-it-right-roofing", "hello-electric", "perdue-builders", "pnw-drywall", "rock-roofing", "squatch-roofing", "three-tree-roofing", "zee-construction"]);
+    expect(allianceCompanies).toHaveLength(14);
   });
 });

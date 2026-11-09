@@ -36,5 +36,7 @@ const companies: AllianceCompany[] = [
 ];
 
 export const allianceCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
+export const hasCompleteCompanyData = (company: AllianceCompany) => Boolean(company.logo?.trim() && company.description?.trim() && company.website?.trim());
+export const visibleAllianceCompanies = allianceCompanies.filter(hasCompleteCompanyData);
 export const directoryLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-export const firstCompanyForLetter = (letter: string) => allianceCompanies.find(company => company.name[0]?.toUpperCase() === letter.toUpperCase());
+export const firstCompanyForLetter = (letter: string) => visibleAllianceCompanies.find(company => company.name[0]?.toUpperCase() === letter.toUpperCase());

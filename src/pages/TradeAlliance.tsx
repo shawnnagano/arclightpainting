@@ -160,7 +160,7 @@ export default function TradeAlliance() {
         </div>
       </section>
 
-      <section className="border-b border-border py-10">
+      <section className="border-b border-border bg-secondary py-10">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
           <div><h2 className="text-2xl font-bold">Rooted Here. <span className="text-accent">Trusted Here.</span></h2><p className="mt-2 text-sm text-muted-foreground">Arclight Painting · Veteran-owned. Community-minded.</p></div>
           <div className="flex flex-wrap justify-center items-center gap-8">
