@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Building2, ExternalLink, Minus, Plus } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { allianceCompanies, directoryLetters, firstCompanyForLetter } from "@/data/tradeAllianceCompanies";
+import { visibleAllianceCompanies, directoryLetters, firstCompanyForLetter } from "@/data/tradeAllianceCompanies";
 
 export default function TradeAllianceDirectory() {
   const [openCompany, setOpenCompany] = useState("");
@@ -25,7 +25,7 @@ export default function TradeAllianceDirectory() {
         {directoryLetters.map(letter => <Button key={letter} variant={activeLetter === letter ? "default" : "ghost"} size="icon" className="h-11 w-11 shrink-0 font-bold disabled:opacity-30" disabled={!firstCompanyForLetter(letter)} aria-label={`Companies starting with ${letter}`} aria-pressed={activeLetter === letter} onClick={() => jumpToLetter(letter)}>{letter}</Button>)}
       </nav>
       <Accordion type="single" collapsible value={openCompany} onValueChange={setOpenCompany} className="space-y-3">
-        {allianceCompanies.map(company => <AccordionItem key={company.id} id={`company-${company.id}`} value={company.id} className="scroll-mt-32 overflow-hidden rounded-lg border border-border bg-card">
+        {visibleAllianceCompanies.map(company => <AccordionItem key={company.id} id={`company-${company.id}`} value={company.id} className="scroll-mt-32 overflow-hidden rounded-lg border border-border bg-card">
           <AccordionTrigger className="group gap-4 px-5 py-5 text-left hover:no-underline [&>svg]:hidden md:px-6">
             <span className="min-w-0 flex-1"><span className="block break-words text-xl md:text-2xl font-bold">{company.name}</span><span className="mt-1 block text-sm font-normal text-muted-foreground">{company.trade}{company.location ? ` · ${company.location}` : ""}</span></span>
             <span className="shrink-0 text-accent" aria-hidden="true">{openCompany === company.id ? <Minus className="h-5 w-5" /> : <Plus className="h-5 w-5" />}</span>
