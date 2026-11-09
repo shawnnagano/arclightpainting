@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Building2, ExternalLink, Minus, Plus } from "lucide-react";
+import { ExternalLink, Minus, Plus } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import { visibleAllianceCompanies, directoryLetters, firstCompanyForLetter } from "@/data/tradeAllianceCompanies";
@@ -33,16 +33,15 @@ export default function TradeAllianceDirectory() {
           <AccordionContent className="px-5 pb-6 md:px-6 motion-reduce:transition-none">
             <div className="grid gap-6 border-t border-border pt-6 sm:grid-cols-[180px_minmax(0,1fr)]">
               <div className="flex min-h-28 items-center justify-center rounded-md bg-background p-4">
-                {company.logo ? <img src={company.logo} alt={`${company.name} logo`} loading="lazy" className="h-24 w-full max-w-44 object-contain" /> : <div className="flex flex-col items-center gap-2 text-muted-foreground"><Building2 className="h-8 w-8" aria-hidden="true" /><span className="text-xs">Logo pending</span></div>}
+                <img src={company.logo} alt={`${company.name} logo`} loading="lazy" className="h-24 w-full max-w-44 object-contain" />
               </div>
-              <div className="min-w-0"><p className="text-base leading-relaxed text-muted-foreground">{company.description ?? "Official website and company description pending confirmation."}</p>
+              <div className="min-w-0"><p className="text-base leading-relaxed text-muted-foreground">{company.description}</p>
                 {company.website && <Button asChild variant="link" className="mt-3 h-auto whitespace-normal px-0 text-accent"><a href={company.website} target="_blank" rel="noopener noreferrer">Visit official website <ExternalLink className="h-4 w-4" /><span className="sr-only"> for {company.name} (opens in a new tab)</span></a></Button>}
               </div>
             </div>
           </AccordionContent>
         </AccordionItem>)}
       </Accordion>
-      <p className="mt-6 text-center text-xs text-muted-foreground">[DRAFT - partner listing and logos pending each partner's approval]</p>
     </div>
   </section>;
 }
