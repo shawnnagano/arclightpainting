@@ -13,6 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import exteriorPhoto from "@/assets/exterior-painting-dark-craftsman-home-after.webp";
 import veteranBadge from "@/assets/sba-veteran-owned-business-badge.webp";
+import bbbBadge from "@/assets/bbb-accredited-business-badge-clean.png";
 
 // GoHighLevel "Trade Alliance Form" — INLINE layout (converted from the sticky-sidebar embed).
 const GHL_FORM_ID = "vbK5LJr8EIXFYGn1X6YB";
@@ -164,11 +165,11 @@ export default function TradeAlliance() {
           <div><h2 className="text-2xl font-bold">Rooted Here. <span className="text-accent">Trusted Here.</span></h2><p className="mt-2 text-sm text-muted-foreground">Arclight Painting · Veteran-owned. Community-minded.</p></div>
           <div className="flex flex-wrap justify-center items-center gap-4">
             {[
-              { src: "/images/bbb-accredited-business-badge.webp", alt: "Arclight Painting: BBB Accredited Business" },
+              { src: bbbBadge, alt: "Arclight Painting: BBB Accredited Business" },
               { src: "/images/bothell-kenmore-chamber-of-commerce-logo.webp", alt: "Arclight Painting: Bothell-Kenmore Chamber member" },
               { src: veteranBadge, alt: "Arclight Painting: SBA-certified veteran-owned business" },
-            ].map(badge => <div key={badge.alt} className="flex h-32 w-44 items-center justify-center rounded-lg border border-border bg-card p-4 shadow-sm">
-              <img src={badge.src} alt={badge.alt} loading="lazy" className="h-24 w-36 object-contain" />
+            ].map(badge => <div key={badge.alt} className="flex h-28 w-40 items-center justify-center rounded-lg border border-border bg-card p-3 shadow-sm">
+              <img src={badge.src} alt={badge.alt} loading="lazy" className="h-20 w-32 object-contain" />
             </div>)}
           </div>
         </div>
