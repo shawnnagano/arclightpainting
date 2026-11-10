@@ -1,5 +1,5 @@
 # Tasks
-- [ ] Remove former partners Riverside Roofing and AK Electric, update directory tests and verify 19 total / 14 visible companies without publishing.
+- [x] Remove former partners Riverside Roofing and AK Electric; verified 19 total / 14 visible companies, directory interaction and all 41 tests passing without publishing.
 - [ ] Delete the unused Riverside logo asset after the live site no longer references it; deleting the hosted asset now would break the still-published directory.
 - [x] Prepare Trade Alliance indexing, canonical and shared sitemap/prerender discovery; 37 tests, redirects, reproducible 115-URL sitemap, metadata audit and browser SEO check pass.
 - [ ] Verify production artifact build, prerender and generated-HTML audit: manual builds are disabled here; requires the GitHub deployment workflow.
