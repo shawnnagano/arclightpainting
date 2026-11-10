@@ -53,6 +53,13 @@ const coreRoutes = [
     changefreq: "weekly",
   },
   {
+    path: "/trade-alliance",
+    title: "Trade Alliance | Trusted Home Service Pros | Arclight Painting",
+    description: "Need a roofer, electrician or contractor you can trust? Get matched with a vetted Arclight Trade Alliance partner near Bothell and save 5%.",
+    priority: "0.7",
+    changefreq: "monthly",
+  },
+  {
     path: "/mission",
     title: "Our Mission - Real Purpose | Arclight Painting",
     description: "At Arclight Painting, service comes first. Learn about our purpose-driven mission, FreshStart™ Touch-Up Plan, and 100% Satisfaction Guarantee.",

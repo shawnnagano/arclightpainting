@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from "react";
-import { Helmet } from "react-helmet-async";
+import SEOHead from "@/components/SEOHead";
 import { z } from "zod";
 import { ArrowRight, BadgePercent, CheckCircle2, ClipboardList, Handshake, Home, ShieldCheck } from "lucide-react";
 import TradeAllianceDirectory from "@/components/TradeAllianceDirectory";
@@ -114,11 +114,11 @@ export function LegacyHomeownerForm() {
 
 export default function TradeAlliance() {
   return <div className="min-h-screen bg-background text-foreground">
-    <Helmet>
-      <title>Trade Alliance | Trusted Home Service Pros | Arclight Painting</title>
-      <meta name="description" content="Need a roofer, electrician or contractor you can trust? Get matched with a vetted Arclight Trade Alliance partner near Bothell and save 5%." />
-      <meta name="robots" content="noindex, nofollow" />
-    </Helmet>
+    <SEOHead
+      title="Trade Alliance | Trusted Home Service Pros | Arclight Painting"
+      description="Need a roofer, electrician or contractor you can trust? Get matched with a vetted Arclight Trade Alliance partner near Bothell and save 5%."
+      canonical="/trade-alliance"
+    />
     <Header />
     <main>
       <section className="relative isolate overflow-hidden">

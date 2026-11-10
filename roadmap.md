@@ -1,4 +1,5 @@
 # Tasks
+- [ ] Prepare Trade Alliance indexing, canonical, shared sitemap/prerender discovery, and run all allowed launch checks.
 - [x] Enable Trade Alliance public access, add its About menu link after Blog, and verify desktop/mobile and all 22 directory/access tests.
 - [x] Add a light brand background to Rooted Here and hide incomplete directory companies; verify visible letter navigation while keeping the page draft-only.
 - [x] Move the Trade Alliance directory after the form, add alphabetical expandable tiles and letter navigation, and check desktop/mobile without publishing.
