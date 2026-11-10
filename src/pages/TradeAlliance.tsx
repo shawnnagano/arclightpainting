@@ -130,7 +130,7 @@ export default function TradeAlliance() {
             <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-[1.08]">Your Whole-Home Team, <span className="text-accent">Already Vetted</span></h1>
             <p className="max-w-xl text-lg md:text-xl leading-relaxed">Need a roofer, electrician or contractor you can actually trust? Tap the Arclight Trade Alliance and save 5%.</p>
             <div className="mt-8 flex flex-wrap gap-3"><FindButton /><Button size="lg" variant="outline" className="bg-background/90" onClick={() => scrollTo("how-it-works")}>How It Works</Button></div>
-            <p className="mt-8 font-semibold">Real <span className="text-accent">People.</span> Real <span className="text-accent">Purpose.</span> Exceptional <span className="text-accent">Results.</span></p>
+            <p className="mt-8 font-semibold">Good People know <span className="text-accent">Good People</span></p>
           </div>
         </div>
       </section>
@@ -160,6 +160,19 @@ export default function TradeAlliance() {
         </div>
       </section>
 
+      <section id="find-a-pro" className="scroll-mt-32 py-16">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 items-start">
+            <div><h2 className="text-3xl md:text-4xl font-bold mb-4">Find a <span className="text-accent">Trusted Pro</span></h2><p className="text-muted-foreground leading-relaxed mb-8">Your next home project starts with a good connection. Tell us what you have in mind—we'll help you find the right people.</p><aside className="rounded-lg border-2 border-accent bg-accent/5 p-6"><BadgePercent className="mb-3 h-10 w-10 text-accent" /><p className="text-xl font-bold">{savings}</p></aside></div>
+            <div className="rounded-lg border border-border bg-card p-6 md:p-8">
+              <GhlFormEmbed />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <TradeAllianceDirectory />
+
       <section className="border-b border-border bg-secondary py-10">
         <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div><h2 className="text-2xl font-bold">Rooted Here. <span className="text-accent">Trusted Here.</span></h2><p className="mt-2 text-sm text-muted-foreground">Arclight Painting · Veteran-owned. Community-minded.</p></div>
@@ -175,20 +188,6 @@ export default function TradeAlliance() {
         </div>
       </section>
 
-      <section id="find-a-pro" className="scroll-mt-32 py-16">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid lg:grid-cols-[0.8fr_1.2fr] gap-10 lg:gap-16 items-start">
-            <div><h2 className="text-3xl md:text-4xl font-bold mb-4">Find a <span className="text-accent">Trusted Pro</span></h2><p className="text-muted-foreground leading-relaxed mb-8">Your next home project starts with a good connection. Tell us what you have in mind—we'll help you find the right people.</p><aside className="rounded-lg border-2 border-accent bg-accent/5 p-6"><BadgePercent className="mb-3 h-10 w-10 text-accent" /><p className="text-xl font-bold">{savings}</p></aside></div>
-            <div className="rounded-lg border border-border bg-card p-6 md:p-8">
-              <GhlFormEmbed />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <TradeAllianceDirectory />
-
-      <section className="py-12"><div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12"><h2 className="text-3xl md:text-4xl font-bold text-center">Good people know <span className="text-accent">good people.</span></h2><FindButton /></div></section>
     </main>
     <Footer />
   </div>;
