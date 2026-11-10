@@ -36,7 +36,7 @@ export default function TradeAllianceDirectory() {
                 <img src={company.logo} alt={`${company.name} logo`} loading="lazy" className="h-24 w-full max-w-44 object-contain" />
               </div>
               <div className="min-w-0"><p className="text-base leading-relaxed text-muted-foreground">{company.description}</p>
-                {company.website && <Button asChild variant="link" className="mt-3 h-auto whitespace-normal px-0 text-accent"><a href={company.website} target="_blank" rel="noopener noreferrer">Visit official website <ExternalLink className="h-4 w-4" /><span className="sr-only"> for {company.name} (opens in a new tab)</span></a></Button>}
+                {company.website && <Button asChild variant="link" className="mt-3 h-auto whitespace-normal px-0 text-accent"><a href={company.website} target="_blank" rel="noopener noreferrer">{companyLinkLabel(company.website)} <ExternalLink className="h-4 w-4" /><span className="sr-only"> for {company.name} (opens in a new tab)</span></a></Button>}
               </div>
             </div>
           </AccordionContent>
