@@ -4,7 +4,7 @@ import { allianceCompanies, companyLinkLabel, directoryLetters, firstCompanyForL
 describe("Trade Alliance directory", () => {
   it("loads each existing logo from the published asset host rather than the Cloudflare page origin", () => {
     const logos = allianceCompanies.filter(company => company.logo);
-    expect(logos).toHaveLength(15);
+    expect(logos).toHaveLength(19);
     for (const company of logos) {
       const url = new URL(company.logo ?? "");
       expect(url.origin).toBe("https://arclightpainting.lovable.app");
@@ -29,18 +29,22 @@ describe("Trade Alliance directory", () => {
     expect(firstCompanyForLetter("P")?.name).toBe("Perdue Builders");
     expect(firstCompanyForLetter("S")?.name).toBe("Sound Gutters & Roofing Co");
     expect(firstCompanyForLetter("A")?.name).toBe("Amsberry's Painting");
-    expect(firstCompanyForLetter("B")).toBeUndefined();
+    expect(firstCompanyForLetter("B")?.name).toBe("Benjamins Drywall Inc");
+    expect(firstCompanyForLetter("C")).toBeUndefined();
   });
-  it.each(["logo", "description", "website"] as const)("hides a company with missing or blank %s", field => {
+  it.each(["logo", "description"] as const)("hides a company with missing or blank %s", field => {
     const complete = { id: "example", name: "Example", trade: "Roofing", logo: "/logo.png", description: "Roofing services", website: "https://example.com/" };
     expect(hasCompleteCompanyData(complete)).toBe(true);
     expect(hasCompleteCompanyData({ ...complete, [field]: undefined })).toBe(false);
     expect(hasCompleteCompanyData({ ...complete, [field]: "  " })).toBe(false);
   });
-  it("shows only the 14 complete companies while preserving five incomplete records", () => {
-    expect(visibleAllianceCompanies).toHaveLength(15);
-    expect(visibleAllianceCompanies.map(company => company.id)).toEqual(["amsberrys-painting", "asbestos-removal-puget-sound", "do-it-right-roofing", "fridenmaker-painting", "power-electric", "hello-electric", "legacy-painting", "perdue-builders", "pnw-drywall", "queen-anne-painting", "rock-roofing", "sound-gutters", "squatch-roofing", "three-tree-roofing", "zee-construction"]);
-    expect(allianceCompanies.filter(company => !hasCompleteCompanyData(company)).map(company => company.id)).toEqual(["benjamins-drywall", "hero-plumbing", "mi-painting", "west-coast-wallcovering"]);
+  it("shows a company with logo and description but no website", () => {
+    expect(hasCompleteCompanyData({ id: "x", name: "X", trade: "Plumbing", logo: "/l.svg", description: "Plumbing", website: "" })).toBe(true);
+    expect(visibleAllianceCompanies.find(company => company.id === "hero-plumbing")?.website).toBe("");
+  });
+  it("shows all 19 companies", () => {
+    expect(visibleAllianceCompanies).toHaveLength(19);
+    expect(allianceCompanies.filter(company => !hasCompleteCompanyData(company))).toEqual([]);
   });
 });
 
