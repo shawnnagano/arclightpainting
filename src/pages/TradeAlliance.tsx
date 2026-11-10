@@ -32,7 +32,7 @@ const benefits = [
 ];
 const steps = [
   { icon: ClipboardList, title: "Tell Us What You Need", text: "Pick the service and share a few details about your project." },
-  { icon: Handshake, title: "We Connect You", text: "We introduce you to the right Alliance partner, usually within 2 business days." },
+  { icon: Handshake, title: "We Connect You", text: "We introduce you to the right Alliance partners that match your needs." },
   { icon: BadgePercent, title: "Save 5%", text: "Mention the Arclight Trade Alliance when you hire them." },
 ];
 const schema = z.object({
