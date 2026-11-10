@@ -1,10 +1,10 @@
 import { describe, expect, it } from "vitest";
-import { allianceCompanies, directoryLetters, firstCompanyForLetter, hasCompleteCompanyData, visibleAllianceCompanies } from "./tradeAllianceCompanies";
+import { allianceCompanies, companyLinkLabel, directoryLetters, firstCompanyForLetter, hasCompleteCompanyData, visibleAllianceCompanies } from "./tradeAllianceCompanies";
 
 describe("Trade Alliance directory", () => {
   it("loads each existing logo from the published asset host rather than the Cloudflare page origin", () => {
     const logos = allianceCompanies.filter(company => company.logo);
-    expect(logos).toHaveLength(14);
+    expect(logos).toHaveLength(15);
     for (const company of logos) {
       const url = new URL(company.logo ?? "");
       expect(url.origin).toBe("https://arclightpainting.lovable.app");
@@ -38,8 +38,16 @@ describe("Trade Alliance directory", () => {
     expect(hasCompleteCompanyData({ ...complete, [field]: "  " })).toBe(false);
   });
   it("shows only the 14 complete companies while preserving five incomplete records", () => {
-    expect(visibleAllianceCompanies).toHaveLength(14);
-    expect(visibleAllianceCompanies.map(company => company.id)).toEqual(["amsberrys-painting", "asbestos-removal-puget-sound", "do-it-right-roofing", "fridenmaker-painting", "hello-electric", "legacy-painting", "perdue-builders", "pnw-drywall", "queen-anne-painting", "rock-roofing", "sound-gutters", "squatch-roofing", "three-tree-roofing", "zee-construction"]);
-    expect(allianceCompanies.filter(company => !hasCompleteCompanyData(company)).map(company => company.id)).toEqual(["benjamins-drywall", "power-electric", "hero-plumbing", "mi-painting", "west-coast-wallcovering"]);
+    expect(visibleAllianceCompanies).toHaveLength(15);
+    expect(visibleAllianceCompanies.map(company => company.id)).toEqual(["amsberrys-painting", "asbestos-removal-puget-sound", "do-it-right-roofing", "fridenmaker-painting", "power-electric", "hello-electric", "legacy-painting", "perdue-builders", "pnw-drywall", "queen-anne-painting", "rock-roofing", "sound-gutters", "squatch-roofing", "three-tree-roofing", "zee-construction"]);
+    expect(allianceCompanies.filter(company => !hasCompleteCompanyData(company)).map(company => company.id)).toEqual(["benjamins-drywall", "hero-plumbing", "mi-painting", "west-coast-wallcovering"]);
+  });
+});
+
+describe("companyLinkLabel", () => {
+  it("labels social profiles by domain and keeps the default otherwise", () => {
+    expect(companyLinkLabel("https://www.instagram.com/hbpowerelectric/")).toBe("Visit on Instagram");
+    expect(companyLinkLabel("https://www.facebook.com/interiorconstruction99/")).toBe("Visit on Facebook");
+    expect(companyLinkLabel("http://www.mandipaintingwa.com/")).toBe("Visit official website");
   });
 });

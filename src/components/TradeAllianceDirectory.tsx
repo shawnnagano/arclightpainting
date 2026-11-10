@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ExternalLink, Minus, Plus } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
-import { visibleAllianceCompanies, directoryLetters, firstCompanyForLetter } from "@/data/tradeAllianceCompanies";
+import { visibleAllianceCompanies, directoryLetters, firstCompanyForLetter, companyLinkLabel } from "@/data/tradeAllianceCompanies";
 
 export default function TradeAllianceDirectory() {
   const [openCompany, setOpenCompany] = useState("");
