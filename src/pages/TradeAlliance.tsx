@@ -130,7 +130,7 @@ export default function TradeAlliance() {
             <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-[1.08]">Your Whole-Home Team, <span className="text-accent">Already Vetted</span></h1>
             <p className="max-w-xl text-lg md:text-xl leading-relaxed">Need a roofer, electrician or contractor you can actually trust? Tap the Arclight Trade Alliance and save 5%.</p>
             <div className="mt-8 flex flex-wrap gap-3"><FindButton /><Button size="lg" variant="outline" className="bg-background/90" onClick={() => scrollTo("how-it-works")}>How It Works</Button></div>
-            <p className="mt-8 font-semibold">Good People know <span className="text-accent">Good People</span></p>
+            <p className="mt-8 text-lg md:text-xl font-semibold">Good People know <span className="text-accent">Good People</span></p>
           </div>
         </div>
       </section>
