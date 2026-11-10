@@ -1,4 +1,5 @@
 # Tasks
+- [x] Remove the Trade Alliance alphabet selector and update the We Connect You introduction sentence.
 - [x] Remove former partners Riverside Roofing and AK Electric; verified 19 total / 14 visible companies, directory interaction and all 41 tests passing without publishing.
 - [ ] Delete the unused Riverside logo asset after the live site no longer references it; deleting the hosted asset now would break the still-published directory.
 - [x] Prepare Trade Alliance indexing, canonical and shared sitemap/prerender discovery; 37 tests, redirects, reproducible 115-URL sitemap, metadata audit and browser SEO check pass.
