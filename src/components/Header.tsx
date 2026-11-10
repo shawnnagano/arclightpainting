@@ -29,6 +29,7 @@ const navItems = [
       { label: "Our Mission", href: "/mission" },
       { label: "Reviews", href: "/reviews" },
       { label: "Blog", href: "/blog" },
+      { label: "Trade Alliance", href: "/trade-alliance" },
       { label: "Join Our Team", href: "/join-our-team" },
     ],
   },
