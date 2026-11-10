@@ -1,10 +1,12 @@
 # Tasks
+- [ ] Remove former partners Riverside Roofing and AK Electric, update directory tests and verify 19 total / 14 visible companies without publishing.
+- [ ] Delete the unused Riverside logo asset after the live site no longer references it; deleting the hosted asset now would break the still-published directory.
 - [x] Prepare Trade Alliance indexing, canonical and shared sitemap/prerender discovery; 37 tests, redirects, reproducible 115-URL sitemap, metadata audit and browser SEO check pass.
 - [ ] Verify production artifact build, prerender and generated-HTML audit: manual builds are disabled here; requires the GitHub deployment workflow.
 - [x] Enable Trade Alliance public access, add its About menu link after Blog, and verify desktop/mobile and all 22 directory/access tests.
 - [x] Add a light brand background to Rooted Here and hide incomplete directory companies; verify visible letter navigation while keeping the page draft-only.
 - [x] Move the Trade Alliance directory after the form, add alphabetical expandable tiles and letter navigation, and check desktop/mobile without publishing.
-- [ ] Complete missing partner branding: awaiting logos for AK Electric, M&I Painting, HB Power Electric, West Coast Wallcovering, Benjamins Drywall Inc, and Hero Plumbing LLC; awaiting official websites for HB Power Electric, Benjamins Drywall Inc, and Hero Plumbing LLC. These entries stay hidden until complete.
+- [ ] Complete missing partner branding: awaiting logos for M&I Painting, HB Power Electric, West Coast Wallcovering, Benjamins Drywall Inc, and Hero Plumbing LLC; awaiting official websites for HB Power Electric, Benjamins Drywall Inc, and Hero Plumbing LLC. These entries stay hidden until complete. Riverside Roofing and AK Electric are no longer partners and must not be re-added.
 - [x] Capitalize the subcontractor career headline and remove Creativity from all three openings.
 - [x] Add the supplied Trade Alliance draft with a tested preview-only gate, verify images/form/layout and unchanged sitemap, and do not publish.
 - [x] Move all three careers Apply Now buttons opposite their opening headlines and verify placement.
