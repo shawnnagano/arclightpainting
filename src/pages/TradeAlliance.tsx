@@ -126,9 +126,9 @@ export default function TradeAlliance() {
         <div className="absolute inset-0 bg-gradient-to-r from-secondary via-secondary/95 to-secondary/20" />
         <div className="container relative mx-auto px-4 py-14 md:py-20">
           <div className="max-w-2xl">
-            <p className="mb-6 text-lg md:text-xl font-semibold">Good People know <span className="text-accent">Good People</span></p>
             <p className="mb-4 text-sm font-bold uppercase text-accent">Arclight Trade Alliance · For Homeowners</p>
             <h1 className="mb-6 text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-[1.08]">Your Whole-Home Team, <span className="text-accent">Already Vetted</span></h1>
+            <p className="mb-6 text-lg md:text-xl font-semibold">Good People know <span className="text-accent">Good People</span></p>
             <p className="max-w-xl text-lg md:text-xl leading-relaxed">Need another tradesman you can actually trust? We can help.</p>
             <div className="mt-8 flex flex-wrap gap-3"><FindButton /><Button size="lg" variant="outline" className="bg-background/90" onClick={() => scrollTo("how-it-works")}>How It Works</Button></div>
           </div>
