@@ -6,7 +6,7 @@
 - [x] Enable Trade Alliance public access, add its About menu link after Blog, and verify desktop/mobile and all 22 directory/access tests.
 - [x] Add a light brand background to Rooted Here and hide incomplete directory companies; verify visible letter navigation while keeping the page draft-only.
 - [x] Move the Trade Alliance directory after the form, add alphabetical expandable tiles and letter navigation, and check desktop/mobile without publishing.
-- [ ] Complete missing partner branding: awaiting logos for M&I Painting, HB Power Electric, West Coast Wallcovering, Benjamins Drywall Inc, and Hero Plumbing LLC; awaiting official websites for HB Power Electric, Benjamins Drywall Inc, and Hero Plumbing LLC. These entries stay hidden until complete. Riverside Roofing and AK Electric are no longer partners and must not be re-added.
+- [ ] Complete missing partner branding: HB Power Electric is now complete (Instagram logo). Still awaiting logos for M&I Painting (site has none), West Coast Wallcovering (site has none), and Benjamins Drywall Inc (Facebook blocks downloads); Hero Plumbing LLC awaits website, logo and description from the partner. These stay hidden until complete. Riverside Roofing and AK Electric are no longer partners and must not be re-added.
 - [x] Capitalize the subcontractor career headline and remove Creativity from all three openings.
 - [x] Add the supplied Trade Alliance draft with a tested preview-only gate, verify images/form/layout and unchanged sitemap, and do not publish.
 - [x] Move all three careers Apply Now buttons opposite their opening headlines and verify placement.
