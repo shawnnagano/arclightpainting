@@ -50,7 +50,12 @@ const companies: AllianceCompany[] = [
   { id: "hero-plumbing", name: "Hero Plumbing LLC", trade: "Plumbing", location: "Lynnwood", website: "", logo: "", description: "A licensed plumbing contractor serving Lynnwood and the Snohomish County area." },
 ];
 
-export const allianceCompanies = [...companies].sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
+// Cloudflare Pages does not serve Lovable's relative asset endpoint.
+// Resolve the existing immutable pointers against the published asset-serving origin.
+export const allianceCompanies = companies.map(company => ({
+  ...company,
+  logo: company.logo ? new URL(company.logo, "https://arclightpainting.lovable.app").href : company.logo,
+})).sort((a, b) => a.name.localeCompare(b.name, "en", { sensitivity: "base" }));
 export const hasCompleteCompanyData = (company: AllianceCompany) => Boolean(company.logo?.trim() && company.description?.trim() && company.website?.trim());
 export const visibleAllianceCompanies = allianceCompanies.filter(hasCompleteCompanyData);
 export const directoryLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
