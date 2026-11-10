@@ -1,5 +1,5 @@
-// Set to false + add nav/sitemap/seo-routes entries when approved for launch
-export const TRADE_ALLIANCE_PREVIEW_ONLY = true;
+// Public launch approved; keep the gate available for a future preview-only rollback.
+export const TRADE_ALLIANCE_PREVIEW_ONLY = false;
 
 export function canRenderTradeAlliance(hostname: string): boolean {
   return !TRADE_ALLIANCE_PREVIEW_ONLY ||
