@@ -1,4 +1,5 @@
 # Tasks
+- [x] Remove the five partners listed under Painting; retain PNW Drywall under Drywall and verify 14 remaining directory entries without publishing.
 - [x] Move Trade Alliance trust badges above Service Areas, remove the closing tagline section, and replace the opening tagline with Good People know Good People (final words highlighted).
 - [x] Remove the Trade Alliance alphabet selector and update the We Connect You introduction sentence.
 - [x] Remove former partners Riverside Roofing and AK Electric; verified 19 total / 14 visible companies, directory interaction and all 41 tests passing without publishing.
