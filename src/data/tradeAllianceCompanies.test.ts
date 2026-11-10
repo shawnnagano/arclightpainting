@@ -2,6 +2,15 @@ import { describe, expect, it } from "vitest";
 import { allianceCompanies, directoryLetters, firstCompanyForLetter, hasCompleteCompanyData, visibleAllianceCompanies } from "./tradeAllianceCompanies";
 
 describe("Trade Alliance directory", () => {
+  it("loads each existing logo from the published asset host rather than the Cloudflare page origin", () => {
+    const logos = allianceCompanies.filter(company => company.logo);
+    expect(logos).toHaveLength(15);
+    for (const company of logos) {
+      const url = new URL(company.logo ?? "");
+      expect(url.origin).toBe("https://arclightpainting.lovable.app");
+      expect(url.pathname.startsWith("/__l5e/assets-v1/")).toBe(true);
+    }
+  });
   it("retains all 21 companies without duplicating the roofing and gutters partner", () => {
     expect(allianceCompanies).toHaveLength(21);
     expect(allianceCompanies.filter(company => company.id === "sound-gutters")).toHaveLength(1);
