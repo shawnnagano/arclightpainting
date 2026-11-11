@@ -12,6 +12,160 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "clogged-gutters-peeling-paint-kenmore-wa",
+    title: "Clogged Gutters and Peeling Paint in Kenmore, WA: Meet Sound Gutters & Roofing Co.",
+    seoTitle: "Clogged Gutters and Peeling Paint in Kenmore, WA | Arclight",
+    excerpt: "Peeling paint under your gutters? Learn how clogged gutters damage siding and trim in Kenmore, WA, and meet our gutter partner, Sound Gutters & Roofing Co.",
+    image: "/images/blog/clogged-gutters-peeling-paint-kenmore-wa.webp",
+    date: "2026-11-11",
+    content: `If the paint is peeling right under your gutters, the gutters are usually the real problem. When gutters clog or leak, rainwater spills over the edge and soaks the fascia, trim and siding below. Fresh paint will not hold on wood that stays wet. So in Kenmore, the right order is simple: fix the gutters first, then paint. For our customers, the gutter pro we trust is [Sound Gutters & Roofing Co.](https://www.soundguttersandroofing.com/), a Bothell company led by owner Fritz Rieflin. They handle the gutters. We handle the paint.
+
+![Kenmore home in late-fall rain with water spilling over a clogged gutter onto painted trim and siding, soft gray Pacific Northwest light](/images/blog/clogged-gutters-peeling-paint-kenmore-wa.webp)
+
+Many [exterior painting](/services/exterior-painting) projects start the same way: a homeowner notices flaking paint on one wall, or soft wood at a corner, and wants it repainted. Paint can cover the damage. It cannot stop the water that caused it. This guide explains how gutter problems ruin paint, what to look for on your own house, and how Sound Gutters & Roofing Co. and Arclight split the work.
+
+## How Clogged Gutters Ruin Exterior Paint
+
+Gutters have one job: catch the rain off your roof and move it away from the house. When leaves, needles and moss block them, the water has to go somewhere. Usually it goes over the front edge or behind the gutter, right onto the wood.
+
+### Water Gets Behind the Paint
+
+Paint makers list clogged gutters as a common cause of exterior paint peeling due to moisture. Their fix is plain: clean and repair the gutters so they carry water away from the house. When wood stays damp, the moisture pushes against the paint film from behind. The paint loses its grip, then bubbles, cracks and peels.
+
+### Fascia and Trim Start to Rot
+
+The fascia is the board your gutters are mounted on. It sits right where overflow hits first. Sound Gutters & Roofing Co. says in its [repair vs. replace guide](https://www.soundguttersandroofing.com/repair-vs-replace-gutters-bothell-wa) that one sign of bigger trouble is when "the fascia board has begun to rot from prolonged water exposure." Once wood rots, it has to be repaired or replaced before any paint goes on.
+
+### Splash-Back Stains the Lower Siding
+
+Water that pours off a gutter hits the ground and bounces back onto the bottom rows of siding. The U.S. Department of Energy's Building America Solution Center says leaving space between the ground and the first row of siding "will prevent splash back from damaging siding materials." Constant splash-back means dirt, mildew and peeling along the bottom of the wall.
+
+### Mildew Grows Where It Stays Wet
+
+The EPA puts it simply: "The key to mold control is moisture control." Its home moisture tips include "Clean and repair roof gutters regularly." It also warns that "Paint applied over moldy surfaces is likely to peel." So painting over a mildewed, wet wall is a short-lived fix. If you are fighting mildew inside too, see our guide on [stopping mildew on interior walls](/prevent-mildew-interior-walls-bellevue-wa).
+
+## Warning Signs to Check on Your Kenmore Home
+
+Walk around your house on the next rainy day. You can spot most gutter problems from the ground.
+
+| What you see | What it usually means | Who to call first |
+|---|---|---|
+| Water spilling over the gutter edge | Clog or gutter pitched the wrong way | Gutter pro |
+| Peeling paint or stains right below the gutter line | Overflow soaking the wall | Gutter pro, then painter |
+| Soft or dark fascia boards | Wood rot from long-term wetness | Gutter pro, then painter (wood repair) |
+| Dirt and green growth on the bottom rows of siding | Splash-back from overflow or short downspouts | Gutter pro, then cleaning and paint |
+| Puddles next to the foundation | Downspouts dumping water too close | Gutter pro |
+| Plants growing in the gutters | Long-term clog | Gutter pro |
+
+Sound Gutters & Roofing Co. names "Peeling paint or water stains on your siding below the gutter line" as one of the warning signs in its own guide. When we see that pattern, we know paint alone won't fix it.
+
+### Check Your Downspouts Too
+
+Clean gutters still cause trouble if the downspouts drop water right next to the house. The Building America Solution Center says downspouts "should terminate at least 5 feet from the foundation." A University of Maryland Extension brief recommends "a minimum of 5 feet from homes with crawlspaces or 10 feet for homes with basements." Short downspouts keep the ground and lower siding wet all winter.
+
+## Meet Our Gutter Partner: Sound Gutters & Roofing Co.
+
+When a painting job needs gutter work first, we send homeowners to Sound Gutters & Roofing Co. They are part of the [Arclight Trade Alliance](/trade-alliance), our group of local trade pros we have worked beside and trust.
+
+### Who Is Fritz Rieflin?
+
+According to the company's [About Us page](https://www.soundguttersandroofing.com/about-us), Sound Gutters & Roofing Co. is led by owner Fritz Rieflin. The company says it has more than 30 years of local experience and describes itself as licensed, bonded and insured. Its About page is built around the line "Family Values. Local Experience. Trusted Service."
+
+### What the Company Does
+
+According to its [gutter and roofing service page](https://www.soundguttersandroofing.com/gutter-n-roofing-service), Sound Gutters & Roofing Co. offers:
+
+- **Seamless gutter installation** using custom seamless aluminum gutters, with more than 20 gutter colors to choose from.
+- **Gutter repair** for leaks, sagging and loose sections.
+- **Gutter maintenance and cleaning** to clear out leaves and debris.
+- **Downspout installation and drainage solutions** to move water away from the house.
+- **Small roof repairs**, such as replacing damaged or missing shingles, minor roof leak repairs, flashing repairs and storm damage repairs.
+- **Gutter guards.** They install Ply Gem Leaf Relief® gutter protection, which the company says is backed by a 25-Year Limited Warranty from Ply Gem. Learn more on their [gutter guard installation page](https://www.soundguttersandroofing.com/gutter-guard-installation-bothell-wa).
+
+The company is based in Bothell. Its website says it serves Bothell, Kenmore, Woodinville, Mill Creek, Lynnwood and communities throughout King and Snohomish counties.
+
+### Repair or Replace?
+
+Not every gutter problem needs new gutters. Sound Gutters & Roofing Co. explains how to decide in its guide, [Repair vs. Replace Gutters](https://www.soundguttersandroofing.com/repair-vs-replace-gutters-bothell-wa). The guide says most gutters last 20 to 30 years. Fritz and his team can tell you which option fits your house.
+
+## The Right Order: Gutters First, Then Paint
+
+Here is how the work usually goes when both trades are involved.
+
+### Step 1: Gutter Inspection and Repair by Sound Gutters & Roofing Co.
+
+They clean, repair or replace the gutters and fix the downspouts so water leaves the house the way it should. This stops new damage.
+
+### Step 2: Let the Wood Dry and Assess the Damage
+
+Wet wood needs time to dry before paint goes on. We check the fascia, trim and siding for soft spots. Rotted pieces get repaired or replaced first.
+
+### Step 3: Cleaning and Prep by Arclight
+
+We wash off dirt and mildew, scrape loose paint, and sand the edges smooth. Our [pressure washing](/services/pressure-washing) service handles the cleaning step. Our guide to [pressure washing before exterior painting](/pressure-washing-before-exterior-painting) explains why this matters.
+
+### Step 4: Prime and Paint
+
+Bare wood gets primer. Then we apply the finish coats. Read [how we handle weathered siding](/painting-weathered-siding) for more on this step.
+
+### Can This Happen in Winter?
+
+The gutter work can. Exterior paint needs the right weather, and in the Pacific Northwest that window is short in winter. Our post on [painting a house exterior in fall or winter](/exterior-painting-fall-winter-bothell-wa) explains what is possible. A good plan: get the gutters fixed now, so the wood has all winter to dry, and book your paint for the drier months.
+
+## How to Get Started
+
+1. **Contact Sound Gutters & Roofing Co.** through their [contact page](https://www.soundguttersandroofing.com/contact-us) or by phone at 206-783-7288 for a gutter estimate.
+2. **Mention the Arclight Trade Alliance** when you hire them. Homeowners who use an Alliance partner through our [Trade Alliance page](/trade-alliance) can save 5%.
+3. **Schedule your Arclight estimate** for the painting and wood repair through our [scheduling page](/schedule).
+4. **Book them in order.** Gutter work first, painting after the wood has dried.
+
+## Why Kenmore Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell. We serve [Kenmore](/kenmore), Woodinville, Kirkland, Mill Creek, Redmond, Bellevue and nearby Eastside and north Seattle communities. We are licensed, bonded and insured. Want to check any contractor before you hire them? Our guide on [checking a painting contractor's license, bond and insurance in Kenmore](/check-painting-contractor-license-insurance-kenmore-wa) shows you how.
+
+Every project comes with:
+
+- **TrueQuote™ fixed-price proposal**, so the price you approve is the price you pay.
+- **PCA™ Quality Inspection** before we call the job done.
+- **100% Satisfaction Guarantee.**
+- **5-Year FreshStart™ Touch-Up Plan.**
+
+Ready to fix that peeling wall the right way? [Schedule your estimate](/schedule).
+
+## External Resources
+
+The facts in this post come from a paint manufacturer's troubleshooting guide on exterior peeling due to moisture, the U.S. EPA's Brief Guide to Mold, Moisture and Your Home, the U.S. Department of Energy's Building America Solution Center guide on gutters and downspouts, and the University of Maryland Extension brief on disconnecting and redirecting downspouts. Details about Sound Gutters & Roofing Co. come from the company's own website.
+
+## FAQ: Gutters and Exterior Paint in Kenmore
+
+### Why is my paint peeling only under the gutters?
+
+That pattern usually means water is overflowing the gutter and soaking the wall below. Paint makers list clogged gutters as a cause of moisture-related peeling. Fix the gutters first, or the new paint will peel the same way.
+
+### Should I fix my gutters or paint first?
+
+Gutters first. Painting first means the same water keeps hitting fresh paint. Once the gutters work, let the wood dry, repair any rot, then paint.
+
+### How far should downspouts drain from my house?
+
+The Building America Solution Center says downspouts should end at least 5 feet from the foundation. The University of Maryland Extension suggests at least 5 feet for homes with crawlspaces and 10 feet for homes with basements.
+
+### Does Arclight install or clean gutters?
+
+No. We are painters. For gutter cleaning, repair, replacement and gutter guards, we refer homeowners to Sound Gutters & Roofing Co., our Trade Alliance partner.
+
+### Do I save anything by using a Trade Alliance partner?
+
+Yes. Mention the Arclight Trade Alliance when you hire an Alliance partner to save 5%. See our [Trade Alliance page](/trade-alliance) for details.
+
+### Can rotted fascia be painted over?
+
+No. Paint will not fix rotted wood, and it will fail fast. The soft wood has to be repaired or replaced first. We will point out any rot we find during your estimate.
+
+If you see peeling paint under your gutters this rainy season, start with a call to [Sound Gutters & Roofing Co.](https://www.soundguttersandroofing.com/), then [schedule your TrueQuote™](/schedule) with Arclight. Fixing it in the right order means you only pay for paint once.
+`,
+  },
+  {
     slug: "asbestos-abatement-before-painting-seattle-wa",
     title: "Seattle Asbestos Abatement Before Painting: Meet Asbestos Removal of Puget Sound",
     seoTitle: "Asbestos Abatement Before Painting Seattle WA",
