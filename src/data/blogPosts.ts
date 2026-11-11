@@ -12,6 +12,159 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "rotted-siding-before-painting-bellevue-wa",
+    title: "Rotted Siding Before Painting in Bellevue: Perdue Builders",
+    seoTitle: "Rotted Siding Before Painting in Bellevue, WA | Arclight",
+    excerpt: "Rotted siding or peeling paint in Bellevue, WA? Learn when siding needs repair before painting, and meet our siding partner, Perdue Builders.",
+    image: "/images/blog/rotted-siding-before-painting-bellevue-wa.webp",
+    date: "2026-11-11",
+    content: `If your siding is soft, swollen or cracked, it needs to be repaired or replaced before it gets painted. Paint can hide rot for a little while, but it cannot fix it, and it will not stick to wood that stays wet. In Bellevue, the right order is simple: fix the siding first, then paint. For our customers, the siding pro we trust is [Perdue Builders](https://www.perduebuilders.net/), a family-owned company based in Bothell. They handle the siding. We handle the paint.
+
+![Bellevue home in soft fall light with a section of lap siding near the ground showing swollen, cracked boards and peeling paint next to sound, freshly painted siding](/images/blog/rotted-siding-before-painting-bellevue-wa.webp)
+
+Many [exterior painting](/services/exterior-painting) projects start with a homeowner who wants to cover up a few rough spots. Sometimes those spots are only worn paint. Other times the wood underneath is going bad. This guide explains how to tell the difference, why paint fails on damaged siding, and how Perdue Builders and Arclight split the work.
+
+## Why Paint Won't Fix Rotted Siding
+
+Rot starts with water. When siding, trim or fascia stays wet, the wood breaks down from the inside. Paint sits on top of that wood, so when the wood fails, the paint fails with it.
+
+### Water Is Usually the Real Problem
+
+The USDA Forest Products Laboratory's Wood Handbook puts it plainly: "Water is usually involved if finishes perform poorly on wood." It adds that "Even if other factors initially cause poor performance, water accelerates degradation." In other words, peeling paint is often a sign of a water problem, not just old paint.
+
+### Wet Wood Doesn't Hold Paint
+
+The same handbook says: "If the MC of wood exceeds 20% when the wood is painted, the risk of blistering and peeling is increased." MC means moisture content, or how much water is in the wood. Painting over damp or damaged boards is how you end up repainting the same wall a year later.
+
+### Mildew Makes It Worse
+
+The EPA warns that "Paint applied over moldy surfaces is likely to peel." Siding that stays wet often grows mildew too. That has to be cleaned off before any paint goes on. If you are fighting mildew inside as well, see our guide on [stopping mildew on interior walls in Bellevue](/prevent-mildew-interior-walls-bellevue-wa).
+
+## Warning Signs Your Siding Needs Repair Before Paint
+
+Walk around your house and look closely, especially at the bottom rows of siding, the corners, and around windows and doors.
+
+| What you see | What it usually means | Who to call first |
+|---|---|---|
+| Paint peeling or bubbling in one area | Water getting into or behind the boards | Painter to check, siding pro if the wood is soft |
+| Boards that feel soft when you press them | Rot | Siding pro |
+| Swollen, warped or cracked boards | Long-term water damage | Siding pro |
+| Loose or gapped boards | Failed fasteners or damaged wood | Siding pro |
+| Water stains below windows or trim | Leaks around openings | Siding pro, then painter |
+| Rough, chalky paint on solid wood | Worn paint only | Painter |
+
+Perdue Builders lists many of the same warning signs on its [siding replacement page](https://www.perduebuilders.net/siding-replacement/), including "cracking, rot, loose siding, bubbling paint, water stains, and repeated maintenance problems."
+
+### Some Damage Hides Behind the Siding
+
+Not all damage shows from the outside. Perdue Builders notes on its siding page that "Once old siding is removed, hidden moisture damage or other underlying issues may become visible." The company says it explains any problem it finds, and the next step, before going ahead.
+
+### Check Where the Water Comes From
+
+Rotted siding often has a cause nearby. Clogged gutters can spill water down the wall. The U.S. Department of Energy's Building America Solution Center also says leaving space between the ground and the first row of siding "will prevent splash back from damaging siding materials." Our post on [clogged gutters and peeling paint](/clogged-gutters-peeling-paint-kenmore-wa) covers the gutter side of the problem.
+
+## Meet Our Siding Partner: Perdue Builders
+
+When a painting job turns up siding that needs more than paint, we send homeowners to Perdue Builders. They are part of the [Arclight Trade Alliance](/trade-alliance), our group of local trade pros we have worked beside and trust.
+
+### Who They Are
+
+According to the company's [About page](https://www.perduebuilders.net/about/), Perdue Builders is a "family-owned and operated business based in Bothell, WA." The company says it specializes in siding and window replacement and has more than 30 years of experience. Its [Bellevue page](https://www.perduebuilders.net/bellevue/) describes "Licensed, insured crews who respect your home."
+
+### What the Company Does
+
+According to its website, Perdue Builders offers:
+
+- **Siding replacement** with fiber cement siding, including trim, soffits, fascia, flashing and moisture-management details. See their [siding replacement page](https://www.perduebuilders.net/siding-replacement/).
+- **Siding repair and exterior rot damage** work, listed in their site menu as its own service.
+- **Window and door replacement**, covered on their [window and door page](https://www.perduebuilders.net/window-door-replacement/).
+- **Custom exterior work** such as decking and exterior accents.
+- **A Lifetime Workmanship Warranty** on its siding projects, which the company says is subject to applicable terms.
+
+The company serves Bellevue, Seattle, Everett, Kirkland, Redmond, Marysville, Bothell, Lynnwood and the surrounding area.
+
+### Their Process
+
+Perdue Builders describes a simple three-step process on its siding page: get a no-pressure estimate, choose materials and colors, then have the siding professionally installed. For more background, their blog has a guide on [how to know if your Seattle home needs new siding](https://www.perduebuilders.net/how-to-know-if-your-seattle-home-needs-new-siding/).
+
+## The Right Order: Siding First, Then Paint
+
+Here is how the work usually goes when both trades are involved.
+
+### Step 1: Siding Repair or Replacement by Perdue Builders
+
+They remove the damaged siding, trim or fascia, check what is behind it, and install new material. This fixes the wood that paint cannot.
+
+### Step 2: Find and Fix the Water Source
+
+Rot comes back if the water keeps coming. Gutters, downspouts, flashing and caulking around windows all matter here. Your siding pro can point out what they find.
+
+### Step 3: Cleaning and Prep by Arclight
+
+We wash the house, scrape and sand loose paint on the areas that were not replaced, and prime bare wood. Our [pressure washing](/services/pressure-washing) service handles the cleaning. Read [how we handle weathered siding](/painting-weathered-siding) for more on prep.
+
+### Step 4: Paint the Whole House So It Matches
+
+New siding next to old paint can look patchy. Painting the house after the repairs gives you one even color from top to bottom. If you choose factory-finished siding, ask both teams how to match it with the trim and the rest of the house.
+
+### Can This Happen in Winter?
+
+Siding work can often go ahead in cooler months. Exterior paint needs the right weather. Our post on [painting a house exterior in fall or winter](/exterior-painting-fall-winter-bothell-wa) explains what is possible. A good plan: get the siding fixed now and book your paint for the drier months.
+
+## How to Get Started
+
+1. **Contact Perdue Builders** through their [contact page](https://www.perduebuilders.net/contact/) or by phone at (425) 398-8609 for a siding estimate.
+2. **Mention the Arclight Trade Alliance** when you hire them. Homeowners who use an Alliance partner through our [Trade Alliance page](/trade-alliance) can save 5%.
+3. **Schedule your Arclight estimate** for the painting through our [scheduling page](/schedule).
+4. **Book them in order.** Siding work first, painting after the repairs are done.
+
+## Why Bellevue Homeowners Choose Arclight
+
+Arclight Painting is a veteran-owned painting company headquartered in Bothell. We serve [Bellevue](/bellevue), Woodinville, Kenmore, Kirkland, Mill Creek, Redmond and nearby Eastside and north Seattle communities. We are licensed, bonded and insured. Want to check any contractor before you hire them? Our guide on [checking a contractor's license, bond and insurance](/check-painting-contractor-license-insurance-kenmore-wa) shows you how.
+
+Every project comes with:
+
+- **TrueQuote™ fixed-price proposal**, so the price you approve is the price you pay.
+- **PCA™ Quality Inspection** before we call the job done.
+- **100% Satisfaction Guarantee.**
+- **5-Year FreshStart™ Touch-Up Plan.**
+
+Ready to get your siding and paint done the right way? [Schedule your estimate](/schedule).
+
+## External Resources
+
+The facts in this post come from the USDA Forest Products Laboratory's Wood Handbook chapter on finishing wood, the U.S. EPA's Brief Guide to Mold, Moisture and Your Home, and the U.S. Department of Energy's Building America Solution Center guide on gutters and downspouts. Details about Perdue Builders come from the company's own website.
+
+## FAQ: Rotted Siding and Painting in Bellevue
+
+### Can I just paint over rotted siding?
+
+No. Paint will not fix rotted wood, and it will not stick well to wood that stays wet. The damaged boards need to be repaired or replaced first.
+
+### How do I know if my siding is rotted or just needs paint?
+
+Press on the boards. If they feel soft, look swollen, or crack and crumble, the wood is damaged. If the wood is solid and only the paint is rough or chalky, it probably just needs paint.
+
+### Should I fix the siding or paint first?
+
+Siding first. Painting first means paying for paint on boards that will be torn off. Once the siding is fixed, the whole house can be painted to match.
+
+### Who handles the siding work?
+
+For siding repair and replacement, we refer homeowners to Perdue Builders, our Trade Alliance partner. We take care of the painting once the siding is done.
+
+### Do I save anything by using a Trade Alliance partner?
+
+Yes. Mention the Arclight Trade Alliance when you hire an Alliance partner to save 5%. See our [Trade Alliance page](/trade-alliance) for details.
+
+### What causes siding to rot?
+
+Water. Common sources include overflowing gutters, splash-back from the ground, and leaks around windows and doors. Fixing the water source keeps the new siding and paint from failing again.
+
+If your siding is showing soft spots or peeling paint this season, start with a call to [Perdue Builders](https://www.perduebuilders.net/), then [schedule your TrueQuote™](/schedule) with Arclight. Fixing it in the right order means you only pay for paint once.
+`,
+  },
+  {
     slug: "clogged-gutters-peeling-paint-kenmore-wa",
     title: "Kenmore Gutters & Peeling Paint: Sound Gutters & Roofing",
     seoTitle: "Clogged Gutters and Peeling Paint in Kenmore, WA | Arclight",
