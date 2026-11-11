@@ -13,7 +13,7 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
   {
     slug: "clogged-gutters-peeling-paint-kenmore-wa",
-    title: "Clogged Gutters and Peeling Paint in Kenmore, WA: Meet Sound Gutters & Roofing Co.",
+    title: "Kenmore Gutters & Peeling Paint: Sound Gutters & Roofing",
     seoTitle: "Clogged Gutters and Peeling Paint in Kenmore, WA | Arclight",
     excerpt: "Peeling paint under your gutters? Learn how clogged gutters damage siding and trim in Kenmore, WA, and meet our gutter partner, Sound Gutters & Roofing Co.",
     image: "/images/blog/clogged-gutters-peeling-paint-kenmore-wa.webp",
