@@ -81,6 +81,13 @@ const coreRoutes = [
     changefreq: "yearly",
   },
   {
+    path: "/terms",
+    title: "Terms & Conditions | Arclight Painting",
+    description: "Terms & Conditions for JobTrack, the ADOS/JobTrack application operated by Arclight Services Co. (dba Arclight Painting) for scheduling, job tracking, quoting, invoicing and payments.",
+    priority: "0.3",
+    changefreq: "yearly",
+  },
+  {
     path: "/services/color-consultation",
     title: "ColorConfidence™ Color Consultation in Bothell | Arclight Painting",
     description: "Eliminate color regret with Arclight's ColorConfidence™ Consultation in Bothell. Virtual colorist sessions, visual mockups, custom matching, and on-site test patches. Choose boldly. Paint beautifully.",

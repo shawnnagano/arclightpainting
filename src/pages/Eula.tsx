@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SEOHead from "@/components/SEOHead";
+import { Link } from "react-router-dom";
 
 const Eula = () => {
   return (
@@ -17,6 +18,8 @@ const Eula = () => {
           <h1 className="text-4xl font-bold mb-8">End User License Agreement (EULA) — ADOS (Arclight Operating System)</h1>
 
           <p className="text-sm text-muted-foreground mb-6"><strong>Last updated:</strong> June 25, 2026</p>
+
+          <p className="text-muted-foreground mb-6">For general use of JobTrack, see our <Link to="/terms" className="hover:underline">Terms &amp; Conditions</Link>.</p>
 
           <p className="text-muted-foreground mb-6">
             This End User License Agreement ("Agreement") is a legal agreement between you ("User") and Arclight Services Co., doing business as Arclight Painting ("Arclight," "we," "us," or "our"), governing your access to and use of the ADOS (Arclight Operating System) application and its related software and integrations, including its connection to QuickBooks Online (collectively, the "Application"). By accessing or using the Application, you agree to be bound by this Agreement. If you do not agree, do not access or use the Application.
